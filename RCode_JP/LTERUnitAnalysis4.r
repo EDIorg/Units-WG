@@ -1,8 +1,9 @@
 # Try to figure out QUDT codes for units list based on pseudounits
+# John Porter, March 2023
 
 rm(list=ls())
-setwd("D:/Box Sync/EMLUnits")
-#setwd("C:/users/john/Box Sync/EMLUnits")
+#setwd("D:/Box Sync/EMLUnits")
+setwd("C:/users/john/Box Sync/EMLUnits")
 library(readxl)
 
 df1<-read.csv("PseudoUnitsAll.csv")
@@ -55,7 +56,9 @@ for (i in 1:nrow(df1)){
 
 # see if the URL resolves
 # download the latest QUDT list of units in Turtle format
-qudtUnitsText<-readLines("https://qudt.org/2.1/vocab/unit")
+#qudtUnitsText<-readLines("https://qudt.org/2.1/vocab/unit")
+# use the march 2023 release
+qudtUnitsText<-readLines("https://raw.githubusercontent.com/qudt/qudt-public-repo/v2.1.25/vocab/unit/VOCAB_QUDT-UNITS-ALL-v2.1.ttl")
 qudtUnitList<-unlist(qudtUnitsText[grep("unit:",qudtUnitsText)])
 qudtDf<-data.frame(qudtUnitList)
 colnames(qudtDf)<-"qudtUnit"
