@@ -1,5 +1,5 @@
 "qudtUnit","unit","qudtUri","pseudounit","orgList","numOrgs","TotalUses"
-"dimensionless","dimensionless",NA,"dimensionless","EDI NEON DataOne",3,72533
+"UNITLESS","dimensionless","http://qudt.org/vocab/unit/UNITLESS","dimensionless","EDI NEON DataOne",3,72533
 "NUM","number","http://qudt.org/vocab/unit/NUM","number","EDI NEON DataOne",3,32025
 "PERCENT","percent","http://qudt.org/vocab/unit/PERCENT","percent","EDI NEON DataOne",3,26544
 "DEG_C","celsius","http://qudt.org/vocab/unit/DEG_C","celsius","EDI NEON DataOne",3,21318
@@ -7,7 +7,7 @@
 "MilliM","millimeter","http://qudt.org/vocab/unit/MilliM","millimeter","EDI NEON DataOne",3,9539
 "DEG","degree","http://qudt.org/vocab/unit/DEG","degree","EDI NEON DataOne",3,8259
 "CentiM","centimeter","http://qudt.org/vocab/unit/CentiM","centimeter","EDI NEON DataOne",3,6580
-"none","none",NA,"none","EDI NEON DataOne",3,5207
+"UNITLESS","none","http://qudt.org/vocab/unit/UNITLESS","none","EDI NEON DataOne",3,5207
 "GM","gram","http://qudt.org/vocab/unit/GM","gram","EDI NEON DataOne",3,4399
 "V","volt","http://qudt.org/vocab/unit/V","volt","EDI NEON DataOne",3,1928
 "HR","hour","http://qudt.org/vocab/unit/HR","hour","EDI NEON DataOne",3,1027
@@ -23,16 +23,16 @@
 "M-PER-SEC","meters per second","http://qudt.org/vocab/unit/M-PER-SEC","meterpersecond","EDI DataOne",2,26423
 "HA","hectare","http://qudt.org/vocab/unit/HA","hectare","EDI DataOne",2,1900
 "DeciBAR","decibar","http://qudt.org/vocab/unit/DeciBAR","decibar","EDI DataOne",2,1745
-"unitless","unitless",NA,"unitless","EDI DataOne",2,885
+"UNITLESS","unitless","http://qudt.org/vocab/unit/UNITLESS","unitless","EDI DataOne",2,885
 "NUM","count","http://qudt.org/vocab/unit/NUM","count","EDI DataOne",2,870
 "PERCENT","percentabbr.","http://qudt.org/vocab/unit/PERCENT","percentabbr.","EDI DataOne",2,850
-"fraction","fraction",NA,"fraction","EDI DataOne",2,811
+"FRACTION","fraction","http://qudt.org/vocab/unit/FRACTION","fraction","EDI DataOne",2,811
 "YR","year","http://qudt.org/vocab/unit/YR","year","EDI DataOne",2,638
 "IN","inches","http://qudt.org/vocab/unit/IN","inches","EDI DataOne",2,582
 "KiloGM","kilogram","http://qudt.org/vocab/unit/KiloGM","kilogram","EDI DataOne",2,502
 "NUM-KiloGM-PER-soil","# kg/soil",NA,"#kilogrampersoil","EDI DataOne",2,500
 "DEG","decimal degrees","http://qudt.org/vocab/unit/DEG","decimaldegree","EDI DataOne",2,495
-"na","na",NA,"na","NEON DataOne",2,477
+"UNITLESS","na","http://qudt.org/vocab/unit/UNITLESS","na","NEON DataOne",2,477
 "MO","month","http://qudt.org/vocab/unit/MO","month","EDI DataOne",2,457
 "FT","foot","http://qudt.org/vocab/unit/FT","foot","EDI DataOne",2,452
 "MilliGM","milligram","http://qudt.org/vocab/unit/MilliGM","milligram","EDI DataOne",2,451
@@ -84,7 +84,7 @@
 "BAR","bar","http://qudt.org/vocab/unit/BAR","bar","EDI DataOne",2,62
 "DEG-latitudeorlongitude","decimal degrees latitude or longitude",NA,"decimaldegreelatitudeorlongitude","EDI DataOne",2,61
 "1e3-USDollar","1e3dollars",NA,"1e3dollars","EDI DataOne",2,60
-"dimmessionless","dimmessionless",NA,"dimmessionless","EDI DataOne",2,58
+"UNITLESS","dimmessionless","http://qudt.org/vocab/unit/UNITLESS","dimmessionless","EDI DataOne",2,58
 "standardizedunits","standardizedunits",NA,"standardizedunits","EDI DataOne",2,56
 "M-PER-SEC","m/s","http://qudt.org/vocab/unit/M-PER-SEC","mpersecond","EDI DataOne",2,54
 "H","henry","http://qudt.org/vocab/unit/H","henry","EDI DataOne",2,50
@@ -94,7 +94,7 @@
 "DEG-fromnorth","degreesfromnorth",NA,"degreefromnorth","EDI DataOne",2,48
 "MilliSEC","millisecond","http://qudt.org/vocab/unit/MilliSEC","millisecond","EDI DataOne",2,47
 "KiloM-PER-HR","kilometersperhour","http://qudt.org/vocab/unit/KiloM-PER-HR","kilometerperhour","NEON DataOne",2,47
-"nounits","no units",NA,"nounits","EDI DataOne",2,45
+"UNITLESS","no units","http://qudt.org/vocab/unit/UNITLESS","nounits","EDI DataOne",2,45
 "FT3-PER-SEC","cubic feet per second","http://qudt.org/vocab/unit/FT3-PER-SEC","cubicfootpersecond","EDI DataOne",2,45
 "DEG-latitudeorlongitude","degrees latitude or longitude",NA,"degreelatitudeorlongitude","EDI DataOne",2,44
 "MilliGM-PER-L","mg/l","http://qudt.org/vocab/unit/MilliGM-PER-L","mgperliter","EDI DataOne",2,42
@@ -121,7 +121,7 @@
 "SEC-ofa-DEG","seconds of a degree",NA,"secondofadegree","EDI DataOne",2,24
 "MicroM3","micron","http://qudt.org/vocab/unit/MicroM3","micron","EDI DataOne",2,24
 "isotope","isotope",NA,"isotope","EDI DataOne",2,24
-"unknown","unknown",NA,"unknown","EDI DataOne",2,23
+"UNITLESS","unknown","http://qudt.org/vocab/unit/UNITLESS","unknown","EDI DataOne",2,23
 "LUX","lux","http://qudt.org/vocab/unit/LUX","lux","EDI DataOne",2,23
 "PERCENT-dryweight","%dryweight",NA,"%dryweight","EDI DataOne",2,23
 "MilliBAR","millibars","http://qudt.org/vocab/unit/MilliBAR","millibars","EDI DataOne",2,22
@@ -134,7 +134,7 @@
 "M-PER-SEC2","meterspersecondsquared","http://qudt.org/vocab/unit/M-PER-SEC2","meterpersecondquared","NEON DataOne",2,18
 "DEG-angle","degrees angle",NA,"degreeangle","EDI DataOne",2,18
 "calendar-YR","calendar year",NA,"calendaryear","EDI DataOne",2,18
-"MicroMol-PER-M2-SEC","umolm-2s-1",NA,"umolm-2s-1","EDI DataOne",2,17
+"MicroMOL-PER-M2-SEC","umolm-2s-1","http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC","umolm-2s-1","EDI DataOne",2,17
 "PPM-PER-DAY","ppm/d",NA,"partpermillionperday","EDI DataOne",2,17
 "MilliM-PER-DEG-YR","mm/dd/yyyy",NA,"millimeterperddperyyyy","EDI DataOne",2,17
 "MilliGM-PER-GM","mg/g","http://qudt.org/vocab/unit/MilliGM-PER-GM","mgpergram","EDI DataOne",2,17
@@ -144,7 +144,7 @@
 "MicroGM-PER-M3","ug/m3","http://qudt.org/vocab/unit/MicroGM-PER-M3","microgrampermetercubed","EDI DataOne",2,15
 "PPM-l","permill",NA,"permill","EDI NEON",2,15
 "NUM-pairs","# pairs",NA,"#pairs","EDI DataOne",2,15
-"trees-PER-HA","trees/ha",NA,"treesperhectare","EDI DataOne",2,14
+"NUM-PER-HA","trees/ha","http://qudt.org/vocab/unit/NUM-PER-HA","treesperhectare","EDI DataOne",2,14
 "standardunits","standard units",NA,"standardunits","EDI DataOne",2,14
 "PERCENT-GM-PER-GM","percent g/g",NA,"percentgrampergram","EDI DataOne",2,14
 "MO","months","http://qudt.org/vocab/unit/MO","months","EDI DataOne",2,14
@@ -157,7 +157,7 @@
 "PERCENT-bymass","percentbymass",NA,"percentbymass","EDI DataOne",2,12
 "MO-of-YR","month of year",NA,"monthofyear","EDI DataOne",2,12
 "MicroMOL-PER-SEC-M2","micromoles per second per square meter",NA,"micromolepersecondpersquaremeter","EDI DataOne",2,12
-"MicroGM-PER-CentiM-squared","microg/cm2",NA,"microgpercentimetersquared","EDI DataOne",2,12
+"MicroGM-PER-CentiM2","microg/cm2",NA,"microgpercentimetersquared","EDI DataOne",2,12
 "MilliGM-PER-gdryleaftissue","mg/gdryleaftissue",NA,"mgpergdryleaftissue","EDI DataOne",2,12
 "M-abovesealevel","metersabovesealevel",NA,"meterabovesealevel","EDI DataOne",2,12
 "CAL-PER-CentiM2","langley",NA,"langley","EDI DataOne",2,12
@@ -177,7 +177,7 @@
 "GM-PER-KiloGM","gkg-1","http://qudt.org/vocab/unit/GM-PER-KiloGM","gkg-1","EDI DataOne",2,8
 "PERCENT-volumetricwatercontent","%volumetricwatercontent",NA,"%volumetricwatercontent","EDI DataOne",2,8
 "MicroGM-PER-gsoil","microg/gsoil",NA,"microgpergsoil","EDI DataOne",2,7
-"MilliGM-PER-CentiM-squared","mg/cm2",NA,"mgpercentimetersquared","EDI DataOne",2,7
+"MilliGM-PER-CentiM2","mg/cm2","http://qudt.org/vocab/unit/MilliGM-PER-CentiM2","mgpercentimetersquared","EDI DataOne",2,7
 "counts","counts",NA,"counts","EDI DataOne",2,7
 "u-MOL-PER-lit","umoles/lit",NA,"umoleperlit","EDI DataOne",2,6
 "seeds","seeds",NA,"seeds","EDI DataOne",2,6
@@ -186,9 +186,9 @@
 "MilliGM-PER-M2-SEC","mg/m2/sec","http://qudt.org/vocab/unit/MilliGM-PER-M2-SEC","mgpermetersquaredpersecond","EDI DataOne",2,6
 "MilliGM-PER-gsoil","mg/gsoil",NA,"mgpergsoil","EDI DataOne",2,6
 "GM-PER-tree","g/tree",NA,"grampertree","EDI DataOne",2,6
-"bytes","bytes",NA,"bytes","EDI DataOne",2,6
-"beaufort","beaufort",NA,"beaufort","EDI DataOne",2,6
-"PSU-s","practical salinity units",NA,"practicalsalinityunits","EDI DataOne",2,5
+"BYTE","bytes","http://qudt.org/vocab/unit/BYTE","bytes","EDI DataOne",2,6
+"BFT","beaufort","http://qudt.org/vocab/unit/BFT","beaufort","EDI DataOne",2,6
+"PSU-NA","practical salinity units",NA,"practicalsalinityunits","EDI DataOne",2,5
 "PERCENT-saturation","percent saturation",NA,"percentsaturation","EDI DataOne",2,5
 "mmho-PER-CentiM","mmho/cm",NA,"mmhopercentimeter","EDI DataOne",2,5
 "MicroMOL-radiationm2s-1","micromolsradiationm-2s-1",NA,"micromolsradiationm-2s-1","EDI DataOne",2,5
@@ -197,9 +197,9 @@
 "S-PER-CentiM","siemenspercentimeter","http://qudt.org/vocab/unit/S-PER-CentiM","siemenspercentimeter","NEON DataOne",2,4
 "PPM-PER-SEC","ppm/sec",NA,"partpermillionpersecond","EDI DataOne",2,4
 "MilliM-PER-DEG-yy","mm/dd/yy",NA,"millimeterperddperyy","EDI DataOne",2,4
-"MilliGM-carbon-PER-L","milligramscarbonperliter",NA,"milligramcarbonperliter","EDI DataOne",2,4
+"MilliGM-_Carbon-PER-L","milligramscarbonperliter",NA,"milligramcarbonperliter","EDI DataOne",2,4
 "MicroGM-PER-M2-DAY","microgramspersquaremeterperday","http://qudt.org/vocab/unit/MicroGM-PER-M2-DAY","microgrampersquaremeterperday","EDI DataOne",2,4
-"MilliGM-PER-CentiM-squared-HR","mg/cm2/hr",NA,"mgpercentimetersquaredperhour","EDI DataOne",2,4
+"MilliGM-PER-CentiM2-HR","mg/cm2/hr",NA,"mgpercentimetersquaredperhour","EDI DataOne",2,4
 "MilliBAR","mbars","http://qudt.org/vocab/unit/MilliBAR","mbars","EDI DataOne",2,4
 "kgbiomass-PER-HA-YR","kgbiomass/ha/year",NA,"kgbiomassperhectareperyear","EDI DataOne",2,4
 "K","k","http://qudt.org/vocab/unit/K","k","EDI DataOne",2,4
@@ -217,11 +217,11 @@
 "thousands-PER-AC","thousands per acre",NA,"thousandsperacre","EDI DataOne",2,3
 "PERCENT","precent","http://qudt.org/vocab/unit/PERCENT","precent","EDI DataOne",2,3
 "PER-oxidaseactivityinu-MOL-ofsubstrateconverted-HR-GM-sampledryweight","peroxidase activity in umoles of substrate converted per hour per gram sample dry weight",NA,"peroxidaseactivityinumoleofsubstrateconvertedperhourpergramsampledryweight","EDI DataOne",2,3
-"NUM-trees-PER-M2","numbertrees/m2",NA,"numbertreespermetersquared","EDI DataOne",2,3
+"NUM-NUM-PER-M2","numbertrees/m2",NA,"numbertreespermetersquared","EDI DataOne",2,3
 "MilliM2-PER-YR","mm2/year",NA,"mm2peryear","EDI DataOne",2,3
 "MicroS","microseimen","http://qudt.org/vocab/unit/MicroS","microseimen","EDI DataOne",2,3
 "MicroL","microliter","http://qudt.org/vocab/unit/MicroL","microliter","EDI DataOne",2,3
-"MilliGM-PER-CentiM-squared","mg/cm^2",NA,"mgperpercentimetersquared","EDI DataOne",2,3
+"MilliGM-PER-CentiM2","mg/cm^2","http://qudt.org/vocab/unit/MilliGM-PER-CentiM2","mgperpercentimetersquared","EDI DataOne",2,3
 "m3m3","m3m-3",NA,"m3m-3","EDI DataOne",2,3
 "KiloM-PER-HR","kph","http://qudt.org/vocab/unit/KiloM-PER-HR","kph","EDI DataOne",2,3
 "kgm-1s2","kgm-1s-2",NA,"kgm-1s-2","EDI DataOne",2,3
@@ -284,11 +284,11 @@
 "DEG-westofprimemeridian","decimaldegreeswestofprimemeridian",NA,"decimaldegreewestofprimemeridian","EDI DataOne",2,2
 "DEG-northofequator","decimaldegreesnorthofequator",NA,"decimaldegreenorthofequator","EDI DataOne",2,2
 "countsand-PERCENT-ages","counts and percentages",NA,"countsandpercentages","EDI DataOne",2,2
-"CentiM2-PER-CentiM-squared","cm2/cm2",NA,"centimetersquaredpercentimetersquared","EDI DataOne",2,2
+"CentiM2-PER-CentiM2","cm2/cm2",NA,"centimetersquaredpercentimetersquared","EDI DataOne",2,2
 "bits-PER-CentiM3","bits/cm3",NA,"bitspercentimetercubed","EDI DataOne",2,2
 "ATM","atms","http://qudt.org/vocab/unit/ATM","atms","EDI DataOne",2,2
 "ANGSTROM","angstrom","http://qudt.org/vocab/unit/ANGSTROM","angstrom","EDI DataOne",2,2
-"Ã¢Âµg-PER-CentiM-squared","Ã¢Âµg cm-2",NA,"Ã¢Âµgpercentimetersquared","EDI DataOne",2,2
+"Ã¢Âµg-PER-CentiM2","Ã¢Âµg cm-2",NA,"Ã¢Âµgpercentimetersquared","EDI DataOne",2,2
 "GM-PER-M2","grampermetersquared","http://qudt.org/vocab/unit/GM-PER-M2","grampermeterquared","EDI",1,3535
 "GM-PER-M2-DAY","grampermetersquaredperday","http://qudt.org/vocab/unit/GM-PER-M2-DAY","grampermeterquaredperday","EDI",1,2399
 "W-PER-M2","wattpermetersquared","http://qudt.org/vocab/unit/W-PER-M2","wattpermeterquared","EDI",1,2354
@@ -309,7 +309,7 @@
 "DeciS-PER-M","decisiemenspermeter","http://qudt.org/vocab/unit/DeciS-PER-M","decisiemenspermeter","EDI",1,731
 "DEG_C","degc","http://qudt.org/vocab/unit/DEG_C","degc","EDI",1,679
 "KiloGM-PER-HA","kilogramsperhectare","http://qudt.org/vocab/unit/KiloGM-PER-HA","kilogramperhectare","EDI",1,671
-"MicroS-s","microsiemens",NA,"microsiemens","EDI",1,635
+"MicroS-NA","microsiemens",NA,"microsiemens","EDI",1,635
 "M3-PER-SEC","metercubedpersecond","http://qudt.org/vocab/unit/M3-PER-SEC","metercubedpersecond","EDI",1,524
 "M2","squaremeter","http://qudt.org/vocab/unit/M2","squaremeter","EDI",1,475
 "PPM","partspermillion","http://qudt.org/vocab/unit/PPM","partpermillion","EDI",1,475
@@ -392,10 +392,10 @@
 "PER-M","reciprocalmeter","http://qudt.org/vocab/unit/PER-M","reciprocalmeter","EDI",1,108
 "microsatelliteallelescores(i.e.thelengthofthegenesequenceinbasepairs)foreachlocusacrossallsamples","microsatellite allele scores (i.e. the length of the gene sequence in base pairs) for each locus across all samples",NA,"microsatelliteallelescores(i.e.thelengthofthegenesequenceinbasepairs)foreachlocusacrossallsamples","DataOne",1,108
 "M-PER-DAY","meterperday",NA,"meterperday","EDI",1,108
-"MicroGM-carbon-PER-M3","microgramscarbonpermetercubed",NA,"microgramcarbonpermetercubed","EDI",1,105
+"MicroGM-_Carbon-PER-M3","microgramscarbonpermetercubed",NA,"microgramcarbonpermetercubed","EDI",1,105
 "microequivalents-PER-M2-DAY","microequivalentspersquaremeterperday",NA,"microequivalentspersquaremeterperday","DataOne",1,105
 "NanoGM-PER-L","nanogramperliter","http://qudt.org/vocab/unit/NanoGM-PER-L","nanogramperliter","EDI",1,104
-"centi-M-PER-SEC","centimeterpersecond",NA,"centimeterpersecond","EDI",1,101
+"Centi-M-PER-SEC","centimeterpersecond",NA,"centimeterpersecond","EDI",1,101
 "MilliGM-PER-M2","milligrampermetersquared","http://qudt.org/vocab/unit/MilliGM-PER-M2","milligrampermeterquared","EDI",1,99
 "MilliGM-PER-M2","milligramspersquaremeter","http://qudt.org/vocab/unit/MilliGM-PER-M2","milligrampersquaremeter","EDI",1,96
 ".001-M",".001 meters",NA,".001meter","EDI",1,96
@@ -424,7 +424,7 @@
 "MicroMOL-PER-GM-HR","micromolepergramperhour","http://qudt.org/vocab/unit/MicroMOL-PER-GM-HR","micromolepergramperhour","EDI",1,68
 "cation-NUM-basedon22oxygenequivalents-PER-formulaunit","cation number based on 22 oxygen equivalents per formula unit",NA,"cationnumberbasedon22oxygenequivalentsperformulaunit","DataOne",1,68
 "MicroMOL-PER-M2","microeinsteinspersquaremeter","http://qudt.org/vocab/unit/MicroMOL-PER-M2","microeinsteinspersquaremeter","EDI",1,67
-"n","n",NA,"n","DataOne",1,65
+"NUM","n","http://qudt.org/vocab/unit/NUM","n","DataOne",1,65
 "MilliGM-PER-litter","milligramperlitter",NA,"milligramperlitter","DataOne",1,64
 "sand","sand",NA,"sand","DataOne",1,63
 "PER-M-,describesopticalpro-ties","per meter, describes optical properties",NA,"permeter,describesopticalproperties","EDI",1,62
@@ -439,13 +439,13 @@
 "MilliMOL-PER-M2","millimolepermetersquared","http://qudt.org/vocab/unit/MilliMOL-PER-M2","millimolepermeterquared","EDI",1,59
 """hr""or""normalizedconcentration""","""hr""or""normalizedconcentration""",NA,"""hr""or""normalizedconcentration""","EDI",1,59
 "weight-PERCENT-(wt-PERCENT-)","weight percent (wt%)",NA,"weightpercent(wt%)","DataOne",1,58
-"ntu","ntu",NA,"ntu","EDI",1,58
+"NTU","ntu","http://qudt.org/vocab/unit/NTU","ntu","EDI",1,58
 "NanoMOL-PER-GM-HR","nanomolepergramperhour",NA,"nanomolepergramperhour","EDI",1,58
 "MilliGM-PER-M3","milligrampermetercubed","http://qudt.org/vocab/unit/MilliGM-PER-M3","milligrampermetercubed","EDI",1,58
 "MicroGM-PER-KiloGM-(Ã®Â¼g-kg)","micrograms per kilogram (Ã®Â¼g/kg)",NA,"microgramperkilogram(Ã®Â¼gperkg)","DataOne",1,57
 "M3","metercubed","http://qudt.org/vocab/unit/M3","metercubed","EDI",1,57
 "oxideweight-PERCENT","oxide weight percent",NA,"oxideweightpercent","DataOne",1,56
-"M2-illiM","squaremillimeters",NA,"squaremillimeter","EDI",1,55
+"MilliM2","squaremillimeters","http://qudt.org/vocab/unit/MilliM2","squaremillimeter","EDI",1,55
 "PPB","partsperbillion","http://qudt.org/vocab/unit/PPB","partperbillion","EDI",1,55
 "M-PER-YR","meters per year","http://qudt.org/vocab/unit/M-PER-YR","meterperyear","DataOne",1,55
 "M3-PER-HA","metercubedperhectare","http://qudt.org/vocab/unit/M3-PER-HA","metercubedperhectare","DataOne",1,55
@@ -456,7 +456,7 @@
 "KiloGM-PER-M2","kilogrampermetersquared","http://qudt.org/vocab/unit/KiloGM-PER-M2","kilogrampermeterquared","EDI",1,53
 "GM-PER-M2-DAY","gramspersquaremeterperday","http://qudt.org/vocab/unit/GM-PER-M2-DAY","grampersquaremeterperday","DataOne",1,53
 "M2-PER-SEC","metersquaredpersecond","http://qudt.org/vocab/unit/M2-PER-SEC","meterquaredpersecond","EDI",1,52
-"kpa","kpa",NA,"kpa","DataOne",1,51
+"KiloPA","kpa","http://qudt.org/vocab/unit/KiloPA","kpa","DataOne",1,51
 "gravel","gravel",NA,"gravel","DataOne",1,51
 "MicroMOL-PER-SEC-M2","umolpersecondspermetersquared",NA,"umolpersecondpermeterquared","EDI",1,50
 "one-DAY-excludingleap-SEC-,86400-SEC","one day excluding leap seconds, 86400 seconds",NA,"onedayexcludingleapsecond,86400second","EDI",1,50
@@ -490,7 +490,7 @@
 "GM-PER-100-GM","gramsper100grams",NA,"gramper100gram","DataOne",1,42
 "KiloM2","kilometersquared",NA,"kilometerquared","EDI",1,41
 "equivalents-PER-HA","equivalentsperhectare",NA,"equivalentsperhectare","EDI",1,41
-"countofabundance","countofabundance",NA,"countofabundance","EDI",1,41
+"countof-NUM","countofabundance",NA,"countofabundance","EDI",1,41
 "aquantityoramount","a quantity or amount",NA,"aquantityoramount","EDI",1,41
 "MilliGM-PER-KiloGM-DAY","milligramperkilogramperday",NA,"milligramperkilogramperday","EDI",1,40
 "99","-99",NA,"-99","DataOne",1,40
@@ -508,17 +508,17 @@
 "KiloGM-PER-cubit-M","kilograms per cubit meter",NA,"kilogrampercubitmeter","EDI",1,37
 "NUM-PER-KiloGM-drysoil","# / kg drysoil",NA,"#perkilogramdrysoil","EDI",1,37
 "USDollar","u.s. dollar","http://qudt.org/vocab/unit/USDollar","u.s.dollar","EDI",1,36
-"millimols-PER-M2-SEC","millimolspermetresquaredpersecond",NA,"millimolspermetresquaredpersecond","DataOne",1,36
+"MilliMOL-PER-M2-SEC","millimolspermetresquaredpersecond","http://qudt.org/vocab/unit/MilliMOL-PER-M2-SEC","millimolspermetresquaredpersecond","DataOne",1,36
 "MilliGM-PER-GM-ofoil(-MilliGM-GM-oil)","milligrams per gram of oil (mg/g oil)",NA,"milligrampergramofoil(mgpergramoil)","DataOne",1,36
 "m-GM-PER-KiloGM","mgkg-1",NA,"mgkg-1","EDI",1,36
 "MegaJ-PER-M2","megajoulepermetersquared","http://qudt.org/vocab/unit/MegaJ-PER-M2","megajoulepermeterquared","EDI",1,36
 "link","link",NA,"link","EDI",1,36
-"psu","psu",NA,"psu","EDI",1,35
+"PSU","psu","http://qudt.org/vocab/unit/PSU","psu","EDI",1,35
 "np","np",NA,"np","DataOne",1,35
 "MOL-PER-M2-DAY","molepermetersquaredperday","http://qudt.org/vocab/unit/MOL-PER-M2-DAY","molepermeterquaredperday","EDI",1,35
 "MilliGM-PER-KiloGM-(-MilliGM-kg)","milligrams per kilogram (mg/kg)",NA,"milligramperkilogram(mgperkg)","DataOne",1,35
-"hectoPA","hectopascal",NA,"hectopascal","EDI",1,35
-"CentiM3-PER-CentiM-squared","cm3/cm2",NA,"centimetercubedpercentimetersquared","EDI",1,35
+"HectoPA","hectopascal","http://qudt.org/vocab/unit/HectoPA","hectopascal","EDI",1,35
+"CentiM3-PER-CentiM2","cm3/cm2",NA,"centimetercubedpercentimetersquared","EDI",1,35
 "unadjusted-USDollar","unadjustedusdollar",NA,"unadjustedusdollar","DataOne",1,34
 "MilliGM-PER-M-quare-HR","milligrampermetersquareperhour",NA,"milligrampermeterquareperhour","EDI",1,34
 "PER-DAY","perday","http://qudt.org/vocab/unit/PER-DAY","perday","EDI",1,33
@@ -527,8 +527,8 @@
 "clayeysilt","clayey silt",NA,"clayeysilt","DataOne",1,33
 "biomass","biomass",NA,"biomass","EDI",1,33
 "basalarea","basal area",NA,"basalarea","EDI",1,33
-"abundance-PER-M2","abundance/m2",NA,"abundancepermetersquared","EDI",1,33
-"um","um",NA,"um","EDI",1,32
+"NUM-PER-M2","abundance/m2","http://qudt.org/vocab/unit/NUM-PER-M2","abundancepermetersquared","EDI",1,33
+"MicroM","um","http://qudt.org/vocab/unit/MicroM","um","EDI",1,32
 "parir-RAD-ceunit,seabird911.1ein=energyof1-MOL-PHOT","par irradiance unit, seabird 911. 1ein = energy of 1 mole photons",NA,"parirradianceunit,seabird911.1ein=energyof1molephoton","EDI",1,32
 "concentrationunit;sometimesusedforpigmentsinnaturalwaters","concentration unit; sometimes used for pigments in natural waters",NA,"concentrationunit;sometimesusedforpigmentsinnaturalwaters","EDI",1,32
 "W-PER-M22","wattspersquaremetersquared",NA,"wattspersquaremeterquared","NEON",1,31
@@ -555,7 +555,7 @@
 "J-PER-CentiM2-DAY","joulepercentimetersquaredperday","http://qudt.org/vocab/unit/J-PER-CentiM2-DAY","joulepercentimeterquaredperday","EDI",1,29
 "IN-PER-YR","inchesperyear",NA,"inchesperyear","EDI",1,29
 "gco2-cm2half-HR-1","gco2-cm-2half-hour-1",NA,"gco2-cm-2half-hour-1","DataOne",1,29
-"becquerel-PER-L","becquerelperliter",NA,"becquerelperliter","EDI",1,29
+"BQ-PER-L","becquerelperliter","http://qudt.org/vocab/unit/BQ-PER-L","becquerelperliter","EDI",1,29
 "7","7",NA,"7","DataOne",1,29
 "PER-M","permeter","http://qudt.org/vocab/unit/PER-M","permeter","EDI",1,28
 "MicroMOL-PER-M2-SEC2","micromolespersquaremeterpersecondsquared",NA,"micromolepersquaremeterpersecondquared","NEON",1,28
@@ -575,16 +575,16 @@
 "MilliMOL-PER-M3","millimolespercubicmeter","http://qudt.org/vocab/unit/MilliMOL-PER-M3","millimolepercubicmeter","EDI",1,26
 "KiloGM-PER-YR","kilogramsperyear",NA,"kilogramperyear","EDI",1,26
 "10","10",NA,"10","DataOne",1,26
-"unitlessvaluesorunitunknownornotreported","unitless values or unit unknown or not reported",NA,"unitlessvaluesorunitunknownornotreported","EDI",1,25
+"UNITLESS-valuesorunit-UNITLESS-ornotreported","unitless values or unit unknown or not reported",NA,"unitlessvaluesorunitunknownornotreported","EDI",1,25
 "thousandsof-TONNE","thousandsoftonnes",NA,"thousandsoftonne","DataOne",1,25
 "signe-DEG-ecimal-DEG","signed decimal degrees",NA,"signeddecimaldegree","DataOne",1,25
 "MicroS-PER-CentiM-;usedforconcentrationofionize-DEG-issovedsolids","microsiemens per centimeter; used for concentration of ionized dissoved solids",NA,"microsiemenspercentimeter;usedforconcentrationofionizeddissovedsolids","EDI",1,25
-"hpa","hpa",NA,"hpa","DataOne",1,25
+"HectoPA","hpa","http://qudt.org/vocab/unit/HectoPA","hpa","DataOne",1,25
 "GM-PER-onetenth-M2","gramperonetenthmetersquared",NA,"gramperonetenthmeterquared","EDI",1,25
 "decimal-PERCENT","decimalpercent",NA,"decimalpercent","EDI",1,25
-"reciprocal-DAY","reciprocalday",NA,"reciprocalday","DataOne",1,24
+"PER-DAY","reciprocalday","http://qudt.org/vocab/unit/PER-DAY","reciprocalday","DataOne",1,24
 "NanoGM-PER-GM","nanogramspergram",NA,"nanogrampergram","EDI",1,24
-"mols-PER-M2-SEC","molspermetresquaredpersecond",NA,"molspermetresquaredpersecond","DataOne",1,24
+"MOL-PER-M2-SEC","molspermetresquaredpersecond","http://qudt.org/vocab/unit/MOL-PER-M2-SEC","molspermetresquaredpersecond","DataOne",1,24
 "milliequivalents-PER-100-GM","milliequivalentsper100grams",NA,"milliequivalentsper100gram","EDI",1,24
 "MicroMOL-PER-M2-SEC","micromolespermeterssquaredpersecond","http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC","micromolepermetersquaredpersecond","EDI",1,24
 "MicroMOL-PER-GM-SEC","micromolespergrampersecond","http://qudt.org/vocab/unit/MicroMOL-PER-GM-SEC","micromolepergrampersecond","DataOne",1,24
@@ -614,7 +614,7 @@
 "concentrationunit.basedonthedimensions(mass-PER-volume),theunittypeisprobablydensity,butthiswouldbemisleading,soitisleftnullhere.","concentration unit. based on the dimensions (mass/volume), the unittype is probably density, but this would be misleading, so it is left null here.",NA,"concentrationunit.basedonthedimensions(masspervolume),theunittypeisprobablydensity,butthiswouldbemisleading,soitisleftnullhere.","EDI",1,22
 "commonlyusedforconcentrationofsomechemicalconstituentsofnaturalwaterbodies;e.g.;nutrients.ithasthesamemagnitudeas-MicroMOL-PER-L-;but-MicroMOL-L-canonlybeusedforadissolvedconstituent","commonly used for concentration of some chemical constituents of natural water bodies; e.g.; nutrients. it has the same magnitude as micromolar; but micromolar can only be used for a dissolved constituent",NA,"commonlyusedforconcentrationofsomechemicalconstituentsofnaturalwaterbodies;e.g.;nutrients.ithasthesamemagnitudeasmicromolar;butmicromolarcanonlybeusedforadissolvedconstituent","EDI",1,22
 "2010","2010",NA,"2010","DataOne",1,22
-"wm2","wm-2",NA,"wm-2","EDI",1,21
+"W-PER-M2","wm-2","http://qudt.org/vocab/unit/W-PER-M2","wm-2","EDI",1,21
 "shot-NUM","shot number",NA,"shotnumber","DataOne",1,21
 "shot","shot",NA,"shot","DataOne",1,21
 "onetenth-IN","onetenthinch",NA,"onetenthinch","EDI",1,21
@@ -649,7 +649,7 @@
 "b","b",NA,"b","DataOne",1,19
 "Ã¢Âµm=Ã¢Âµ-MOL-PER-L-ofsolution","Ã¢Âµm = Ã¢Âµmoles per liter of solution",NA,"Ã¢Âµm=Ã¢Âµmoleperliterofsolution","EDI",1,19
 "MicroS-PER-CentiM","us/cm","http://qudt.org/vocab/unit/MicroS-PER-CentiM","uspercentimeter","DataOne",1,18
-"unitlessdigitalvalue","unitless digital value",NA,"unitlessdigitalvalue","DataOne",1,18
+"UNITLESS-digitalvalue","unitless digital value",NA,"unitlessdigitalvalue","DataOne",1,18
 "TRUE","TRUE",NA,"TRUE","DataOne",1,18
 "tritiumunit;1tritiumunit=3.22picocuries-PER-L","tritium unit; 1 tritium unit= 3.22 picocuries per liter",NA,"tritiumunit;1tritiumunit=3.22picocuriesperliter","EDI",1,18
 "sum-MilliM-PER-DAY","sum mm per day",NA,"summillimeterperday","EDI",1,18
@@ -679,7 +679,7 @@
 "M-PER-MO","meters/month",NA,"meterpermonth","DataOne",1,17
 "formazinnephelometricunit","formazinnephelometricunit",NA,"formazinnephelometricunit","EDI",1,17
 "FALSE","FALSE",NA,"FALSE","DataOne",1,17
-"centi-MOL-charge-PER-KiloGM","centimoleschargeperkilogram",NA,"centimolechargeperkilogram","NEON",1,17
+"Centi-MOL-charge-PER-KiloGM","centimoleschargeperkilogram",NA,"centimolechargeperkilogram","NEON",1,17
 "amountofenergy-PER-M2-surface","amount of energy per square meter surface",NA,"amountofenergypersquaremetersurface","EDI",1,17
 "avolumetricf-LUX-unit.oftenusedforaprimaryproductionrate,e.g.,foraparcelofwater.oftenisspecifictoanelement,e.g.,carbon","a volumetric flux unit. often used for a primary production rate, e.g., for a parcel of water. often is specific to an element, e.g., carbon",NA,"avolumetricfluxunit.oftenusedforaprimaryproductionrate,e.g.,foraparcelofwater.oftenisspecifictoanelement,e.g.,carbon","EDI",1,17
 "a","a",NA,"a","DataOne",1,17
@@ -696,10 +696,10 @@
 "openocean","open ocean",NA,"openocean","DataOne",1,16
 "NUM-PER-CentiM2-HR","numberpersquarecentimeterperhour",NA,"numberpersquarecentimeterperhour","EDI",1,16
 "NUM-PER-1130m2","numberper1130m2",NA,"numberper1130m2","DataOne",1,16
-"NTU-s","nephelometricturbidityunits",NA,"nephelometricturbidityunits","EDI",1,16
+"NTU-NA","nephelometricturbidityunits",NA,"nephelometricturbidityunits","EDI",1,16
 "mj-PER-M2","mj/m2",NA,"mjpermetersquared","DataOne",1,16
 "MilliM3-PER-M2","millimetercubedpermetersquared",NA,"millimetercubedpermeterquared","EDI",1,16
-"BAR-s","bars",NA,"bars","EDI",1,16
+"BAR-NA","bars",NA,"bars","EDI",1,16
 "area,-M2-fromthelterunitdictionary","area, meter squared from the lter unit dictionary",NA,"area,metersquaredfromthelterunitdictionary","EDI",1,16
 "yes","yes",NA,"yes","DataOne",1,15
 "tunits","tunits",NA,"tunits","DataOne",1,15
@@ -717,9 +717,9 @@
 "date","date",NA,"date","DataOne",1,15
 "cyclethreshold(ct)","cycle threshold (ct)",NA,"cyclethreshold(ct)","DataOne",1,15
 "count-PER-M2","countpermetersquared",NA,"countpermeterquared","EDI",1,15
-"centi-M-PER-SEC2","centimeterpersecondsquared",NA,"centimeterpersecondquared","EDI",1,15
+"Centi-M-PER-SEC2","centimeterpersecondsquared",NA,"centimeterpersecondquared","EDI",1,15
 "BU_US-PER-AC","bushelsperacre",NA,"bushelsperacre","EDI",1,15
-"abundance","abundance",NA,"abundance","EDI",1,15
+"NUM","abundance","http://qudt.org/vocab/unit/NUM","abundance","EDI",1,15
 "USDollar","us dollar","http://qudt.org/vocab/unit/USDollar","usdollar","EDI",1,14
 "TONNE-PER-YR","tonneperyear",NA,"tonneperyear","EDI",1,14
 "NUM-PER-plot","stems/plot",NA,"stemsperplot","EDI",1,14
@@ -736,10 +736,10 @@
 "MicroGM-PER-L-quininesulfateunits","microgramsperliterquininesulfateunits",NA,"microgramperliterquininesulfateunits","EDI",1,14
 "KiloA","kiloamperes","http://qudt.org/vocab/unit/KiloA","kiloampere","EDI",1,14
 "GM-PER-M2-HR","gramspermetersquaredperhour",NA,"grampermeterquaredperhour","EDI",1,14
-"GM-carbon-PER-M2","grams carbon per square meter",NA,"gramcarbonpersquaremeter","DataOne",1,14
+"GM-_Carbon-PER-M2","grams carbon per square meter",NA,"gramcarbonpersquaremeter","DataOne",1,14
 "dpm-PER-GM","dpm/g",NA,"dpmpergram","DataOne",1,14
 "deltavsv-smow.","delta vs v-smow.",NA,"deltavsv-smow.","DataOne",1,14
-"Deci-GM","decigram",NA,"decigram","DataOne",1,14
+"DeciGM","decigram","http://qudt.org/vocab/unit/DeciGM","decigram","DataOne",1,14
 "dateandtimein-MilliM-PER-DEG-YR-hh:mm:ss.fffformat","date and time in mm/dd/yyyy hh:mm:ss.fff format",NA,"dateandtimeinmillimeterperddperyyyyhh:mm:ss.fffformat","DataOne",1,14
 "360-DEG_C-ompriseaunitcircle","360 degrees comprise a unit circle",NA,"360degreecompriseaunitcircle","EDI",1,14
 "(ntu)ratiooftheamountoflighttransmittedstraightthroughawatersamplewiththeamountscatteredatanangleof90-DEG-tooneside","(ntu) ratio of the amount of light transmitted straight through a water sample with the amount scattered at an angle of 90 degrees to one side",NA,"(ntu)ratiooftheamountoflighttransmittedstraightthroughawatersamplewiththeamountscatteredatanangleof90degreetooneside","EDI",1,14
@@ -784,8 +784,8 @@
 "numericvalue","numeric value",NA,"numericvalue","DataOne",1,12
 "nativeforest","native forest",NA,"nativeforest","DataOne",1,12
 "msg","msg",NA,"msg","DataOne",1,12
-"ms","ms",NA,"ms","DataOne",1,12
-"mm3","mm3",NA,"mm3","DataOne",1,12
+"MilliSEC","ms","http://qudt.org/vocab/unit/MilliSEC","ms","DataOne",1,12
+"MilliM3","mm3","http://qudt.org/vocab/unit/MilliM3","mm3","DataOne",1,12
 "MilliMOL-oxygen-PER-M2-DAY","millimoleoxygenpermetersquaredperday",NA,"millimoleoxygenpermeterquaredperday","EDI",1,12
 "MilliM2","millimetersquared","http://qudt.org/vocab/unit/MilliM2","millimeterquared","EDI",1,12
 "MilliGM-PER-L-HR","milligramperliterperhour",NA,"milligramperliterperhour","EDI",1,12
@@ -794,7 +794,7 @@
 "micromol-PER-L","micromol/l",NA,"micromolperliter","DataOne",1,12
 "MicroGM-PER-catchment","micrograms per catchment",NA,"microgrampercatchment","DataOne",1,12
 "microcurie-PER-MicroMOL","microcuriepermicromole",NA,"microcuriepermicromole","EDI",1,12
-"mg","mg",NA,"mg","DataOne",1,12
+"MilliGM","mg","http://qudt.org/vocab/unit/MilliGM","mg","DataOne",1,12
 "M-w.e.","meters w.e.",NA,"meterw.e.","DataOne",1,12
 "MegaGM","megagram","http://qudt.org/vocab/unit/MegaGM","megagram","EDI",1,12
 "lth","lth",NA,"lth","DataOne",1,12
@@ -806,11 +806,11 @@
 "grz","grz",NA,"grz","DataOne",1,12
 "grassland","grassland",NA,"grassland","DataOne",1,12
 "GM-PER-hundred-M-square","gramsperhundredmeterpersquare",NA,"gramperhundredmeterpersquare","DataOne",1,12
-"GM-carbon-PER-M2-DAY-or-GM-carbon-M2-MO","grams carbon per square meter per day or grams carbon per square meter per month",NA,"gramcarbonpersquaremeterperdayorgramcarbonpersquaremeterpermonth","EDI",1,12
+"GM-_Carbon-PER-M2-DAY-or-GM-_Carbon-M2-MO","grams carbon per square meter per day or grams carbon per square meter per month",NA,"gramcarbonpersquaremeterperdayorgramcarbonpersquaremeterpermonth","EDI",1,12
 "gnitrogen-PER-M2","gnitrogen/m^2",NA,"gnitrogenpermetersquared","EDI",1,12
 "gms","gms",NA,"gms","DataOne",1,12
 "g-o2-PER-M2-DAY","g-o2 per m2 per day",NA,"g-o2permetersquaredperday","EDI",1,12
-"expresslatitudean-DeciL-ongitudegeographiccoordinatesasdecimalfractions","express latitude and longitude geographic coordinates as decimal fractions",NA,"expresslatitudeandlongitudegeographiccoordinatesasdecimalfractions","EDI",1,12
+"expresslatitudean-DeciL-ongitudegeographiccoordinatesasdecimal-FRACTION-NA","express latitude and longitude geographic coordinates as decimal fractions",NA,"expresslatitudeandlongitudegeographiccoordinatesasdecimalfractions","EDI",1,12
 "erosionornondeposition","erosion or nondeposition",NA,"erosionornondeposition","DataOne",1,12
 "deg-c","deg-c",NA,"deg-c","DataOne",1,12
 "DAY-of-YR","day of year",NA,"dayofyear","EDI",1,12
@@ -821,7 +821,7 @@
 "Ã¢Âµmol-PER-M2-SEC","Ã¢Âµmol m-2 s-1",NA,"Ã¢Âµmolpermetersquaredpersecond","DataOne",1,12
 ".01-FT",".01 ft",NA,".01foot","EDI",1,12
 "NA-sm","(g)sm",NA,"(g)sm","DataOne",1,12
-"NA-s","(g)s",NA,"(g)s","DataOne",1,12
+"NA-NA","(g)s",NA,"(g)s","DataOne",1,12
 "NA-ms","(g)ms",NA,"(g)ms","DataOne",1,12
 "NA-m","(g)m",NA,"(g)m","DataOne",1,12
 "NUM-PER-GM-drylitter","# / g dry litter",NA,"#pergramdrylitter","EDI",1,12
@@ -863,7 +863,7 @@
 "coarsebe-DeciL-oadtransport","coarse bedload transport",NA,"coarsebedloadtransport","DataOne",1,11
 "CentiM-PER-GM","centimeterspergram",NA,"centimeterpergram","EDI",1,11
 "calendar-DAY","calendarday",NA,"calendarday","EDI",1,11
-"becquerel-PER-GM","becquerelpergram",NA,"becquerelpergram","EDI",1,11
+"BQ-PER-GM","becquerelpergram",NA,"becquerelpergram","EDI",1,11
 "alienforest","alien forest",NA,"alienforest","DataOne",1,11
 "200m","200m",NA,"200m","DataOne",1,11
 "0.000001-KiloGM","0.000001 kg",NA,"0.000001kilogram","EDI",1,11
@@ -871,14 +871,14 @@
 "water","water",NA,"water","DataOne",1,10
 "valuesexpressedas(rounded)integerlog2of-V-and-HR-in-CentiM","values expressed as (rounded) integer log2 of v and h in cm",NA,"valuesexpressedas(rounded)integerlog2ofvoltandhourincentimeter","DataOne",1,10
 "user","user",NA,"user","DataOne",1,10
-"unitless.","unitless.",NA,"unitless.","EDI",1,10
+"UNITLESS-.","unitless.",NA,"unitless.","EDI",1,10
 "MicroMOL-PER-SEC-M2","umol s-1 m-2",NA,"micromolepersecondpermetersquared","EDI",1,10
 "ulam","ulam",NA,"ulam","DataOne",1,10
 "qubi","qubi",NA,"qubi","DataOne",1,10
 "pci-PER-gm,picocuries-GM","pci/gm, picocuries per gram",NA,"pcipergm,picocuriespergram","DataOne",1,10
 "opticaldensity","opticaldensity",NA,"opticaldensity","EDI",1,10
 "ontxs","on txs",NA,"ontxs","DataOne",1,10
-"OHM-s","ohms",NA,"ohms","DataOne",1,10
+"OHM-NA","ohms",NA,"ohms","DataOne",1,10
 "OHM-M","ohm-meter","http://qudt.org/vocab/unit/OHM-M","ohm-meter","DataOne",1,10
 "NUM-MicroM3-PER-0.1-MilliM3","numbermicrometercubedper0.1milimetercubed",NA,"numbermicrometercubedper0.1milimetercubed","EDI",1,10
 "NUM-MicroM3-PER-0.1-MilliL","numbermicrometercubedper0.1mililiter",NA,"numbermicrometercubedper0.1mililiter","EDI",1,10
@@ -890,7 +890,7 @@
 "MicroMOL","microeinstein","http://qudt.org/vocab/unit/MicroMOL","microeinstein","EDI",1,10
 "M2-PER-SEC","meterssquaredpersecond","http://qudt.org/vocab/unit/M2-PER-SEC","metersquaredpersecond","DataOne",1,10
 "log(10)of-OHM-m","log(10) of ohm-m",NA,"log(10)ofohm-m","DataOne",1,10
-"latitudean-DeciL-ongitudecoordinatesexpressedasdecimalfractions","latitude and longitude coordinates expressed as decimal fractions",NA,"latitudeandlongitudecoordinatesexpressedasdecimalfractions","EDI",1,10
+"latitudean-DeciL-ongitudecoordinatesexpressedasdecimal-FRACTION-NA","latitude and longitude coordinates expressed as decimal fractions",NA,"latitudeandlongitudecoordinatesexpressedasdecimalfractions","EDI",1,10
 "land","land",NA,"land","DataOne",1,10
 "J-PER-CentiM2-HR","joulepercentimetersquaredperhour",NA,"joulepercentimeterquaredperhour","EDI",1,10
 "integers","integers",NA,"integers","DataOne",1,10
@@ -907,11 +907,11 @@
 "developed,lowintensity","developed, low intensity",NA,"developed,lowintensity","DataOne",1,10
 "developed,highintensity","developed, high intensity",NA,"developed,highintensity","DataOne",1,10
 "DEG2","degreessquared","http://qudt.org/vocab/unit/DEG2","degreequared","NEON",1,10
-"decimalfraction","decimalfraction",NA,"decimalfraction","EDI",1,10
+"decimal-FRACTION","decimalfraction",NA,"decimalfraction","EDI",1,10
 "coastal","coastal",NA,"coastal","DataOne",1,10
 "ceoc","ceoc",NA,"ceoc","DataOne",1,10
 "CentiM-PER-HR","centimeterperhour","http://qudt.org/vocab/unit/CentiM-PER-HR","centimeterperhour","EDI",1,10
-"centimenter","centimenter",NA,"centimenter","EDI",1,10
+"CentiM","centimenter","http://qudt.org/vocab/unit/CentiM","centimenter","EDI",1,10
 "boulders","boulders",NA,"boulders","DataOne",1,10
 "beni","beni",NA,"beni","DataOne",1,10
 "atom-PERCENT","atompercent",NA,"atompercent","EDI",1,10
@@ -933,11 +933,11 @@
 "MilliM_HG","millimetermercury","http://qudt.org/vocab/unit/MilliM_HG","millimetermercury","DataOne",1,9
 "MilliGM-PER-M2-DAY","milligramspersquaremeterperday","http://qudt.org/vocab/unit/MilliGM-PER-M2-DAY","milligrampersquaremeterperday","EDI",1,9
 "milliequivalents-PER-hundred-GM","milliequivalentsperhundredgrams",NA,"milliequivalentsperhundredgram","EDI",1,9
-"MicroM3-s","microns",NA,"microns","DataOne",1,9
+"MicroM3-NA","microns",NA,"microns","DataOne",1,9
 "MicroMOL-co2m2s-1","micromolsco2m-2s-1",NA,"micromolsco2m-2s-1","DataOne",1,9
 "MicroMOL-PER-mol-SEC","micromolespermolpersecond",NA,"micromolepermolpersecond","EDI",1,9
 "MicroGM-PER-M2","microgrampersquaremeter",NA,"microgrampersquaremeter","EDI",1,9
-"MicroATM-s","microatmospheres",NA,"microatmospheres","EDI",1,9
+"MicroATM-NA","microatmospheres",NA,"microatmospheres","EDI",1,9
 "M-PER-CentiM","meterpercentimeter",NA,"meterpercentimeter","EDI",1,9
 "longitude","longitude",NA,"longitude","EDI",1,9
 "layer","layer",NA,"layer","EDI",1,9
@@ -959,8 +959,8 @@
 "W-PER-M-quare","wattspermetersquare",NA,"wattspermeterquare","EDI",1,8
 "variabledependingonspectro-M-measurementtypeandinstrumentasdescribedintheabstract","variable depending on spectrometer measurement type and instrument as described in the abstract",NA,"variabledependingonspectrometermeasurementtypeandinstrumentasdescribedintheabstract","DataOne",1,8
 "vanveengrab","van veen grab",NA,"vanveengrab","DataOne",1,8
-"unitless(normalized)","unitless (normalized)",NA,"unitless(normalized)","EDI",1,8
-"unitunknownornotreported","unit unknown or not reported",NA,"unitunknownornotreported","EDI",1,8
+"UNITLESS-(normalized)","unitless (normalized)",NA,"unitless(normalized)","EDI",1,8
+"unit-UNITLESS-ornotreported","unit unknown or not reported",NA,"unitunknownornotreported","EDI",1,8
 "unitnotfoundinmetadata","unit not found in metadata",NA,"unitnotfoundinmetadata","DataOne",1,8
 "u-MOL-co2-PER-(m^2*s","umolesco2/(m^2*s",NA,"umoleco2per(m^2*s","EDI",1,8
 "torr","torr",NA,"torr","EDI",1,8
@@ -1012,7 +1012,7 @@
 "concentrationunit,sometimesusedforpigmentsinnaturalwaters","concentration unit, sometimes used for pigments in natural waters",NA,"concentrationunit,sometimesusedforpigmentsinnaturalwaters","EDI",1,8
 "concentrationofasubstance","concentration of a substance",NA,"concentrationofasubstance","EDI",1,8
 "britishthermalunit","britishthermalunit",NA,"britishthermalunit","DataOne",1,8
-"becquerel-PER-MilliL","becquerelpermilliliter",NA,"becquerelpermilliliter","EDI",1,8
+"BQ-PER-MilliL","becquerelpermilliliter",NA,"becquerelpermilliliter","EDI",1,8
 "alph98020","alph98020",NA,"alph98020","DataOne",1,8
 "acne2","acne2",NA,"acne2","DataOne",1,8
 "Ã¢Âµg-PER-MilliL","Ã¢Âµg / ml",NA,"Ã¢Âµgpermilliliter","EDI",1,8
@@ -1042,7 +1042,7 @@
 "saatap","saa tap",NA,"saatap","DataOne",1,7
 "saagrid","saa grid",NA,"saagrid","DataOne",1,7
 "relativefluoroescenceunits","relative fluoroescence units",NA,"relativefluoroescenceunits","DataOne",1,7
-"ratiooftwoquantitiesasdecimalfraction,wherethedenominatorisapoweroften,writtenoutwithadecimalpoint.","ratio of two quantities as decimal fraction, where the denominator is a power of ten, written out with a decimal point.",NA,"ratiooftwoquantitiesasdecimalfraction,wherethedenominatorisapoweroften,writtenoutwithadecimalpoint.","EDI",1,7
+"ratiooftwoquantitiesasdecimal-FRACTION-,wherethedenominatorisapoweroften,writtenoutwithadecimalpoint.","ratio of two quantities as decimal fraction, where the denominator is a power of ten, written out with a decimal point.",NA,"ratiooftwoquantitiesasdecimalfraction,wherethedenominatorisapoweroften,writtenoutwithadecimalpoint.","EDI",1,7
 "ratiooftwoquantities","ratio of two quantities",NA,"ratiooftwoquantities","EDI",1,7
 "psig","psig",NA,"psig","EDI",1,7
 "pre","pre",NA,"pre","DataOne",1,7
@@ -1073,7 +1073,7 @@
 "M3-PER-M2","metercubedpermetersquared",NA,"metercubedpermeterquared","EDI",1,7
 "low","low",NA,"low","DataOne",1,7
 "L-PER-DAY","litersperday","http://qudt.org/vocab/unit/L-PER-DAY","literperday","EDI",1,7
-"lengthofmeasureusedbysurveyors.1link=7.92-IN-.100links=1chain=66-FT-=20.1-M","length of measure used by surveyors.  1 link = 7.92 inches.  100 links = 1 chain = 66 feet = 20.1 meters",NA,"lengthofmeasureusedbysurveyors.1link=7.92inches.100links=1chain=66foot=20.1meter","EDI",1,7
+"lengthofmeasureusedbysurveyors.1link=7.92-IN-.100links=1-CH-=66-FT-=20.1-M","length of measure used by surveyors.  1 link = 7.92 inches.  100 links = 1 chain = 66 feet = 20.1 meters",NA,"lengthofmeasureusedbysurveyors.1link=7.92inches.100links=1chain=66foot=20.1meter","EDI",1,7
 "kmcmullen","kmcmullen",NA,"kmcmullen","DataOne",1,7
 "KiloGM-PER-KiloM2-YR","kilogramperkilometersquaredperyear",NA,"kilogramperkilometerquaredperyear","DataOne",1,7
 "K-squared","kelvinsquared",NA,"kelvinsquared","EDI",1,7
@@ -1087,7 +1087,7 @@
 "gcm2","gcm-2",NA,"gcm-2","EDI",1,7
 "gc-PER-M2","gc/m2",NA,"gcpermetersquared","EDI",1,7
 "doy","doy",NA,"doy","DataOne",1,7
-"dimensionlessintegers","dimensionless integers",NA,"dimensionlessintegers","DataOne",1,7
+"UNITLESS-integers","dimensionless integers",NA,"dimensionlessintegers","DataOne",1,7
 "DEG-north","degrees north",NA,"degreenorth","DataOne",1,7
 "decadal","decadal",NA,"decadal","DataOne",1,7
 "M3-PER-MO","cubicmeterpermonth",NA,"cubicmeterpermonth","EDI",1,7
@@ -1106,7 +1106,7 @@
 "utm","utm",NA,"utm","EDI",1,6
 "ugn-PER-gdrysoil","ugn/gdrysoil",NA,"ugnpergdrysoil","DataOne",1,6
 "u-PER-L","u/l",NA,"uperliter","DataOne",1,6
-"trees-PER-M2","trees/m^2",NA,"treespermetersquared","EDI",1,6
+"NUM-PER-M2","trees/m^2","http://qudt.org/vocab/unit/NUM-PER-M2","treespermetersquared","EDI",1,6
 "the-YR-inwhichstationwasoccupied","the year in which station was occupied",NA,"theyearinwhichstationwasoccupied","DataOne",1,6
 "theformulaforutcfollows(julian-DAY-:-HR-:-MIN-:-SEC-)","the formula for utc follows (julianday:hour:minute:second)",NA,"theformulaforutcfollows(julianday:hour:minute:second)","DataOne",1,6
 "september","september",NA,"september","DataOne",1,6
@@ -1155,7 +1155,7 @@
 "MicroGM-c-co2-PER-GM-drysoil-HR","microgramc-co2pergramdrysoilperhour",NA,"microgramc-co2pergramdrysoilperhour","EDI",1,6
 "microequivalents-PER-100g","microequivalentsper100g",NA,"microequivalentsper100g","EDI",1,6
 "TON_Metric","metric tons","http://qudt.org/vocab/unit/TON_Metric","metricton","DataOne",1,6
-"metre","metre",NA,"metre","DataOne",1,6
+"M","metre","http://qudt.org/vocab/unit/M","metre","DataOne",1,6
 "M-(utmzone10nwgs84)","meters (utm zone 10n wgs 84)",NA,"meter(utmzone10nwgs84)","DataOne",1,6
 "M-PER-M","meter/meter",NA,"meterpermeter","EDI",1,6
 "mass-specificrate","mass-specific rate",NA,"mass-specificrate","EDI",1,6
@@ -1171,7 +1171,7 @@
 "id","id",NA,"id","EDI",1,6
 "howlongissomething,describesphysicalpro-PER-ties","how long is something, describes physical properties",NA,"howlongissomething,describesphysicalproperties","EDI",1,6
 "howfastissomethinggoing,describesphysicalpro-PER-ties","how fast is something going, describes physical properties",NA,"howfastissomethinggoing,describesphysicalproperties","EDI",1,6
-"horsepower","horsepower",NA,"horsepower","DataOne",1,6
+"HP","horsepower","http://qudt.org/vocab/unit/HP","horsepower","DataOne",1,6
 "high","high",NA,"high","DataOne",1,6
 "hhmm","hhmm",NA,"hhmm","DataOne",1,6
 "GM-PER-HA-HR","gramsperhectareperhour",NA,"gramperhectareperhour","EDI",1,6
@@ -1195,8 +1195,8 @@
 "count-PER-quadrat","countperquadrat",NA,"countperquadrat","EDI",1,6
 "copies-PER-L","copies/l",NA,"copiesperliter","EDI",1,6
 "CentiM-amsl","cm amsl",NA,"centimeteramsl","EDI",1,6
-"chainbag+smpipedredge","chain bag+sm pipe dredge",NA,"chainbag+smpipedredge","DataOne",1,6
-"chainbag+pipedredge","chain bag+pipe dredge",NA,"chainbag+pipedredge","DataOne",1,6
+"CH-bag+smpipedredge","chain bag+sm pipe dredge",NA,"chainbag+smpipedredge","DataOne",1,6
+"CH-bag+pipedredge","chain bag+pipe dredge",NA,"chainbag+pipedredge","DataOne",1,6
 "ccstp-PER-GM","ccstp/g",NA,"ccstppergram","DataOne",1,6
 "angling,regulatedbear-viewing,unregulatedbear-viewing,bearhunting,otherhunting,hiking,off-trailhiking,camping,photography,helicopters,snowmachining,fixed-wingedaircraft,atvuse","angling, regulated bear-viewing, unregulated bear-viewing, bear hunting, other hunting, hiking, off-trail hiking, camping, photography, helicopters, snow machining, fixed-winged aircraft, atv use",NA,"angling,regulatedbear-viewing,unregulatedbear-viewing,bearhunting,otherhunting,hiking,off-trailhiking,camping,photography,helicopters,snowmachining,fixed-wingedaircraft,atvuse","DataOne",1,6
 "amountofrainfall-PER-area","amount of rainfall per area",NA,"amountofrainfallperarea","EDI",1,6
@@ -1222,7 +1222,7 @@ usuallyunderstoodas1-12fa-FT-.","unit of length in the (british) imperial and un
 
 
 usuallyunderstoodas1per12fafoot.","EDI",1,5
-"unitofenergydensity:=41840-J-PER-m^2,=1calorie-CentiM-squared","unit of energy density: = 41840 joule/m^2, = 1 calorie/cm^2",NA,"unitofenergydensity:=41840jouleperm^2,=1calorieperpercentimetersquared","EDI",1,5
+"unitofenergydensity:=41840-J-PER-m^2,=1calorie-CentiM2","unit of energy density: = 41840 joule/m^2, = 1 calorie/cm^2",NA,"unitofenergydensity:=41840jouleperm^2,=1calorieperpercentimetersquared","EDI",1,5
 "umolco2m2s-1","umolco2m-2s-1",NA,"umolco2m-2s-1","EDI",1,5
 "ucc-PER-KiloGM","ucc/kg",NA,"uccperkilogram","EDI",1,5
 "trace","trace",NA,"trace","DataOne",1,5
@@ -1309,7 +1309,7 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 "concentrationofcharge(ondissolvedions).asinglemultipliertosiisnotpossible","concentration of charge (on dissolved ions). a single multiplier to si is not possible",NA,"concentrationofcharge(ondissolvedions).asinglemultipliertosiisnotpossible","EDI",1,5
 "cmbeneathpeatsurface","cmbeneathpeatsurface",NA,"cmbeneathpeatsurface","EDI",1,5
 "CentiM2-PER-GM","cm2/g",NA,"centimetersquaredpergram","EDI",1,5
-"chains","chains",NA,"chains","EDI",1,5
+"CH","chains","http://qudt.org/vocab/unit/CH","chains","EDI",1,5
 "cercmap","cerc map",NA,"cercmap","DataOne",1,5
 "carya","carya",NA,"carya","DataOne",1,5
 "august","august",NA,"august","DataOne",1,5
@@ -1335,7 +1335,7 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 "waypoint-NUM","waypoint number",NA,"waypointnumber","DataOne",1,4
 "W-PER-m2","wattsperm-2",NA,"wattsperm-2","EDI",1,4
 "W-PER-M2-,also,1-KiloGM-SEC3-(ie,af-LUX-)","watts per square meter, also, 1 kilogram per second cubed (ie, a flux)",NA,"wattspersquaremeter,also,1kilogrampersecondcubed(ie,aflux)","EDI",1,4
-"waterfractionbyvolume","waterfractionbyvolume",NA,"waterfractionbyvolume","EDI",1,4
+"water-FRACTION-byvolume","waterfractionbyvolume",NA,"waterfractionbyvolume","EDI",1,4
 "wa","wa",NA,"wa","DataOne",1,4
 "volumetriccontent","volumetric content",NA,"volumetriccontent","EDI",1,4
 "vermicuilteorecompositiontable","vermicuilte_ore_composition_table",NA,"vermicuilteorecompositiontable","DataOne",1,4
@@ -1385,7 +1385,7 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 
 (1:1000)","EDI",1,4
 "FRACTION-oftime","proportion of time",NA,"proportionoftime","DataOne",1,4
-"pressurein-BAR-s","pressure in bars",NA,"pressureinbars","EDI",1,4
+"pressurein-BAR-NA","pressure in bars",NA,"pressureinbars","EDI",1,4
 "poportionbasalarea","poportionbasalarea",NA,"poportionbasalarea","DataOne",1,4
 "pixelsinanimageorsensoroutput","pixels in an image or sensor output",NA,"pixelsinanimageorsensoroutput","EDI",1,4
 "pixel","pixel",NA,"pixel","EDI",1,4
@@ -1410,14 +1410,14 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 "NanoMOL-PER-MilliL","nanomolepermilliliter",NA,"nanomolepermilliliter","EDI",1,4
 "NanoMOL-PER-L-DAY","nanomoleperliterperday","http://qudt.org/vocab/unit/NanoMOL-PER-L-DAY","nanomoleperliterperday","EDI",1,4
 "NanoMOL-PER-GM-DAY","nanomolepergramperday",NA,"nanomolepergramperday","EDI",1,4
-"NanoMOL","nanomole",NA,"nanomole","EDI",1,4
+"NanoMOL-e","nanomole",NA,"nanomole","EDI",1,4
 "NanoGM-PER-GM-DAY","nanogramspergramperday",NA,"nanogrampergramperday","EDI",1,4
 "multiple","multiple",NA,"multiple","EDI",1,4
 "mud","mud",NA,"mud","DataOne",1,4
 "minusloghydrogenion","minusloghydrogenion",NA,"minusloghydrogenion","EDI",1,4
 "millionsofpixelsinanimageorsensoroutput","millions of pixels in an image or sensor output",NA,"millionsofpixelsinanimageorsensoroutput","EDI",1,4
 "million-GAL_US","million gallons",NA,"milliongallon","DataOne",1,4
-"millimols-PER-M3-DAY","millimolspermetercubedperday",NA,"millimolspermetercubedperday","EDI",1,4
+"MilliMOL-PER-M3-DAY","millimolspermetercubedperday","http://qudt.org/vocab/unit/MilliMOL-PER-M3-DAY","millimolspermetercubedperday","EDI",1,4
 "MilliMOL-PER-GM","millimolespergram","http://qudt.org/vocab/unit/MilliMOL-PER-GM","millimolepergram","EDI",1,4
 "MilliMOL-oxygen-PER-M2-DAY","millimoles oxygen per meter squared per day",NA,"millimoleoxygenpermetersquaredperday","EDI",1,4
 "MilliMOL-PER-SEC","millimolepersecond",NA,"millimolepersecond","EDI",1,4
@@ -1442,7 +1442,7 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 "MicroMOL-PER-L-HR","micromolesperliterperhour","http://qudt.org/vocab/unit/MicroMOL-PER-L-HR","micromoleperliterperhour","EDI",1,4
 "MicroMOL-PER-M2-MIN","micromolepermetersquaredperminute",NA,"micromolepermeterquaredperminute","EDI",1,4
 "micromolco2-PER-m2sec","micromol co2/m2sec",NA,"micromolco2perm2sec","EDI",1,4
-"MicroGM-PER-CentiM-squared","micrograms/cm2",NA,"microgrampercentimetersquared","EDI",1,4
+"MicroGM-PER-CentiM2","micrograms/cm2",NA,"microgrampercentimetersquared","EDI",1,4
 "MicroGM-PER-L-,<indicatesvaluewaslessthanthelaboratoryreportinglevel","micrograms per liter, < indicates value was less than the laboratory reporting level",NA,"microgramperliter,<indicatesvaluewaslessthanthelaboratoryreportinglevel","DataOne",1,4
 "mgch4-PER-M2-DAY","mgch4/m2/d",NA,"mgch4permetersquaredperday","EDI",1,4
 "mgvermiculitecompositionaltable","mg_vermiculite_compositional_table",NA,"mgvermiculitecompositionaltable","DataOne",1,4
@@ -1477,7 +1477,7 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 "interger","interger",NA,"interger","EDI",1,4
 "ikugrab","iku grab",NA,"ikugrab","DataOne",1,4
 "hydrostaticcore","hydrostatic core",NA,"hydrostaticcore","DataOne",1,4
-"hectoPA","hectorpascal",NA,"hectorpascal","DataOne",1,4
+"HectoPA","hectorpascal","http://qudt.org/vocab/unit/HectoPA","hectorpascal","DataOne",1,4
 "growing-DEG-DAY-(-DEG_C-)","growing degree days (degree c)",NA,"growingdegreeday(degreec)","EDI",1,4
 "green","green",NA,"green","DataOne",1,4
 "gravellysand","gravelly sand",NA,"gravellysand","DataOne",1,4
@@ -1582,7 +1582,7 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 "MicroS-PER-cm,-MicroS-CentiM","us/cm, microsiemens per centimeter",NA,"uspercm,microsiemenspercentimeter","DataOne",1,3
 "MicroS","us","http://qudt.org/vocab/unit/MicroS","us","DataOne",1,3
 "unk","unk",NA,"unk","DataOne",1,3
-"unitless-ratio","unitless - ratio",NA,"unitless-ratio","EDI",1,3
+"UNITLESS-ratio","unitless - ratio",NA,"unitless-ratio","EDI",1,3
 "unitisprovidedinseparatecolumn","unit is provided in separate column",NA,"unitisprovidedinseparatecolumn","EDI",1,3
 "umolsubstrate-PER-gsoil-HR","umolsubstrate/gsoil/hr",NA,"umolsubstratepergsoilperhour","EDI",1,3
 "umolsubstrate-PER-gc-HR","umolsubstrate/gc/hr",NA,"umolsubstratepergcperhour","EDI",1,3
@@ -1600,7 +1600,7 @@ usuallyunderstoodas1per12fafoot.","EDI",1,5
 "thorn2014","thorn 2014",NA,"thorn2014","DataOne",1,3
 "theangulardistanceofaplacenorthorsouthoftheearth'sequatorexpressedin-DEG","the angular distance of a place north or south of the earth's equator expressed in decimal degrees",NA,"theangulardistanceofaplacenorthorsouthoftheearth'sequatorexpressedindecimaldegree","EDI",1,3
 "theangulardistanceofaplaceeastorwestofthemeridianatgreenwich,englandexpressedin-DEG-and-MIN","the angular distance of a place east or west of the meridian at greenwich, england expressed in degrees and minutes",NA,"theangulardistanceofaplaceeastorwestofthemeridianatgreenwich,englandexpressedindegreeandminute","EDI",1,3
-"surveyorsusedchainstomeasuredistances.1-MI_US-is80chains.thereare100links-PER-chain.1chainequals66-FT-or20.1-M-.1linkequals7.92-IN-.","surveyors used chains to measure distances.  1 mile is 80 chains. there are 100 links per chain. 1 chain equals 66 feet or 20.1 meters. 1 link equals 7.92 inches.",NA,"surveyorsusedchainstomeasuredistances.1mileis80chains.thereare100linksperchain.1chainequals66footor20.1meter.1linkequals7.92inches.","EDI",1,3
+"surveyorsused-CH-tomeasuredistances.1-MI_US-is80-CH-.thereare100links-PER-CH-.1-CH-equals66-FT-or20.1-M-.1linkequals7.92-IN-.","surveyors used chains to measure distances.  1 mile is 80 chains. there are 100 links per chain. 1 chain equals 66 feet or 20.1 meters. 1 link equals 7.92 inches.",NA,"surveyorsusedchainstomeasuredistances.1mileis80chains.thereare100linksperchain.1chainequals66footor20.1meter.1linkequals7.92inches.","EDI",1,3
 "structure","structure",NA,"structure","DataOne",1,3
 "stretchedgrayscalespectralbrightness","stretched grayscale spectral brightness",NA,"stretchedgrayscalespectralbrightness","EDI",1,3
 "steve","steve",NA,"steve","DataOne",1,3
@@ -1700,8 +1700,8 @@ electriccurrent.","EDI",1,3
 "nearshorebasin","nearshore basin",NA,"nearshorebasin","DataOne",1,3
 "naturalistdredge","naturalist dredge",NA,"naturalistdredge","DataOne",1,3
 "narragansettbay","narragansett bay",NA,"narragansettbay","DataOne",1,3
-"nanomol-PER-KiloGM-inwater","nanomol/kg in water",NA,"nanomolperkilograminwater","DataOne",1,3
-"nanomol-PER-KiloGM","nanomol/kg",NA,"nanomolperkilogram","DataOne",1,3
+"NanoMOL-PER-KiloGM-inwater","nanomol/kg in water",NA,"nanomolperkilograminwater","DataOne",1,3
+"NanoMOL-PER-KiloGM","nanomol/kg","http://qudt.org/vocab/unit/NanoMOL-PER-KiloGM","nanomolperkilogram","DataOne",1,3
 "NanoGM-PER-CentiM3-DAY","nanogramspercubiccentimeterperday",NA,"nanogrampercubiccentimeterperday","EDI",1,3
 "name","name",NA,"name","DataOne",1,3
 "ms-PER-CentiM","ms/cm",NA,"mspercentimeter","EDI",1,3
@@ -1721,10 +1721,10 @@ electriccurrent.","EDI",1,3
 "miniaturevanveen","miniature van veen",NA,"miniaturevanveen","DataOne",1,3
 "miniseaboss","mini seaboss",NA,"miniseaboss","DataOne",1,3
 "MilliW-PER-M2-ste-RAD-NanoM","milliwattpermetersquaredpersteradianpernanometer",NA,"milliwattpermeterquaredpersteradianpernanometer","EDI",1,3
-"millimols-PER-SEC-M2","millimolspersecondpersquaremeter",NA,"millimolspersecondpersquaremeter","EDI",1,3
+"MilliMOL-PER-SEC-M2","millimolspersecondpersquaremeter",NA,"millimolspersecondpersquaremeter","EDI",1,3
 "millimol-PER-SEC-M2","millimolpersecondpersquaremeter",NA,"millimolpersecondpersquaremeter","EDI",1,3
 "MilliMOL-PER-M3-DAY","millimolespercubicmeterperday","http://qudt.org/vocab/unit/MilliMOL-PER-M3-DAY","millimolepercubicmeterperday","EDI",1,3
-"MilliMOL-carbon-PER-M2-DAY","millimolescarbonpersquaremeterperday",NA,"millimolecarbonpersquaremeterperday","EDI",1,3
+"MilliMOL-_Carbon-PER-M2-DAY","millimolescarbonpersquaremeterperday",NA,"millimolecarbonpersquaremeterperday","EDI",1,3
 "millimol-PER-MOL","millimol per mol",NA,"millimolpermole","DataOne",1,3
 "MilliM-PER-MegaPA-HR","millimeterpermegapascalperhour",NA,"millimeterpermegapascalperhour","EDI",1,3
 "MilliM-PER-half-HR","millimeterperhalfhour",NA,"millimeterperhalfhour","DataOne",1,3
@@ -1780,7 +1780,7 @@ electriccurrent.","EDI",1,3
 "M-DEG_C-PER-SEC","metercelsiuspersecond",NA,"metercelsiuspersecond","EDI",1,3
 "megaripples","megaripples",NA,"megaripples","DataOne",1,3
 "MegaJ-PER-M2","megajoulespersquaremeter","http://qudt.org/vocab/unit/MegaJ-PER-M2","megajoulepersquaremeter","EDI",1,3
-"megabyte","megabyte",NA,"megabyte","EDI",1,3
+"MegaBYTE","megabyte","http://qudt.org/vocab/unit/MegaBYTE","megabyte","EDI",1,3
 "mediumsilt","medium silt",NA,"mediumsilt","DataOne",1,3
 "mediumsand","medium sand",NA,"mediumsand","DataOne",1,3
 "mechanicalarm","mechanical arm",NA,"mechanicalarm","DataOne",1,3
@@ -1852,7 +1852,7 @@ electriccurrent.","EDI",1,3
 "GM-oxygen-PER-M2-DAY","grams oxygen per square meter per day",NA,"gramoxygenpersquaremeterperday","EDI",1,3
 "GM-PER-pt25-M2","gramper_pt25metersquared",NA,"gramperpt25meterquared","EDI",1,3
 "gr","gr",NA,"gr","DataOne",1,3
-"gosanchorchain","gos anchor chain",NA,"gosanchorchain","DataOne",1,3
+"gosanchor-CH","gos anchor chain",NA,"gosanchorchain","DataOne",1,3
 "generator","generator",NA,"generator","DataOne",1,3
 "gcm230mins","gcm-230mins",NA,"gcm-230mins","EDI",1,3
 "ga","ga",NA,"ga","DataOne",1,3
@@ -1865,7 +1865,7 @@ electriccurrent.","EDI",1,3
 "fishdensityintheenclosure,-NUM-offishintotalenclosurespace","fish density in the enclosure, number of fish in total enclosure space",NA,"fishdensityintheenclosure,numberoffishintotalenclosurespace","EDI",1,3
 "finesilt","fine silt",NA,"finesilt","DataOne",1,3
 "finesand","fine sand",NA,"finesand","DataOne",1,3
-"expressionoflatitudean-DeciL-ongitudegeographiccoordinatesasdecimalfractionsofa-DEG","expression of latitude and longitude geographic coordinates as decimal fractions of a degree",NA,"expressionoflatitudeandlongitudegeographiccoordinatesasdecimalfractionsofadegree","EDI",1,3
+"expressionoflatitudean-DeciL-ongitudegeographiccoordinatesasdecimal-FRACTION-sofa-DEG","expression of latitude and longitude geographic coordinates as decimal fractions of a degree",NA,"expressionoflatitudeandlongitudegeographiccoordinatesasdecimalfractionsofadegree","EDI",1,3
 "exclusionarea","exclusion area",NA,"exclusionarea","DataOne",1,3
 "exclusion","exclusion",NA,"exclusion","DataOne",1,3
 "electricalconductivityunits","electrical conductivity units",NA,"electricalconductivityunits","EDI",1,3
@@ -1890,7 +1890,7 @@ electriccurrent.","EDI",1,3
 "DEG-latitude","degrees latitude",NA,"degreelatitude","DataOne",1,3
 "DEG_C-NA","degrees celsius (c)",NA,"degreecelsius(c)","DataOne",1,3
 "DEG-DAY-15","degreeday15",NA,"degreeday15","DataOne",1,3
-"DeciS-PER-metre","decisiemenpermetre",NA,"decisiemenpermetre","DataOne",1,3
+"DeciS-PER-M","decisiemenpermetre","http://qudt.org/vocab/unit/DeciS-PER-M","decisiemenpermetre","DataOne",1,3
 "DEG-north","decimal degrees north",NA,"decimaldegreenorth","DataOne",1,3
 "NUM-PER-MIN","decaysperminute",NA,"decaysperminute","DataOne",1,3
 "DAY-ofvisit,-NUM-edwithmay22=1","day of visit, numbered with may 22 = 1",NA,"dayofvisit,numberedwithmay22=1","DataOne",1,3
@@ -1916,12 +1916,12 @@ electriccurrent.","EDI",1,3
 "cobble","cobble",NA,"cobble","DataOne",1,3
 "coarsesilt","coarse silt",NA,"coarsesilt","DataOne",1,3
 "coarsesand","coarse sand",NA,"coarsesand","DataOne",1,3
-"PER-CentiM-squared-M2","cm^2/m^2",NA,"percentimetersquaredpermetersquared","EDI",1,3
-"chaindredge","chain dredge",NA,"chaindredge","DataOne",1,3
-"chainbag+smpipe","chain bag+sm pipe",NA,"chainbag+smpipe","DataOne",1,3
-"chainbag+pipe","chain bag+pipe",NA,"chainbag+pipe","DataOne",1,3
-"chainbagdredge","chain bag dredge",NA,"chainbagdredge","DataOne",1,3
-"chainbag","chain bag",NA,"chainbag","DataOne",1,3
+"PER-CentiM2-M2","cm^2/m^2",NA,"percentimetersquaredpermetersquared","EDI",1,3
+"CH-dredge","chain dredge",NA,"chaindredge","DataOne",1,3
+"CH-bag+smpipe","chain bag+sm pipe",NA,"chainbag+smpipe","DataOne",1,3
+"CH-bag+pipe","chain bag+pipe",NA,"chainbag+pipe","DataOne",1,3
+"CH-bagdredge","chain bag dredge",NA,"chainbagdredge","DataOne",1,3
+"CH-bag","chain bag",NA,"chainbag","DataOne",1,3
 "CentiM2-PER-YR","centimetersquaredperyear",NA,"centimeterquaredperyear","EDI",1,3
 "CentiM-PER-YR","centimeterperyear",NA,"centimeterperyear","EDI",1,3
 "cells-PER-L","cellsperliter",NA,"cellsperliter","DataOne",1,3
@@ -2028,7 +2028,7 @@ electriccurrent.","EDI",1,3
 "wdx","wdx",NA,"wdx","DataOne",1,2
 "wcsp","wcsp",NA,"wcsp","DataOne",1,2
 "wave-NUM","wavenumber",NA,"wavenumber","EDI",1,2
-"W-PER-squaremetre","watts per square metre",NA,"wattspersquaremetre","DataOne",1,2
+"W-PER-M2","watts per square metre","http://qudt.org/vocab/unit/W-PER-M2","wattspersquaremetre","DataOne",1,2
 "W-HR-PER-M2","watthourspermetersquared",NA,"watthourpermeterquared","EDI",1,2
 "W-HR-PER-M2-DAY","watt hours/square meter/day",NA,"watthourpersquaremeterperday","DataOne",1,2
 "washover","washover",NA,"washover","DataOne",1,2
@@ -2053,7 +2053,7 @@ electriccurrent.","EDI",1,3
 "usda","usda",NA,"usda","DataOne",1,2
 "usa","usa",NA,"usa","DataOne",1,2
 "USDollar","us dollars","http://qudt.org/vocab/unit/USDollar","usdollars","EDI",1,2
-"unitless(normalize-DEG-ata)","unitless (normalized data)",NA,"unitless(normalizeddata)","EDI",1,2
+"UNITLESS-(normalize-DEG-ata)","unitless (normalized data)",NA,"unitless(normalizeddata)","EDI",1,2
 "unitofradioactivity-PER-fluidvolume","unit of radioactivity per fluid volume",NA,"unitofradioactivityperfluidvolume","EDI",1,2
 "unitofinformation","unit of information",NA,"unitofinformation","EDI",1,2
 "unitfortem-PER-atureonthescaleinwhichwaterfreezesat32andboils
@@ -2073,7 +2073,7 @@ at212understandardconditions.","EDI",1,2
 "um-PER-M2","um m-2",NA,"umpermetersquared","EDI",1,2
 "ugnh4-n-PER-gsoil","ugnh4-n/gsoil",NA,"ugnh4-npergsoil","EDI",1,2
 "ugn-PER-gdrymoss-DAY","ugn/gdrymoss/day",NA,"ugnpergdrymossperday","EDI",1,2
-"ugc-PER-CentiM-squared","ugc/cm2",NA,"ugcpercentimetersquared","EDI",1,2
+"ugc-PER-CentiM2","ugc/cm2",NA,"ugcpercentimetersquared","EDI",1,2
 "ug-n-PER-GM-drysoil-DAY","ug-n/g dry soil/day",NA,"ug-npergramdrysoilperday","EDI",1,2
 "ua3","ua3",NA,"ua3","DataOne",1,2
 "ua2","ua2",NA,"ua2","DataOne",1,2
@@ -2239,7 +2239,7 @@ at212understandardconditions.","EDI",1,2
 "PERCENT-outof100","percent out of 100",NA,"percentoutof100","DataOne",1,2
 "PERCENT-ofsaturation","percent of saturation",NA,"percentofsaturation","EDI",1,2
 "PERCENT-nitrogen","percent nitrogen",NA,"percentnitrogen","DataOne",1,2
-"PERCENT-carbon","percent carbon",NA,"percentcarbon","DataOne",1,2
+"PERCENT-_Carbon","percent carbon",NA,"percentcarbon","DataOne",1,2
 "PPM-.","per mil.",NA,"permil.","EDI",1,2
 "PER-1000","per 1000",NA,"per1000","EDI",1,2
 "pef","pef",NA,"pef","DataOne",1,2
@@ -2281,10 +2281,10 @@ at212understandardconditions.","EDI",1,2
 "numericalexpressionoflatitudeorlongitude","numerical expression of latitude or longitude",NA,"numericalexpressionoflatitudeorlongitude","EDI",1,2
 "NUM-PER-KiloM-ofshoreline","numberperkilometerofshoreline",NA,"numberperkilometerofshoreline","DataOne",1,2
 "NUM-plausiblechecks","number plausible checks",NA,"numberplausiblechecks","DataOne",1,2
-"NUM-PER-CentiM-squared","number per centimeter squared",NA,"numberpercentimetersquared","EDI",1,2
+"NUM-PER-CentiM2","number per centimeter squared",NA,"numberpercentimetersquared","EDI",1,2
 "NUM-PER-area","number per area",NA,"numberperarea","EDI",1,2
 "NUM-PER-10-CentiM2","number per 10 square centimeter",NA,"numberper10squarecentimeter","EDI",1,2
-"NUM-oftraprotationsinone-MIN","number of trap rotations in one minute",NA,"numberoftraprotationsinoneminute","EDI",1,2
+"NUM-oftraprotationsi-UNITLESS-MIN","number of trap rotations in one minute",NA,"numberoftraprotationsinoneminute","EDI",1,2
 "NUM-oftransects","number of transects",NA,"numberoftransects","EDI",1,2
 "NUM-ofsamplescollected","number of samples collected",NA,"numberofsamplescollected","DataOne",1,2
 "NUM-ofpasses-PER-locations","number of passes/locations",NA,"numberofpassesperlocations","DataOne",1,2
@@ -2311,10 +2311,10 @@ at212understandardconditions.","EDI",1,2
 "near","near",NA,"near","DataOne",1,2
 "nc","nc",NA,"nc","DataOne",1,2
 "nanoteslas(nt)","nanoteslas (nt)",NA,"nanoteslas(nt)","DataOne",1,2
-"nanomols-PER-GM-SEC","nanomolspergrampersecond",NA,"nanomolspergrampersecond","DataOne",1,2
+"NanoMOL-PER-GM-SEC","nanomolspergrampersecond","http://qudt.org/vocab/unit/NanoMOL-PER-GM-SEC","nanomolspergrampersecond","DataOne",1,2
 "NanoMOL-PER-CentiM2-HR","nanomolepersquarecentimeterperhour",NA,"nanomolepersquarecentimeterperhour","EDI",1,2
 "NanoMOL-PER-count-MIN","nanomolepercountperminute",NA,"nanomolepercountperminute","EDI",1,2
-"nanomolar(nm)","nanomolar (nm)",NA,"nanomolar(nm)","DataOne",1,2
+"NanoMOL-ar(nm)","nanomolar (nm)",NA,"nanomolar(nm)","DataOne",1,2
 "nana-MOL-PER-GM-HR","nanamolepergramperhour",NA,"nanamolepergramperhour","EDI",1,2
 "nan","nan",NA,"nan","DataOne",1,2
 "nag:b-1,4-n-acetylglucosaminidasen-MOL-ofsubstrateconverted-PER-HR-GM-sampledryweight","nag: b-1,4-n-acetylglucosaminidase nmoles of substrate converted per hour per gram sample dry weight",NA,"nag:b-1,4-n-acetylglucosaminidasenmoleofsubstrateconvertedperhourpergramsampledryweight","DataOne",1,2
@@ -2368,7 +2368,7 @@ at212understandardconditions.","EDI",1,2
 "MilliMOL-PER-squared-M-HR","millimolepersquaredmeterperhour",NA,"millimolepersquaredmeterperhour","EDI",1,2
 "MilliMOL-PER-MOL-SEC","millimolepermolepersecond",NA,"millimolepermolepersecond","EDI",1,2
 "MilliMOL-PER-M2-night","millimolepermetersquaredpernight",NA,"millimolepermeterquaredpernight","EDI",1,2
-"millimetres-PER-HR","millimetresperhour",NA,"millimetresperhour","DataOne",1,2
+"MilliM-PER-HR","millimetresperhour","http://qudt.org/vocab/unit/MilliM-PER-HR","millimetresperhour","DataOne",1,2
 "MilliM-PER-unit","millimeterperunit",NA,"millimeterperunit","DataOne",1,2
 "MilliM3","millimetercubed","http://qudt.org/vocab/unit/MilliM3","millimetercubed","EDI",1,2
 "MilliGM-PER-short-NUM-DAY","milligramspershortshootperday",NA,"milligrampershortshootperday","DataOne",1,2
@@ -2390,7 +2390,7 @@ at212understandardconditions.","EDI",1,2
 "MilliGM-PER-HR","milligramperhour","http://qudt.org/vocab/unit/MilliGM-PER-HR","milligramperhour","EDI",1,2
 "MilliGM-PER-GM-MO","milligrampergrampermonth",NA,"milligrampergrampermonth","DataOne",1,2
 "MilliGM-PER-Deci-L","milligramperdeciliter",NA,"milligramperdeciliter","EDI",1,2
-"MilliGM-carbon-PER-M2-DAY","milligramcarbonpermetersquaredperday",NA,"milligramcarbonpermeterquaredperday","EDI",1,2
+"MilliGM-_Carbon-PER-M2-DAY","milligramcarbonpermetersquaredperday",NA,"milligramcarbonpermeterquaredperday","EDI",1,2
 "milliequivalents-PER-Hecto-GM","milliequivalentsperhectogram",NA,"milliequivalentsperhectogram","EDI",1,2
 "milliequivalent","milliequivalent",NA,"milliequivalent","EDI",1,2
 "MilliS-PER-CentiM","milli-siemens per centimeter","http://qudt.org/vocab/unit/MilliS-PER-CentiM","milli-siemenspercentimeter","DataOne",1,2
@@ -2493,12 +2493,12 @@ at212understandardconditions.","EDI",1,2
 "lmgc-1m-1","lmgc-1m-1",NA,"lmgc-1m-1","EDI",1,2
 "l-MilliGM-1m-1","lmg-1m-1",NA,"lmg-1m-1","DataOne",1,2
 "litters-PER-YR","litters/year",NA,"littersperyear","EDI",1,2
-"L-PER-MilliGM-carbon-M","literspermilligramcarbonpermeter",NA,"literpermilligramcarbonpermeter","EDI",1,2
+"L-PER-MilliGM-_Carbon-M","literspermilligramcarbonpermeter",NA,"literpermilligramcarbonpermeter","EDI",1,2
 "L-PER-M-MilliGM","literspermetermilligram",NA,"literpermetermilligram","EDI",1,2
 "L-PER-MilliGM-M","liters per milligram per meter",NA,"literpermilligrampermeter","EDI",1,2
 "L-PER-MilliGM-M2","literpermilligrampermetersquared",NA,"literpermilligrampermeterquared","EDI",1,2
 "L-PER-MilliGM-M","literpermilligrammeter",NA,"literpermilligrammeter","EDI",1,2
-"L-PER-MilliGM-carbon-M","literpermilligramcarbonmeter",NA,"literpermilligramcarbonmeter","EDI",1,2
+"L-PER-MilliGM-_Carbon-M","literpermilligramcarbonmeter",NA,"literpermilligramcarbonmeter","EDI",1,2
 "leastcisco","least cisco",NA,"leastcisco","DataOne",1,2
 "leaf-NUM-PER-short-NUM","leafnumberpershortshoot",NA,"leafnumberpershortshoot","DataOne",1,2
 "ldm2hr-1","ldm-2hr-1",NA,"ldm-2hr-1","EDI",1,2
@@ -2518,7 +2518,7 @@ at212understandardconditions.","EDI",1,2
 "KiloW-PER-M2","kilowatts per meter squared",NA,"kilowattspermetersquared","EDI",1,2
 "KiloM3","kilometercubed",NA,"kilometercubed","EDI",1,2
 "KiloGM-PER-KiloM-quare-YR","kilogramsperkilometersquareperyear",NA,"kilogramperkilometerquareperyear","EDI",1,2
-"KiloGM-carbon-PER-square-KiloM-DAY","kilogramscarbonpersquarekilometerperday",NA,"kilogramcarbonpersquarekilometerperday","EDI",1,2
+"KiloGM-_Carbon-PER-square-KiloM-DAY","kilogramscarbonpersquarekilometerperday",NA,"kilogramcarbonpersquarekilometerperday","EDI",1,2
 "KiloGM-PER-HR","kilogramperhour","http://qudt.org/vocab/unit/KiloGM-PER-HR","kilogramperhour","EDI",1,2
 "killo-GM-PER-HA-DAY","killogramperhectareperday",NA,"killogramperhectareperday","EDI",1,2
 "killo-GM-PER-HA","killogramperhectare",NA,"killogramperhectare","EDI",1,2
@@ -2636,7 +2636,7 @@ at212understandardconditions.","EDI",1,2
 "f2","f2",NA,"f2","DataOne",1,2
 "f1","f1",NA,"f1","DataOne",1,2
 "ficgs-PER-pcbg","f i_cgs / pcbg",NA,"ficgsperpcbg","DataOne",1,2
-"expresslatitudean-DeciL-ongitudegeographiccoordinatesasdecimalfractionsofa-DEG-.","express latitude and longitude geographic coordinates as decimal fractions of a degree.",NA,"expresslatitudeandlongitudegeographiccoordinatesasdecimalfractionsofadegree.","EDI",1,2
+"expresslatitudean-DeciL-ongitudegeographiccoordinatesasdecimal-FRACTION-sofa-DEG-.","express latitude and longitude geographic coordinates as decimal fractions of a degree.",NA,"expresslatitudeandlongitudegeographiccoordinatesasdecimalfractionsofadegree.","EDI",1,2
 "expandedvermiculitesprovenancefigures","expanded_vermiculites_provenance_figures",NA,"expandedvermiculitesprovenancefigures","DataOne",1,2
 "expandedvermiculitesprovenancedia-GM","expanded_vermiculites_provenance_diagram",NA,"expandedvermiculitesprovenancediagram","DataOne",1,2
 "expandedvermiculitesboxandwiskerfigures","expanded_vermiculites_box_and_wisker_figures",NA,"expandedvermiculitesboxandwiskerfigures","DataOne",1,2
@@ -2685,8 +2685,8 @@ at212understandardconditions.","EDI",1,2
 "divergrabs","diver grabs",NA,"divergrabs","DataOne",1,2
 "diver","diver",NA,"diver","DataOne",1,2
 "disintegrations-PER-MIN-L","disintegrationsperminuteperliter",NA,"disintegrationsperminuteperliter","EDI",1,2
-"dimensionlessratio","dimensionless ratio",NA,"dimensionlessratio","DataOne",1,2
-"dimensionless-NUM-,i.e.,ratio,count","dimensionless number, i.e., ratio, count",NA,"dimensionlessnumber,i.e.,ratio,count","EDI",1,2
+"UNITLESS-ratio","dimensionless ratio",NA,"dimensionlessratio","DataOne",1,2
+"UNITLESS-NUM-,i.e.,ratio,count","dimensionless number, i.e., ratio, count",NA,"dimensionlessnumber,i.e.,ratio,count","EDI",1,2
 "depthofsedimentin-CentiM","depth of sediment in cm",NA,"depthofsedimentincentimeter","DataOne",1,2
 "dense","dense",NA,"dense","DataOne",1,2
 "dem","dem",NA,"dem","DataOne",1,2
@@ -2701,7 +2701,7 @@ at212understandardconditions.","EDI",1,2
 "deg-DEG_C","degcelcius",NA,"degcelcius","EDI",1,2
 "deg-min.dm","deg-min.dm",NA,"deg-min.dm","EDI",1,2
 "decmal-DEG","decmal degrees",NA,"decmaldegree","DataOne",1,2
-"DeciS-PER-metre","decisiemenspermetre",NA,"decisiemenspermetre","DataOne",1,2
+"DeciS-PER-M","decisiemenspermetre","http://qudt.org/vocab/unit/DeciS-PER-M","decisiemenspermetre","DataOne",1,2
 "DeciS-PER-M","decisiemenpermeter","http://qudt.org/vocab/unit/DeciS-PER-M","decisiemenpermeter","EDI",1,2
 "decimal-HR","decimalhour",NA,"decimalhour","EDI",1,2
 "DEG-(-DEG-)","decimaldegrees (dd)",NA,"decimaldegree(dd)","EDI",1,2
@@ -2755,13 +2755,13 @@ at212understandardconditions.","EDI",1,2
 "cl","cl",NA,"cl","DataOne",1,2
 "chesapeake","chesapeake",NA,"chesapeake","DataOne",1,2
 "channel","channel",NA,"channel","DataOne",1,2
-"centi-MOL-ofcharge-PER-drysoilweight","centimoles of charge per dry soil weight",NA,"centimoleofchargeperdrysoilweight","EDI",1,2
-"centimetres","centimetres",NA,"centimetres","EDI",1,2
+"Centi-MOL-ofcharge-PER-drysoilweight","centimoles of charge per dry soil weight",NA,"centimoleofchargeperdrysoilweight","EDI",1,2
+"Centi-M-NA","centimetres",NA,"centimetres","EDI",1,2
 "CentiM2-PER-M2","centimetersquaredpermetersquared",NA,"centimeterquaredpermeterquared","EDI",1,2
 "CentiM-(cm)","centimeters (cm)",NA,"centimeter(cm)","DataOne",1,2
 "CentiM-PER-MIN","centimeterperminute",NA,"centimeterperminute","EDI",1,2
 "CentiM-PER-M2","centimeterpermetersquared",NA,"centimeterpermeterquared","EDI",1,2
-"centi-GM","centigram",NA,"centigram","EDI",1,2
+"Centi-GM","centigram",NA,"centigram","EDI",1,2
 "centerofmass","center of mass",NA,"centerofmass","EDI",1,2
 "cef","cef",NA,"cef","DataOne",1,2
 "cb","cb",NA,"cb","DataOne",1,2
@@ -2779,7 +2779,7 @@ at212understandardconditions.","EDI",1,2
 "c1","c1",NA,"c1","DataOne",1,2
 "c,-DEG_C","c, degrees celsius",NA,"c,degreecelsius","DataOne",1,2
 "cicbg","c i_cbg",NA,"cicbg","DataOne",1,2
-"byte","byte",NA,"byte","EDI",1,2
+"BYTE","byte","http://qudt.org/vocab/unit/BYTE","byte","EDI",1,2
 "butte","butte",NA,"butte","DataOne",1,2
 "btcu","btcu",NA,"btcu","DataOne",1,2
 "broadwhitefish","broad whitefish",NA,"broadwhitefish","DataOne",1,2
@@ -2799,7 +2799,7 @@ at212understandardconditions.","EDI",1,2
 "bef","bef",NA,"bef","DataOne",1,2
 "bedrockorboulders","bedrock or boulders",NA,"bedrockorboulders","DataOne",1,2
 "bedforms","bedforms",NA,"bedforms","DataOne",1,2
-"becquerel-PER-MilliGM","becquerelpermilligram",NA,"becquerelpermilligram","EDI",1,2
+"BQ-PER-MilliGM","becquerelpermilligram",NA,"becquerelpermilligram","EDI",1,2
 "beach","beach",NA,"beach","DataOne",1,2
 "BAR-rierinterior","barrierinterior",NA,"barrierinterior","DataOne",1,2
 "backshore","backshore",NA,"backshore","DataOne",1,2
@@ -2840,7 +2840,7 @@ at212understandardconditions.","EDI",1,2
 "a-DEG-sample","add sample",NA,"addsample","DataOne",1,2
 "acp","acp",NA,"acp","DataOne",1,2
 "abundant","abundant",NA,"abundant","DataOne",1,2
-"abundanceind.-PER-mÃ¢Â²","abundance_ind./mÃ¢Â²",NA,"abundanceind.permÃ¢Â²","EDI",1,2
+"NUM-ind.-PER-mÃ¢Â²","abundance_ind./mÃ¢Â²",NA,"abundanceind.permÃ¢Â²","EDI",1,2
 "absorbanceunits","absorbanceunits",NA,"absorbanceunits","EDI",1,2
 "absorbancein-PER-M","absorbance in per meter",NA,"absorbanceinpermeter","EDI",1,2
 "aagfhbr","aa_gf_hbr",NA,"aagfhbr","DataOne",1,2
@@ -2899,7 +2899,7 @@ at212understandardconditions.","EDI",1,2
 "100g","100g",NA,"100g","EDI",1,2
 "1000-M","1000 meters",NA,"1000meter","EDI",1,2
 "100-M","100 meter",NA,"100meter","DataOne",1,2
-"1chain=66-FT","1 chain = 66 feet",NA,"1chain=66foot","EDI",1,2
+"1-CH-=66-FT","1 chain = 66 feet",NA,"1chain=66foot","EDI",1,2
 "<blank>","<blank>",NA,"<blank>","DataOne",1,2
 "+acu","+acu-",NA,"+acu-","EDI",1,2
 "{null}","{null}",NA,"{null}","DataOne",1,2
@@ -2986,7 +2986,7 @@ at212understandardconditions.","EDI",1,2
 "worms","worms",NA,"worms","DataOne",1,1
 "woodyshrub","woodyshrub",NA,"woodyshrub","DataOne",1,1
 "woodsholeharbor","woods hole harbor",NA,"woodsholeharbor","DataOne",1,1
-"wood-CORD-s","wood cords",NA,"woodcords","EDI",1,1
+"wood-CORD-NA","wood cords",NA,"woodcords","EDI",1,1
 "woodbiomassincrement","wood biomass increment",NA,"woodbiomassincrement","DataOne",1,1
 "wood","wood",NA,"wood","DataOne",1,1
 "wmsa","wmsa",NA,"wmsa","DataOne",1,1
@@ -3062,7 +3062,7 @@ at212understandardconditions.","EDI",1,2
 "volumetricprimaryproductionrate","volumetric primary production rate",NA,"volumetricprimaryproductionrate","EDI",1,1
 "volume-PERCENT","volume percent",NA,"volumepercent","DataOne",1,1
 "volumeofwaternecessarytofloodone-AC-oflandtoone-FT-ofdepth,times1000000","volume of water necessary to flood one acre of land to one foot of depth, times 1000000",NA,"volumeofwaternecessarytofloodoneacreoflandtoonefootofdepth,times1000000","EDI",1,1
-"volumeofwaterfilteredbyclamsinone-M2-ofsediment-PER-DAY-.","volume of water filtered by clams in one square meter of sediment per day.",NA,"volumeofwaterfilteredbyclamsinonesquaremeterofsedimentperday.","EDI",1,1
+"volumeofwaterfilteredbyclamsi-UNITLESS-M2-ofsediment-PER-DAY-.","volume of water filtered by clams in one square meter of sediment per day.",NA,"volumeofwaterfilteredbyclamsinonesquaremeterofsedimentperday.","EDI",1,1
 "volumeofsampleinunitsof-CentiM3","volume of sample in units of cubic centimeters",NA,"volumeofsampleinunitsofcubiccentimeter","EDI",1,1
 "volumeofroots(cubiccm)-PER-volumeorsoil(cubiccm)","volume of roots (cubic cm) per volume or soil (cubic cm)",NA,"volumeofroots(cubiccm)pervolumeorsoil(cubiccm)","EDI",1,1
 "V-econd","voltsecond",NA,"voltecond","DataOne",1,1
@@ -3144,18 +3144,18 @@ at212understandardconditions.","EDI",1,2
 "unopies","unopies",NA,"unopies","DataOne",1,1
 "uno","uno",NA,"uno","DataOne",1,1
 "unnamedwesternforkofparadisecreek","unnamed western fork of paradise creek",NA,"unnamedwesternforkofparadisecreek","DataOne",1,1
-"unknown-NUM","unknown species",NA,"unknownspecies","DataOne",1,1
-"unknowndevice","unknown device",NA,"unknowndevice","DataOne",1,1
+"UNITLESS-NUM","unknown species",NA,"unknownspecies","DataOne",1,1
+"UNITLESS-device","unknown device",NA,"unknowndevice","DataOne",1,1
 "unitsunkown","units unkown",NA,"unitsunkown","EDI",1,1
 "unitsofspecificconductance","units of specific conductance",NA,"unitsofspecificconductance","EDI",1,1
 "unitsofmeasureofsalinityin-PPTH","units of measure of salinity in parts per thousand",NA,"unitsofmeasureofsalinityinpartperthousand","EDI",1,1
 "unitshere","units here",NA,"unitshere","DataOne",1,1
 "unitscorrespondto-MO-,-DAY-and-YR-intheformat-MilliM-PER-DEG-yy","units correspond to month, day and year in the format mm/dd/yy",NA,"unitscorrespondtomonth,dayandyearintheformatmillimeterperddperyy","DataOne",1,1
-"unitlessratio","unitless ratio",NA,"unitlessratio","DataOne",1,1
-"unitlessindex","unitless index",NA,"unitlessindex","EDI",1,1
-"unitlessid","unitless id",NA,"unitlessid","EDI",1,1
-"unitlessestimateofwaveenergy","unitless estimate of wave energy",NA,"unitlessestimateofwaveenergy","DataOne",1,1
-"unitlesserosionpotentialestimate","unitless erosion potential estimate",NA,"unitlesserosionpotentialestimate","DataOne",1,1
+"UNITLESS-ratio","unitless ratio",NA,"unitlessratio","DataOne",1,1
+"UNITLESS-index","unitless index",NA,"unitlessindex","EDI",1,1
+"UNITLESS-id","unitless id",NA,"unitlessid","EDI",1,1
+"UNITLESS-estimateofwaveenergy","unitless estimate of wave energy",NA,"unitlessestimateofwaveenergy","DataOne",1,1
+"UNITLESS-erosionpotentialestimate","unitless erosion potential estimate",NA,"unitlesserosionpotentialestimate","DataOne",1,1
 "unitÃ£ÂªofÃ£ÂªpressureÃ£ÂªdefinedÃ£ÂªasÃ£Âª101325Ã£ÂªpaÃ£Âª(1.01325Ã£Âª-BAR-)","unitÃ£ÂªofÃ£ÂªpressureÃ£ÂªdefinedÃ£ÂªasÃ£Âª101325Ã£ÂªpaÃ£Âª(1.01325Ã£Âªbar)",NA,"unitÃ£ÂªofÃ£ÂªpressureÃ£ÂªdefinedÃ£ÂªasÃ£Âª101325Ã£ÂªpaÃ£Âª(1.01325Ã£Âªbar)","EDI",1,1
 "unitofvolume","unit of volume",NA,"unitofvolume","EDI",1,1
 "unitofturbidity","unit of turbidity",NA,"unitofturbidity","EDI",1,1
@@ -3217,7 +3217,7 @@ at212understandardconditions.","EDI",1,2
 "tundering","tundering",NA,"tundering","DataOne",1,1
 "tullylimes-TON_US-e","tully limestone",NA,"tullylimestone","DataOne",1,1
 "tule-01","tule-01",NA,"tule-01","DataOne",1,1
-"tualatinriverkee-PER-s","tualatin river keepers",NA,"tualatinriverkeepers","DataOne",1,1
+"tualatinriverkee-PER-NA","tualatin river keepers",NA,"tualatinriverkeepers","DataOne",1,1
 "tualatinhillsparkandrecdistrict","tualatin hills park and rec district",NA,"tualatinhillsparkandrecdistrict","DataOne",1,1
 "tu","tu",NA,"tu","DataOne",1,1
 "ttkno3","tt_kno3",NA,"ttkno3","DataOne",1,1
@@ -3282,7 +3282,7 @@ at212understandardconditions.","EDI",1,2
 "thousandsof-USDollar-(1987value)","thousands of us dollars (1987 value)",NA,"thousandsofusdollars(1987value)","EDI",1,1
 "thousandboard-FT-PER-AC","thousandboardfootperacre",NA,"thousandboardfootperacre","EDI",1,1
 "thisvalueisafterthedataiscorrectedusingcalibrationdata","this value is after the data is corrected using calibration data",NA,"thisvalueisafterthedataiscorrectedusingcalibrationdata","EDI",1,1
-"thismeasurementhasnounits","this measurement has no units",NA,"thismeasurementhasnounits","EDI",1,1
+"thismeasurementhas-UNITLESS","this measurement has no units",NA,"thismeasurementhasnounits","EDI",1,1
 "thinsed","thin sed",NA,"thinsed","DataOne",1,1
 "thieler","thieler",NA,"thieler","DataOne",1,1
 "thicksed","thick sed",NA,"thicksed","DataOne",1,1
@@ -3293,7 +3293,7 @@ at212understandardconditions.","EDI",1,2
 "the-YR-andseasonofsamplecollection:1=winter,2=spring,3=summer,4=fall","the year and season of sample collection: 1 = winter, 2 = spring, 3 = summer, 4 = fall",NA,"theyearandseasonofsamplecollection:1=winter,2=spring,3=summer,4=fall","DataOne",1,1
 "theweekof-YR-thatsamplingoccurred.1-52","the week of year that sampling occurred. 1 - 52",NA,"theweekofyearthatsamplingoccurred.1-52","EDI",1,1
 "theuvabsorbanceat254-NanoM-measuredin-PER-M-dividedbythedocconcentrationmeasuredin-MilliGM-L","the uv absorbance at 254 nanometers measured in inverse meters divided by the doc concentration measured in milligrams per liter",NA,"theuvabsorbanceat254nanometermeasuredininversemeterdividedbythedocconcentrationmeasuredinmilligramperliter","EDI",1,1
-"theunitsofturbidityfromacalibratednephelo-M-arecalled-NTU-s","the units of turbidity from a calibrated nephelometer are called nephelometric turbidity units",NA,"theunitsofturbidityfromacalibratednephelometerarecallednephelometricturbidityunits","EDI",1,1
+"theunitsofturbidityfromacalibratednephelo-M-arecalled-NTU-NA","the units of turbidity from a calibrated nephelometer are called nephelometric turbidity units",NA,"theunitsofturbidityfromacalibratednephelometerarecallednephelometricturbidityunits","EDI",1,1
 "theunitusedtomeasuretheturbidityofafluidorthepresenceofsuspendedparticlesinwater","the unit used to measure the turbidity of a fluid or the presence of suspended particles in water",NA,"theunitusedtomeasuretheturbidityofafluidorthepresenceofsuspendedparticlesinwater","EDI",1,1
 "thestart-NUM-oftheflow-M-rotor","the start number of the flowmeter rotor",NA,"thestartnumberoftheflowmeterrotor","EDI",1,1
 "the-NUM-richnessofthesector,calculatedbycountingthetotal-NUM-
@@ -3332,7 +3332,7 @@ aspectrophoto-M-,model20.","the negative log 10 of percent transmission as measu
 aspectrophotometer,model20.","EDI",1,1
 "thenatureconservancy","the nature conservancy",NA,"thenatureconservancy","DataOne",1,1
 "the-MO-lydemar-TONNE-aridityindex:theratioofprecipitationandtem-PER-aturesinan-MO-ly-iod.","the monthly de martonne aridity index: the ratio of precipitation and temperatures in an monthly period.",NA,"themonthlydemartonnearidityindex:theratioofprecipitationandtemperaturesinanmonthlyperiod.","EDI",1,1
-"thelog-likelihoodfunctionmeasuresthegoodnessoffitofastatisticalmodeltoasampleofdataforgivenvaluesoftheunknownpara-M-.","the log-likelihood function measures the goodness of fit of a statistical model to a sample of data for given values of the unknown parameters.",NA,"thelog-likelihoodfunctionmeasuresthegoodnessoffitofastatisticalmodeltoasampleofdataforgivenvaluesoftheunknownparameter.","EDI",1,1
+"thelog-likelihoodfunctionmeasuresthegoodnessoffitofastatisticalmodeltoasampleofdataforgivenvaluesofthe-UNITLESS-para-M-.","the log-likelihood function measures the goodness of fit of a statistical model to a sample of data for given values of the unknown parameters.",NA,"thelog-likelihoodfunctionmeasuresthegoodnessoffitofastatisticalmodeltoasampleofdataforgivenvaluesoftheunknownparameter.","EDI",1,1
 "thelabelforeachboard.1-40","the label for each board. 1 - 40",NA,"thelabelforeachboard.1-40","EDI",1,1
 "theintensityoflightscatteredat90-DEG-incidenttoabeamoflightprojectedthroughthesample","the intensity of light scattered at 90 degrees incident to a beam of light projected through the sample",NA,"theintensityoflightscatteredat90degreeincidenttoabeamoflightprojectedthroughthesample","EDI",1,1
 "theend-NUM-oftheflow-M-rotor","the end number of the flowmeter rotor",NA,"theendnumberoftheflowmeterrotor","EDI",1,1
@@ -3485,10 +3485,10 @@ aspectrophotometer,model20.","EDI",1,1
 "sr-PPM-edx","sr_ppm_edx",NA,"srpartpermillionedx","DataOne",1,1
 "sr-PPM-aesst","sr_ppm_aes_st",NA,"srpartpermillionaesst","DataOne",1,1
 "squared-CentiM-PER-leaf-DAY","squaredcentimetersperleafperday",NA,"squaredcentimeterperleafperday","EDI",1,1
-"squarecenti-M-PER-SEC-DAY","squarecentimeterspersecondperday",NA,"squarecentimeterpersecondperday","EDI",1,1
+"square-Centi-M-PER-SEC-DAY","squarecentimeterspersecondperday",NA,"squarecentimeterpersecondperday","EDI",1,1
 "squarerootof-KiloGM-PER-HA","square root of kilograms per hectare",NA,"squarerootofkilogramperhectare","EDI",1,1
 "squaremill-M","square millmeters",NA,"squaremillmeter","EDI",1,1
-"M2-PER-square-SEC","square meters per square second",NA,"squaremeterpersquaresecond","DataOne",1,1
+"M2-PER-SEC2","square meters per square second","http://qudt.org/vocab/unit/M2-PER-SEC2","squaremeterpersquaresecond","DataOne",1,1
 "CentiM2-PER-M2-measured","square centimeters per square meter measured",NA,"squarecentimeterpersquaremetermeasured","EDI",1,1
 "square-KiloM","square-kilometers",NA,"square-kilometer","DataOne",1,1
 "spsa","spsa",NA,"spsa","DataOne",1,1
@@ -3507,7 +3507,7 @@ aspectrophotometer,model20.","EDI",1,1
 "specifchumidity","specifc humidity",NA,"specifchumidity","EDI",1,1
 "specifcheatatconstantpressureofambientair","specifc heat at constant pressure of ambient air",NA,"specifcheatatconstantpressureofambientair","EDI",1,1
 "NUM-countina0.3-M2-sector","species count in a 0.3 meter squared sector",NA,"speciescountina0.3metersquaredsector","EDI",1,1
-"NUM-abundance-NUM-collected-PER-squared-M","species abundance individuals collected per squared meter",NA,"speciesabundanceindividualscollectedpersquaredmeter","EDI",1,1
+"NUM-NUM-NUM-collected-PER-squared-M","species abundance individuals collected per squared meter",NA,"speciesabundanceindividualscollectedpersquaredmeter","EDI",1,1
 "sparsegrassland","sparse grassland",NA,"sparsegrassland","DataOne",1,1
 "spainsegreriver","spain segre river",NA,"spainsegreriver","DataOne",1,1
 "spadcorrespondstotheamountofchlorophyllinaplantleafanditsgreenness.spadiscalculatedusingtheratioofred(~650nm)andinfrared(~940nm)lightintensitiesemittedbyleds,transmittedbytheleaf,andconvertedtoelectricalsignals.formoreinformation,seeusermanualforspad502chlorophyll-M-(konicaminolta).","spad corresponds to the amount of chlorophyll in a plant leaf and its greenness. spad is calculated using the ratio of red (~650 nm) and infrared (~940 nm) light intensities emitted by leds, transmitted by the leaf, and converted to electrical signals. for more information, see user manual for spad 502 chlorophyll meters (konica minolta).",NA,"spadcorrespondstotheamountofchlorophyllinaplantleafanditsgreenness.spadiscalculatedusingtheratioofred(~650nm)andinfrared(~940nm)lightintensitiesemittedbyleds,transmittedbytheleaf,andconvertedtoelectricalsignals.formoreinformation,seeusermanualforspad502chlorophyllmeter(konicaminolta).","EDI",1,1
@@ -3574,7 +3574,7 @@ aspectrophotometer,model20.","EDI",1,1
 "siteidcanecreekid-021","site id cane creek id-021",NA,"siteidcanecreekid-021","DataOne",1,1
 "sio2pctwdxfuse","sio2_pct_wdx_fuse",NA,"sio2pctwdxfuse","DataOne",1,1
 "sio2","sio2",NA,"sio2","DataOne",1,1
-"singletreeselection","singletreeselection",NA,"singletreeselection","DataOne",1,1
+"single-NUM-election","singletreeselection",NA,"singletreeselection","DataOne",1,1
 "singleplex","singleplex",NA,"singleplex","DataOne",1,1
 "single","single",NA,"single","DataOne",1,1
 "simuliidae","simuliidae",NA,"simuliidae","DataOne",1,1
@@ -3993,7 +3993,7 @@ northeasternaspect.","EDI",1,1
 "prairiedogs","prairie dogs",NA,"prairiedogs","DataOne",1,1
 "PSU-y","practicalsalinityunity",NA,"practicalsalinityunity","EDI",1,1
 "practicalsalinityscale","practicalsalinityscale",NA,"practicalsalinityscale","EDI",1,1
-"PSU-s:thepracticalsalinityscale,practicalsalinityisdefinedintermsoftheratiok15oftheelectricalconductivityoftheseawatersample,atatem-PER-atureof15Ã¢Â°candapressureofonestandard-ATM-,tothatofapotassiumchloride(kcl)solution,inwhichthemassfractionofkclis32.4356x103atthesametem-atureandpressure.","practical salinity units:  the practical salinity scale, practical salinity is defined in terms of the ratio k15 of the electrical conductivity of the seawater sample, at a temperature of 15Ã¢Â° c and a pressure of one standard atmosphere, to that of a potassium chloride (kcl) solution, in which the mass fraction of kcl is 32.4356 x 10-3 at the same temperature and pressure.",NA,"practicalsalinityunits:thepracticalsalinityscale,practicalsalinityisdefinedintermsoftheratiok15oftheelectricalconductivityoftheseawatersample,atatemperatureof15Ã¢Â°candapressureofonestandardatmosphere,tothatofapotassiumchloride(kcl)solution,inwhichthemassfractionofkclis32.4356x10-3atthesametemperatureandpressure.","EDI",1,1
+"PSU-s:thepracticalsalinityscale,practicalsalinityisdefinedintermsoftheratiok15oftheelectricalconductivityoftheseawatersample,atatem-PER-atureof15Ã¢Â°candapressureofonestandard-ATM-,tothatofapotassiumchloride(kcl)solution,inwhichthemass-FRACTION-ofkclis32.4356x103atthesametem-atureandpressure.","practical salinity units:  the practical salinity scale, practical salinity is defined in terms of the ratio k15 of the electrical conductivity of the seawater sample, at a temperature of 15Ã¢Â° c and a pressure of one standard atmosphere, to that of a potassium chloride (kcl) solution, in which the mass fraction of kcl is 32.4356 x 10-3 at the same temperature and pressure.",NA,"practicalsalinityunits:thepracticalsalinityscale,practicalsalinityisdefinedintermsoftheratiok15oftheelectricalconductivityoftheseawatersample,atatemperatureof15Ã¢Â°candapressureofonestandardatmosphere,tothatofapotassiumchloride(kcl)solution,inwhichthemassfractionofkclis32.4356x10-3atthesametemperatureandpressure.","EDI",1,1
 "PSU-sareequivalenttounitsofboth-PPM-and-PPTH-(ppt).","practical salinity units are equivalent to units of both permil and parts per thousand (ppt).",NA,"practicalsalinityunitsareequivalenttounitsofbothpermilandpartperthousand(ppt).","EDI",1,1
 "PSU-s(psu)","practical salinity units (psu)",NA,"practicalsalinityunits(psu)","DataOne",1,1
 "pr-PPM-msstree","pr_ppm_ms_st_ree",NA,"prpartpermillionmsstree","DataOne",1,1
@@ -4061,11 +4061,11 @@ northeasternaspect.","EDI",1,1
 "PicoMOL-co2-PER-SEC","picomolesco2persecond",NA,"picomoleco2persecond","EDI",1,1
 "PicoMOL-PER-L-ofsolution-HR-(concentrationf-LUX-)","picomoles per liter of solution per hour (concentration flux)",NA,"picomoleperliterofsolutionperhour(concentrationflux)","EDI",1,1
 "PicoGM-PER-MilliL","picograms per milliliter","http://qudt.org/vocab/unit/PicoGM-PER-MilliL","picogrampermilliliter","EDI",1,1
-"PicoGM-carbon","picogramcarbon",NA,"picogramcarbon","EDI",1,1
+"PicoGM-_Carbon","picogramcarbon",NA,"picogramcarbon","EDI",1,1
 "picocuries-PER-L-(pci-l)","picocuries per liter(pci/l)",NA,"picocuriesperliter(pciperl)","DataOne",1,1
 "pibo","pibo",NA,"pibo","DataOne",1,1
 "piacenzian","piacenzian",NA,"piacenzian","DataOne",1,1
-"phytoplank-TON_US-abundance,countedina1mmx1mmx0.1mm
+"phytoplank-TON_US-NUM-,countedina1mmx1mmx0.1mm
 
 
 hemocyto-M-.forthe-NUM-ofcells-PER-ml,multiplyvaluesby
@@ -4084,7 +4084,7 @@ hemocytometer.forthenumberofcellsperml,multiplyvaluesby
 
 
 10^4.","EDI",1,1
-"phytoplank-TON_US-abundance,countedina1mmx1mmx0.1mm
+"phytoplank-TON_US-NUM-,countedina1mmx1mmx0.1mm
 
 
 hemocyto-M-,multipliedbybiomassas-MicroM3-.","phytoplankton abundance, counted in a 1mm x 1mm x 0.1mm
@@ -4094,7 +4094,7 @@ hemocyto-M-,multipliedbybiomassas-MicroM3-.","phytoplankton abundance, counted i
 
 
 hemocytometer,multipliedbybiomassasmicrometercubed.","EDI",1,1
-"phytoplank-TON_US-abundance,countedina1mmx1mmx0.1mm
+"phytoplank-TON_US-NUM-,countedina1mmx1mmx0.1mm
 
 
 hemocyto-M-,multipliedbyafactorbasedonfeedingavailabilityand
@@ -4196,7 +4196,7 @@ musthavethesamedimensions.","EDI",1,1
 "pb","pb",NA,"pb","DataOne",1,1
 "pat","pat",NA,"pat","DataOne",1,1
 "passeriformes","passeriformes",NA,"passeriformes","DataOne",1,1
-"PA-PER-hectoPA","pascalperhectopascal",NA,"pascalperhectopascal","EDI",1,1
+"PA-PER-HectoPA","pascalperhectopascal",NA,"pascalperhectopascal","EDI",1,1
 "PPTH-relativetostandard","parts per thousand relative to standard",NA,"partperthousandrelativetostandard","EDI",1,1
 "PPTH-relativetoastandard","parts per thousand relative to a standard",NA,"partperthousandrelativetoastandard","EDI",1,1
 "PPM-,roughlyequivalentto-MilliGM-PER-L","parts per million, roughly equivalent to milligram per liter",NA,"partpermillion,roughlyequivalenttomilligramperliter","EDI",1,1
@@ -4230,7 +4230,7 @@ musthavethesamedimensions.","EDI",1,1
 "outliers","outliers",NA,"outliers","DataOne",1,1
 "outeryukon-kuskokwimdelta,alaska","outer yukon-kuskokwim delta, alaska",NA,"outeryukon-kuskokwimdelta,alaska","DataOne",1,1
 "outcrop","outcrop",NA,"outcrop","DataOne",1,1
-"OZ-s","ounces",NA,"ounces","EDI",1,1
+"OZ-NA","ounces",NA,"ounces","EDI",1,1
 "OZ-(oz)","ounce (oz)",NA,"ounce(oz)","EDI",1,1
 "other(oil,drowning,cardiovascular)","other (oil, drowning, cardiovascular)",NA,"other(oil,drowning,cardiovascular)","DataOne",1,1
 "oth","oth",NA,"oth","DataOne",1,1
@@ -4250,7 +4250,7 @@ musthavethesamedimensions.","EDI",1,1
 "onetenth-IN-usedinsnowcoursedatafordepthofsnowandsnowwaterequivalent","one tenth inch used in snow course data for depth of snow and snow water equivalent",NA,"onetenthinchusedinsnowcoursedatafordepthofsnowandsnowwaterequivalent","EDI",1,1
 "one-PPM-part,decimalratiomultipliedby1000000","one part per million parts, decimal ratio multiplied by 1000000",NA,"onepartpermillionpart,decimalratiomultipliedby1000000","EDI",1,1
 "one-MIN-excludingleap-SEC-,60-SEC","one minute excluding leap seconds, 60 seconds",NA,"oneminuteexcludingleapsecond,60second","EDI",1,1
-"onebecquerel(bq)isdefinedastheactivityofaquantityofradioactivematerialinwhichonenucle-MicroS-NUM-PER-SEC-.thebqunitisthereforeequivalenttoaninverse-SEC-,s^1.(wikipedia)","one becquerel (bq) is defined as the activity of a quantity of radioactive material in which one nucleus decays per second. the bq unit is therefore equivalent to an inverse second, s^1.  (wikipedia)",NA,"onebecquerel(bq)isdefinedastheactivityofaquantityofradioactivematerialinwhichonenucleusdecayspersecond.thebqunitisthereforeequivalenttoaninversesecond,s^1.(wikipedia)","EDI",1,1
+"one-BQ-(bq)isdefinedastheactivityofaquantityofradioactivematerialinwhichonenucle-MicroS-NUM-PER-SEC-.thebqunitisthereforeequivalenttoaninverse-SEC-,s^1.(wikipedia)","one becquerel (bq) is defined as the activity of a quantity of radioactive material in which one nucleus decays per second. the bq unit is therefore equivalent to an inverse second, s^1.  (wikipedia)",NA,"onebecquerel(bq)isdefinedastheactivityofaquantityofradioactivematerialinwhichonenucleusdecayspersecond.thebqunitisthereforeequivalenttoaninversesecond,s^1.(wikipedia)","EDI",1,1
 "on.shelf","on.shelf",NA,"on.shelf","DataOne",1,1
 "omnivore","omnivore",NA,"omnivore","DataOne",1,1
 "omega","omega",NA,"omega","EDI",1,1
@@ -4278,7 +4278,7 @@ musthavethesamedimensions.","EDI",1,1
 "nwfwmdmay2010data","nwfwmd_may2010_data",NA,"nwfwmdmay2010data","DataOne",1,1
 "nwfwmdsitei-DeciL-istedinotid","nwfwmd site_id  listed in otid",NA,"nwfwmdsiteidlistedinotid","DataOne",1,1
 "nunavut","nunavut",NA,"nunavut","DataOne",1,1
-"numericalcount(nounits)","numerical count (no units)",NA,"numericalcount(nounits)","EDI",1,1
+"numericalcount(-UNITLESS-)","numerical count (no units)",NA,"numericalcount(nounits)","EDI",1,1
 "NUM-representingstandar-DEG-eviationofbathymetricelevationvalues","numbers representing standard deviation of bathymetric elevation values",NA,"numberrepresentingstandarddeviationofbathymetricelevationvalues","DataOne",1,1
 "NUM-representingnormalizedintensityvalues","numbers representing normalized intensity values",NA,"numberrepresentingnormalizedintensityvalues","DataOne",1,1
 "NUM-PER-YR","numberperyear","http://qudt.org/vocab/unit/NUM-PER-YR","numberperyear","EDI",1,1
@@ -4402,8 +4402,8 @@ ofinvasiverustycrayfish(faxoniusrusticus)""","EDI",1,1
 "no;inaccuratedatabecauseofcanal","no; inaccurate data because of canal",NA,"no;inaccuratedatabecauseofcanal","DataOne",1,1
 "no;dateisnotsummer","no; date is not summer",NA,"no;dateisnotsummer","DataOne",1,1
 "no;dateismissing","no; date is missing",NA,"no;dateismissing","DataOne",1,1
-"nounitsforthisvalue","no units for this value",NA,"nounitsforthisvalue","EDI",1,1
-"nounitsarenecessaryforlogid's","no units are necessary for log id's",NA,"nounitsarenecessaryforlogid's","EDI",1,1
+"UNITLESS-forthisvalue","no units for this value",NA,"nounitsforthisvalue","EDI",1,1
+"UNITLESS-arenecessaryforlogid's","no units are necessary for log id's",NA,"nounitsarenecessaryforlogid's","EDI",1,1
 "nounit,geographicinformation","no unit, geographic information",NA,"nounit,geographicinformation","EDI",1,1
 "noplague","no plague",NA,"noplague","DataOne",1,1
 "nojugaspp.observedatthesamplesite","no juga spp. observed at the sample site",NA,"nojugaspp.observedatthesamplesite","DataOne",1,1
@@ -4485,14 +4485,14 @@ ofinvasiverustycrayfish(faxoniusrusticus)""","EDI",1,1
 "nationalforestvisit","national forest visit",NA,"nationalforestvisit","DataOne",1,1
 "nashuanationalfishhatchery,nh(stockfrompenobscotriver,me)","nashua national fish hatchery, nh (stock from penobscot river, me)",NA,"nashuanationalfishhatchery,nh(stockfrompenobscotriver,me)","DataOne",1,1
 "nanophyetussalmincola","nanophyetus salmincola",NA,"nanophyetussalmincola","DataOne",1,1
-"nanomol-PER-L-DAY","nanomolperliterperday",NA,"nanomolperliterperday","EDI",1,1
+"NanoMOL-PER-L-DAY","nanomolperliterperday","http://qudt.org/vocab/unit/NanoMOL-PER-L-DAY","nanomolperliterperday","EDI",1,1
 "NanoMOL-PER-CentiM2-MIN","nanomolespercentimetersquaredperminute",NA,"nanomolepercentimeterquaredperminute","EDI",1,1
-"NanoMOL-ofsubstrateconverted-PER-HR-GM-ofdrysoil.","nanomoles of substrate converted per hour per gram of dry soil.",NA,"nanomoleofsubstrateconvertedperhourpergramofdrysoil.","EDI",1,1
-"NanoMOL-ofplfa-PER-GM-ofdrysoil","nanomoles of plfa per gram of dry soil",NA,"nanomoleofplfapergramofdrysoil","EDI",1,1
+"NanoMOL-eofsubstrateconverted-PER-HR-GM-ofdrysoil.","nanomoles of substrate converted per hour per gram of dry soil.",NA,"nanomoleofsubstrateconvertedperhourpergramofdrysoil.","EDI",1,1
+"NanoMOL-eofplfa-PER-GM-ofdrysoil","nanomoles of plfa per gram of dry soil",NA,"nanomoleofplfapergramofdrysoil","EDI",1,1
 "NanoMOL-PER-MOL-SEC","nanomolepermolepersecond",NA,"nanomolepermolepersecond","EDI",1,1
 "NanoMOL-PER-MIN","nanomoleperminute",NA,"nanomoleperminute","EDI",1,1
-"nanomolar","nanomolar",NA,"nanomolar","DataOne",1,1
-"nanomol-PER-MOL","nanomol per mol",NA,"nanomolpermole","DataOne",1,1
+"NanoMOL-ar","nanomolar",NA,"nanomolar","DataOne",1,1
+"NanoMOL-PER-MOL","nanomol per mol",NA,"nanomolpermole","DataOne",1,1
 "nanograp-PER-GM-HR","nanograp per gram per hour",NA,"nanograppergramperhour","EDI",1,1
 "NanoGM-PER-CentiM2-MIN","nanogramspersquarecentimeterperminute",NA,"nanogrampersquarecentimeterperminute","EDI",1,1
 "NanoGM-nitrogen-PER-CentiM2-HR","nanogramsnitrogenpersquarecentimeterperhour",NA,"nanogramnitrogenpersquarecentimeterperhour","DataOne",1,1
@@ -4519,7 +4519,7 @@ ofinvasiverustycrayfish(faxoniusrusticus)""","EDI",1,1
 "n8011minnavsort.shp","n80_1_1minnav_sort.shp",NA,"n8011minnavsort.shp","DataOne",1,1
 "n-PER-HA","n/ha",NA,"nperhectare","DataOne",1,1
 "n-PER-MilliM","n mm-1",NA,"npermillimeter","DataOne",1,1
-"n-PER-CentiM-squared","n cm-2",NA,"npercentimetersquared","DataOne",1,1
+"n-PER-CentiM2","n cm-2",NA,"npercentimetersquared","DataOne",1,1
 "namerica","n america",NA,"namerica","DataOne",1,1
 "mytilustrossulus","mytilus trossulus",NA,"mytilustrossulus","DataOne",1,1
 "myso","myso",NA,"myso","DataOne",1,1
@@ -4608,7 +4608,7 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "moderatelowheatload","moderate low heat load",NA,"moderatelowheatload","DataOne",1,1
 "moderatehighheatload","moderate high heat load",NA,"moderatehighheatload","DataOne",1,1
 "modeledestimateofdielf-LUX-ofwatercolumnnetaquaticproductivityatmid-depthofwatercolumn.","modeled estimate of diel flux of water column net aquatic productivity at mid-depth of water column.",NA,"modeledestimateofdielfluxofwatercolumnnetaquaticproductivityatmid-depthofwatercolumn.","EDI",1,1
-"modelsimulation-NUM-,unitless","model simulation number, unitless",NA,"modelsimulationnumber,unitless","EDI",1,1
+"modelsimulation-NUM-,-UNITLESS","model simulation number, unitless",NA,"modelsimulationnumber,unitless","EDI",1,1
 "mod","mod",NA,"mod","DataOne",1,1
 "mobilesediment","mobile sediment",NA,"mobilesediment","DataOne",1,1
 "mobileandimmobilesediment","mobile and immobile sediment",NA,"mobileandimmobilesediment","DataOne",1,1
@@ -4648,10 +4648,10 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "millivots","millivots",NA,"millivots","EDI",1,1
 "MilliS-PER-M","millisiemenspermeter","http://qudt.org/vocab/unit/MilliS-PER-M","millisiemenspermeter","EDI",1,1
 "MilliS-PER-CentiM-(ms-cm)","millisiemenspercentimeter (ms/cm)",NA,"millisiemenspercentimeter(mspercm)","EDI",1,1
-"MilliS-PERCENT-imetre","millisiemens per centimetre",NA,"millisiemenspercentimetre","EDI",1,1
+"MilliS-PERCENT-i-M","millisiemens per centimetre",NA,"millisiemenspercentimetre","EDI",1,1
 "MilliS-PER-CentiM","milliseimenpercentimeter","http://qudt.org/vocab/unit/MilliS-PER-CentiM","milliseimenpercentimeter","EDI",1,1
 "million-M3","millioncubicmeters",NA,"millioncubicmeter","EDI",1,1
-"million-LB-s","million pounds",NA,"millionpounds","DataOne",1,1
+"million-LB-NA","million pounds",NA,"millionpounds","DataOne",1,1
 "million-BAR-relsofngl-PER-km2","million barrels of ngl / km2",NA,"millionbarrelsofnglperkm2","DataOne",1,1
 "million-BAR-rels-PER-km2","million barrels / km2",NA,"millionbarrelsperkm2","DataOne",1,1
 "MilliMOL-PER-M-quare-SEC","millimolespermetersquarepersecond",NA,"millimolepermeterquarepersecond","DataOne",1,1
@@ -4695,8 +4695,8 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "MilliGM-sulfur-PER-L","milligrams sulfur per liter",NA,"milligramsulfurperliter","EDI",1,1
 "MilliGM-phosphor-MicroS-PER-L","milligrams phosphorus per liter",NA,"milligramphosphorusperliter","EDI",1,1
 "MilliGM-PER-M2-DAY","milligrams per meter squared per day","http://qudt.org/vocab/unit/MilliGM-PER-M2-DAY","milligrampermetersquaredperday","EDI",1,1
-"MilliGM-PER-litre","milligrams per litre",NA,"milligramperlitre","EDI",1,1
-"MilliGM-PER-L-carbon","milligrams per liter carbon",NA,"milligramperlitercarbon","DataOne",1,1
+"MilliGM-PER-L","milligrams per litre","http://qudt.org/vocab/unit/MilliGM-PER-L","milligramperlitre","EDI",1,1
+"MilliGM-PER-L-_Carbon","milligrams per liter carbon",NA,"milligramperlitercarbon","DataOne",1,1
 "MilliGM-PER-L-(-MilliGM-l),valueof-9999denotesdatanotcollected","milligrams per liter (mg/l), value of -9999 denotes data not collected",NA,"milligramperliter(mgperl),valueof-9999denotesdatanotcollected","DataOne",1,1
 "MilliGM-PER-L-(-MilliGM-l),<indicatesvaluewaslessthanthelaboratoryreportinglevel","milligrams per liter (mg/l), < indicates value was less than the laboratory reporting level",NA,"milligramperliter(mgperl),<indicatesvaluewaslessthanthelaboratoryreportinglevel","DataOne",1,1
 "MilliGM-PER-KiloGM-,orequivalently-PPM","milligrams per kilogram, or equivalently parts per million",NA,"milligramperkilogram,orequivalentlypartpermillion","DataOne",1,1
@@ -4726,14 +4726,14 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "MilliGM-of[s1]hydrocarbons-MilliGM-of[s1+s2]hydrocarbons","milligrams of [s1] hydrocarbons milligrams of [s1 + s2] hydrocarbons",NA,"milligramof[s1]hydrocarbonsmilligramof[s1+s2]hydrocarbons","DataOne",1,1
 "MilliGM-nitrogen-PER-CentiM2-soilsurfaceareaintegratedthroughthetop7.6-CentiM-ofsoildepth","milligrams nitrogen per square centimeter soil surface area integrated through the top 7.6 cm of soil depth",NA,"milligramnitrogenpersquarecentimetersoilsurfaceareaintegratedthroughthetop7.6centimeterofsoildepth","EDI",1,1
 "MilliGM-dissolvedoxygen-PER-L-DAY","milligrams dissolved oxygen per liter per day",NA,"milligramdissolvedoxygenperliterperday","EDI",1,1
-"MilliGM-carbon-PER-CentiM2-soilsurfaceareaintegratedthroughthetop7.6-CentiM-ofsoildepth","milligrams carbon per square centimeter soil surface area integrated through the top 7.6 cm of soil depth",NA,"milligramcarbonpersquarecentimetersoilsurfaceareaintegratedthroughthetop7.6centimeterofsoildepth","EDI",1,1
-"MilliGM-carbon-PER-L-(mgc-l)","milligrams carbon per liter (mg c/l)",NA,"milligramcarbonperliter(mgcperl)","DataOne",1,1
+"MilliGM-_Carbon-PER-CentiM2-soilsurfaceareaintegratedthroughthetop7.6-CentiM-ofsoildepth","milligrams carbon per square centimeter soil surface area integrated through the top 7.6 cm of soil depth",NA,"milligramcarbonpersquarecentimetersoilsurfaceareaintegratedthroughthetop7.6centimeterofsoildepth","EDI",1,1
+"MilliGM-_Carbon-PER-L-(mgc-l)","milligrams carbon per liter (mg c/l)",NA,"milligramcarbonperliter(mgcperl)","DataOne",1,1
 "MilliGM-PER-L-ascalciumcarbonate","milligramperliterascalciumcarbonate",NA,"milligramperliterascalciumcarbonate","EDI",1,1
 "MilliGM-PER-KiloGM-MO","milligramperkilogrampermonth",NA,"milligramperkilogrampermonth","DataOne",1,1
 "MilliGM-PER-GM-dryweight","milligrampergramdryweight",NA,"milligrampergramdryweight","EDI",1,1
 "MilliGM-nitrogen-PER-KiloGM-drysoil-DAY","milligramnitrogenperkilogramdrysoilperday",NA,"milligramnitrogenperkilogramdrysoilperday","EDI",1,1
-"MilliGM-carbon-PER-GM-drysoil-HR","milligramcarbonpergramdrysoilperhour",NA,"milligramcarbonpergramdrysoilperhour","EDI",1,1
-"MilliGM-carbon-PER-genecopy-HR","milligramcarbonpergenecopyperhour",NA,"milligramcarbonpergenecopyperhour","EDI",1,1
+"MilliGM-_Carbon-PER-GM-drysoil-HR","milligramcarbonpergramdrysoilperhour",NA,"milligramcarbonpergramdrysoilperhour","EDI",1,1
+"MilliGM-_Carbon-PER-genecopy-HR","milligramcarbonpergenecopyperhour",NA,"milligramcarbonpergenecopyperhour","EDI",1,1
 "MilliGM-ofphosphor-MicroS-PER-GM-drysediment","milligram of phosphorus per gram dry sediment",NA,"milligramofphosphoruspergramdrysediment","EDI",1,1
 "MilliGM-ofmethane-PER-M2-DAY","milligram of methane per square meter per day",NA,"milligramofmethanepersquaremeterperday","DataOne",1,1
 "MilliGM-ofelement-PER-GM-ofmaterial","milligram of element per gram of material",NA,"milligramofelementpergramofmaterial","EDI",1,1
@@ -4759,7 +4759,7 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "MilliGM-PER-L-DAY","miligramsperliterperday",NA,"miligramperliterperday","EDI",1,1
 "MilliGM-PPM-i-L","miligrampermililiter",NA,"miligrampermililiter","DataOne",1,1
 "MilliGM-PER-KiloGM","miligram per kilogram","http://qudt.org/vocab/unit/MilliGM-PER-KiloGM","miligramperkilogram","EDI",1,1
-"MilliGM-carbon-PER-M2-DAY","miligram-carbon per square meter per day",NA,"miligram-carbonpersquaremeterperday","EDI",1,1
+"MilliGM-_Carbon-PER-M2-DAY","miligram-carbon per square meter per day",NA,"miligram-carbonpersquaremeterperday","EDI",1,1
 "MilliBAR","mili bar","http://qudt.org/vocab/unit/MilliBAR","milibar","EDI",1,1
 "MI-PER-HR-(mph)","miles per hour (mph)",NA,"mileperhour(mph)","DataOne",1,1
 "miillion-M3","miillion cubic meters",NA,"miillioncubicmeter","DataOne",1,1
@@ -4840,14 +4840,14 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "MicroGM-ofcarbon-PER-CentiM2-HR","microgram of carbon per squarecentimeters per hour",NA,"microgramofcarbonpersquarecentimeterperhour","DataOne",1,1
 "MicroGM-ofcarbon-PER-GM-ofdrysoil-DAY","microgram of carbon per gram of dry soil per day",NA,"microgramofcarbonpergramofdrysoilperday","EDI",1,1
 "MicroGM-c-PER-gafdm-HR","microgc/gafdm/hr",NA,"microgcpergafdmperhour","DataOne",1,1
-"MicroGM-c-PER-CentiM-squared-HR","microgc/cm2/hr",NA,"microgcpercentimetersquaredperhour","DataOne",1,1
+"MicroGM-c-PER-CentiM2-HR","microgc/cm2/hr",NA,"microgcpercentimetersquaredperhour","DataOne",1,1
 "MicroGM-PER-microl","microg/microl",NA,"microgpermicrol","DataOne",1,1
 "microequivalents-PER-100-GM-solution;concentrationofcharge(ondissolvedions).conversionsmustknowthenameoftheion;asinglemultipliertosiisnotpossible","microequivalents per 100 g solution; concentration of charge (on dissolved ions). conversions must know the name of the ion; a single multiplier to si is not possible",NA,"microequivalentsper100gramsolution;concentrationofcharge(ondissolvedions).conversionsmustknowthenameoftheion;asinglemultipliertosiisnotpossible","EDI",1,1
 "microequivalents-PER-100-GM-solution","microequivalents per 100 g solution",NA,"microequivalentsper100gramsolution","EDI",1,1
 "microequivalentofions-PER-100gofsoil-NA","microequivalent of ions per 100g of soil (?)",NA,"microequivalentofionsper100gofsoil(?)","EDI",1,1
-"MicroMOL-s","microeinsteins",NA,"microeinsteins","DataOne",1,1
+"MicroMOL-NA","microeinsteins",NA,"microeinsteins","DataOne",1,1
 "MicroMOL-PER-M2","microeinsteinpermetersquared","http://qudt.org/vocab/unit/MicroMOL-PER-M2","microeinsteinpermeterquared","EDI",1,1
-"microbecquerel-PER-GM","microbecquerelpergram",NA,"microbecquerelpergram","DataOne",1,1
+"MicroBQ-PER-GM","microbecquerelpergram",NA,"microbecquerelpergram","DataOne",1,1
 "MicroATM-s(microatm)","microatmospheres (microatm)",NA,"microatmospheres(microatm)","DataOne",1,1
 "MicroATM-=.101325-PA","microatmosphere = .101325 pascals",NA,"microatmosphere=.101325pascal","EDI",1,1
 "MicroGM-PER-10cm2-buriallength","micro grams/10cm2/burial length",NA,"microgramper10cm2perburiallength","EDI",1,1
@@ -4883,32 +4883,32 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "mgso4-PER-L","mg so4 / l",NA,"mgso4perliter","EDI",1,1
 "MilliGM-SEC-PER-L","mg s/l",NA,"mgsecondperliter","EDI",1,1
 "MilliGM-PER-GM-drysoil","mg per g dry soil",NA,"mgpergramdrysoil","DataOne",1,1
-"mgorganicmatter-PER-CentiM-squared","mg organic matter / cm^2",NA,"mgorganicmatterperpercentimetersquared","EDI",1,1
+"mgorganicmatter-PER-CentiM2","mg organic matter / cm^2",NA,"mgorganicmatterperpercentimetersquared","EDI",1,1
 "mgorgn-PER-KiloGM-drysoil","mg org n / kg dry soil",NA,"mgorgnperkilogramdrysoil","EDI",1,1
-"mgorgn-PER-CentiM-squared","mg org n / cm^2",NA,"mgorgnperpercentimetersquared","EDI",1,1
+"mgorgn-PER-CentiM2","mg org n / cm^2",NA,"mgorgnperpercentimetersquared","EDI",1,1
 "mgorgc-PER-GM-drysoil","mg org c / g dry soil",NA,"mgorgcpergramdrysoil","EDI",1,1
-"mgorgc-PER-CentiM-squared","mg org c / cm^2",NA,"mgorgcperpercentimetersquared","EDI",1,1
+"mgorgc-PER-CentiM2","mg org c / cm^2",NA,"mgorgcperpercentimetersquared","EDI",1,1
 "mgopo4-p-PER-L","mg opo4-p / l",NA,"mgopo4-pperliter","EDI",1,1
 "mgnon-mobilen-PER-KiloGM-drysoil","mg non-mobile n / kg dry soil",NA,"mgnon-mobilenperkilogramdrysoil","EDI",1,1
-"mgnon-mobilen-PER-CentiM-squared","mg non-mobile n / cm^2",NA,"mgnon-mobilenperpercentimetersquared","EDI",1,1
+"mgnon-mobilen-PER-CentiM2","mg non-mobile n / cm^2",NA,"mgnon-mobilenperpercentimetersquared","EDI",1,1
 "mgnon-mobilec-PER-GM-drysoil","mg non-mobile c / g dry soil",NA,"mgnon-mobilecpergramdrysoil","EDI",1,1
-"mgnon-mobilec-PER-CentiM-squared","mg non-mobile c / cm^2",NA,"mgnon-mobilecperpercentimetersquared","EDI",1,1
+"mgnon-mobilec-PER-CentiM2","mg non-mobile c / cm^2",NA,"mgnon-mobilecperpercentimetersquared","EDI",1,1
 "mgno3-n-PER-GM-soil","mg no3-n / g soil",NA,"mgno3-npergramsoil","EDI",1,1
 "mgn-PER-GM-soil","mg n/g soil",NA,"mgnpergramsoil","EDI",1,1
 "mgn-PER-mgsample","mg n per mg sample",NA,"mgnpermgsample","EDI",1,1
-"mgn-PER-CentiM-squared","mg n / cm^2",NA,"mgnperpercentimetersquared","EDI",1,1
+"mgn-PER-CentiM2","mg n / cm^2",NA,"mgnperpercentimetersquared","EDI",1,1
 "mgmineraln-PER-KiloGM-drysoil","mg mineral n / kg dry soil",NA,"mgmineralnperkilogramdrysoil","EDI",1,1
-"mgmineraln-PER-CentiM-squared","mg mineral n / cm^2",NA,"mgmineralnperpercentimetersquared","EDI",1,1
+"mgmineraln-PER-CentiM2","mg mineral n / cm^2",NA,"mgmineralnperpercentimetersquared","EDI",1,1
 "mghc-PER-mgco2","mg hc/mg co2",NA,"mghcpermgco2","DataOne",1,1
-"mgfineparticles-PER-CentiM-squared","mg fine particles / cm^2",NA,"mgfineparticlesperpercentimetersquared","EDI",1,1
+"mgfineparticles-PER-CentiM2","mg fine particles / cm^2",NA,"mgfineparticlesperpercentimetersquared","EDI",1,1
 "mgco2-PER-GM-toc","mg co2/g toc",NA,"mgco2pergramtoc","DataOne",1,1
 "mgcl-PER-L","mg cl / l",NA,"mgclperliter","EDI",1,1
 "mgc-PER-mgsample","mg c per mg sample",NA,"mgcpermgsample","EDI",1,1
-"mgc-PER-CentiM-squared","mg c / cm^2",NA,"mgcperpercentimetersquared","EDI",1,1
+"mgc-PER-CentiM2","mg c / cm^2",NA,"mgcperpercentimetersquared","EDI",1,1
 "mgactiven-PER-KiloGM-drysoil","mg active n / kg dry soil",NA,"mgactivenperkilogramdrysoil","EDI",1,1
-"mgactiven-PER-CentiM-squared","mg active n / cm^2",NA,"mgactivenperpercentimetersquared","EDI",1,1
+"mgactiven-PER-CentiM2","mg active n / cm^2",NA,"mgactivenperpercentimetersquared","EDI",1,1
 "mgactivec-PER-GM-drysoil","mg active c / g dry soil",NA,"mgactivecpergramdrysoil","EDI",1,1
-"mgactivec-PER-CentiM-squared","mg active c / cm^2",NA,"mgactivecperpercentimetersquared","EDI",1,1
+"mgactivec-PER-CentiM2","mg active c / cm^2",NA,"mgactivecperpercentimetersquared","EDI",1,1
 "TON_Metric-PER-HA","metrictonperhectare","http://qudt.org/vocab/unit/TON_Metric-PER-HA","metrictonperhectare","EDI",1,1
 "TON_Metric-or-TONNE","metric ton or tonne",NA,"metrictonortonne","EDI",1,1
 "M2-PER-hectar","meterssquared per hectar",NA,"metersquaredperhectar","EDI",1,1
@@ -4939,7 +4939,7 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "meganmiller","megan miller",NA,"meganmiller","DataOne",1,1
 "MegaL-PER-KiloM2","megaliterperkilometersquared",NA,"megaliterperkilometerquared","EDI",1,1
 "MegaJ-PER-M2-DAY","megajoules per square meter per day",NA,"megajoulepersquaremeterperday","EDI",1,1
-"MegaJ-PER-CentiM-squared-YR","megajoule per cm2 per year",NA,"megajoulepercentimetersquaredperyear","EDI",1,1
+"MegaJ-PER-CentiM2-YR","megajoule per cm2 per year",NA,"megajoulepercentimetersquaredperyear","EDI",1,1
 "mediumsandandgravel","medium sand and gravel",NA,"mediumsandandgravel","DataOne",1,1
 "mediumgravel","medium gravel",NA,"mediumgravel","DataOne",1,1
 "med","med",NA,"med","DataOne",1,1
@@ -5050,7 +5050,7 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "littlequilcene","little quilcene",NA,"littlequilcene","DataOne",1,1
 "litterfall","litterfall",NA,"litterfall","DataOne",1,1
 "L-PER-MilliGM","literspermilligrams",NA,"literpermilligram","EDI",1,1
-"L-PER-MilliGM-carbon-M-.","literspermilligram-carbonpermeter.",NA,"literpermilligram-carbonpermeter.","EDI",1,1
+"L-PER-MilliGM-_Carbon-M-.","literspermilligram-carbonpermeter.",NA,"literpermilligram-carbonpermeter.","EDI",1,1
 "L-PER-HR","litersperhour","http://qudt.org/vocab/unit/L-PER-HR","literperhour","EDI",1,1
 "L-PER-MilliGM-ofcarbon-M","liters per milligram of carbon per meter",NA,"literpermilligramofcarbonpermeter","EDI",1,1
 "L-PER-L","liters per liter","http://qudt.org/vocab/unit/L-PER-L","literperliter","EDI",1,1
@@ -5108,7 +5108,7 @@ standardunit=meterquaredperkilogram","EDI",1,1
 "latrine","latrine",NA,"latrine","DataOne",1,1
 "latitudinalmeasurement","latitudinal measurement",NA,"latitudinalmeasurement","EDI",1,1
 "latitudelongitude","latitudelongitude",NA,"latitudelongitude","DataOne",1,1
-"latitudeorlongitudeingeographiccoordinatesasdecimalfractionsofa
+"latitudeorlongitudeingeographiccoordinatesasdecimal-FRACTION-sofa
 
 
 -DEG","latitude or longitude in geographic coordinates as decimal fractions of a
@@ -5128,7 +5128,7 @@ degree","EDI",1,1
 "largemouthbass","largemouth bass",NA,"largemouthbass","DataOne",1,1
 "largeorganismscountedin100mlsubsamples.","large organisms counted in 100ml subsamples.",NA,"largeorganismscountedin100mlsubsamples.","EDI",1,1
 "largefish-PER-M3-PER30-MIN","large fish/metercubed/30 minute",NA,"largefishpermetercubedper30minute","EDI",1,1
-"CAL-PER-CentiM2-s","langleys",NA,"langleys","EDI",1,1
+"CAL-PER-CentiM2-NA","langleys",NA,"langleys","EDI",1,1
 "langaraisland","langara island",NA,"langaraisland","DataOne",1,1
 "landfastice","landfast ice",NA,"landfastice","DataOne",1,1
 "lamontpeak","lamont peak",NA,"lamontpeak","DataOne",1,1
@@ -5237,7 +5237,7 @@ degree","EDI",1,1
 "J-PER-CentiM2","joulespersquarecentimeter","http://qudt.org/vocab/unit/J-PER-CentiM2","joulepersquarecentimeter","EDI",1,1
 "J-PER-M-quare","joulespermetersquare",NA,"joulepermeterquare","EDI",1,1
 "J-PER-M2","joules per meter squared","http://qudt.org/vocab/unit/J-PER-M2","joulepermetersquared","EDI",1,1
-"J-PER-squarecentimetre[j-cmÃ¢Â²]","joulepersquarecentimetre[j/cmÃ¢Â²]",NA,"joulepersquarecentimetre[jpercmÃ¢Â²]","EDI",1,1
+"J-PER-square-Centi-M-[j-cmÃ¢Â²]","joulepersquarecentimetre[j/cmÃ¢Â²]",NA,"joulepersquarecentimetre[jpercmÃ¢Â²]","EDI",1,1
 "J-PER-MOL","joulepermole","http://qudt.org/vocab/unit/J-PER-MOL","joulepermole","EDI",1,1
 "J-PER-K-KiloGM","jouleperkelvinperkilogram",NA,"jouleperkelvinperkilogram","EDI",1,1
 "J-captured-PER-squared-M","joule captured per squared meter",NA,"joulecapturedpersquaredmeter","EDI",1,1
@@ -5397,7 +5397,7 @@ degree","EDI",1,1
 "herbivore","herbivore",NA,"herbivore","DataOne",1,1
 "hemiptera","hemiptera",NA,"hemiptera","DataOne",1,1
 "hemipelagic","hemipelagic",NA,"hemipelagic","DataOne",1,1
-"hectoPA-(hpa)","hectopascal (hpa)",NA,"hectopascal(hpa)","DataOne",1,1
+"HectoPA-(hpa)","hectopascal (hpa)",NA,"hectopascal(hpa)","DataOne",1,1
 "headshake","head shake",NA,"headshake","DataOne",1,1
 "hdc","hdc",NA,"hdc","DataOne",1,1
 "hclo4","hclo4",NA,"hclo4","DataOne",1,1
@@ -5493,11 +5493,11 @@ degree","EDI",1,1
 "GM-drymass-PER-M2-YR-15cmdepthinterval","gramsdrymasspersquaremeterperyearper15cmdepthinterval",NA,"gramdrymasspersquaremeterperyearper15cmdepthinterval","EDI",1,1
 "GM-drymass-PER-M2-15cmdepthinterval","gramsdrymasspersquaremeterper15cmdepthinterval",NA,"gramdrymasspersquaremeterper15cmdepthinterval","EDI",1,1
 "GM-cellulose-PER-GM-litter","gramscellulosepergramlitter",NA,"gramcellulosepergramlitter","EDI",1,1
-"GM-carbon-PER-M2-HR","gramscarbonpersquaremeterperhour",NA,"gramcarbonpersquaremeterperhour","DataOne",1,1
+"GM-_Carbon-PER-M2-HR","gramscarbonpersquaremeterperhour",NA,"gramcarbonpersquaremeterperhour","DataOne",1,1
 "GM-Ã£Âª-PER-Ã£Âª-HA-Ã£Âª-Ã£Âª-DAY","gramsÃ£ÂªperÃ£ÂªhectareÃ£ÂªperÃ£Âªday",NA,"gramÃ£ÂªperÃ£ÂªhectareÃ£ÂªperÃ£Âªday","EDI",1,1
 "GM-PER-square-FT","grams/square foot",NA,"grampersquarefoot","EDI",1,1
 "GM-PER-mete","grams/mete",NA,"grampermete","DataOne",1,1
-"GM-PER-CentiM-squared","grams/cm^2",NA,"gramperpercentimetersquared","DataOne",1,1
+"GM-PER-CentiM2","grams/cm^2","http://qudt.org/vocab/unit/GM-PER-CentiM2","gramperpercentimetersquared","DataOne",1,1
 "GM-weightchange-PER-DAY","grams weight change per day",NA,"gramweightchangeperday","EDI",1,1
 "GM-PER-M2-YR-(g-M2-yr)","grams per meter squared per year (g m2/yr)",NA,"grampermetersquaredperyear(gmetersquaredperyr)","DataOne",1,1
 "GM-PER-M2-CentiM","grams per meter squared per centimeter",NA,"grampermetersquaredpercentimeter","EDI",1,1
@@ -5509,7 +5509,7 @@ degree","EDI",1,1
 "GM-ofnitrogenaccumulated-PER-GM-ofsoil-M2","grams of nitrogen accumulated per gram of soil per meter squared",NA,"gramofnitrogenaccumulatedpergramofsoilpermetersquared","EDI",1,1
 "GM-ofnitrogenaccumulated-PER-GM-ofresin-DAY","grams of nitrogen accumulated per gram of resin per day",NA,"gramofnitrogenaccumulatedpergramofresinperday","EDI",1,1
 "GM-ina-KiloGM","grams in a kilogram",NA,"graminakilogram","EDI",1,1
-"GM-drysoil-PER-cubiccentimenter","grams dry soil per cubic centimenter",NA,"gramdrysoilpercubiccentimenter","EDI",1,1
+"GM-drysoil-PER-cubic-CentiM","grams dry soil per cubic centimenter",NA,"gramdrysoilpercubiccentimenter","EDI",1,1
 "GM-drymass-PER-M3-SEC","grams dry mass per meter cubed per second",NA,"gramdrymasspermetercubedpersecond","EDI",1,1
 "GM-drymass-PER-M3","grams dry mass per meter cubed",NA,"gramdrymasspermetercubed","EDI",1,1
 "GM-CentiM","grams-centimeter",NA,"gram-centimeter","EDI",1,1
@@ -5519,13 +5519,13 @@ degree","EDI",1,1
 "GM-PER-GM-*100","grampergram *100",NA,"grampergram*100","EDI",1,1
 "GM-PER-1750-CentiM-qubed","gramper1750centimeterqubed",NA,"gramper1750centimeterqubed","EDI",1,1
 "GM-dryplantbiomass-PER-YR","gramdryplantbiomassperyear",NA,"gramdryplantbiomassperyear","EDI",1,1
-"GM-carbon-PER-KiloGM-drysoil","gramcarbonperkilogramdrysoil",NA,"gramcarbonperkilogramdrysoil","EDI",1,1
+"GM-_Carbon-PER-KiloGM-drysoil","gramcarbonperkilogramdrysoil",NA,"gramcarbonperkilogramdrysoil","EDI",1,1
 "GM-PER-YR-M2","gram per year per meter squared",NA,"gramperyearpermetersquared","EDI",1,1
 "GM-PER-KiloGM-substance","gram per kilogram substance",NA,"gramperkilogramsubstance","EDI",1,1
-"GM-PER-CentiM-squared","gram per centimeter squared",NA,"grampercentimetersquared","EDI",1,1
+"GM-PER-CentiM2","gram per centimeter squared","http://qudt.org/vocab/unit/GM-PER-CentiM2","grampercentimetersquared","EDI",1,1
 "GM-ofmaterial-PER-M3-ofair","gram of material per cubic meter of air",NA,"gramofmaterialpercubicmeterofair","EDI",1,1
 "GM-leaf-PER-GM-sample","gram leaf per gram sample",NA,"gramleafpergramsample","EDI",1,1
-"GM-carbon-PER-M2-DAY","gram-carbon per square meter per day",NA,"gram-carbonpersquaremeterperday","EDI",1,1
+"GM-_Carbon-PER-M2-DAY","gram-carbon per square meter per day",NA,"gram-carbonpersquaremeterperday","EDI",1,1
 "grabs","grabs",NA,"grabs","DataOne",1,1
 "gr-sd","gr-sd",NA,"gr-sd","DataOne",1,1
 "gpo","gpo",NA,"gpo","DataOne",1,1
@@ -5553,7 +5553,7 @@ degree","EDI",1,1
 "gh2o-PER-gdrysoil","gh2o/gdrysoil",NA,"gh2opergdrysoil","EDI",1,1
 "geotechrefridgeratedvan:re02","geotech refridgerated van: re02",NA,"geotechrefridgeratedvan:re02","DataOne",1,1
 "geologicsurveyofalabama(gsa)","geologic survey of alabama (gsa)",NA,"geologicsurveyofalabama(gsa)","DataOne",1,1
-"geographiccoordinatesexpressedasdecimalfractionsofa-DEG","geographic coordinates expressed as decimal fractions of a degree",NA,"geographiccoordinatesexpressedasdecimalfractionsofadegree","EDI",1,1
+"geographiccoordinatesexpressedasdecimal-FRACTION-sofa-DEG","geographic coordinates expressed as decimal fractions of a degree",NA,"geographiccoordinatesexpressedasdecimalfractionsofadegree","EDI",1,1
 "geneseoshalemember","geneseo shale member",NA,"geneseoshalemember","DataOne",1,1
 "geneseeformation","genesee formation",NA,"geneseeformation","DataOne",1,1
 "genbankaccession-NUM","genbank accession number",NA,"genbankaccessionnumber","DataOne",1,1
@@ -5584,7 +5584,7 @@ degree","EDI",1,1
 "GM-PER-1000cm3","g/1000cm3",NA,"gramper1000cm3","DataOne",1,1
 "GM-PER-0.09m2","g/0.09m2",NA,"gramper0.09m2","EDI",1,1
 "GM-wosc-PER-squarem","g wosc / square m",NA,"gramwoscpersquarem","EDI",1,1
-"GM-water-PER-CentiM-squared","g water / cm^2",NA,"gramwaterperpercentimetersquared","EDI",1,1
+"GM-water-PER-CentiM2","g water / cm^2",NA,"gramwaterperpercentimetersquared","EDI",1,1
 "GM-massloss-PER-GM-drysoil*100","g mass loss/g dry soil * 100",NA,"grammasslosspergramdrysoil*100","EDI",1,1
 "GM-m^2","g m^-2",NA,"gramm^-2","EDI",1,1
 "GM-bpca(b3-b6)-PER-KiloGM-soil","g bpca (b3-b6) / kg soil",NA,"grambpca(b3-b6)perkilogramsoil","EDI",1,1
@@ -5603,8 +5603,8 @@ degree","EDI",1,1
 "frnl82-7","frnl82-7",NA,"frnl82-7","DataOne",1,1
 "freshwater","freshwater",NA,"freshwater","DataOne",1,1
 "free-fallcore","free-fall core",NA,"free-fallcore","DataOne",1,1
-"fractional-DAY-of-YR","fractional day of year",NA,"fractionaldayofyear","EDI",1,1
-"fractionofsamplethatisleaf-GM-leaf-PER-GM-sample","fraction of sample that is leaf gram leaf per gram sample",NA,"fractionofsamplethatisleafgramleafpergramsample","EDI",1,1
+"FRACTION-al-DAY-of-YR","fractional day of year",NA,"fractionaldayofyear","EDI",1,1
+"FRACTION-ofsamplethatisleaf-GM-leaf-PER-GM-sample","fraction of sample that is leaf gram leaf per gram sample",NA,"fractionofsamplethatisleafgramleafpergramsample","EDI",1,1
 "formazinturbidityunit","formazin turbidity unit",NA,"formazinturbidityunit","EDI",1,1
 "formazinnephelometricunits(fnu)","formazin nephelometric units (fnu)",NA,"formazinnephelometricunits(fnu)","DataOne",1,1
 "formazinnephelometricunit<ca>","formazin nephelometric unit<ca>",NA,"formazinnephelometricunit<ca>","EDI",1,1
@@ -5680,7 +5680,7 @@ concentrationofsuspendedparticlesinasampleofwater(turbidity).","EDI",1,1
 "fepctessq","fe_pct_es_sq",NA,"fepctessq","DataOne",1,1
 "fepctaesst","fe_pct_aes_st",NA,"fepctaesst","DataOne",1,1
 "fe","fe",NA,"fe","DataOne",1,1
-"fathoms","fathoms",NA,"fathoms","DataOne",1,1
+"FATH-NA","fathoms",NA,"fathoms","DataOne",1,1
 "farmford-upstream","farm ford-upstream",NA,"farmford-upstream","DataOne",1,1
 "farmford-downstream","farm ford-downstream",NA,"farmford-downstream","DataOne",1,1
 "fair-to-poor","fair-to-poor",NA,"fair-to-poor","DataOne",1,1
@@ -5697,7 +5697,7 @@ concentrationofsuspendedparticlesinasampleofwater(turbidity).","EDI",1,1
 "f.sand","f. sand",NA,"f.sand","DataOne",1,1
 "f,-DEG_F","f, degrees fahrenheit",NA,"f,degreefahrenheit","DataOne",1,1
 "eywa","eywa",NA,"eywa","DataOne",1,1
-"expressionoflatitudeand-PER-orlongitudegeographiccoordinatesasdecimalfractionsofa-DEG","expression of latitude and/or longitude geographic coordinates as decimal fractions of a degree",NA,"expressionoflatitudeandperorlongitudegeographiccoordinatesasdecimalfractionsofadegree","EDI",1,1
+"expressionoflatitudeand-PER-orlongitudegeographiccoordinatesasdecimal-FRACTION-sofa-DEG","expression of latitude and/or longitude geographic coordinates as decimal fractions of a degree",NA,"expressionoflatitudeandperorlongitudegeographiccoordinatesasdecimalfractionsofadegree","EDI",1,1
 "exposed-TON_US-.salmincola","exposed to n. salmincola",NA,"exposedton.salmincola","DataOne",1,1
 "exposedglacialdrift","exposed glacial drift",NA,"exposedglacialdrift","DataOne",1,1
 "ex-PER-imentalid","experimental id",NA,"experimentalid","EDI",1,1
@@ -5760,7 +5760,7 @@ concentrationofsuspendedparticlesinasampleofwater(turbidity).","EDI",1,1
 "electricalconductanceforlowerconductivity","electrical conductance for lower conductivity",NA,"electricalconductanceforlowerconductivity","EDI",1,1
 "electric-M-readinginunitsof-KiloW-HR-(kwh)","electric meter reading in units of kilowatt-hour (kwh)",NA,"electricmeterreadinginunitsofkilowatt-hour(kwh)","EDI",1,1
 "electricconductivityat25-DEG_C-entigrade","electric conductivity at 25 degrees centigrade",NA,"electricconductivityat25degreecentigrade","EDI",1,1
-"electricconductanceofthesoilinunitsofÃ®Â¼s-PER-CentiM-squared","electric conductance of the soil in units of Ã®Â¼s/cm2",NA,"electricconductanceofthesoilinunitsofÃ®Â¼spercentimetersquared","EDI",1,1
+"electricconductanceofthesoilinunitsofÃ®Â¼s-PER-CentiM2","electric conductance of the soil in units of Ã®Â¼s/cm2",NA,"electricconductanceofthesoilinunitsofÃ®Â¼spercentimetersquared","EDI",1,1
 "electricconductanceofsoilintheunitsof-MilliS-PER-CentiM","electric conductance of soil in the units of millisiemenpercentimeter",NA,"electricconductanceofsoilintheunitsofmillisiemenpercentimeter","EDI",1,1
 "electricconductanceoflakewaterintheunitsof-MicroS-PER-CentiM","electric conductance of lake water in the units of microsiemenspercentimeter",NA,"electricconductanceoflakewaterintheunitsofmicrosiemenspercentimeter","EDI",1,1
 "ek,mw","ek, mw",NA,"ek,mw","DataOne",1,1
@@ -5842,7 +5842,7 @@ concentrationofsuspendedparticlesinasampleofwater(turbidity).","EDI",1,1
 "direct","direct",NA,"direct","DataOne",1,1
 "diptera","diptera",NA,"diptera","DataOne",1,1
 "dimensionsless","dimensionsless",NA,"dimensionsless","EDI",1,1
-"dimensionless-NUM-,i.e.,count","dimensionless number, i.e., count",NA,"dimensionlessnumber,i.e.,count","EDI",1,1
+"UNITLESS-NUM-,i.e.,count","dimensionless number, i.e., count",NA,"dimensionlessnumber,i.e.,count","EDI",1,1
 "diggings","diggings",NA,"diggings","DataOne",1,1
 "digging","digging",NA,"digging","DataOne",1,1
 "differenceinprobability","difference in probability",NA,"differenceinprobability","EDI",1,1
@@ -6045,8 +6045,8 @@ andelectromotiveforce.1volt=kilogram*metersquared*s^-3*a^-1","EDI",1,1
 "countoforganismcatch-PER-M3-ofwatersampled","count of organism catch per cubic meter of water sampled",NA,"countoforganismcatchpercubicmeterofwatersampled","EDI",1,1
 "countof-NUM-of-DAY-thatgoby","count of number of days that go by",NA,"countofnumberofdaythatgoby","EDI",1,1
 "countforseedbank-PERCENT-foraboveground","count for seed bank percent for aboveground",NA,"countforseedbankpercentforaboveground","EDI",1,1
-"count(unitless)","count (unitless)",NA,"count(unitless)","EDI",1,1
-"coulomb","coulomb",NA,"coulomb","DataOne",1,1
+"count(-UNITLESS-)","count (unitless)",NA,"count(unitless)","EDI",1,1
+"C","coulomb","http://qudt.org/vocab/unit/C","coulomb","DataOne",1,1
 "cottuscognatus","cottus cognatus",NA,"cottuscognatus","DataOne",1,1
 "cottusbairdii","cottus bairdii",NA,"cottusbairdii","DataOne",1,1
 "corriganvillelimes-TON_US-e","corriganville limestone",NA,"corriganvillelimestone","DataOne",1,1
@@ -6130,8 +6130,8 @@ andelectromotiveforce.1volt=kilogram*metersquared*s^-3*a^-1","EDI",1,1
 "CentiM-ar","cm_ar",NA,"centimeterar","DataOne",1,1
 "CentiM-acidp","cm_acid_p",NA,"centimeteracidp","DataOne",1,1
 "CentiM-acid","cm_acid",NA,"centimeteracid","DataOne",1,1
-"PER-CentiM-squared-GM","cm^2/g",NA,"percentimetersquaredpergram","EDI",1,1
-"centi-M-PER-SEC-^(1-PER2)","cm per second^(1/2)",NA,"centimeterpersecond^(1per2)","DataOne",1,1
+"PER-CentiM2-GM","cm^2/g",NA,"percentimetersquaredpergram","EDI",1,1
+"Centi-M-PER-SEC-^(1-PER2)","cm per second^(1/2)",NA,"centimeterpersecond^(1per2)","DataOne",1,1
 "CentiM-nadv88","cm nadv88",NA,"centimeternadv88","DataOne",1,1
 "CentiM-amslnavd88","cm amsl navd 88",NA,"centimeteramslnavd88","EDI",1,1
 "clupeapallasii","clupea pallasii",NA,"clupeapallasii","DataOne",1,1
@@ -6181,11 +6181,11 @@ andelectromotiveforce.1volt=kilogram*metersquared*s^-3*a^-1","EDI",1,1
 "cestoda","cestoda",NA,"cestoda","DataOne",1,1
 "ceratopogonidae","ceratopogonidae",NA,"ceratopogonidae","DataOne",1,1
 "centrals-TON_US-eroller","central stoneroller",NA,"centralstoneroller","DataOne",1,1
-"centi-MOL-ofcharge-PER-KiloGM","centimolesofchargeperkilogram",NA,"centimoleofchargeperkilogram","EDI",1,1
-"centi-MOL-ofcharge-PER-KiloGM-ofdrysoil","centimoles of charge per kilogram of dry soil",NA,"centimoleofchargeperkilogramofdrysoil","EDI",1,1
-"centi-MOL-h+-PER-KiloGM","centimoleh+perkilogram",NA,"centimoleh+perkilogram","EDI",1,1
+"Centi-MOL-ofcharge-PER-KiloGM","centimolesofchargeperkilogram",NA,"centimoleofchargeperkilogram","EDI",1,1
+"Centi-MOL-ofcharge-PER-KiloGM-ofdrysoil","centimoles of charge per kilogram of dry soil",NA,"centimoleofchargeperkilogramofdrysoil","EDI",1,1
+"Centi-MOL-h+-PER-KiloGM","centimoleh+perkilogram",NA,"centimoleh+perkilogram","EDI",1,1
 "CentiMOL-PER-KiloGM-substance","centimole per kilogram substance",NA,"centimoleperkilogramsubstance","EDI",1,1
-"centi-MOL-hydrogenions-PER-KiloGM","centimole hydrogen ions per kilogram",NA,"centimolehydrogenionsperkilogram","EDI",1,1
+"Centi-MOL-hydrogenions-PER-KiloGM","centimole hydrogen ions per kilogram",NA,"centimolehydrogenionsperkilogram","EDI",1,1
 "CentiM2-PER-SEC","centimetersquaredpersecond","http://qudt.org/vocab/unit/CentiM2-PER-SEC","centimeterquaredpersecond","DataOne",1,1
 "CentiM-quare","centimetersquare",NA,"centimeterquare","DataOne",1,1
 "CentiM-PER-M2-DAY","centimeterspersquaremeterperday",NA,"centimeterpersquaremeterperday","EDI",1,1
@@ -6199,12 +6199,12 @@ andelectromotiveforce.1volt=kilogram*metersquared*s^-3*a^-1","EDI",1,1
 "CentiM-depth","centimeterdepth",NA,"centimeterdepth","EDI",1,1
 "CentiM3-PER-GM-*100","centimetercubedpergram*100",NA,"centimetercubedpergram*100","DataOne",1,1
 "CentiM-PER-CentiM","centimeter per centimeter",NA,"centimeterpercentimeter","DataOne",1,1
-"centi-L-PER-L","centiliterperliter",NA,"centiliterperliter","EDI",1,1
+"Centi-L-PER-L","centiliterperliter",NA,"centiliterperliter","EDI",1,1
 "ceni-M-PER-M2-DAY","cenimeterpermetersquaredperday",NA,"cenimeterpermeterquaredperday","EDI",1,1
 "DEG_C-PER-YR","celsiusperyear","http://qudt.org/vocab/unit/DEG_C-PER-YR","celsiusperyear","EDI",1,1
 "DEG_C-PER-M","celsiuspermeter","http://qudt.org/vocab/unit/DEG_C-PER-M","celsiuspermeter","EDI",1,1
 "DEG_C-isconvertedto-K-bysubtracting273.15","celsius is converted to kelvin by subtracting 273.15",NA,"celsiusisconvertedtokelvinbysubtracting273.15","EDI",1,1
-"cells-PER-M2-illiM","cellspersquaremillimeter",NA,"cellspersquaremillimeter","EDI",1,1
+"cells-PER-MilliM2","cellspersquaremillimeter",NA,"cellspersquaremillimeter","EDI",1,1
 "cells-PER-ml","cellsperml",NA,"cellsperml","EDI",1,1
 "cells-PER-MilliM2","cellspermillimetersquared",NA,"cellspermillimeterquared","EDI",1,1
 "cells-PPM-i-L","cellspermililiter",NA,"cellspermililiter","EDI",1,1
@@ -6360,8 +6360,8 @@ manufacturercalibrationcurve)","EDI",1,1
 "bivalvia","bivalvia",NA,"bivalvia","DataOne",1,1
 "bivalve","bivalve",NA,"bivalve","DataOne",1,1
 "bitingseal","biting seal",NA,"bitingseal","DataOne",1,1
-"biomassdensityunit-PER-abundanceunit","biomassdensityunitperabundanceunit",NA,"biomassdensityunitperabundanceunit","DataOne",1,1
-"biomassin100-PER-CentiM-squaredquadrant","biomass in 100 cm^2 quadrant",NA,"biomassin100percentimetersquaredquadrant","EDI",1,1
+"biomassdensityunit-PER-NUM-unit","biomassdensityunitperabundanceunit",NA,"biomassdensityunitperabundanceunit","DataOne",1,1
+"biomassin100-PER-CentiM2-quadrant","biomass in 100 cm^2 quadrant",NA,"biomassin100percentimetersquaredquadrant","EDI",1,1
 "bio-surveys,llc","bio-surveys, llc",NA,"bio-surveys,llc","DataOne",1,1
 "billion-M3","billion cubic meters",NA,"billioncubicmeter","DataOne",1,1
 "billioncubic-FT-gas-PER-km2","billion cubic feet gas / km2",NA,"billioncubicfootgasperkm2","DataOne",1,1
@@ -6376,7 +6376,7 @@ manufacturercalibrationcurve)","EDI",1,1
 "benthic","benthic",NA,"benthic","DataOne",1,1
 "benches","benches",NA,"benches","DataOne",1,1
 "bedfordshale","bedford shale",NA,"bedfordshale","DataOne",1,1
-"becquerel","becquerel",NA,"becquerel","EDI",1,1
+"BQ","becquerel","http://qudt.org/vocab/unit/BQ","becquerel","EDI",1,1
 "bear","bear",NA,"bear","DataOne",1,1
 "be-PPM-essq","be_ppm_es_sq",NA,"bepartpermillionessq","DataOne",1,1
 "be-PPM-aesst","be_ppm_aes_st",NA,"bepartpermillionaesst","DataOne",1,1
@@ -6394,7 +6394,7 @@ manufacturercalibrationcurve)","EDI",1,1
 "BAR-chanoidsandwaves","barchanoid sand waves",NA,"barchanoidsandwaves","DataOne",1,1
 "BAR-top","bar top",NA,"bartop","DataOne",1,1
 "BAR-sideslope","bar side slope",NA,"barsideslope","DataOne",1,1
-"bans","bans",NA,"bans","DataOne",1,1
+"BAN","bans","http://qudt.org/vocab/unit/BAN","bans","DataOne",1,1
 "bandingdate","banding date",NA,"bandingdate","DataOne",1,1
 "bandedkillifish","banded killifish",NA,"bandedkillifish","DataOne",1,1
 "bande-DEG-arter","banded darter",NA,"bandeddarter","DataOne",1,1
@@ -6713,7 +6713,7 @@ solution","EDI",1,1
 "aunitforphotosyntheticallyactiveradiatiation(par)","a unit for photosynthetically active radiatiation (par)",NA,"aunitforphotosyntheticallyactiveradiatiation(par)","EDI",1,1
 "aunitbasedonthepro-PER-tiesofseawaterconductivity.itisequivalentto-thousandor(0-00)orto-GM-KiloGM","a unit based on the properties of sea water conductivity. it is equivalent to per thousand or (0/00) or to g/kg",NA,"aunitbasedonthepropertiesofseawaterconductivity.itisequivalenttoperthousandor(0per00)ortogramperkilogram","EDI",1,1
 "a-PERCENT-measurement","a percentage measurement",NA,"apercentmeasurement","EDI",1,1
-"ameasureoftheavailableleafsurfacearea(unitsof-M2-)withinone-M2-ofsubstrate.ineffect,thismakesleafareaindexunitless.","a measure of the available leaf surface area (units of square meters) within one square meter of substrate. in effect, this makes leaf area index unitless.",NA,"ameasureoftheavailableleafsurfacearea(unitsofsquaremeter)withinonesquaremeterofsubstrate.ineffect,thismakesleafareaindexunitless.","EDI",1,1
+"ameasureoftheavailableleafsurfacearea(unitsof-M2-)withi-UNITLESS-M2-ofsubstrate.ineffect,thismakesleafareaindex-UNITLESS-.","a measure of the available leaf surface area (units of square meters) within one square meter of substrate. in effect, this makes leaf area index unitless.",NA,"ameasureoftheavailableleafsurfacearea(unitsofsquaremeter)withinonesquaremeterofsubstrate.ineffect,thismakesleafareaindexunitless.","EDI",1,1
 "ameasureofir-RAD-ceinthiscasesunlight","a measure of irradiance_in this case sunlight",NA,"ameasureofirradianceinthiscasesunlight","EDI",1,1
 "a-M3-unitofvolume","a cubic meter unit of volume",NA,"acubicmeterunitofvolume","EDI",1,1
 "99.5-PERCENT-(quantile)","99.5% (quantile)",NA,"99.5%(quantile)","DataOne",1,1
@@ -6986,7 +6986,7 @@ solution","EDI",1,1
 "(gwater-PER-GM-drylitter)*100","(g water / g dry litter) * 100",NA,"(gwaterpergramdrylitter)*100","EDI",1,1
 "NA-DEG_C","(c) celsius",NA,"(c)celsius","DataOne",1,1
 "PERCENT-volumetricmoisturecontent","%volumetricmoisturecontent",NA,"%volumetricmoisturecontent","EDI",1,1
-"PERCENT-h:-PERCENT-m:-PERCENT-s","%h:%m:%s",NA,"%h:%m:%s","EDI",1,1
+"PERCENT-h:-PERCENT-m:-PERCENT-NA","%h:%m:%s",NA,"%h:%m:%s","EDI",1,1
 "PERCENT-PER-HA","%/ha",NA,"percentperhectare","EDI",1,1
 "PERCENT-GM-water-PER-GM-drylitter","% g water per g dry litter",NA,"percentgramwaterpergramdrylitter","EDI",1,1
 "NUM-x108-PER-L","#x108/liter",NA,"#x108perliter","EDI",1,1
