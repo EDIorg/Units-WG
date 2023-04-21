@@ -5,7 +5,8 @@
 # John Porter, March, 2023
 
 rm(list=ls())
-setwd("D:/Box Sync/EMLUnits")
+#setwd("D:/Box Sync/EMLUnits")
+setwd("c:/Users/John/Box Sync/EMLUnits")
 
 library(rdflib)
 
