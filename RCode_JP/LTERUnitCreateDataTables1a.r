@@ -31,8 +31,10 @@ write.csv(rawQudtDf[order(rawQudtDf$TotalUses,rawQudtDf$unit,
 # eliminate units where qudtUri is empty
 qudtDf<-rawQudtDf[!is.na(rawQudtDf$qudtUri),]
 
-# Add in ALL UCUM codes from QUDT along with their qudtUri
+# Add in ALL Multi-Letter UCUM codes from QUDT along with their qudtUri
 ucumCodesDf<-read.csv("UCUMCodes.csv")
+# get rid of one-letter codes - they are too ambiguous in some situations (e.g., d for Day)
+ucumCodesDf<-ucumCodesDf[nchar(ucumCodesDf$ucumCode) > 1,]
 ucumCodesDf$unit<-ucumCodesDf$ucumCode
 ucumCodesDf$pseudounit<-""
 ucumCodesDf$orgList<-""
