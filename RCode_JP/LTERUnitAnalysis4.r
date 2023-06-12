@@ -19,6 +19,11 @@ for (i in 1:nrow(df1)){
   }
 }
 
+# remove parenthetical parts
+df1$qudtUnit<-gsub("\\(.*\\)","",df1$qudtUnit,perl=T)
+# Get rid of trailing-NA
+df1$qudtUnit<-gsub("-NA-$","",df1$qudtUnit,perl=T)
+df1$qudtUnit<-gsub("-NA$","",df1$qudtUnit,perl=T)
 # get rid of multiple dashes - simplify to single dash
 df1$qudtUnit<-gsub("----","-",df1$qudtUnit)
 df1$qudtUnit<-gsub("---","-",df1$qudtUnit)
@@ -28,6 +33,7 @@ df1$qudtUnit<-gsub("-3","3",df1$qudtUnit)
 # get rid of trailing and leading dashes
 df1$qudtUnit<-gsub("^-","",df1$qudtUnit,perl=T)
 df1$qudtUnit<-gsub("-$","",df1$qudtUnit,perl=T)
+
 
 # eliminate 2nd -PER- and replace with - 
 for (i in 1:nrow(df1)){
@@ -47,10 +53,10 @@ df1$qudtUnit<-gsub("\\([A-Z,a-z,\\-]*PER-[A-Z,a-z,\\-]+\\)-PER-\\([A-Z,a-z,\\-]+
 df1$qudtUnit<-trimws(df1$qudtUnit)
 
 # get rid of dashes after known prefixes
-scaleList<-c("Pico","Nano","Micro","Milli","Kilo","Mega","Giga")
+scaleList<-c("Pico","Nano","Micro","Milli","Centi","Deci","Deca","Hecto","Kilo","Mega","Giga","Tera")
 for (i in 1:nrow(df1)){
   for (j in 1:length(scaleList)){
-  df1$qudtUnit[i]<-gsub(paste(scaleList[[j]],"-",sep=""),scaleList[[j]],df1$qudtUnit[i], ignore.case=T) 
+  df1$qudtUnit[i]<-gsub(paste(scaleList[[j]],"-",sep=""),scaleList[[j]],df1$qudtUnit[i], ignore.case=F) 
 }}
 
 
@@ -93,3 +99,4 @@ print("DataOne")
 print(sum(m1Qudt$dataoneTotalUses))
 print(sum(m1$dataoneTotalUses))
 print(sum(m1Qudt$dataoneTotalUses)/sum(m1$dataoneTotalUses))
+
