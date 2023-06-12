@@ -48,8 +48,8 @@
 "milligramperliter","milligramsperliter",5251,"milligramsperliter",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "milligramperliter","milligramperliter",5251,"milligramperliter",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "milligramperliter","milligram/liter",5251,"milligram/liter",0,0,0,0,0,0,3,"DataOne",1,0,0,3
-"milligramperliter","milligrams/liter",5251,"milligrams/liter",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "milligramperliter","milligram per liter",5251,"milligram per liter",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
+"milligramperliter","milligrams/liter",5251,"milligrams/liter",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "none","none",5233,"none",17,1282,4836,9,12,72,299,"EDI NEON DataOne",3,26,1294,5207
 "none","none",5233,"none",0,0,0,0,0,0,23,"DataOne",1,0,0,23
 "none","none",5233,"none",0,0,0,0,0,0,3,"DataOne",1,0,0,3
@@ -81,8 +81,8 @@
 "microgramperliter","microgramperliter",2699,"microgramperliter",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "microgramperliter","microgramsperliter",2699,"microgramsperliter",0,0,0,0,0,0,6,"DataOne",1,0,0,6
 "microgramperliter","micrograms/liter",2699,"micrograms/liter",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"microgramperliter","micrograms/l",2699,"micrograms/l",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microgramperliter","microgram per liter",2699,"microgram per liter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"microgramperliter","micrograms/l",2699,"micrograms/l",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microgramperliter","microgram per l",2699,"microgram per l",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "grampermeterquaredperday","grampermetersquaredperday",2508,"grampermetersquaredperday",5,37,2399,0,0,0,0,"EDI",1,5,37,2399
 "grampermeterquaredperday","grampermetersquaredperday",2508,"grampermetersquaredperday",0,0,0,0,0,0,92,"DataOne",1,0,0,92
@@ -98,9 +98,9 @@
 "micromoleperliter","micromole per liter",2454,"micromole per liter",2,6,6,0,0,0,0,"EDI",1,2,6,6
 "micromoleperliter","umol/l",2454,"umol/l",2,2,5,0,0,0,0,"EDI",1,2,2,5
 "micromoleperliter","micromoles per liter",2454,"micromoles per liter",3,4,4,0,0,0,0,"EDI",1,3,4,4
-"micromoleperliter","umol/l",2454,"umol/l",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "micromoleperliter","micro moles per liter",2454,"micro moles per liter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "micromoleperliter","micro mole per liter",2454,"micro mole per liter",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"micromoleperliter","umol/l",2454,"umol/l",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "nominalday","nominalday",2249,"nominalday",18,886,1497,0,0,0,0,"EDI",1,18,886,1497
 "nominalday","nominalday",2249,"nominalday",0,0,0,5,7,7,745,"NEON DataOne",2,5,7,752
 "micromolepermeterquaredpersecond","micromolepermetersquaredpersecond",2225,"micromolepermetersquaredpersecond",18,250,1634,0,0,0,0,"EDI",1,18,250,1634
@@ -123,9 +123,7 @@
 "kilogrampercubicmeter","kilogram per cubic meter",1800,"kilogram per cubic meter",2,4,4,0,0,0,0,"EDI",1,2,4,4
 "kilogrampercubicmeter","kilogramspercubicmeters",1800,"kilogramspercubicmeters",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "kilogrampercubicmeter","kilogramspercubicmeter",1800,"kilogramspercubicmeter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"decibar","decibar",1749,"decibar",9,307,1342,0,0,0,403,"EDI DataOne",2,9,307,1745
-"decibar","db",1749,"db",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"decibar","db",1749,"db",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"decibar","decibar",1745,"decibar",9,307,1342,0,0,0,403,"EDI DataOne",2,9,307,1745
 "siemenspermeter","siemenspermeter",1687,"siemenspermeter",5,370,1331,0,0,0,0,"EDI",1,5,370,1331
 "siemenspermeter","siemenspermeter",1687,"siemenspermeter",0,0,0,0,0,0,356,"DataOne",1,0,0,356
 "partpermillion","partspermillion",1454,"partspermillion",15,69,475,0,0,0,0,"EDI",1,15,69,475
@@ -241,12 +239,10 @@
 "milligrampergram","milligramspergrams",762,"milligramspergrams",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "milligrampergram","milligram per gram",762,"milligram per gram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "milligrampergram","milligramspergrams",762,"milligramspergrams",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"day","day",753,"day",17,78,116,1,1,1,474,"EDI NEON DataOne",3,18,79,591
-"day","days",753,"days",6,16,30,0,0,0,79,"EDI DataOne",2,6,16,109
-"day","days",753,"days",0,0,0,0,0,0,21,"DataOne",1,0,0,21
-"day","d",753,"d",0,0,0,0,0,0,15,"DataOne",1,0,0,15
-"day","day",753,"day",0,0,0,0,0,0,15,"DataOne",1,0,0,15
-"day","d",753,"d",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"day","day",736,"day",17,78,116,1,1,1,474,"EDI NEON DataOne",3,18,79,591
+"day","days",736,"days",6,16,30,0,0,0,79,"EDI DataOne",2,6,16,109
+"day","days",736,"days",0,0,0,0,0,0,21,"DataOne",1,0,0,21
+"day","day",736,"day",0,0,0,0,0,0,15,"DataOne",1,0,0,15
 "milligramperkilogram","milligramperkilogram",697,"milligramperkilogram",12,48,244,0,0,0,0,"EDI",1,12,48,244
 "milligramperkilogram","milligramsperkilogram",697,"milligramsperkilogram",7,74,205,0,0,0,0,"EDI",1,7,74,205
 "milligramperkilogram","milligramsperkilogram",697,"milligramsperkilogram",0,0,0,2,2,21,160,"NEON DataOne",2,2,2,181
@@ -296,8 +292,8 @@
 "metercubedpersecond","metercubedpersecond",559,"metercubedpersecond",6,46,524,0,0,0,0,"EDI",1,6,46,524
 "metercubedpersecond","metercubedpersecond",559,"metercubedpersecond",0,0,0,0,0,0,28,"DataOne",1,0,0,28
 "metercubedpersecond","m3/sec",559,"m3/sec",0,0,0,0,0,0,5,"DataOne",1,0,0,5
-"metercubedpersecond","m3/second",559,"m3/second",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "metercubedpersecond","meterscubedpersecond",559,"meterscubedpersecond",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"metercubedpersecond","m3/second",559,"m3/second",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microequivalentperliter","microequivalentperliter",527,"microequivalentperliter",7,68,433,0,0,0,0,"EDI",1,7,68,433
 "microequivalentperliter","microequivalentperliter",527,"microequivalentperliter",0,0,0,0,0,0,72,"DataOne",1,0,0,72
 "microequivalentperliter","microequivalentperliter",527,"microequivalentperliter",0,0,0,0,0,0,12,"DataOne",1,0,0,12
@@ -306,8 +302,8 @@
 "cubiccentimeterpercubiccentimeter","cubiccentimeterspercubiccentimeter",524,"cubiccentimeterspercubiccentimeter",0,0,0,1,1,400,0,"NEON",1,1,1,400
 "cubiccentimeterpercubiccentimeter","cubiccentimeterspercubiccentimeters",524,"cubiccentimeterspercubiccentimeters",8,15,72,0,0,0,0,"EDI",1,8,15,72
 "cubiccentimeterpercubiccentimeter","cubiccentimeterspercubiccentimeters",524,"cubiccentimeterspercubiccentimeters",0,0,0,0,0,0,42,"DataOne",1,0,0,42
-"cubiccentimeterpercubiccentimeter","cubic centimeters per cubic centimeter",524,"cubic centimeters per cubic centimeter",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "cubiccentimeterpercubiccentimeter","cubiccentimeterpercubiccentimeter",524,"cubiccentimeterpercubiccentimeter",1,1,4,0,0,0,0,"EDI",1,1,1,4
+"cubiccentimeterpercubiccentimeter","cubic centimeters per cubic centimeter",524,"cubic centimeters per cubic centimeter",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "cubiccentimeterpercubiccentimeter","cubic centimeters per cubic centimeters",524,"cubic centimeters per cubic centimeters",2,2,2,0,0,0,0,"EDI",1,2,2,2
 "kilogram","kilogram",520,"kilogram",18,69,266,0,0,0,236,"EDI DataOne",2,18,69,502
 "kilogram","kg",520,"kg",0,0,0,0,0,0,10,"DataOne",1,0,0,10
@@ -344,8 +340,8 @@
 "literpersecond","literspersecond",433,"literspersecond",0,0,0,2,3,26,29,"NEON DataOne",2,2,3,55
 "literpersecond","literpersecond",433,"literpersecond",0,0,0,0,0,0,13,"DataOne",1,0,0,13
 "literpersecond","literspersecond",433,"literspersecond",0,0,0,0,0,0,3,"DataOne",1,0,0,3
-"literpersecond","liters/second",433,"liters/second",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "literpersecond","l/s",433,"l/s",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"literpersecond","liters/second",433,"liters/second",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "1","1",432,"1",1,1,1,0,0,0,426,"EDI DataOne",2,1,1,427
 "1","1",432,"1",1,1,1,0,0,0,2,"EDI DataOne",2,1,1,3
 "1","1",432,"1",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
@@ -448,8 +444,8 @@
 "micromolepersquaremeterpersecond","micromolespersquaremeterpersecond",287,"micromolespersquaremeterpersecond",0,0,0,3,4,140,13,"NEON DataOne",2,3,4,153
 "micromolepersquaremeterpersecond","micromolespersquaremeterpersecond",287,"micromolespersquaremeterpersecond",0,0,0,0,0,0,61,"DataOne",1,0,0,61
 "micromolepersquaremeterpersecond","micromolespersquaremeterpersecond",287,"micromolespersquaremeterpersecond",7,20,49,0,0,0,0,"EDI",1,7,20,49
-"micromolepersquaremeterpersecond","micromolepersquaremeterpersecond",287,"micromolepersquaremeterpersecond",2,4,12,0,0,0,0,"EDI",1,2,4,12
 "micromolepersquaremeterpersecond","micromoles per square meter per second",287,"micromoles per square meter per second",3,7,11,0,0,0,1,"EDI DataOne",2,3,7,12
+"micromolepersquaremeterpersecond","micromolepersquaremeterpersecond",287,"micromolepersquaremeterpersecond",2,4,12,0,0,0,0,"EDI",1,2,4,12
 "individualsper30squaremeter","individuals per 30 square meters",282,"individuals per 30 square meters",0,0,0,0,0,0,282,"DataOne",1,0,0,282
 "phi","phi",281,"phi",1,1,5,0,0,0,276,"EDI DataOne",2,1,1,281
 "acre","acre",278,"acre",9,48,119,0,0,0,78,"EDI DataOne",2,9,48,197
@@ -480,9 +476,9 @@
 "kilogrampermetercubed","kilogrampermetercubed",236,"kilogrampermetercubed",0,0,0,0,0,0,50,"DataOne",1,0,0,50
 "kilogrampermetercubed","kilogramspermetercubed",236,"kilogramspermetercubed",2,3,5,0,0,0,0,"EDI",1,2,3,5
 "gramperday","gramperday",231,"gramperday",3,3,228,0,0,0,0,"EDI",1,3,3,228
+"gramperday","gramsperday",231,"gramsperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "gramperday","grams per day",231,"grams per day",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "gramperday","gramperday",231,"gramperday",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"gramperday","gramsperday",231,"gramsperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "4","4",230,"4",0,0,0,0,0,0,226,"DataOne",1,0,0,226
 "4","4",230,"4",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "4","4",230,"4",0,0,0,0,0,0,2,"DataOne",1,0,0,2
@@ -640,8 +636,8 @@
 "grampercentimetercubed","gramspercentimetercubed",130,"gramspercentimetercubed",4,10,10,0,0,0,10,"EDI DataOne",2,4,10,20
 "grampercentimetercubed","gramspercentimetercubed",130,"gramspercentimetercubed",0,0,0,0,0,0,10,"DataOne",1,0,0,10
 "grampercentimetercubed","grampercentimetercubed",130,"grampercentimetercubed",0,0,0,0,0,0,9,"DataOne",1,0,0,9
-"grampercentimetercubed","g/cm3",130,"g/cm3",3,3,4,0,0,0,3,"EDI DataOne",2,3,3,7
 "grampercentimetercubed","grams/cubiccm",130,"grams/cubiccm",1,2,4,0,0,0,3,"EDI DataOne",2,1,2,7
+"grampercentimetercubed","g/cm3",130,"g/cm3",3,3,4,0,0,0,3,"EDI DataOne",2,3,3,7
 "grampercentimetercubed","gcm-3",130,"gcm-3",1,3,3,0,0,0,1,"EDI DataOne",2,1,3,4
 "grampercentimetercubed","gm/cm3",130,"gm/cm3",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
 "grampercentimetercubed","grams per centimeter cubed",130,"grams per centimeter cubed",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -671,8 +667,8 @@
 "meterperday","meterperday",124,"meterperday",4,29,108,0,0,0,0,"EDI",1,4,29,108
 "meterperday","metersperday",124,"metersperday",3,7,8,0,0,0,0,"EDI",1,3,7,8
 "meterperday","meterperday",124,"meterperday",0,0,0,0,0,0,4,"DataOne",1,0,0,4
-"meterperday","metersperday",124,"metersperday",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "meterperday","meters per day",124,"meters per day",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
+"meterperday","metersperday",124,"metersperday",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "money","money",122,"money",0,0,0,0,0,0,122,"DataOne",1,0,0,122
 "meterquaredperhectare","metersquaredperhectare",120,"metersquaredperhectare",4,20,94,0,0,0,0,"EDI",1,4,20,94
 "meterquaredperhectare","metersquaredperhectare",120,"metersquaredperhectare",0,0,0,0,0,0,26,"DataOne",1,0,0,26
@@ -720,8 +716,8 @@
 "microgramperkilogram","microgramperkilogram",95,"microgramperkilogram",2,2,30,0,0,0,0,"EDI",1,2,2,30
 "microgramperkilogram","microgramsperkilogram",95,"microgramsperkilogram",2,2,13,0,0,0,0,"EDI",1,2,2,13
 "microgramperkilogram","micrograms per kilogram",95,"micrograms per kilogram",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"microgramperkilogram","ug/kg",95,"ug/kg",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microgramperkilogram","microgram per kilogram",95,"microgram per kilogram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"microgramperkilogram","ug/kg",95,"ug/kg",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "cubicfootpersecond","cubic feet per second",95,"cubic feet per second",2,4,27,0,0,0,18,"EDI DataOne",2,2,4,45
 "cubicfootpersecond","cubicfeetpersecond",95,"cubicfeetpersecond",7,17,37,0,0,0,0,"EDI",1,7,17,37
 "cubicfootpersecond","cubicfeetpersecond",95,"cubicfeetpersecond",0,0,0,0,0,0,11,"DataOne",1,0,0,11
@@ -763,8 +759,8 @@
 "nanomolepergramperhour","nanomolepergramperhour",87,"nanomolepergramperhour",3,4,58,0,0,0,0,"EDI",1,3,4,58
 "nanomolepergramperhour","nanomolespergramperhour",87,"nanomolespergramperhour",4,4,21,0,0,0,0,"EDI",1,4,4,21
 "nanomolepergramperhour","nanomolespergramperhour",87,"nanomolespergramperhour",0,0,0,0,0,0,6,"DataOne",1,0,0,6
-"nanomolepergramperhour","nanomolepergramperhour",87,"nanomolepergramperhour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "nanomolepergramperhour","nanomoles per gram per hour",87,"nanomoles per gram per hour",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"nanomolepergramperhour","nanomolepergramperhour",87,"nanomolepergramperhour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "micromolspersecondpermeter2","micromols/second/meter2",87,"micromols/second/meter2",1,23,80,0,0,0,7,"EDI DataOne",2,1,23,87
 "nanometer","nanometer",84,"nanometer",12,35,59,1,1,4,19,"EDI NEON DataOne",3,13,36,82
 "nanometer","nanometers",84,"nanometers",1,1,2,0,0,0,0,"EDI",1,1,1,2
@@ -818,8 +814,8 @@
 "kilometerperhour","kilometersperhour",76,"kilometersperhour",8,15,21,0,0,0,0,"EDI",1,8,15,21
 "kilometerperhour","km/hr",76,"km/hr",2,3,3,0,0,0,0,"EDI",1,2,3,3
 "kilometerperhour","km/h",76,"km/h",0,0,0,0,0,0,3,"DataOne",1,0,0,3
-"kilometerperhour","kilometers per hour",76,"kilometers per hour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kilometerperhour","kilometerperhour",76,"kilometerperhour",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"kilometerperhour","kilometers per hour",76,"kilometers per hour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "1e6dollars","1e6dollars",76,"1e6dollars",1,1,19,0,0,0,57,"EDI DataOne",2,1,1,76
 "kilowattpermeterquared","kilowattpermetersquared",75,"kilowattpermetersquared",6,31,47,0,0,0,0,"EDI",1,6,31,47
 "kilowattpermeterquared","kilowattpermetersquared",75,"kilowattpermetersquared",0,0,0,0,0,0,28,"DataOne",1,0,0,28
@@ -839,8 +835,8 @@
 "milligramperliter(mgperl)","milligrams per liter (mg/l)",73,"milligrams per liter (mg/l)",0,0,0,0,0,0,29,"DataOne",1,0,0,29
 "milligramperliter(mgperl)","milligrams per liter (mg/l)",73,"milligrams per liter (mg/l)",0,0,0,0,0,0,20,"DataOne",1,0,0,20
 "milligramperliter(mgperl)","milligrams per liter (mg/l)",73,"milligrams per liter (mg/l)",0,0,0,0,0,0,19,"DataOne",1,0,0,19
-"milligramperliter(mgperl)","milligrams per liter  (mg/l)",73,"milligrams per liter  (mg/l)",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "milligramperliter(mgperl)","milligramsperliter (mg/l)",73,"milligramsperliter (mg/l)",1,2,2,0,0,0,0,"EDI",1,1,2,2
+"milligramperliter(mgperl)","milligrams per liter  (mg/l)",73,"milligrams per liter  (mg/l)",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "milligramperliter(mgperl)","milligrams / liter (mg/l)",73,"milligrams / liter (mg/l)",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "meterperhectare","metersperhectare",71,"metersperhectare",2,7,70,0,0,0,0,"EDI",1,2,7,70
 "meterperhectare","meters per hectare",71,"meters per hectare",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -850,8 +846,8 @@
 "mile","miles",70,"miles",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "grampercubicmeter","gramspercubicmeter",70,"gramspercubicmeter",0,0,0,1,1,1,33,"NEON DataOne",2,1,1,34
 "grampercubicmeter","gramspercubicmeter",70,"gramspercubicmeter",3,10,31,0,0,0,3,"EDI DataOne",2,3,10,34
-"grampercubicmeter","grams per cubic meter",70,"grams per cubic meter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "grampercubicmeter","grampercubicmeter",70,"grampercubicmeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"grampercubicmeter","grams per cubic meter",70,"grams per cubic meter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "0.001kilogram","0.001 kg",70,"0.001 kg",5,70,70,0,0,0,0,"EDI",1,5,70,70
 "period","period",69,"period",1,4,39,0,0,0,30,"EDI DataOne",2,1,4,69
 "microeinsteinspersquaremeterpersecond","microeinsteinspersquaremeterpersecond",69,"microeinsteinspersquaremeterpersecond",3,37,50,0,0,0,0,"EDI",1,3,37,50
@@ -866,8 +862,8 @@
 "cationnumberbasedon22oxygenequivalentsperformulaunit","cation number based on 22 oxygen equivalents per formula unit",68,"cation number based on 22 oxygen equivalents per formula unit",0,0,0,0,0,0,68,"DataOne",1,0,0,68
 "squaremillimeter","squaremillimeters",67,"squaremillimeters",6,16,55,0,0,0,0,"EDI",1,6,16,55
 "squaremillimeter","squaremillimeters",67,"squaremillimeters",0,0,0,0,0,0,10,"DataOne",1,0,0,10
-"squaremillimeter","squaremillimeter",67,"squaremillimeter",0,0,0,1,1,1,0,"NEON",1,1,1,1
 "squaremillimeter","square millimeters",67,"square millimeters",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"squaremillimeter","squaremillimeter",67,"squaremillimeter",0,0,0,1,1,1,0,"NEON",1,1,1,1
 "n","n",67,"n",0,0,0,0,0,0,65,"DataOne",1,0,0,65
 "n","n",67,"n",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "megagramperhectare","megagramsperhectare",67,"megagramsperhectare",3,11,39,0,0,0,0,"EDI",1,3,11,39
@@ -891,8 +887,8 @@
 "nanogrampergram","nanogramspergram",62,"nanogramspergram",1,3,24,0,0,0,0,"EDI",1,1,3,24
 "nanogrampergram","nanogramspergram",62,"nanogramspergram",0,0,0,0,0,0,23,"DataOne",1,0,0,23
 "nanogrampergram","nanogrampergram",62,"nanogrampergram",2,3,5,0,0,0,0,"EDI",1,2,3,5
-"nanogrampergram","nanogrampergram",62,"nanogrampergram",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "nanogrampergram","nanogram per gram",62,"nanogram per gram",0,0,0,0,0,0,4,"DataOne",1,0,0,4
+"nanogrampergram","nanogrampergram",62,"nanogrampergram",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "nanogrampergram","nanograms per gram",62,"nanograms per gram",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "conductivityunit","conductivity unit",62,"conductivity unit",3,62,62,0,0,0,0,"EDI",1,3,62,62
 "bar","bar",62,"bar",5,7,23,0,0,0,39,"EDI DataOne",2,5,7,62
@@ -903,9 +899,9 @@
 "degreec","degrees c",61,"degrees c",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "degreec","degrees c",61,"degrees c",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "degreec","degrees c",61,"degrees c",1,4,5,0,0,0,0,"EDI",1,1,4,5
+"degreec","degreesc",61,"degreesc",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "degreec","degreesc",61,"degreesc",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "degreec","degrees c",61,"degrees c",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"degreec","degreesc",61,"degreesc",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "degreec","degreec",61,"degreec",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "siemenspermeter(electrolyticconductivityofasolution)","siemens per meter (electrolytic conductivity of a solution)",60,"siemens per meter (electrolytic conductivity of a solution)",1,60,60,0,0,0,0,"EDI",1,1,60,60
 "mpersecond","m/s",60,"m/s",1,2,40,0,0,0,14,"EDI DataOne",2,1,2,54
@@ -953,6 +949,9 @@
 "millimeterperhour","millimeter per hour",54,"millimeter per hour",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "commonlyusedforconcentrationofsomechemicalconstituentsofnaturalwaterbodies,e.g.,nutrients.ithasthesamemagnitudeasmicromolar,butmicromolarcanonlybeusedforadissolvedconstituent","commonly used for concentration of some chemical constituents of natural water bodies, e.g., nutrients. it has the same magnitude as micromolar, but micromolar can only be used for a dissolved constituent",54,"commonly used for concentration of some chemical constituents of natural water bodies, e.g., nutrients. it has the same magnitude as micromolar, but micromolar can only be used for a dissolved constituent",2,54,54,0,0,0,0,"EDI",1,2,54,54
 "numberpercentimeterquaredperyear","numberpercentimetersquaredperyear",53,"numberpercentimetersquaredperyear",2,16,53,0,0,0,0,"EDI",1,2,16,53
+"decibel","decibel",53,"decibel",2,2,12,0,0,0,37,"EDI DataOne",2,2,2,49
+"decibel","db",53,"db",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"decibel","db",53,"db",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "milligramperkilogramperday","milligramperkilogramperday",52,"milligramperkilogramperday",3,10,40,0,0,0,0,"EDI",1,3,10,40
 "milligramperkilogramperday","milligramsperkilogramperday",52,"milligramsperkilogramperday",1,1,6,0,0,0,0,"EDI",1,1,1,6
 "milligramperkilogramperday","milligram per kilogram per day",52,"milligram per kilogram per day",1,3,3,0,0,0,0,"EDI",1,1,3,3
@@ -1000,7 +999,6 @@
 "milligrampergramperhour","milligrampergramperhour",49,"milligrampergramperhour",4,6,12,0,0,0,0,"EDI",1,4,6,12
 "milligrampergramperhour","milligramspergramperhour",49,"milligramspergramperhour",1,3,11,0,0,0,0,"EDI",1,1,3,11
 "milligrampergramperhour","milligrampergramperhour",49,"milligrampergramperhour",0,0,0,0,0,0,5,"DataOne",1,0,0,5
-"decibel","decibel",49,"decibel",2,2,12,0,0,0,37,"EDI DataOne",2,2,2,49
 "centimeterquaredpergram","centimeterssquaredpergram",49,"centimeterssquaredpergram",3,11,20,0,0,0,0,"EDI",1,3,11,20
 "centimeterquaredpergram","centimetersquaredpergram",49,"centimetersquaredpergram",8,14,19,0,0,0,0,"EDI",1,8,14,19
 "centimeterquaredpergram","centimeterssquaredpergram",49,"centimeterssquaredpergram",0,0,0,0,0,0,4,"DataOne",1,0,0,4
@@ -1037,15 +1035,15 @@
 "molepermeterquaredpersecond","molespermetersquaredpersecond",46,"molespermetersquaredpersecond",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "molepermeterquaredpersecond","molespermetersquaredpersecond",46,"molespermetersquaredpersecond",2,2,3,0,0,0,0,"EDI",1,2,2,3
 "cubiccentimeter","cubiccentimeters",46,"cubiccentimeters",3,4,10,0,0,0,1,"EDI DataOne",2,3,4,11
-"cubiccentimeter","cubic centimeters",46,"cubic centimeters",3,5,8,0,0,0,2,"EDI DataOne",2,3,5,10
 "cubiccentimeter","cubiccentimeter",46,"cubiccentimeter",4,6,9,0,0,0,1,"EDI DataOne",2,4,6,10
+"cubiccentimeter","cubic centimeters",46,"cubic centimeters",3,5,8,0,0,0,2,"EDI DataOne",2,3,5,10
 "cubiccentimeter","cubiccentimeter",46,"cubiccentimeter",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "cubiccentimeter","cubic centimeter",46,"cubic centimeter",2,4,4,0,0,0,0,"EDI",1,2,4,4
 "cubiccentimeter","cubic cm",46,"cubic cm",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "arealpercent","areal percentage",46,"areal percentage",1,2,46,0,0,0,0,"EDI",1,1,2,46
 "reciprocalmeterpersteradian","reciprocalmeterpersteradian",45,"reciprocalmeterpersteradian",1,9,27,0,0,0,0,"EDI",1,1,9,27
-"reciprocalmeterpersteradian","reciprocalmeterpersteradian",45,"reciprocalmeterpersteradian",0,0,0,0,0,0,9,"DataOne",1,0,0,9
 "reciprocalmeterpersteradian","reciprocalmeterspersteradian",45,"reciprocalmeterspersteradian",0,0,0,0,0,0,9,"DataOne",1,0,0,9
+"reciprocalmeterpersteradian","reciprocalmeterpersteradian",45,"reciprocalmeterpersteradian",0,0,0,0,0,0,9,"DataOne",1,0,0,9
 "onedayexcludingleapsecond;86400second","one day excluding leap seconds; 86400 seconds",45,"one day excluding leap seconds; 86400 seconds",1,45,45,0,0,0,0,"EDI",1,1,45,45
 "numberperkilometerquared","numberperkilometersquared",45,"numberperkilometersquared",0,0,0,0,0,0,29,"DataOne",1,0,0,29
 "numberperkilometerquared","numberperkilometersquared",45,"numberperkilometersquared",5,7,16,0,0,0,0,"EDI",1,5,7,16
@@ -1062,8 +1060,8 @@
 "gramperonetenthmeterquared","gramperonetenthmetersquared",43,"gramperonetenthmetersquared",0,0,0,0,0,0,18,"DataOne",1,0,0,18
 "gco2-cm-2half-hour-1","gco2-cm-2half-hour-1",43,"gco2-cm-2half-hour-1",0,0,0,0,0,0,29,"DataOne",1,0,0,29
 "gco2-cm-2half-hour-1","gco2-cm-2half-hour-1",43,"gco2-cm-2half-hour-1",1,4,14,0,0,0,0,"EDI",1,1,4,14
-"picomoleperliterperhour","picomoleperliterperhour",42,"picomoleperliterperhour",2,6,13,0,0,0,0,"EDI",1,2,6,13
 "picomoleperliterperhour","picomolesperliterperhour",42,"picomolesperliterperhour",1,13,13,0,0,0,0,"EDI",1,1,13,13
+"picomoleperliterperhour","picomoleperliterperhour",42,"picomoleperliterperhour",2,6,13,0,0,0,0,"EDI",1,2,6,13
 "picomoleperliterperhour","picomoleperliterperhour",42,"picomoleperliterperhour",0,0,0,0,0,0,9,"DataOne",1,0,0,9
 "picomoleperliterperhour","picomolesperliterperhour",42,"picomolesperliterperhour",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "onetenthinch","onetenthinch",42,"onetenthinch",1,1,21,0,0,0,0,"EDI",1,1,1,21
@@ -1182,8 +1180,8 @@
 "kilojoulepermeterquare","kilojoulepermetersquare",34,"kilojoulepermetersquare",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "kilogramperyear","kilogramsperyear",34,"kilogramsperyear",1,1,26,0,0,0,0,"EDI",1,1,1,26
 "kilogramperyear","kilogramperyear",34,"kilogramperyear",3,3,6,0,0,0,0,"EDI",1,3,3,6
-"kilogramperyear","kilograms per year",34,"kilograms per year",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "kilogramperyear","kilogram per year",34,"kilogram per year",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"kilogramperyear","kilograms per year",34,"kilograms per year",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "inverseangstrom","inverseangstrom",34,"inverseangstrom",1,1,33,0,0,0,0,"EDI",1,1,1,33
 "inverseangstrom","inverse angstrom",34,"inverse angstrom",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "centimeterperday","centimetersperday",34,"centimetersperday",0,0,0,0,0,0,13,"DataOne",1,0,0,13
@@ -1277,8 +1275,8 @@
 "nanomoleperliter","nanomoles per liter",27,"nanomoles per liter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "millimolepermetresquaredpersecond","millimolespermetresquaredpersecond",27,"millimolespermetresquaredpersecond",0,0,0,0,0,0,27,"DataOne",1,0,0,27
 "milligrampermeterquaredpersecond","milligramspermetersquaredpersecond",27,"milligramspermetersquaredpersecond",1,3,13,0,0,0,0,"EDI",1,1,3,13
-"milligrampermeterquaredpersecond","milligrampermetersquaredpersecond",27,"milligrampermetersquaredpersecond",1,1,7,0,0,0,0,"EDI",1,1,1,7
 "milligrampermeterquaredpersecond","milligrampermetersquaredpersecond",27,"milligrampermetersquaredpersecond",0,0,0,0,0,0,7,"DataOne",1,0,0,7
+"milligrampermeterquaredpersecond","milligrampermetersquaredpersecond",27,"milligrampermetersquaredpersecond",1,1,7,0,0,0,0,"EDI",1,1,1,7
 "hpa","hpa",27,"hpa",0,0,0,0,0,0,25,"DataOne",1,0,0,25
 "hpa","hpa",27,"hpa",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "countpermeterquared","countpermetersquared",27,"countpermetersquared",2,4,15,0,0,0,0,"EDI",1,2,4,15
@@ -1333,8 +1331,8 @@
 "meterpersecondquared","meterspersecondsquared",25,"meterspersecondsquared",2,3,7,0,0,0,0,"EDI",1,2,3,7
 "formazinnephelometricunits","formazinnephelometricunits",25,"formazinnephelometricunits",2,9,21,0,0,0,0,"EDI",1,2,9,21
 "formazinnephelometricunits","formazinnephelometricunits",25,"formazinnephelometricunits",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"formazinnephelometricunits","formazin nephelometric units",25,"formazin nephelometric units",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "formazinnephelometricunits","formazin nephelometric units",25,"formazin nephelometric units",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"formazinnephelometricunits","formazin nephelometric units",25,"formazin nephelometric units",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "decimalpercent","decimalpercent",25,"decimalpercent",3,8,25,0,0,0,0,"EDI",1,3,8,25
 "date","date",25,"date",0,0,0,0,0,0,15,"DataOne",1,0,0,15
 "date","date",25,"date",1,1,1,0,0,0,9,"EDI DataOne",2,1,1,10
@@ -1497,13 +1495,13 @@
 "millimole","millimole",19,"millimole",1,1,6,0,0,0,8,"EDI DataOne",2,1,1,14
 "millimole","millimoles",19,"millimoles",1,1,5,0,0,0,0,"EDI",1,1,1,5
 "millimeterpermeterquared","millimeterpermetersquared",19,"millimeterpermetersquared",1,1,19,0,0,0,0,"EDI",1,1,1,19
-"micromolepersecond","micromolespersecond",19,"micromolespersecond",2,4,5,0,0,0,0,"EDI",1,2,4,5
 "micromolepersecond","micromolepersecond",19,"micromolepersecond",0,0,0,0,0,0,5,"DataOne",1,0,0,5
+"micromolepersecond","micromolespersecond",19,"micromolespersecond",2,4,5,0,0,0,0,"EDI",1,2,4,5
 "micromolepersecond","micromolepersecond",19,"micromolepersecond",2,2,3,0,0,0,0,"EDI",1,2,2,3
 "micromolepersecond","micromolespersecond",19,"micromolespersecond",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "micromolepersecond","micromolespersecond",19,"micromolespersecond",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"micromolepersecond","micromole per second",19,"micromole per second",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "micromolepersecond","micromole per second",19,"micromole per second",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"micromolepersecond","micromole per second",19,"micromole per second",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microcuriepermicromole","microcuriepermicromole",19,"microcuriepermicromole",1,12,12,0,0,0,0,"EDI",1,1,12,12
 "microcuriepermicromole","microcuriepermicromole",19,"microcuriepermicromole",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "maxberries(gbiomass)-1m-2","maxberries(gbiomass)-1m-2",19,"maxberries(gbiomass)-1m-2",1,1,9,0,0,0,10,"EDI DataOne",2,1,1,19
@@ -1524,8 +1522,8 @@
 "quininesulfateunits","quininesulfateunits",18,"quininesulfateunits",1,4,18,0,0,0,0,"EDI",1,1,4,18
 "partpermillionbyweight","parts per million by weight",18,"parts per million by weight",0,0,0,0,0,0,18,"DataOne",1,0,0,18
 "oneyearexcludingleapsecondandleapday,31536000second","one year excluding leap seconds and leap days, 31536000 seconds",18,"one year excluding leap seconds and leap days, 31536000 seconds",1,18,18,0,0,0,0,"EDI",1,1,18,18
-"moleperhectare","moleperhectare",18,"moleperhectare",0,0,0,0,0,0,9,"DataOne",1,0,0,9
 "moleperhectare","moleperhectare",18,"moleperhectare",1,1,9,0,0,0,0,"EDI",1,1,1,9
+"moleperhectare","moleperhectare",18,"moleperhectare",0,0,0,0,0,0,9,"DataOne",1,0,0,9
 "millimetermercury","millimetermercury",18,"millimetermercury",0,0,0,0,0,0,9,"DataOne",1,0,0,9
 "millimetermercury","millimetermercury",18,"millimetermercury",2,4,6,0,0,0,0,"EDI",1,2,4,6
 "millimetermercury","millimeters mercury",18,"millimeters mercury",0,0,0,0,0,0,2,"DataOne",1,0,0,2
@@ -1533,9 +1531,9 @@
 "micromolperliter","micromol/l",18,"micromol/l",0,0,0,0,0,0,12,"DataOne",1,0,0,12
 "micromolperliter","micromol/l",18,"micromol/l",1,1,6,0,0,0,0,"EDI",1,1,1,6
 "microgrampercentimetercubed","microgrampercentimetercubed",18,"microgrampercentimetercubed",2,6,15,0,0,0,0,"EDI",1,2,6,15
-"microgrampercentimetercubed","microgramspercentimetercubed",18,"microgramspercentimetercubed",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "microgrampercentimetercubed","ug/cm3",18,"ug/cm3",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "microgrampercentimetercubed","microgramspercentimetercubed",18,"microgramspercentimetercubed",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"microgrampercentimetercubed","microgramspercentimetercubed",18,"microgramspercentimetercubed",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "lpoppe","lpoppe",18,"lpoppe",0,0,0,0,0,0,18,"DataOne",1,0,0,18
 "grampermeterquaredpersecond","grampermetersquaredpersecond",18,"grampermetersquaredpersecond",3,4,11,0,0,0,0,"EDI",1,3,4,11
 "grampermeterquaredpersecond","gramspermetersquaredpersecond",18,"gramspermetersquaredpersecond",2,3,7,0,0,0,0,"EDI",1,2,3,7
@@ -1551,7 +1549,7 @@
 "sg","sg",17,"sg",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "replicate","replicate",17,"replicate",1,8,8,0,0,0,8,"EDI DataOne",2,1,8,16
 "replicate","replicate",17,"replicate",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"partpermillionperday","ppm/d",17,"ppm/d",1,2,11,0,0,0,6,"EDI DataOne",2,1,2,17
+"partpermillionperd","ppm/d",17,"ppm/d",1,2,11,0,0,0,6,"EDI DataOne",2,1,2,17
 "ohm-meter","ohm-meter",17,"ohm-meter",0,0,0,0,0,0,10,"DataOne",1,0,0,10
 "ohm-meter","ohm-meters",17,"ohm-meters",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "nanogram","nanogram",17,"nanogram",2,2,17,0,0,0,0,"EDI",1,2,2,17
@@ -1563,8 +1561,8 @@
 "mgpergram","mg/g",17,"mg/g",3,4,8,0,0,0,9,"EDI DataOne",2,3,4,17
 "mgperdl","mg/dl",17,"mg/dl",0,0,0,0,0,0,11,"DataOne",1,0,0,11
 "mgperdl","mg/dl",17,"mg/dl",0,0,0,0,0,0,6,"DataOne",1,0,0,6
-"mgco2perday","mgco2/d",17,"mgco2/d",1,2,11,0,0,0,0,"EDI",1,1,2,11
-"mgco2perday","mgco2/d",17,"mgco2/d",0,0,0,0,0,0,6,"DataOne",1,0,0,6
+"mgco2perd","mgco2/d",17,"mgco2/d",1,2,11,0,0,0,0,"EDI",1,1,2,11
+"mgco2perd","mgco2/d",17,"mgco2/d",0,0,0,0,0,0,6,"DataOne",1,0,0,6
 "meterpermonth","meters/month",17,"meters/month",0,0,0,0,0,0,17,"DataOne",1,0,0,17
 "kilogramperliter","kilogramperliter",17,"kilogramperliter",0,0,0,0,0,0,9,"DataOne",1,0,0,9
 "kilogramperliter","kilogramperliter",17,"kilogramperliter",3,4,6,0,0,0,0,"EDI",1,3,4,6
@@ -1572,6 +1570,8 @@
 "kilogramperliter","kilogramsperliter",17,"kilogramsperliter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "gs","gs",17,"gs",0,0,0,0,0,0,12,"DataOne",1,0,0,12
 "gs","gs",17,"gs",0,0,0,0,0,0,5,"DataOne",1,0,0,5
+"d","d",17,"d",0,0,0,0,0,0,15,"DataOne",1,0,0,15
+"d","d",17,"d",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "avolumetricfluxunit.oftenusedforaprimaryproductionrate,e.g.,foraparcelofwater.oftenisspecifictoanelement,e.g.,carbon","a volumetric flux unit. often used for a primary production rate, e.g., for a parcel of water. often is specific to an element, e.g., carbon",17,"a volumetric flux unit. often used for a primary production rate, e.g., for a parcel of water. often is specific to an element, e.g., carbon",1,17,17,0,0,0,0,"EDI",1,1,17,17
 "amountofenergypersquaremetersurface","amount of energy per square meter surface",17,"amount of energy per square meter surface",1,17,17,0,0,0,0,"EDI",1,1,17,17
 "12","12",17,"12",0,0,0,0,0,0,17,"DataOne",1,0,0,17
@@ -1601,8 +1601,8 @@
 "metersquaredpersecond","meterssquaredpersecond",16,"meterssquaredpersecond",0,0,0,0,0,0,10,"DataOne",1,0,0,10
 "metersquaredpersecond","m2/s",16,"m2/s",1,1,1,0,0,0,2,"EDI DataOne",2,1,1,3
 "metersquaredpersecond","meterssquaredpersecond",16,"meterssquaredpersecond",2,2,3,0,0,0,0,"EDI",1,2,2,3
-"grampermeterquaredperdaypereffort","grampermetersquaredperdaypereffort",16,"grampermetersquaredperdaypereffort",1,1,8,0,0,0,0,"EDI",1,1,1,8
 "grampermeterquaredperdaypereffort","grampermetersquaredperdaypereffort",16,"grampermetersquaredperdaypereffort",0,0,0,0,0,0,8,"DataOne",1,0,0,8
+"grampermeterquaredperdaypereffort","grampermetersquaredperdaypereffort",16,"grampermetersquaredperdaypereffort",1,1,8,0,0,0,0,"EDI",1,1,1,8
 "gcm-2yr-1","gcm-2yr-1",16,"gcm-2yr-1",1,3,9,0,0,0,0,"EDI",1,1,3,9
 "gcm-2yr-1","gcm-2yr-1",16,"gcm-2yr-1",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "dayofyear","day of year",16,"day of year",1,2,12,0,0,0,0,"EDI",1,1,2,12
@@ -1632,8 +1632,6 @@
 "micromolsco2m-2s-1","micromolsco2m-2s-1",15,"micromolsco2m-2s-1",1,1,6,0,0,0,0,"EDI",1,1,1,6
 "mg","mg",15,"mg",0,0,0,0,0,0,12,"DataOne",1,0,0,12
 "mg","mg",15,"mg",0,0,0,0,0,0,3,"DataOne",1,0,0,3
-"metercubedperday","metercubedperday",15,"metercubedperday",2,2,13,0,0,0,0,"EDI",1,2,2,13
-"metercubedperday","m3/d",15,"m3/d",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "megajoulepermetersquared","megajoules per meter squared",15,"megajoules per meter squared",1,13,13,0,0,0,0,"EDI",1,1,13,13
 "megajoulepermetersquared","megajoule per m2",15,"megajoule per m2",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "lidar","lidar",15,"lidar",0,0,0,0,0,0,15,"DataOne",1,0,0,15
@@ -1660,8 +1658,8 @@
 "numberofday","number of days",14,"number of days",3,6,14,0,0,0,0,"EDI",1,3,6,14
 "nmolperhourpermicrogram","nmolperhourpermicrogram",14,"nmolperhourpermicrogram",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "nmolperhourpermicrogram","nmolperhourpermicrogram",14,"nmolperhourpermicrogram",1,1,7,0,0,0,0,"EDI",1,1,1,7
-"nmolpergramperhour","nmolpergramperhour",14,"nmolpergramperhour",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "nmolpergramperhour","nmolpergramperhour",14,"nmolpergramperhour",1,1,7,0,0,0,0,"EDI",1,1,1,7
+"nmolpergramperhour","nmolpergramperhour",14,"nmolpergramperhour",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "nanomoleperhourpergram","nanomoleperhourpergram",14,"nanomoleperhourpergram",1,2,10,0,0,0,0,"EDI",1,1,2,10
 "nanomoleperhourpergram","nanomolesperhourpergram",14,"nanomolesperhourpergram",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "nanomoleperhourpergram","nanomolesperhourpergram",14,"nanomolesperhourpergram",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -1731,6 +1729,7 @@
 "meterpermeter","meterspermeter",13,"meterspermeter",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "meterpermeter","meterpermeter",13,"meterpermeter",3,3,3,0,0,0,0,"EDI",1,3,3,3
 "meterpermeter","meterspermeter",13,"meterspermeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"metercubedperday","metercubedperday",13,"metercubedperday",2,2,13,0,0,0,0,"EDI",1,2,2,13
 "langley","langley",13,"langley",3,7,9,0,0,0,3,"EDI DataOne",2,3,7,12
 "langley","langley",13,"langley",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "hundrethofdegreecelsius","hundrethofdegreecelsius",13,"hundrethofdegreecelsius",1,1,12,0,0,0,0,"EDI",1,1,1,12
@@ -1763,8 +1762,8 @@
 "vanveengrab","van veen grab",12,"van veen grab",0,0,0,0,0,0,8,"DataOne",1,0,0,8
 "vanveengrab","van veen grab",12,"van veen grab",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "vanveengrab","vanveen grab",12,"vanveen grab",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"utm","utm",12,"utm",2,3,6,0,0,0,0,"EDI",1,2,3,6
 "utm","utm",12,"utm",0,0,0,0,0,0,6,"DataOne",1,0,0,6
+"utm","utm",12,"utm",2,3,6,0,0,0,0,"EDI",1,2,3,6
 "txr","txr",12,"txr",0,0,0,0,0,0,12,"DataOne",1,0,0,12
 "txg","txg",12,"txg",0,0,0,0,0,0,12,"DataOne",1,0,0,12
 "taro","taro",12,"taro",0,0,0,0,0,0,12,"DataOne",1,0,0,12
@@ -1927,8 +1926,6 @@
 "numberper10centimeterquared","numberper10centimetersquared",10,"numberper10centimetersquared",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "numbermicrometercubedper0.1milimetercubed","numbermicrometercubedper0.1milimetercubed",10,"numbermicrometercubedper0.1milimetercubed",1,1,10,0,0,0,0,"EDI",1,1,1,10
 "numbermicrometercubedper0.1mililiter","numbermicrometercubedper0.1mililiter",10,"numbermicrometercubedper0.1mililiter",1,1,10,0,0,0,0,"EDI",1,1,1,10
-"mperday","m/d",10,"m/d",1,1,6,0,0,0,0,"EDI",1,1,1,6
-"mperday","m/day",10,"m/day",1,1,1,0,0,0,3,"EDI DataOne",2,1,1,4
 "molepermetersquaredperday","moles per m2 per day",10,"moles per m2 per day",1,1,10,0,0,0,0,"EDI",1,1,1,10
 "mmperyear","mmperyear",10,"mmperyear",1,1,5,0,0,0,5,"EDI DataOne",2,1,1,10
 "millimeterperhalfhour","millimeterperhalfhour",10,"millimeterperhalfhour",0,0,0,0,0,0,3,"DataOne",1,0,0,3
@@ -1992,15 +1989,15 @@
 "ceoc","ceoc",10,"ceoc",0,0,0,0,0,0,10,"DataOne",1,0,0,10
 "centimetersquaredpergram","cm2/g",10,"cm2/g",2,4,5,0,0,0,0,"EDI",1,2,4,5
 "centimetersquaredpergram","centimeters squared per gram",10,"centimeters squared per gram",2,3,3,0,0,0,0,"EDI",1,2,3,3
-"centimetersquaredpergram","centimeter squared per gram",10,"centimeter squared per gram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "centimetersquaredpergram","cm2 / g",10,"cm2 / g",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"centimetersquaredpergram","centimeter squared per gram",10,"centimeter squared per gram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "centimeterpermeter","centimeterspermeter",10,"centimeterspermeter",1,1,9,0,0,0,0,"EDI",1,1,1,9
 "centimeterpermeter","centimeters per meter",10,"centimeters per meter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "centimenter","centimenter",10,"centimenter",1,1,10,0,0,0,0,"EDI",1,1,1,10
 "beni","beni",10,"beni",0,0,0,0,0,0,10,"DataOne",1,0,0,10
 "amountpercubicmeter","amountpercubicmeter",10,"amountpercubicmeter",0,0,0,0,0,0,10,"DataOne",1,0,0,10
 "acsa2","acsa2",10,"acsa2",0,0,0,0,0,0,10,"DataOne",1,0,0,10
-"1perday","1/d",10,"1/d",1,1,10,0,0,0,0,"EDI",1,1,1,10
+"1perd","1/d",10,"1/d",1,1,10,0,0,0,0,"EDI",1,1,1,10
 ".",".",10,".",0,0,0,0,0,0,10,"DataOne",1,0,0,10
 "%peryear","%peryear",10,"%peryear",1,1,5,0,0,0,5,"EDI DataOne",2,1,1,10
 "-","-",10,"-",0,0,0,0,0,0,10,"DataOne",1,0,0,10
@@ -2086,8 +2083,8 @@
 "quve","quve",8,"quve",0,0,0,0,0,0,8,"DataOne",1,0,0,8
 "quma2","quma2",8,"quma2",0,0,0,0,0,0,8,"DataOne",1,0,0,8
 "platinumcobaltunits","platinumcobaltunits",8,"platinumcobaltunits",1,4,6,0,0,0,0,"EDI",1,1,4,6
-"platinumcobaltunits","platinumcobaltunits",8,"platinumcobaltunits",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "platinumcobaltunits","platinum cobalt units",8,"platinum cobalt units",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"platinumcobaltunits","platinumcobaltunits",8,"platinumcobaltunits",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "personspersquarekilometer","persons per square km",8,"persons per square km",1,2,4,0,0,0,0,"EDI",1,1,2,4
 "personspersquarekilometer","persons per square kilometer",8,"persons per square kilometer",1,2,4,0,0,0,0,"EDI",1,1,2,4
 "percentpermeterquared","percentpermetersquared",8,"percentpermetersquared",1,1,4,0,0,0,0,"EDI",1,1,1,4
@@ -2162,8 +2159,8 @@
 "dutycycle15%","duty cycle 15%",8,"duty cycle 15%",0,0,0,0,0,0,8,"DataOne",1,0,0,8
 "degreelongitude","degrees longitude",8,"degrees longitude",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "degreelongitude","degree longitude",8,"degree longitude",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"degreelongitude","degreeslongitude",8,"degreeslongitude",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "degreelongitude","degreeslongitude",8,"degreeslongitude",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"degreelongitude","degreeslongitude",8,"degreeslongitude",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "degreeday","degreedays",8,"degreedays",1,1,6,0,0,0,0,"EDI",1,1,1,6
 "degreeday","degreedays",8,"degreedays",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "date(mmperddperyyyy)","date (mm/dd/yyyy)",8,"date (mm/dd/yyyy)",0,0,0,0,0,0,8,"DataOne",1,0,0,8
@@ -2186,8 +2183,8 @@
 "501","501",8,"501",0,0,0,0,0,0,8,"DataOne",1,0,0,8
 "2008","2008",8,"2008",0,0,0,0,0,0,8,"DataOne",1,0,0,8
 "100","100",8,"100",0,0,0,0,0,0,8,"DataOne",1,0,0,8
-"?gnpergrootperhour","?gn/groot/hour",8,"?gn/groot/hour",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "?gnpergrootperhour","?gn/groot/hour",8,"?gn/groot/hour",1,1,4,0,0,0,0,"EDI",1,1,1,4
+"?gnpergrootperhour","?gn/groot/hour",8,"?gn/groot/hour",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "%volumetricwatercontent","%volumetricwatercontent",8,"%volumetricwatercontent",1,1,4,0,0,0,4,"EDI DataOne",2,1,1,8
 "#perliter","#/liter",8,"#/liter",1,1,8,0,0,0,0,"EDI",1,1,1,8
 "#perkm2","#/km2",8,"#/km2",0,0,0,0,0,0,8,"DataOne",1,0,0,8
@@ -2275,8 +2272,8 @@
 "meter(m)","meters (m)",7,"meters (m)",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "megajoulepersquaremeter","megajoulespersquaremeter",7,"megajoulespersquaremeter",2,2,3,0,0,0,0,"EDI",1,2,2,3
 "megajoulepersquaremeter","megajoulepersquaremeter",7,"megajoulepersquaremeter",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"megajoulepersquaremeter","megajoulepersquaremeter",7,"megajoulepersquaremeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "megajoulepersquaremeter","megajoulespersquaremeter",7,"megajoulespersquaremeter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"megajoulepersquaremeter","megajoulepersquaremeter",7,"megajoulepersquaremeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "literpermilligrampermeter","liters per milligram per meter",7,"liters per milligram per meter",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "literpermilligrampermeter","literpermilligrampermeter",7,"literpermilligrampermeter",2,2,2,0,0,0,0,"EDI",1,2,2,2
 "literpermilligrampermeter","literspermilligrampermeter",7,"literspermilligrampermeter",1,2,2,0,0,0,0,"EDI",1,1,2,2
@@ -2308,10 +2305,10 @@
 "decadal","decadal",7,"decadal",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "cubicmeterpermonth","cubicmeterpermonth",7,"cubicmeterpermonth",1,1,7,0,0,0,0,"EDI",1,1,1,7
 "cubickilometer","cubickilometer",7,"cubickilometer",0,0,0,0,0,0,3,"DataOne",1,0,0,3
+"cubickilometer","cubickilometers",7,"cubickilometers",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "cubickilometer","cubic kilometer",7,"cubic kilometer",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "cubickilometer","cubickilometers",7,"cubickilometers",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "cubickilometer","cubickilometer",7,"cubickilometer",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"cubickilometer","cubickilometers",7,"cubickilometers",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "cpue","cpue",7,"cpue",0,0,0,0,0,0,7,"DataOne",1,0,0,7
 "countorpercent","count or percent",7,"count or percent",1,1,7,0,0,0,0,"EDI",1,1,1,7
 "control","control",7,"control",0,0,0,0,0,0,5,"DataOne",1,0,0,5
@@ -2357,6 +2354,7 @@
 "ntu-ratiooftheamountoflighttransmittedthroughawatersamplewiththeamountscatteredatanangleof90degreetooneside","ntu- ratio of the amount of light transmitted through a water sample with the amount scattered at an angle of 90 degrees to one side",6,"ntu- ratio of the amount of light transmitted through a water sample with the amount scattered at an angle of 90 degrees to one side",1,6,6,0,0,0,0,"EDI",1,1,6,6
 "nanomoleperhour","nanomoleperhour",6,"nanomoleperhour",1,1,6,0,0,0,0,"EDI",1,1,1,6
 "nanogrampermeterquaredperhour","nanogrampermetersquaredperhour",6,"nanogrampermetersquaredperhour",1,1,6,0,0,0,0,"EDI",1,1,1,6
+"mperd","m/d",6,"m/d",1,1,6,0,0,0,0,"EDI",1,1,1,6
 "moleculesperthousand","molecules per thousand",6,"molecules per thousand",1,6,6,0,0,0,0,"EDI",1,1,6,6
 "millimolepersecond","millimolepersecond",6,"millimolepersecond",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "millimolepersecond","millimole per second",6,"millimole per second",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -2388,8 +2386,8 @@
 "microequivalentsper100g","microequivalentsper100g",6,"microequivalentsper100g",1,3,6,0,0,0,0,"EDI",1,1,3,6
 "mgpermetersquaredpersecond","mg/m2/sec",6,"mg/m2/sec",2,2,3,0,0,0,3,"EDI DataOne",2,2,2,6
 "mgpergsoil","mg/gsoil",6,"mg/gsoil",1,1,5,0,0,0,1,"EDI DataOne",2,1,1,6
-"mgch4permetersquaredperday","mgch4/m2/d",6,"mgch4/m2/d",1,2,4,0,0,0,0,"EDI",1,1,2,4
-"mgch4permetersquaredperday","mgch4/m2/d",6,"mgch4/m2/d",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"mgch4permetersquaredperd","mgch4/m2/d",6,"mgch4/m2/d",1,2,4,0,0,0,0,"EDI",1,1,2,4
+"mgch4permetersquaredperd","mgch4/m2/d",6,"mgch4/m2/d",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "metre","metre",6,"metre",0,0,0,0,0,0,6,"DataOne",1,0,0,6
 "metersquaredpers^2","m^2/s^2",6,"m^2/s^2",1,1,6,0,0,0,0,"EDI",1,1,1,6
 "meterquaredpernauticalmilequared","metersquaredpernauticalmilesquared",6,"metersquaredpernauticalmilesquared",0,0,0,0,0,0,5,"DataOne",1,0,0,5
@@ -2626,8 +2624,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "juvenilesteelhead(rbt)0","juvenile steelhead (rbt) 0",5,"juvenile steelhead (rbt) 0",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "june","june",5,"june",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "julianday(year2007)","julian day (year 2007)",5,"julian day (year 2007)",0,0,0,0,0,0,5,"DataOne",1,0,0,5
-"inversemeter","inversemeter",5,"inversemeter",2,2,2,0,0,0,0,"EDI",1,2,2,2
 "inversemeter","inversemeters",5,"inversemeters",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"inversemeter","inversemeter",5,"inversemeter",2,2,2,0,0,0,0,"EDI",1,2,2,2
 "inversemeter","inversemeters",5,"inversemeters",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "individualsecsperday","individualsecsperday",5,"individualsecsperday",1,1,5,0,0,0,0,"EDI",1,1,1,5
 "individualotters","individual otters",5,"individual otters",0,0,0,0,0,0,5,"DataOne",1,0,0,5
@@ -2663,8 +2661,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "chains","chains",5,"chains",2,5,5,0,0,0,0,"EDI",1,2,5,5
 "cercmap","cerc map",5,"cerc map",0,0,0,0,0,0,5,"DataOne",1,0,0,5
 "centimetersquared","cm2",5,"cm2",2,2,2,0,0,0,1,"EDI DataOne",2,2,2,3
-"centimetersquared","centimeter squared",5,"centimeter squared",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "centimetersquared","centimeters squared",5,"centimeters squared",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"centimetersquared","centimeter squared",5,"centimeter squared",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "centimeterquaredperyear","centimetersquaredperyear",5,"centimetersquaredperyear",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "centimeterquaredperyear","centimetersquaredperyear",5,"centimetersquaredperyear",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "cellpermeterquaredperday","cellpermetersquaredperday",5,"cellpermetersquaredperday",1,1,4,0,0,0,0,"EDI",1,1,1,4
@@ -2705,8 +2703,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "wetmeadow","wet meadow",4,"wet meadow",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "wet","wet",4,"wet",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "wet","wet",4,"wet",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"weekofyear","week of year",4,"week of year",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "weekofyear","weekofyear",4,"weekofyear",1,1,2,0,0,0,0,"EDI",1,1,1,2
+"weekofyear","week of year",4,"week of year",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "waypointnumber","waypoint number",4,"waypoint number",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "wavenumber","wavenumber",4,"wavenumber",2,2,2,0,0,0,0,"EDI",1,2,2,2
 "wavenumber","wavenumber",4,"wavenumber",0,0,0,0,0,0,2,"DataOne",1,0,0,2
@@ -2742,8 +2740,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "timespentinsafetyarea","time spent in safety area",4,"time spent in safety area",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "timespentinfeararea","time spent in fear area",4,"time spent in fear area",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "timeinmilitaryhourandminute","time in military hours and minutes",4,"time in military hours and minutes",1,1,4,0,0,0,0,"EDI",1,1,1,4
-"thousandboardfoot","thousandboardfoot",4,"thousandboardfoot",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "thousandboardfoot","thousandboardfoot",4,"thousandboardfoot",1,1,2,0,0,0,0,"EDI",1,1,1,2
+"thousandboardfoot","thousandboardfoot",4,"thousandboardfoot",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "sw","sw",4,"sw",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "stipes","stipes",4,"stipes",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "stemsperhectare","stems/ha",4,"stems/ha",1,1,4,0,0,0,0,"EDI",1,1,1,4
@@ -2815,22 +2813,23 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "nanomolepermilliliter","nanomolepermilliliter",4,"nanomolepermilliliter",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "nanomolepergramperday","nanomolepergramperday",4,"nanomolepergramperday",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "nanomole","nanomole",4,"nanomole",2,2,4,0,0,0,0,"EDI",1,2,2,4
-"mv","mv",4,"mv",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "mv","mv",4,"mv",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"mv","mv",4,"mv",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "multiple","multiple",4,"multiple",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "mpervolt","m/v",4,"m/v",1,1,4,0,0,0,0,"EDI",1,1,1,4
+"mperday","m/day",4,"m/day",1,1,1,0,0,0,3,"EDI DataOne",2,1,1,4
 "molequantapermeterquaredperday","molequantapermetersquaredperday",4,"molequantapermetersquaredperday",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "molequantapermeterquaredperday","molequantapermetersquaredperday",4,"molequantapermetersquaredperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "molepersuaremeter","molespersuaremeters",4,"molespersuaremeters",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "molepersuaremeter","molespersuaremeters",4,"molespersuaremeters",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"molepermeterquaredpersec","molepermetersquaredpersec",4,"molepermetersquaredpersec",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "molepermeterquaredpersec","molepermetersquaredpersec",4,"molepermetersquaredpersec",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"molepermeterquaredpersec","molepermetersquaredpersec",4,"molepermetersquaredpersec",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "minusloghydrogenion","minusloghydrogenion",4,"minusloghydrogenion",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "millionsofpixelsinanimageorsensoroutput","millions of pixels in an image or sensor output",4,"millions of pixels in an image or sensor output",1,4,4,0,0,0,0,"EDI",1,1,4,4
 "milliongallon","million gallons",4,"million gallons",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "millimolspermetercubedperday","millimolspermetercubedperday",4,"millimolspermetercubedperday",1,1,4,0,0,0,0,"EDI",1,1,1,4
-"millimolepermegapascalpermeterqured","millimolespermegapascalpermetersqured",4,"millimolespermegapascalpermetersqured",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "millimolepermegapascalpermeterqured","millimolespermegapascalpermetersqured",4,"millimolespermegapascalpermetersqured",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"millimolepermegapascalpermeterqured","millimolespermegapascalpermetersqured",4,"millimolespermegapascalpermetersqured",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "millimolepergram","millimolespergram",4,"millimolespergram",1,2,4,0,0,0,0,"EDI",1,1,2,4
 "millimoleoxygenpermetersquaredperday","millimoles oxygen per meter squared per day",4,"millimoles oxygen per meter squared per day",1,4,4,0,0,0,0,"EDI",1,1,4,4
 "millimeterperunit","millimeterperunit",4,"millimeterperunit",0,0,0,0,0,0,2,"DataOne",1,0,0,2
@@ -2844,8 +2843,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "milliliterperday","millilitersperday",4,"millilitersperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "milligrampermeterquare","milligramspermetersquare",4,"milligramspermetersquare",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "milligramperhour","milligramperhour",4,"milligramperhour",1,1,2,0,0,0,0,"EDI",1,1,1,2
-"milligramperhour","milligramsperhour",4,"milligramsperhour",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "milligramperhour","milligramsperhour",4,"milligramsperhour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"milligramperhour","milligramsperhour",4,"milligramsperhour",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "milligrampergramdrymass","milligrampergramdrymass",4,"milligrampergramdrymass",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "milligramperdeciliter","milligramperdeciliter",4,"milligramperdeciliter",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "milligramperdeciliter","milligrams per deciliter",4,"milligrams per deciliter",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -2859,22 +2858,22 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "microsiemenspercentimeterat25degreecelsius(Ã¢Âµspercentimeterat25Ã¢Â°c)","microsiemens per centimeter at 25 degrees celsius (Ã¢Âµs/cm at 25 Ã¢Â°c)",4,"microsiemens per centimeter at 25 degrees celsius (Ã¢Âµs/cm at 25 Ã¢Â°c)",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "microseimen","microseimen",4,"microseimen",1,2,2,0,0,0,1,"EDI DataOne",2,1,2,3
 "microseimen","microseimens",4,"microseimens",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"micromolsperliterperhour","micromolsperliterperhour",4,"micromolsperliterperhour",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micromolsperliterperhour","micromolsperliterperhour",4,"micromolsperliterperhour",1,1,2,0,0,0,0,"EDI",1,1,1,2
+"micromolsperliterperhour","micromolsperliterperhour",4,"micromolsperliterperhour",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micromolperliterperhour","micromolperliterperhour",4,"micromolperliterperhour",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "micromolepersquaremeter","micromolespersquaremeter",4,"micromolespersquaremeter",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "micromolepersquaremeter","micromolepersquaremeter",4,"micromolepersquaremeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "micromolepersecondpermeterquared","micromolespersecondpermetersquared",4,"micromolespersecondpermetersquared",2,2,4,0,0,0,0,"EDI",1,2,2,4
-"micromolepermeterquaredpersecondperpascal","micromolepermetersquaredpersecondperpascal",4,"micromolepermetersquaredpersecondperpascal",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micromolepermeterquaredpersecondperpascal","micromolepermetersquaredpersecondperpascal",4,"micromolepermetersquaredpersecondperpascal",1,1,2,0,0,0,0,"EDI",1,1,1,2
+"micromolepermeterquaredpersecondperpascal","micromolepermetersquaredpersecondperpascal",4,"micromolepermetersquaredpersecondperpascal",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micromolepermeterquaredperminute","micromolepermetersquaredperminute",4,"micromolepermetersquaredperminute",1,2,4,0,0,0,0,"EDI",1,1,2,4
 "micromolco2perm2sec","micromol co2/m2sec",4,"micromol co2/m2sec",2,2,4,0,0,0,0,"EDI",1,2,2,4
 "microgrampermetersquaredperday","micrograms per meter squared per day",4,"micrograms per meter squared per day",2,3,3,0,0,0,0,"EDI",1,2,3,3
 "microgrampermetersquaredperday","ug/m2/day",4,"ug/m2/day",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "microgramperliter,<indicatesvaluewaslessthanthelaboratoryreportinglevel","micrograms per liter, < indicates value was less than the laboratory reporting level",4,"micrograms per liter, < indicates value was less than the laboratory reporting level",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "microepermetersquaredpersecond","microe m-2 s-1",4,"microe m-2 s-1",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"microepermetersquaredpersecond","microe/m2/s",4,"microe/m2/s",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "microepermetersquaredpersecond","microe/m2/s",4,"microe/m2/s",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"microepermetersquaredpersecond","microe/m2/s",4,"microe/m2/s",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "micomolepersquaremeterpersecond","micomolespersquaremeterpersecond",4,"micomolespersquaremeterpersecond",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micomolepersquaremeterpersecond","micomolespersquaremeterpersecond",4,"micomolespersquaremeterpersecond",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "mgvermiculitecompositionaltable","mg_vermiculite_compositional_table",4,"mg_vermiculite_compositional_table",0,0,0,0,0,0,4,"DataOne",1,0,0,4
@@ -2889,8 +2888,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "mgcpergsoilc","mgc/gsoilc",4,"mgc/gsoilc",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mgcpergdrysoil","mgc/gdrysoil",4,"mgc/gdrysoil",1,2,3,0,0,0,0,"EDI",1,1,2,3
 "mgcpergdrysoil","mgc/gdrysoil",4,"mgc/gdrysoil",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"mgcpergafdmperhour","mgc/gafdm/hr",4,"mgc/gafdm/hr",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "mgcpergafdmperhour","mgc/gafdm/hr",4,"mgc/gafdm/hr",0,0,0,0,0,0,2,"DataOne",1,0,0,2
+"mgcpergafdmperhour","mgc/gafdm/hr",4,"mgc/gafdm/hr",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "meterquaredpernumber","metersquaredpernumber",4,"metersquaredpernumber",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "meterquaredpernumber","metersquaredpernumber",4,"metersquaredpernumber",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "meterperminute","metersperminute",4,"metersperminute",0,0,0,0,0,0,3,"DataOne",1,0,0,3
@@ -2910,8 +2909,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "ma","ma",4,"ma",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "logofkilogram","log of kilograms",4,"log of kilograms",0,0,0,0,0,0,4,"DataOne",1,0,0,4
 "literpermilligramcarbonpermeter","literspermilligramcarbonpermeter",4,"literspermilligramcarbonpermeter",1,1,2,0,0,0,0,"EDI",1,1,1,2
-"literpermilligramcarbonpermeter","literpermilligramcarbonpermeter",4,"literpermilligramcarbonpermeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "literpermilligramcarbonpermeter","literpermilligramcarbonpermeter",4,"literpermilligramcarbonpermeter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"literpermilligramcarbonpermeter","literpermilligramcarbonpermeter",4,"literpermilligramcarbonpermeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "literpermgcperm","l/mgc/m",4,"l/mgc/m",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "literpermgcperm","l/mgc/m",4,"l/mgc/m",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "lake","lake",4,"lake",0,0,0,0,0,0,3,"DataOne",1,0,0,3
@@ -2984,8 +2983,8 @@ usuallyunderstoodas1per12fafoot.","unit of length in the (british) imperial and 
 "dsperm","ds/m",4,"ds/m",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "dollarperyear","dollarperyear",4,"dollarperyear",1,1,4,0,0,0,0,"EDI",1,1,1,4
 "disintegrationsperminutepergram","disintegrations per minute per gram",4,"disintegrations per minute per gram",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"disintegrationsperminutepergram","disintegrationsperminutepergram",4,"disintegrationsperminutepergram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "disintegrationsperminutepergram","disintegrationsperminutepergram",4,"disintegrationsperminutepergram",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"disintegrationsperminutepergram","disintegrationsperminutepergram",4,"disintegrationsperminutepergram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "disintegrationsperminutepergram","disintegrations per minute per gram",4,"disintegrations per minute per gram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "dimessionless","dimessionless",4,"dimessionless",1,1,2,0,0,0,2,"EDI DataOne",2,1,1,4
 "dimesionless","dimesionless",4,"dimesionless",1,1,2,0,0,0,2,"EDI DataOne",2,1,1,4
@@ -3265,9 +3264,9 @@ electriccurrent.","si unit for conductivity, measure of a material's ability to 
 "nanomolspergrampersecond","nanomolspergrampersecond",3,"nanomolspergrampersecond",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nanomolperkilograminwater","nanomol/kg in water",3,"nanomol/kg in water",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "nanomolperkilogram","nanomol/kg",3,"nanomol/kg",0,0,0,0,0,0,3,"DataOne",1,0,0,3
+"nanomoleperminute","nanomolesperminute",3,"nanomolesperminute",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nanomoleperminute","nanomoleperminute",3,"nanomoleperminute",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nanomoleperminute","nanomolesperminute",3,"nanomolesperminute",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"nanomoleperminute","nanomolesperminute",3,"nanomolesperminute",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "name","name",3,"name",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "nag:b-1,4-n-acetylglucosaminidasenmoleofsubstrateconvertedperhourpergramsampledryweight","nag: b-1,4-n-acetylglucosaminidase nmoles of substrate converted per hour per gram sample dry weight",3,"nag: b-1,4-n-acetylglucosaminidase nmoles of substrate converted per hour per gram sample dry weight",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "nag:b-1,4-n-acetylglucosaminidasenmoleofsubstrateconvertedperhourpergramsampledryweight","nag: b-1,4-n-acetylglucosaminidase nmoles of substrate converted per hour per gram sample dry weight",3,"nag: b-1,4-n-acetylglucosaminidase nmoles of substrate converted per hour per gram sample dry weight",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -3331,8 +3330,8 @@ electriccurrent.","si unit for conductivity, measure of a material's ability to 
 "milligauss","milligauss",3,"milligauss",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "millgramofisotopeperkilogramofplanttissue","millgram of isotope per kilogram of plant tissue",3,"millgram of isotope per kilogram of plant tissue",2,3,3,0,0,0,0,"EDI",1,2,3,3
 "millgramofelementperkilogramofmaterial","millgram of element per kilogram of material",3,"millgram of element per kilogram of material",2,3,3,0,0,0,0,"EDI",1,2,3,3
-"miligramperkilogram","miligram per kilogram",3,"miligram per kilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "miligramperkilogram","miligramsperkilogram",3,"miligramsperkilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"miligramperkilogram","miligram per kilogram",3,"miligram per kilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "miligramperkilogram","miligramsperkilogram",3,"miligramsperkilogram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mid","mid",3,"mid",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "microsiemenspercm","microsiemenspercm",3,"microsiemenspercm",1,1,3,0,0,0,0,"EDI",1,1,1,3
@@ -3368,8 +3367,6 @@ electriccurrent.","si unit for conductivity, measure of a material's ability to 
 "microequivalentsperkilogram","micro equivalents per kilogram",3,"micro equivalents per kilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgrampermeterquared","mgrampermetersquared",3,"mgrampermetersquared",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "mgperpercentimetersquared","mg/cm^2",3,"mg/cm^2",1,1,1,0,0,0,2,"EDI DataOne",2,1,1,3
-"mgpermetersquaredperday","mg/m2/d",3,"mg/m2/d",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
-"mgpermetersquaredperday","mg/m2/day",3,"mg/m2/day",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgnperkgdrysoil*d","mgn/kgdrysoil*d",3,"mgn/kgdrysoil*d",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "mgl-1","mgl-1",3,"mgl-1",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "mgl-1","mg l-1",3,"mg l-1",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -3430,9 +3427,6 @@ electriccurrent.","si unit for conductivity, measure of a material's ability to 
 "km^2","km^2",3,"km^2",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "kilowatthourpermeterquareperday","kilowatthourspermetersquareperday",3,"kilowatthourspermetersquareperday",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "kilometerperkm2","km/km2",3,"km/km2",0,0,0,0,0,0,3,"DataOne",1,0,0,3
-"kilometerperday","kilometers per day",3,"kilometers per day",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"kilometerperday","km/d",3,"km/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"kilometerperday","kilometersperday",3,"kilometersperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "kilometer(km)","kilometers (km)",3,"kilometers (km)",0,0,0,0,0,0,3,"DataOne",1,0,0,3
 "kilogrampersquarekilometer","kilogrampersquarekilometer",3,"kilogrampersquarekilometer",1,1,3,0,0,0,0,"EDI",1,1,1,3
 "kilogrampersqm.","kg/sq m.",3,"kg/sq m.",1,1,2,0,0,0,1,"EDI DataOne",2,1,1,3
@@ -3750,8 +3744,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "umolmol-1","umolmol-1",2,"umolmol-1",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
 "ugnpergdrymossperday","ugn/gdrymoss/day",2,"ugn/gdrymoss/day",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "ugcpercentimetersquared","ugc/cm2",2,"ugc/cm2",1,1,2,0,0,0,0,"EDI",1,1,1,2
-"ugchlorophyll-aperliter","ugchlorophyll-a/liter",2,"ugchlorophyll-a/liter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "ugchlorophyll-aperliter","ugchlorophyll-a/liter",2,"ugchlorophyll-a/liter",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"ugchlorophyll-aperliter","ugchlorophyll-a/liter",2,"ugchlorophyll-a/liter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "ug-npergramdrysoilperday","ug-n/g dry soil/day",2,"ug-n/g dry soil/day",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "ua3","ua3",2,"ua3",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "ua2","ua2",2,"ua2",0,0,0,0,0,0,2,"DataOne",1,0,0,2
@@ -3927,8 +3921,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "picomoleperminutepermilligramofprotein","picomolesperminutepermilligramofprotein",2,"picomolesperminutepermilligramofprotein",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "picomolepergram","picomolespergram",2,"picomolespergram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "picomolepergram","picomolespergram",2,"picomolespergram",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"picogrampermilliliter","picograms per milliliter",2,"picograms per milliliter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "picogrampermilliliter","picogramspermilliliter",2,"picogramspermilliliter",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"picogrampermilliliter","picograms per milliliter",2,"picograms per milliliter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "picogramcarbon","picogramcarbon",2,"picogramcarbon",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "picogramcarbon","picogramcarbon",2,"picogramcarbon",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "picocuriesperliter(pciperl)","picocuries per liter(pci/l)",2,"picocuries per liter(pci/l)",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -3986,8 +3980,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "numberplausiblechecks","number plausible checks",2,"number plausible checks",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "numberperyear","numberperyear",2,"numberperyear",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "numberperyear","numberperyear",2,"numberperyear",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"numberpermeterquaredperday","numberpermetersquaredperday",2,"numberpermetersquaredperday",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "numberpermeterquaredperday","numberpermetersquaredperday",2,"numberpermetersquaredperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"numberpermeterquaredperday","numberpermetersquaredperday",2,"numberpermetersquaredperday",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "numberperkilometerofshoreline","numberperkilometerofshoreline",2,"numberperkilometerofshoreline",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "numberpercentimetersquared","number per centimeter squared",2,"number per centimeter squared",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "numberperarea","number per area",2,"number per area",1,2,2,0,0,0,0,"EDI",1,1,2,2
@@ -4015,8 +4009,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "nmleuperday","nm leu/day",2,"nm leu/day",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "nm","nm",2,"nm",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "nj","nj",2,"nj",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"nh4-npergsoil","nh4-n/gsoil",2,"nh4-n/gsoil",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nh4-npergsoil","nh4-n/gsoil",2,"nh4-n/gsoil",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"nh4-npergsoil","nh4-n/gsoil",2,"nh4-n/gsoil",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nh","nh",2,"nh",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "nephlometricturbidityunits","nephlometricturbidityunits",2,"nephlometricturbidityunits",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nephlometricturbidityunits","nephlometric turbidity units",2,"nephlometric turbidity units",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -4028,10 +4022,10 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "nasc","na_sc",2,"na_sc",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "nanoteslas(nt)","nanoteslas (nt)",2,"nanoteslas (nt)",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "nanomolepersquarecentimeterperhour","nanomolepersquarecentimeterperhour",2,"nanomolepersquarecentimeterperhour",1,1,2,0,0,0,0,"EDI",1,1,1,2
-"nanomolepermolepersecond","nanomolepermolepersecond",2,"nanomolepermolepersecond",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nanomolepermolepersecond","nanomolepermolepersecond",2,"nanomolepermolepersecond",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"nanomolepermetersquaredpersecond","nano moles per meter squared per second",2,"nano moles per meter squared per second",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"nanomolepermolepersecond","nanomolepermolepersecond",2,"nanomolepermolepersecond",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nanomolepermetersquaredpersecond","nanomoles per meter squared per second",2,"nanomoles per meter squared per second",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"nanomolepermetersquaredpersecond","nano moles per meter squared per second",2,"nano moles per meter squared per second",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nanomolepercountperminute","nanomolepercountperminute",2,"nanomolepercountperminute",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "nanomolar(nm)","nanomolar (nm)",2,"nanomolar (nm)",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "nanogramofnitrogenpersquarecentimeterperhour","nanogram of nitrogen per squarecentimeters per hour",2,"nanogram of nitrogen per squarecentimeters per hour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -4059,13 +4053,13 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "mottled","mottled",2,"mottled",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mottled","mottled",2,"mottled",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "monthperdayperyear","month/day/year",2,"month/day/year",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"molepersquaremeter","moles per square meter",2,"moles per square meter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "molepersquaremeter","mole per square meter",2,"mole per square meter",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"molepersquaremeter","moles per square meter",2,"moles per square meter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "molepermeterquareperday","molespermetersquareperday",2,"molespermetersquareperday",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "moleperliterperatmosphere","mol per liter per atmosphere",2,"mol per liter per atmosphere",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "moleofsubstancepersquaremeterperday","moles of substance per square meter per day",2,"moles of substance per square meter per day",1,2,2,0,0,0,0,"EDI",1,1,2,2
-"molco2m-2s-1","molco2m-2s-1",2,"molco2m-2s-1",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "molco2m-2s-1","molco2m-2s-1",2,"molco2m-2s-1",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"molco2m-2s-1","molco2m-2s-1",2,"molco2m-2s-1",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "molarratio","molar ratio",2,"molar ratio",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "molarconcentration","molar concentration",2,"molar concentration",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "mogdata","mog data",2,"mog data",0,0,0,0,0,0,2,"DataOne",1,0,0,2
@@ -4122,10 +4116,10 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "milliequivalentpergram","milliequivalentpergram",2,"milliequivalentpergram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "milliequivalent","milliequivalent",2,"milliequivalent",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "milli-siemenspercentimeter","milli-siemens per centimeter",2,"milli-siemens per centimeter",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"millgramperkilogram","millgramsperkilogram",2,"millgramsperkilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "millgramperkilogram","millgramsperkilogram",2,"millgramsperkilogram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"milivoltpercentimeter","milivoltspercentimeter",2,"milivoltspercentimeter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"millgramperkilogram","millgramsperkilogram",2,"millgramsperkilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "milivoltpercentimeter","milivoltspercentimeter",2,"milivoltspercentimeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"milivoltpercentimeter","milivoltspercentimeter",2,"milivoltspercentimeter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "militarytime","military time",2,"military time",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "milimeterpermonth","milimeterpermonth",2,"milimeterpermonth",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "milimeter","milimeter",2,"milimeter",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
@@ -4134,15 +4128,15 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "micromolperkilogram","micromol/kg",2,"micromol/kg",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micromolepermilligram","micromolepermilligram",2,"micromolepermilligram",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "micromolepermeteruaredpersecond","micromolespermetersuaredpersecond",2,"micromolespermetersuaredpersecond",1,1,2,0,0,0,0,"EDI",1,1,1,2
-"micromolepermeterquarepersecond","micromolespermetersquarepersecond",2,"micromolespermetersquarepersecond",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "micromolepermeterquarepersecond","micromolepermetersquarepersecond",2,"micromolepermetersquarepersecond",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"micromolepermeterquarepersecond","micromolespermetersquarepersecond",2,"micromolespermetersquarepersecond",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "micromoleperkilogramofwater(umolperkg)","micromole per kilogram of water (umol/kg)",2,"micromole per kilogram of water (umol/kg)",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micromolepercountperminute","micromolepercountperminute",2,"micromolepercountperminute",1,1,2,0,0,0,0,"EDI",1,1,1,2
-"micromolenpergramnoduleperhour","micromolesnpergramnoduleperhour",2,"micromolesnpergramnoduleperhour",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "micromolenpergramnoduleperhour","micromolesnpergramnoduleperhour",2,"micromolesnpergramnoduleperhour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"micromolenpergramnoduleperhour","micromolesnpergramnoduleperhour",2,"micromolesnpergramnoduleperhour",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "micromolefe","umol fe",2,"umol fe",0,0,0,0,0,0,2,"DataOne",1,0,0,2
-"micromoleco2pergramnoduleperhour","micromolesco2pergramnoduleperhour",2,"micromolesco2pergramnoduleperhour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "micromoleco2pergramnoduleperhour","micromolesco2pergramnoduleperhour",2,"micromolesco2pergramnoduleperhour",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"micromoleco2pergramnoduleperhour","micromolesco2pergramnoduleperhour",2,"micromolesco2pergramnoduleperhour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "micromolar(micromolar)","micromolar (micromolar)",2,"micromolar (micromolar)",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "micrometercubedperliter","micrometercubedperliter",2,"micrometercubedperliter",2,2,2,0,0,0,0,"EDI",1,2,2,2
 "microgrampershortshoot","microgramspershortshoot",2,"microgramspershortshoot",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -4172,8 +4166,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "microgofcarbonperliter","microgofcarbon/liter",2,"microgofcarbon/liter",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "microgcpergafdmperhour","microgc/gafdm/hr",2,"microgc/gafdm/hr",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microgcpergafdmperhour","microgc/gafdm/hr",2,"microgc/gafdm/hr",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"microgcpercentimetersquaredperhour","microgc/cm2/hr",2,"microgc/cm2/hr",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microgcpercentimetersquaredperhour","microgc/cm2/hr",2,"microgc/cm2/hr",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"microgcpercentimetersquaredperhour","microgc/cm2/hr",2,"microgc/cm2/hr",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "microeinsteinspermetersquaredpersecond","microeinsteins/m^2/second",2,"microeinsteins/m^2/second",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "microeinsteinspermeterquaredpersecond","microeinsteinspermetersquaredpersecond",2,"microeinsteinspermetersquaredpersecond",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "microbecquerelpergram","microbecquerelpergram",2,"microbecquerelpergram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -4181,6 +4175,7 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "mi","mi",2,"mi",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "mgpersecondperm","mg/s/m",2,"mg/s/m",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "mgpermetersquaredperhour","mg/m2/h",2,"mg/m2/h",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
+"mgpermetersquaredperd","mg/m2/d",2,"mg/m2/d",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
 "mgperhectare","mg/ha",2,"mg/ha",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "mgper(m2*day","mg/(m2*day",2,"mg/(m2*day",1,1,1,0,0,0,1,"EDI DataOne",2,1,1,2
 "mgnpermetersquaredperhour","mgn/m2/h",2,"mgn/m2/h",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -4188,8 +4183,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "mgnperkgdrysoil","mgn/kgdrysoil",2,"mgn/kgdrysoil",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "mgnpergramsoil","mg n/g soil",2,"mg n/g soil",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgnpergramsoil","mg n / g soil",2,"mg n / g soil",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"mgnpergleafdrymass","mgnpergleafdrymass",2,"mgnpergleafdrymass",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mgnpergleafdrymass","mgnpergleafdrymass",2,"mgnpergleafdrymass",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"mgnpergleafdrymass","mgnpergleafdrymass",2,"mgnpergleafdrymass",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mgno3-nperliter","mg no3-n / l",2,"mg no3-n / l",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "mgnm2perhour","mgnm2/h",2,"mgnm2/h",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mgnm2perhour","mgnm2/h",2,"mgnm2/h",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -4201,8 +4196,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "mgcperliter","mg c / l",2,"mg c / l",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "mgcpergsoilcperday","mgc/gsoilc/day",2,"mgc/gsoilc/day",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mgcpergsoilcperday","mgc/gsoilc/day",2,"mgc/gsoilc/day",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"mgcpergleafdrymass","mgcpergleafdrymass",2,"mgcpergleafdrymass",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgcpergleafdrymass","mgcpergleafdrymass",2,"mgcpergleafdrymass",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"mgcpergleafdrymass","mgcpergleafdrymass",2,"mgcpergleafdrymass",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgcpergdrysoilperday","mgc/gdrysoil/day",2,"mgc/gdrysoil/day",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgcpergdrysoilperday","mgc/gdrysoil/day",2,"mgc/gdrysoil/day",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mgco2persecondpermetersquared","mgco2/sec/m2",2,"mgco2/sec/m2",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -4218,8 +4213,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "metersquares","meter squares",2,"meter squares",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "metersquaredperhectar","meterssquared per hectar",2,"meterssquared per hectar",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "metersquaredperhectar","meterssquared per hectar",2,"meterssquared per hectar",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"meterquaredpersecondcubed","metersquaredpersecondcubed",2,"metersquaredpersecondcubed",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "meterquaredpersecondcubed","metersquaredpersecondcubed",2,"metersquaredpersecondcubed",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"meterquaredpersecondcubed","metersquaredpersecondcubed",2,"metersquaredpersecondcubed",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "meterquaredperpixel","metersquaredperpixel",2,"metersquaredperpixel",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "meterquaredperhectareperyear","metersquaredperhectareperyear",2,"metersquaredperhectareperyear",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "metercubedpersecondperkilometerquared","metercubedpersecondperkilometersquared",2,"metercubedpersecondperkilometersquared",1,1,2,0,0,0,0,"EDI",1,1,1,2
@@ -4228,6 +4223,7 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "metercubedperhundredmeter","metercubedperhundredmeters",2,"metercubedperhundredmeters",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "metercubedperhour","m3/hr",2,"m3/hr",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "metercubedperhour","metercubedperhour",2,"metercubedperhour",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"metercubedperd","m3/d",2,"m3/d",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "meterbelowmeanlowerlowwater","meters below mean lower low water",2,"meters below mean lower low water",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "meterabovethenorthamericanverticaldatumof1988","meters above the north american vertical datum of 1988",2,"meters above the north american vertical datum of 1988",0,0,0,0,0,0,2,"DataOne",1,0,0,2
 "message","message",2,"message",0,0,0,0,0,0,2,"DataOne",1,0,0,2
@@ -4287,6 +4283,8 @@ at212understandardconditions.","unit for temperature on the scale in which water
 "kilowattspermetersquared","kilowatts per meter squared",2,"kilowatts per meter squared",1,2,2,0,0,0,0,"EDI",1,1,2,2
 "kilowattsperhourpermeterquare","kilowattsperhourpermetersquare",2,"kilowattsperhourpermetersquare",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kilowattsperhourpermeterquare","kilowattsperhourpermetersquare",2,"kilowattsperhourpermetersquare",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"kilometerperday","kilometersperday",2,"kilometersperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"kilometerperday","kilometers per day",2,"kilometers per day",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "kilometercubed","kilometercubed",2,"kilometercubed",1,1,2,0,0,0,0,"EDI",1,1,1,2
 "kilojoulepergram","kilojoulepergram",2,"kilojoulepergram",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kilojoulepergram","kilojoulepergram",2,"kilojoulepergram",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -5952,7 +5950,7 @@ musthavethesamedimensions.","permil is a shorthand way of saying parts per thous
 "orientpoint","orient point",1,"orient point",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "orestockpileperstorage","ore stockpile/storage",1,"ore stockpile/storage",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "ordovician","ordovician",1,"ordovician",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"operday","o/d",1,"o/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"operd","o/d",1,"o/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "openwater","open water",1,"open water",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "openpitmineorquarry","open pit mine or quarry",1,"open pit mine or quarry",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "openpitmine","open pit mine",1,"open pit mine",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -6108,7 +6106,7 @@ ofinvasiverustycrayfish(faxoniusrusticus)""","number of stems counted using the 
 "no-norecov","no-no recov",1,"no-no recov",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "no-bent","no-bent",1,"no-bent",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "nmpermetersquaredpersecond","nm/m2/sec",1,"nm/m2/sec",1,1,1,0,0,0,0,"EDI",1,1,1,1
-"nmoltotfepermetersquaredperday","nmol totfe/m2/d",1,"nmol totfe/m2/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"nmoltotfepermetersquaredperd","nmol totfe/m2/d",1,"nmol totfe/m2/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "nmolperhourpergram","nmolperhourpergram",1,"nmolperhourpergram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "nmolpergramdrysedimentweight","nmol/g dry sediment weight",1,"nmol/g dry sediment weight",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "nmolefeperkilogramofseawater","nmole fe per kilogram of seawater",1,"nmole fe per kilogram of seawater",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -6253,7 +6251,7 @@ standardunit = metersquaredperkilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mse","mse",1,"mse",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "msarp","ms_ar_p",1,"ms_ar_p",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mperf","m/f",1,"m/f",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"mperdayperyyyy","m/d/yyyy",1,"m/d/yyyy",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"mperdperyyyy","m/d/yyyy",1,"m/d/yyyy",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "moxa","moxa",1,"moxa",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "movingice","moving ice",1,"moving ice",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mottledsculpin","mottled sculpin",1,"mottled sculpin",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -6520,6 +6518,7 @@ standardunit = metersquaredperkilogram",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgso4perliter","mg so4 / l",1,"mg so4 / l",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgsecondperliter","mg s/l",1,"mg s/l",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgpershoot","mg/shoot",1,"mg/shoot",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"mgpermetersquaredperday","mg/m2/day",1,"mg/m2/day",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgpermetercubedchl-a(definedbythefactorycalibrationfromseabird,thecompanythatmanufacturedthectd).","mg/m3 chl-a (defined by the factory calibration from seabird, the company that manufactured the ctd).",1,"mg/m3 chl-a (defined by the factory calibration from seabird, the company that manufactured the ctd).",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "mgperlofnh4+pergofrootbiomass","mg/lofnh4+/gofrootbiomass",1,"mg/lofnh4+/gofrootbiomass",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "mgperliterpergramperhour","mg/l/g/hr",1,"mg/l/g/hr",1,1,1,0,0,0,0,"EDI",1,1,1,1
@@ -6788,7 +6787,7 @@ degree","latitude or longitude in geographic coordinates as decimal fractions of
 "kz","kz",1,"kz",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kwethluk,y-kdelta","kwethluk, y-k delta",1,"kwethluk, y-k delta",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kperm","k/m",1,"k/m",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"kperday","k/d",1,"k/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"kperd","k/d",1,"k/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kpctwdxfuse","k_pct_wdx_fuse",1,"k_pct_wdx_fuse",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kpctnalc","k_pct_na_lc",1,"k_pct_na_lc",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kpctaesst","k_pct_aes_st",1,"k_pct_aes_st",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -6799,7 +6798,7 @@ degree","latitude or longitude in geographic coordinates as decimal fractions of
 "knebel","knebel",1,"knebel",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kn,sp","kn, sp",1,"kn, sp",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kmno4-h2so4-hf","kmno4-h2so4-hf",1,"kmno4-h2so4-hf",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"km2perday","km2/d",1,"km2/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"km2perd","km2/d",1,"km2/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "klam-25","klam-25",1,"klam-25",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "klam-05","klam-05",1,"klam-05",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kl","kl",1,"kl",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -6809,6 +6808,7 @@ degree","latitude or longitude in geographic coordinates as decimal fractions of
 "kilowattspersquaremeter","kilowattspersquaremeter",1,"kilowattspersquaremeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "kilowattpersquaremeter","kilowattpersquaremeter",1,"kilowattpersquaremeter",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "kilometerperkilometerquared","kilometerperkilometersquared",1,"kilometerperkilometersquared",1,1,1,0,0,0,0,"EDI",1,1,1,1
+"kilometerperd","km/d",1,"km/d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kilojoulepersquaremeterperday","kilojoulepersquaremeterperday",1,"kilojoulepersquaremeterperday",1,1,1,0,0,0,0,"EDI",1,1,1,1
 "kilojoulepermeter","kilojoulepermeter",1,"kilojoulepermeter",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "kilojouleperhour","kilojoulesperhour",1,"kilojoulesperhour",0,0,0,0,0,0,1,"DataOne",1,0,0,1
@@ -6890,7 +6890,7 @@ degree","latitude or longitude in geographic coordinates as decimal fractions of
 "ir","ir",1,"ir",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "iplover-tncvirginiacoast","iplover-tnc_virginia_coast",1,"iplover-tnc_virginia_coast",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "iplover-rhodeisland","iplover-rhode_island",1,"iplover-rhode_island",0,0,0,0,0,0,1,"DataOne",1,0,0,1
-"iplover-randday","iplover-r_and_d",1,"iplover-r_and_d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
+"iplover-randd","iplover-r_and_d",1,"iplover-r_and_d",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "iplover-rachelcarson","iplover-rachel_carson",1,"iplover-rachel_carson",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "iplover-parkerriver","iplover-parker_river",1,"iplover-parker_river",0,0,0,0,0,0,1,"DataOne",1,0,0,1
 "iplover-northcarolina","iplover-north_carolina",1,"iplover-north_carolina",0,0,0,0,0,0,1,"DataOne",1,0,0,1
