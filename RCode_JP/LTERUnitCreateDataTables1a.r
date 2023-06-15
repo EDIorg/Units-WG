@@ -38,6 +38,7 @@ pseudoQUDTDf$unit<-pseudoQUDTDf$pseudounit
 pseudoQUDTDf$numOrgs<-0
 pseudoQUDTDf$TotalUses<-0
 pseudoQUDTDf$orgList<-""
+pseudoQUDTDf<-pseudoQUDTDf[!duplicated(pseudoQUDTDf),]
 
 qudtDf<-rbind(qudtDf,pseudoQUDTDf)
 
