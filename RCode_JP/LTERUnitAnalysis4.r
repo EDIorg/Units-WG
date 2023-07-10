@@ -6,8 +6,19 @@ rm(list=ls())
 setwd("C:/users/john/Box Sync/EMLUnits")
 library(readxl)
 
-df1<-read.csv("PseudoUnitsAll.csv")
-df1<-df1[!duplicated(df1$pseudounit),]
+df1a<-read.csv("PseudoUnitsAll.csv")
+df1a<-df1a[order(df1a$pseudounit,df1a$TotalUses,decreasing=T),]
+# summarize them by pseudounit
+ag0<-aggregate(unit~pseudounit,df1a,head,1)
+ag1<-aggregate(TotalUses~pseudounit,df1a,sum)
+ag2<-aggregate(ediTotalUses~pseudounit,df1a,sum)
+ag3<-aggregate(neonTotalUses~pseudounit,df1a,sum)
+ag4<-aggregate(dataoneTotalUses~pseudounit,df1a,sum)
+ag1<-merge(ag0,ag1)
+df1<-merge(ag1,ag2)
+df1<-merge(df1,ag3)
+df1<-merge(df1,ag4)
+##df1<-df1a[!duplicated(df1a$pseudounit),]
 df2<-read_excel("SingularAbbrevsTablewQUDT.xlsx",sheet=1)
 
 df1$qudtUnit<-df1$pseudounit
@@ -74,9 +85,9 @@ qudtDf$qudtUnitName<-qudtDf$qudtUnit
 m1<-merge(df1,qudtDf,by="qudtUnit",all.x=TRUE)
 # write out a URI
 m1$qudtUri<-ifelse(is.na(m1$qudtUnitName),NA,paste("http://qudt.org/vocab/unit",m1$qudtUnit,sep='/'))
-m1<-m1[order(m1$numOrgs,m1$TotalUses,m1$unit,decreasing=T),]
+m1<-m1[order(m1$TotalUses,decreasing=T),]
 
-write.csv(m1[,c(1,3,19,2,13,14,17)],"UnitswQUDT.csv",row.names=F)
+write.csv(m1[,c(1,3,9,2,4)],"UnitswQUDT.csv",row.names=F)
 
 m1Qudt<-m1[!is.na(m1$qudtUri),]
 print("")
