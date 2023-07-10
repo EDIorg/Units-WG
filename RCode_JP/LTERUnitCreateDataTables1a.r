@@ -55,8 +55,8 @@ qudtDf<-rbind(qudtDf,pseudoQUDTDf)
 
 # Add in ALL Multi-Letter UCUM codes from QUDT along with their qudtUri
 ucumCodesDf<-read.csv("UCUMCodes.csv")
-# get rid of one-letter codes - they are too ambiguous in some situations (e.g., d for Day)
-ucumCodesDf<-ucumCodesDf[nchar(ucumCodesDf$ucumCode) > 1,]
+# get rid of one and two-letter codes - they are too ambiguous in some situations (e.g., d for Day, nA for NanoAmperes)
+ucumCodesDf<-ucumCodesDf[nchar(ucumCodesDf$ucumCode) > 2,]
 ucumCodesDf$unit<-ucumCodesDf$ucumCode
 ucumCodesDf$pseudounit<-""
 ucumCodesDf$TotalUses<-0

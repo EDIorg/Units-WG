@@ -8,13 +8,13 @@
 
 rm(list=ls())
 # Optionally, set a directory where the output will be written
-# userName<-Sys.getenv("USERNAME")
-# setwd(paste("C:/users",userName,"Downloads",sep='/'))
+#userName<-Sys.getenv("USERNAME")
+#setwd(paste("C:/users",userName,"Downloads",sep='/'))
 
 # Set the EML Scope, Identifier and Revision to the package you want to process
-emlScope<-'knb-lter-vcr'
-emlIdentifier<-338
-emlRevision<-2
+emlScope<-'knb-lter-bnz'
+emlIdentifier<-542
+emlRevision<-4
 
 ######### You should not need to change anything below this line ###############################
 
@@ -25,7 +25,7 @@ library(tidyverse)
 library(xml2)
 
 # read in QUDT and UCUM for raw lowercase units over the web or from a local file copy
-QUDTInfoDf<-read.csv("https://www.vcrlter.virginia.edu/data/unitsWithQUDTInfo.csv")
+QUDTInfoDf<-read.csv("https://github.com/EDIorg/Units-WG/raw/main/RCode_JP/DataFiles4R/unitsWithQUDTInfo.csv")
 
 
 # set up a dataframe to be appended to from the first line of QUDTInfoDf
@@ -49,11 +49,15 @@ for (myDataTable in xmlTableList){
     myUnitText<-xml_text(myUnit)[[1]][[1]]
     #myCustomUnit<-xml_find_first(myUnit,".//customUnit")
     # myStandardUnit<-xml_find_first(myAttribute,"//standardUnit")
-    print(myAttributeId)
-    print(myUnitText)
+    
     myQUDTInfoDf<-QUDTInfoDf[grepl(paste("^",myUnitText,"$",sep=""),trimws(QUDTInfoDf$unit),ignore.case=T),]
-    myQUDTInfoDf<-myQUDTInfoDf[!duplicated(myQUDTInfoDf$qudtUri)& !is.na(myQUDTInfoDf$qudtUri),]
+    myQUDTInfoDf<-myQUDTInfoDf[!duplicated(myQUDTInfoDf$qudtUri)
+                               & !is.na(myQUDTInfoDf$qudtUri) 
+                               & !is.na(myQUDTInfoDf$unit)
+                               & myQUDTInfoDf$unit != "NA",]
     if (nrow(myQUDTInfoDf) == 1){
+      print(myAttributeId)
+      print(myUnitText)
     myQUDTInfoDf$packageId<-packageId
     myQUDTInfoDf$attributeId<-myAttributeId
     print(myQUDTInfoDf$qudtUri)
