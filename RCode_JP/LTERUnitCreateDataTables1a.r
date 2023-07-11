@@ -98,4 +98,26 @@ qudtDf<-qudtDf[order(qudtDf$TotalUses,qudtDf$unit,decreasing = T),
 # write it out
 write.csv(qudtDf,"unitsWithQUDTInfo.csv",row.names=F)
 
+# Create some handy graphics
+library(ggplot2)
 
+# Raw units
+# recode TotalUses into categories
+# rawDf$Unit_Uses <- 10^(as.integer(10*log10(rawDf$TotalUses))/10)
+# rawDf$Count <- 1
+# rawAg1<-aggregate(Count~Unit_Uses,rawDf,sum)
+
+#ggplot(data=rawAg1,aes(Count,Unit_Uses))+geom_line()+scale_y_continuous(trans='log10')
+#ggplot(data=rawDf,aes(unit,TotalUses))+geom_col()
+
+png("CumulativeUses.png",width=1600,height=900)
+ggplot(data=rawDf,aes(TotalUses))+stat_ecdf(color="red",size=2)+
+   scale_x_continuous(trans='log10')+
+   labs(x="Number of Uses in Metadata (log scale)",y="Cumulative Distribution of Times Used")+
+   theme(text=element_text(size=35))+
+   annotate("text",x=1.5,y=0.6,label="1",size=10)+
+   annotate("text",x=2.5,y=0.73,label="2",size=10)+
+   annotate("text",x=3.5,y=0.8,label="3",size=10)
+dev.off()
+   
+quantile(rawDf$TotalUses,probs=c(.5,.6,.7,.8,.9,1))
