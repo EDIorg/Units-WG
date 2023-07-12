@@ -2,8 +2,7 @@
 rm(list=ls())
 setwd("C:/Users/John/Box Sync/EMLUnits")
 
-library(readxl)
-df1<-read_excel("IntegratedUnitSummaryLowerCase.xlsx",1)
+df1<-read_csv("IntegratedUnitSummaryLowerCase.csv")
 df1$pseudounit<-df1$unit
 
 # convert spaces to _

@@ -7,7 +7,7 @@ setwd(paste("C:/users",userName,"box sync/EMLUnits",sep='/'))
 library(tidyverse)
 library(xlsx)
 
-ediDf1<-read.xlsx("UnitUseSummary.xlsx",1)
+ediDf1<-read.csv("UnitUseSummary.csv",1)
 colnames(ediDf1)<-c("unit","ediScopeUses","ediPackageUses","ediTotalUses")
 neonDf1<-read.xlsx("UnitUseSummaryNEON.xlsx",1)
 colnames(neonDf1)<-c("unit","neonScopeUses","neonPackageUses","neonTotalUses")

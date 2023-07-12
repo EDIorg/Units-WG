@@ -121,3 +121,21 @@ ggplot(data=rawDf,aes(TotalUses))+stat_ecdf(color="red",size=2)+
 dev.off()
    
 quantile(rawDf$TotalUses,probs=c(.5,.6,.7,.8,.9,1))
+
+# Some handy stats
+print("number of distinct raw units")
+print(nrow(rawDf))
+print("")
+print("number of distinct raw units matched in QUDT")
+print(nrow(qudtDf))
+print("")
+print("number of distinct raw units used more than once")
+print(nrow(rawDf[rawDf$TotalUses > 1,]))
+print("")
+
+print("percent distinct raw units used 3 times or less")
+print((nrow(rawDf[rawDf$TotalUses <= 3,])/nrow(rawDf))*100)
+print("")
+print("percent distinct raw units used 15 times or MORE")
+print((nrow(rawDf[rawDf$TotalUses >= 15,])/nrow(rawDf))*100)
+print("")

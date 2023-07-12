@@ -10,7 +10,7 @@ library(xml2)
 
 extractUnit<-function(x){
   unit<-as.character(xml_text(xml_children(xmlUnitsList[x])))
-  print(paste(packageId,unit,sep=" "))
+  #print(paste(packageId,unit,sep=" "))
   #print(unit)
 #  unit<-tolower(trimws(unit))
   if (length(unit)== 0){
@@ -24,15 +24,12 @@ extractUnit<-function(x){
 
 EMLlist<-list.files(path="EMLCorpus",
                     pattern='*',full.names=TRUE,ignore.case=TRUE)
-#EMLlist<-list.files(path="EMLCorpus",
-#                    pattern='knb-lter-sbc*',full.names=TRUE,ignore.case=TRUE)
 firstData<-TRUE
 for (inXMLFile in EMLlist){
 xmldata<-read_xml(inXMLFile)
 xmlIdList<-xml_find_all(xmldata,"//eml:eml/@packageId")
 packageId<-as.character(xml_text(xmlIdList[1]))
 
- 
 xmlUnitsList<-xml_find_all(xmldata,"//attribute//unit")
 if (length(xmlUnitsList) > 0){
 df1 <- extractUnit(1)
@@ -56,8 +53,10 @@ firstData<-FALSE
 
 #eliminate blank units
 df3<-df3[df3$unit !="",]
+# eliminate whitespace
+df3$unit<-trimws(df3$unit)
 
-write.csv(df3,"RawUnitList.csv",row.names=F)
+#write.csv(df3,"RawUnitList.csv",row.names=F)
 
 # Now summarize by packageID
 df3$unitUseCount<-1
@@ -66,24 +65,43 @@ ag1<-aggregate(unitUseCount~packageId+unit,data=df3,sum)
 # now summarize by scope
 ag1$scope<-gsub("[[:digit:]\\.]","",ag1$packageId)
 
-ag1$scopeUseCount<-ag1$unitUseCount
-ag1$pkgUseCount<-1
-ag2<-aggregate(scopeUseCount~scope+unit,data=ag1,sum)
-ag2a<-aggregate(pkgUseCount~scope+unit,data=ag1,sum)
-ag2<-merge(ag2,ag2a)
-# now summarize by keyword
-ag2$scopeUses<-1
-ag3<-aggregate(scopeUses~unit,ag2,sum)
-ag2$totalUses<-ag2$scopeUseCount
-ag4<-aggregate(totalUses~unit,ag2,sum)
-ag5<-aggregate(pkgUseCount~unit,ag2,sum)
+ag1a<-aggregate(unitUseCount~scope+unit,ag1,sum)
 
-m1<-merge(ag3,ag5)
-m2<-merge(m1,ag4)
 
-m2<-m2[order(m2$scopeUses,m2$pkgUseCount,m2$totalUses,m2$unit,decreasing=T),]
+ag1a<-ag1a[order(ag1a$scope,ag1a$unitUseCount,ag1a$unit,decreasing=c(FALSE,TRUE,FALSE),method="radix"),]
 
-write.csv(m2,"UnitUseSummary.csv",row.names=F)
+
+# Use Web service to find the QUDT Units that match known units
+ag1a$qudtUnit=""
+
+for(obsNum in seq(1:nrow(ag1a))){
+  print(paste("http://www.vcrlter.virginia.edu/data/test_unitsws1.php?rawunit=",url_escape(ag1a[obsNum,]$unit),sep=""))
+  qudtUnit<-readLines(con=paste("http://www.vcrlter.virginia.edu/data/test_unitsws1.php?rawunit=",url_escape(ag1a[obsNum,]$unit),sep=""),warn=F)
+print(qudtUnit)
+    if (qudtUnit != "No_Match" & !is.na(qudtUnit)){
+    ag1a[obsNum,]$qudtUnit<-qudtUnit
+  }
+}
+ag1a$qudtURI<-""
+ag1a$qudtURI<-ifelse(ag1a$qudtUnit=="","",paste0("http://qudt.org/vocab/unit/",ag1a$qudtUnit))
+ag1a$site<-toupper(gsub("knb-lter-","",ag1a$scope))
+
+
+write.csv(ag1a[,c(1,3,2,4,5)],"SiteBySiteUnits.csv", row.names=F)
+
+library(openxlsx)
+
+
+wb<-createWorkbook()
+for (mySite in levels(as.factor(ag1a$site))){
+  print(mySite)
+  myDf<-ag1a[ag1a$site == mySite,c(2,4,3,5,6)]
+  addWorksheet(wb,mySite)
+  writeDataTable(wb,sheet=mySite,myDf)
+  setColWidths(wb,mySite,cols=c(1:6),widths="auto")
+}
+
+saveWorkbook(wb,"SiteBySiteUnits.xlsx",overwrite=TRUE)
 
 
 
