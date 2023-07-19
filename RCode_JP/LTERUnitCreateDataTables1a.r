@@ -8,7 +8,8 @@
 
 rm(list=ls())
 #setwd("D:/Box Sync/EMLUnits")
-setwd("C:/users/john/Box Sync/EMLUnits")
+#setwd("C:/users/john/Box Sync/EMLUnits")
+setwd("C:/users/jhp7e/Box/EMLUnits")
 
 # Read in the raw lower-case units with psuedounits
 rawDf<-read.csv("PseudoUnitsAll.csv")
@@ -25,13 +26,25 @@ print(nrow(qudtUriDf[!duplicated(qudtUriDf$qudtUri),]))
 # merge them based on pseudounits
 rawQudtDf<-merge(rawDf,qudtUriDf,by="pseudounit",all.x=T)
 
+# add in manually added units
+library(readxl)
+manualDf<-read_xlsx("Add Unit Mappings to QUDT2023-07-18.xlsx",1)
+colnames(manualDf)<-c("unit","qudtUnit_m","qudtPropose","who","comment")
+manualDf<-manualDf[!is.na(manualDf$qudtUnit_m),]
+manualDf$qudtUri_m<-paste0("http://qudt.org/vocab/unit/",manualDf$qudtUnit_m)
+rawQudtDf<-merge(rawQudtDf,manualDf,by="unit",all.x=T)
+rawQudtDf$qudtUnit<-ifelse(is.na(rawQudtDf$qudtUri),rawQudtDf$qudtUnit_m,rawQudtDf$qudtUnit)
+rawQudtDf$qudtUri<-ifelse(is.na(rawQudtDf$qudtUri),rawQudtDf$qudtUri_m,rawQudtDf$qudtUri)
+
+
+
 write.csv(rawQudtDf[order(rawQudtDf$TotalUses,rawQudtDf$unit, 
                           decreasing=T),
           c("unit","qudtUri","TotalUses","pseudounit","qudtUnit")],
           "allUnitsWithOrWithoutQUDTunits.csv", row.names=F)
 
 # eliminate units where qudtUri is empty
-qudtDf<-rawQudtDf[!is.na(rawQudtDf$qudtUri),]
+qudtDf<-rawQudtDf[!is.na(rawQudtDf$qudtUri),c("unit","pseudounit","TotalUses","qudtUnit","qudtUri")]
 
 print("Total number of  raw units matched with QUDT (dup raw units allowed)")
 print(nrow(qudtDf))
@@ -111,7 +124,7 @@ library(ggplot2)
 #ggplot(data=rawDf,aes(unit,TotalUses))+geom_col()
 
 png("CumulativeUses.png",width=1600,height=900)
-ggplot(data=rawDf,aes(TotalUses))+stat_ecdf(color="red",size=2)+
+ggplot(data=rawDf,aes(TotalUses))+stat_ecdf(color="red",linewidth=2)+
    scale_x_continuous(trans='log10')+
    labs(x="Number of Uses in Metadata (log scale)",y="Cumulative Distribution of Times Used")+
    theme(text=element_text(size=35))+
