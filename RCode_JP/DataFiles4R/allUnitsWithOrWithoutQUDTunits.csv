@@ -493,7 +493,7 @@
 "whole element counts",NA,26,"wholeelementcounts",NA
 "stems/m2","http://qudt.org/vocab/unit/NUM-PER-M2",26,"stemspermetersquared","NUM-PER-M2"
 "numberpercubicmeter","http://qudt.org/vocab/unit/NUM-PER-M3",26,"numberpercubicmeter","NUM-PER-M3"
-"number of years","http://qudt.org/vocab/unit/NUM-PER-YR",26,"numberofyear","NUM-PER-YR"
+"number of years","http://qudt.org/vocab/unit/YR",26,"numberofyear","YR"
 "nanomolespergramperhour",NA,26,"nanomolepergramperhour",NA
 "na",NA,26,"na",NA
 "mole percent",NA,26,"molepercent",NA
@@ -1255,7 +1255,7 @@
 "yyyy-mm-dd",NA,6,"yyyy-mm-dd",NA
 "wattspersquaremeter","http://qudt.org/vocab/unit/W-PER-M2",6,"wattspersquaremeter","W-PER-M2"
 "waccamaw",NA,6,"waccamaw",NA
-"umoles/lit","http://qudt.org/vocab/unit/MicroMOL-PER-L",6,"umoleperlit","MicroMOL-PER-L"
+"umoles/lit",NA,6,"umoleperlit",NA
 "umolco2m-2s-1",NA,6,"umolco2m-2s-1",NA
 "umol/kg","http://qudt.org/vocab/unit/MicroMOL-PER-KiloGM",6,"micromoleperkilogram","MicroMOL-PER-KiloGM"
 "ugn/gdrysoil/day",NA,6,"ugnpergdrysoilperday",NA
