@@ -30,9 +30,14 @@ rawQudtDf<-merge(rawDf,qudtUriDf,by="pseudounit",all.x=T)
 library(readxl)
 manualDf<-read_xlsx("Add Unit Mappings to QUDT2023-07-18.xlsx",1)
 colnames(manualDf)<-c("unit","qudtUnit_m","qudtPropose","who","comment")
+manualDf$unit<-trimws(manualDf$unit)
+# eliminate proposed units - not needed here
+manualDf<-manualDf[is.na(manualDf$qudtPropose),]
+# eliminate nominal units (e.g., nominalDay)
+manualDf<-manualDf[!tolower(substr(manualDf$unit,1,7))=="nominal",]
 manualDf<-manualDf[!is.na(manualDf$qudtUnit_m),]
 manualDf$qudtUri_m<-paste0("http://qudt.org/vocab/unit/",manualDf$qudtUnit_m)
-rawQudtDf<-merge(rawQudtDf,manualDf,by="unit",all.x=T)
+rawQudtDf<-merge(rawQudtDf,manualDf,by="unit",all=T)
 rawQudtDf$qudtUnit<-ifelse(is.na(rawQudtDf$qudtUri),rawQudtDf$qudtUnit_m,rawQudtDf$qudtUnit)
 rawQudtDf$qudtUri<-ifelse(is.na(rawQudtDf$qudtUri),rawQudtDf$qudtUri_m,rawQudtDf$qudtUri)
 
