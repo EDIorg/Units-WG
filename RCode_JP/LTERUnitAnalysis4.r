@@ -90,6 +90,17 @@ m1<-m1[order(m1$TotalUses,decreasing=T),]
 write.csv(m1[,c(1,3,9,2,4)],"UnitswQUDT.csv",row.names=F)
 
 m1Qudt<-m1[!is.na(m1$qudtUri),]
+
+print("")
+print("***** Distinct PseudoUnits and QUDT units ****")
+print("")
+print("Number of Distinct Pseudounits matched")
+print(nrow(m1Qudt[!duplicated(m1Qudt$pseudounit),]))
+print("Number of Distinct QUDT units matched")
+print(nrow(m1Qudt[!duplicated(m1Qudt$qudtUnit),]))
+
+print("")
+print("***** Uses of Units in Metadata ****")
 print("")
 print("All")
 print(sum(m1Qudt$TotalUses))

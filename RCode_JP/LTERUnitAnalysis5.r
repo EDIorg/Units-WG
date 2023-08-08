@@ -104,3 +104,18 @@ sum(Mg2$autoHasQUDT)
 notInAutoDf<-Mg2[Mg2$autoHasQUDT==0 & Mg2$TotalQUDT > 0,]
 
 write.csv(Mg2[,c(1:14,21)],"Units_vs_QUDT_Summary.csv",row.names=F)
+
+##### Examine additions #########
+rm(list=ls())
+df1<-read_excel("AddUnitMappingstoQUDT-20230808.xlsx",1)
+# eliminate Existing QUDT unit if a NEW one is proposed
+# usually it is an error due to pulldown list
+df1$Existing_QUDT_Unit<-ifelse(!is.na(df1$Existing_QUDT_Unit) & !is.na(df1$Propose_New_QUDT_Unit),NA,df1$Existing_QUDT_Unit)
+
+# summary of additions
+print("")
+print("Summary of additions")
+print("Number of mappings to existing QUDT unit")
+print(nrow(df1[!is.na(df1$Existing_QUDT_Unit),]))
+print("Number of mappings to PROPOSED QUDT unit")
+print(nrow(df1[!is.na(df1$Propose_New_QUDT_Unit),]))
