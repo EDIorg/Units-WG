@@ -1,29 +1,30 @@
 # Units-WG
-Units working group was formed in 2022, to come up with a replacement for the old unit-registry (mysql database + PHP web services). For reference, 
-work related to the old system is here: https://github.com/EDIorg/unit-registry
 
-Interested parties: 
-- Mary Martin <mary.martin@unh.edu>,
-- Mya Yazbek <mya.yazbek@eastern.edu>,
-- An T Nguyen <enthusiast@utexas.edu>,
-- Sarah Claire Elmendorf <sarah.elmendorf@colorado.edu>,
-- Stevan Earl <srearl@asu.edu>,
-- "Remillard, Suzanne" <suzanne.remillard@oregonstate.edu>,
-- Chris Turner <chris@axiomdatascience.com>,
-- katherine.muller2010@gmail.com,
-- "John H. Porter" <jhp7e@virginia.edu>,
-- Hillary Krumbholz <hkrumbholz@ucsb.edu>,
-- Mark Servilla <mark.servilla@gmail.com>,
-- Anna LaBry <rmlabry@gmail.com>,
-- Elie Arnaud <elie.arnaud@mnhn.fr>,
-- Matt Jones <jones@nceas.ucsb.edu>,
-- Marina Frants <mfrants@ucsd.edu>,
-- Christine Laney <claney@battelleecology.org>,
-- Margaret O’Brien <margaret.obrien@ucsb.edu>,
+Established in 2022, the Units team is working to identify a modern, community-driven replacement for an existing [unit registry](https://github.com/EDIorg/unit-registry) based on a MySql database and PHP web services. The WG has identified [QUDT](https://qudt.org/) as an appropriate framework for listing and describing units in ecological metadata, and is working to identify the best approaches to incorporating QUDT services and metadata into Ecological Metadata Language (EML) metadata records.
 
-We meet monthly, second wednesday at 11 AM Eastern (8 AM Pacific).
+## contributors:
 
-Notes: https://docs.google.com/document/d/1leK0neHSMsZHLwKiU2eQnbpEJnpVCd-yzaNSFnOdSbo/edit#
+- Margaret O'Brien <margaret.obrien'at'ucsb.edu>
+- John H. Porter <jhp7e'at'virginia.edu>
+- Stevan Earl <stevan.earl'at'asu.edu>
+- Marina Frants <mfrants'at'ucsd.edu>
+- Christine Laney <claney'at'battelleecology.org>
+- Mary Martin <mary.martin'at'unh.edu>
 
+## interested parties:
 
+- Elie Arnaud <elie.arnaud'at'mnhn.fr>
+- Sarah Claire Elmendorf <sarah.elmendorf'at'colorado.edu>
+- Matt Jones <jones'at'nceas.ucsb.edu>
+- Hillary Krumbholz <hkrumbholz'at'ucsb.edu>
+- Anna LaBry <rmlabry'at'gmail.com>
+- An T Nguyen <enthusiast'at'utexas.edu>
+- Suzanne Remillard  <suzanne.remillard'at'oregonstate.edu>
+- Mark Servilla <mark.servilla'at'gmail.com>
+- Chris Turner <chris'at'axiomdatascience.com>
+- Mya Yazbek <mya.yazbek'at'eastern.edu>
 
+## logistics
+
+- We meet the second Wednesday of each month at 8:00 Pacific/11:00 Eastern.
+- Project [notes](https://docs.google.com/document/d/1leK0neHSMsZHLwKiU2eQnbpEJnpVCd-yzaNSFnOdSbo/edit#)
