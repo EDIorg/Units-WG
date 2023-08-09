@@ -1,4 +1,17 @@
-# Create a column of pseudo-units that simplify the form of units and sort by pseudo-unit
+# Create a column of pseudo-units that simplifies the form of units and sort by pseudo-unit
+# 
+
+# PRIOR PROGRAM
+# IntegrateUnitAnalysis1.r 
+#INPUTS 
+# IntegratedUnitSummaryLowerCase.csv from IntegrateUnitAnalysis1.r
+# SingularAbbrevsTable.xlsx - manually prepared file of substitutions
+#OUTPUTS
+# PseudoUnitsAll.csv  - all pseudounits
+# PseudoUnitsTop.csv - only frequently observed pseudounits
+
+# John Porter, August 2023
+
 rm(list=ls())
 setwd("C:/Users/John/Box Sync/EMLUnits")
 

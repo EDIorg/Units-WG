@@ -1,7 +1,18 @@
-# Create data tables link lower-cased raw units with QUDT units
-# and QUDT labels.   Then create a separate table doing the same for UCUM 
-# units derived from QUDT.
-# John Porter, March 2023
+# Create large lookup table link lower-cased raw units with QUDT units
+# and QUDT labels.   Then add new pseudounits, QUDT units and UCUM codes
+# (as found in QUDT) > 2 characters long. 
+
+# PRIOR PROGRAMS
+# LTERUnitAnalysis4.r
+# LTERUnitQUDT_UCUM_Codes.r
+#INPUTS 
+# UnitswQUDT.csv from LTERUnitAnalysis4.r
+# QUDTCodes.csv from LTERUnitQUDT_UCUM_Codes.r
+# UCUMCodes.csv from LTERUnitQUDT_UCUM_Codes.r
+#OUTPUTS
+# UnitswQUDTInfo.csv
+
+# John Porter, August 2023
 
 # Note, run LTERUnitQUDT_UCUM_Codes1.r FIRST to generate needed tables
 
@@ -50,9 +61,11 @@ write.csv(rawQudtDf[order(rawQudtDf$TotalUses,rawQudtDf$unit,
 
 # eliminate units where qudtUri is empty
 qudtDf<-rawQudtDf[!is.na(rawQudtDf$qudtUri),c("unit","pseudounit","TotalUses","qudtUnit","qudtUri")]
+
 print("")
 print("number of distinct raw/ad hoc units matched")
-print(nrow(qudtDf[!duplicated(qudtDf$unit),]))
+numDistinctRawUnitsMatched<-nrow(qudtDf[!duplicated(qudtDf$unit),])
+print(numDistinctRawUnitsMatched)
 # print("number of manual units matched")
 # print(nrow(manualDf))
 print("number of distinct pseudounits units matched")
@@ -78,7 +91,8 @@ pseudoQUDTDf<-pseudoQUDTDf[!duplicated(pseudoQUDTDf),]
 qudtDf<-rbind(qudtDf,pseudoQUDTDf)
 print("")
 print("Number of additional psuedounits added to list")
-print(nrow(qudtDf[!duplicated(qudtDf$unit),])-numRawUnits)
+numPseudoAdded<-nrow(qudtDf[!duplicated(qudtDf$unit),])-numRawUnits
+print(numPseudoAdded)
 
 # add in manually added units
 # COMMENTED OUT - LIST NEEDS TO BE CURATED FIRST
@@ -182,7 +196,7 @@ print("number of distinct raw units")
 print(nrow(rawDf))
 print("")
 print("number of distinct raw units matched in QUDT")
-print(nrow(qudtDf))
+print(numDistinctRawUnitsMatched)
 print("")
 print("number of distinct raw units used more than once")
 print(nrow(rawDf[rawDf$TotalUses > 1,]))

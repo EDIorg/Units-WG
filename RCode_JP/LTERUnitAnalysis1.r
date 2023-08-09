@@ -1,4 +1,13 @@
 # Extract units from EML Metadata
+
+# PRIOR PROGRAM
+# none
+#INPUTS 
+# Directory containing EML documents from EDI
+#OUTPUTS
+# UnitUseSummary.csv
+
+
 rm(list=ls())
 userName<-Sys.getenv("USERNAME")
 setwd(paste("C:/users",userName,"box sync/EMLUnits",sep='/'))

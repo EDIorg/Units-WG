@@ -1,4 +1,14 @@
 # Integrate EDI, NEON and DataONE unit lists, with and without case differences
+# PRIOR PROGRAM
+# LTERUnitAnalysis1.r using EDI and NEON metadata as input
+#INPUTS 
+# UnitUseSummary.csv from LTERUnitAnalysis1.r
+# UnitUseSummaryNEON.xlsx saved as excel from CSV from LTERUnitAnalysis1.r
+#OUTPUTS
+# IntegratedUnitSummaryLowerCase.csv
+# IntegratedUnitSummaryMixedCase.csv 
+
+
 rm(list=ls())
 userName<-Sys.getenv("USERNAME")
 setwd(paste("C:/users",userName,"box sync/EMLUnits",sep='/'))

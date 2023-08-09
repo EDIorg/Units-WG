@@ -1,5 +1,14 @@
 # Try to figure out QUDT codes for units list based on pseudounits
-# John Porter, March 2023
+
+# PRIOR PROGRAM
+# LTERUnitAnalysis3.r
+#INPUTS 
+# PseudoUnitsAll.csv from LTERUnitAnalysis3.r
+# SingularAbbrevsTableWQUST.xlsx - manually prepared
+#OUTPUTS
+# UnitswQUDT.csv
+
+# John Porter, August 2023
 
 rm(list=ls())
 #setwd("D:/Box Sync/EMLUnits")

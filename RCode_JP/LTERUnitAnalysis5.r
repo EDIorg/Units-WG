@@ -1,3 +1,18 @@
+# Produces some statistics regarding units and unit uses
+# this is a utility program that is frequently modified to perform
+# various analyses and not part of the main workflow. 
+
+# PRIOR PROGRAM
+# LTERUnitAnalysis4.r
+#INPUTS 
+# PseudoUnitsAll.csv from LTERUnitAnalysis3.r
+# UnitswQUDT.csv - from LTERUnitAnalysis4.r
+# Manually prepared lists from specific LTER sites
+#OUTPUTS
+# Units_vs_QUDT_Summary.csv
+
+# John Porter, August 2023
+
 rm(list=ls())
 setwd("C:/Users/John/Box Sync/EMLUnits")
 library(readxl)
