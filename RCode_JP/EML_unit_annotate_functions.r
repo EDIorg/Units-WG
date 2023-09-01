@@ -145,7 +145,7 @@ createUnitsAnnotationsListString<-function(inEMLFile,indent=0){
   indentStr<-""
   if(indent > 0){
     for(i in 1:indent){
-      print(i)
+      # print(i)
       indentStr<-paste0(indentStr," ")
     }}
   
@@ -207,7 +207,7 @@ createUnitsAnnotationsListString<-function(inEMLFile,indent=0){
   
   # Now write out the annotations
   if(nrow(QUDTOutDf) > 0){
-    print(length(QUDTOutDf))
+    #print(length(QUDTOutDf))
     annoListString<-(paste("<!-- Unit Annotations for package",packageId,"-->\n",sep=" "))
     annoListString<-paste0(annoListString,indentStr,"<annotations>\n")   
     for (i in 1:nrow(QUDTOutDf)){
