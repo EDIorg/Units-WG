@@ -189,11 +189,11 @@ createUnitsAnnotationsListString<-function(inEMLFile,indent=0){
                                  & !is.na(myQUDTInfoDf$unit)
                                  & myQUDTInfoDf$unit != "NA",]
       if (nrow(myQUDTInfoDf) == 1){
-        print(myAttributeId)
-        print(myUnitText)
+        # print(myAttributeId)
+        # print(myUnitText)
         myQUDTInfoDf$packageId<-packageId
         myQUDTInfoDf$attributeId<-myAttributeId
-        print(myQUDTInfoDf$qudtUri)
+        # print(myQUDTInfoDf$qudtUri)
         QUDTOutDf<-rbind(QUDTOutDf,myQUDTInfoDf)
         
       } # end if unit found
