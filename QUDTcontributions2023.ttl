@@ -209,3 +209,69 @@ unit:NanoMOL-PER-GM-HR
   rdfs:label "Metres per square metre"@en ;
   rdfs:label "Meters per square meter"@en-us ;
 .
+unit:MicroGM-PER-L-DAY
+  a qudt:Unit ;
+  dcterms:description "A rate of change of mass of a measurand equivalent to 10^-9 kilogram (the SI unit of mass) per litre volume of matrix over a period of 1 day."@en ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.00000000001157407407407407 ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:symbol "µg/(Lâ‹…day)" ;
+  qudt:ucumCode "ug.L-1.d-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Micrograms per litre per hour"@en ;
+.
+unit:KiloW-PER-M2
+  a qudt:Unit ;
+  dcterms:description "1 000-fold of the SI derived unit watt divided by the square of the SI base unit metre"^^rdf:HTML ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 1000.0 ;
+  qudt:hasDimensionVector qkdv:A0E-1L1I0M1H0T-3D0 ;
+  qudt:hasQuantityKind quantitykind:EnergyPerArea ;
+  qudt:plainTextDescription "1 000-fold of the SI derived unit watt divided by the square of the SI base unit metre" ;
+  qudt:symbol "kW/m2" ;
+  qudt:ucumCode "kW.m-2"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Kilowatt Per Meter"@en-us ;
+  rdfs:label "Kilowatt Per Metre"@en ;
+.
+unit:MegaJ-PER-M2-DAY
+  a qudt:Unit ;
+  dcterms:description "MegaJoule Per Square Meter (\\(MegaJ/m^2/day\\)) is a unit in the category of Energy density over time."^^qudt:LatexString ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 11.57407407407407 ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:EnergyPerAreaTime ;
+  qudt:plainTextDescription "1,000,000-fold of the SI derived unit joule divided by the power of the SI base unit metre with the exponent 2" ;
+  qudt:symbol "MJ/m²/day" ;
+  qudt:ucumCode "MJ.m-2.d-2"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Megajoule Per Square Meter Per Day"@en-us ;
+  rdfs:label "Megajoule Per Square Metre Per Day"@en ;
+.
+unit:MilliGM-PER-KiloGM-DAY
+  a qudt:Unit ;
+  dcterms:description "mass ratio as 0.000001-fold of the SI base unit kilogram divided by the SI base unit kilogram per day "^^rdf:HTML ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.0000000001157407407 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+  qudt:hasQuantityKind quantitykind:MassRatioPerTime ;
+  qudt:plainTextDescription "mass ratio as 0.000000001-fold of the SI base unit kilogram divided by 0.001-fold of the SI base unit kilogram per day (8640 seconds)" ;
+  qudt:qkdvDenominator qkdv:A0E0L0I0M1H0T1D0 ;
+  qudt:qkdvNumerator qkdv:A0E0L0I0M1H0T0D0 ;
+  qudt:symbol "mg/kg/day" ;
+  qudt:ucumCode "mg.kg-1.d-1"^^qudt:UCUMcs ;
+  qudt:ucumCode "mg/kg/d"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Microgram per Gram per Day"@en ;
+  .
