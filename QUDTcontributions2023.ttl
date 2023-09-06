@@ -1,3 +1,37 @@
+# baseURI: http://qudt.org/2.1/vocab/unit
+# imports: http://qudt.org/2.1/schema/facade/qudt
+# imports: http://qudt.org/2.1/vocab/prefix
+# imports: http://qudt.org/2.1/vocab/quantitykind
+# imports: http://qudt.org/2.1/vocab/sou
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prefix: <http://qudt.org/vocab/prefix/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix voag: <http://voag.linkedmodel.org/schema/voag#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://qudt.org/2.1/vocab/unit>
+  a owl:Ontology ;
+  vaem:hasGraphMetadata vaem:GMD_QUDT-UNITS-ALL ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "QUDT VOCAB Units of Measure Release 2.1.30" ;
+  owl:imports <http://qudt.org/2.1/schema/facade/qudt> ;
+  owl:imports <http://qudt.org/2.1/vocab/prefix> ;
+  owl:imports <http://qudt.org/2.1/vocab/quantitykind> ;
+  owl:imports <http://qudt.org/2.1/vocab/sou> ;
+  owl:versionIRI <http://qudt.org/2.1/vocab/unit> ;
+.
 unit:KiloM2
   a qudt:DerivedUnit ;
   a qudt:Unit ;
