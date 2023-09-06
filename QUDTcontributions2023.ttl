@@ -1,0 +1,21 @@
+unit:KiloM2
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "A unit of area equal to that of a square, of sides 1 kilometer"^^rdf:HTML ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 1000000.0000 ;
+  qudt:derivedUnitOfSystem sou:CGS ;
+  qudt:derivedUnitOfSystem sou:CGS-GAUSS ;
+  qudt:expression "\\(sqkm\\)"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:Area ;
+  qudt:prefix prefix:Kilo ;
+  qudt:symbol "kmÂ²" ;
+  qudt:ucumCode "km2"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Square Kilometer"@en-us ;
+  rdfs:label "Square Kilometre"@en ;
+.
