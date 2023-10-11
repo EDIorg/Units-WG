@@ -40,14 +40,15 @@ unit:KiloM2
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
-  qudt:conversionMultiplier 1000000.0000 ;
+  qudt:conversionMultiplier 1000000.0;
   qudt:derivedUnitOfSystem sou:CGS ;
   qudt:derivedUnitOfSystem sou:CGS-GAUSS ;
   qudt:expression "\\(sqkm\\)"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T0D0 ;
   qudt:hasQuantityKind quantitykind:Area ;
+  qudt:plainTextDescription "A unit of area equal to that of a square, of sides 1 kilometer" ;
   qudt:prefix prefix:Kilo ;
-  qudt:symbol "kmÂ²" ;
+  qudt:symbol "km²" ;
   qudt:ucumCode "km2"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Square Kilometer"@en-us ;
@@ -65,7 +66,7 @@ unit:GM-PER-M2-YR
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
   qudt:plainTextDescription "A metric unit of volume over time indicating the amount generated across one square meter over a year." ;
-  qudt:symbol "g/(m²‹…yr)" ;
+  qudt:symbol "g/(m²‹…yr)" ; # issue with middle dot 
   qudt:ucumCode "g.m-2.a-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "grams per square meter per year"@en-us ;
@@ -284,7 +285,7 @@ unit:GM-PER-HA
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.0000001 ;
-  qudt:expression "\\(g/hare\\)"^^qudt:LatexString ;
+  qudt:expression "\\(g/hare\\)"^^qudt:LatexString ; # is "hare" right for hectare?
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
   qudt:hasQuantityKind quantitykind:MassPerArea ;
   qudt:symbol "g/ha" ;
