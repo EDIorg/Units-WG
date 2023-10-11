@@ -275,3 +275,21 @@ unit:MilliGM-PER-KiloGM-DAY
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Microgram per Gram per Day"@en ;
   .
+unit:GM-PER-HA
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "Gram Per Hectare is a unit of mass per area. Gram Per Hectare (mg/ha) has a dimension of ML-3 where M is mass, and L is length. It can be converted to the corresponding standard SI unit kg/m2 by multiplying its value by a factor of 0.0000001."^^rdf:HTML ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.0000001 ;
+  qudt:expression "\\(g/hare\\)"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:MassPerArea ;
+  qudt:symbol "g/ha" ;
+  qudt:ucumCode "g.har-1"^^qudt:UCUMcs ;
+  qudt:ucumCode "g/har"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Gram per Hectare"@en ;
+.
