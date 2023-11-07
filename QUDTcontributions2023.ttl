@@ -294,3 +294,171 @@ unit:GM-PER-HA
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Gram per Hectare"@en ;
 .
+unit:KiloGM-PER-HA-YR
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "A measure of areal density over time equivalent to 1 kg per hectare per year." ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.00000000000316880878 ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
+  qudt:plainTextDescription "A measure of areal density over time equivalent to 1 kg per hectare per year." ;
+  qudt:symbol "kg/ha/year" ;
+  qudt:ucumCode "kg.har-1.year-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "kilogram per hectare per year"@en ;
+.
+unit:KiloGM-PER-M2-DAY
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "A measure of areal density over time equivalent to 1 kg per square meter per day." ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.00001157407407407410 ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
+  qudt:plainTextDescription "A measure of areal density over time equivalent to 1 kg per square meter per day." ;
+  qudt:symbol "kg/m²/day" ; 
+  qudt:ucumCode "kg.m-2.day-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "kilogram per square meter per day"@en-us ;
+  rdfs:label "kilogram per square metre per day"@en ;
+.
+unit:MicroGM-PER-GM-HR #I have not seen this quantity kind used before (MassRatioPerTime), do we need to define it?
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "mass ratio per time as 0.000000001-fold of the SI base unit kilogram divided by 0.001-fold the SI base unit kilogram per hour (3600 seconds) " ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 277777777.77777800000000000000 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+  qudt:hasQuantityKind quantitykind:Unknown ; 
+  qudt:plainTextDescription "mass ratio per time as 0.000000001-fold of the SI base unit kilogram divided by 0.001-fold the SI base unit kilogram per hour (3600 seconds)" ;
+  qudt:symbol "ug/g/hr" ;
+  qudt:ucumCode "ug.g-1.hr-1"^^qudt:UCUMcs ;
+  qudt:ucumCode "ug/g/hr"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "microgram per gram per hour"@en ;
+.
+  
+
+unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof quantitykind:AmountOfSubstancePerLengthPerTime_Squared 
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "One part per 10**6 (million) of the SI unit of quantity of matter (the mole) per SI unit length per SI unit of time squared."@en ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.000001 ;
+  qudt:hasDimensionVector qkdv:A1E0L-2I0M0H0T-2D0 ;
+  qudt:hasQuantityKind quantitykind:Unknown ;
+  qudt:plainTextDescription "One part per 10**6 (million) of the SI unit of quantity of matter (the mole) per SI unit length per SI unit of time squared."@en ;
+  qudt:symbol "umol/m/s²" ;
+  qudt:ucumCode "umol.m-1.s-2"^^qudt:UCUMcs ;
+  qudt:ucumCode "umol/m/s^2"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "micromole per metre per square second"@en
+  rdfs:label "micromole per meter per square second"@en-us ;
+.
+ 
+ unit:IN-PER-YR
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "inch according to the Anglo-American and the Imperial system of units divided by year" ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.00000000080487743048 ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:Velocity ;
+  qudt:plainTextDescription "inch according to the Anglo-American and the Imperial system of units divided by year" ;
+  qudt:symbol "in/yr" ;
+  qudt:ucumCode "in.yr-1"^^qudt:UCUMcs ;
+  qudt:ucumCode "in/yr"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "inche per year"@en ;
+.
+ unit:LB-PER-AC
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "mass per area as pounds of mass (based on the international standard definition of the pound of mass as exactly 0.45359237 kg) divided by area as acres (a unit of area in a number of different systems, including the imperial and U.S. customary systems. The most commonly used acres today are the international acre and, in the United States, the survey acre. The most common use of the acre is to measure tracts of land. One international acre is equal to 4046.8564224 square metres." ;
+  qudt:applicableSystem sou:IMPERIAL ;
+  qudt:applicableSystem sou:USCS ;
+  qudt:conversionMultiplier 0.000112085 ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:MassPerArea ;
+  qudt:plainTextDescription "mass per area as pounds of mass (based on the international standard definition of the pound of mass as exactly 0.45359237 kg) divided by area as acres (a unit of area in a number of different systems, including the imperial and U.S. customary systems. The most commonly used acres today are the international acre and, in the United States, the survey acre. The most common use of the acre is to measure tracts of land. One international acre is equal to 4046.8564224 square metres."
+  qudt:symbol "lb/acre" ;
+  qudt:ucumCode "lb.[acr_br]-1"^^qudt:UCUMcs ;
+  qudt:ucumCode "lb/[acr_br]"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "pound per acre"@en ;
+.
+  unit:MicroMOL-PER-M2-SEC2 #this quantity kind AmountOfSubstancePerAreaPerTime_squared  is also not defined
+  a qudt:Unit ;
+  a qudt:DerivedUnit ;
+  dcterms:description "One part per 10**6 (million) of the SI unit of quantity of matter (the mole) per SI unit area per SI unit of time squared."@en ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.000001 ;
+  qudt:hasDimensionVector qkdv:A1E0L-2I0M0H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:Unknown ; 
+  qudt:plainTextDescription "One part per 10**6 (million) of the SI unit of quantity of matter (the mole) per SI unit area per SI unit of time squared."@en ;
+  qudt:symbol "umol/m²/s²" ;
+  qudt:ucumCode "umol.m-2.s-2"^^qudt:UCUMcs ;
+  qudt:ucumCode "umol/m^2/s^2"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "micromole per square metre per square second"@en ;
+  rdfs:label "micromole per square meter per square second"@en-us ;
+.
+  unit:KiloGM-PER-YR 
+  a qudt:Unit ;
+  a qudt:DerivedUnit ;
+  dcterms:description "SI base unit kilogram divided by a period of an average calendar year (365.25 days)"@en ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.00000003168808781403 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:MassPerTime ;
+  qudt:plainTextDescription "SI base unit kilogram divided by a period of an average calendar year (365.25 days)"@en ;
+  qudt:symbol "kg/yr" ;
+  qudt:ucumCode "kg.yr-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "kilogram per day"@en ;
+.
+  unit:NUM-PER-KiloGM 
+  a qudt:Unit ;
+  a qudt:DerivedUnit ;
+  dcterms:description "Count of an entity or phenomenon's occurrence divided by SI base unit kilogram"@en ;
+  qudt:conversionMultiplier 1 ;
+  qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:AmountOfSubstancePerUnitMass ;
+  qudt:plainTextDescription "Count of an entity or phenomenon's occurrence divided by SI base unit kilogram"@en ;
+  qudt:symbol "/kg" ;
+  qudt:ucumCode "{#}.kg-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Number per kilogram"@en ;
+.
+  MicroGM-PER-GM-HR #this quantity kind (DimensionlessRatioPerTime) ot yet defined 
+  a qudt:Unit ;
+  a qudt:DerivedUnit ;
+  dcterms:description "0.0000000001-fold of the SI base unit kilogram divided by 0.0001-fold of the SI base unit kilogram over a period of 1 hour "@en ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 277777777.8;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+  qudt:hasQuantityKind quantitykind:Unknown ; 
+  qudt:plainTextDescription "0.0000000001-fold of the SI base unit kilogram divided by 0.0001-fold of the SI base unit kilogram over a period of 1 hour "@en ;
+  qudt:symbol "ugram/g/hr)" ;
+  qudt:ucumCode "ug.g-1.hr-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Micrograms per gram per hour"@en ;
+.
+  GM-PER-M2-HR 
+  a qudt:Unit ;
+  a qudt:DerivedUnit ;
+  dcterms:description "0.0001-fold of the SI base unit kilogram divided by the SI base unit meter with the exponent 2 over a period of 1 hour "@en ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.384615384615385;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
+  qudt:plainTextDescription "0.0001-fold of the SI base unit kilogram divided by the SI base unit meter with the exponent 2 over a period of 1 hour "@en ;
+  qudt:symbol "gram/m²/hr)" ;
+  qudt:ucumCode "g.m-2.hr-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Grams per square meter per hour"@en ;
+.
