@@ -93,6 +93,7 @@ unit:DEG_C2
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 1.0 ;
+  qudt:hasQuantityKind quantitykind:Temperature ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H2TD0 ;
   qudt:symbol "°C²" ;
   qudt:ucumCode "K2"^^qudt:UCUMcs ;
@@ -188,6 +189,7 @@ unit:NanoMOL-PER-GM-HR
   dcterms:description "10^-9 SI unit of the quantity of matter per SI unit of mass per unit of time expressed in hour (3,600 seconds)."@en ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.000000000277777777777778 ;
+  qudt:hasQuantityKind quantitykind:Unknown ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T-1D0 ;
   qudt:symbol "nmol/(gâ‹…hr)" ;
   qudt:ucumCode "nmol.g-1.h-1"^^qudt:UCUMcs ;
@@ -219,6 +221,7 @@ unit:MicroGM-PER-L-DAY
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.00000000001157407407407407 ;
   qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:hasQuantityKind quantitykind:Unknown ;
   qudt:symbol "µg/(Lâ‹…day)" ;
   qudt:ucumCode "ug.L-1.d-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
@@ -342,7 +345,6 @@ unit:MicroGM-PER-GM-HR #I have not seen this quantity kind used before (MassRati
   rdfs:label "microgram per gram per hour"@en ;
 .
   
-
 unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof quantitykind:AmountOfSubstancePerLengthPerTime_Squared 
   a qudt:DerivedUnit ;
   a qudt:Unit ;
