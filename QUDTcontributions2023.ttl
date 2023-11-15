@@ -466,3 +466,45 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Grams per square meter per hour"@en ;
 .
+  unit:MegaGM-PER-HA-YR
+    a qudt:DerivedUnit ;
+    a qudt:Unit ;
+    dcterms:description "Annual flux equivalent to 1000kg per hectare (10000 square meters) or one tonne per hectare per year, typically used to express a  crop yield."^^rdf:HTML ;
+    qudt:applicableSystem sou:CGS ;
+    qudt:applicableSystem sou:CGS-EMU ;
+    qudt:applicableSystem sou:CGS-GAUSS ;
+    qudt:applicableSystem sou:SI ;
+    qudt:conversionMultiplier 3.17e-09 ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+    qudt:hasQuantityKind quantitykind:Flux ;
+    qudt:plainTextDescription "Annual flux equivalent to 1000kg per hectare (10000 square meters) or one tonne per hectare per year, typically used to express a  crop yield." ;
+    qudt:symbol "Mg/(ha⋅year)" ;
+    qudt:ucumCode "Mg.har-1.year-1"^^qudt:UCUMcs ;
+	qudt:exactMatch "TONNE-PER-HA-YR";
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:label "Megagram per Hectare per Year"@en ;
+	# added by mobb
+  .
+  unit:MilliGM-PER-GM-HR
+    a qudt:Unit ;
+    dcterms:description "mass-specific uptake rate"^^rdf:HTML ;
+    qudt:applicableSystem sou:CGS ;
+    qudt:applicableSystem sou:CGS-EMU ;
+    qudt:applicableSystem sou:CGS-GAUSS ;
+    qudt:applicableSystem sou:SI ;
+    qudt:conversionMultiplier 2.78e-07 ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+    qudt:hasQuantityKind quantitykind:Rate ;
+    qudt:plainTextDescription "0.000001-fold of the SI base unit kilogram divided by the 0.001-fold of the SI base unit kilogram, divided by 3600-fold of the SI base unit second" ;
+    qudt:qkdvDenominator qkdv:A0E0L0I0M1H0T0D0 ;
+    qudt:qkdvNumerator qkdv:A0E0L0I0M1H0T-1D0 ;
+    qudt:symbol "mg/gm/h" ;
+    qudt:ucumCode "mg.g-1.h-1"^^qudt:UCUMcs ;
+    qudt:ucumCode "mg/g/h"^^qudt:UCUMcs ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:label "Milligram Per Gram"@en ;
+	# added by mobb
+	# copied from milligm-per-gm, description (although correct) was not very useful, used as template for plain text desription.
+	# pending: description, 
+  .
+  
