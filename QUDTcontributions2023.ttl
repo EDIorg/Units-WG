@@ -79,6 +79,7 @@ unit:GM-PER-HectoGM
 unit:CentiM3-PER-CentiM3
   a qudt:Unit ;
   dcterms:description "A common metric unit of volume. One cubic centimeter equals exactly 0.000001 cubic meters." ;
+  qudt:plainTextDescription "A common metric unit of volume. One cubic centimeter equals exactly 0.000001 cubic meters." ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -98,6 +99,7 @@ unit:CentiM3-PER-CentiM3
 unit:MicroGM-PER-L
   a qudt:Unit ;
   dcterms:description "0.000000001-fold of the SI base unit kilogram divided by the unit litre" ;
+  qudt:plainTextDescription "0.000000001-fold of the SI base unit kilogram divided by the unit litre" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -118,6 +120,7 @@ unit:MicroGM-PER-L
 unit:MicroS-PER-CM
   a qudt:Unit ;
   dcterms:description "0.000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
+  qudt:plainTextDescription "0.000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -138,6 +141,7 @@ unit:MicroS-PER-CM
 unit:MicroS-PER-CM2
   a qudt:Unit ;
   dcterms:description "0.000001-fold of the SI derived unit siemens divided by the squared 0,01-fold of the SI base unit meter" ;
+  qudt:plainTextDescription "0.000001-fold of the SI derived unit siemens divided by the squared 0,01-fold of the SI base unit meter" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -217,7 +221,7 @@ unit:NUM-PER-MilliL
 unit:M-PER-DAY
   a qudt:DerivedUnit ;
   a qudt:Unit ;
-  dcterms:description "Meter Per Day (m/day) is a unit in the category of Velocity. It is also known as meter/day, meters per day, metre per day, metres per day. Meter Per Day (m/day) has a dimension of LT-1 where L is length, and T is time. It can be converted to the corresponding standard SI unit m/s by multiplying its value by a factor of 0.00001157407407407407^^rdf:HTML ;
+  dcterms:description "Meter Per Day (m/day) is a unit in the category of Velocity. It is also known as meter/day, meters per day, metre per day, metres per day. Meter Per Day (m/day) has a dimension of LT-1 where L is length, and T is time. It can be converted to the corresponding standard SI unit m/s by multiplying its value by a factor of 0.00001157407407407407"^^rdf:HTML ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -461,7 +465,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   qudt:ucumCode "umol.m-1.s-2"^^qudt:UCUMcs ;
   qudt:ucumCode "umol/m/s^2"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "micromole per metre per square second"@en
+  rdfs:label "micromole per metre per square second"@en ;
   rdfs:label "micromole per meter per square second"@en-us ;
 .
  
@@ -489,7 +493,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   qudt:conversionMultiplier 0.000112085 ;
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
   qudt:hasQuantityKind quantitykind:MassPerArea ;
-  qudt:plainTextDescription "mass per area as pounds of mass (based on the international standard definition of the pound of mass as exactly 0.45359237 kg) divided by area as acres (a unit of area in a number of different systems, including the imperial and U.S. customary systems. The most commonly used acres today are the international acre and, in the United States, the survey acre. The most common use of the acre is to measure tracts of land. One international acre is equal to 4046.8564224 square metres."
+  qudt:plainTextDescription "mass per area as pounds of mass (based on the international standard definition of the pound of mass as exactly 0.45359237 kg) divided by area as acres (a unit of area in a number of different systems, including the imperial and U.S. customary systems. The most commonly used acres today are the international acre and, in the United States, the survey acre. The most common use of the acre is to measure tracts of land. One international acre is equal to 4046.8564224 square metres." ;
   qudt:symbol "lb/acre" ;
   qudt:ucumCode "lb.[acr_br]-1"^^qudt:UCUMcs ;
   qudt:ucumCode "lb/[acr_br]"^^qudt:UCUMcs ;
@@ -539,7 +543,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Number per kilogram"@en ;
 .
-  MicroGM-PER-GM-HR #this quantity kind (DimensionlessRatioPerTime) ot yet defined 
+  unit:MicroGM-PER-GM-HR 
   a qudt:Unit ;
   a qudt:DerivedUnit ;
   dcterms:description "0.0000000001-fold of the SI base unit kilogram divided by 0.0001-fold of the SI base unit kilogram over a period of 1 hour "@en ;
@@ -552,8 +556,9 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   qudt:ucumCode "ug.g-1.hr-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Micrograms per gram per hour"@en ;
+#this quantity kind (DimensionlessRatioPerTime) ot yet defined 
 .
-  GM-PER-M2-HR 
+  unit:GM-PER-M2-HR 
   a qudt:Unit ;
   a qudt:DerivedUnit ;
   dcterms:description "0.0001-fold of the SI base unit kilogram divided by the SI base unit meter with the exponent 2 over a period of 1 hour "@en ;
@@ -620,7 +625,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     qudt:hasDimensionVector qkdv:A1E0L-2I0M1H0T-1D0 ;
     qudt:hasQuantityKind quantitykind:Flux ;
     qudt:plainTextDescription "Hourly molar flux equivalent to .001 moles per meter squared per hour, typically used to express an areal production (if plane is a surface of the earth or ocean)." ;
-    qudt:symbol "mmol/m²/hr" ;" ;
+    qudt:symbol "mmol/m²/hr" ;
     qudt:ucumCode "mmol.m-2.h-1"^^qudt:UCUMcs ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     rdfs:label "Millimole per Square Metre per Hour"@en ;
@@ -638,7 +643,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     qudt:hasDimensionVector qkdv:A1E0L-2I0M1H0T-1D0 ;
     qudt:hasQuantityKind quantitykind:Flux ;
     qudt:plainTextDescription "Molar flux equivalent to 1e-9 moles per meter squared per sec.." ;
-    qudt:symbol "mmol/m²/hr" ;" ;
+    qudt:symbol "mmol/m²/hr" ;
     qudt:ucumCode "mmol.m-2.h-1"^^qudt:UCUMcs ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     rdfs:label "Millimole per Square Metre per Hour"@en ;
