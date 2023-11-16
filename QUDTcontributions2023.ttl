@@ -56,8 +56,8 @@ unit:KiloM2
 .
 unit:GM-PER-HectoGM
   a qudt:Unit ;
-  dcterms:description "0,001-fold of the SI base unit kilogram divided by 0,1-fold of the SI base unit kilogram" ;
-  qudt:plainTextDescription "0,001-fold of the SI base unit kilogram divided by 0,1-fold of the SI base unit kilogram" ;
+  dcterms:description "0,001-fold of the SI base unit kilogram divided by 0.1-fold of the SI base unit kilogram" ;
+  qudt:plainTextDescription "0,001-fold of the SI base unit kilogram divided by 0.1-fold of the SI base unit kilogram" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -74,7 +74,8 @@ unit:GM-PER-HectoGM
   qudt:ucumCode "g/hg"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Gram Per Hectogram"@en ;
-
+# christine
+.
 unit:CentiM3-PER-CentiM3
   a qudt:Unit ;
   dcterms:description "A common metric unit of volume. One cubic centimeter equals exactly 0.000001 cubic meters." ;
@@ -92,10 +93,11 @@ unit:CentiM3-PER-CentiM3
   qudt:ucumCode "cm3/cm3"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Cubic Centimeter Per Cubic Centimeter"@en ;
-
+# christine
+.
 unit:MicroGM-PER-L
   a qudt:Unit ;
-  dcterms:description "0,000000001-fold of the SI base unit kilogram divided by the unit litre" ;
+  dcterms:description "0.000000001-fold of the SI base unit kilogram divided by the unit litre" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -111,10 +113,11 @@ unit:MicroGM-PER-L
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Microgram Per Litre"@en ;
   rdfs:label "Microgram Per Liter"@en-us ;
-
+# christine
+.
 unit:MicroS-PER-CM
   a qudt:Unit ;
-  dcterms:description "0,000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
+  dcterms:description "0.000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -130,10 +133,11 @@ unit:MicroS-PER-CM
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Microsiemen Per Centimetre"@en ;
   rdfs:label "Microsiemen Per Centimeter"@en-us ;
-
+# christine
+.
 unit:MicroS-PER-CM2
   a qudt:Unit ;
-  dcterms:description "0,000001-fold of the SI derived unit siemens divided by the squared 0,01-fold of the SI base unit meter" ;
+  dcterms:description "0.000001-fold of the SI derived unit siemens divided by the squared 0,01-fold of the SI base unit meter" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -149,7 +153,8 @@ unit:MicroS-PER-CM2
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Microsiemen Per Squared Centimetre"@en ;
   rdfs:label "Microsiemen Per Squared Centimeter"@en-us ;
-
+# christine
+.
 unit:GM-PER-M2-YR
   a qudt:Unit ;
   dcterms:description "A metric unit of volume over time indicating the amount generated across one square meter over a year (365.25 days)."^^rdf:HTML ;
@@ -167,7 +172,7 @@ unit:GM-PER-M2-YR
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "grams per square meter per year"@en-us ;
   rdfs:label "grams per square metre per year"@en ;
-  .
+.
  unit:NanoMOL-PER-GM
   a qudt:Unit ;
   dcterms:description "Nanomole Per Gram (\\(nanomol/g\\)) is a unit of Molality"^^qudt:LatexString ;
