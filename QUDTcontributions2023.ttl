@@ -78,8 +78,8 @@ unit:GM-PER-HectoGM
 .
 unit:CentiM3-PER-CentiM3
   a qudt:Unit ;
-  dcterms:description "A common metric unit of volume. One cubic centimeter equals exactly 0.000001 cubic meters." ;
-  qudt:plainTextDescription "A common metric unit of volume. One cubic centimeter equals exactly 0.000001 cubic meters." ;
+  dcterms:description "A ratio of volumes, where one cubic centimeter equals exactly 0.000001 cubic meters." ;
+  qudt:plainTextDescription "A ratio of volumes, where one cubic centimeter equals exactly 0.000001 cubic meters." ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -89,6 +89,7 @@ unit:CentiM3-PER-CentiM3
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
   qudt:qkdvNumerator qkdv:A0E0L3I0M0H0T0D0 ;
   qudt:qkdvDenominator qkdv:A0E0L3I0M0H0T0D0 ;
+  qudt:hasQuantityKind quantityKind:unknown;
   qudt:symbol "cm3/cm3" ;
   rdf:type qudt:Unit ;
   qudt:ucumCode "cm3.cm-3"^^qudt:UCUMcs ;
@@ -96,20 +97,21 @@ unit:CentiM3-PER-CentiM3
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Cubic Centimeter Per Cubic Centimeter"@en ;
 # christine
+# to do: need to know more about the measurement to set quantityKind
 .
 unit:MicroGM-PER-L
   a qudt:Unit ;
-  dcterms:description "0.000000001-fold of the SI base unit kilogram divided by the unit litre" ;
-  qudt:plainTextDescription "0.000000001-fold of the SI base unit kilogram divided by the unit litre" ;
+  dcterms:description "0.000000001-fold of the SI base unit kilogram divided by the unit litre, which is 0.001 cubic meter" ;
+  qudt:plainTextDescription "0.000000001-fold of the SI base unit kilogram divided by the unit litre, which is 0.001 cubic meter" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
-  qudt:conversionMultiplier 0.000000001 ;
-  qudt:expression "\\(cm^{3}-cm^{-3}\\)"^^qudt:LatexString ;
+  qudt:conversionMultiplier 1E-6 ;
   qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T0D0 ;
   qudt:qkdvNumerator qkdv:A0E0L0I0M1H0T0D0 ;
   qudt:qkdvDenominator qkdv:A0E0L3I0M0H0T0D0 ;
+  qudt:hasQuantityKind quantityKind:Concentration;
   qudt:symbol "ug3/L" ;
   rdf:type qudt:Unit ;
   qudt:ucumCode "ug3.L-1"^^qudt:UCUMcs ;
@@ -121,17 +123,18 @@ unit:MicroGM-PER-L
 .
 unit:MicroS-PER-CM
   a qudt:Unit ;
-  dcterms:description "0.000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
-  qudt:plainTextDescription "0.000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
+  dcterms:description "Unit of electrical conductivity equal to 0.000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
+  qudt:plainTextDescription "Unit of electrical conductivity equal to 0.000001-fold of the SI derived unit siemens divided by 0,01-fold of the SI base unit meter" ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.0001 ;
   qudt:expression "\\(uS-cm^{-1}\\)"^^qudt:LatexString ;
-  qudt:hasDimensionVector qkdv:A0E2L-1I0M-1H0T3D0 ;
+  qudt:hasDimensionVector qkdv:A0E2L-3I0M-1H0T3D0 ;
   qudt:qkdvNumerator qkdv:A0E2L-2I0M-1H0T3D0 ;
   qudt:qkdvDenominator qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:ElectrolyticConductivity ;
   qudt:symbol "uS/cm" ;
   rdf:type qudt:Unit ;
   qudt:ucumCode "uS.cm-1"^^qudt:UCUMcs ;
@@ -151,9 +154,10 @@ unit:MicroS-PER-CM2
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.01 ;
   qudt:expression "\\(uS-cm^{-2}\\)"^^qudt:LatexString ;
-  qudt:hasDimensionVector qkdv:A0E2L0I0M-1H0T3D0 ;
+  qudt:hasDimensionVector qkdv:A0E2L-4I0M-1H0T3D0 ;
   qudt:qkdvNumerator qkdv:A0E2L-2I0M-1H0T3D0 ;
   qudt:qkdvDenominator qkdv:A0E0L2I0M0H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:ElectrolyticConductivity ;
   qudt:symbol "uS/cm2" ;
   rdf:type qudt:Unit ;
   qudt:ucumCode "uS.cm-2"^^qudt:UCUMcs ;
@@ -162,6 +166,8 @@ unit:MicroS-PER-CM2
   rdfs:label "Microsiemen Per Squared Centimetre"@en ;
   rdfs:label "Microsiemen Per Squared Centimeter"@en-us ;
 # christine
+# to do: confirm dimension vector, quantityKind
+# to do: it would help to have something in the description to distinguish this unit from microS-per-cm -- i.e., the cm^2
 .
 unit:GM-PER-M2-YR
   a qudt:Unit ;
@@ -225,7 +231,7 @@ unit:NUM-PER-MilliL
 unit:M-PER-DAY
   a qudt:DerivedUnit ;
   a qudt:Unit ;
-  dcterms:description "Meter Per Day (m/day) is a unit in the category of Velocity. It is also known as meter/day, meters per day, metre per day, metres per day. Meter Per Day (m/day) has a dimension of LT-1 where L is length, and T is time. It can be converted to the corresponding standard SI unit m/s by multiplying its value by a factor of 0.00001157407407407407"^^rdf:HTML ;
+  dcterms:description "Meter Per Day (m/day) is a unit in the category of Velocity. It is also known as meter/day, meters per day, metre per day, metres per day. Meter Per Day (m/day) has a dimension of L*T-1 where L is length, and T is time. It can be converted to the corresponding standard SI unit m/s by multiplying its value by a factor of 0.00001157407407407407"^^rdf:HTML ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -282,7 +288,7 @@ unit:MicroGM-PER-MilliGM
   .
   unit:M-PER-HA
   a qudt:Unit ;
-  dcterms:description "A rate of change of SI standard unit length per hectare (squared hectometer)area."@en ;
+  dcterms:description "A rate of change of SI standard unit length per hectare (squared hectometer) area."@en ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
@@ -300,12 +306,15 @@ unit:NanoMOL-PER-GM-HR
   dcterms:description "10^-9 SI unit of the quantity of matter per SI unit of mass per unit of time expressed in hour (3,600 seconds)."@en ;
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.000000000277777777777778 ;
-  qudt:hasQuantityKind quantitykind:Unknown ;
+  # qudt:hasQuantityKind quantitykind:Unknown ;
+  qudt:hasQuantityKind quantitykind:Rate ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T-1D0 ;
   qudt:symbol "nmol/(gâ‹…hr)" ;
   qudt:ucumCode "nmol.g-1.h-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Nanomoles per gram per hour"@en 
+  # to do - fine-tune QK. its enzymatic activity, specific to an amt of substrate (soil). found it in hfr.254.4, hfr 371.1, knz.159.1  quantitykind:CatalyticActivity is close. 
+  # also see this specific uptake rate. see MilliGM-PER-GM-HR
   .
   unit:M-PER-M2
   a qudt:Unit ;
@@ -332,11 +341,13 @@ unit:MicroGM-PER-L-DAY
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.00000000001157407407407407 ;
   qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
-  qudt:hasQuantityKind quantitykind:Unknown ;
+  # qudt:hasQuantityKind quantitykind:Unknown ;
+  qudt:hasQuantityKind quantitykind:Rate ;
   qudt:symbol "µg/(Lâ‹…day)" ;
   qudt:ucumCode "ug.L-1.d-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Micrograms per litre per hour"@en ;
+  # might be an uptake rate, or production rate.
 .
 unit:KiloW-PER-M2
   a qudt:Unit ;
@@ -555,6 +566,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   qudt:conversionMultiplier 277777777.8;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
   qudt:hasQuantityKind quantitykind:Unknown ; 
+  qudt:hasQuantityKind quantitykind:Rate ; 
   qudt:plainTextDescription "0.0000000001-fold of the SI base unit kilogram divided by 0.0001-fold of the SI base unit kilogram over a period of 1 hour "@en ;
   qudt:symbol "ugram/g/hr)" ;
   qudt:ucumCode "ug.g-1.hr-1"^^qudt:UCUMcs ;
@@ -597,7 +609,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   .
   unit:MilliGM-PER-GM-HR
     a qudt:Unit ;
-    dcterms:description "mass-specific uptake rate"^^rdf:HTML ;
+    dcterms:description "mass-specific rate, e.g., uptake or emission"^^rdf:HTML ;
     qudt:applicableSystem sou:CGS ;
     qudt:applicableSystem sou:CGS-EMU ;
     qudt:applicableSystem sou:CGS-GAUSS ;
@@ -615,7 +627,8 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     rdfs:label "Milligram Per Gram"@en ;
 	# added by mobb
 	# copied from milligm-per-gm, description (although correct) was not very useful, used as template for plain text desription.
-	# pending: description, 
+	# pending: description,  
+	# dataset: edi.898.1 ("headspace CO2 flux, soil") sbc.114.1 (exudation rate), sbc.127.3, sbc.57.9 (mass-specific production rate), 
   .
   unit:MilliMOL-PER-M2-HR
     a qudt:DerivedUnit ;
@@ -674,7 +687,8 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     rdfs:label "Milligram Per Square Meter"@en-us ;
     rdfs:label "Milligram Per Square Metre"@en ;
     # aded by mob ;
-    # TO DO: quantityKind is currently a placeholder. suspect it is an areal concentration, e.g., for a biomass measurement. ;
+    # TO DO: quantityKind is currently a placeholder. suspect it is an areal 
+	, e.g., for a biomass measurement. ;
   .
   unit:NUM-PER-KiloGM
     a qudt:Unit ;
@@ -692,6 +706,8 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     rdfs:label "Number per kilogram"@en ;
 	# added by mobb ;
-	# TO DO: confirm that this is a concentration (e.g., oceaongraphic - they use kg) ;
+	# TO DO: confirm that this is a concentration (e.g., oceaongraphic - they use kg) 
+	# also see quantitykind:ParticleNumberDensity (although that has only volumes in the denom)
+
   .
     
