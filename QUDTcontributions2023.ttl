@@ -89,7 +89,7 @@ unit:CentiM3-PER-CentiM3
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
   qudt:qkdvNumerator qkdv:A0E0L3I0M0H0T0D0 ;
   qudt:qkdvDenominator qkdv:A0E0L3I0M0H0T0D0 ;
-  qudt:hasQuantityKind quantityKind:unknown;
+  qudt:hasQuantityKind quantitykind:unknown;
   qudt:symbol "cm3/cm3" ;
   rdf:type qudt:Unit ;
   qudt:ucumCode "cm3.cm-3"^^qudt:UCUMcs ;
@@ -111,7 +111,7 @@ unit:MicroGM-PER-L
   qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T0D0 ;
   qudt:qkdvNumerator qkdv:A0E0L0I0M1H0T0D0 ;
   qudt:qkdvDenominator qkdv:A0E0L3I0M0H0T0D0 ;
-  qudt:hasQuantityKind quantityKind:Concentration;
+  qudt:hasQuantityKind quantitykind:Concentration;
   qudt:symbol "ug3/L" ;
   rdf:type qudt:Unit ;
   qudt:ucumCode "ug3.L-1"^^qudt:UCUMcs ;
