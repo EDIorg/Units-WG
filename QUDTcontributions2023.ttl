@@ -309,12 +309,13 @@ unit:NanoMOL-PER-GM-HR
   # qudt:hasQuantityKind quantitykind:Unknown ;
   qudt:hasQuantityKind quantitykind:Rate ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T-1D0 ;
-  qudt:symbol "nmol/(gâ‹…hr)" ;
+  qudt:symbol "nmol/(g.hr)" ;
   qudt:ucumCode "nmol.g-1.h-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Nanomoles per gram per hour"@en 
-  # to do - fine-tune QK. its enzymatic activity, specific to an amt of substrate (soil). found it in hfr.254.4, hfr 371.1, knz.159.1  quantitykind:CatalyticActivity is close. 
-  # also see this specific uptake rate. see MilliGM-PER-GM-HR
+  # to do - fine-tune QK. use so far is for enzymatic activity, specific to an amt of substrate (soil). found it in hfr.254.4, hfr 371.1, knz.159.1  
+  # quantitykind:CatalyticActivity is close (wrong dimension vector). 
+  # also see this specific uptake rate. see MilliGM-PER-GM-HR - maybe these should have qk = mass-specific rate (or something like that. some will have A in the numerator, some M)
   .
   unit:M-PER-M2
   a qudt:Unit ;
@@ -362,8 +363,8 @@ unit:KiloW-PER-M2
   qudt:symbol "kW/m2" ;
   qudt:ucumCode "kW.m-2"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "Kilowatt Per Meter"@en-us ;
-  rdfs:label "Kilowatt Per Metre"@en ;
+  rdfs:label "Kilowatt Per Square Meter"@en-us ;
+  rdfs:label "Kilowatt Per Square Metre"@en ;
 .
 unit:MegaJ-PER-M2-DAY
   a qudt:Unit ;
@@ -399,7 +400,7 @@ unit:MilliGM-PER-KiloGM-DAY
   qudt:ucumCode "mg.kg-1.d-1"^^qudt:UCUMcs ;
   qudt:ucumCode "mg/kg/d"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "Microgram per Gram per Day"@en ;
+  rdfs:label "Milligram per kilogram per Day"@en ;
   .
 unit:GM-PER-HA
   a qudt:DerivedUnit ;
@@ -448,7 +449,7 @@ unit:KiloGM-PER-M2-DAY
   rdfs:label "kilogram per square meter per day"@en-us ;
   rdfs:label "kilogram per square metre per day"@en ;
 .
-unit:MicroGM-PER-GM-HR #I have not seen this quantity kind used before (MassRatioPerTime), do we need to define it?
+unit:MicroGM-PER-GM-HR 
   a qudt:DerivedUnit ;
   a qudt:Unit ;
   dcterms:description "mass ratio per time as 0.000000001-fold of the SI base unit kilogram divided by 0.001-fold the SI base unit kilogram per hour (3600 seconds) " ;
@@ -465,6 +466,7 @@ unit:MicroGM-PER-GM-HR #I have not seen this quantity kind used before (MassRati
   qudt:ucumCode "ug/g/hr"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "microgram per gram per hour"@en ;
+  #I have not seen this quantity kind used before (MassRatioPerTime), do we need to define it?
 .
   
 unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof quantitykind:AmountOfSubstancePerLengthPerTime_Squared 
@@ -515,7 +517,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "pound per acre"@en ;
 .
-  unit:MicroMOL-PER-M2-SEC2 #this quantity kind AmountOfSubstancePerAreaPerTime_squared  is also not defined
+  unit:MicroMOL-PER-M2-SEC2 
   a qudt:Unit ;
   a qudt:DerivedUnit ;
   dcterms:description "One part per 10**6 (million) of the SI unit of quantity of matter (the mole) per SI unit area per SI unit of time squared."@en ;
@@ -530,6 +532,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "micromole per square metre per square second"@en ;
   rdfs:label "micromole per square meter per square second"@en-us ;
+  #this quantity kind AmountOfSubstancePerAreaPerTime_squared  is also not defined
 .
   unit:KiloGM-PER-YR 
   a qudt:Unit ;
@@ -543,7 +546,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   qudt:symbol "kg/yr" ;
   qudt:ucumCode "kg.yr-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "kilogram per day"@en ;
+  rdfs:label "kilogram per year"@en ;
 .
   unit:NUM-PER-KiloGM 
   a qudt:Unit ;
@@ -572,7 +575,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
   qudt:ucumCode "ug.g-1.hr-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Micrograms per gram per hour"@en ;
-#this quantity kind (DimensionlessRatioPerTime) ot yet defined 
+  #this quantity kind (DimensionlessRatioPerTime) not yet defined 
 .
   unit:GM-PER-M2-HR 
   a qudt:Unit ;
@@ -624,10 +627,10 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     qudt:ucumCode "mg.g-1.h-1"^^qudt:UCUMcs ;
     qudt:ucumCode "mg/g/h"^^qudt:UCUMcs ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-    rdfs:label "Milligram Per Gram"@en ;
+    rdfs:label "Milligram per gram per hour"@en ;
 	# added by mobb
-	# copied from milligm-per-gm, description (although correct) was not very useful, used as template for plain text desription.
-	# pending: description,  
+	# copied from milligm-per-gm
+	# pending: description, qk 
 	# dataset: edi.898.1 ("headspace CO2 flux, soil") sbc.114.1 (exudation rate), sbc.127.3, sbc.57.9 (mass-specific production rate), 
   .
   unit:MilliMOL-PER-M2-HR
@@ -659,11 +662,11 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     qudt:conversionMultiplier 1e-09 ;
     qudt:hasDimensionVector qkdv:A1E0L-2I0M1H0T-1D0 ;
     qudt:hasQuantityKind quantitykind:Flux ;
-    qudt:plainTextDescription "Molar flux equivalent to 1e-9 moles per meter squared per sec.." ;
-    qudt:symbol "mmol/m²/hr" ;
-    qudt:ucumCode "mmol.m-2.h-1"^^qudt:UCUMcs ;
+    qudt:plainTextDescription "Molar flux equivalent to 1e-9 moles per meter squared per sec." ;
+    qudt:symbol "nmol/m²/sec" ;
+    qudt:ucumCode "nmol.m-2.s-1"^^qudt:UCUMcs ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-    rdfs:label "Millimole per Square Metre per Hour"@en ;
+    rdfs:label "Nanomole per Square Metre per second"@en ;
 	# added by mobb ;
 	# would like to add to the description - maybe this is used for light? ; 
   .
@@ -684,8 +687,8 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     qudt:ucumCode "mm.m-2"^^qudt:UCUMcs ;
     qudt:ucumCode "mm/m2"^^qudt:UCUMcs ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-    rdfs:label "Milligram Per Square Meter"@en-us ;
-    rdfs:label "Milligram Per Square Metre"@en ;
+    rdfs:label "Millimeter Per Square Meter"@en-us ;
+    rdfs:label "Millimetre Per Square Metre"@en ;
     # aded by mob ;
     # TO DO: quantityKind is currently a placeholder. suspect it is an areal, e.g., for a biomass measurement. ;
   .
