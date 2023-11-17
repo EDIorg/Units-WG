@@ -687,8 +687,7 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     rdfs:label "Milligram Per Square Meter"@en-us ;
     rdfs:label "Milligram Per Square Metre"@en ;
     # aded by mob ;
-    # TO DO: quantityKind is currently a placeholder. suspect it is an areal 
-	, e.g., for a biomass measurement. ;
+    # TO DO: quantityKind is currently a placeholder. suspect it is an areal, e.g., for a biomass measurement. ;
   .
   unit:NUM-PER-KiloGM
     a qudt:Unit ;
