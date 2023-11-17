@@ -708,7 +708,9 @@ unit:MicroMOL-PER-M-SEC2 #optionally could define a new one along the linesof qu
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     rdfs:label "Number per kilogram"@en ;
 	# added by mobb ;
-	# TO DO: confirm that this is a concentration (e.g., oceaongraphic - they use kg) 
+	# this one should break, because qk:concentration doesn't include that deminsion vector
+	# right now, qk Concentration has only one dimension vector (dimension:A1E0L-3I0M0H0T0D0), although the description says that it can be mass, molar, number, and volume)
+	# TO DO: confirm that this is a concentration (something similar should be typed that way - e.g., in oceaongraphy they use kg in the denominator) 
 	# also see quantitykind:ParticleNumberDensity (although that has only volumes in the denom)
 
   .
