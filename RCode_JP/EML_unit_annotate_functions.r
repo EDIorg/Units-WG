@@ -1,6 +1,6 @@
 # Functions for creating <annotation> elements for units in Ecological Metadata Language Documents
 # it requires an internet connection to work, since the unit list comes in from a remote source.
-# John Porter, Sept. 2023
+# John Porter, Aug. 2024
 
 if(!require(xml2)){ install.packages("xml2") }  
 library("xml2") 
@@ -16,6 +16,7 @@ removeAlternateIdentifierPastaDoi<-function(xmldata){
   }
   return(xmldata)
 }
+
 updateEMLRevision<-function(xmldata){
   # Update the Revision number of an EML document - increment it by 1
   xmlIdList<-xml_find_all(xmldata,"//eml:eml/@packageId")
@@ -41,6 +42,30 @@ updateEMLRevision<-function(xmldata){
   packageId<-newPackageId
   
   xmldata<-removeAlternateIdentifierPastaDoi(xmldata)
+  return(xmldata)
+}
+
+isExistingUnitAnnotation<-function(xmldata){
+  isExisting=F
+  annoList<-xml_find_all(xmldata,".//annotation")
+  for (myAnnotation in annoList){
+    myURIText<-xml_text(xml_find_first(myAnnotation,".//propertyURI"))
+    if (grepl("hasUnit",myURIText)){
+      isExisting=T
+      # print("Existing Annotation Found\n")
+    }
+  }
+  return(isExisting)
+}
+
+rmExistingUnitAnnotation<-function(xmldata){
+  annoList<-xml_find_all(xmldata,".//annotation")
+  for (myAnnotation in annoList){
+    myURIText<-xml_text(xml_find_first(myAnnotation,".//propertyURI"))
+    if (grepl("hasUnit",myURIText)){
+      xml_remove(myAnnotation)
+    }
+  }
   return(xmldata)
 }
 
@@ -70,15 +95,16 @@ addEMLAttributeId<-function(xmldata){
   
 }
 
-annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F){
+annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overWriteExisting=T){
   library(xml2)
-  # ingest and EML file and add an <annotation> element to those <attribute>s whose units
+  # ingest an EML file and add an <annotation> element to those <attribute>s whose units
   # can be resolved in QUDT. It returns a string containing the revised EML document. 
   #
   # inEMLFile is the name of the file or URL of the source EML document
   # incrementRevision controls whether the Revision number of the EML package is incremented by 1
   # addAttributeIds controls whether <attribute>s are checked for "id=" attributes and if absent
   # they are automatically added
+  # overWriteExisting controls whether existing unit annotations are retained or overwritten
   
   # read in QUDT and UCUM for raw lowercase units over the web or from a local file copy
   QUDTInfoDf<-read.csv("https://github.com/EDIorg/Units-WG/raw/main/RCode_JP/DataFiles4R/unitsWithQUDTInfo.csv")
@@ -122,11 +148,16 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F){
         # print(myQUDTInfoDf$qudtUri)
         QUDTOutDf<-rbind(QUDTOutDf,myQUDTInfoDf)
         
-        # Add annotation node to attribute
+        if (isExistingUnitAnnotation(myAttribute)==T & overWriteExisting == T){
+          rmExistingUnitAnnotation(myAttribute)
+        }
+        if (isExistingUnitAnnotation(myAttribute)== F){
+          # Add annotation node to attribute
         xml_add_child(myAttribute,read_xml(charToRaw(paste('<annotation>
         <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>',
                                                            paste('  <valueURI label="',trimws(myQUDTInfoDf$qudtLabel),'">',myQUDTInfoDf$qudtUri,'</valueURI>',sep=""),
                                                            "</annotation>",sep="\n"))))
+        } #end if no existing annotation 
       } # end if unit found
     } # end for attributes
   }# end for dataTables
