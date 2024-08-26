@@ -4,6 +4,27 @@
 
 if(!require(xml2)){ install.packages("xml2") }  
 library("xml2") 
+if(!require(stringi)){ install.packages("stringi") }  
+library("stringi") 
+if(!require(magrittr)){ install.packages("magrittr") }  
+library("magrittr") 
+
+convertSpecialCharacters<-function(inString){
+  # Convert <U+2019> and other special characters to Unicode. 
+  # From: https://stackoverflow.com/questions/39847816/convert-utf8-code-point-strings-like-u0161-to-utf8
+  outString<- inString %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{4})>", "\\\\u$1") %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{5})>", "\\\\U000$1") %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{6})>", "\\\\U00$1") %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{7})>", "\\\\U0$1") %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{8})>", "\\\\U$1") %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{1})>", "\\\\u000$1") %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{2})>", "\\\\u00$1") %>% 
+    stri_replace_all_regex("<U\\+([[:alnum:]]{3})>", "\\\\u0$1") %>% 
+    stri_unescape_unicode() %>% 
+    stri_enc_toutf8()
+  return(outString)
+}
 
 removeAlternateIdentifierPastaDoi<-function(xmldata){
   # check to see if there is a PASTA doi in alternateIdentifier and delete it
@@ -164,8 +185,8 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
   
   # write it out to disk
   #write_xml(xmldata,paste(packageId,"_annotated.xml"))
-  
-  return(as.character(xmldata))
+  outXMLString<-convertSpecialCharacters(as.character(xmldata))
+  return(outXMLString))
 } 
 
 createUnitsAnnotationsListString<-function(inEMLFile,indent=0){
