@@ -152,7 +152,11 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
   for (myDataTable in xmlTableList){
     xmlAttributeList<-xml_find_all(myDataTable,".//attribute")
     for (myAttribute in xmlAttributeList){
-      myAttributeId<-xml_attrs(myAttribute,"id")
+      if (xml_has_attr(myAttribute,"id")){
+        myAttributeId<-xml_attrs(myAttribute,"id")
+      }else{
+        myAttributeId<-NA
+      }  
       myUnit<-xml_find_first(myAttribute,".//unit")
       myUnitText<-xml_text(myUnit)[[1]][[1]]
       
