@@ -186,7 +186,7 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
   # write it out to disk
   #write_xml(xmldata,paste(packageId,"_annotated.xml"))
   outXMLString<-convertSpecialCharacters(as.character(xmldata))
-  return(outXMLString))
+  return(outXMLString)
 } 
 
 createUnitsAnnotationsListString<-function(inEMLFile,indent=0){
