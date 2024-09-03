@@ -23,7 +23,7 @@ convertSpecialCharacters<-function(inString){
     stri_replace_all_regex("<U\\+([[:alnum:]]{3})>", "\\\\u0$1") %>% 
     stri_unescape_unicode() %>% 
     stri_enc_toutf8()
-    outString<-iconv(outString,from="UTF-8",to="ASCII//TRANSLIT")
+#    outString<-iconv(outString,from="UTF-8",to="ASCII//TRANSLIT")
   return(outString)
 }
 
