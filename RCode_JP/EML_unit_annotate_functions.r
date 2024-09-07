@@ -24,6 +24,9 @@ convertSpecialCharacters<-function(inString){
     stri_unescape_unicode() %>% 
     stri_enc_toutf8()
 #    outString<-iconv(outString,from="UTF-8",to="ASCII//TRANSLIT")
+  # this conversion and conversion back should help with some odd latin characters
+    outString<-iconv(outString,from="UTF-8",to="latin1")
+    outString<-iconv(outString,from="latin1",to="UTF-8")
   return(outString)
 }
 
@@ -37,6 +40,50 @@ removeAlternateIdentifierPastaDoi<-function(xmldata){
     }
   }
   return(xmldata)
+}
+
+getEMLVersionList<-function(xmldata){
+  # returns EML version numbers as a list - e.g., eml-2.1.5 is EMLVersionList[1}=2, [2]=1, [3]=5]
+  #print(xml_attrs(xmldata))
+  EMLVersionString<-xml_attr(xmldata,"xmlns:eml")
+  #print(EMLVersionString)
+  EMLVersionString<-sub("eml://ecoinformatics.org/eml-","",EMLVersionString)
+  # deal with some variants
+  EMLVersionString<-sub("http://ecoinformatics.org/eml-","",EMLVersionString)
+  EMLVersionString<-sub("https://ecoinformatics.org/eml-","",EMLVersionString)
+  EMLVersionString<-sub("eml://eml.ecoinformatics.org/eml-","",EMLVersionString)
+  EMLVersionString<-sub("http://eml.ecoinformatics.org/eml-","",EMLVersionString)
+  EMLVersionString<-sub("https://eml.ecoinformatics.org/eml-","",EMLVersionString)
+  #print(EMLVersionString)
+  EMLVersionList<-strsplit(EMLVersionString,".",fixed=T)
+  # print(EMLVersionList)
+  return(EMLVersionList)
+}
+
+updateEMLVersion<-function(xmldata){
+  # EML 2.2.0 and after is required. If document is EML 2.0 or 2.1, update the version to EML-2.2.0
+  # earlier versions are forward compatible so it they should still work.
+  emlNode<-xml_find_first(xmldata,"//eml:eml")
+  EMLVersionList<-getEMLVersionList(emlNode)
+  #print(EMLVersionList[[1]][2])
+  if ((as.numeric(EMLVersionList[[1]][1]) < 2) ||
+      ((as.numeric(EMLVersionList[[1]][1]) >=2)&& (as.numeric(EMLVersionList[[1]][2]) < 2))){
+    # print("Updating EML Version to 2.2.0")
+    xml_attr(emlNode,"xmlns:eml")<-"eml://ecoinformatics.org/eml-2.2.0"
+    xml_attr(emlNode,"xsi:schemaLocation")<-"https://eml.ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+    xml_attr(emlNode,"xmlns:ds")<-"eml://ecoinformatics.org/eml-2.2.0"
+        # print(xml_attrs(emlNode))
+    xml_set_namespace(emlNode,"eml")
+    # print("done Updating")
+    return(xmldata)
+  }
+}
+
+getPackageIdFromFile<-function(xmlFile){
+  myxmldata<-read_xml(xmlFile,encoding="UTF-8")
+  xmlIdList<-xml_find_all(myxmldata,"//eml:eml/@packageId")
+  packageId<-as.character(xml_text(xmlIdList[1]))
+  return(packageId)
 }
 
 updateEMLRevision<-function(xmldata){
@@ -117,7 +164,7 @@ addEMLAttributeId<-function(xmldata){
   
 }
 
-annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overWriteExisting=T){
+annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overWriteExisting=T,updateEMLVersion=T){
   library(xml2)
   # ingest an EML file and add an <annotation> element to those <attribute>s whose units
   # can be resolved in QUDT. It returns a string containing the revised EML document. 
@@ -138,15 +185,22 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
   QUDTOutDf$attributeId<-NA
   attribNumber<-1
   
-  xmldata<-read_xml(inEMLFile)
+  xmldata<-read_xml(inEMLFile,encoding="UTF-8")
+
+  
   xmlIdList<-xml_find_all(xmldata,"//eml:eml/@packageId")
-  packageId<-as.character(xml_text(xmlIdList[1]))
+  packageId<-as.character(xml_text(xmlIdList[[1]]))
   if (incrementRevision){
     xmldata<-updateEMLRevision(xmldata)
   }
   
   if (addAttributeIds){
     addEMLAttributeId(xmldata)
+  }
+  
+  # update EML version to support annotations -if needed 
+  if (updateEMLVersion){
+    updateEMLVersion(xmldata)
   }
   
   xmlTableList<-xml_find_all(xmldata,"//dataTable")
@@ -160,12 +214,14 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
       }  
       myUnit<-xml_find_first(myAttribute,".//unit")
       myUnitText<-xml_text(myUnit)[[1]][[1]]
-      
+      #print(myUnitText)
       myQUDTInfoDf<-QUDTInfoDf[grepl(paste("^",myUnitText,"$",sep=""),trimws(QUDTInfoDf$unit),ignore.case=T),]
-      myQUDTInfoDf<-myQUDTInfoDf[!duplicated(myQUDTInfoDf$qudtUri)
-                                 & !is.na(myQUDTInfoDf$qudtUri) 
+      myQUDTInfoDf<-myQUDTInfoDf[!duplicated(myQUDTInfoDf$qudtUri),]
+      myQUDTInfoDf<-myQUDTInfoDf[!is.na(myQUDTInfoDf$qudtUri) 
                                  & !is.na(myQUDTInfoDf$unit)
-                                 & myQUDTInfoDf$unit != "NA",]
+                                 & myQUDTInfoDf$unit != "NA"
+                                 ,]
+      #print(myQUDTInfoDf)
       if (nrow(myQUDTInfoDf) == 1){
         #   print(myAttributeId)
         #   print(myUnitText)
@@ -181,8 +237,8 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
           # Add annotation node to attribute
         xml_add_child(myAttribute,read_xml(charToRaw(paste('<annotation>
         <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>',
-                                                           paste('  <valueURI label="',trimws(myQUDTInfoDf$qudtLabel),'">',myQUDTInfoDf$qudtUri,'</valueURI>',sep=""),
-                                                           "</annotation>",sep="\n"))))
+                          paste('  <valueURI label="',trimws(myQUDTInfoDf$qudtLabel),'">',myQUDTInfoDf$qudtUri,'</valueURI>',sep=""),
+                          "</annotation>",sep="\n"))))
         } #end if no existing annotation 
       } # end if unit found
     } # end for attributes
