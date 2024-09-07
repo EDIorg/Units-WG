@@ -25,8 +25,8 @@ convertSpecialCharacters<-function(inString){
     stri_enc_toutf8()
 #    outString<-iconv(outString,from="UTF-8",to="ASCII//TRANSLIT")
   # this conversion and conversion back should help with some odd latin characters
-    outString<-iconv(outString,from="UTF-8",to="latin1")
-    outString<-iconv(outString,from="latin1",to="UTF-8")
+ #   outString<-iconv(outString,from="UTF-8",to="latin1")
+ #   outString<-iconv(outString,from="latin1",to="UTF-8")
   return(outString)
 }
 
