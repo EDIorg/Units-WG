@@ -72,6 +72,7 @@ updateEMLVersion<-function(xmldata){
     xml_attr(emlNode,"xmlns:eml")<-"https://eml.ecoinformatics.org/eml-2.2.0"
     xml_attr(emlNode,"xsi:schemaLocation")<-"https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd"
     xml_attr(emlNode,"xmlns:ds")<-"eml://ecoinformatics.org/eml-2.2.0"
+    xml_attr(emlNode,"scope")<-"system"
         # print(xml_attrs(emlNode))
     xml_set_namespace(emlNode,"eml")
     # print("done Updating")
