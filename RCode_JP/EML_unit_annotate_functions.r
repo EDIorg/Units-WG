@@ -69,8 +69,8 @@ updateEMLVersion<-function(xmldata){
   if ((as.numeric(EMLVersionList[[1]][1]) < 2) ||
       ((as.numeric(EMLVersionList[[1]][1]) >=2)&& (as.numeric(EMLVersionList[[1]][2]) < 2))){
     # print("Updating EML Version to 2.2.0")
-    xml_attr(emlNode,"xmlns:eml")<-"eml://ecoinformatics.org/eml-2.2.0"
-    xml_attr(emlNode,"xsi:schemaLocation")<-"https://eml.ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd"
+    xml_attr(emlNode,"xmlns:eml")<-"https://eml.ecoinformatics.org/eml-2.2.0"
+    xml_attr(emlNode,"xsi:schemaLocation")<-"https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd"
     xml_attr(emlNode,"xmlns:ds")<-"eml://ecoinformatics.org/eml-2.2.0"
         # print(xml_attrs(emlNode))
     xml_set_namespace(emlNode,"eml")
