@@ -31,4 +31,5 @@ Established in 2022, the Units team is working to identify a modern, community-d
 
 ## Products
 - dataset: https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=1715
-- paper: submitted Aug 2024, text available by request
+- paper: submitted Aug 2024, text available by request (describes mapping process and results)
+  - code in this repository
