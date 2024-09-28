@@ -248,9 +248,11 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
   # write it out to disk
   #write_xml(xmldata,paste(packageId,"_annotated.xml"))
   outXMLString<-convertSpecialCharacters(as.character(xmldata))
-  #deal with escaped end of line characters
+  #deal with escaped end of line characters in recordDelimiter and physicalLineDelimiter
   outXMLString<-gsub("<recordDelimiter>\r\n","<recordDelimiter>\\\\r\\\\n",outXMLString)
   outXMLString<-gsub("<recordDelimiter>\n","<recordDelimiter>\\\\n",outXMLString)
+  outXMLString<-gsub("<physicalLineDelimiter>\r\n","<recordDelimiter>\\\\r\\\\n",outXMLString)
+  outXMLString<-gsub("<physicalLineDelimiter>\n","<recordDelimiter>\\\\n",outXMLString)
   return(outXMLString)
 } 
 
