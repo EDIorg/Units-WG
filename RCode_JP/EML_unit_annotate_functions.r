@@ -70,9 +70,9 @@ updateEMLVersion<-function(xmldata){
       ((as.numeric(EMLVersionList[[1]][1]) >=2)&& (as.numeric(EMLVersionList[[1]][2]) < 2))){
     # print("Updating EML Version to 2.2.0")
     xml_attr(emlNode,"xmlns:eml")<-"https://eml.ecoinformatics.org/eml-2.2.0"
+    xml_attr(emlNode,"scope")<-"system"
     xml_attr(emlNode,"xsi:schemaLocation")<-"https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd"
     xml_attr(emlNode,"xmlns:ds")<-"eml://ecoinformatics.org/eml-2.2.0"
-    xml_attr(emlNode,"scope")<-"system"
         # print(xml_attrs(emlNode))
     xml_set_namespace(emlNode,"eml")
     # print("done Updating")
@@ -248,6 +248,9 @@ annotateEMLUnits<-function(inEMLFile,incrementRevision=F,addAttributeIds=F,overW
   # write it out to disk
   #write_xml(xmldata,paste(packageId,"_annotated.xml"))
   outXMLString<-convertSpecialCharacters(as.character(xmldata))
+  #deal with escaped end of line characters
+  outXMLString<-gsub("<recordDelimiter>\r\n","<recordDelimiter>\\\\r\\\\n",outXMLString)
+  outXMLString<-gsub("<recordDelimiter>\n","<recordDelimiter>\\\\n",outXMLString)
   return(outXMLString)
 } 
 
