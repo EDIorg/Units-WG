@@ -1,0 +1,19 @@
+
+
+This folder contains information on a test of AI for creating ttl files to submit new
+units to QUDT.
+The prompt lists requested new units, specifies the format convention for the DimensionVector, and requests 
+a check of the DV and QK for the new units. If they don't exist, the ttl to submit them is requested.
+12 units were chosen from the unitWG spreadsheet - these were units that were used often and the WG had identified potential QUDT 
+additions for these units.
+The full prompt is below.
+
+
+Claude.ai prompt:
+Please create a qudt ttl file for the following units: CentiM3-PER-CentiM2 MicroOHM-PER-CentiM KiloGM-PER-HA-DAY NUM-PER-CentiM3 
+MilliGM-PER-GM-DAY MicroMOL-PER-CentiM3 CentiM2-PER-M2 NUM-PER-CentiM2-YR MicroMOL-PER-SEC-M2 NanoGM-PER-GM NUM-PER-CentiM2 MicroMOL-PER-M-SEC2 
+Please use this convention for writing the DimensionVector qudt:hasDimensionVector qkdv:A0E0L3I0M0H0T-1D0 ;
+  qudt:hasDimensionVector qkdv:A0E0L3I0M0H-1T0D0 ;
+Please specify SI conversion. Please check qudt to determine if the DimensionVector already exists and if the QuantityKind already exists. 
+If either does not exist, please create a dimensionvector ttl file and quantitykind ttl file as necessary. can you create an output table 
+that indicates whether the quantitykind and dimension vector already exist in qudt. and only output the ttl files for those if they do not already exist

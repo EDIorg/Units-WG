@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+
+# Unit: CentiM3-PER-CentiM2
+unit:CentiM3-PER-CentiM2 rdf:type qudt:Unit ;
+    rdfs:label "Cubic centimeter per square centimeter"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "cm³/cm²" ;
+    qudt:hasQuantityKind quantitykind:VolumePerArea ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+    qudt:conversionMultiplier "0.01"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Cubic centimeter per square centimeter is a unit for Volume per Area, expressed as cm³/cm²."^^xsd:string .
+
+# Unit: MicroOHM-PER-CentiM
+unit:MicroOHM-PER-CentiM rdf:type qudt:Unit ;
+    rdfs:label "Microohm per centimeter"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "μΩ/cm" ;
+    qudt:hasQuantityKind quantitykind:ResistancePerLength ;
+    qudt:hasDimensionVector qkdv:A0E0L3I0M0H-1T0D0 ;
+    qudt:conversionMultiplier "1.0E-5"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Microohm per centimeter is a unit for Resistance per Length, expressed as μΩ/cm."^^xsd:string .
+
+# Unit: KiloGM-PER-HA-DAY
+unit:KiloGM-PER-HA-DAY rdf:type qudt:Unit ;
+    rdfs:label "Kilogram per hectare day"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "kg/(ha·d)" ;
+    qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+    qudt:conversionMultiplier "1.1574074074074074E-8"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Kilogram per hectare day is a unit for Mass per Area Time, expressed as kg/(ha·d)."^^xsd:string .
+
+# Unit: NUM-PER-CentiM3
+unit:NUM-PER-CentiM3 rdf:type qudt:Unit ;
+    rdfs:label "Number per cubic centimeter"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "#/cm³" ;
+    qudt:hasQuantityKind quantitykind:NumberDensity ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T0D0 ;
+    qudt:conversionMultiplier "1.0E6"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Number per cubic centimeter is a unit for Number Density, expressed as #/cm³."^^xsd:string .
+
+# Unit: MilliGM-PER-GM-DAY
+unit:MilliGM-PER-GM-DAY rdf:type qudt:Unit ;
+    rdfs:label "Milligram per gram day"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "mg/(g·d)" ;
+    qudt:hasQuantityKind quantitykind:Frequency ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+    qudt:conversionMultiplier "1.1574074074074074E-8"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Milligram per gram day is a unit for Frequency, expressed as mg/(g·d)."^^xsd:string .
+
+# Unit: MicroMOL-PER-CentiM3
+unit:MicroMOL-PER-CentiM3 rdf:type qudt:Unit ;
+    rdfs:label "Micromole per cubic centimeter"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "μmol/cm³" ;
+    qudt:hasQuantityKind quantitykind:AmountOfSubstanceConcentration ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T0D0 ;
+    qudt:conversionMultiplier "1.0E3"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Micromole per cubic centimeter is a unit for Amount of Substance Concentration, expressed as μmol/cm³."^^xsd:string .
+
+# Unit: CentiM2-PER-M2
+unit:CentiM2-PER-M2 rdf:type qudt:Unit ;
+    rdfs:label "Square centimeter per square meter"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "cm²/m²" ;
+    qudt:hasQuantityKind quantitykind:Dimensionless ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D0 ;
+    qudt:conversionMultiplier "0.01"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Square centimeter per square meter is a dimensionless unit, expressed as cm²/m²."^^xsd:string .
+
+# Unit: NUM-PER-CentiM2-YR
+unit:NUM-PER-CentiM2-YR rdf:type qudt:Unit ;
+    rdfs:label "Number per square centimeter year"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "#/(cm²·yr)" ;
+    qudt:hasQuantityKind quantitykind:AreaDensityRate ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T-1D0 ;
+    qudt:conversionMultiplier "3.1709791983764586E-12"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Number per square centimeter year is a unit for Area Density Rate, expressed as #/(cm²·yr)."^^xsd:string .
+
+# Unit: MicroMOL-PER-SEC-M2
+unit:MicroMOL-PER-SEC-M2 rdf:type qudt:Unit ;
+    rdfs:label "Micromole per second square meter"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "μmol/(s·m²)" ;
+    qudt:hasQuantityKind quantitykind:MolarFluxRate ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T-1D0 ;
+    qudt:conversionMultiplier "1.0E-6"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Micromole per second square meter is a unit for Molar Flux Rate, expressed as μmol/(s·m²)."^^xsd:string .
+
+# Unit: NanoGM-PER-GM
+unit:NanoGM-PER-GM rdf:type qudt:Unit ;
+    rdfs:label "Nanogram per gram"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "ng/g" ;
+    qudt:hasQuantityKind quantitykind:Dimensionless ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D0 ;
+    qudt:conversionMultiplier "1.0E-9"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Nanogram per gram is a dimensionless unit, expressed as ng/g."^^xsd:string .
+
+# Unit: NUM-PER-CentiM2
+unit:NUM-PER-CentiM2 rdf:type qudt:Unit ;
+    rdfs:label "Number per square centimeter"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "#/cm²" ;
+    qudt:hasQuantityKind quantitykind:NumberDensityPerArea ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T0D0 ;
+    qudt:conversionMultiplier "1.0E4"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Number per square centimeter is a unit for Number Density per Area, expressed as #/cm²."^^xsd:string .
+
+# Unit: MicroMOL-PER-M-SEC2
+unit:MicroMOL-PER-M-SEC2 rdf:type qudt:Unit ;
+    rdfs:label "Micromole per meter per second squared"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    qudt:symbol "μmol/(m·s²)" ;
+    qudt:hasQuantityKind quantitykind:AmountOfSubstanceAcceleration ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-2D0 ;
+    qudt:conversionMultiplier "1.0E-6"^^xsd:double ;
+    qudt:applicableSystem sou:SI ;
+    dcterms:description "Micromole per meter per second squared is a unit for Amount of Substance Acceleration, expressed as μmol/(m·s²)."^^xsd:string .

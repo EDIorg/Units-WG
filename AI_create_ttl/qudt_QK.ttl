@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+
+# Quantity Kind: MassPerAreaTime
+quantitykind:MassPerAreaTime rdf:type qudt:QuantityKind ;
+    rdfs:label "Mass per Area Time"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    qudt:symbol "M/(L²·T)" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+    qudt:applicableUnit unit:KiloGM-PER-HA-DAY ;
+    qudt:informativeReference "http://en.wikipedia.org/wiki/Mass_flux" ;
+    dcterms:description "Mass per Area Time is a quantity that represents the mass transport per unit area per unit time. It is used to quantify the rate at which a mass flows through a unit area, often in environmental, agricultural, or process engineering contexts."^^xsd:string .
+
+# Quantity Kind: AreaDensityRate
+quantitykind:AreaDensityRate rdf:type qudt:QuantityKind ;
+    rdfs:label "Area Density Rate"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    qudt:symbol "N/(L²·T)" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T-1D0 ;
+    qudt:applicableUnit unit:NUM-PER-CentiM2-YR ;
+    dcterms:description "Area Density Rate represents the change in number of entities per unit area per unit time. It is often used in ecological studies, population dynamics, or in materials science to quantify processes occurring at surfaces over time."^^xsd:string .
+
+# Quantity Kind: MolarFluxRate
+quantitykind:MolarFluxRate rdf:type qudt:QuantityKind ;
+    rdfs:label "Molar Flux Rate"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    qudt:symbol "n/(L²·T)" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T-1D0 ;
+    qudt:applicableUnit unit:MicroMOL-PER-SEC-M2 ;
+    dcterms:description "Molar Flux Rate represents the amount of substance that passes through a unit area per unit time. It is commonly used in chemical engineering, membrane science, and studies of diffusion and mass transfer."^^xsd:string .
+
+# Quantity Kind: AmountOfSubstanceAcceleration
+quantitykind:AmountOfSubstanceAcceleration rdf:type qudt:QuantityKind ;
+    rdfs:label "Amount of Substance Acceleration"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    qudt:symbol "n/(L·T²)" ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-2D0 ;
+    qudt:applicableUnit unit:MicroMOL-PER-M-SEC2 ;
+    dcterms:description "Amount of Substance Acceleration represents the rate of change of the amount of substance flux with respect to time. It is used in advanced chemical kinetics and reaction dynamics studies."^^xsd:string .
