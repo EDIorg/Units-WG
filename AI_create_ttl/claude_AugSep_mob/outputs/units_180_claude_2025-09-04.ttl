@@ -19,6 +19,9 @@
 # ENVIRONMENTAL SCIENCE UNITS - NEW ADDITIONS TO QUDT
 # =============================================================================
 
+
+#### JOHN -start here
+
 unit:J-PER-DAY
     rdf:type qudt:Unit ;
     dcterms:description "Joules per day - used for measuring daily energy fluxes in environmental and biological systems" ;
@@ -359,6 +362,9 @@ unit:MilliGM-PER-KiloGM-MO
     qudt:symbol "mg·kg⁻¹·mo⁻¹" ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     rdfs:label "Milligram per Kilogram Month"@en .
+
+
+#### MARY - start here
 
 unit:NanoMOL-PER-MilliGM-HR
     rdf:type qudt:Unit ;
@@ -722,6 +728,9 @@ unit:L-PER-M2
     qudt:symbol "L·m⁻²" ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     rdfs:label "Liter per Square Meter"@en .
+
+#### STEVAN
+
 
 unit:L-PER-MilliGM-M
     rdf:type qudt:Unit ;
@@ -1106,7 +1115,7 @@ unit:PPM-PER-SEC-M3
 
 
 
-
+### MARINA - start here
 
 
 
@@ -1509,6 +1518,9 @@ unit:GM-PER-M3-DAY
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
+
+#### CHRISTINE - start here
+
 # Annual volume-based mass rates
 unit:GM-PER-M3-YR
     a qudt:Unit ;
@@ -1872,6 +1884,10 @@ unit:MOL-PER-DAY
     qudt:symbol "mol/day" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
+#### MARGARET - start here
+
 
 # Molar flux per area per time
 unit:MOL-PER-SEC-M2
