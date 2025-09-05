@@ -1,0 +1,655 @@
+# =============================================================================
+# QUDT Quantity Kinds for Environmental Science Units Extension
+# =============================================================================
+# 
+# NEW quantity kinds for environmental science units
+# Following QUDT 2.1 modeling rules and ERD requirements
+# Domain: Environmental Science, Ecology, Agricultural Science
+# Generated: 2025
+#
+# ANALYSIS: 97 total quantity kinds in units file
+#   - 28 estimated to already exist in QUDT 2.1 (no need to create)
+#   - 69 NEW quantity kinds (created below)
+#
+# Total NEW Quantity Kinds: 69
+# License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+# Attribution: QUDT.org Environmental Science Extension
+# =============================================================================
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# =============================================================================
+# NEW QUANTITY KINDS (NOT IN QUDT 2.1)
+# =============================================================================
+
+quantitykind:AmountOfSubstanceConcentrationRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of change of amount of substance concentration with time" ;
+    qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T-1D0 ;
+    qudt:plainTextDescription "The rate at which the concentration of a substance changes over time, commonly used in chemical kinetics and environmental chemistry." ;
+    qudt:symbol "dc/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Amount of Substance Concentration Rate"@en .
+
+quantitykind:AmountOfSubstanceMassSpecificRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of amount of substance transformation per unit mass" ;
+    qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T-1D0 ;
+    qudt:plainTextDescription "The rate of molar transformation per unit mass, used in biochemical studies, enzyme kinetics, and metabolic rate measurements." ;
+    qudt:symbol "dn/(dm·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Amount of Substance Mass Specific Rate"@en .
+
+quantitykind:AmountOfSubstancePerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Amount of substance distributed over a unit area" ;
+    qudt:hasDimensionVector qkdv:A1E0L-2I0M0H0T0D0 ;
+    qudt:plainTextDescription "The quantity of substance per unit area, used in nutrient cycling studies, fertilizer applications, and ecosystem chemistry." ;
+    qudt:symbol "n/A" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Amount of Substance per Area"@en .
+
+quantitykind:AmountOfSubstancePerAreaTime
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of amount of substance flux per unit area" ;
+    qudt:hasDimensionVector qkdv:A1E0L-2I0M0H0T-1D0 ;
+    qudt:plainTextDescription "The rate of molar flux per unit area, used in gas exchange studies, photosynthesis measurements, and biogeochemical processes." ;
+    qudt:symbol "jn" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Amount of Substance per Area Time"@en .
+
+quantitykind:AngleTime
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Product of angular measurement and time" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T1D0 ;
+    qudt:plainTextDescription "The product of angle and time, used in astronomical observations and environmental surveying applications." ;
+    qudt:symbol "θ·t" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Angle Time"@en .
+
+quantitykind:AreaDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Mass per unit area, also known as surface density" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+    qudt:plainTextDescription "The mass distributed over a unit area, used in agricultural yield measurements, biomass quantification, and material characterization." ;
+    qudt:symbol "σ" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Area Density"@en .
+
+quantitykind:AreaMassRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of mass flux per unit area over time" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+    qudt:plainTextDescription "The rate of mass accumulation or loss per unit area, used in soil formation rates, sediment studies, and ecosystem mass balance." ;
+    qudt:symbol "dm/(dA·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Area Mass Rate"@en .
+
+quantitykind:AreaPerAreaTime
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of area change normalized by area" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+    qudt:plainTextDescription "The rate of area expansion or change normalized by existing area, used in forest gap dynamics and ecological area change analysis." ;
+    qudt:symbol "dA/(A·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Area per Area Time"@en .
+
+quantitykind:AreaPerCount
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Area available per individual object or organism" ;
+    qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T0D0 ;
+    qudt:plainTextDescription "The area per individual, used in population ecology, habitat assessment, and conservation biology to quantify space requirements." ;
+    qudt:symbol "A/N" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Area per Count"@en .
+
+quantitykind:AreaPerCubicTime
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Area per cubic time, used in advanced environmental modeling" ;
+    qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T-3D0 ;
+    qudt:plainTextDescription "Complex area-time relationships used in advanced environmental modeling such as turbulent diffusion analysis or complex flow dynamics." ;
+    qudt:symbol "A/t³" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Area per Cubic Time"@en .
+
+quantitykind:AreaPerVolume
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Surface area to volume ratio" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+    qudt:plainTextDescription "The ratio of surface area to volume, used in environmental engineering for characterizing porous media, biological surface areas, or habitat complexity." ;
+    qudt:symbol "A/V" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Area per Volume"@en .
+
+quantitykind:BiochemicalProductionRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of biochemical production per volume per mass per time" ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D1 ;
+    qudt:plainTextDescription "Mass production rates normalized by volume and biomass concentration, used in bioreactor studies and microbial kinetics." ;
+    qudt:symbol "rp" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Biochemical Production Rate"@en .
+
+quantitykind:ChangeRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Dimensionless rate of change over time" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+    qudt:plainTextDescription "A dimensionless rate of change, used for annual rates of change in environmental monitoring such as forest cover change or climate variable changes." ;
+    qudt:symbol "dr/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Change Rate"@en .
+
+quantitykind:ConcentrationChangeRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of change in concentration" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+    qudt:plainTextDescription "The rate of concentration change, used in atmospheric chemistry, pollution monitoring, and real-time concentration tracking." ;
+    qudt:symbol "dc/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Concentration Change Rate"@en .
+
+quantitykind:ConcentrationChangeRatePerVolume
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of concentration change per unit volume" ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D1 ;
+    qudt:plainTextDescription "Concentration change rates normalized by volume, used in atmospheric chemistry, pollution dispersion modeling, and air quality studies." ;
+    qudt:symbol "dc/(dV·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Concentration Change Rate per Volume"@en .
+
+quantitykind:ConcentrationRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of change in concentration over time" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+    qudt:plainTextDescription "The rate at which concentration changes, used in chemical kinetics and environmental concentration monitoring." ;
+    qudt:symbol "dc/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Concentration Rate"@en .
+
+quantitykind:CountPerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Number density per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T0D1 ;
+    qudt:plainTextDescription "The density of discrete objects or organisms per unit area, used in ecological surveys, agricultural plant counts, and wildlife studies." ;
+    qudt:symbol "N/A" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Count per Area"@en .
+
+quantitykind:CountPerLength
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Linear density of discrete objects" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D1 ;
+    qudt:plainTextDescription "The linear density of objects or features along transects, used in wildlife surveys, infrastructure assessment, and landscape ecology." ;
+    qudt:symbol "N/L" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Count per Length"@en .
+
+quantitykind:CountPerMass
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Number of discrete objects per unit mass" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T0D1 ;
+    qudt:plainTextDescription "The number of discrete objects per unit mass, used in microbiology, nanoparticle studies, and molecular counting applications." ;
+    qudt:symbol "N/m" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Count per Mass"@en .
+
+quantitykind:CountPerMassRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of count generation per unit mass" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D1 ;
+    qudt:plainTextDescription "The rate of discrete events per unit mass, used in microbial growth studies, particle generation rates, and biological reproduction rates." ;
+    qudt:symbol "dN/(dm·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Count per Mass Rate"@en .
+
+quantitykind:CountRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of counting discrete events or objects" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+    qudt:plainTextDescription "A rate for counting discrete events, organisms, or objects per unit time, used in ecological surveys, monitoring studies, and behavioral observations." ;
+    qudt:symbol "dN/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Count Rate"@en .
+
+quantitykind:CountRatePerAreaTime
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Count rate density over area and time" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T-2D1 ;
+    qudt:plainTextDescription "Count rates per unit area over time periods, used in ecological monitoring, population surveys, and behavioral studies." ;
+    qudt:symbol "d²N/(dA·dt²)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Count Rate per Area Time"@en .
+
+quantitykind:CountRatePerVolume
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of discrete events per unit volume" ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D1 ;
+    qudt:plainTextDescription "The rate of discrete events or objects per unit time per unit volume, used in aquatic ecology and microbiology." ;
+    qudt:symbol "dN/(dV·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Count Rate per Volume"@en .
+
+quantitykind:DeformationRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of length change per pressure per time" ;
+    qudt:hasDimensionVector qkdv:A0E0L4I0M-1H0T-2D0 ;
+    qudt:plainTextDescription "Length changes per unit pressure per unit time, used in mechanical testing, deformation studies, and material property analysis." ;
+    qudt:symbol "dL/(dP·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Deformation Rate"@en .
+
+quantitykind:DimensionlessFluxDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Dimensionless flux per unit area per time" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T-1D1 ;
+    qudt:plainTextDescription "Dimensionless flux densities, used in mass transfer studies and normalized transport analysis." ;
+    qudt:symbol "j*" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Dimensionless Flux Density"@en .
+
+quantitykind:DimensionlessRatioPerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Dimensionless ratio per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T0D1 ;
+    qudt:plainTextDescription "Dimensionless values normalized by area, used in spatial analysis, coverage studies, and area-normalized measurements." ;
+    qudt:symbol "r/A" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Dimensionless Ratio per Area"@en .
+
+quantitykind:EnergyFluxDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Energy flux per unit area per time" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-2D0 ;
+    qudt:plainTextDescription "Energy flux over area and time, used in solar energy studies, ecosystem energy budgets, and environmental energy balance calculations." ;
+    qudt:symbol "je" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Energy Flux Density"@en .
+
+quantitykind:InverseMolarRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Inverse molar rate, used in complex reaction kinetics" ;
+    qudt:hasDimensionVector qkdv:A-1E0L0I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Inverse molar transformation rates, used in complex reaction kinetics and multi-component chemical systems." ;
+    qudt:symbol "1/rn" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Inverse Molar Rate"@en .
+
+quantitykind:LengthPerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Linear feature density per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+    qudt:plainTextDescription "Linear feature density such as river length per watershed area, road density, or edge-to-area ratios in landscape ecology." ;
+    qudt:symbol "L/A" ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+    rdfs:label "Length per Area"@en .
+
+quantitykind:LengthPerMass
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Length per unit mass" ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M-1H0T0D0 ;
+    qudt:plainTextDescription "Length per unit mass, used in fiber analysis, thread characterization, and linear density measurements." ;
+    qudt:symbol "L/m" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Length per Mass"@en .
+
+quantitykind:LengthTemperatureRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of length-temperature product" ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H1T-1D0 ;
+    qudt:plainTextDescription "Rates of length-temperature products, used in thermal expansion studies, temperature gradient analysis, and thermomechanical processes." ;
+    qudt:symbol "d(L·T)/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Length Temperature Rate"@en .
+
+quantitykind:LinearEnergyDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Energy per unit length" ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M1H0T-2D0 ;
+    qudt:plainTextDescription "Energy distributed along linear dimensions, used in studies of energy gradients, linear heating systems, or energy transport along environmental gradients." ;
+    qudt:symbol "E/L" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Linear Energy Density"@en .
+
+quantitykind:LinearMassRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Linear mass flow rate" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-1D0 ;
+    qudt:plainTextDescription "Rate of mass flow along linear dimensions, used in ecological studies of nutrient flow, biomass transport, or pollutant dispersion." ;
+    qudt:symbol "dm/(dL·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Linear Mass Rate"@en .
+
+quantitykind:LinearMolarRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Molar flux along linear dimensions" ;
+    qudt:hasDimensionVector qkdv:A1E0L-1I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Molar transport along linear gradients such as root uptake along soil profiles or nutrient transport in plant stems." ;
+    qudt:symbol "dn/(dL·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Linear Molar Rate"@en .
+
+quantitykind:MassConcentrationRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of change in mass concentration" ;
+    qudt:hasDimensionVector qkdv:A0E0L-4I0M1H0T-1D0 ;
+    qudt:plainTextDescription "Rate of mass concentration change, used in reaction kinetics, dissolution studies, and chemical processes." ;
+    qudt:symbol "dc/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass Concentration Rate"@en .
+
+quantitykind:MassFlowPerPressure
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Mass flow rate per unit pressure" ;
+    qudt:hasDimensionVector qkdv:A0E0L4I0M0H0T-2D0 ;
+    qudt:plainTextDescription "Mass flow rates normalized by pressure, used in fluid mechanics, filtration studies, and pressure-driven transport processes." ;
+    qudt:symbol "dm/(dP·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass Flow per Pressure"@en .
+
+quantitykind:MassFluxDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Mass flux per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+    qudt:plainTextDescription "Mass flux density for environmental processes such as gas exchange, pollutant deposition, or surface exchange processes." ;
+    qudt:symbol "jm" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass Flux Density"@en .
+
+quantitykind:MassPerCount
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Average mass per discrete object" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
+    qudt:plainTextDescription "Average mass per discrete object, used in ecological studies for individual organism mass, particle characterization, and size distribution analysis." ;
+    qudt:symbol "m/N" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass per Count"@en .
+
+quantitykind:MassPerMassPerMole
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Mass per mass per molar amount" ;
+    qudt:hasDimensionVector qkdv:A-1E0L0I0M0H0T0D1 ;
+    qudt:plainTextDescription "Mass concentration normalized by molar content, used in biochemical stoichiometry, molecular concentration studies, and reaction yield calculations." ;
+    qudt:symbol "m/(m·n)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass per Mass per Mole"@en .
+
+quantitykind:MassRatio
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Dimensionless mass fraction or ratio" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+    qudt:plainTextDescription "Mass fractions or concentrations expressed as ratios, used in concentration expressions or mixture compositions." ;
+    qudt:symbol "m/m" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass Ratio"@en .
+
+quantitykind:MassRatioRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of change in mass ratio" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+    qudt:plainTextDescription "Rate of mass accumulation or depletion within materials, used for bioaccumulation studies or long-term environmental monitoring." ;
+    qudt:symbol "d(m/m)/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass Ratio Rate"@en .
+
+quantitykind:MassSpecificRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of mass change per unit mass" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Mass accumulation relative to existing mass, used in growth studies, bioaccumulation analysis, and metabolic rate calculations." ;
+    qudt:symbol "dm/(m·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass Specific Rate"@en .
+
+quantitykind:MassTransportCoefficient
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Pressure-normalized mass transport coefficient" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T0D0 ;
+    qudt:plainTextDescription "Mass transport normalized by pressure gradient and time, used in soil physics and hydrology for characterizing permeability and transport properties." ;
+    qudt:symbol "km" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Mass Transport Coefficient"@en .
+
+quantitykind:MolarConcentration
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Amount of substance per unit volume" ;
+    qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T0D0 ;
+    qudt:plainTextDescription "Concentration for very small amounts in volume samples, used in analytical chemistry, laboratory analysis, and trace substance detection." ;
+    qudt:symbol "c" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Concentration"@en .
+
+quantitykind:MolarConcentrationMass
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Molar concentration per unit mass" ;
+    qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T0D0 ;
+    qudt:plainTextDescription "Molar concentration ratios in environmental samples such as tissue extracts, concentrated solutions, or specialized biological materials." ;
+    qudt:symbol "c/m" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Concentration Mass"@en .
+
+quantitykind:MolarFlowRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Amount of substance flow per unit time" ;
+    qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Molar transfer rates such as nutrient uptake, chemical production, or biogeochemical cycling in environmental and biological systems." ;
+    qudt:symbol "dn/dt" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Flow Rate"@en .
+
+quantitykind:MolarFluxDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Molar flux per unit area" ;
+    qudt:hasDimensionVector qkdv:A1E0L-2I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Molar flux densities such as gas exchange rates, chemical reaction fluxes, or mass transport in environmental interfaces." ;
+    qudt:symbol "jn" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Flux Density"@en .
+
+quantitykind:MolarMassRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Molar rate per unit mass" ;
+    qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T-1D0 ;
+    qudt:plainTextDescription "Molar transformation rates per unit mass, used in biochemical studies, metabolic rate measurements, and enzyme kinetics." ;
+    qudt:symbol "dn/(dm·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Mass Rate"@en .
+
+quantitykind:MolarRatio
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Dimensionless molar fraction or ratio" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+    qudt:plainTextDescription "Molar fractions, used in trace chemical analysis, isotope studies, or ultra-dilute concentration measurements." ;
+    qudt:symbol "n/n" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Ratio"@en .
+
+quantitykind:MolarTurnoverRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Molar turnover rate per unit time" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+    qudt:plainTextDescription "Molar turnover processes such as enzyme kinetics, catalytic reactions, or biochemical transformations." ;
+    qudt:symbol "dn/(n·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Turnover Rate"@en .
+
+quantitykind:MolarVolumetricRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volumetric molar reaction rate" ;
+    qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Volumetric chemical reaction rates in environmental systems such as water treatment, soil biochemistry, or atmospheric chemistry." ;
+    qudt:symbol "dn/(dV·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Molar Volumetric Rate"@en .
+
+quantitykind:PercentagePerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Percentage value per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L-2I0M0H0T0D1 ;
+    qudt:plainTextDescription "Percentage values normalized by area, used in vegetation coverage analysis, land use intensity measurements, and spatial distribution studies." ;
+    qudt:symbol "%/A" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Percentage per Area"@en .
+
+quantitykind:PhotonFluxDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Photon flux per unit area" ;
+    qudt:hasDimensionVector qkdv:A1E0L-2I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Photon flux density for photosynthesis, representing photon flux density for photosynthesis in plant physiology, ecology, and agricultural light measurements." ;
+    qudt:symbol "PPFD" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Photon Flux Density"@en .
+
+quantitykind:PhotosyntheticPhotonFluxDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Photosynthetically active photon flux density" ;
+    qudt:hasDimensionVector qkdv:A1E0L-2I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Daily light energy flux for photosynthesis, used in plant ecology, aquatic primary productivity, and photosynthetic efficiency studies." ;
+    qudt:symbol "PPFD" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Photosynthetic Photon Flux Density"@en .
+
+quantitykind:PowerPerAreaRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Rate of power flux density change" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-4D0 ;
+    qudt:plainTextDescription "Rates of change in power flux density, used in solar radiation studies and energy transfer analysis." ;
+    qudt:symbol "dP/(dA·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Power per Area Rate"@en .
+
+quantitykind:PressureNormalizedMolarFlux
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Pressure-normalized molar flux density" ;
+    qudt:hasDimensionVector qkdv:A1E0L1I0M-1H0T2D0 ;
+    qudt:plainTextDescription "Pressure-dependent molar transport, used in studying gas exchange, membrane transport, or pressure-driven chemical processes." ;
+    qudt:symbol "jn/P" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Pressure Normalized Molar Flux"@en .
+
+quantitykind:PressureNormalizedMolarity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Pressure-normalized molar concentration" ;
+    qudt:hasDimensionVector qkdv:A1E0L2I0M-1H0T2D0 ;
+    qudt:plainTextDescription "Pressure-dependent solubility or concentration relationships, used in gas-liquid equilibrium studies and atmospheric chemistry." ;
+    qudt:symbol "c/P" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Pressure Normalized Molarity"@en .
+
+quantitykind:SpecificRadioactivity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Radioactivity per unit mass" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D0 ;
+    qudt:plainTextDescription "Low-level radioactivity concentrations in environmental samples, used for background radiation monitoring and trace contamination studies." ;
+    qudt:symbol "A/m" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Specific Radioactivity"@en .
+
+quantitykind:SpecificVolumeLength
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volume per mass per length" ;
+    qudt:hasDimensionVector qkdv:A0E0L2I0M-1H0T0D0 ;
+    qudt:plainTextDescription "Volume relationships per unit mass per unit length, used in porous media studies, soil science, and material characterization." ;
+    qudt:symbol "V/(m·L)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Specific Volume Length"@en .
+
+quantitykind:SpecificVolumePerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volumetric capacity per unit mass per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M-1H0T0D0 ;
+    qudt:plainTextDescription "Volumetric capacity per unit mass per unit area, used in characterizing soil water retention or pollutant storage capacity." ;
+    qudt:symbol "V/(m·A)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Specific Volume per Area"@en .
+
+quantitykind:SpecificVolumeRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volume accumulation rate per unit mass" ;
+    qudt:hasDimensionVector qkdv:A0E0L3I0M-1H0T-1D0 ;
+    qudt:plainTextDescription "Volume changes per unit mass, used in metabolic studies, fluid balance research, and physiological measurements." ;
+    qudt:symbol "dV/(dm·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Specific Volume Rate"@en .
+
+quantitykind:TimePerLengthPerTemperature
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Time per length per temperature gradient" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H-1T1D0 ;
+    qudt:plainTextDescription "Complex environmental relationships involving time, distance, and temperature, used in climate gradient studies or spatial-temporal environmental modeling." ;
+    qudt:symbol "t/(L·T)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Time per Length per Temperature"@en .
+
+quantitykind:TimeRatio
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Dimensionless temporal ratio" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+    qudt:plainTextDescription "Temporal ratios used in environmental modeling to express how annual patterns relate to monthly variations, such as in climate analysis or seasonal biological cycles." ;
+    qudt:symbol "t/t" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Time Ratio"@en .
+
+quantitykind:TurnoverRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Dimensionless turnover rate" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+    qudt:plainTextDescription "Dimensionless turnover rates, used in biological systems to express relative growth rates, decay constants, or metabolic turnover." ;
+    qudt:symbol "k" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Turnover Rate"@en .
+
+quantitykind:VelocityPerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Velocity per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Velocity gradients or flow rates per unit area, used in fluid dynamics and transport studies in environmental systems." ;
+    qudt:symbol "v/A" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Velocity per Area"@en .
+
+quantitykind:VolumeMassRate
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volumetric mass production or consumption rate" ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+    qudt:plainTextDescription "Volumetric mass transformation rates such as biomass production in water bodies, sediment accumulation, or biogeochemical processing rates." ;
+    qudt:symbol "dm/(dV·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Volume Mass Rate"@en .
+
+quantitykind:VolumePerArea
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volume per unit area, equivalent to depth" ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+    qudt:plainTextDescription "Volume per unit area, effectively representing depth or thickness. Used in hydrology, precipitation studies, and water balance calculations." ;
+    qudt:symbol "V/A" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Volume per Area"@en .
+
+quantitykind:VolumetricFlowRatePerLength
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volumetric flow rate per unit length" ;
+    qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Volumetric flow normalized by length, used in hydrology for characterizing groundwater flow or riverine transport rates." ;
+    qudt:symbol "dV/(dL·dt)" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Volumetric Flow Rate per Length"@en .
+
+quantitykind:VolumetricFluxDensity
+    rdf:type qudt:QuantityKind ;
+    dcterms:description "Volume flux rate per unit area" ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-1D0 ;
+    qudt:plainTextDescription "Volume flux rates such as precipitation, irrigation rates, evapotranspiration, or liquid waste application rates." ;
+    qudt:symbol "jV" ;
+    rdfs:isDefinedBy <http://qudt.org/$QUDT_VERSION$/vocab/quantitykind> ;
+    rdfs:label "Volumetric Flux Density"@en .
+
+# =============================================================================
+# END OF NEW QUANTITY KINDS
+# Total: 69 new quantity kinds for environmental science units
+# Ready for QUDT vocabulary extension submission
+# =============================================================================
