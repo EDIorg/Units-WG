@@ -1,0 +1,204 @@
+unit:KiloM-PER-KiloM2
+  a qudt:Unit ;
+  rdfs:label "Kilometer per Square Kilometer"@en ;
+  dcterms:description "1000 of the SI standard unit (M) length per squared kilometer area."@en ;
+  qudt:plainTextDescription "Kilometer per square kilometer quantifies linear feature density such as river length per watershed area, road density, or edge-to-area ratios in landscape ecology studies." ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.0010 ;
+  qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:hasQuantityKind quantitykind:InverseLength ;
+  qudt:symbol "km/km²" ;
+  qudt:ucumCode "km.km-2"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/3.1.2/vocab/unit> ;
+  rdfs:label "Kilometers per square kilometer"@en-US ;
+  rdfs:label "Kilometres per square kilometre"@en ;
+  .
+  unit:M2-PER-M3
+  a qudt:Unit ;
+  rdfs:label "Meters squared per cubic Meter"@en ;
+  dcterms:description "Square of the SI standard unit (M) length per cubed meter volume."@en ;
+   qudt:plainTextDescription "Square meter per cubic meter represents surface area to volume ratio, commonly used in environmental engineering for characterizing porous media, biological surface areas, or habitat complexity." ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 1.0 ;
+  qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent -3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent 2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasQuantityKind quantitykind:InverseLength ;
+  qudt:symbol "m²/m³" ;
+  qudt:ucumCode "m2.m-3"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/3.1.2/vocab/unit> ;
+  rdfs:label "Square meters per cubic meter"@en-US ;
+  rdfs:label "Square metres per cubic metre"@en ;
+.
+unit:KiloJ-PER-M2
+  a qudt:DerivedUnit ;
+  a qudt:Unit ;
+  dcterms:description "Kilojoule Per Square Meter is a unit in the category of Energy density. It is also known as Kilojoules per square meter, Kilojoule per square metre, Kilojoule/square meter, Kilojoule/square metre."^^qudt:LatexString ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 1000.0 ;
+  qudt:conversionMultiplierSN 1.0E3 ;
+  qudt:definedUnitOfSystem sou:SI ;
+  qudt:expression "$kJ/m^2$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-2D0 ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloJ ;
+    ] ;
+  qudt:hasQuantityKind quantitykind:EnergyFluence ;
+  qudt:hasQuantityKind quantitykind:EnergyPerArea ;
+  qudt:hasQuantityKind quantitykind:RadiantFluence ;
+  qudt:hasQuantityKind quantitykind:StrainEnergyReleaseRate ;
+  qudt:symbol "kJ/m²" ;
+  qudt:ucumCode "kJ.m-2"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:label "Kilodżul na Metr Kwadratowy"@pl ;
+  rdfs:label "Kilojoule na Kvadratni Meter"@sl ;
+  rdfs:label "Kilojoule na Čtvereční Metr"@cs ;
+  rdfs:label "Kilojoule par Mètre Carré"@fr ;
+  rdfs:label "Kilojoule pe Metru Pătrat"@ro ;
+  rdfs:label "Kilojoule per Meter Persegi"@ms ;
+  rdfs:label "Kilojoule per Metrekare"@tr ;
+  rdfs:label "Kilojoule per Metro Quadrato"@it ;
+  rdfs:label "Kilojoule per Square Meter"@en-US ;
+  rdfs:label "Kilojoule per Square Metre" ;
+  rdfs:label "Kilojoule per Square Metre"@en ;
+  rdfs:label "Kilojoule pro Quadratmeter"@de ;
+  rdfs:label "Kilojulio por Metro Cuadrado"@es ;
+.
+unit:W-HR-PER-M2
+  a qudt:Unit ;
+  dcterms:description "A unit of energy per unit area, equivalent to 3 600 joules per square metre."^^rdf:HTML ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 3600.0 ;
+  qudt:conversionMultiplierSN 3.6E3 ;
+  qudt:conversionOffset 0.0 ;
+  qudt:conversionOffsetSN 0.0E0 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-2D0 ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:HR ;
+    ] ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:W ;
+    ] ;
+  qudt:hasQuantityKind quantitykind:EnergyPerArea ;
+  qudt:plainTextDescription "A unit of energy per unit area, equivalent to 3 600 joules per square metre." ;
+  qudt:symbol "W·h/m²" ;
+  qudt:ucumCode "W.h.m-2"^^qudt:UCUMcs ;
+  qudt:wikidataMatch <http://www.wikidata.org/entity/Q64748823> ;
+  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:label "Watt Hour per Square Meter"@en-US ;
+  rdfs:label "Watt Hour per Square Metre" ;
+  rdfs:label "Watt Hour per Square Metre"@en ;
+. 
+# This is based on MegaJ-PER-M2-DAY   
+# Alterations include the plain text description which originally left out days (86,400 seconds)
+unit:KiloJ-PER-M2-DAY
+  a qudt:Unit ;
+  dcterms:description "KiloJoule Per Square Meter Per Day (\\(KiloJ/m^2/day\\)) is a unit in the category of Energy density over time."^^qudt:LatexString ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.01157407407407407407407407407407407 ;
+  qudt:conversionMultiplierSN 1.157407407407407407407407407407407E-2 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-3D0 ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloJ ;
+    ] ;
+  qudt:hasQuantityKind quantitykind:Irradiance ;
+  qudt:plainTextDescription "1,000-fold of the SI derived unit joule divided by the power of the SI base unit metre with the exponent 2 and 86 400 of the SI unit Second" ;
+  qudt:symbol "kJ/(m²·d)" ;
+  qudt:ucumCode "kJ.m-2.d-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:label "Kilojoule per Square Meter Day"@en-US ;
+  rdfs:label "Kilojoule per Square Metre Day" ;
+  rdfs:label "Kilojoule per Square Metre Day"@en ;
+.
+# based on MegaJ-PER-M2-Day,  recalculated conversion multiplier
+unit:MegaJ-PER-M2-YR
+  a qudt:Unit ;
+  dcterms:description "MegaJoule Per Square Meter Per Year (\\(MegaJ/m^2/year\\)) is a unit in the category of Energy density over time."^^qudt:LatexString ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.031688087814029 ; # = (MegaJoules/Joule)/(Seconds per year)
+  qudt:conversionMultiplierSN 3.1688087814029E-2 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-3D0 ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:YR ;
+    ] ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      a qudt:FactorUnit ;
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MegaJ ;
+    ] ;
+  qudt:hasQuantityKind quantitykind:Irradiance ;
+  qudt:plainTextDescription "1,000,000-fold of the SI derived unit joule divided by the power of the SI base unit metre with the exponent 2 and 31,577,600 times the SI base unit second" ;
+  qudt:symbol "MJ/(m²·a)" ;
+  qudt:ucumCode "MJ.m-2.a-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:label "Megajoule per Square Meter Year"@en-US ;
+  rdfs:label "Megajoule per Square Metre Year" ;
+  rdfs:label "Megajoule per Square Metre Year"@en ;
+.
