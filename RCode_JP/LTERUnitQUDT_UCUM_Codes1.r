@@ -6,16 +6,24 @@
 
 rm(list=ls())
 #setwd("D:/Box Sync/EMLUnits")
-setwd("c:/Users/John/Box Sync/EMLUnits")
+#setwd("c:/Users/John/Box Sync/EMLUnits")
+setwd("D:/Users/jhp7e/Box Sync/EMLUnits")
 
 library(rdflib)
 
-r1<-rdf_parse("https://qudt.org/2.1/vocab/unit",format='turtle')
+r1<-rdf_parse("https://qudt.org/vocab/unit",format='turtle')
 
 # get all the labels regardless of language
 x1<-rdf_query(r1,'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?unit ?label
 WHERE { ?unit rdfs:label ?label . }', data.frame=TRUE)
+
+# get only the EN labels
+x1a<-rdf_query(r1,'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?unit ?label
+WHERE { ?unit rdfs:label ?label . 
+               FILTER (lang(?label) = "en") }', data.frame=TRUE)
+colnames(x1a)<-c("unit","enLabel")
 
 # get only the EN-US labels
 x2<-rdf_query(r1,'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -58,10 +66,12 @@ WHERE { ?unit dcterms:description ?description .
       FILTER( datatype(?description)=qudt:LatexString)}',data.frame=TRUE)
 colnames(x7)<-c("unit","LatexDescription")
 
-qudtLabelDf<-merge(x1,x2,by="unit",all=T)
+qudtLabelDf<-merge(x1,x1a,by="unit",all=T)
+qudtLabelDf<-merge(qudtLabelDf,x2,by="unit",all=T)
 qudtLabelDf<-qudtLabelDf[!duplicated(qudtLabelDf),]
 # use US labels when available, not if otherwise
-qudtLabelDf$label<-ifelse(is.na(qudtLabelDf$`en-usLabel`),qudtLabelDf$label,qudtLabelDf$`en-usLabel`)
+qudtLabelDf$label<-ifelse(is.na(qudtLabelDf$`en-usLabel`),NA,qudtLabelDf$`en-usLabel`)
+qudtLabelDf$label<-ifelse((is.na(qudtLabelDf$label) & is.na(qudtLabelDf$`enLabel`)),qudtLabelDf$label,qudtLabelDf$`enLabel`)
 qudtLabelDf<-qudtLabelDf[,c("unit","label")]
 
 # add dimensions, conversions and descriptions
