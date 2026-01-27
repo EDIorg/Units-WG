@@ -659,10 +659,6 @@ unit:MicroM3-PER-L
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
-
-## MOB YOU ARE HERE
-
-
 # Molar units for environmental chemistry
 unit:MicroMOL-PER-GM-DAY
     a qudt:Unit ;
@@ -671,23 +667,11 @@ unit:MicroMOL-PER-GM-DAY
     qudt:plainTextDescription "Micromole per gram per day quantifies biochemical processes such as enzyme activity, metabolic rates, or biogeochemical transformations in environmental samples." ;
     qudt:applicableSystem unit:SI ;
     qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T-1D0 ;
-    qudt:hasQuantityKind quantitykind:MolarMassRate ;
+    qudt:hasQuantityKind quantitykind:BiogeochemicalRate ;
     qudt:symbol "μmol/(g⋅day)" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
-# Pressure-normalized molar flux
-unit:MicroMOL-PER-M2-SEC-PA
-    a qudt:Unit ;
-    rdfs:label "Micromole per Square Meter per Second per Pascal"@en ;
-    dcterms:description "Unit for pressure-normalized molar flux density"@en ;
-    qudt:plainTextDescription "Micromole per square meter per second per pascal describes pressure-dependent molar transport, used in studying gas exchange, membrane transport, or pressure-driven chemical processes." ;
-    qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A1E0L1I0M-1H0T2D0 ;
-    qudt:hasQuantityKind quantitykind:PressureNormalizedMolarFlux ;
-    qudt:symbol "μmol/(m²⋅s⋅Pa)" ;
-    rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 # Molar concentration in small mass
 unit:MicroMOL-PER-MilliGM
@@ -697,10 +681,12 @@ unit:MicroMOL-PER-MilliGM
     qudt:plainTextDescription "Micromole per milligram represents high-concentration molar ratios in small environmental samples such as tissue extracts, concentrated solutions, or specialized biological materials." ;
     qudt:applicableSystem unit:SI ;
     qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T0D0 ;
-    qudt:hasQuantityKind quantitykind:MolarConcentrationMass ;
+    qudt:hasQuantityKind quantitykind:AmountOfSubstancePerMass ;
     qudt:symbol "μmol/mg" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
 
 # Mass concentration per mass per time
 unit:MilliGM-PER-GM-MO
@@ -709,11 +695,14 @@ unit:MilliGM-PER-GM-MO
     dcterms:description "Unit for mass accumulation rate per unit mass over monthly periods"@en ;
     qudt:plainTextDescription "Milligram per gram per month measures accumulation or depletion rates of substances within materials, used for bioaccumulation studies or long-term environmental monitoring." ;
     qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
-    qudt:hasQuantityKind quantitykind:MassRatio ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+    qudt:hasQuantityKind quantitykind:MassSpecificBiogeochemicalRate ;
     qudt:symbol "mg/(g⋅mo)" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
+
 
 # Dimensionless ratios
 unit:V-PER-V
@@ -730,35 +719,7 @@ unit:V-PER-V
 
 
 
-
-
-# Complex temporal units for environmental cycles
-unit:YR-NA-MO
-    a qudt:Unit ;
-    rdfs:label "Year per Month"@en ;
-    dcterms:description "Unit for expressing annual cycles per month"@en ;
-    qudt:plainTextDescription "Year per month is used in environmental modeling to express how annual patterns relate to monthly variations, such as in climate analysis or seasonal biological cycles." ;
-    qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
-    qudt:hasQuantityKind quantitykind:TimeRatio ;
-    qudt:symbol "yr/mo" ;
-    rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
-
-# Temperature-length gradient
-unit:YR-PER-MilliM-DEG
-    a qudt:Unit ;
-    rdfs:label "Year per Millimeter per Degree"@en ;
-    dcterms:description "Unit for time per length per temperature gradient"@en ;
-    qudt:plainTextDescription "Year per millimeter per degree represents complex environmental relationships involving time, distance, and temperature, used in climate gradient studies or spatial-temporal environmental modeling." ;
-    qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H-1T1D0 ;
-    qudt:hasQuantityKind quantitykind:TimePerLengthPerTemperature ;
-    qudt:symbol "yr/(mm⋅°C)" ;
-    rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
-
-
+# TO DO
 # Annual mass per area rates
 unit:GM-PER-HA-YR
     a qudt:Unit ;
@@ -772,6 +733,9 @@ unit:GM-PER-HA-YR
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
+
+
+# TO DO
 # Volume-based daily mass rates
 unit:GM-PER-M3-DAY
     a qudt:Unit ;
@@ -786,7 +750,7 @@ unit:GM-PER-M3-DAY
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 
-
+# TO DO
 # Annual volume-based mass rates
 unit:GM-PER-M3-YR
     a qudt:Unit ;
@@ -799,19 +763,6 @@ unit:GM-PER-M3-YR
     qudt:symbol "g/(m³⋅yr)" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -829,6 +780,8 @@ unit:MicroBQ-PER-GM
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
+
+
 # Mass per mass per time rates
 unit:MicroGM-PER-GM-MIN
     a qudt:Unit ;
@@ -836,12 +789,14 @@ unit:MicroGM-PER-GM-MIN
     dcterms:description "Unit for mass accumulation or depletion rate per unit mass per minute"@en ;
     qudt:plainTextDescription "Microgram per gram per minute measures rapid mass transformation rates within materials, used in bioaccumulation studies, contamination uptake rates, or rapid biochemical processes." ;
     qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
-    qudt:hasQuantityKind quantitykind:MassRatioRate ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+    qudt:hasQuantityKind quantitykind:MassSpecificBiogeochemicalRate ;
     qudt:symbol "μg/(g⋅min)" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
+
+# TO DO
 # Volume-based mass rates per minute
 unit:MicroGM-PER-L-MIN
     a qudt:Unit ;
@@ -864,11 +819,14 @@ unit:MicroMOL-PER-M3
     qudt:plainTextDescription "Micromole per cubic meter represents dilute molar concentrations in large volumes, used in atmospheric chemistry, oceanography, or environmental trace chemical analysis." ;
     qudt:applicableSystem unit:SI ;
     qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T0D0 ;
-    qudt:hasQuantityKind quantitykind:MolarConcentration ;
+    qudt:hasQuantityKind quantitykind:AmountOfSubstanceConcentration ;
     qudt:symbol "μmol/m³" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
+
+
+# TO DO,  See :PicoMOL-PER-MIN-MilliGM
 # Hourly molar rates per mass
 unit:MicroMOL-PER-MilliGM-HR
     a qudt:Unit ;
@@ -883,20 +841,7 @@ unit:MicroMOL-PER-MilliGM-HR
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 
-
-# Complex mass per mass per molar rate
-unit:MilliGM-PER-GM-MOL
-    a qudt:Unit ;
-    rdfs:label "Milligram per Gram per Mole"@en ;
-    dcterms:description "Unit for mass per mass per molar amount"@en ;
-    qudt:plainTextDescription "Milligram per gram per mole represents mass concentration normalized by molar content, used in biochemical stoichiometry, molecular concentration studies, or reaction yield calculations." ;
-    qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A-1E0L0I0M0H0T0D1 ;
-    qudt:hasQuantityKind quantitykind:MassPerMassPerMole ;
-    qudt:symbol "mg/(g⋅mol)" ;
-    rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
-
+# TO DO - check other units with simiar deimensions
 # Complex biochemical rate unit
 unit:MilliGM-PER-L-GM-HR
     a qudt:Unit ;
@@ -904,11 +849,13 @@ unit:MilliGM-PER-L-GM-HR
     dcterms:description "Unit for mass concentration change per biomass per hour"@en ;
     qudt:plainTextDescription "Milligram per liter per gram per hour measures biochemical production or consumption rates normalized by biomass concentration, used in bioreactor studies and microbial kinetics." ;
     qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D1 ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D0 ;
     qudt:hasQuantityKind quantitykind:BiochemicalProductionRate ;
     qudt:symbol "mg/(L⋅g⋅hr)" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
 
 # Dimensionless volume ratios
 unit:MilliL-PER-MilliL
@@ -956,6 +903,9 @@ unit:NanoMOL-PER-MIN
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
+
+
+
 # Nanomolar ratios
 unit:NanoMOL-PER-MOL
     a qudt:Unit ;
@@ -969,18 +919,7 @@ unit:NanoMOL-PER-MOL
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
-# Nanomolar turnover rates
-unit:NanoMOL-PER-MOL-SEC
-    a qudt:Unit ;
-    rdfs:label "Nanomole per Mole per Second"@en ;
-    dcterms:description "Unit for nanomolar molar turnover rate per second"@en ;
-    qudt:plainTextDescription "Nanomole per mole per second measures ultra-low molar turnover processes such as trace isotope exchange, very slow enzymatic reactions, or background chemical processes." ;
-    qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
-    qudt:hasQuantityKind quantitykind:MolarTurnoverRate ;
-    qudt:symbol "nmol/(mol⋅s)" ;
-    rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
 
 
 # Count per mass per time
@@ -990,11 +929,13 @@ unit:NUM-PER-GM-MIN
     dcterms:description "Unit for count generation or consumption rate per unit mass per minute"@en ;
     qudt:plainTextDescription "Count per gram per minute measures the rate of discrete events per unit mass, used in microbial growth studies, particle generation rates, or biological reproduction rates." ;
     qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D1 ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D0 ;
     qudt:hasQuantityKind quantitykind:CountPerMassRate ;
     qudt:symbol "count/(g⋅min)" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
 
 # Linear count density
 unit:NUM-PER-KiloM
@@ -1003,13 +944,14 @@ unit:NUM-PER-KiloM
     dcterms:description "Unit for linear count density over kilometer distances"@en ;
     qudt:plainTextDescription "Count per kilometer quantifies the linear density of objects or features along transects, used in wildlife surveys, infrastructure assessment, or landscape ecology studies." ;
     qudt:applicableSystem unit:SI ;
-    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D1 ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
     qudt:hasQuantityKind quantitykind:CountPerLength ;
     qudt:symbol "count/km" ;
     rdf:type qudt:DerivedUnit ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 
+	## MOB YOU ARE HERE
 
 # Picomolar per mass
 unit:PicoMOL-PER-GM
