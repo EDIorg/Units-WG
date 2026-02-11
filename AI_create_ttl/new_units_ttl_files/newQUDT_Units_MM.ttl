@@ -1,0 +1,142 @@
+# =============================================================================
+# Units edited by MARY 
+# these are just the units associated with my assigned DVs that I felt were in
+# good shape. A number of others still pending
+# 
+# generated/edited: 2026-February
+# =============================================================================
+
+# =============================================================================
+# original header below
+# =============================================================================
+# Environmental Science Units - units.ttl
+# New units for QUDT vocabulary extension
+# Domain: Environmental Science and Ecology
+# Following QUDT 2.1 modeling rules and ERD requirements
+# Generated: 2025
+# =============================================================================
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# =============================================================================
+# ENVIRONMENTAL SCIENCE UNITS - NEW ADDITIONS TO QUDT
+# 180 total, created bu claude.ai 2025-09-04
+# file edited by mob, 2025-10-03, combined 70 "corrected" with 110 original
+# =============================================================================
+
+
+# =============================================================================
+# units 1-70 from "corrected file"
+# ENVIRONMENTAL SCIENCE UNITS - CORRECTED DIMENSIONAL ANALYSIS
+# =============================================================================
+unit:GM-PER-NUM
+    rdf:type qudt:Unit ;
+    dcterms:description "Grams per number - average mass per discrete object" ;
+    qudt:plainTextDescription "A unit for expressing average mass per discrete object, used in ecological studies for individual organism mass, particle characterization, and size distribution analysis" ;
+    qudt:applicableSystem sou:SI ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
+    qudt:hasQuantityKind quantitykind:Mass ;
+    qudt:symbol "g·N⁻¹" ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:label "Gram per Number"@en .
+
+unit:GigaGM
+    rdf:type qudt:Unit ;
+    dcterms:description "Gigagrams - very large mass unit equivalent to kilotons" ;
+    qudt:plainTextDescription "A unit of very large mass equal to one billion grams or one thousand metric tons, used in large-scale environmental assessments, carbon budgets, and industrial measurements" ;
+    qudt:applicableSystem sou:SI ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
+    qudt:hasQuantityKind quantitykind:Mass ;
+    qudt:symbol "Gg" ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:label "Gigagram"@en .
+
+unit:MI_US-PER-SEC
+    rdf:type qudt:Unit ;
+    dcterms:description "US miles per second - high velocity in US customary units" ;
+    qudt:plainTextDescription "A unit of high velocity in the US customary system, used in ballistics, meteorology, and high-speed transport studies" ;
+    qudt:applicableSystem sou:USCS ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-1D0 ;
+    qudt:hasQuantityKind quantitykind:Velocity ;
+    qudt:symbol "mi·s⁻¹" ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:label "US Mile per Second"@en .
+
+unit:M3-PER-M2-DAY
+    rdf:type qudt:Unit ;
+    dcterms:description "Cubic meters per square meter per day - daily volume flux per unit area" ;
+    qudt:plainTextDescription "A unit for measuring daily volume fluxes per unit area, effectively representing daily depth accumulation. Used in hydrology, precipitation studies, and water balance calculations" ;
+    qudt:applicableSystem sou:SI ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-1D0 ;
+    qudt:hasQuantityKind quantitykind:Velocity ;
+    qudt:symbol "m³·m⁻²·d⁻¹" ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:label "Cubic Meter per Square Meter Day"@en .
+
+unit:CORD-PER-AC
+    a qudt:Unit ;
+    rdfs:label "Cord per Acre"@en ;
+    dcterms:description "Unit for forest biomass density in Imperial units"@en ;
+    qudt:plainTextDescription "Cord per acre measures forest biomass density or wood volume per unit area, commonly used in forestry management, carbon stock assessments, and sustainable harvesting planning." ;
+    qudt:applicableSystem unit:USCS ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+    qudt:hasQuantityKind quantitykind:VolumePerArea ;
+    qudt:symbol "cord/ac" ;
+    rdf:type qudt:DerivedUnit ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+unit:FT3-PER-AC
+    a qudt:Unit ;
+    rdfs:label "Cubic Foot per Acre"@en ;
+    dcterms:description "Imperial unit for volume per unit area"@en ;
+    qudt:plainTextDescription "Cubic foot per acre quantifies volume distributions over area, used in forestry for timber volume assessment, water storage capacity, or material stockpile density calculations." ;
+    qudt:applicableSystem unit:USCS ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+    qudt:hasQuantityKind quantitykind:VolumePerArea ;
+    qudt:symbol "ft³/ac" ;
+    rdf:type qudt:DerivedUnit ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+unit:MegaL-PER-KiloM2
+    a qudt:Unit ;
+    rdfs:label "Megaliter per Square Kilometer"@en ;
+    dcterms:description "Unit for large-scale volume per unit area"@en ;
+    qudt:plainTextDescription "Megaliter per square kilometer quantifies large-scale volume distributions such as water yield per watershed area, precipitation volumes, or regional water storage capacity." ;
+    qudt:applicableSystem unit:SI ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+    qudt:hasQuantityKind quantitykind:VolumePerArea ;
+    qudt:symbol "ML/km²" ;
+    rdf:type qudt:DerivedUnit ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+unit:MicroM3-PER-MilliM2
+    a qudt:Unit ;
+    rdfs:label "Cubic Micrometer per Square Millimeter"@en ;
+    dcterms:description "Unit for microscale volume per unit area"@en ;
+    qudt:plainTextDescription "Cubic micrometer per square millimeter quantifies microscale volume distributions such as surface roughness, cellular volume per tissue area, or microstructure characterization." ;
+    qudt:applicableSystem unit:SI ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+    qudt:hasQuantityKind quantitykind:VolumePerArea ;
+    qudt:symbol "μm³/mm²" ;
+    rdf:type qudt:DerivedUnit ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+unit:MilliM-PER-NUM
+    a qudt:Unit ;
+    rdfs:label "Millimeter per Individual"@en ;
+    dcterms:description "Unit for length per individual organism or object"@en ;
+    qudt:plainTextDescription "Millimeter per individual quantifies average size measurements in biological studies, such as average organism length, spacing between individuals, or linear dimensions per unit count." ;
+    qudt:applicableSystem unit:SI ;
+    qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+    qudt:hasQuantityKind quantitykind:Length ;
+    qudt:symbol "mm/individual" ;
+    rdf:type qudt:DerivedUnit ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
