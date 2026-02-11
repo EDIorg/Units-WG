@@ -1,29 +1,3 @@
-# =============================================================================
-# Units edited by John
-#  Manually edited from existing units that were similar in structure
-# 
-# generated/edited: 2026-January
-# =============================================================================
-
-# =============================================================================
-# original header below
-# =============================================================================
-# Environmental Science Units - units.ttl
-# New units for QUDT vocabulary extension
-# Domain: Environmental Science and Ecology
-# Following QUDT 2.1 modeling rules and ERD requirements
-# Generated: 2025
-# =============================================================================
-
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix unit: <http://qudt.org/vocab/unit/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
-@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
-@prefix sou: <http://qudt.org/vocab/sou/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
 unit:KiloM-PER-KiloM2
   a qudt:Unit ;
   rdfs:label "Kilometer per Square Kilometer"@en ;
@@ -228,86 +202,127 @@ unit:MegaJ-PER-M2-YR
   rdfs:label "Megajoule per Square Metre Year" ;
   rdfs:label "Megajoule per Square Metre Year"@en ;
 .
-# M-PER-M based on M2-PER-M2
-unit:M-PER-M
-  a qudt:Unit ;
-  dcterms:description "A metre unit of length per metre"^^rdf:HTML ;
-  qudt:applicableSystem sou:CGS ;
-  qudt:applicableSystem sou:CGS-EMU ;
-  qudt:applicableSystem sou:CGS-GAUSS ;
-  qudt:applicableSystem sou:SI ;
-  qudt:conversionMultiplier 1.0 ;
-  qudt:conversionMultiplierSN 1.0E0 ;
-  qudt:conversionOffset 0.0 ;
-  qudt:conversionOffsetSN 0.0E0 ;
-  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
-  qudt:hasFactorUnit [
-      a qudt:FactorUnit ;
-      qudt:exponent -1 ;
-      qudt:hasUnit unit:M ;
-    ] ;
-  qudt:hasFactorUnit [
-      a qudt:FactorUnit ;
-      qudt:exponent 1 ;
-      qudt:hasUnit unit:M ;
-    ] ;
-  qudt:hasQuantityKind quantitykind:LengthRatio ;
-  qudt:plainTextDescription "A metre unit of length per metre" ;
-  qudt:qkdvDenominator qkdv:A0E0L1I0M0H0T0D0 ;
-  qudt:qkdvNumerator qkdv:A0E0L1I0M0H0T0D0 ;
-  qudt:symbol "m/m" ;
-  qudt:ucumCode "m.m-1"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
- .
 
-# based on M3-PER-M2. Note a liter equals a cubic decimeter volume or 1/1000th of a cubic meter
-unit:L-PER-M2
+# based on MicroMOL-PER-L-HR
+unit:MicroMOL-PER-L-DAY
   a qudt:Unit ;
-  dcterms:description "Non-SI unit Litre (equivalent to a cubic decimeter) divided by the power of the SI base unit metre with the exponent 2"^^rdf:HTML ;
-  qudt:applicableSystem sou:CGS ;
-  qudt:applicableSystem sou:CGS-EMU ;
-  qudt:applicableSystem sou:CGS-GAUSS ;
+  dcterms:description "Millionths of a Mole per Liter (1,000 cubic centimeters) per Day (86400 seconds)"
   qudt:applicableSystem sou:SI ;
-  qudt:conversionMultiplier 0.001 ;
-  qudt:conversionMultiplierSN 1.0E-3 ;
-  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:conversionMultiplier 0.000000011574074070833 ; # = multiplier per hour/24
+  qudt:conversionMultiplierSN 1.1574074070833E-8 ;
+  qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T-1D0 ;
   qudt:hasFactorUnit [
-      a qudt:FactorUnit ;
-      qudt:exponent -2 ;
-      qudt:hasUnit unit:M ;
-    ] ;
+    a qudt:FactorUnit ;
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:DAY ;
+  ] ;
   qudt:hasFactorUnit [
-      a qudt:FactorUnit ;
-      qudt:exponent 1 ;
-      qudt:hasUnit unit:L ;
-    ] ; 
-  qudt:hasQuantityKind quantitykind:VolumePerArea ;
-  qudt:plainTextDescription "Non-SI unit Litre (equivalent to a cubic decimeter) divided by the power of the SI base unit metre with the exponent 2" ;
-  qudt:symbol "L/m²" ;
-  qudt:ucumCode "L.m-2"^^qudt:UCUMcs ;
+    a qudt:FactorUnit ;
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:L ;
+  ] ;
+  qudt:hasFactorUnit [
+    a qudt:FactorUnit ;
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:MicroMOL ;
+  ] ;
+  qudt:hasQuantityKind quantitykind:CatalyticActivityConcentration ;
+  qudt:symbol "μmol/(L·d)" ;
+  qudt:ucumCode "umol.L-1.d-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
-  rdfs:label "Liter per Square Meter"@en-US ;
-  rdfs:label "Litre  per Square Metre" ;
-  rdfs:label "Litre per Square Metre"@en ; 
+  rdfs:label "Micromole per Liter Day"@en-US ;
+  rdfs:label "Micromole per Litre Day" ;
+  rdfs:label "Micromole per Litre Day"@en
 .
 
-# based on M3
-unit:KiloM3
-  a qudt:DerivedUnit ;
+# Based on GM PER DAY
+unit:GM-PER-YR
   a qudt:Unit ;
-  dcterms:description "1000 times the SI unit of volume (M3), equal to 1.0e9 cm3, 1000000 liters, 35314.7 ft3, or 1307.95 yd3. A cubic kilometer holds about 264170 U.S. liquid gallons or 219990 British Imperial gallons."^^rdf:HTML ;
+  dcterms:description "0,001-fold of the SI base unit kilogram divided by the unit year"^^rdf:HTML ;
   qudt:applicableSystem sou:CGS ;
   qudt:applicableSystem sou:CGS-EMU ;
   qudt:applicableSystem sou:CGS-GAUSS ;
   qudt:applicableSystem sou:SI ;
-  qudt:conversionMultiplier 1.000 ;
-  qudt:conversionMultiplierSN 1.0E3 ;
+  qudt:conversionMultiplier 0.00000000031688087814029 ; # GM PER DAY/365.25 days per year(
+  qudt:conversionMultiplierSN 3.1688087814029E-10 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+    a qudt:FactorUnit ;
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:GM ;
+  ] ;
+  qudt:hasFactorUnit [
+    a qudt:FactorUnit ;
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:YR ;
+  ] ;
+  qudt:hasQuantityKind quantitykind:MassFlowRate ;
+  qudt:plainTextDescription "0,001-fold of the SI base unit kilogram divided by the unit year" ;
+  qudt:symbol "g/y" ;
+  qudt:ucumCode "g.y-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:label "Gram per Year" ;
+  rdfs:label "Gram per Year"@en 
+  .
+
+# based on M2-PER-SEC
+unit:M2-PER-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description """
+  The unit $\\textit{Square Metres per Day}$ is a derived unit of angular momentum, defined by distance
+   or displacement in metres multiplied by distance again in metres and divided by time in days. 
+   It may be better understood when phrased as $\\textit{metres per second times metres}$, i.e. the momentum
+   of an object with respect to a position.
+  """^^qudt:LatexString ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.00001157407407407407 ;  # = 1/seconds per day
+  qudt:conversionMultiplierSN 1.157407407407407E-5 ;
+  qudt:definedUnitOfSystem sou:SI ;
+  qudt:derivedCoherentUnitOfSystem sou:SI ;
+  qudt:expression "$m^{2} d^{-1}$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+    a qudt:FactorUnit ;
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:DAY ;
+  ] ;
+  qudt:hasFactorUnit [
+    a qudt:FactorUnit ;
+    qudt:exponent 2 ;
+    qudt:hasUnit unit:M ;
+  ] ;
+  qudt:hasQuantityKind quantitykind:AreaPerTime ;
+  qudt:hasQuantityKind quantitykind:DiffusionCoefficient ;
+  qudt:hasQuantityKind quantitykind:NeutronDiffusionCoefficient ;
+  qudt:hasQuantityKind quantitykind:ThermalDiffusionRatioCoefficient ;
+  qudt:symbol "m²/d" ;
+  qudt:ucumCode "m2.d-1"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:label "Square Meter per Day"@en-US ;
+  rdfs:label "Square Metre per Day" ;
+  rdfs:label "Square Metre per Day"@en ;
+.
+# based on M3
+unit:KiloM3
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "The 1,000,000,000 times the SI unit of volume, equal to 1.0e15 cm3, or 1e12 liters ."^^rdf:HTML ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.000000001 ;
+  qudt:conversionMultiplierSN 1.0E-9 ;
+
+  qudt:expression "$km^{3}$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L3I0M0H0T0D0 ;
   qudt:hasFactorUnit [
-      a qudt:FactorUnit ;
-      qudt:exponent 3 ;
-      qudt:hasUnit unit:KiloM ;
-    ] ;
+    a qudt:FactorUnit ;
+    qudt:exponent 3 ;
+    qudt:hasUnit unit:KiloM ;
+  ] ;
   qudt:hasQuantityKind quantitykind:SectionModulus ;
   qudt:hasQuantityKind quantitykind:Volume ;
   qudt:hasReciprocalUnit unit:PER-KiloM3 ;
