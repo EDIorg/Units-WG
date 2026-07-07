@@ -532,7 +532,7 @@ unit:MilliM-PER-NUM
 	# =============================================================================
 
 
-	unit:MilliGM-PER-L-HR
+unit:MilliGM-PER-L-HR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Milligrams per liter per hour - used for measuring hourly rates of mass accumulation or depletion in solutions" ;
 	    qudt:plainTextDescription "A unit for measuring rates of mass concentration change, commonly used in environmental chemistry for dissolution, precipitation, and bioaccumulation processes" ;
@@ -545,7 +545,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Milligram per Liter Hour"@en .
 
-	unit:TON_US-PER-AC
+unit:TON_US-PER-AC
 	    rdf:type qudt:Unit ;
 	    dcterms:description "US tons per acre - commonly used in American agriculture for yield measurements and soil amendments" ;
 	    qudt:plainTextDescription "A unit of mass per area used extensively in US agriculture for measuring crop yields, fertilizer application rates, soil amendment quantities, and biomass density per acre" ;
@@ -558,7 +558,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "US Ton per Acre"@en .
 
-	unit:BQ-PER-GM
+unit:BQ-PER-GM
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Becquerels per gram - unit of specific radioactivity for measuring radioactivity per unit mass" ;
 	    qudt:plainTextDescription "A unit of specific radioactivity used in environmental monitoring, radiological assessment, and contamination studies to express radioactivity per gram of material" ;
@@ -571,7 +571,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Becquerel per Gram"@en .
 
-	unit:GM-PER-HA-DAY
+unit:GM-PER-HA-DAY
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Grams per hectare per day - used for measuring daily biomass production and ecological fluxes" ;
 	    qudt:plainTextDescription "A unit commonly used in ecology and agriculture for measuring daily rates of biomass accumulation, litter production, material deposition, or other ecological fluxes over hectare-scale areas" ;
@@ -585,7 +585,7 @@ unit:MilliM-PER-NUM
 	    rdfs:label "Gram per Hectare Day"@en .
 
 
-	unit:MicroGM-PER-M2
+unit:MicroGM-PER-M2
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Micrograms per square meter - unit for very low surface mass densities" ;
 	    qudt:plainTextDescription "A unit for measuring trace amounts of material on surfaces, commonly used in pollution studies and atmospheric deposition measurements" ;
@@ -599,7 +599,7 @@ unit:MilliM-PER-NUM
 	    rdfs:label "Microgram per Square Meter"@en .
 
 
-	unit:NanoGM-PER-GM-HR
+unit:NanoGM-PER-GM-HR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Nanograms per gram per hour - unit for very small mass-specific rates" ;
 	    qudt:plainTextDescription "A unit for measuring very small mass-specific rates, used in studies of trace metabolic processes, enzyme kinetics, and biochemical transformations" ;
@@ -612,7 +612,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Nanogram per Gram Hour"@en .
 
-	unit:PERCENT-PER-YR
+unit:PERCENT-PER-YR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Percent per year - annual rate of change for environmental parameters" ;
 	    qudt:plainTextDescription "A dimensionless rate unit for expressing annual rates of change in environmental monitoring, such as forest cover change, species population trends, or climate variable changes" ;
@@ -627,7 +627,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:MicroGM-PER-KiloGM-HR
+unit:MicroGM-PER-KiloGM-HR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Micrograms per kilogram per hour - mass-specific accumulation rate" ;
 	    qudt:plainTextDescription "A unit for measuring mass-specific accumulation or transformation rates, commonly used in bioaccumulation studies and metabolic rate measurements" ;
@@ -641,7 +641,7 @@ unit:MilliM-PER-NUM
 	    rdfs:label "Microgram per Kilogram Hour"@en .
 
 
-	unit:NUM-PER-MIN-L
+unit:NUM-PER-MIN-L
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Number per minute per liter - count rate per unit volume" ;
 	    qudt:plainTextDescription "A unit for measuring the rate of discrete events or objects per unit time per unit volume, used in aquatic ecology and microbiology" ;
@@ -656,7 +656,7 @@ unit:MilliM-PER-NUM
 
 
 	### TO DO, check def against others with <http://qudt.org/vocab/quantitykind/ActivityConcentration> 
-	unit:BQ-PER-MilliL
+unit:BQ-PER-MilliL
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Becquerels per milliliter - radioactivity concentration for small volumes" ;
 	    qudt:plainTextDescription "A unit of radioactivity concentration for small volume samples, commonly used in laboratory analysis and environmental sample testing" ;
@@ -671,7 +671,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:KiloGM-PER-KiloM2-YR
+unit:KiloGM-PER-KiloM2-YR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Kilograms per square kilometer per year - annual mass flux per large area" ;
 	    qudt:plainTextDescription "A unit for measuring annual mass fluxes over large areas, used in regional environmental assessments, erosion studies, and ecosystem productivity measurements" ;
@@ -684,7 +684,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Kilogram per Square Kilometer Year"@en .
 
-	unit:KiloGM-PER-M2-YR
+unit:KiloGM-PER-M2-YR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Kilograms per square meter per year - annual mass flux density" ;
 	    qudt:plainTextDescription "A unit for measuring annual mass accumulation or loss per unit area, used in soil formation, sediment studies, and ecosystem mass balance calculations" ;
@@ -699,8 +699,7 @@ unit:MilliM-PER-NUM
 
 
 
-
-	unit:MilliGM-PER-KiloGM-MO
+unit:MilliGM-PER-KiloGM-MO
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Milligrams per kilogram per month - monthly mass-specific accumulation rate" ;
 	    qudt:plainTextDescription "A unit for measuring monthly mass accumulation rates per unit mass, used in bioaccumulation studies and long-term environmental monitoring" ;
@@ -721,7 +720,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:GM-PER-GM-HR
+unit:GM-PER-GM-HR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Grams per gram per hour - mass-specific mass accumulation rate" ;
 	    qudt:plainTextDescription "A dimensionless rate unit for measuring mass accumulation relative to existing mass, used in growth studies, bioaccumulation analysis, and metabolic rate calculations" ;
@@ -734,7 +733,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Gram per Gram Hour"@en .
 
-	unit:GM-PER-HA-HR
+unit:GM-PER-HA-HR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Grams per hectare per hour - hourly mass flux per hectare" ;
 	    qudt:plainTextDescription "A unit for measuring hourly mass fluxes over hectare-scale areas, used in atmospheric deposition studies, emission rate measurements, and short-term ecological processes" ;
@@ -749,7 +748,7 @@ unit:MilliM-PER-NUM
 
 
 	## TO DO: check further. this one might be redundant, not that welve standardized ordering of components (to per M2 per YR)
-	unit:GM-PER-YR-M2
+unit:GM-PER-YR-M2
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Grams per year per square meter - annual mass flux per unit area" ;
 	    qudt:plainTextDescription "A unit for measuring annual mass accumulation per unit area, used in sediment studies, soil formation rates, and long-term ecological mass balance" ;
@@ -762,7 +761,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Gram per Year Square Meter"@en .
 
-	unit:KiloGM-PER-HA-MO
+unit:KiloGM-PER-HA-MO
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Kilograms per hectare per month - monthly mass flux per hectare" ;
 	    qudt:plainTextDescription "A unit for measuring monthly mass accumulation over hectare-scale areas, used in agricultural yield monitoring, biomass production studies, and ecosystem productivity assessments" ;
@@ -780,7 +779,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:MicroGM-PER-KiloGM-DAY
+unit:MicroGM-PER-KiloGM-DAY
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Micrograms per kilogram per day - daily mass-specific accumulation rate" ;
 	    qudt:plainTextDescription "A unit for measuring daily mass accumulation rates per unit mass, commonly used in bioaccumulation studies, contaminant uptake research, and growth rate analysis" ;
@@ -795,7 +794,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:MilliGM-PER-L-SEC
+unit:MilliGM-PER-L-SEC
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Milligrams per liter per second - rapid mass concentration change rate" ;
 	    qudt:plainTextDescription "A unit for measuring rapid changes in mass concentration, used in reaction kinetics, dissolution studies, and fast chemical processes" ;
@@ -812,7 +811,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:NanoGM-PER-M2-HR
+unit:NanoGM-PER-M2-HR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Nanograms per square meter per hour - very small surface mass flux rate" ;
 	    qudt:plainTextDescription "A unit for measuring very small mass fluxes per unit area, used in trace gas emission studies, atmospheric deposition measurements, and surface exchange processes" ;
@@ -827,7 +826,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:NUM-PER-NanoGM
+unit:NUM-PER-NanoGM
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Number per nanogram - count density per nanogram of material" ;
 	    qudt:plainTextDescription "A unit for expressing the number of discrete objects per nanogram of material, used in microbiology, nanoparticle studies, and molecular counting applications" ;
@@ -842,7 +841,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:GM-PER-M2-MO
+unit:GM-PER-M2-MO
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Grams per square meter per month - monthly mass flux per unit area" ;
 	    qudt:plainTextDescription "A unit for measuring monthly mass accumulation per unit area, used in atmospheric deposition studies, soil formation rates, and seasonal ecological processes" ;
@@ -860,7 +859,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:MilliGM-PER-M2-MIN
+unit:MilliGM-PER-M2-MIN
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Milligrams per square meter per minute - rapid mass flux per unit area" ;
 	    qudt:plainTextDescription "A unit for measuring rapid mass fluxes per unit area, used in atmospheric deposition studies, emission measurements, and fast environmental processes" ;
@@ -873,7 +872,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Milligram per Square Meter Minute"@en .
 
-	unit:MilliGM-PER-MilliL-DAY
+unit:MilliGM-PER-MilliL-DAY
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Milligrams per milliliter per day - daily mass concentration rate for small volumes" ;
 	    qudt:plainTextDescription "A unit for measuring daily mass concentration changes in small volume samples, used in laboratory studies, cell culture research, and micro-environmental analysis" ;
@@ -888,7 +887,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:GM-PER-CM3
+unit:GM-PER-CM3
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Grams per cubic centimeter - mass density in CGS units" ;
 	    qudt:plainTextDescription "A unit of mass density in the CGS system, commonly used in materials science, geology, and laboratory measurements" ;
@@ -901,7 +900,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Gram per Cubic Centimeter"@en .
 
-	unit:PPM-PER-SEC
+unit:PPM-PER-SEC
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Parts per million per second - rapid concentration change rate" ;
 	    qudt:plainTextDescription "A unit for measuring rapid changes in concentration expressed as parts per million, used in atmospheric chemistry, pollution monitoring, and real-time concentration tracking" ;
@@ -930,7 +929,7 @@ unit:MilliM-PER-NUM
 
 	## TO DO may be redundant after reordering. check further. 
 
-	unit:MilliGM-PER-DAY-GM
+unit:MilliGM-PER-DAY-GM
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Milligrams per day per gram - daily mass accumulation per unit mass" ;
 	    qudt:plainTextDescription "A unit for measuring daily mass-specific accumulation rates, used in bioaccumulation studies, growth rate analysis, and metabolic measurements" ;
@@ -952,7 +951,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:MilliGM-PER-KiloGM-HR
+unit:MilliGM-PER-KiloGM-HR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Milligrams per kilogram per hour - hourly mass-specific accumulation rate" ;
 	    qudt:plainTextDescription "A unit for measuring hourly mass accumulation per unit mass, commonly used in toxicology studies, bioaccumulation research, and metabolic rate measurements" ;
@@ -966,7 +965,7 @@ unit:MilliM-PER-NUM
 	    rdfs:label "Milligram per Kilogram Hour"@en .
 
 
-	unit:MilliMOL-PER-SEC
+unit:MilliMOL-PER-SEC
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Millimoles per second - rapid molar transformation rate" ;
 	    qudt:plainTextDescription "A unit for measuring rapid molar transformation rates, used in enzyme kinetics, fast chemical reactions, and high-activity biochemical systems" ;
@@ -981,7 +980,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:NanoGM-PER-GM-DAY
+unit:NanoGM-PER-GM-DAY
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Nanograms per gram per day - daily nanogram accumulation per unit mass" ;
 	    qudt:plainTextDescription "A unit for measuring very small daily mass accumulation rates per unit mass, used in trace contaminant studies, bioaccumulation research, and sensitive analytical applications" ;
@@ -994,7 +993,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Nanogram per Gram Day"@en .
 
-	unit:NanoMOL-PER-GM-DAY
+unit:NanoMOL-PER-GM-DAY
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Nanomoles per gram per day - daily nanomolar accumulation per unit mass" ;
 	    qudt:plainTextDescription "A unit for measuring very small daily molar accumulation rates per unit mass, used in trace biochemical studies, enzyme activity measurements, and sensitive chemical analysis" ;
@@ -1007,7 +1006,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Nanomole per Gram Day"@en .
 
-	unit:NanoMOL-PER-MilliL
+unit:NanoMOL-PER-MilliL
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Nanomoles per milliliter - nanomolar concentration for small volumes" ;
 	    qudt:plainTextDescription "A unit of concentration for very small amounts in small volume samples, used in analytical chemistry, laboratory analysis, and trace substance detection" ;
@@ -1027,7 +1026,7 @@ unit:MilliM-PER-NUM
 
 
 	# TO DO - check qk, see notes.
-	unit:M2-PER-HA-YR
+unit:M2-PER-HA-YR
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Square meters per hectare per year - annual area development per hectare" ;
 	    qudt:plainTextDescription "A unit for measuring annual area changes normalized by hectare, used in land use studies, forest gap dynamics, and ecological area change analysis" ;
@@ -1044,7 +1043,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:MicroGM-PER-MilliL-DAY
+unit:MicroGM-PER-MilliL-DAY
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Micrograms per milliliter per day - daily mass concentration rate for small volumes" ;
 	    qudt:plainTextDescription "A unit for measuring daily mass concentration changes in small volume samples, used in laboratory research, cell culture studies, and micro-scale environmental analysis" ;
@@ -1060,7 +1059,7 @@ unit:MilliM-PER-NUM
 
 
 	# TO DO - check qk, see notes
-	unit:MicroGM-PER-MilliM2
+unit:MicroGM-PER-MilliM2
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Micrograms per square millimeter - very high surface mass density" ;
 	    qudt:plainTextDescription "A unit for measuring very high surface mass densities, used in coating analysis, surface contamination studies, and microscale material deposition" ;
@@ -1081,7 +1080,7 @@ unit:MilliM-PER-NUM
 
 
 
-	unit:MicroMOL-PER-MOLE
+unit:MicroMOL-PER-MOLE
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Micromoles per mole - very small molar ratio" ;
 	    qudt:plainTextDescription "A dimensionless unit for expressing very small molar ratios, used in trace analysis, isotope studies, and biochemical stoichiometry" ;
@@ -1126,7 +1125,7 @@ unit:MilliM-PER-NUM
 	#
 
 	# Radioactivity per Mass units for environmental monitoring
-	unit:BQ-PER-MilliGM
+unit:BQ-PER-MilliGM
 	    a qudt:Unit ;
 	    rdfs:label "Becquerel per Milligram"@en ;
 	    dcterms:description "Unit for measuring radioactivity per unit mass, commonly used in environmental contamination studies"@en ;
@@ -1144,7 +1143,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO - not sure of qk, see notes.
 	# Mass per length per time - soil erosion rates
-	unit:GM-PER-M-DAY
+unit:GM-PER-M-DAY
 	    a qudt:Unit ;
 	    rdfs:label "Gram per Meter per Day"@en ;
 	    dcterms:description "Unit for measuring linear mass flux rates, such as soil erosion or sediment transport"@en ;
@@ -1161,7 +1160,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO - see gm-per-m-day
 	# Linear mass velocity - common in ecology
-	unit:GM-PER-M-SEC
+unit:GM-PER-M-SEC
 	    a qudt:Unit ;
 	    rdfs:label "Gram per Meter per Second"@en ;
 	    dcterms:description "Unit for linear mass flow rate in ecological and environmental systems"@en ;
@@ -1184,7 +1183,7 @@ unit:MilliM-PER-NUM
 	# TO DO - compare qks to other similar units. see notes
 
 	# Mass flux per area per time - common environmental unit
-	unit:MicroGM-PER-M2-MIN
+unit:MicroGM-PER-M2-MIN
 	    a qudt:Unit ;
 	    rdfs:label "Microgram per Square Meter per Minute"@en ;
 	    dcterms:description "Unit for mass flux density over minute time intervals"@en ;
@@ -1201,7 +1200,7 @@ unit:MilliM-PER-NUM
 	# TO DO - compare qks to other similar units. see notes
 
 	# Mass flux per area per time - second resolution
-	unit:MicroGM-PER-M2-SEC
+unit:MicroGM-PER-M2-SEC
 	    a qudt:Unit ;
 	    rdfs:label "Microgram per Square Meter per Second"@en ;
 	    dcterms:description "Unit for mass flux density at second-scale resolution"@en ;
@@ -1221,7 +1220,7 @@ unit:MilliM-PER-NUM
 
 
 	# Volume ratio for small volumes
-	unit:MicroM3-PER-L
+unit:MicroM3-PER-L
 	    a qudt:Unit ;
 	    rdfs:label "Cubic Micrometer per Liter"@en ;
 	    dcterms:description "Unit for volumetric concentration of microscopic particles or organisms"@en ;
@@ -1236,7 +1235,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Molar units for environmental chemistry
-	unit:MicroMOL-PER-GM-DAY
+unit:MicroMOL-PER-GM-DAY
 	    a qudt:Unit ;
 	    rdfs:label "Micromole per Gram per Day"@en ;
 	    dcterms:description "Unit for measuring molar-based biochemical reaction rates per mass"@en ;
@@ -1252,7 +1251,7 @@ unit:MilliM-PER-NUM
 
 
 	# Molar concentration in small mass
-	unit:MicroMOL-PER-MilliGM
+unit:MicroMOL-PER-MilliGM
 	    a qudt:Unit ;
 	    rdfs:label "Micromole per Milligram"@en ;
 	    dcterms:description "Unit for molar concentration per unit mass of small samples"@en ;
@@ -1269,7 +1268,7 @@ unit:MilliM-PER-NUM
 
 
 	# Mass concentration per mass per time
-	unit:MilliGM-PER-GM-MO
+unit:MilliGM-PER-GM-MO
 	    a qudt:Unit ;
 	    rdfs:label "Milligram per Gram per Month"@en ;
 	    dcterms:description "Unit for mass accumulation rate per unit mass over monthly periods"@en ;
@@ -1287,7 +1286,7 @@ unit:MilliM-PER-NUM
 
 
 	# Dimensionless ratios
-	unit:V-PER-V
+unit:V-PER-V
 	    a qudt:Unit ;
 	    rdfs:label "Volume per Volume"@en ;
 	    dcterms:description "Dimensionless unit for volume fractions or volume ratios"@en ;
@@ -1305,7 +1304,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO
 	# Annual mass per area rates
-	unit:GM-PER-HA-YR
+unit:GM-PER-HA-YR
 	    a qudt:Unit ;
 	    rdfs:label "Gram per Hectare per Year"@en ;
 	    dcterms:description "Unit for annual mass flux per unit area"@en ;
@@ -1323,7 +1322,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO
 	# Volume-based daily mass rates
-	unit:GM-PER-M3-DAY
+unit:GM-PER-M3-DAY
 	    a qudt:Unit ;
 	    rdfs:label "Gram per Cubic Meter per Day"@en ;
 	    dcterms:description "Unit for daily volumetric mass production or consumption rates"@en ;
@@ -1340,7 +1339,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO
 	# Annual volume-based mass rates
-	unit:GM-PER-M3-YR
+unit:GM-PER-M3-YR
 	    a qudt:Unit ;
 	    rdfs:label "Gram per Cubic Meter per Year"@en ;
 	    dcterms:description "Unit for annual volumetric mass accumulation rates"@en ;
@@ -1358,7 +1357,7 @@ unit:MilliM-PER-NUM
 
 
 	# Micro-scale radioactivity per mass
-	unit:MicroBQ-PER-GM
+unit:MicroBQ-PER-GM
 	    a qudt:Unit ;
 	    rdfs:label "Microbecquerel per Gram"@en ;
 	    dcterms:description "Unit for low-level radioactivity per unit mass"@en ;
@@ -1375,7 +1374,7 @@ unit:MilliM-PER-NUM
 
 
 	# Mass per mass per time rates
-	unit:MicroGM-PER-GM-MIN
+unit:MicroGM-PER-GM-MIN
 	    a qudt:Unit ;
 	    rdfs:label "Microgram per Gram per Minute"@en ;
 	    dcterms:description "Unit for mass accumulation or depletion rate per unit mass per minute"@en ;
@@ -1392,7 +1391,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO
 	# Volume-based mass rates per minute
-	unit:MicroGM-PER-L-MIN
+unit:MicroGM-PER-L-MIN
 	    a qudt:Unit ;
 	    rdfs:label "Microgram per Liter per Minute"@en ;
 	    dcterms:description "Unit for volumetric mass accumulation rate per minute"@en ;
@@ -1408,7 +1407,7 @@ unit:MilliM-PER-NUM
 
 
 	# Volumetric molarity
-	unit:MicroMOL-PER-M3
+unit:MicroMOL-PER-M3
 	    a qudt:Unit ;
 	    rdfs:label "Micromole per Cubic Meter"@en ;
 	    dcterms:description "Unit for volumetric molar concentration"@en ;
@@ -1426,7 +1425,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO,  See :PicoMOL-PER-MIN-MilliGM
 	# Hourly molar rates per mass
-	unit:MicroMOL-PER-MilliGM-HR
+unit:MicroMOL-PER-MilliGM-HR
 	    a qudt:Unit ;
 	    rdfs:label "Micromole per Milligram per Hour"@en ;
 	    dcterms:description "Unit for hourly molar reaction rate per unit mass"@en ;
@@ -1443,7 +1442,7 @@ unit:MilliM-PER-NUM
 
 	# TO DO - check other units with simiar deimensions
 	# Complex biochemical rate unit
-	unit:MilliGM-PER-L-GM-HR
+unit:MilliGM-PER-L-GM-HR
 	    a qudt:Unit ;
 	    rdfs:label "Milligram per Liter per Gram per Hour"@en ;
 	    dcterms:description "Unit for mass concentration change per biomass per hour"@en ;
@@ -1460,7 +1459,7 @@ unit:MilliM-PER-NUM
 
 
 	# Dimensionless volume ratios
-	unit:MilliL-PER-MilliL
+unit:MilliL-PER-MilliL
 	    a qudt:Unit ;
 	    rdfs:label "Milliliter per Milliliter"@en ;
 	    dcterms:description "Dimensionless unit for volume fractions in small samples"@en ;
@@ -1479,7 +1478,7 @@ unit:MilliM-PER-NUM
 
 
 	# Daily molar rates
-	unit:MOL-PER-DAY
+unit:MOL-PER-DAY
 	    a qudt:Unit ;
 	    rdfs:label "Mole per Day"@en ;
 	    dcterms:description "Unit for daily molar flux or consumption rates"@en ;
@@ -1497,7 +1496,7 @@ unit:MilliM-PER-NUM
 
 
 	# Nanomolar rates
-	unit:NanoMOL-PER-MIN
+unit:NanoMOL-PER-MIN
 	    a qudt:Unit ;
 	    rdfs:label "Nanomole per Minute"@en ;
 	    dcterms:description "Unit for minute-scale nanomolar flux rates"@en ;
@@ -1515,7 +1514,7 @@ unit:MilliM-PER-NUM
 
 
 	# Nanomolar ratios
-	unit:NanoMOL-PER-MOL
+unit:NanoMOL-PER-MOL
 	    a qudt:Unit ;
 	    rdfs:label "Nanomole per Mole"@en ;
 	    dcterms:description "Dimensionless unit for nanomolar molar fractions"@en ;
@@ -1533,7 +1532,7 @@ unit:MilliM-PER-NUM
 
 
 	# Count per mass per time
-	unit:NUM-PER-GM-MIN
+unit:NUM-PER-GM-MIN
 	    a qudt:Unit ;
 	    rdfs:label "Count per Gram per Minute"@en ;
 	    dcterms:description "Unit for count generation or consumption rate per unit mass per minute"@en ;
@@ -1550,7 +1549,7 @@ unit:MilliM-PER-NUM
 
 
 	# Linear count density
-	unit:NUM-PER-KiloM
+unit:NUM-PER-KiloM
 	    a qudt:Unit ;
 	    rdfs:label "Count per Kilometer"@en ;
 	    dcterms:description "Unit for linear count density over kilometer distances"@en ;
@@ -1568,7 +1567,7 @@ unit:MilliM-PER-NUM
 		## MOB YOU ARE HERE
 
 	# Picomolar per mass
-	unit:PicoMOL-PER-GM
+unit:PicoMOL-PER-GM
 	    a qudt:Unit ;
 	    rdfs:label "Picomole per Gram"@en ;
 	    dcterms:description "Unit for ultra-trace molar concentration per unit mass"@en ;
@@ -1583,7 +1582,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Complex picomolar rate per mass per time
-	unit:PicoMOL-PER-MIN-MilliGM
+unit:PicoMOL-PER-MIN-MilliGM
 	    a qudt:Unit ;
 	    rdfs:label "Picomole per Minute per Milligram"@en ;
 	    dcterms:description "Unit for ultra-trace molar rate per unit mass per minute"@en ;
@@ -1598,7 +1597,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Dimensionless volume fraction in CGS
-	unit:CentiM3-PER-CentiM3
+unit:CentiM3-PER-CentiM3
 	    a qudt:Unit ;
 	    rdfs:label "Cubic Centimeter per Cubic Centimeter"@en ;
 	    dcterms:description "Dimensionless unit for volume fractions in CGS system"@en ;
@@ -1613,7 +1612,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Mass ratio in mixed metric units
-	unit:GM-PER-HectoGM
+unit:GM-PER-HectoGM
 	    a qudt:Unit ;
 	    rdfs:label "Gram per Hectogram"@en ;
 	    dcterms:description "Dimensionless unit for mass fractions using mixed gram units"@en ;
@@ -1628,7 +1627,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	#  ratio rate
-	unit:MilliGM-PER-MilliGM-DAY
+unit:MilliGM-PER-MilliGM-DAY
 	    a qudt:Unit ;
 	    rdfs:label "Milligram per Milligram per Day"@en ;
 	    dcterms:description "Unit for dimensionless mass turnover rate per day"@en ;
@@ -1645,7 +1644,7 @@ unit:MilliM-PER-NUM
 
 
 	# Volume-based molar rate
-	unit:MilliMOL-PER-M3-MIN
+unit:MilliMOL-PER-M3-MIN
 	    a qudt:Unit ;
 	    rdfs:label "Millimole per Cubic Meter per Minute"@en ;
 	    dcterms:description "Unit for volumetric molar reaction rates per minute"@en ;
@@ -1662,7 +1661,7 @@ unit:MilliM-PER-NUM
 
 
 	# Molar ratio rate
-	unit:MilliMOL-PER-MOL-SEC
+unit:MilliMOL-PER-MOL-SEC
 	    a qudt:Unit ;
 	    rdfs:label "Millimole per Mole per Second"@en ;
 	    dcterms:description "Unit for molar turnover rate per second"@en ;
@@ -1677,7 +1676,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Pressure-normalized molarity
-	unit:MOL-PER-L-ATM
+unit:MOL-PER-L-ATM
 	    a qudt:Unit ;
 	    rdfs:label "Mole per Liter per Atmosphere"@en ;
 	    dcterms:description "Unit for pressure-normalized molar concentration"@en ;
@@ -1692,7 +1691,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Area-based mass in Imperial units
-	unit:OZ-PER-AC
+unit:OZ-PER-AC
 	    a qudt:Unit ;
 	    rdfs:label "Ounce per Acre"@en ;
 	    dcterms:description "Imperial unit for area-based mass density in agricultural and environmental applications"@en ;
@@ -1707,7 +1706,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Concentration rate changes
-	unit:PPM-PER-HR
+unit:PPM-PER-HR
 	    a qudt:Unit ;
 	    rdfs:label "Parts Per Million per Hour"@en ;
 	    dcterms:description "Unit for hourly rate of change in concentration"@en ;
@@ -1722,7 +1721,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Concentration rate changes - minute resolution
-	unit:PPM-PER-MIN
+unit:PPM-PER-MIN
 	    a qudt:Unit ;
 	    rdfs:label "Parts Per Million per Minute"@en ;
 	    dcterms:description "Unit for minute-scale rate of change in concentration"@en ;
@@ -1737,7 +1736,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Volume-based mass density
-	unit:TON_US-PER-AC-FT
+unit:TON_US-PER-AC-FT
 	    a qudt:Unit ;
 	    rdfs:label "US Ton per Acre Foot"@en ;
 	    dcterms:description "Imperial unit for mass per volume in large-scale environmental applications"@en ;
@@ -1752,7 +1751,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Area-based mass application rates
-	unit:TON_US-PER-HA
+unit:TON_US-PER-HA
 	    a qudt:Unit ;
 	    rdfs:label "US Ton per Hectare"@en ;
 	    dcterms:description "Unit for area-based mass density using US tons and metric area"@en ;
@@ -1767,7 +1766,7 @@ unit:MilliM-PER-NUM
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
 	# Area-based mass density - metric/Imperial mix
-	unit:TONNE-PER-AC
+unit:TONNE-PER-AC
 	    a qudt:Unit ;
 	    rdfs:label "Metric Ton per Acre"@en ;
 	    dcterms:description "Unit for area-based mass density using metric tons and Imperial area"@en ;
