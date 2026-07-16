@@ -30,6 +30,7 @@ Established in 2022, the Units team is working to identify a modern, community-d
 - Project [notes](https://docs.google.com/document/d/1leK0neHSMsZHLwKiU2eQnbpEJnpVCd-yzaNSFnOdSbo/edit#)
 
 ## Products
-- dataset: https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=1715
-- paper: submitted Aug 2024, text available by request (describes mapping process and results)
+- paper and dataset: 
+  - Porter, JH;  MC O’Brien; M Frants; S Earl; M Martin; CM Laney. 2025 Using a units ontology to annotate pre-existing metadata. Scientific Data DOI: 10.1038/s41597-025-04587-8
+  - dataset: https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=1715
   - code in this repository
