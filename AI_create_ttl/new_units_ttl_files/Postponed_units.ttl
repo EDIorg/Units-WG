@@ -1,0 +1,145 @@
+ =============================================================================
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# =============================================================================
+# ENVIRONMENTAL SCIENCE UNITS - 
+# part of a list created by claude.ai. 180 total, created  2025-09-04, and  further edited by JP, MM, MOB, SE, MF 2025-2026
+# =============================================================================
+
+
+
+
+	# Redundant, but the existing one lacks a QK (set to unknown)
+unit:M2-PER-HA-YR
+	    rdf:type qudt:Unit ;
+	    dcterms:description "Square meters per hectare per year - annual area development per hectare" ;
+	    qudt:plainTextDescription "A unit for measuring annual area changes normalized by hectare, used in land use studies, forest gap dynamics, and ecological area change analysis" ;
+	    qudt:applicableSystem sou:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+	    qudt:hasQuantityKind quantitykind:AreaPerAreaTime ;
+	    qudt:conversionMultiplier 0.0000000000031688087814028997 ;
+	    qudt:conversionMultiplierSN 3.1688087814028996E-12 ;
+	    qudt:symbol "m²·ha⁻¹·yr⁻¹" ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:label "Square Meter per Hectare Year"@en .
+
+
+
+
+
+
+
+	# TO DO - compare qks to other similar units. see notes
+
+	# Mass flux per area per time - common environmental unit
+unit:MicroGM-PER-M2-MIN
+	    a qudt:Unit ;
+	    rdfs:label "Microgram per Square Meter per Minute"@en ;
+	    dcterms:description "Unit for mass flux density over minute time intervals"@en ;
+	    qudt:plainTextDescription "Microgram per square meter per minute measures mass flux density for short-term environmental processes such as gas exchange, pollutant deposition, or microbial respiration." ;
+	    qudt:applicableSystem unit:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+	    qudt:hasQuantityKind quantitykind:MassFluxDensity ;
+	    qudt:conversionMultiplier 0.000000000016666666666666668 ;
+	    qudt:conversionMultiplierSN 1.6666666666666668E-11 ;
+	    qudt:symbol "μg/(m²⋅min)" ;
+	    rdf:type qudt:DerivedUnit ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+	# TO DO - compare qks to other similar units. see notes
+
+	# Mass flux per area per time - second resolution
+unit:MicroGM-PER-M2-SEC
+	    a qudt:Unit ;
+	    rdfs:label "Microgram per Square Meter per Second"@en ;
+	    dcterms:description "Unit for mass flux density at second-scale resolution"@en ;
+	    qudt:plainTextDescription "Microgram per square meter per second measures rapid mass flux processes such as instantaneous emission rates, fast chemical reactions, or high-resolution gas exchange measurements." ;
+	    qudt:applicableSystem unit:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+	    qudt:hasQuantityKind quantitykind:MassFluxDensity ;
+	    qudt:conversionMultiplier 0.000000001 ;
+	    qudt:conversionMultiplierSN 1.0E-9 ;
+	    qudt:symbol "μg/(m²⋅s)" ;
+	    rdf:type qudt:DerivedUnit ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
+
+
+	# TO DO - not sure of qk, see notes.
+	# Mass per length per time - soil erosion rates
+unit:GM-PER-M-DAY
+	    a qudt:Unit ;
+	    rdfs:label "Gram per Meter per Day"@en ;
+	    dcterms:description "Unit for measuring linear mass flux rates, such as soil erosion or sediment transport"@en ;
+	    qudt:plainTextDescription "Gram per meter per day is used to measure linear rates of mass transport along environmental gradients, such as soil erosion along hillslopes or sediment transport in rivers." ;
+	    qudt:applicableSystem unit:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-1D0 ;
+	    qudt:hasQuantityKind quantitykind:LinearMassRate ;
+	    qudt:conversionMultiplier 0.000000011574074074074074 ;
+	    qudt:conversionMultiplierSN 1.1574074074074074E-8 ;
+	    qudt:symbol "g/(m⋅day)" ;
+	    rdf:type qudt:DerivedUnit ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
+	# TO DO - see gm-per-m-day
+	# Linear mass velocity - common in ecology
+unit:GM-PER-M-SEC
+	    a qudt:Unit ;
+	    rdfs:label "Gram per Meter per Second"@en ;
+	    dcterms:description "Unit for linear mass flow rate in ecological and environmental systems"@en ;
+	    qudt:plainTextDescription "Gram per meter per second measures the rate of mass flow along a linear dimension, commonly used in ecological studies of nutrient flow, biomass transport, or pollutant dispersion." ;
+	    qudt:applicableSystem unit:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-1D0 ;
+	    qudt:hasQuantityKind quantitykind:LinearMassRate ;
+	    qudt:conversionMultiplier 0.001 ;
+	    qudt:conversionMultiplierSN 1.0E-3 ;
+	    qudt:symbol "g/(m⋅s)" ;
+	    rdf:type qudt:DerivedUnit ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
+
+
+
+	# TO DO - check other units with simiar deimensions
+	# Complex biochemical rate unit
+unit:MilliGM-PER-L-GM-HR
+	    a qudt:Unit ;
+	    rdfs:label "Milligram per Liter per Gram per Hour"@en ;
+	    dcterms:description "Unit for mass concentration change per biomass per hour"@en ;
+	    qudt:plainTextDescription "Milligram per liter per gram per hour measures biochemical production or consumption rates normalized by biomass concentration, used in bioreactor studies and microbial kinetics." ;
+	    qudt:applicableSystem unit:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D0 ;
+	    qudt:hasQuantityKind quantitykind:BiochemicalProductionRate ;
+	    qudt:conversionMultiplier 0.0002777777777777778 ;
+	    qudt:conversionMultiplierSN 2.7777777777777776E-4 ;
+	    qudt:symbol "mg/(L⋅g⋅hr)" ;
+	    rdf:type qudt:DerivedUnit ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
+	# TO DO
+	# Volume-based mass rates per minute
+unit:MicroGM-PER-L-MIN
+	    a qudt:Unit ;
+	    rdfs:label "Microgram per Liter per Minute"@en ;
+	    dcterms:description "Unit for volumetric mass accumulation rate per minute"@en ;
+	    qudt:plainTextDescription "Microgram per liter per minute measures rapid volumetric mass change rates in aquatic systems, water treatment processes, or biological culture studies." ;
+	    qudt:applicableSystem unit:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+	    qudt:hasQuantityKind quantitykind:VolumeMassRate ;
+	    qudt:conversionMultiplier 0.000000016666666666666668 ;
+	    qudt:conversionMultiplierSN 1.6666666666666668E-8 ;
+	    qudt:symbol "μg/(L⋅min)" ;
+	    rdf:type qudt:DerivedUnit ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
