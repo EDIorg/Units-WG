@@ -1463,7 +1463,7 @@ unit:MilliGM-PER-MilliGM-DAY
 	    dcterms:description "Unit for dimensionless mass turnover rate per day"@en ;
 	    qudt:plainTextDescription "Milligram per milligram per day represents dimensionless turnover rates, commonly used in biological systems to express relative growth rates, decay constants, or metabolic turnover." ;
 	    qudt:applicableSystem unit:SI ;
-	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
 	    qudt:hasQuantityKind quantitykind:TurnoverRate ;
 	    qudt:conversionMultiplier 0.000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-5 ;
@@ -1497,7 +1497,7 @@ unit:MilliMOL-PER-MOL-SEC
 	    dcterms:description "Unit for molar turnover rate per second"@en ;
 	    qudt:plainTextDescription "Millimole per mole per second represents rapid molar turnover processes such as enzyme kinetics, catalytic reactions, or fast biochemical transformations." ;
 	    qudt:applicableSystem unit:SI ;
-	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
 	    qudt:hasQuantityKind quantitykind:MolarTurnoverRate ;
 	    qudt:conversionMultiplier 0.001 ;
 	    qudt:conversionMultiplierSN 1.0E-3 ;
@@ -1542,7 +1542,7 @@ unit:PPM-PER-HR
 	    dcterms:description "Unit for hourly rate of change in concentration"@en ;
 	    qudt:plainTextDescription "Parts per million per hour measures the rate of change in concentration over hourly periods, used in air quality monitoring, water treatment, or pollution dispersion studies." ;
 	    qudt:applicableSystem unit:SI ;
-	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
 	    qudt:hasQuantityKind quantitykind:ConcentrationRate ;
 	    qudt:conversionMultiplier 0.00000000027777777777777775 ;
 	    qudt:conversionMultiplierSN 2.7777777777777776E-10 ;
@@ -1557,7 +1557,7 @@ unit:PPM-PER-MIN
 	    dcterms:description "Unit for minute-scale rate of change in concentration"@en ;
 	    qudt:plainTextDescription "Parts per million per minute quantifies rapid concentration changes such as those occurring during pollution events, chemical reactions, or real-time environmental monitoring." ;
 	    qudt:applicableSystem unit:SI ;
-	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D1 ;
+	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
 	    qudt:hasQuantityKind quantitykind:ConcentrationRate ;
 	    qudt:conversionMultiplier 0.000000016666666666666666 ;
 	    qudt:conversionMultiplierSN 1.6666666666666667E-8 ;
