@@ -612,20 +612,6 @@ unit:NanoGM-PER-GM-HR
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Nanogram per Gram Hour"@en .
 
-unit:PERCENT-PER-YR
-	    rdf:type qudt:Unit ;
-	    dcterms:description "Percent per year - annual rate of change for environmental parameters" ;
-	    qudt:plainTextDescription "A dimensionless rate unit for expressing annual rates of change in environmental monitoring, such as forest cover change, species population trends, or climate variable changes" ;
-	    qudt:applicableSystem sou:SI ;
-	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
-	    qudt:hasQuantityKind quantitykind:PercentChangeRate ;
-	    qudt:conversionMultiplier 0.00000000031688087814028996 ;
-	    qudt:conversionMultiplierSN 3.1688087814028996E-10 ;
-	    qudt:symbol "%·yr⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-	    rdfs:label "Percent per Year"@en .
-
-
 
 unit:MicroGM-PER-KiloGM-HR
 	    rdf:type qudt:Unit ;
@@ -640,7 +626,7 @@ unit:MicroGM-PER-KiloGM-HR
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Microgram per Kilogram Hour"@en .
 
-
+### TO DO - should this be changed to NUM-PER-L-MIN ? keeping time at the end?
 unit:NUM-PER-MIN-L
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Number per minute per liter - count rate per unit volume" ;
@@ -912,7 +898,7 @@ unit:MilliGM-PER-GM-DAY
 	    qudt:plainTextDescription "A unit for measuring daily mass-specific accumulation rates, used in bioaccumulation studies, growth rate analysis, and metabolic measurements" ;
 	    qudt:applicableSystem sou:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
-	    qudt:hasQuantityKind quantitykind:MassSpecificRate ;
+	    qudt:hasQuantityKind quantitykind:MassSpecificBiogeochemicalRate ;
 	    qudt:conversionMultiplier 0.000000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-8 ;
 	    qudt:symbol "mg·g⁻¹·d⁻¹" ;
@@ -1077,7 +1063,7 @@ unit:BQ-PER-MilliGM
 	    qudt:plainTextDescription "Becquerel per milligram is used to measure radioactivity concentration in small samples of environmental material such as soil, vegetation, or biological tissue." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D0 ;
-	    qudt:hasQuantityKind quantitykind:SpecificRadioactivity ;
+	    qudt:hasQuantityKind quantitykind:MassicRadioactivity ;
 	    qudt:conversionMultiplier 1000000 ;
 	    qudt:conversionMultiplierSN 1.0E6 ;
 	    qudt:symbol "Bq/mg" ;
@@ -1153,23 +1139,6 @@ unit:MilliGM-PER-GM-MO
 
 
 
-	# Dimensionless ratios
-unit:V-PER-V
-	    a qudt:Unit ;
-	    rdfs:label "Volume per Volume"@en ;
-	    dcterms:description "Dimensionless unit for volume fractions or volume ratios"@en ;
-	    qudt:plainTextDescription "Volume per volume represents dimensionless volume fractions commonly used in soil science for water content, porosity measurements, or mixture compositions." ;
-	    qudt:applicableSystem unit:SI ;
-	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
-	    qudt:hasQuantityKind quantitykind:VolumeRatio ;
-	    qudt:conversionMultiplier 1.0 ;
-	    qudt:conversionMultiplierSN 1.0E0 ;
-	    qudt:symbol "v/v" ;
-	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
-
-
-
 	# went with MassPerAreaTime, per other units in qudt.
 	# Annual mass per area rates
 unit:GM-PER-HA-YR
@@ -1229,7 +1198,7 @@ unit:MicroBQ-PER-GM
 	    qudt:plainTextDescription "Microbecquerel per gram measures low-level radioactivity concentrations in environmental samples, used for background radiation monitoring and trace contamination studies." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D0 ;
-	    qudt:hasQuantityKind quantitykind:SpecificRadioactivity ;
+	    qudt:hasQuantityKind quantitykind:MassicRadioactivity ;
 	    qudt:conversionMultiplier 0.001 ;
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "μBq/g" ;
@@ -1351,7 +1320,7 @@ unit:NanoMOL-PER-MOL
 	    qudt:plainTextDescription "Nanomole per mole represents very small molar fractions, used in trace chemical analysis, isotope studies, or ultra-dilute concentration measurements." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
-	    qudt:hasQuantityKind quantitykind:MolarRatio ;
+	    qudt:hasQuantityKind quantitykind:MoleFraction ;
 	    qudt:conversionMultiplier 0.000000001 ;
 	    qudt:conversionMultiplierSN 1.0E-9 ;
 	    qudt:symbol "nmol/mol" ;
@@ -1404,7 +1373,7 @@ unit:PicoMOL-PER-GM
 	    qudt:plainTextDescription "Picomole per gram represents extremely low molar concentrations in mass samples, used in trace contaminant analysis, ultrasensitive biomarker detection, or isotope studies." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T0D0 ;
-	    qudt:hasQuantityKind quantitykind:MolarConcentrationMass ;
+	    qudt:hasQuantityKind quantitykind:AmountOfSubstancePerMass ;
 	    qudt:conversionMultiplier 0.000001 ;
 	    qudt:conversionMultiplierSN 1.0E-6 ;
 	    qudt:symbol "pmol/g" ;
@@ -1456,7 +1425,7 @@ unit:GM-PER-HectoGM
 	    rdf:type qudt:DerivedUnit ;
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
-	#  ratio rate
+	#  ratio rate - qk already exists, 
 unit:MilliGM-PER-MilliGM-DAY
 	    a qudt:Unit ;
 	    rdfs:label "Milligram per Milligram per Day"@en ;
@@ -1464,7 +1433,7 @@ unit:MilliGM-PER-MilliGM-DAY
 	    qudt:plainTextDescription "Milligram per milligram per day represents dimensionless turnover rates, commonly used in biological systems to express relative growth rates, decay constants, or metabolic turnover." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
-	    qudt:hasQuantityKind quantitykind:TurnoverRate ;
+	    qudt:hasQuantityKind quantitykind:MassSpecificBiogeochemicalRate ;
 	    qudt:conversionMultiplier 0.000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-5 ;
 	    qudt:symbol "mg/(mg⋅day)" ;
@@ -1528,7 +1497,7 @@ unit:OZ-PER-AC
 	    qudt:plainTextDescription "Ounce per acre is used in agricultural and environmental management for quantifying application rates of fertilizers, pesticides, or seed densities in Imperial unit systems." ;
 	    qudt:applicableSystem unit:USCS ;
 	    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
-	    qudt:hasQuantityKind quantitykind:AreaDensity ;
+	    qudt:hasQuantityKind quantitykind:MassPerArea ;
 	    qudt:conversionMultiplier 0.000007009472353980699 ;
 	    qudt:conversionMultiplierSN 7.009472353980699E-6 ;
 	    qudt:symbol "oz/ac" ;
@@ -1588,7 +1557,7 @@ unit:TON_US-PER-HA
 	    qudt:plainTextDescription "US ton per hectare combines Imperial mass units with metric area units, commonly used in agricultural yield reporting and biomass quantification in mixed unit systems." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
-	    qudt:hasQuantityKind quantitykind:AreaDensity ;
+	    qudt:hasQuantityKind quantitykind:MassPerArea ;
 	    qudt:conversionMultiplier 0.090718474 ;
 	    qudt:conversionMultiplierSN 9.0718474E-2 ;
 	    qudt:symbol "ton_US/ha" ;
@@ -1603,7 +1572,7 @@ unit:TONNE-PER-AC
 	    qudt:plainTextDescription "Metric ton per acre combines metric mass units with Imperial area units, used in agricultural productivity measures and biomass calculations in mixed unit systems." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
-	    qudt:hasQuantityKind quantitykind:AreaDensity ;
+	    qudt:hasQuantityKind quantitykind:MassPerArea ;
 	    qudt:conversionMultiplier 0.24710538146716534 ;
 	    qudt:conversionMultiplierSN 2.4710538146716534E-1 ;
 	    qudt:symbol "t/ac" ;

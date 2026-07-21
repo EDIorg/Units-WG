@@ -108,6 +108,23 @@ unit:GM-PER-M-SEC
 
 
 
+    #  postpone, V could be Velocity, Voltage, Volume, vanadium
+	# Dimensionless ratios
+unit:V-PER-V
+	    a qudt:Unit ;
+	    rdfs:label "Volume per Volume"@en ;
+	    dcterms:description "Dimensionless unit for volume fractions or volume ratios"@en ;
+	    qudt:plainTextDescription "Volume per volume represents dimensionless volume fractions commonly used in soil science for water content, porosity measurements, or mixture compositions." ;
+	    qudt:applicableSystem unit:SI ;
+	    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+	    qudt:hasQuantityKind quantitykind:VolumeRatio ;
+	    qudt:conversionMultiplier 1.0 ;
+	    qudt:conversionMultiplierSN 1.0E0 ;
+	    qudt:symbol "v/v" ;
+	    rdf:type qudt:DerivedUnit ;
+	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+
 
 
 	# TO DO - check other units with simiar deimensions
