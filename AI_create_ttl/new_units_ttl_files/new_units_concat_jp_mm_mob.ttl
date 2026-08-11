@@ -626,11 +626,13 @@ unit:MicroGM-PER-KiloGM-HR
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
 	    rdfs:label "Microgram per Kilogram Hour"@en .
 
-### TO DO - should this be changed to NUM-PER-L-MIN ? keeping time at the end?
-unit:NUM-PER-MIN-L
+### TO DO - changed from to NUM-PER-MIN-L (time at the end) tell John to add to his mapping file.
+## see comment on QK: 
+#  to do: it might berenamed to account for the time being at the end now, not volume? so its more like an object-concentration per time. 
+unit:NUM-PER-L-MIN
 	    rdf:type qudt:Unit ;
 	    dcterms:description "Number per minute per liter - count rate per unit volume" ;
-	    qudt:plainTextDescription "A unit for measuring the rate of discrete events or objects per unit time per unit volume, used in aquatic ecology and microbiology" ;
+	    qudt:plainTextDescription "A unit for measuring the rate of discrete events or objects per unit volume per unit time, used in aquatic ecology and microbiology" ;
 	    qudt:applicableSystem sou:SI ;
 	    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D0 ;
 	    qudt:hasQuantityKind quantitykind:CountRatePerVolume ;
