@@ -1,0 +1,97 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+
+
+
+### July-Aug 2026 entries START HERE
+
+# Quantity Kind: ConcentrationRate
+# used for three: ppm/sec, ppm/hr, ppm/min. so DV is A0E0L0I0M0H0T-1D0 (reduces to 1/t),
+# TO DO - find a symbol to copy
+quantitykind:ConcentrationRate a qudt:QuantityKind ;
+    rdfs:label "Concentration Rate"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    qudt:symbol "" ;
+    qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+## TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
+## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
+    qudt:applicableUnit unit:PPM-PER-SEC ;
+    qudt:applicableUnit unit:PPM-PER-HR ;
+    qudt:applicableUnit unit:PPM-PER-MIN ;
+    dcterms:description "ConcentrationRate represents a change in concentration over time."^^xsd:string 
+.
+
+
+# Quantity Kind: CountPerLength
+# TO DO - find a symbol to copy
+quantitykind:CountPerLength a qudt:QuantityKind ;
+    rdfs:label "Count Per Length"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    qudt:symbol "n/L" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+## TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
+## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
+    qudt:applicableUnit unit:NUM-PER-KiloM ;
+    dcterms:description "Count per length quantifies the linear density of objects along linear features such as transects"^^xsd:string 
+.
+
+
+# Quantity Kind: CountRatePerVolume
+# to do: might need to rename this to account for the time being at the end now, not volume? so its more like an object-concentration per time. 
+quantitykind:CountRatePerVolume a qudt:QuantityKind ;
+    rdfs:label "Count Rate Per Volume"@en ;
+    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    qudt:symbol "n/L" ;
+    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+## TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
+## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
+    qudt:applicableUnit unit:NUM-PER-L-MIN ;
+    dcterms:description "CountRatePerVolume measures the rate of discrete events or objects per unit volume per unit time"^^xsd:string 
+.
+
+
+
+# Quantity Kind: MoleSpecificBiogeochemicalRate
+# intended to be a partner to MassSpecificBiogeochemicalRate
+# to do: decide on name, edit units (MolarTurnoverRate). find an informative reference. 
+quantitykind:MolarSpecificBiogeochemicalRate
+  a qudt:QuantityKind ;
+  dcterms:description """the rate at which a specific chemical element or compound is processed or transformed within an
+    ecosystem, calculated per  mole of the relevant biological material. Unreduced, SI unit is mole * mole-1 * s-1
+  """ ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
+  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
+  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
+  qudt:informativeReference "^^xsd:anyURI ;
+  qudt:applicableUnit unit:MilliMOL-PER-MOL-SEC
+  qudt:plainTextDescription """the rate at which a specific chemical element or compound is processed or transformed within an
+    ecosystem, calculated per mole of the relevant biological material. Unreduced, SI unit is mol * mol-1 * s-1
+  """ ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+  rdfs:label "Molar Specific Biogeochemical Rate"@en 
+  .
+
+
+
+
+##### YOU ARE HERE
+
+
+# Quantity Kind: MolarVolumetricRate
+# only available is catalalyticActivityConcentration, which is for enzymes. need a parent for that (is this that parent? notes dont explain)
+
+# Quantity Kind: PressureNormalizedMolarity
+# goes with new DV. check that is really is molarity, not moles per liter.
+
+# Quantity Kind: VolumeRatio
+# diminsionless, two  units, ml/ml, cm3/cm3
+
+
