@@ -16,7 +16,8 @@
 # Quantity Kind: ConcentrationRate
 # used for three: ppm/sec, ppm/hr, ppm/min. so DV is A0E0L0I0M0H0T-1D0 (reduces to 1/t),
 # TO DO - find a symbol to copy
-quantitykind:ConcentrationRate a qudt:QuantityKind ;
+quantitykind:ConcentrationRate 
+    a qudt:QuantityKind ;
     rdfs:label "Concentration Rate"@en ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
     qudt:symbol "" ;
@@ -27,12 +28,14 @@ quantitykind:ConcentrationRate a qudt:QuantityKind ;
     qudt:applicableUnit unit:PPM-PER-HR ;
     qudt:applicableUnit unit:PPM-PER-MIN ;
     dcterms:description "ConcentrationRate represents a change in concentration over time."^^xsd:string 
+    dcterms:plainTextDescription "ConcentrationRate represents a change in concentration over time."^^xsd:string 
+
 .
 
 
 # Quantity Kind: CountPerLength
-# TO DO - find a symbol to copy
-quantitykind:CountPerLength a qudt:QuantityKind ;
+quantitykind:CountPerLength 
+    a qudt:QuantityKind ;
     rdfs:label "Count Per Length"@en ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
     qudt:symbol "n/L" ;
@@ -41,12 +44,15 @@ quantitykind:CountPerLength a qudt:QuantityKind ;
 ## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
     qudt:applicableUnit unit:NUM-PER-KiloM ;
     dcterms:description "Count per length quantifies the linear density of objects along linear features such as transects"^^xsd:string 
+    dcterms:plainTextDescription "Count per length quantifies the linear density of objects along linear features such as transects"^^xsd:string 
+
 .
 
 
 # Quantity Kind: CountRatePerVolume
 # to do: might need to rename this to account for the time being at the end now, not volume? so its more like an object-concentration per time. 
-quantitykind:CountRatePerVolume a qudt:QuantityKind ;
+quantitykind:CountRatePerVolume 
+    a qudt:QuantityKind ;
     rdfs:label "Count Rate Per Volume"@en ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
     qudt:symbol "n/L" ;
@@ -55,13 +61,16 @@ quantitykind:CountRatePerVolume a qudt:QuantityKind ;
 ## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
     qudt:applicableUnit unit:NUM-PER-L-MIN ;
     dcterms:description "CountRatePerVolume measures the rate of discrete events or objects per unit volume per unit time"^^xsd:string 
+    dcterms:plainTextDescription "CountRatePerVolume measures the rate of discrete events or objects per unit volume per unit time"^^xsd:string 
+
 .
 
 
 
 # Quantity Kind: MoleSpecificBiogeochemicalRate
 # intended to be a partner to MassSpecificBiogeochemicalRate
-# to do: decide on name, edit units (MolarTurnoverRate). find an informative reference. 
+# TO DO: decide on name, edit units (MolarTurnoverRate). 
+# TO DO: find an informative reference. 
 quantitykind:MolarSpecificBiogeochemicalRate
   a qudt:QuantityKind ;
   dcterms:description """the rate at which a specific chemical element or compound is processed or transformed within an
