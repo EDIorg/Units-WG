@@ -1,7 +1,8 @@
 # Generic QUDT Unit-List Request
 
 Attach the candidate file to the chat or replace `INPUT_FILE` with its path in
-the workspace. Replace optional bracketed values when known.
+the workspace. Put candidate-specific references in the input file's `notes`
+field. Replace optional bracketed values when known.
 
 ```text
 Use the qudt-unit-contribution skill to process INPUT_FILE.

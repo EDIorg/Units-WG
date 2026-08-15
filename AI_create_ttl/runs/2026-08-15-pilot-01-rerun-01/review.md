@@ -128,3 +128,16 @@ Full QUDT Maven/SHACL validation was not run because `mvn`, a Maven wrapper,
 and `java` are unavailable in the current environment. The rerun is
 review-ready, not submission-ready. Run the configured QUDT checkout's current
 build before submission.
+
+## Workflow Feedback
+
+| Field | Value |
+| --- | --- |
+| Category | `identity` |
+| Candidate | `KiloM-PER-KiloM2`, `M2-PER-M3` |
+| Observation | The original pilot collapsed exact submitted factor expressions into algebraically simpler existing Units and omitted two valid absent qnames. |
+| Evidence | Current QUDT retains `M-PER-M2` beside `PER-M` and `J-PER-M2` beside `N-PER-M`; QUDT factor-unit inference and validation operate on qname factorization. |
+| Impact | Two of three candidate Unit drafts were incorrectly omitted. |
+| Frequency | First observed occurrence; high-impact systemic defect. |
+| Proposed change | Treat factor expression as Unit identity, record algebraic equivalents as evidence, and require explicit expressions and factor units in review drafts. |
+| Disposition | `accepted` and implemented with positive and negative compound-unit fixtures. |

@@ -1,5 +1,10 @@
 # QUDT Unit Contribution Review: pilot-01
 
+> **Superseded:** This run contains an incorrect duplicate-identity decision for
+> `KiloM-PER-KiloM2` and `M2-PER-M3`. Use
+> `../2026-08-15-pilot-01-rerun-01/` for the corrected output. This directory is
+> retained as immutable evidence of the workflow defect.
+
 ## Provenance
 
 - Run timestamp: `2026-08-15T12:13:54-07:00`

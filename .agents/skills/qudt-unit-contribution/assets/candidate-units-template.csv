@@ -1,3 +1,3 @@
 unit_expression,measurement_context,qualifier_definition,conversion_definition,conversion_source,source_variable,dataset_id,variable_name,variable_definition,proposed_qname,proposed_quantity_kind,preferred_label,preferred_symbol,known_conversion,reference_url,notes
-GM-PER-HA-DAY,Daily dry biomass production per hectare,,,,,example-dataset,biomass_production,Daily dry-mass production normalized by plot area,,,,,,,Example only
+GM-PER-HA-DAY,Daily dry biomass production per hectare,,,,,example-dataset,biomass_production,Daily dry-mass production normalized by plot area,,,,,,,"Source: docs/example-methods.pdf, p. 12; supports measurement context; example only"
 NUM-PER-M2,Number of seedlings observed per square metre,NUM means a count of individual seedlings,,,,example-dataset,seedling_density,Count of living seedlings in the sampled quadrat,,,,,,,Example only

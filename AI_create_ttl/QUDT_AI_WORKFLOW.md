@@ -52,7 +52,7 @@ QuantityKinds, DimensionVectors, and other modeled values.
 | `preferred_symbol` | Preferred Unicode unit symbol. |
 | `known_conversion` | Contributor-supplied multiplier, offset, or derivation. It accelerates research but still requires verification. |
 | `reference_url` | Link to a dataset, protocol, standard, method, or other contextual source. |
-| `notes` | Ambiguities, concerns, usage details, or review instructions not represented elsewhere. |
+| `notes` | Ambiguities, concerns, usage details, review instructions, and candidate-specific citations or source URLs not represented elsewhere. State briefly what each source may support. |
 
 Start from
 [the candidate template](../.agents/skills/qudt-unit-contribution/assets/candidate-units-template.csv)
@@ -67,6 +67,26 @@ NUM-PER-M2
 Expression-only CSV and legacy lists are normal inputs. Every expression enters
 research. The agent asks consolidated clarification questions only when a
 material ambiguity remains after research and would change the RDF.
+
+## Add Helpful Sources
+
+Put candidate-specific references in `reference_url` or `notes`. Include the
+citation or URL, a precise page/section/row locator when available, and a short
+statement of what the source may support. Do not paste long source text.
+
+When a newly identified source should help future batches, ask the agent to
+evaluate it for the maintained
+[recommended source catalog](../.agents/skills/qudt-unit-contribution/references/recommended-sources.md):
+
+```text
+Evaluate <SOURCE URL OR WORKSPACE PATH> for the QUDT workflow. If suitable,
+add it to the recommended source catalog with its allowed uses, limitations,
+authority class, and review requirements.
+```
+
+The agent checks publisher, provenance, authority, scope, maintenance,
+licensing, known errors, and appropriate claim types before adding the source.
+A catalog entry never overrides the source-precedence rules.
 
 ## Submit a File
 
@@ -229,3 +249,16 @@ target-vocabulary precedent. Preflight reports convention differences as
 warnings for review rather than rejecting otherwise valid RDF.
 
 All generated ontology content requires domain-expert review before submission.
+
+## Improve the Workflow Over Time
+
+Each run's `review.md` includes Workflow Feedback for observed source gaps,
+identity mistakes, conversion or dimensional issues, semantic ambiguity,
+description quality, validation behavior, usability, and upstream QUDT review.
+
+Use the
+[continuous improvement protocol](../.agents/skills/qudt-unit-contribution/references/continuous-improvement.md)
+to promote only source-backed, generalizable lessons. Important workflow changes
+receive regression fixtures, focused validation, a new immutable rerun of the
+affected candidates, and an `AI_WORKLOG.md` entry. Generated historical output
+never becomes authority merely because it exists or recurs.

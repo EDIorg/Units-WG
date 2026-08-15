@@ -37,3 +37,6 @@ or model memory as proof of semantic identity.
 
 See [`research-and-derivation.md`](./research-and-derivation.md) for source
 roles, unit-registry limitations, and required evidence records.
+
+See [`recommended-sources.md`](./recommended-sources.md) for the maintained
+catalog of reusable sources and the process for adding new ones.

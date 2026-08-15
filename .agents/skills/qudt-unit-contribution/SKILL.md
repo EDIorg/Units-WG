@@ -40,6 +40,8 @@ than asking the user to model them.
 ## Source Precedence
 
 Read [`references/source-precedence.md`](./references/source-precedence.md).
+Read [`references/recommended-sources.md`](./references/recommended-sources.md)
+for reusable sources and their allowed uses and limitations.
 Before generating RDF, confirm that the local QUDT source, current wiki, and
 live SPARQL endpoint are reachable. Stop and report the unavailable source if
 any mandatory source cannot be accessed.
@@ -163,7 +165,8 @@ Create these files in the run directory:
 - `decisions.csv`: one row per candidate following
   [`references/decisions-contract.md`](./references/decisions-contract.md)
 - `review.md`: notes, concerns, recommendations, provenance, validation, and
-  questions requiring human review
+  questions requiring human review, plus a Workflow Feedback section following
+  [`references/continuous-improvement.md`](./references/continuous-improvement.md)
 
 Use the templates under `assets/`, adapting them to current nearby QUDT style.
 Reference existing QKs and DVs from `units.ttl`; do not duplicate their

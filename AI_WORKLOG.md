@@ -39,8 +39,9 @@ Use a root `CHANGELOG.md`, when present, for user-facing release history.
   Copilot agent and prompt adapters, structured and legacy input normalization,
   RDF-aware preflight validation, run-specific output guidance, source
   precedence, an auditable research-and-derivation protocol, modeling
-  references, templates, tests, and contributor documentation. Archived
-  entrypoints were renamed to prevent discovery.
+  references, a governed recommended-source catalog, a controlled continuous
+  improvement protocol, templates, tests, and contributor documentation.
+  Archived entrypoints were renamed to prevent discovery.
 - **Decisions:** Current local and published QUDT plus official guidance outrank
   historical project artifacts. `unit_expression` is the only required user
   field; the agent researches all other values and asks only about material

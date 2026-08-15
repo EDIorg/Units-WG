@@ -33,7 +33,7 @@ optional fields do not make a row incomplete.
 | `preferred_symbol` | Contributor's preferred Unicode symbol. |
 | `known_conversion` | Contributor-supplied multiplier, offset, or derivation. It accelerates research but must still be verified. |
 | `reference_url` | Link to a dataset, protocol, standard, method, or other contextual source. |
-| `notes` | Ambiguities, contributor concerns, usage details, or review instructions not represented elsewhere. |
+| `notes` | Ambiguities, contributor concerns, usage details, review instructions, and candidate-specific citations or source URLs not represented elsewhere. Include a concise statement of what each source may support. |
 
 ## Minimal CSV
 
@@ -45,6 +45,12 @@ NUM-PER-M2
 
 Use [`../assets/candidate-units-template.csv`](../assets/candidate-units-template.csv)
 when the additional fields are available.
+
+Use `reference_url` for one simple reference. Put additional candidate-specific
+citations, paths, URLs, locators, and short claim summaries in `notes`, separated
+clearly with semicolons or line breaks inside the CSV cell. Reusable sources that
+should help future batches belong in
+[`recommended-sources.md`](./recommended-sources.md), not candidate input.
 
 ## Missing Information
 
