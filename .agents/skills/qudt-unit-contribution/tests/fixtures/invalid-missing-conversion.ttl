@@ -1,0 +1,14 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+unit:InvalidTestUnit
+  a qudt:Unit ;
+  dcterms:description "Invalid test unit" ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:hasQuantityKind quantitykind:Length ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Invalid Test Unit"@en .

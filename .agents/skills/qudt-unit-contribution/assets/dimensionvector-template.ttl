@@ -1,0 +1,9 @@
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+qkdv:{{VECTOR}}
+  a qudt:QuantityKindDimensionVector ;
+  qudt:latexDefinition "{{LATEX_DEFINITION}}"^^qudt:LatexString ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/dimensionvector> ;
+  rdfs:label "{{VECTOR}}" .
