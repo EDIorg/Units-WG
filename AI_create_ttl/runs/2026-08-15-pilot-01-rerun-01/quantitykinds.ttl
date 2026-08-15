@@ -1,0 +1,4 @@
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+
+# No new QuantityKinds are proposed in this run.

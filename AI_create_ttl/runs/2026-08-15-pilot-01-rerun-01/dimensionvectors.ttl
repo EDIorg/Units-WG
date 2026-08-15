@@ -1,0 +1,4 @@
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+
+# No new DimensionVectors are proposed in this run.

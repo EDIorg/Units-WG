@@ -38,20 +38,29 @@ Use a root `CHANGELOG.md`, when present, for user-facing release history.
 - **Outcome:** Added one authoritative skill under `.agents/skills/`, thin
   Copilot agent and prompt adapters, structured and legacy input normalization,
   RDF-aware preflight validation, run-specific output guidance, source
-  precedence, modeling references, templates, tests, and contributor
-  documentation. Archived entrypoints were renamed to prevent discovery.
+  precedence, an auditable research-and-derivation protocol, modeling
+  references, templates, tests, and contributor documentation. Archived
+  entrypoints were renamed to prevent discovery.
 - **Decisions:** Current local and published QUDT plus official guidance outrank
   historical project artifacts. `unit_expression` is the only required user
   field; the agent researches all other values and asks only about material
   ambiguities that remain. Language-tag convention differences are review
-  warnings rather than hard failures. New QuantityKinds and DimensionVectors
-  are drafted and flagged for review. Optimized for reliability and operational
-  excellence at the cost of additional research and validation work.
+  warnings rather than hard failures. Unit identity preserves valid factor
+  expressions instead of collapsing algebraically equal qnames; compound drafts
+  include explicit expressions and factor units. New QuantityKinds and
+  DimensionVectors are drafted and flagged for review. The EDI/LTER
+  `unit-registry` is restricted to Unit-description research leads; it cannot
+  inform conversions, QKs, DVs, context, or other generated values. Optimized
+  for reliability and operational excellence at the cost of additional
+  research and validation work.
 - **Verification:** Parsed all customization frontmatter; validated local links;
   ran Ruff, Black, and four intake tests; normalized all 98 legacy expressions
   as research-ready; verified the live SPARQL endpoint; and confirmed RDF
   preflight accepts complete drafts and intentional language-tag variants while
-  rejecting missing conversions and conflicting unit/QuantityKind vectors.
+  rejecting missing or inconsistent conversions and conflicting
+  unit/QuantityKind vectors. Current precise QUDT QuantityKind relations and
+  source-guideline requirements were checked against the local QUDT source and
+  official wiki.
 - **Limitations/follow-up:** Generated content still requires authoritative
   conversion research, current QUDT build validation, and domain-expert review
   during each run.

@@ -9,5 +9,6 @@ quantitykind:{{QNAME}}
   dcterms:description "{{DESCRIPTION}}" ;
   qudt:hasDimensionVector qkdv:{{DIMENSION_VECTOR}} ;
   qudt:plainTextDescription "{{PLAIN_TEXT_DESCRIPTION}}" ;
+  qudt:{{HIERARCHY_RELATION}} quantitykind:{{BROADER_QUANTITY_KIND}} ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
   rdfs:label "{{LABEL}}"@en .

@@ -6,12 +6,22 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
 unit:{{QNAME}}
-  a qudt:Unit ;
+  a qudt:DerivedUnit, qudt:Unit ;
   dcterms:description "{{DESCRIPTION}}" ;
   qudt:conversionMultiplier {{DECIMAL_MULTIPLIER}} ;
   qudt:conversionMultiplierSN {{SCIENTIFIC_MULTIPLIER}} ;
+  qudt:expression "{{LATEX_EXPRESSION}}"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:{{DIMENSION_VECTOR}} ;
-  qudt:hasQuantityKind quantitykind:{{QUANTITY_KIND}} ;
+  qudt:hasFactorUnit [
+      qudt:exponent {{FACTOR_1_EXPONENT}} ;
+      qudt:hasUnit unit:{{FACTOR_1_UNIT}} ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent {{FACTOR_2_EXPONENT}} ;
+      qudt:hasUnit unit:{{FACTOR_2_UNIT}} ;
+    ] ;
+  qudt:plainTextDescription "{{PLAIN_TEXT_DESCRIPTION}}" ;
+  qudt:unitForQuantityKind quantitykind:{{QUANTITY_KIND}} ;
   qudt:symbol "{{SYMBOL}}" ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "{{LABEL}}"@en .

@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+unit:KiloM-PER-KiloM2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of length per area expressed as kilometre per square kilometre, equal to 0.001 reciprocal metre." ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1.0E-3 ;
+  qudt:expression "$km/km^2$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:plainTextDescription "A unit of length per area expressed as kilometre per square kilometre, equal to 0.001 reciprocal metre." ;
+  qudt:symbol "km/km²" ;
+  qudt:ucumCode "km.km-2"^^qudt:UCUMcs ;
+  qudt:unitForQuantityKind quantitykind:InverseLength ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilometer per Square Kilometer"@en-US ;
+  rdfs:label "Kilometre per Square Kilometre"@en .
+
+unit:M2-PER-M3
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of area per volume expressed as square metre per cubic metre, equal to one reciprocal metre." ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 1.0 ;
+  qudt:conversionMultiplierSN 1.0E0 ;
+  qudt:expression "$m^2/m^3$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent -3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent 2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:plainTextDescription "A unit of area per volume expressed as square metre per cubic metre, equal to one reciprocal metre." ;
+  qudt:symbol "m²/m³" ;
+  qudt:ucumCode "m2.m-3"^^qudt:UCUMcs ;
+  qudt:unitForQuantityKind quantitykind:InverseLength ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Square Meter per Cubic Meter"@en-US ;
+  rdfs:label "Square Metre per Cubic Metre"@en .
+
+unit:KiloJ-PER-M2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of energy per area equal to 1000 joules per square metre." ;
+  qudt:applicableSystem sou:CGS ;
+  qudt:applicableSystem sou:CGS-EMU ;
+  qudt:applicableSystem sou:CGS-GAUSS ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 1000.0 ;
+  qudt:conversionMultiplierSN 1.0E3 ;
+  qudt:expression "$kJ/m^2$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-2D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloJ ;
+    ] ;
+  qudt:plainTextDescription "A unit of energy per area equal to 1000 joules per square metre." ;
+  qudt:symbol "kJ/m²" ;
+  qudt:ucumCode "kJ.m-2"^^qudt:UCUMcs ;
+  qudt:unitForQuantityKind quantitykind:EnergyFluence ;
+  qudt:unitForQuantityKind quantitykind:EnergyPerArea ;
+  qudt:unitForQuantityKind quantitykind:RadiantFluence ;
+  qudt:unitForQuantityKind quantitykind:StrainEnergyReleaseRate ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilojoule per Square Meter"@en-US ;
+  rdfs:label "Kilojoule per Square Metre"@en .

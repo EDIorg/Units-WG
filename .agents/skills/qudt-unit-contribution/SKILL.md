@@ -44,6 +44,15 @@ Before generating RDF, confirm that the local QUDT source, current wiki, and
 live SPARQL endpoint are reachable. Stop and report the unavailable source if
 any mandatory source cannot be accessed.
 
+Read and follow
+[`references/research-and-derivation.md`](./references/research-and-derivation.md)
+for conversion arithmetic, DimensionVector derivation, QuantityKind semantics,
+description synthesis, and evidence quality. If the EDI/LTER `unit-registry` is
+available as a workspace folder or through `UNIT_REGISTRY_ROOT`, record its
+commit and use it only for Unit-description research within the strict limits
+in that reference. It must not inform conversions, QKs, DVs, or other generated
+values. Its absence does not block a run.
+
 ## Workflow
 
 ### 1. Create an isolated run
@@ -84,8 +93,16 @@ aliases, and spelling variants in both:
 
 Also check whether a matching resource exists on the local branch but not in
 the published endpoint, or vice versa. Record the result and evidence in
-`decisions.csv`. If the same unit exists, reuse its URI and do not emit a new
-unit definition.
+`decisions.csv`.
+
+Treat the submitted factor expression as part of Unit identity. Algebraic or
+numeric equivalence to a simpler unit does not make the candidate a duplicate:
+QUDT may preserve distinct expressions such as `M-PER-M2` and `PER-M`, or
+`J-PER-M2` and `N-PER-M`. If the exact qname is absent and the expression is
+valid, continue toward a draft while recording equivalent units as evidence.
+Stop as `existing-unit` only when the current QUDT resource represents the same
+modeled expression or when the candidate is merely an alternate label or
+spelling of that resource.
 
 ### 4. Learn current constraints and precedents
 
@@ -100,27 +117,43 @@ according to source precedence.
 
 ### 5. Model composition and semantics
 
-Derive the dimension vector from the physical expression. Select QuantityKinds
-from measurement meaning, not dimensionality alone. Verify every reused QK and
-DV in local and published QUDT.
+Apply the factor-by-factor derivation and semantic-hypothesis procedures in the
+research protocol. Derive the DimensionVector from verified constituent vectors.
+Select QuantityKinds from measurement meaning, not dimensionality alone. Verify
+every reused QK and DV in local and published QUDT.
 
 - Reuse existing resources whenever their identity and semantics match.
 - A new QuantityKind may use an existing DimensionVector.
 - A unit may have more than one QuantityKind when current QUDT semantics and
   precedents support all assignments; do not impose an artificial one-QK rule.
+- Prefer `qudt:unitForQuantityKind` for a commensurate unit assignment and
+  `qudt:categorizedByQuantityKind` for organizational categorization. Use the
+  legacy `qudt:hasQuantityKind` only when current target precedent requires it.
 - Draft a new QK or DV only when no suitable current resource exists.
 - Mark every new QK or DV `draft-review` in `decisions.csv` and `review.md`.
 
 ### 6. Verify conversions
 
-Trace each multiplier and offset to an authoritative definition such as BIPM,
-NIST, ISO, or a jurisdictional standard. Transparent arithmetic from exact
-definitions is allowed when the derivation and source are recorded.
+Use the research protocol's exact conversion procedure. Trace each multiplier
+and offset to an authoritative definition such as BIPM, NIST, ISO, or a
+jurisdictional standard. Record the reference unit, equation, constituent
+factors, arithmetic, exactness, decimal and scientific values, and sources.
 
 Do not place `TODO_VERIFY`, guessed values, or uncertain conversions in Turtle.
 Keep unresolved candidates in the report with status `blocked-conversion`.
 
-### 7. Generate the output package
+### 7. Research descriptions
+
+Use the research protocol to synthesize original, source-backed Unit and
+QuantityKind descriptions. Do not infer ecological uses from the unit spelling
+or copy historical registry prose. Record description sources, rationale,
+semantic hypotheses, and confidence in `decisions.csv`.
+
+If unit composition is established but measurement semantics remain ambiguous,
+do not draft a QuantityKind description. Present the researched alternatives
+for clarification.
+
+### 8. Generate the output package
 
 Create these files in the run directory:
 
@@ -137,6 +170,11 @@ Reference existing QKs and DVs from `units.ttl`; do not duplicate their
 definitions. Files with no new resources may contain prefixes and an explanatory
 comment but no placeholder resources.
 
+For every compound or powered unit, emit `qudt:expression` and explicit
+`qudt:hasFactorUnit` nodes matching the qname. QUDT can infer factor units during
+its build, but review artifacts must remain auditable when that build is not
+available.
+
 Candidate statuses are:
 
 - `existing-unit`
@@ -146,7 +184,7 @@ Candidate statuses are:
 - `blocked-conversion`
 - `blocked-source`
 
-### 8. Validate
+### 9. Validate
 
 Run:
 

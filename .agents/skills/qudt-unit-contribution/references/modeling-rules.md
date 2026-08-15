@@ -9,6 +9,9 @@ experiments.
 - Search local and published QUDT by qname, label, symbol, aliases, spelling
   variants, dimension, and semantics before creating a resource.
 - Reuse only when identity and meaning match, not merely dimensionality.
+- Preserve valid factor expressions as distinct Unit identities when the exact
+  qname is absent. Algebraic equality to a simpler unit is evidence, not an
+  automatic duplicate decision.
 - Use `skos:altLabel` for alternate names of one unit. Distinct established
   synonymous units may require separate resources linked by `qudt:exactMatch`.
 
@@ -73,10 +76,20 @@ A normal contribution includes:
 - `qudt:conversionMultiplier` as `xsd:decimal`
 - `qudt:conversionMultiplierSN` as `xsd:double`
 - `qudt:hasDimensionVector`
-- one or more dimensionally compatible `qudt:hasQuantityKind` values
+- one or more dimensionally compatible QuantityKind relations, preferably
+  `qudt:unitForQuantityKind` for commensurate assignments or
+  `qudt:categorizedByQuantityKind` for organizational categories;
+  `qudt:hasQuantityKind` is the legacy super-property
 - `rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>`
 - at least one ASCII `rdfs:label`; current submission guidance prefers a
   language tag
+
+Compound and powered units also include:
+
+- `qudt:expression`
+- explicit `qudt:hasFactorUnit` nodes whose units and integer exponents match
+  the qname; `a qudt:FactorUnit` is valid but not required by QUDT's inference
+  output
 
 Use `qudt:conversionOffset` only when the conversion requires an offset. Bare
 Turtle values such as `0.001` and `1.0E-3` already denote `xsd:decimal` and
@@ -89,6 +102,10 @@ project quality preferences from current QUDT schema requirements.
 Templates use the current common QUDT tagging convention by default. Preflight
 warns about other choices rather than rejecting them. Record intentional
 language-tag deviations and supporting precedents in the decisions ledger.
+
+Follow [`research-and-derivation.md`](./research-and-derivation.md) for exact
+conversion arithmetic, factor-vector composition, semantic hypothesis testing,
+and evidence-backed description synthesis.
 
 ## Historical Lessons Retained
 

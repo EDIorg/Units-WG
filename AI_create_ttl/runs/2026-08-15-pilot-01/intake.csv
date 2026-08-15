@@ -1,0 +1,4 @@
+record_id,unit_expression,measurement_context,qualifier_definition,conversion_definition,conversion_source,source_variable,dataset_id,variable_name,variable_definition,proposed_qname,proposed_quantity_kind,preferred_label,preferred_symbol,known_conversion,reference_url,notes,source_line,intake_status,intake_issues
+unit-0001,KiloM-PER-KiloM2,,,,,,,,,,,,,,,,2,ready-for-research,
+unit-0002,M2-PER-M3,,,,,,,,,,,,,,,,3,ready-for-research,
+unit-0003,KiloJ-PER-M2,,,,,,,,,,,,,,,,4,ready-for-research,

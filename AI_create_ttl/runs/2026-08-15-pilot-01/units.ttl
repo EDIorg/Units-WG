@@ -1,0 +1,25 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+unit:KiloJ-PER-M2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of energy per area equal to 1000 joules per square metre." ;
+  qudt:applicableSystem sou:SI ;
+  qudt:conversionMultiplier 1000.0 ;
+  qudt:conversionMultiplierSN 1.0E3 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-2D0 ;
+  qudt:plainTextDescription "A unit of energy per area equal to 1000 joules per square metre." ;
+  qudt:symbol "kJ/m²" ;
+  qudt:ucumCode "kJ.m-2"^^qudt:UCUMcs ;
+  qudt:unitForQuantityKind quantitykind:EnergyFluence ;
+  qudt:unitForQuantityKind quantitykind:EnergyPerArea ;
+  qudt:unitForQuantityKind quantitykind:RadiantFluence ;
+  qudt:unitForQuantityKind quantitykind:StrainEnergyReleaseRate ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilojoule per Square Meter"@en-US ;
+  rdfs:label "Kilojoule per Square Metre"@en .

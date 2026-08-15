@@ -7,7 +7,7 @@ if [[ $# -lt 1 ]]; then
   exit 2
 fi
 
-for command in rapper rg; do
+for command in python3 rapper rg; do
   if ! command -v "$command" >/dev/null 2>&1; then
     printf 'ERROR: required command not found: %s\n' "$command" >&2
     exit 2
@@ -52,6 +52,23 @@ require_predicate() {
   local label=$4
   if [[ $(predicate_count "$triples" "$subject" "$predicate") -eq 0 ]]; then
     report_error "${subject} missing ${label}"
+  fi
+}
+
+require_quantity_kind_relation() {
+  local triples=$1
+  local subject=$2
+  local unit_for_count
+  local categorized_count
+  local legacy_count
+  unit_for_count=$(predicate_count "$triples" "$subject" "${qudt_ns}unitForQuantityKind")
+  categorized_count=$(predicate_count "$triples" "$subject" "${qudt_ns}categorizedByQuantityKind")
+  legacy_count=$(predicate_count "$triples" "$subject" "${qudt_ns}hasQuantityKind")
+
+  if [[ $((unit_for_count + categorized_count + legacy_count)) -eq 0 ]]; then
+    report_error "${subject} missing a QuantityKind relation"
+  elif [[ $unit_for_count -eq 0 && $categorized_count -eq 0 && $legacy_count -gt 0 ]]; then
+    report_warning "${subject} uses legacy qudt:hasQuantityKind; prefer a precise current relation"
   fi
 }
 
@@ -103,6 +120,42 @@ check_decimal() {
   fi
 }
 
+check_multiplier_equivalence() {
+  local triples=$1
+  local subject=$2
+  if ! python3 - "$triples" "$subject" "${qudt_ns}conversionMultiplier" \
+    "${qudt_ns}conversionMultiplierSN" <<'PY'
+from decimal import Decimal, InvalidOperation
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1])
+subject = sys.argv[2]
+predicates = sys.argv[3:]
+
+
+def value(predicate: str) -> Decimal:
+    prefix = f"{subject} <{predicate}> "
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith(prefix):
+            rdf_object = line[len(prefix) :].removesuffix(" .")
+            lexical = rdf_object.split('"^^<', 1)[0].strip('"')
+            return Decimal(lexical)
+    raise ValueError(f"missing {predicate}")
+
+
+try:
+    decimal_value, scientific_value = (value(predicate) for predicate in predicates)
+except (InvalidOperation, ValueError):
+    raise SystemExit(1)
+
+raise SystemExit(0 if decimal_value == scientific_value else 1)
+PY
+  then
+    report_error "${subject} conversionMultiplier and conversionMultiplierSN are not numerically equivalent"
+  fi
+}
+
 for file in "$@"; do
   if [[ ! -f "$file" ]]; then
     report_error "file not found: ${file}"
@@ -130,7 +183,7 @@ for file in "$@"; do
     require_predicate "$triples" "$subject" "${qudt_ns}conversionMultiplier" qudt:conversionMultiplier
     require_predicate "$triples" "$subject" "${qudt_ns}conversionMultiplierSN" qudt:conversionMultiplierSN
     require_predicate "$triples" "$subject" "${qudt_ns}hasDimensionVector" qudt:hasDimensionVector
-    require_predicate "$triples" "$subject" "${qudt_ns}hasQuantityKind" qudt:hasQuantityKind
+    require_quantity_kind_relation "$triples" "$subject"
     require_predicate "$triples" "$subject" "$rdfs_is_defined_by" rdfs:isDefinedBy
     require_predicate "$triples" "$subject" "$rdfs_label" rdfs:label
     require_object "$triples" "$subject" "$rdfs_is_defined_by" \
@@ -142,9 +195,19 @@ for file in "$@"; do
     if [[ $(predicate_count "$triples" "$subject" "${qudt_ns}hasDimensionVector") -gt 1 ]]; then
       report_error "${subject} has more than one DimensionVector"
     fi
+    local_name=${subject##*/}
+    local_name=${local_name%>}
+    if [[ "$local_name" == *-* || "$local_name" == *-PER-* || "$local_name" =~ [A-Za-z][2-6]($|-) ]]; then
+      require_predicate "$triples" "$subject" "${qudt_ns}expression" qudt:expression
+      require_predicate "$triples" "$subject" "${qudt_ns}hasFactorUnit" qudt:hasFactorUnit
+    fi
     check_decimal "$triples" "$subject" "${qudt_ns}conversionMultiplier" decimal qudt:conversionMultiplier
     check_decimal "$triples" "$subject" "${qudt_ns}conversionMultiplierSN" double qudt:conversionMultiplierSN
     check_decimal "$triples" "$subject" "${qudt_ns}conversionOffset" decimal qudt:conversionOffset
+    if [[ $(predicate_count "$triples" "$subject" "${qudt_ns}conversionMultiplier") -gt 0 \
+      && $(predicate_count "$triples" "$subject" "${qudt_ns}conversionMultiplierSN") -gt 0 ]]; then
+      check_multiplier_equivalence "$triples" "$subject"
+    fi
 
     if [[ $(predicate_count "$triples" "$subject" "${qudt_ns}plainTextDescription") -eq 0 ]]; then
       report_warning "${subject} has no qudt:plainTextDescription"
@@ -204,9 +267,12 @@ while read -r unit_subject quantity_kind; do
   fi
 done < <(
   awk -v type="<${rdf_type}>" -v unit_class="<${qudt_ns}Unit>" \
-    -v qk_predicate="<${qudt_ns}hasQuantityKind>" '
+    -v precise_predicate="<${qudt_ns}unitForQuantityKind>" \
+    -v legacy_predicate="<${qudt_ns}hasQuantityKind>" '
       $2 == type && $3 == unit_class { units[$1] = 1 }
-      $2 == qk_predicate { assignments[$1] = assignments[$1] " " $3 }
+      $2 == precise_predicate || $2 == legacy_predicate {
+        assignments[$1] = assignments[$1] " " $3
+      }
       END {
         for (unit in units) {
           count = split(assignments[unit], qks, " ")

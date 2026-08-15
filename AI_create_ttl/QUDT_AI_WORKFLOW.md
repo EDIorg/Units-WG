@@ -156,11 +156,36 @@ The Turtle files contain only new draft resources. Existing QUDT resources are
 referenced but not redefined. New QuantityKinds and DimensionVectors are marked
 for human review.
 
+Unit duplicate checks preserve the submitted factor expression. An
+algebraically equal simpler unit does not automatically replace a candidate:
+QUDT may retain both expressions when their factorization, symbol, UCUM code, or
+semantic family differs. Only an exact modeled-expression match or a true
+alternate label/spelling is treated as `existing-unit`.
+
+Compound and powered Unit drafts include `qudt:expression` and explicit
+`qudt:hasFactorUnit` nodes. These remain reviewable even when the QUDT build that
+normally infers and validates factors is unavailable.
+
 `decisions.csv` records the disposition and evidence for every candidate using
 the stable
 [decisions ledger contract](../.agents/skills/qudt-unit-contribution/references/decisions-contract.md).
 `review.md` records provenance, concerns, recommendations, validation results,
 limitations, and unresolved questions.
+
+## Research Sources
+
+The workflow follows the documented
+[research and derivation protocol](../.agents/skills/qudt-unit-contribution/references/research-and-derivation.md).
+Current QUDT sources determine ontology structure. BIPM, NIST, standards bodies,
+jurisdictional definitions, and authoritative domain organizations support
+conversions and definitions. Dataset metadata and domain references support
+measurement meaning and descriptions.
+
+The EDI/LTER `unit-registry` may be used only as a secondary lead for Unit
+description research. Every retained description claim requires independent
+confirmation, and registry text must not be copied verbatim. It must not inform
+conversions, labels, aliases, deprecations, QuantityKinds, DimensionVectors,
+measurement context, or any other generated value.
 
 ## Candidate Statuses
 
