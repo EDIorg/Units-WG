@@ -1476,7 +1476,7 @@ unit:MilliMOL-PER-MOL-SEC
 	    rdf:type qudt:DerivedUnit ;
 	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
-	# Pressure-normalized molarity
+	# Pressure-normalized molar concentration
 unit:MOL-PER-L-ATM
 	    a qudt:Unit ;
 	    rdfs:label "Mole per Liter per Atmosphere"@en ;
@@ -1484,7 +1484,7 @@ unit:MOL-PER-L-ATM
 	    qudt:plainTextDescription "Mole per liter per atmosphere describes pressure-dependent solubility or concentration relationships, commonly used in gas-liquid equilibrium studies and atmospheric chemistry." ;
 	    qudt:applicableSystem unit:SI ;
 	    qudt:hasDimensionVector qkdv:A1E0L2I0M-1H0T2D0 ;
-	    qudt:hasQuantityKind quantitykind:PressureNormalizedMolarity ;
+	    qudt:hasQuantityKind quantitykind:PressureNormalizedMolarConcentration ;
 	    qudt:conversionMultiplier 0.009869232667160128 ;
 	    qudt:conversionMultiplierSN 9.869232667160128E-3 ;
 	    qudt:symbol "mol/(L⋅atm)" ;
