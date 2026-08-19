@@ -93,14 +93,33 @@ quantitykind:MolarSpecificBiogeochemicalRate
 
 ##### YOU ARE HERE
 
-
 # Quantity Kind: MolarVolumetricRate
 # only available is catalalyticActivityConcentration, which is for enzymes. need a parent for that (is this that parent? notes dont explain)
+# there is this: https://qudt.org/vocab/unit/MilliMOL-PER-M3-DAY.html which hasquantitykind CatalyticActivityConcentration
+# no idea if this new unit is for enzyme activity or not. so make a new one (that could be a parent) or drop the unit.
 
-# Quantity Kind: PressureNormalizedMolarity
-# goes with new DV. check that is really is molarity, not moles per liter.
+# ask Steve Ray - I need a qk relationship viewer
+
+
+
+
+
+
+# Quantity Kind: PressureNormalizedMolarConcentration
+# TO DO: find an informative reference. 
+quantitykind:PressureNormalizedMolarConcentration
+  a qudt:QuantityKind ;
+  qudt:hasDimensionVector qkdv:A1E0L2I0M-1H0T2D0 ;
+  qudt:qkdvDenominator qkdv: ;
+  qudt:qkdvNumerator qkdv: ;
+  qudt:informativeReference "^^xsd:anyURI ;
+  qudt:applicableUnit unit:
+  qudt:plainTextDescription """Measures how much a molar contectration changes per unit of pressure. Compolsed of a gas or solute's concentration divided (or normalized) by the system's partial pressue. Derived from the Ideal Gas Law. """ ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+  rdfs:label "Pressure-normalized Molar Concentration"@en
+  .
+
 
 # Quantity Kind: VolumeRatio
 # diminsionless, two  units, ml/ml, cm3/cm3
-
 
