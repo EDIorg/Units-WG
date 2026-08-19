@@ -89,6 +89,21 @@ quantitykind:MolarSpecificBiogeochemicalRate
   .
 
 
+# Quantity Kind: PressureNormalizedMolarConcentration
+# TO DO: find an informative reference. 
+quantitykind:PressureNormalizedMolarConcentration
+  a qudt:QuantityKind ;
+  qudt:hasDimensionVector qkdv:A1E0L2I0M-1H0T2D0 ;
+  qudt:qkdvDenominator qkdv: ;
+  qudt:qkdvNumerator qkdv: ;
+  qudt:informativeReference "^^xsd:anyURI ;
+  qudt:applicableUnit unit:
+  qudt:plainTextDescription """Measures how much a molar contectration changes per unit of pressure. Compolsed of a gas or solute's concentration divided (or normalized) by the system's partial pressue. Derived from the Ideal Gas Law. """ ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+  rdfs:label "Pressure-normalized Molar Concentration"@en
+  .
+
+
 
 
 ##### YOU ARE HERE
@@ -104,20 +119,6 @@ quantitykind:MolarSpecificBiogeochemicalRate
 
 
 
-
-# Quantity Kind: PressureNormalizedMolarConcentration
-# TO DO: find an informative reference. 
-quantitykind:PressureNormalizedMolarConcentration
-  a qudt:QuantityKind ;
-  qudt:hasDimensionVector qkdv:A1E0L2I0M-1H0T2D0 ;
-  qudt:qkdvDenominator qkdv: ;
-  qudt:qkdvNumerator qkdv: ;
-  qudt:informativeReference "^^xsd:anyURI ;
-  qudt:applicableUnit unit:
-  qudt:plainTextDescription """Measures how much a molar contectration changes per unit of pressure. Compolsed of a gas or solute's concentration divided (or normalized) by the system's partial pressue. Derived from the Ideal Gas Law. """ ;
-  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
-  rdfs:label "Pressure-normalized Molar Concentration"@en
-  .
 
 
 # Quantity Kind: VolumeRatio
