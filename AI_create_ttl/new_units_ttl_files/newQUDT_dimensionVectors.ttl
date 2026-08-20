@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix voag: <http://voag.linkedmodel.org/schema/voag#> .
+
+<http://qudt.org/$$QUDT_VERSION$$/vocab/dimensionvector>
+  a owl:Ontology ;
+  owl:imports <http://qudt.org/$$QUDT_VERSION$$/schema/facade/qudt> ;
+  owl:versionIRI <http://qudt.org/$$QUDT_VERSION$$/vocab/dimensionvector> ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/dimensionvector> ;
+  rdfs:label "QUDT VOCAB Dimension Vectors Release $$QUDT_VERSION$$" ;
+  vaem:hasGraphMetadata vaem:GMD_QUDT-DIMENSION-VECTORS .
+
+# goes with new Quantity Kind: PressureNormalizedMolarConcentration
+qkdv:A1E0L2I0M-1H0T2D0
+  a qudt:QuantityKindDimensionVector, qudt:QuantityKindDimensionVector_ISO, qudt:QuantityKindDimensionVector_Imperial, qudt:QuantityKindDimensionVector_SI ;
+  qudt:latexDefinition " $A^{1}$ $L^{2}$ $T^{2}$ $M^{-1}$ "^^qudt:LatexString ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/dimensionvector> ;
+  rdfs:label "A1E0L2I0M-1H0T2D0" .
