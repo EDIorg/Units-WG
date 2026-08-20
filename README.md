@@ -1,6 +1,9 @@
 # Units-WG
 
-Established in 2022, the Units team is working to identify a modern, community-driven replacement for an existing [unit registry](https://github.com/EDIorg/unit-registry) based on a MySql database and PHP web services. The WG has identified [QUDT](https://qudt.org/) as an appropriate framework for listing and describing units in ecological metadata, and is working to identify the best approaches to incorporating QUDT services and metadata into Ecological Metadata Language (EML) metadata records.
+Established in 2022, the Units team is working to identify a modern, community-driven replacement for an existing [unit registry](https://github.com/EDIorg/unit-registry) based on a MySql database and PHP web services. The WG has identified [QUDT](https://qudt.org/) as an appropriate framework for listing and describing units in ecological metadata, and is working to identify the best approaches to incorporating QUDT services and metadata into Ecological Metadata Language (EML) metadata records. We work with metadata supplied by EDI, DataONE and NEON
+
+- 2024: created code to match unit strings in EML metadata to existing QUDT units. Code was incorporated into EDI's ezEML editor. See 2025 paper, below.
+- 2025-2026: defining >80 additional units for QUDT (in progress)
 
 ## contributors:
 
