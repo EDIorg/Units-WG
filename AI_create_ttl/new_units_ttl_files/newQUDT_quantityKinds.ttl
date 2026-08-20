@@ -106,21 +106,37 @@ quantitykind:PressureNormalizedMolarConcentration
 
 
 
-##### YOU ARE HERE
+##### YOU ARE HERE - placeholder QKs so you can validate with Maven
+# ask Steve Ray - I need a qk relationship viewer
 
 # Quantity Kind: MolarVolumetricRate
 # only available is catalalyticActivityConcentration, which is for enzymes. need a parent for that (is this that parent? notes dont explain)
 # there is this: https://qudt.org/vocab/unit/MilliMOL-PER-M3-DAY.html which hasquantitykind CatalyticActivityConcentration
 # no idea if this new unit is for enzyme activity or not. so make a new one (that could be a parent) or drop the unit.
 
-# ask Steve Ray - I need a qk relationship viewer
-
-
-
-
-
+quantitykind:MolarVolumetricRate
+  a qudt:QuantityKind ;
+  qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T-1D0 ;
+  qudt:qkdvNumerator qkdv:A1EL0I0M0H0T0D0 ;
+  qudt:qkdvDenominator qkdv:A0E0L-3I0M0H0T-1D0 ; 
+  qudt:informativeReference "^^xsd:anyURI ;
+  qudt:applicableUnit unit:
+  qudt:plainTextDescription """Measures change in a molar contectration over time. """ ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+  rdfs:label "Molar Volumetric Rate"@en
+  .
 
 
 # Quantity Kind: VolumeRatio
 # diminsionless, two  units, ml/ml, cm3/cm3
-
+quantitykind:VolumeRatio
+  a qudt:QuantityKind ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:qkdvNumerator qkdv:A0EL3I0M0H0T0D0 ;
+  qudt:qkdvDenominator qkdv:A0E0L-3I0M0H0T0D0 ; 
+  qudt:informativeReference "^^xsd:anyURI ;
+  qudt:applicableUnit unit:
+  qudt:plainTextDescription """Ratio of two volumes. """ ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+  rdfs:label "Volume Ratio"@en
+.
