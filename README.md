@@ -30,7 +30,7 @@ Established in 2022, the Units team is working to identify a modern, community-d
 ## Logistics
 
 - We meet via zoom on the second Wednesday of each month at 8:00 Pacific/11:00 Eastern.
-- Project [notes](https://docs.google.com/document/d/1xcpPLf1hspfhjSRU9j5RCPqEBkwRQycN/edit?tab=t.0#heading=h.i3a597n98vfp)  
+- Project [notes](https://docs.google.com/document/d/1xcpPLf1hspfhjSRU9j5RCPqEBkwRQycN/edit)  
 
 ## Products
 - paper and dataset: 
