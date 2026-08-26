@@ -12,61 +12,45 @@
 
 
 ### July-Aug 2026 entries START HERE
+# here are some unicode characters, to force file encoding: Siła ciężkości
+
 
 # Quantity Kind: ConcentrationRate
 # used for three: ppm/sec, ppm/hr, ppm/min. so DV is A0E0L0I0M0H0T-1D0 (reduces to 1/t),
 # TO DO - find a symbol to copy
+# this one got thru mvn spotless:apply 25 aug 2026
 quantitykind:ConcentrationRate 
     a qudt:QuantityKind ;
     rdfs:label "Concentration Rate"@en ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
     qudt:symbol "" ;
     qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
 ## TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
 ## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
-    qudt:applicableUnit unit:PPM-PER-SEC ;
-    qudt:applicableUnit unit:PPM-PER-HR ;
-    qudt:applicableUnit unit:PPM-PER-MIN ;
-    dcterms:description "ConcentrationRate represents a change in concentration over time."^^xsd:string 
-    dcterms:plainTextDescription "ConcentrationRate represents a change in concentration over time."^^xsd:string 
-
+# leave these off for now, units don't exist yet.
+#    qudt:applicableUnit unit:PPM-PER-SEC ;
+#    qudt:applicableUnit unit:PPM-PER-HR ;
+#    qudt:applicableUnit unit:PPM-PER-MIN ;
+    dcterms:description """ConcentrationRate represents a change in concentration over time.""" ;
+    dcterms:plainTextDescription """ConcentrationRate represents a change in concentration over time."""; 
 .
 
-
+# got thru mvn spotless:apply
 # Quantity Kind: CountPerLength
 quantitykind:CountPerLength 
     a qudt:QuantityKind ;
     rdfs:label "Count Per Length"@en ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
     qudt:symbol "n/L" ;
     qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
-## TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
-## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
-    qudt:applicableUnit unit:NUM-PER-KiloM ;
-    dcterms:description "Count per length quantifies the linear density of objects along linear features such as transects"^^xsd:string 
-    dcterms:plainTextDescription "Count per length quantifies the linear density of objects along linear features such as transects"^^xsd:string 
-
+# TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
+# TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
+# TO DO    qudt:applicableUnit unit:NUM-PER-KiloM ;
+    dcterms:description "Count per length quantifies the linear density of objects along linear features such as transects"^^xsd:string ;
+    dcterms:plainTextDescription "Count per length quantifies the linear density of objects along linear features such as transects"^^xsd:string ;
 .
 
-
-# Quantity Kind: CountRatePerVolume
-# to do: might need to rename this to account for the time being at the end now, not volume? so its more like an object-concentration per time. 
-quantitykind:CountRatePerVolume 
-    a qudt:QuantityKind ;
-    rdfs:label "Count Rate Per Volume"@en ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
-    qudt:symbol "n/L" ;
-    qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
-## TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
-## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
-    qudt:applicableUnit unit:NUM-PER-L-MIN ;
-    dcterms:description "CountRatePerVolume measures the rate of discrete events or objects per unit volume per unit time"^^xsd:string 
-    dcterms:plainTextDescription "CountRatePerVolume measures the rate of discrete events or objects per unit volume per unit time"^^xsd:string 
-
-.
-
-
-
+# got thru mvn spotless:apply
 # Quantity Kind: MoleSpecificBiogeochemicalRate
 # intended to be a partner to MassSpecificBiogeochemicalRate
 # TO DO: decide on name, edit units (MolarTurnoverRate). 
@@ -79,28 +63,28 @@ quantitykind:MolarSpecificBiogeochemicalRate
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T-1D0 ;
   qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
   qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
-  qudt:informativeReference "^^xsd:anyURI ;
-  qudt:applicableUnit unit:MilliMOL-PER-MOL-SEC
+  qudt:informativeReference ""^^xsd:anyURI ;
+#  qudt:applicableUnit unit:MilliMOL-PER-MOL-SEC
   qudt:plainTextDescription """the rate at which a specific chemical element or compound is processed or transformed within an
     ecosystem, calculated per mole of the relevant biological material. Unreduced, SI unit is mol * mol-1 * s-1
   """ ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
-  rdfs:label "Molar Specific Biogeochemical Rate"@en 
+  rdfs:label "Molar Specific Biogeochemical Rate"@en ;
   .
 
-
+  # got thru mvn spotless:apply
 # Quantity Kind: PressureNormalizedMolarConcentration
 # TO DO: find an informative reference. 
 quantitykind:PressureNormalizedMolarConcentration
   a qudt:QuantityKind ;
   qudt:hasDimensionVector qkdv:A1E0L2I0M-1H0T2D0 ;
-  qudt:qkdvDenominator qkdv: ;
-  qudt:qkdvNumerator qkdv: ;
-  qudt:informativeReference "^^xsd:anyURI ;
-  qudt:applicableUnit unit:
+ # qudt:qkdvDenominator qkdv: ;
+ # qudt:qkdvNumerator qkdv: ;
+  qudt:informativeReference ""^^xsd:anyURI ;
+ #  qudt:applicableUnit unit: ;
   qudt:plainTextDescription """Measures how much a molar contectration changes per unit of pressure. Compolsed of a gas or solute's concentration divided (or normalized) by the system's partial pressue. Derived from the Ideal Gas Law. """ ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
-  rdfs:label "Pressure-normalized Molar Concentration"@en
+  rdfs:label "Pressure-normalized Molar Concentration"@en ;
   .
 
 
@@ -109,8 +93,11 @@ quantitykind:PressureNormalizedMolarConcentration
 ##### YOU ARE HERE - placeholder QKs so you can validate with Maven
 # ask Steve Ray - I need a qk relationship viewer
 
+
+
+# got thru mvn spotless:apply
 # Quantity Kind: MolarVolumetricRate
-# only available is catalalyticActivityConcentration, which is for enzymes. need a parent for that (is this that parent? notes dont explain)
+# only available QK with this DV is catalalyticActivityConcentration, which is for enzymes. need a parent for that (is this that parent? notes dont explain)
 # there is this: https://qudt.org/vocab/unit/MilliMOL-PER-M3-DAY.html which hasquantitykind CatalyticActivityConcentration
 # no idea if this new unit is for enzyme activity or not. so make a new one (that could be a parent) or drop the unit.
 
@@ -119,11 +106,11 @@ quantitykind:MolarVolumetricRate
   qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T-1D0 ;
   qudt:qkdvNumerator qkdv:A1EL0I0M0H0T0D0 ;
   qudt:qkdvDenominator qkdv:A0E0L-3I0M0H0T-1D0 ; 
-  qudt:informativeReference "^^xsd:anyURI ;
-  qudt:applicableUnit unit:
+  qudt:informativeReference ""^^xsd:anyURI ;
+#  qudt:applicableUnit unit: ;
   qudt:plainTextDescription """Measures change in a molar contectration over time. """ ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
-  rdfs:label "Molar Volumetric Rate"@en
+  rdfs:label "Molar Volumetric Rate"@en ;
   .
 
 
@@ -134,9 +121,31 @@ quantitykind:VolumeRatio
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
   qudt:qkdvNumerator qkdv:A0EL3I0M0H0T0D0 ;
   qudt:qkdvDenominator qkdv:A0E0L-3I0M0H0T0D0 ; 
-  qudt:informativeReference "^^xsd:anyURI ;
-  qudt:applicableUnit unit:
+  qudt:informativeReference ""^^xsd:anyURI ;
+ #  qudt:applicableUnit unit:
   qudt:plainTextDescription """Ratio of two volumes. """ ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
-  rdfs:label "Volume Ratio"@en
+  rdfs:label "Volume Ratio"@en ;
 .
+
+
+
+
+### POSTPONE
+## DO LAST - rename? or POSTPONE. QK might change, depends on the dataset. 
+# to do: might need to rename this to account for the time being at the end now, not volume? so its more like an object-concentration per time. 
+# Quantity Kind: CountRatePerVolume
+quantitykind:CountRatePerVolume 
+    a qudt:QuantityKind ;
+    rdfs:label "Count Rate Per Volume"@en ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+ #   qudt:symbol "n/L" ;
+    qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T1D0 ;
+## TO DO  qudt:qkdvDenominator qkdv:A1E0L0I0M0H0T1D0 ;
+## TO DO  qudt:qkdvNumerator qkdv:A1E0L0I0M0H0T0D0 ;
+#    qudt:applicableUnit unit:NUM-PER-L-MIN ;
+    dcterms:description "CountRatePerVolume measures the rate of discrete events or objects per unit volume per unit time"^^xsd:string ;
+    dcterms:plainTextDescription "CountRatePerVolume measures the rate of discrete events or objects per unit volume per unit time"^^xsd:string ; 
+
+.
+

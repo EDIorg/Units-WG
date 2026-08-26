@@ -20,8 +20,14 @@
   vaem:hasGraphMetadata vaem:GMD_QUDT-DIMENSION-VECTORS .
 
 # goes with new Quantity Kind: PressureNormalizedMolarConcentration
+# here are some unicode characters, to force file encoding: Siła ciężkości
 qkdv:A1E0L2I0M-1H0T2D0
   a qudt:QuantityKindDimensionVector, qudt:QuantityKindDimensionVector_ISO, qudt:QuantityKindDimensionVector_Imperial, qudt:QuantityKindDimensionVector_SI ;
   qudt:latexDefinition " $A^{1}$ $L^{2}$ $T^{2}$ $M^{-1}$ "^^qudt:LatexString ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/dimensionvector> ;
   rdfs:label "A1E0L2I0M-1H0T2D0" .
+
+  qkdv:A1E0L2I0M-1H0T2D0
+    a qudt:QuantityKindDimensionVector, qudt:QuantityKindDimensionVector_ISO, qudt:QuantityKindDimensionVector_Imperial, qudt:QuantityKindDimensionVector_SI ;
+    rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/dimensionvector> ;
+    rdfs:label "A1E0L2I0M-1H0T2D0" .
