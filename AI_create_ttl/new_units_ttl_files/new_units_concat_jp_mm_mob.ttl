@@ -46,7 +46,7 @@ unit:KiloM-PER-KiloM2
   qudt:hasQuantityKind quantitykind:InverseLength ;
   qudt:symbol "km/km²" ;
   qudt:ucumCode "km.km-2"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/3.1.2/vocab/unit> ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Kilometers per square kilometer"@en-US ;
   rdfs:label "Kilometres per square kilometre"@en ;
   .
@@ -74,7 +74,7 @@ unit:KiloM-PER-KiloM2
   qudt:hasQuantityKind quantitykind:InverseLength ;
   qudt:symbol "m²/m³" ;
   qudt:ucumCode "m2.m-3"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/3.1.2/vocab/unit> ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Square meters per cubic meter"@en-US ;
   rdfs:label "Square metres per cubic metre"@en ;
 .
@@ -109,7 +109,7 @@ unit:KiloJ-PER-M2
   qudt:hasQuantityKind quantitykind:StrainEnergyReleaseRate ;
   qudt:symbol "kJ/m²" ;
   qudt:ucumCode "kJ.m-2"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Kilodżul na Metr Kwadratowy"@pl ;
   rdfs:label "Kilojoule na Kvadratni Meter"@sl ;
   rdfs:label "Kilojoule na Čtvereční Metr"@cs ;
@@ -124,6 +124,7 @@ unit:KiloJ-PER-M2
   rdfs:label "Kilojoule pro Quadratmeter"@de ;
   rdfs:label "Kilojulio por Metro Cuadrado"@es ;
 .
+
 
 
 unit:W-HR-PER-M2
@@ -158,12 +159,17 @@ unit:W-HR-PER-M2
   qudt:symbol "W·h/m²" ;
   qudt:ucumCode "W.h.m-2"^^qudt:UCUMcs ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q64748823> ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Watt Hour per Square Meter"@en-US ;
   rdfs:label "Watt Hour per Square Metre" ;
   rdfs:label "Watt Hour per Square Metre"@en ;
 . 
 
+# edited isDefinedBy property in the above to <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>
+# note: mvn -Pfix install ignores the hasFactorUnit properties. see comparison screenshot in maven notes doc.
+
+
+### YOU ARE HERE
 
 # This is based on MegaJ-PER-M2-DAY   
 # Alterations include the plain text description which originally left out days (86,400 seconds)
@@ -196,7 +202,7 @@ unit:KiloJ-PER-M2-DAY
   qudt:plainTextDescription "1,000-fold of the SI derived unit joule divided by the power of the SI base unit metre with the exponent 2 and 86 400 of the SI unit Second" ;
   qudt:symbol "kJ/(m²·d)" ;
   qudt:ucumCode "kJ.m-2.d-1"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Kilojoule per Square Meter Day"@en-US ;
   rdfs:label "Kilojoule per Square Metre Day" ;
   rdfs:label "Kilojoule per Square Metre Day"@en ;
@@ -233,7 +239,7 @@ unit:MegaJ-PER-M2-YR
   qudt:plainTextDescription "1,000,000-fold of the SI derived unit joule divided by the power of the SI base unit metre with the exponent 2 and 31,577,600 times the SI base unit second" ;
   qudt:symbol "MJ/(m²·a)" ;
   qudt:ucumCode "MJ.m-2.a-1"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Megajoule per Square Meter Year"@en-US ;
   rdfs:label "Megajoule per Square Metre Year" ;
   rdfs:label "Megajoule per Square Metre Year"@en ;
@@ -266,7 +272,7 @@ unit:MicroMOL-PER-L-DAY
   qudt:hasQuantityKind quantitykind:CatalyticActivityConcentration ;
   qudt:symbol "μmol/(L·d)" ;
   qudt:ucumCode "umol.L-1.d-1"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Micromole per Liter Day"@en-US ;
   rdfs:label "Micromole per Litre Day" ;
   rdfs:label "Micromole per Litre Day"@en
@@ -298,7 +304,7 @@ unit:GM-PER-YR
   qudt:plainTextDescription "0,001-fold of the SI base unit kilogram divided by the unit year" ;
   qudt:symbol "g/y" ;
   qudt:ucumCode "g.y-1"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Gram per Year" ;
   rdfs:label "Gram per Year"@en 
   .
@@ -338,7 +344,7 @@ unit:M2-PER-DAY
   qudt:hasQuantityKind quantitykind:ThermalDiffusionRatioCoefficient ;
   qudt:symbol "m²/d" ;
   qudt:ucumCode "m2.d-1"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Square Meter per Day"@en-US ;
   rdfs:label "Square Metre per Day" ;
   rdfs:label "Square Metre per Day"@en ;
@@ -368,7 +374,7 @@ unit:KiloM3
   qudt:hasReciprocalUnit unit:PER-KiloM3 ;
   qudt:symbol "km³" ;
   qudt:ucumCode "km3"^^qudt:UCUMcs ;
-  rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+  rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Cubic Kilometer"@en-US ;
   rdfs:label "Cubic Kilometre" ;
   rdfs:label "Cubic Kilometre"@en ;
@@ -393,7 +399,7 @@ unit:GM-PER-NUM
     qudt:conversionMultiplier 0.001 ;
     qudt:conversionMultiplierSN 1.0E-3 ;
     qudt:symbol "g·N⁻¹" ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:isDefinedBy rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
     rdfs:label "Gram per Number"@en .
 
 unit:GigaGM
@@ -406,7 +412,7 @@ unit:GigaGM
     qudt:conversionMultiplier 1000000 ;
     qudt:conversionMultiplierSN 1.0E6 ;
     qudt:symbol "Gg" ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
     rdfs:label "Gigagram"@en .
 
 unit:MI_US-PER-SEC
@@ -419,7 +425,7 @@ unit:MI_US-PER-SEC
     qudt:conversionMultiplier 1609.344 ;
     qudt:conversionMultiplierSN 1.609344E3 ;
     qudt:symbol "mi·s⁻¹" ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
     rdfs:label "US Mile per Second"@en .
 
 unit:M3-PER-M2-DAY
@@ -432,7 +438,7 @@ unit:M3-PER-M2-DAY
     qudt:conversionMultiplier 0.00001157407407407407407407407407407407 ;
     qudt:conversionMultiplierSN 1.157407407407407407407407407407407E-5 ;
     qudt:symbol "m³·m⁻²·d⁻¹" ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
     rdfs:label "Cubic Meter per Square Meter Day"@en .
 
 unit:CORD-PER-AC
@@ -447,7 +453,7 @@ unit:CORD-PER-AC
     qudt:conversionMultiplierSN 8.956473829201101E-4 ;
     qudt:symbol "cord/ac" ;
     rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 unit:FT3-PER-AC
     a qudt:Unit ;
@@ -461,7 +467,7 @@ unit:FT3-PER-AC
     qudt:conversionMultiplierSN 6.99724517906336E-6 ;
     qudt:symbol "ft³/ac" ;
     rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 unit:MegaL-PER-KiloM2
     a qudt:Unit ;
@@ -475,7 +481,7 @@ unit:MegaL-PER-KiloM2
     qudt:conversionMultiplierSN 1.0E-3 ;
     qudt:symbol "ML/km²" ;
     rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 unit:MicroM3-PER-MilliM2
     a qudt:Unit ;
@@ -489,7 +495,7 @@ unit:MicroM3-PER-MilliM2
     qudt:conversionMultiplierSN 1.0E-12 ;
     qudt:symbol "μm³/mm²" ;
     rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 unit:MilliM-PER-NUM
     a qudt:Unit ;
@@ -503,7 +509,7 @@ unit:MilliM-PER-NUM
     qudt:conversionMultiplierSN 1.0E-3 ;
     qudt:symbol "mm/individual" ;
     rdf:type qudt:DerivedUnit ;
-    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 	
 
 
@@ -542,7 +548,7 @@ unit:MilliGM-PER-L-HR
 	    qudt:conversionMultiplier 0.0000002777777777777778 ;
 	    qudt:conversionMultiplierSN 2.777777777777778E-7 ;
 	    qudt:symbol "mg·L⁻¹·h⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Milligram per Liter Hour"@en .
 
 unit:TON_US-PER-AC
@@ -555,7 +561,7 @@ unit:TON_US-PER-AC
 	    qudt:conversionMultiplier 0.224170231 ;
 	    qudt:conversionMultiplierSN 2.24170231E-1 ;
 	    qudt:symbol "ton·ac⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "US Ton per Acre"@en .
 
 unit:BQ-PER-GM
@@ -568,7 +574,7 @@ unit:BQ-PER-GM
 	    qudt:conversionMultiplier 1000 ;
 	    qudt:conversionMultiplierSN 1.0E3 ;
 	    qudt:symbol "Bq·g⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Becquerel per Gram"@en .
 
 unit:GM-PER-HA-DAY
@@ -581,7 +587,7 @@ unit:GM-PER-HA-DAY
 	    qudt:conversionMultiplier 0.0000000000011574074074074074 ;
 	    qudt:conversionMultiplierSN 1.1574074074074074E-12 ;
 	    qudt:symbol "g·ha⁻¹·d⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Gram per Hectare Day"@en .
 
 
@@ -595,7 +601,7 @@ unit:MicroGM-PER-M2
 	    qudt:conversionMultiplier 0.000000001 ;
 	    qudt:conversionMultiplierSN 1.0E-9 ;
 	    qudt:symbol "μg·m⁻²" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Microgram per Square Meter"@en .
 
 
@@ -609,7 +615,7 @@ unit:NanoGM-PER-GM-HR
 	    qudt:conversionMultiplier 0.0000000000002777777777777778 ;
 	    qudt:conversionMultiplierSN 2.7777777777777777E-13 ;
 	    qudt:symbol "ng·g⁻¹·h⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Nanogram per Gram Hour"@en .
 
 
@@ -623,7 +629,7 @@ unit:MicroGM-PER-KiloGM-HR
 	    qudt:conversionMultiplier 0.0000000000002777777777777778 ;
 	    qudt:conversionMultiplierSN 2.777777777777778E-13 ;
 	    qudt:symbol "μg·kg⁻¹·h⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Microgram per Kilogram Hour"@en .
 
 
@@ -638,7 +644,7 @@ unit:BQ-PER-MilliL
 	    qudt:conversionMultiplier 1000000 ;
 	    qudt:conversionMultiplierSN 1.0E6 ;
 	    qudt:symbol "Bq·mL⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Becquerel per Milliliter"@en .
 
 
@@ -653,7 +659,7 @@ unit:KiloGM-PER-KiloM2-YR
 	    qudt:conversionMultiplier 0.000000000000031688087814028996 ;
 	    qudt:conversionMultiplierSN 3.1688087814028996E-14 ;
 	    qudt:symbol "kg·km⁻²·yr⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Kilogram per Square Kilometer Year"@en .
 
 unit:KiloGM-PER-M2-YR
@@ -666,7 +672,7 @@ unit:KiloGM-PER-M2-YR
 	    qudt:conversionMultiplier 0.000000031688087814028996 ;
 	    qudt:conversionMultiplierSN 3.1688087814028996E-8 ;
 	    qudt:symbol "kg·m⁻²·yr⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Kilogram per Square Meter Year"@en .
 
 
@@ -681,7 +687,7 @@ unit:MilliGM-PER-KiloGM-MO
 	    qudt:conversionMultiplier 0.0000000000003802570537683055 ;
 	    qudt:conversionMultiplierSN 3.802570537683055E-13 ;
 	    qudt:symbol "mg·kg⁻¹·mo⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Milligram per Kilogram Month"@en .
 
 
@@ -695,7 +701,7 @@ unit:GM-PER-GM-HR
 	    qudt:conversionMultiplier 0.0002777777777777778 ;
 	    qudt:conversionMultiplierSN 2.7777777777777776E-4 ;
 	    qudt:symbol "g·g⁻¹·h⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Gram per Gram Hour"@en .
 
 unit:GM-PER-HA-HR
@@ -708,7 +714,7 @@ unit:GM-PER-HA-HR
 	    qudt:conversionMultiplier 0.00000000002777777777777778 ;
 	    qudt:conversionMultiplierSN 2.777777777777778E-11 ;
 	    qudt:symbol "g·ha⁻¹·h⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Gram per Hectare Hour"@en .
 
 
@@ -724,7 +730,7 @@ unit:KiloGM-PER-HA-MO
 	    qudt:conversionMultiplier 0.00000000003802570537683055 ;
 	    qudt:conversionMultiplierSN 3.802570537683055E-11 ;
 	    qudt:symbol "kg·ha⁻¹·mo⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Kilogram per Hectare Month"@en .
 
 
@@ -742,7 +748,7 @@ unit:MicroGM-PER-KiloGM-DAY
 	    qudt:conversionMultiplier 0.000000000000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-14 ;
 	    qudt:symbol "μg·kg⁻¹·d⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Microgram per Kilogram Day"@en .
 
 
@@ -757,7 +763,7 @@ unit:MilliGM-PER-L-SEC
 	    qudt:conversionMultiplier 0.001 ;
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "mg·L⁻¹·s⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Milligram per Liter Second"@en .
 
 
@@ -774,7 +780,7 @@ unit:NanoGM-PER-M2-HR
 	    qudt:conversionMultiplier 0.0000000000000002777777777777778 ;
 	    qudt:conversionMultiplierSN 2.7777777777777778E-16 ;
 	    qudt:symbol "ng·m⁻²·h⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Nanogram per Square Meter Hour"@en .
 
 
@@ -789,7 +795,7 @@ unit:NUM-PER-NanoGM
 	    qudt:conversionMultiplier 1000000000000 ;
 	    qudt:conversionMultiplierSN 1.0E12 ;
 	    qudt:symbol "ng⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Number per Nanogram"@en .
 
 
@@ -804,7 +810,7 @@ unit:GM-PER-M2-MO
 	    qudt:conversionMultiplier 0.0000000003802570537683055 ;
 	    qudt:conversionMultiplierSN 3.802570537683055E-10 ;
 	    qudt:symbol "g·m⁻²·mo⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Gram per Square Meter Month"@en .
 
 
@@ -822,7 +828,7 @@ unit:MilliGM-PER-M2-MIN
 	    qudt:conversionMultiplier 0.000000016666666666666667 ;
 	    qudt:conversionMultiplierSN 1.6666666666666667E-8 ;
 	    qudt:symbol "mg·m⁻²·min⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Milligram per Square Meter Minute"@en .
 
 unit:MilliGM-PER-MilliL-DAY
@@ -835,7 +841,7 @@ unit:MilliGM-PER-MilliL-DAY
 	    qudt:conversionMultiplier 0.000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-5 ;
 	    qudt:symbol "mg·mL⁻¹·d⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Milligram per Milliliter Day"@en .
 
 
@@ -850,7 +856,7 @@ unit:GM-PER-CM3
 	    qudt:conversionMultiplier 1000 ;
 	    qudt:conversionMultiplierSN 1.0E3 ;
 	    qudt:symbol "g·cm⁻³" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Gram per Cubic Centimeter"@en .
 
 unit:PPM-PER-SEC
@@ -863,7 +869,7 @@ unit:PPM-PER-SEC
 	    qudt:conversionMultiplier 0.000001 ;
 	    qudt:conversionMultiplierSN 1.0E-6 ;
 	    qudt:symbol "ppm·s⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Parts per Million per Second"@en .
 
 
@@ -889,7 +895,7 @@ unit:MilliGM-PER-GM-DAY
 	    qudt:conversionMultiplier 0.000000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-8 ;
 	    qudt:symbol "mg·g⁻¹·d⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Milligram per Day Gram"@en .
 	
 	
@@ -911,7 +917,7 @@ unit:MilliGM-PER-KiloGM-HR
 	    qudt:conversionMultiplier 0.00000000027777777777777776 ;
 	    qudt:conversionMultiplierSN 2.7777777777777776E-10 ;
 	    qudt:symbol "mg·kg⁻¹·h⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Milligram per Kilogram Hour"@en .
 
 
@@ -925,7 +931,7 @@ unit:MilliMOL-PER-SEC
 	    qudt:conversionMultiplier 0.001 ;
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "mmol·s⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Millimole per Second"@en .
 
 
@@ -940,7 +946,7 @@ unit:NanoGM-PER-GM-DAY
 	    qudt:conversionMultiplier 0.000000000000011574074074074074 ;
 	    qudt:conversionMultiplierSN 1.1574074074074074E-14 ;
 	    qudt:symbol "ng·g⁻¹·d⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Nanogram per Gram Day"@en .
 
 unit:NanoMOL-PER-GM-DAY
@@ -953,7 +959,7 @@ unit:NanoMOL-PER-GM-DAY
 	    qudt:conversionMultiplier 0.000000000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-11 ;
 	    qudt:symbol "nmol·g⁻¹·d⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Nanomole per Gram Day"@en .
 
 unit:NanoMOL-PER-MilliL
@@ -966,7 +972,7 @@ unit:NanoMOL-PER-MilliL
 	    qudt:conversionMultiplier 0.001 ;
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "nmol·mL⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Nanomole per Milliliter"@en .
 
 
@@ -980,7 +986,7 @@ unit:MicroGM-PER-MilliL-DAY
 	    qudt:conversionMultiplier 0.000000011574074074074073 ;
 	    qudt:conversionMultiplierSN 1.1574074074074073E-8 ;
 	    qudt:symbol "μg·mL⁻¹·d⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Microgram per Milliliter Day"@en .
 
 
@@ -994,7 +1000,7 @@ unit:MicroGM-PER-MilliM2
 	    qudt:conversionMultiplier 0.001 ;
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "μg·mm⁻²" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Microgram per Square Millimeter"@en .
 
 
@@ -1008,7 +1014,7 @@ unit:MicroMOL-PER-MOLE
 	    qudt:conversionMultiplier 0.000001 ;
 	    qudt:conversionMultiplierSN 1.0E-6 ;
 	    qudt:symbol "μmol·mol⁻¹" ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	    rdfs:label "Micromole per Mole"@en .
 
 
@@ -1055,7 +1061,7 @@ unit:BQ-PER-MilliGM
 	    qudt:conversionMultiplierSN 1.0E6 ;
 	    qudt:symbol "Bq/mg" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1073,7 +1079,7 @@ unit:MicroM3-PER-L
 	    qudt:conversionMultiplierSN 1.0E-15 ;
 	    qudt:symbol "μm³/L" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Molar units for environmental chemistry
 unit:MicroMOL-PER-GM-DAY
@@ -1088,7 +1094,7 @@ unit:MicroMOL-PER-GM-DAY
 	    qudt:conversionMultiplierSN 1.1574074074074073E-8 ;
 	    qudt:symbol "μmol/(g⋅day)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 	# Molar concentration in small mass
@@ -1104,7 +1110,7 @@ unit:MicroMOL-PER-MilliGM
 	    qudt:conversionMultiplierSN 1.0E0 ;
 	    qudt:symbol "μmol/mg" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1121,7 +1127,7 @@ unit:MilliGM-PER-GM-MO
 	    qudt:conversionMultiplierSN 3.802570537683055E-10 ;
 	    qudt:symbol "mg/(g⋅mo)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1140,7 +1146,7 @@ unit:GM-PER-HA-YR
 	    qudt:conversionMultiplierSN 3.1688087814028996E-12 ;
 	    qudt:symbol "g/(ha⋅yr)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 	# Volume-based daily mass rates
@@ -1156,7 +1162,7 @@ unit:GM-PER-M3-DAY
 	    qudt:conversionMultiplierSN 1.1574074074074074E-8 ;
 	    qudt:symbol "g/(m³⋅day)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 	# Annual volume-based mass rates
@@ -1172,7 +1178,7 @@ unit:GM-PER-M3-YR
 	    qudt:conversionMultiplierSN 3.1688087814028996E-11 ;
 	    qudt:symbol "g/(m³⋅yr)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1190,7 +1196,7 @@ unit:MicroBQ-PER-GM
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "μBq/g" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1207,7 +1213,7 @@ unit:MicroGM-PER-GM-MIN
 	    qudt:conversionMultiplierSN 1.6666666666666668E-8 ;
 	    qudt:symbol "μg/(g⋅min)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1224,7 +1230,7 @@ unit:MicroMOL-PER-M3
 	    qudt:conversionMultiplierSN 1.0E-6 ;
 	    qudt:symbol "μmol/m³" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1241,7 +1247,7 @@ unit:MicroMOL-PER-HR-MilliGM
 	    qudt:conversionMultiplierSN 2.7777777777777776E-4 ;
 	    qudt:symbol "μmol/(mg⋅hr)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 	# Dimensionless volume ratios
@@ -1257,7 +1263,7 @@ unit:MilliL-PER-MilliL
 	    qudt:conversionMultiplierSN 1.0E0 ;
 	    qudt:symbol "mL/mL" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1276,7 +1282,7 @@ unit:MOL-PER-DAY
 	    qudt:conversionMultiplierSN 1.1574074074074073E-5 ;
 	    qudt:symbol "mol/day" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1294,7 +1300,7 @@ unit:NanoMOL-PER-MIN
 	    qudt:conversionMultiplierSN 1.6666666666666667E-11 ;
 	    qudt:symbol "nmol/min" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1312,7 +1318,7 @@ unit:NanoMOL-PER-MOL
 	    qudt:conversionMultiplierSN 1.0E-9 ;
 	    qudt:symbol "nmol/mol" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1330,7 +1336,7 @@ unit:NUM-PER-GM-MIN
 	    qudt:conversionMultiplierSN 1.6666666666666668E1 ;
 	    qudt:symbol "count/(g⋅min)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1347,7 +1353,7 @@ unit:NUM-PER-KiloM
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "count/km" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 		## MOB YOU ARE HERE
@@ -1365,7 +1371,7 @@ unit:PicoMOL-PER-GM
 	    qudt:conversionMultiplierSN 1.0E-6 ;
 	    qudt:symbol "pmol/g" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Complex picomolar rate per mass per time
 unit:PicoMOL-PER-MilliGM-MIN
@@ -1380,7 +1386,7 @@ unit:PicoMOL-PER-MilliGM-MIN
 	    qudt:conversionMultiplierSN 1.6666666666666667E-8 ;
 	    qudt:symbol "pmol/(min⋅mg)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Dimensionless volume fraction in CGS
 unit:CentiM3-PER-CentiM3
@@ -1395,7 +1401,7 @@ unit:CentiM3-PER-CentiM3
 	    qudt:conversionMultiplierSN 1.0E0 ;
 	    qudt:symbol "cm³/cm³" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Mass ratio in mixed metric units
 unit:GM-PER-HectoGM
@@ -1410,7 +1416,7 @@ unit:GM-PER-HectoGM
 	    qudt:conversionMultiplierSN 1.0E-2 ;
 	    qudt:symbol "g/hg" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	#  ratio rate - qk already exists, 
 unit:MilliGM-PER-MilliGM-DAY
@@ -1425,7 +1431,7 @@ unit:MilliGM-PER-MilliGM-DAY
 	    qudt:conversionMultiplierSN 1.1574074074074073E-5 ;
 	    qudt:symbol "mg/(mg⋅day)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1442,7 +1448,7 @@ unit:MilliMOL-PER-M3-MIN
 	    qudt:conversionMultiplierSN 1.6666666666666666E-5 ;
 	    qudt:symbol "mmol/(m³⋅min)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 
 
@@ -1459,7 +1465,7 @@ unit:MilliMOL-PER-MOL-SEC
 	    qudt:conversionMultiplierSN 1.0E-3 ;
 	    qudt:symbol "mmol/(mol⋅s)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Pressure-normalized molar concentration
 unit:MOL-PER-L-ATM
@@ -1474,7 +1480,7 @@ unit:MOL-PER-L-ATM
 	    qudt:conversionMultiplierSN 9.869232667160128E-3 ;
 	    qudt:symbol "mol/(L⋅atm)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Area-based mass in Imperial units
 unit:OZ-PER-AC
@@ -1489,7 +1495,7 @@ unit:OZ-PER-AC
 	    qudt:conversionMultiplierSN 7.009472353980699E-6 ;
 	    qudt:symbol "oz/ac" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Concentration rate changes
 unit:PPM-PER-HR
@@ -1504,7 +1510,7 @@ unit:PPM-PER-HR
 	    qudt:conversionMultiplierSN 2.7777777777777776E-10 ;
 	    qudt:symbol "ppm/hr" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Concentration rate changes - minute resolution
 unit:PPM-PER-MIN
@@ -1519,7 +1525,7 @@ unit:PPM-PER-MIN
 	    qudt:conversionMultiplierSN 1.6666666666666667E-8 ;
 	    qudt:symbol "ppm/min" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Volume-based mass density
 unit:TON_US-PER-AC-FT
@@ -1534,7 +1540,7 @@ unit:TON_US-PER-AC-FT
 	    qudt:conversionMultiplierSN 7.35467495672E-1 ;
 	    qudt:symbol "ton_US/(ac⋅ft)" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Area-based mass application rates
 unit:TON_US-PER-HA
@@ -1549,7 +1555,7 @@ unit:TON_US-PER-HA
 	    qudt:conversionMultiplierSN 9.0718474E-2 ;
 	    qudt:symbol "ton_US/ha" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 
 	# Area-based mass density - metric/Imperial mix
 unit:TONNE-PER-AC
@@ -1564,7 +1570,7 @@ unit:TONNE-PER-AC
 	    qudt:conversionMultiplierSN 2.4710538146716534E-1 ;
 	    qudt:symbol "t/ac" ;
 	    rdf:type qudt:DerivedUnit ;
-	    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+	    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>  .
 	
 	
 	
@@ -1590,7 +1596,7 @@ unit:TONNE-PER-AC
 	#		    qudt:conversionMultiplier 16.666666666666668 ;
 	#		    qudt:conversionMultiplierSN 1.6666666666666668E1 ;
 	#		    qudt:symbol "min⁻¹·L⁻¹" ;
-	#		    rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+	#		    rdfs:isDefinedBy  <http://qudt.org/$$QUDT_VERSION$$/vocab/unit>;
 	#		    rdfs:label "Number per Minute Liter"@en .
 	
 	

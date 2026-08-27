@@ -90,8 +90,15 @@ quantitykind:PressureNormalizedMolarConcentration
 
 
 
-##### YOU ARE HERE - placeholder QKs so you can validate with Maven
-# ask Steve Ray - I need a qk relationship viewer
+#####  placeholder QKs so you can validate with Maven
+# Maven Notes: 
+# many of our numerator and denominator dvs are not in the DV file. so removing these for now. REMOVING FROM QUDT FORK file only. not here 
+# To flesh these out, suggest that Stevan (after he has tamed AI) generate the DV files for DVs in this file that are not in the DV fork.
+
+
+# ask Steve Ray - I need a qk relationship viewer. I would enjoy tackling these, but not in combination with units.
+
+
 
 
 
