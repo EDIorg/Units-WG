@@ -1,0 +1,1177 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qkdv: <http://qudt.org/vocab/dimensionvector/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+unit:KiloM-PER-KiloM2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of inverse length expressed as km/km², equal to 0.001 reciprocal metre." ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1E-3 ;
+  qudt:expression "$km/km²$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:plainTextDescription "A unit of inverse length expressed as km/km², equal to 0.001 reciprocal metre." ;
+  qudt:symbol "km/km²" ;
+  qudt:unitForQuantityKind quantitykind:InverseLength ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilometer per Square Kilometer"@en-US ;
+  rdfs:label "Kilometre per Square Kilometre"@en .
+
+unit:M2-PER-M3
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of inverse length expressed as m²/m³, equal to 1.0 reciprocal metre." ;
+  qudt:conversionMultiplier 1.0 ;
+  qudt:conversionMultiplierSN 1E+0 ;
+  qudt:expression "$m²/m³$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:plainTextDescription "A unit of inverse length expressed as m²/m³, equal to 1.0 reciprocal metre." ;
+  qudt:symbol "m²/m³" ;
+  qudt:unitForQuantityKind quantitykind:InverseLength ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Square Meter per Cubic Meter"@en-US ;
+  rdfs:label "Square Metre per Cubic Metre"@en .
+
+unit:KiloJ-PER-M2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of energy per area expressed as kJ/m², equal to 1000.0 joule per square metre." ;
+  qudt:conversionMultiplier 1000.0 ;
+  qudt:conversionMultiplierSN 1E+3 ;
+  qudt:expression "$kJ/m²$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-2D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloJ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:plainTextDescription "A unit of energy per area expressed as kJ/m², equal to 1000.0 joule per square metre." ;
+  qudt:symbol "kJ/m²" ;
+  qudt:unitForQuantityKind quantitykind:EnergyFluence ;
+  qudt:unitForQuantityKind quantitykind:EnergyPerArea ;
+  qudt:unitForQuantityKind quantitykind:RadiantFluence ;
+  qudt:unitForQuantityKind quantitykind:StrainEnergyReleaseRate ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilojoule per Square Meter"@en-US ;
+  rdfs:label "Kilojoule per Square Metre"@en .
+
+unit:KiloJ-PER-M2-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of power per area expressed as kJ/(m²·d), equal to 0.011574074074074074074074074074074074074074074074074 watt per square metre." ;
+  qudt:conversionMultiplier 0.011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-2 ;
+  qudt:expression "$kJ/(m²·d)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-3D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloJ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of power per area expressed as kJ/(m²·d), equal to 0.011574074074074074074074074074074074074074074074074 watt per square metre." ;
+  qudt:symbol "kJ/(m²·d)" ;
+  qudt:unitForQuantityKind quantitykind:PowerPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilojoule per Square Meter Day"@en-US ;
+  rdfs:label "Kilojoule per Square Metre Day"@en .
+
+unit:MegaJ-PER-M2-YR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of power per area expressed as MJ/(m²·yr), equal to 0.031688087814028950237026896848936547772961188430045 watt per square metre." ;
+  qudt:conversionMultiplier 0.031688087814028950237026896848936547772961188430045 ;
+  qudt:conversionMultiplierSN 3.1688087814028950237026896848936547772961188430045E-2 ;
+  qudt:expression "$MJ/(m²·yr)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-3D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MegaJ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:YR ;
+    ] ;
+  qudt:plainTextDescription "A unit of power per area expressed as MJ/(m²·yr), equal to 0.031688087814028950237026896848936547772961188430045 watt per square metre." ;
+  qudt:symbol "MJ/(m²·yr)" ;
+  qudt:unitForQuantityKind quantitykind:PowerPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Megajoule per Square Meter Year"@en-US ;
+  rdfs:label "Megajoule per Square Metre Year"@en .
+
+unit:MicroMOL-PER-L-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of catalytic activity concentration expressed as µmol/(L·d), equal to 0.000000011574074074074074074074074074074074074074074074074 mole per cubic metre second." ;
+  qudt:conversionMultiplier 0.000000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-8 ;
+  qudt:expression "$µmol/(L·d)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MicroMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:L ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of catalytic activity concentration expressed as µmol/(L·d), equal to 0.000000011574074074074074074074074074074074074074074074074 mole per cubic metre second." ;
+  qudt:symbol "µmol/(L·d)" ;
+  qudt:unitForQuantityKind quantitykind:CatalyticActivityConcentration ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Micromole per Liter Day"@en-US ;
+  rdfs:label "Micromole per Litre Day"@en .
+
+unit:GM-PER-YR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per time expressed as g/yr, equal to 0.000000000031688087814028950237026896848936547772961188430045 kilogram per second." ;
+  qudt:conversionMultiplier 0.000000000031688087814028950237026896848936547772961188430045 ;
+  qudt:conversionMultiplierSN 3.1688087814028950237026896848936547772961188430045E-11 ;
+  qudt:expression "$g/yr$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:YR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per time expressed as g/yr, equal to 0.000000000031688087814028950237026896848936547772961188430045 kilogram per second." ;
+  qudt:symbol "g/yr" ;
+  qudt:unitForQuantityKind quantitykind:MassPerTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Gram per Year"@en .
+
+unit:M2-PER-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of area per time expressed as m²/d, equal to 0.000011574074074074074074074074074074074074074074074074 square metre per second." ;
+  qudt:conversionMultiplier 0.000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-5 ;
+  qudt:expression "$m²/d$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of area per time expressed as m²/d, equal to 0.000011574074074074074074074074074074074074074074074074 square metre per second." ;
+  qudt:symbol "m²/d" ;
+  qudt:unitForQuantityKind quantitykind:AreaPerTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Square Meter per Day"@en-US ;
+  rdfs:label "Square Metre per Day"@en .
+
+unit:KiloM3
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volume expressed as km³, equal to 1000000000.0 cubic metre." ;
+  qudt:conversionMultiplier 1000000000.0 ;
+  qudt:conversionMultiplierSN 1E+9 ;
+  qudt:expression "$km³$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L3I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 3 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:plainTextDescription "A unit of volume expressed as km³, equal to 1000000000.0 cubic metre." ;
+  qudt:symbol "km³" ;
+  qudt:unitForQuantityKind quantitykind:Volume ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Cubic Kilometer"@en-US ;
+  rdfs:label "Cubic Kilometre"@en .
+
+unit:GigaGM
+  a qudt:Unit ;
+  dcterms:description "A unit of mass expressed as Gg, equal to 1000000.0 kilogram." ;
+  qudt:conversionMultiplier 1000000.0 ;
+  qudt:conversionMultiplierSN 1E+6 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
+  qudt:plainTextDescription "A unit of mass expressed as Gg, equal to 1000000.0 kilogram." ;
+  qudt:symbol "Gg" ;
+  qudt:unitForQuantityKind quantitykind:Mass ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Gigagram"@en .
+
+unit:MI_US-PER-SEC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of speed expressed as mi{US}/s, equal to 1609.347219 metre per second." ;
+  qudt:conversionMultiplier 1609.347219 ;
+  qudt:conversionMultiplierSN 1.609347219E+3 ;
+  qudt:expression "$mi{US}/s$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MI_US ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:SEC ;
+    ] ;
+  qudt:plainTextDescription "A unit of speed expressed as mi{US}/s, equal to 1609.347219 metre per second." ;
+  qudt:symbol "mi{US}/s" ;
+  qudt:unitForQuantityKind quantitykind:Speed ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "US Survey Mile per Second"@en .
+
+unit:M3-PER-M2-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volumetric flux expressed as m³/(m²·d), equal to 0.000011574074074074074074074074074074074074074074074074 metre per second." ;
+  qudt:conversionMultiplier 0.000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-5 ;
+  qudt:expression "$m³/(m²·d)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of volumetric flux expressed as m³/(m²·d), equal to 0.000011574074074074074074074074074074074074074074074074 metre per second." ;
+  qudt:symbol "m³/(m²·d)" ;
+  qudt:unitForQuantityKind quantitykind:VolumetricFlux ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Cubic Meter per Square Meter Day"@en-US ;
+  rdfs:label "Cubic Metre per Square Metre Day"@en .
+
+unit:CORD-PER-AC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volume per area expressed as cord/ac, equal to 0.00089564738292011019283746556473829201101928374655647 metre." ;
+  qudt:conversionMultiplier 0.00089564738292011019283746556473829201101928374655647 ;
+  qudt:conversionMultiplierSN 8.9564738292011019283746556473829201101928374655647E-4 ;
+  qudt:expression "$cord/ac$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:CORD ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:AC ;
+    ] ;
+  qudt:plainTextDescription "A unit of volume per area expressed as cord/ac, equal to 0.00089564738292011019283746556473829201101928374655647 metre." ;
+  qudt:symbol "cord/ac" ;
+  qudt:unitForQuantityKind quantitykind:VolumePerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Cord per Acre"@en .
+
+unit:FT3-PER-AC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volume per area expressed as ft³/ac, equal to 0.0000069972451790633608815426997245179063360881542699724 metre." ;
+  qudt:conversionMultiplier 0.0000069972451790633608815426997245179063360881542699724 ;
+  qudt:conversionMultiplierSN 6.9972451790633608815426997245179063360881542699724E-6 ;
+  qudt:expression "$ft³/ac$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 3 ;
+      qudt:hasUnit unit:FT ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:AC ;
+    ] ;
+  qudt:plainTextDescription "A unit of volume per area expressed as ft³/ac, equal to 0.0000069972451790633608815426997245179063360881542699724 metre." ;
+  qudt:symbol "ft³/ac" ;
+  qudt:unitForQuantityKind quantitykind:VolumePerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Cubic Foot per Acre"@en .
+
+unit:MegaL-PER-KiloM2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volume per area expressed as ML/km², equal to 0.001 metre." ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1E-3 ;
+  qudt:expression "$ML/km²$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MegaL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:plainTextDescription "A unit of volume per area expressed as ML/km², equal to 0.001 metre." ;
+  qudt:symbol "ML/km²" ;
+  qudt:unitForQuantityKind quantitykind:VolumePerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Megaliter per Square Kilometer"@en-US ;
+  rdfs:label "Megalitre per Square Kilometre"@en .
+
+unit:MicroM3-PER-MilliM2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volume per area expressed as µm³/mm², equal to 0.000000000001 metre." ;
+  qudt:conversionMultiplier 0.000000000001 ;
+  qudt:conversionMultiplierSN 1E-12 ;
+  qudt:expression "$µm³/mm²$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 3 ;
+      qudt:hasUnit unit:MicroM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:MilliM ;
+    ] ;
+  qudt:plainTextDescription "A unit of volume per area expressed as µm³/mm², equal to 0.000000000001 metre." ;
+  qudt:symbol "µm³/mm²" ;
+  qudt:unitForQuantityKind quantitykind:VolumePerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Cubic Micrometer per Square Millimeter"@en-US ;
+  rdfs:label "Cubic Micrometre per Square Millimetre"@en .
+
+unit:MilliGM-PER-L-HR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass concentration rate of change expressed as mg/(L·h), equal to 0.00000027777777777777777777777777777777777777777777777778 kilogram per cubic metre second." ;
+  qudt:conversionMultiplier 0.00000027777777777777777777777777777777777777777777777778 ;
+  qudt:conversionMultiplierSN 2.7777777777777777777777777777777777777777777777778E-7 ;
+  qudt:expression "$mg/(L·h)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MilliGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:L ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:HR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass concentration rate of change expressed as mg/(L·h), equal to 0.00000027777777777777777777777777777777777777777777777778 kilogram per cubic metre second." ;
+  qudt:symbol "mg/(L·h)" ;
+  qudt:unitForQuantityKind quantitykind:MassConcentrationRateOfChange ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Milligram per Liter Hour"@en-US ;
+  rdfs:label "Milligram per Litre Hour"@en .
+
+unit:TON_US-PER-AC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area expressed as ton{US}/ac, equal to 0.22417023123889120954448418436679746535699580939005 kilogram per square metre." ;
+  qudt:conversionMultiplier 0.22417023123889120954448418436679746535699580939005 ;
+  qudt:conversionMultiplierSN 2.2417023123889120954448418436679746535699580939005E-1 ;
+  qudt:expression "$ton{US}/ac$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:TON_US ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:AC ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area expressed as ton{US}/ac, equal to 0.22417023123889120954448418436679746535699580939005 kilogram per square metre." ;
+  qudt:symbol "ton{US}/ac" ;
+  qudt:unitForQuantityKind quantitykind:MassPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "US Ton per Acre"@en .
+
+unit:BQ-PER-GM
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of activity per mass expressed as Bq/g, equal to 1000.0 becquerel per kilogram." ;
+  qudt:conversionMultiplier 1000.0 ;
+  qudt:conversionMultiplierSN 1E+3 ;
+  qudt:expression "$Bq/g$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:BQ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:plainTextDescription "A unit of activity per mass expressed as Bq/g, equal to 1000.0 becquerel per kilogram." ;
+  qudt:symbol "Bq/g" ;
+  qudt:unitForQuantityKind quantitykind:MassicActivity ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Becquerel per Gram"@en .
+
+unit:GM-PER-HA-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area and time expressed as g/(ha·d), equal to 0.0000000000011574074074074074074074074074074074074074074074074 kilogram per square metre second." ;
+  qudt:conversionMultiplier 0.0000000000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-12 ;
+  qudt:expression "$g/(ha·d)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:HA ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area and time expressed as g/(ha·d), equal to 0.0000000000011574074074074074074074074074074074074074074074074 kilogram per square metre second." ;
+  qudt:symbol "g/(ha·d)" ;
+  qudt:unitForQuantityKind quantitykind:MassPerAreaTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Gram per Hectare Day"@en .
+
+unit:MicroGM-PER-M2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area expressed as µg/m², equal to 0.000000001 kilogram per square metre." ;
+  qudt:conversionMultiplier 0.000000001 ;
+  qudt:conversionMultiplierSN 1E-9 ;
+  qudt:expression "$µg/m²$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MicroGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area expressed as µg/m², equal to 0.000000001 kilogram per square metre." ;
+  qudt:symbol "µg/m²" ;
+  qudt:unitForQuantityKind quantitykind:MassPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Microgram per Square Meter"@en-US ;
+  rdfs:label "Microgram per Square Metre"@en .
+
+unit:BQ-PER-MilliL
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of activity concentration expressed as Bq/mL, equal to 1000000.0 becquerel per cubic metre." ;
+  qudt:conversionMultiplier 1000000.0 ;
+  qudt:conversionMultiplierSN 1E+6 ;
+  qudt:expression "$Bq/mL$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:BQ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MilliL ;
+    ] ;
+  qudt:plainTextDescription "A unit of activity concentration expressed as Bq/mL, equal to 1000000.0 becquerel per cubic metre." ;
+  qudt:symbol "Bq/mL" ;
+  qudt:unitForQuantityKind quantitykind:ActivityConcentration ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Becquerel per Milliliter"@en-US ;
+  rdfs:label "Becquerel per Millilitre"@en .
+
+unit:KiloGM-PER-KiloM2-YR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area and time expressed as kg/(km²·yr), equal to 0.000000000000031688087814028950237026896848936547772961188430045 kilogram per square metre second." ;
+  qudt:conversionMultiplier 0.000000000000031688087814028950237026896848936547772961188430045 ;
+  qudt:conversionMultiplierSN 3.1688087814028950237026896848936547772961188430045E-14 ;
+  qudt:expression "$kg/(km²·yr)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:KiloM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:YR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area and time expressed as kg/(km²·yr), equal to 0.000000000000031688087814028950237026896848936547772961188430045 kilogram per square metre second." ;
+  qudt:symbol "kg/(km²·yr)" ;
+  qudt:unitForQuantityKind quantitykind:MassPerAreaTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilogram per Square Kilometer Year"@en-US ;
+  rdfs:label "Kilogram per Square Kilometre Year"@en .
+
+unit:KiloGM-PER-M2-YR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area and time expressed as kg/(m²·yr), equal to 0.000000031688087814028950237026896848936547772961188430045 kilogram per square metre second." ;
+  qudt:conversionMultiplier 0.000000031688087814028950237026896848936547772961188430045 ;
+  qudt:conversionMultiplierSN 3.1688087814028950237026896848936547772961188430045E-8 ;
+  qudt:expression "$kg/(m²·yr)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:KiloGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:YR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area and time expressed as kg/(m²·yr), equal to 0.000000031688087814028950237026896848936547772961188430045 kilogram per square metre second." ;
+  qudt:symbol "kg/(m²·yr)" ;
+  qudt:unitForQuantityKind quantitykind:MassPerAreaTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Kilogram per Square Meter Year"@en-US ;
+  rdfs:label "Kilogram per Square Metre Year"@en .
+
+unit:GM-PER-HA-HR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area and time expressed as g/(ha·h), equal to 0.000000000027777777777777777777777777777777777777777777777778 kilogram per square metre second." ;
+  qudt:conversionMultiplier 0.000000000027777777777777777777777777777777777777777777777778 ;
+  qudt:conversionMultiplierSN 2.7777777777777777777777777777777777777777777777778E-11 ;
+  qudt:expression "$g/(ha·h)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:HA ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:HR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area and time expressed as g/(ha·h), equal to 0.000000000027777777777777777777777777777777777777777777777778 kilogram per square metre second." ;
+  qudt:symbol "g/(ha·h)" ;
+  qudt:unitForQuantityKind quantitykind:MassPerAreaTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Gram per Hectare Hour"@en .
+
+unit:MilliGM-PER-L-SEC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass concentration rate of change expressed as mg/(L·s), equal to 0.001 kilogram per cubic metre second." ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1E-3 ;
+  qudt:expression "$mg/(L·s)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MilliGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:L ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:SEC ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass concentration rate of change expressed as mg/(L·s), equal to 0.001 kilogram per cubic metre second." ;
+  qudt:symbol "mg/(L·s)" ;
+  qudt:unitForQuantityKind quantitykind:MassConcentrationRateOfChange ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Milligram per Liter Second"@en-US ;
+  rdfs:label "Milligram per Litre Second"@en .
+
+unit:NanoGM-PER-M2-HR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area and time expressed as ng/(m²·h), equal to 0.00000000000000027777777777777777777777777777777777777777777777778 kilogram per square metre second." ;
+  qudt:conversionMultiplier 0.00000000000000027777777777777777777777777777777777777777777777778 ;
+  qudt:conversionMultiplierSN 2.7777777777777777777777777777777777777777777777778E-16 ;
+  qudt:expression "$ng/(m²·h)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:NanoGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:HR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area and time expressed as ng/(m²·h), equal to 0.00000000000000027777777777777777777777777777777777777777777777778 kilogram per square metre second." ;
+  qudt:symbol "ng/(m²·h)" ;
+  qudt:unitForQuantityKind quantitykind:MassPerAreaTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Nanogram per Square Meter Hour"@en-US ;
+  rdfs:label "Nanogram per Square Metre Hour"@en .
+
+unit:MilliGM-PER-M2-MIN
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area and time expressed as mg/(m²·min), equal to 0.000000016666666666666666666666666666666666666666666666667 kilogram per square metre second." ;
+  qudt:conversionMultiplier 0.000000016666666666666666666666666666666666666666666666667 ;
+  qudt:conversionMultiplierSN 1.6666666666666666666666666666666666666666666666667E-8 ;
+  qudt:expression "$mg/(m²·min)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MilliGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MIN ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area and time expressed as mg/(m²·min), equal to 0.000000016666666666666666666666666666666666666666666666667 kilogram per square metre second." ;
+  qudt:symbol "mg/(m²·min)" ;
+  qudt:unitForQuantityKind quantitykind:MassPerAreaTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Milligram per Square Meter Minute"@en-US ;
+  rdfs:label "Milligram per Square Metre Minute"@en .
+
+unit:MilliGM-PER-MilliL-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass concentration rate of change expressed as mg/(mL·d), equal to 0.000011574074074074074074074074074074074074074074074074 kilogram per cubic metre second." ;
+  qudt:conversionMultiplier 0.000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-5 ;
+  qudt:expression "$mg/(mL·d)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MilliGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MilliL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass concentration rate of change expressed as mg/(mL·d), equal to 0.000011574074074074074074074074074074074074074074074074 kilogram per cubic metre second." ;
+  qudt:symbol "mg/(mL·d)" ;
+  qudt:unitForQuantityKind quantitykind:MassConcentrationRateOfChange ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Milligram per Milliliter Day"@en-US ;
+  rdfs:label "Milligram per Millilitre Day"@en .
+
+unit:MilliMOL-PER-SEC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of molar flow rate expressed as mmol/s, equal to 0.001 mole per second." ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1E-3 ;
+  qudt:expression "$mmol/s$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MilliMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:SEC ;
+    ] ;
+  qudt:plainTextDescription "A unit of molar flow rate expressed as mmol/s, equal to 0.001 mole per second." ;
+  qudt:symbol "mmol/s" ;
+  qudt:unitForQuantityKind quantitykind:MolarFlowRate ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Millimole per Second"@en .
+
+unit:NanoMOL-PER-MilliL
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of amount-of-substance concentration expressed as nmol/mL, equal to 0.001 mole per cubic metre." ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1E-3 ;
+  qudt:expression "$nmol/mL$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:NanoMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MilliL ;
+    ] ;
+  qudt:plainTextDescription "A unit of amount-of-substance concentration expressed as nmol/mL, equal to 0.001 mole per cubic metre." ;
+  qudt:symbol "nmol/mL" ;
+  qudt:unitForQuantityKind quantitykind:AmountOfSubstanceConcentration ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Nanomole per Milliliter"@en-US ;
+  rdfs:label "Nanomole per Millilitre"@en .
+
+unit:MicroGM-PER-MilliL-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass concentration rate of change expressed as µg/(mL·d), equal to 0.000000011574074074074074074074074074074074074074074074074 kilogram per cubic metre second." ;
+  qudt:conversionMultiplier 0.000000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-8 ;
+  qudt:expression "$µg/(mL·d)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MicroGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MilliL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass concentration rate of change expressed as µg/(mL·d), equal to 0.000000011574074074074074074074074074074074074074074074074 kilogram per cubic metre second." ;
+  qudt:symbol "µg/(mL·d)" ;
+  qudt:unitForQuantityKind quantitykind:MassConcentrationRateOfChange ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Microgram per Milliliter Day"@en-US ;
+  rdfs:label "Microgram per Millilitre Day"@en .
+
+unit:MicroGM-PER-MilliM2
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area expressed as µg/mm², equal to 0.001 kilogram per square metre." ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1E-3 ;
+  qudt:expression "$µg/mm²$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MicroGM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -2 ;
+      qudt:hasUnit unit:MilliM ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area expressed as µg/mm², equal to 0.001 kilogram per square metre." ;
+  qudt:symbol "µg/mm²" ;
+  qudt:unitForQuantityKind quantitykind:MassPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Microgram per Square Millimeter"@en-US ;
+  rdfs:label "Microgram per Square Millimetre"@en .
+
+unit:BQ-PER-MilliGM
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of activity per mass expressed as Bq/mg, equal to 1000000.0 becquerel per kilogram." ;
+  qudt:conversionMultiplier 1000000.0 ;
+  qudt:conversionMultiplierSN 1E+6 ;
+  qudt:expression "$Bq/mg$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:BQ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MilliGM ;
+    ] ;
+  qudt:plainTextDescription "A unit of activity per mass expressed as Bq/mg, equal to 1000000.0 becquerel per kilogram." ;
+  qudt:symbol "Bq/mg" ;
+  qudt:unitForQuantityKind quantitykind:MassicActivity ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Becquerel per Milligram"@en .
+
+unit:MicroM3-PER-L
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volume fraction expressed as µm³/L, equal to 0.000000000000001." ;
+  qudt:conversionMultiplier 0.000000000000001 ;
+  qudt:conversionMultiplierSN 1E-15 ;
+  qudt:expression "$µm³/L$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 3 ;
+      qudt:hasUnit unit:MicroM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:L ;
+    ] ;
+  qudt:plainTextDescription "A unit of volume fraction expressed as µm³/L, equal to 0.000000000000001." ;
+  qudt:symbol "µm³/L" ;
+  qudt:unitForQuantityKind quantitykind:VolumeFraction ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Cubic Micrometer per Liter"@en-US ;
+  rdfs:label "Cubic Micrometre per Litre"@en .
+
+unit:MicroMOL-PER-MilliGM
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of amount of substance per mass expressed as µmol/mg, equal to 1.0 mole per kilogram." ;
+  qudt:conversionMultiplier 1.0 ;
+  qudt:conversionMultiplierSN 1E+0 ;
+  qudt:expression "$µmol/mg$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MicroMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MilliGM ;
+    ] ;
+  qudt:plainTextDescription "A unit of amount of substance per mass expressed as µmol/mg, equal to 1.0 mole per kilogram." ;
+  qudt:symbol "µmol/mg" ;
+  qudt:unitForQuantityKind quantitykind:AmountOfSubstancePerMass ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Micromole per Milligram"@en .
+
+unit:GM-PER-HA-YR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area and time expressed as g/(ha·yr), equal to 0.0000000000000031688087814028950237026896848936547772961188430045 kilogram per square metre second." ;
+  qudt:conversionMultiplier 0.0000000000000031688087814028950237026896848936547772961188430045 ;
+  qudt:conversionMultiplierSN 3.1688087814028950237026896848936547772961188430045E-15 ;
+  qudt:expression "$g/(ha·yr)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:HA ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:YR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area and time expressed as g/(ha·yr), equal to 0.0000000000000031688087814028950237026896848936547772961188430045 kilogram per square metre second." ;
+  qudt:symbol "g/(ha·yr)" ;
+  qudt:unitForQuantityKind quantitykind:MassPerAreaTime ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Gram per Hectare Year"@en .
+
+unit:GM-PER-M3-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass concentration rate of change expressed as g/(m³·d), equal to 0.000000011574074074074074074074074074074074074074074074074 kilogram per cubic metre second." ;
+  qudt:conversionMultiplier 0.000000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-8 ;
+  qudt:expression "$g/(m³·d)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass concentration rate of change expressed as g/(m³·d), equal to 0.000000011574074074074074074074074074074074074074074074074 kilogram per cubic metre second." ;
+  qudt:symbol "g/(m³·d)" ;
+  qudt:unitForQuantityKind quantitykind:MassConcentrationRateOfChange ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Gram per Cubic Meter Day"@en-US ;
+  rdfs:label "Gram per Cubic Metre Day"@en .
+
+unit:GM-PER-M3-YR
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass concentration rate of change expressed as g/(m³·yr), equal to 0.000000000031688087814028950237026896848936547772961188430045 kilogram per cubic metre second." ;
+  qudt:conversionMultiplier 0.000000000031688087814028950237026896848936547772961188430045 ;
+  qudt:conversionMultiplierSN 3.1688087814028950237026896848936547772961188430045E-11 ;
+  qudt:expression "$g/(m³·yr)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:YR ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass concentration rate of change expressed as g/(m³·yr), equal to 0.000000000031688087814028950237026896848936547772961188430045 kilogram per cubic metre second." ;
+  qudt:symbol "g/(m³·yr)" ;
+  qudt:unitForQuantityKind quantitykind:MassConcentrationRateOfChange ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Gram per Cubic Meter Year"@en-US ;
+  rdfs:label "Gram per Cubic Metre Year"@en .
+
+unit:MicroBQ-PER-GM
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of activity per mass expressed as µBq/g, equal to 0.001 becquerel per kilogram." ;
+  qudt:conversionMultiplier 0.001 ;
+  qudt:conversionMultiplierSN 1E-3 ;
+  qudt:expression "$µBq/g$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M-1H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MicroBQ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:plainTextDescription "A unit of activity per mass expressed as µBq/g, equal to 0.001 becquerel per kilogram." ;
+  qudt:symbol "µBq/g" ;
+  qudt:unitForQuantityKind quantitykind:MassicActivity ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Microbecquerel per Gram"@en .
+
+unit:MicroMOL-PER-M3
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of amount-of-substance concentration expressed as µmol/m³, equal to 0.000001 mole per cubic metre." ;
+  qudt:conversionMultiplier 0.000001 ;
+  qudt:conversionMultiplierSN 1E-6 ;
+  qudt:expression "$µmol/m³$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MicroMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:plainTextDescription "A unit of amount-of-substance concentration expressed as µmol/m³, equal to 0.000001 mole per cubic metre." ;
+  qudt:symbol "µmol/m³" ;
+  qudt:unitForQuantityKind quantitykind:AmountOfSubstanceConcentration ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Micromole per Cubic Meter"@en-US ;
+  rdfs:label "Micromole per Cubic Metre"@en .
+
+unit:MilliL-PER-MilliL
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of volume fraction expressed as mL/mL, equal to 1.0." ;
+  qudt:conversionMultiplier 1.0 ;
+  qudt:conversionMultiplierSN 1E+0 ;
+  qudt:expression "$mL/mL$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MilliL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MilliL ;
+    ] ;
+  qudt:plainTextDescription "A unit of volume fraction expressed as mL/mL, equal to 1.0." ;
+  qudt:symbol "mL/mL" ;
+  qudt:unitForQuantityKind quantitykind:VolumeFraction ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Milliliter per Milliliter"@en-US ;
+  rdfs:label "Millilitre per Millilitre"@en .
+
+unit:MOL-PER-DAY
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of molar flow rate expressed as mol/d, equal to 0.000011574074074074074074074074074074074074074074074074 mole per second." ;
+  qudt:conversionMultiplier 0.000011574074074074074074074074074074074074074074074074 ;
+  qudt:conversionMultiplierSN 1.1574074074074074074074074074074074074074074074074E-5 ;
+  qudt:expression "$mol/d$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:DAY ;
+    ] ;
+  qudt:plainTextDescription "A unit of molar flow rate expressed as mol/d, equal to 0.000011574074074074074074074074074074074074074074074074 mole per second." ;
+  qudt:symbol "mol/d" ;
+  qudt:unitForQuantityKind quantitykind:MolarFlowRate ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Mole per Day"@en .
+
+unit:NanoMOL-PER-MIN
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of molar flow rate expressed as nmol/min, equal to 0.000000000016666666666666666666666666666666666666666666666667 mole per second." ;
+  qudt:conversionMultiplier 0.000000000016666666666666666666666666666666666666666666666667 ;
+  qudt:conversionMultiplierSN 1.6666666666666666666666666666666666666666666666667E-11 ;
+  qudt:expression "$nmol/min$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:NanoMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MIN ;
+    ] ;
+  qudt:plainTextDescription "A unit of molar flow rate expressed as nmol/min, equal to 0.000000000016666666666666666666666666666666666666666666666667 mole per second." ;
+  qudt:symbol "nmol/min" ;
+  qudt:unitForQuantityKind quantitykind:MolarFlowRate ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Nanomole per Minute"@en .
+
+unit:PicoMOL-PER-GM
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of amount of substance per mass expressed as pmol/g, equal to 0.000000001 mole per kilogram." ;
+  qudt:conversionMultiplier 0.000000001 ;
+  qudt:conversionMultiplierSN 1E-9 ;
+  qudt:expression "$pmol/g$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L0I0M-1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:PicoMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:GM ;
+    ] ;
+  qudt:plainTextDescription "A unit of amount of substance per mass expressed as pmol/g, equal to 0.000000001 mole per kilogram." ;
+  qudt:symbol "pmol/g" ;
+  qudt:unitForQuantityKind quantitykind:AmountOfSubstancePerMass ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Picomole per Gram"@en .
+
+unit:MilliMOL-PER-M3-MIN
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of catalytic activity concentration expressed as mmol/(m³·min), equal to 0.000016666666666666666666666666666666666666666666666667 mole per cubic metre second." ;
+  qudt:conversionMultiplier 0.000016666666666666666666666666666666666666666666666667 ;
+  qudt:conversionMultiplierSN 1.6666666666666666666666666666666666666666666666667E-5 ;
+  qudt:expression "$mmol/(m³·min)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L-3I0M0H0T-1D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MilliMOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -3 ;
+      qudt:hasUnit unit:M ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:MIN ;
+    ] ;
+  qudt:plainTextDescription "A unit of catalytic activity concentration expressed as mmol/(m³·min), equal to 0.000016666666666666666666666666666666666666666666666667 mole per cubic metre second." ;
+  qudt:symbol "mmol/(m³·min)" ;
+  qudt:unitForQuantityKind quantitykind:CatalyticActivityConcentration ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Millimole per Cubic Meter Minute"@en-US ;
+  rdfs:label "Millimole per Cubic Metre Minute"@en .
+
+unit:MOL-PER-L-ATM
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of pressure-based amount-of-substance concentration expressed as mol/(L·atm), equal to 0.0098692326671601283000246730816679003207500616827042 mole per cubic metre pascal." ;
+  qudt:conversionMultiplier 0.0098692326671601283000246730816679003207500616827042 ;
+  qudt:conversionMultiplierSN 9.8692326671601283000246730816679003207500616827042E-3 ;
+  qudt:expression "$mol/(L·atm)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A1E0L-2I0M-1H0T2D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:MOL ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:L ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:ATM ;
+    ] ;
+  qudt:plainTextDescription "A unit of pressure-based amount-of-substance concentration expressed as mol/(L·atm), equal to 0.0098692326671601283000246730816679003207500616827042 mole per cubic metre pascal." ;
+  qudt:symbol "mol/(L·atm)" ;
+  qudt:unitForQuantityKind quantitykind:PressureBasedAmountOfSubstanceConcentration ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Mole per Liter Atmosphere"@en-US ;
+  rdfs:label "Mole per Litre Atmosphere"@en .
+
+unit:OZ-PER-AC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area expressed as oz/ac, equal to 0.0000070053197262153502982651307614624207924061190434389 kilogram per square metre." ;
+  qudt:conversionMultiplier 0.0000070053197262153502982651307614624207924061190434389 ;
+  qudt:conversionMultiplierSN 7.0053197262153502982651307614624207924061190434389E-6 ;
+  qudt:expression "$oz/ac$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:OZ ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:AC ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area expressed as oz/ac, equal to 0.0000070053197262153502982651307614624207924061190434389 kilogram per square metre." ;
+  qudt:symbol "oz/ac" ;
+  qudt:unitForQuantityKind quantitykind:MassPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Ounce per Acre"@en .
+
+unit:TON_US-PER-AC-FT
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass density expressed as ton{US}/(ac·ft), equal to 0.7354666379228714223900399749566845976279390071852 kilogram per cubic metre." ;
+  qudt:conversionMultiplier 0.7354666379228714223900399749566845976279390071852 ;
+  qudt:conversionMultiplierSN 7.354666379228714223900399749566845976279390071852E-1 ;
+  qudt:expression "$ton{US}/(ac·ft)$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:TON_US ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:AC ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:FT ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass density expressed as ton{US}/(ac·ft), equal to 0.7354666379228714223900399749566845976279390071852 kilogram per cubic metre." ;
+  qudt:symbol "ton{US}/(ac·ft)" ;
+  qudt:unitForQuantityKind quantitykind:MassDensity ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "US Ton per Acre Foot"@en .
+
+unit:TON_US-PER-HA
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area expressed as ton{US}/ha, equal to 0.090718474 kilogram per square metre." ;
+  qudt:conversionMultiplier 0.090718474 ;
+  qudt:conversionMultiplierSN 9.0718474E-2 ;
+  qudt:expression "$ton{US}/ha$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:TON_US ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:HA ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area expressed as ton{US}/ha, equal to 0.090718474 kilogram per square metre." ;
+  qudt:symbol "ton{US}/ha" ;
+  qudt:unitForQuantityKind quantitykind:MassPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "US Ton per Hectare"@en .
+
+unit:TONNE-PER-AC
+  a qudt:DerivedUnit, qudt:Unit ;
+  dcterms:description "A unit of mass per area expressed as t/ac, equal to 0.24710538146716534224824392919880626007553412923375 kilogram per square metre." ;
+  qudt:conversionMultiplier 0.24710538146716534224824392919880626007553412923375 ;
+  qudt:conversionMultiplierSN 2.4710538146716534224824392919880626007553412923375E-1 ;
+  qudt:expression "$t/ac$"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T0D0 ;
+  qudt:hasFactorUnit [
+      qudt:exponent 1 ;
+      qudt:hasUnit unit:TONNE ;
+    ] ;
+  qudt:hasFactorUnit [
+      qudt:exponent -1 ;
+      qudt:hasUnit unit:AC ;
+    ] ;
+  qudt:plainTextDescription "A unit of mass per area expressed as t/ac, equal to 0.24710538146716534224824392919880626007553412923375 kilogram per square metre." ;
+  qudt:symbol "t/ac" ;
+  qudt:unitForQuantityKind quantitykind:MassPerArea ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Tonne per Acre"@en .

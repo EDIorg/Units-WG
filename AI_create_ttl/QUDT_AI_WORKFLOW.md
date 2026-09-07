@@ -2,8 +2,8 @@
 
 This workflow processes a file of ecology unit candidates, checks current QUDT
 sources, and creates reviewable Turtle plus notes, concerns, recommendations,
-and an evidence ledger. It is available in VS Code through GitHub Copilot and
-the Codex extension.
+and an evidence ledger. It is available through GitHub Copilot, Claude Code,
+and the Codex extension.
 
 ## Before You Start
 
@@ -143,7 +143,34 @@ Use any of these entry points:
 2. Type `/process-qudt-unit-list`, attach or name the candidate file, and send.
 3. Type `/qudt-unit-contribution` to invoke the shared skill directly.
 
-The prompt and agent both delegate to the same skill.
+The prompt and agent both delegate to the same skill. The selected Copilot
+model may be GPT or Claude; model selection does not change the workspace
+skill, tools, or source files supplied by the Copilot host.
+
+## Claude Code
+
+Start Claude Code from the Units-WG repository or one of its subdirectories,
+grant access to a QUDT checkout outside this repository, and then invoke the
+shared workflow with the candidate path:
+
+```bash
+QUDT_SOURCE_ROOT=/path/to/qudt-source \
+  claude --add-dir /path/to/qudt-source
+```
+
+```text
+/qudt-unit-contribution AI_create_ttl/inputs/candidates.csv
+```
+
+If Claude Code is already running, use `/add-dir /path/to/qudt-source` before
+starting the run. No additional directory is needed when the QUDT checkout is
+inside the project directory.
+
+The project path `.claude/skills/qudt-unit-contribution` is a symlink to the
+authoritative package under `.agents/skills/`; both clients therefore use the
+same instructions, scripts, references, and templates. If the skill does not
+appear in an already-running session after first checking out this adapter,
+restart Claude Code so it discovers the new top-level skills directory.
 
 ## Codex
 

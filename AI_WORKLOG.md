@@ -30,6 +30,50 @@ change.
 
 Use a root `CHANGELOG.md`, when present, for user-facing release history.
 
+## 2026-09-07 — Claude workflow compatibility
+
+- **Request summary:** Verify that the QUDT generation instructions, scripts,
+  references, and external sources are available when using a Claude model.
+- **Outcome:** Added a Claude Code project-skill adapter that symlinks to the
+  authoritative `.agents` package and documented Claude invocation and sibling
+  QUDT-checkout access. Clarified that GPT and Claude selected within Copilot
+  receive the same host-provided workspace tools and skill.
+- **Decisions:** Kept one authoritative skill package to prevent model-specific
+  drift. Used Claude Code's documented project-skill symlink support. Optimized
+  for reliability and operational excellence, with a Windows checkout
+  dependency on Git symlink support.
+- **Verification:** Parsed Claude-visible skill frontmatter; resolved all local
+  links; ran intake help and RDF preflight through `.claude/skills`; confirmed
+  the QUDT checkout and mandatory online sources are readable. BIPM, NIST, and
+  UCUM were reachable.
+- **Limitations/follow-up:** The standalone `claude` executable is not installed
+  locally, so an end-to-end Claude Code invocation was not run. IUPAC Gold Book
+  blocks automated access with HTTP 403 and must be treated as unavailable when
+  needed unless another approved access method succeeds.
+- **References:** `AI_create_ttl/QUDT_AI_WORKFLOW.md`
+
+## 2026-09-07 — MOB unit review package
+
+- **Request summary:** Process 84 ecology unit expressions into an evidence-backed,
+  review-only QUDT contribution package without modifying the QUDT checkout.
+- **Outcome:** Added an isolated run with 51 new Unit drafts, 5 existing-resource
+  decisions, 24 clarification cases, 4 blocked month conversions, a complete
+  84-row decision ledger, and no new QuantityKinds or DimensionVectors.
+- **Decisions:** Reused current QUDT QKs and DVs; preserved factor-expression
+  identity; mapped `CM3` and `MOLE` spellings to canonical existing resources;
+  retained the four approved QKs for `KiloJ-PER-M2`; withheld context-dependent
+  count, ratio, and normalized-rate candidates.
+  Optimized for reliability and operational excellence at the cost of lower
+  draft coverage.
+- **Verification:** RDF preflight passed with zero warnings; all factor
+  arithmetic, local URI resolution, and QK-vector pairs passed; live SPARQL
+  confirmed 51 draft URIs absent and all reused URIs present; label/symbol
+  collision checks were empty; the QUDT checkout remained clean.
+- **Limitations/follow-up:** Local QUDT commit `6b8df6f4` trails official
+  upstream `75e5ef6a`; full QUDT build validation was prohibited, so the package
+  is not submission-ready. Domain review must resolve the 28 withheld rows.
+- **References:** `AI_create_ttl/runs/2026-09-07-mob-units-gpt/review.md`
+
 ## 2026-08-14 — Cross-platform QUDT contribution workflow
 
 - **Request summary:** Replace earlier QUDT AI experiments with a reusable
