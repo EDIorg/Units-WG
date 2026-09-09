@@ -16,8 +16,16 @@ than duplicate these rules.
 - Claude Code: `CLAUDE.md`.
 - Cursor: `.cursor/rules/`.
 
-When a platform supports scoped or task-specific instruction files, consult
-them when their description or path pattern matches the current task.
+Task-specific standards live in `.github/instructions/`. Some platforms load
+them automatically from their `applyTo` pattern; others do not. Read the
+matching file yourself before working on:
+
+- `r-style` — any `.R`, `.Rmd`, or `.qmd` file.
+- `python-style` — any `.py` file.
+- `analysis` — work whose deliverable is a result (figures, models, reports)
+  rather than software.
+- `postgresql` — SQL, schema, or database-adjacent changes.
+- `well-architected` — any non-trivial design or architecture decision.
 
 ## The approach
 
@@ -35,18 +43,13 @@ For large or ambiguous requests, ask one clarifying question rather than
 guessing. For genuinely complex multi-team or long-lived work, consider the
 companion spec-driven template instead.
 
-## Record AI-assisted project work
+## Record AI-assisted project work (optional)
 
-After completing material AI-assisted project work, add a concise entry to
-`AI_WORKLOG.md`. Summarize the request, outcome, important decisions,
-verification, and any limitations or follow-up. Skip routine questions and
-trivial changes whose intent is already obvious from the diff.
-
-Do not copy raw prompts, transcripts, private reasoning, or tool output into
-the worklog. Never record credentials, personal or sensitive data, or
-proprietary prompt content. Treat the worklog as curated historical context,
-not as a complete audit trail or a substitute for authoritative project
-documentation.
+Some projects keep an `AI_WORKLOG.md`; most do not need one. If the file
+exists, add a concise entry after material AI-assisted work — request summary,
+outcome, decisions, verification, limitations — and never record raw prompts,
+transcripts, tool output, credentials, or sensitive data. If the file does not
+exist, do not create one unprompted.
 
 Use a root `CHANGELOG.md`, when present, for user-facing release history.
 
@@ -89,5 +92,3 @@ Inline format (keep it brief):
 - **Domain knowledge** (e.g. ecological metadata / EML / EDI) should live in
   portable `.agents/skills/` packages when practical. Copilot-specific agents,
   prompts, and instructions live under `.github/`.
-- **Record material AI-assisted project work** in `AI_WORKLOG.md`; capture
-  outcome and limitations, not raw prompts or transcripts.

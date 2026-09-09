@@ -6,14 +6,12 @@ applyTo: "**"
 
 For any non-trivial design choice, consult the local WAF reference in
 [.github/ai-reference/waf/](../ai-reference/waf/) and **cite the pillar(s)** you are optimizing for
-and what you trade away (see the base operating model in
-`copilot-instructions.md`).
+and what you trade away (see the base operating model in `AGENTS.md`).
 
 - Pillar checklists and trade-off prompts live in
   `.github/ai-reference/waf/pillars/`.
 - These are version-controlled, reviewable references — prefer them (and live
   doc MCP servers) over model memory.
 - Record local implementation rationale in the relevant code comment or commit
-  message. For material AI-assisted work, add a concise `AI_WORKLOG.md` entry.
-  Use a root `CHANGELOG.md`, when present, for user-facing release history. A
-  separate spec file is not required for this lightweight workflow.
+  message. Use a root `CHANGELOG.md`, when present, for user-facing release
+  history. A separate spec file is not required for this lightweight workflow.

@@ -4,13 +4,10 @@ applyTo: "**/*.{Rmd,rmd,qmd,ipynb}"
 ---
 # Analysis (analyze, don't just build)
 
-Same operating model as `copilot-instructions.md`, with data-analysis framing.
-The deliverable is a **validated result** (figures, tables, model, report) — not
-software. Treat reproducibility as the reliability pillar.
-
-For R or Python utility software whose deliverable is not an analysis, use the
-language-specific instructions without imposing the research-question framing
-below.
+Same operating model as `AGENTS.md`, with data-analysis framing. Applies when
+the deliverable is a **validated result** (figures, tables, model, report)
+rather than software — including R and Python scripts that produce one. Treat
+reproducibility as the reliability pillar.
 
 ## Framing analysis work
 
@@ -35,5 +32,3 @@ Before writing code, briefly state:
 
 - Re-run end-to-end from a clean checkout; outputs match.
 - State assumptions and check them; report uncertainty, not just point estimates.
-- If publishing data, follow the repository's current metadata and packaging
-  workflow; do not assume a named metadata skill is installed.
