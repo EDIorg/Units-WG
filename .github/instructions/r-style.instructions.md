@@ -4,7 +4,8 @@ applyTo: "**/*.{R,r,Rmd,rmd,qmd}"
 ---
 # R Standards
 
-- Follow the tidyverse style guide; format with `styler`, lint with `lintr`.
+- Follow the [tidyverse style guide](https://style.tidyverse.org/); format with
+  `styler`, lint with `lintr`.
 - Always namespace non-base functions (`pkg::fun()`); omit `base::` unless a
   disambiguation is necessary.
 - Treat `renv` as suggested for dependency reproducibility; when used, record
