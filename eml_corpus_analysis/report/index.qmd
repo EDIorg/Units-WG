@@ -1,0 +1,86 @@
+---
+title: "Overview"
+---
+
+```{r setup}
+source("_common.R")
+overview <- targets::tar_read(corpus_overview, store = store)
+run <- jsonlite::read_json(file.path(pkg_root, targets::tar_read(run_manifest_file, store = store)))
+```
+
+This site summarizes **units of measure and their ecological context** in
+Ecological Metadata Language (EML) records from the
+[Environmental Data Initiative (EDI) repository](https://portal.edirepository.org).
+It is the first deliverable of the plan to propose QUDT QuantityKinds (QKs)
+with ecological context and to decide how and when to attach them to units.
+Counts reflect **usage in metadata**, not authority. Methods:
+`r doc_link("methods.md")`. Table definitions: `r doc_link("data-dictionary.md")`.
+
+## Corpus at a glance
+
+| Measure | Value |
+|---|---|
+| EML files (snapshot `r run$corpus$snapshot`) | `r num(overview$files)` (parse errors: `r overview$parse_errors`) |
+| Scopes (EDI, LTER sites, and others) | `r overview$scopes_n` |
+| Attributes | `r num(overview$attributes)` |
+| Attributes with `standardUnit` / `customUnit` | `r num(overview$standard_unit_uses)` / `r num(overview$custom_unit_uses)` |
+| Distinct unit names (case-folded) | `r num(overview$unit_names)` |
+| Unit groups (QUDT unit or spelling-insensitive key) | `r num(overview$unit_groups)` |
+| Unit groups used in one dataset / in 100+ datasets | `r num(overview$single_dataset_groups)` / `r num(overview$groups_100_plus)` |
+| Unit uses mapped to a current QUDT unit | `r pct(overview$share_uses_mapped)` |
+| Attributes / datasets with semantic annotations | `r num(overview$annotated_attributes)` / `r num(overview$annotated_datasets)` |
+
+```{r versions}
+#| layout-ncol: 2
+plotly::plot_ly(
+  overview$eml_versions,
+  x = ~eml_version, y = ~files, type = "bar"
+) |>
+  plotly::layout(
+    title = "Files by EML version",
+    xaxis = list(title = ""), yaxis = list(title = "Files")
+  )
+
+plotly::plot_ly(
+  overview$dataset_units,
+  x = ~datasets, y = ~unit_groups, type = "scatter", mode = "markers"
+) |>
+  plotly::layout(
+    title = "Long tail: unit groups by number of datasets using them",
+    xaxis = list(title = "Datasets using the unit group", type = "log"),
+    yaxis = list(title = "Unit groups", type = "log")
+  )
+```
+
+## How units were mapped to QUDT
+
+Each EML unit name was mapped to a **current** QUDT unit, first through the
+`RCode_JP` reference mapping (kept only if the QUDT URI still exists), then
+through a spelling-insensitive match key. Unmapped names are kept and grouped
+by their match key.
+
+```{r mapping}
+interactive_table(
+  overview$mapping |> dplyr::mutate(share_uses = round(share_uses, 4)),
+  "mapping_sources"
+)
+```
+
+## Scopes
+
+```{r scopes}
+interactive_table(overview$scopes, "scopes")
+```
+
+## Provenance
+
+- Corpus: `r run$corpus$source`, snapshot `r run$corpus$snapshot`,
+  `r num(run$corpus$files)` files (sample size setting: `r run$corpus$sample_n`;
+  0 means the full corpus).
+- QUDT: `r run$qudt$endpoint`, retrieved `r run$qudt$retrieved`
+  (`r num(run$qudt$units)` units).
+- Build: commit `r substr(run$git_commit, 1, 10)`
+  (uncommitted changes: `r run$git_dirty`), config profile
+  `r run$config_profile`, `r run$r_version`.
+- LLM labeling enabled: `r run$llm$enabled`.
+- Derived tables: [`data/derived/`](`r derived_url`).

@@ -1,0 +1,69 @@
+---
+title: "Concept classification"
+---
+
+```{r setup}
+source("_common.R")
+clusters <- targets::tar_read(clusters, store = store)
+labels <- targets::tar_read(llm_labels, store = store)
+audit_summary <- targets::tar_read(audit_summary, store = store)
+audit_sample <- targets::tar_read(audit_sample, store = store)
+```
+
+Seed patterns only find concepts that someone already thought of. To find
+the rest, distinct attribute definitions within each DimensionVector family
+are clustered. Each definition is represented by **TF-IDF** weights over the
+family's most common terms, and the definitions are grouped with **seeded
+k-means**. Large families are sampled with a fixed seed. Protocol:
+`r doc_link("llm-protocol.md", "LLM and audit protocol")`.
+
+## Clusters
+
+`exemplars` lists the definitions closest to each cluster centre, separated
+by `||`.
+
+```{r clusters}
+cluster_table <- clusters$clusters |>
+  dplyr::left_join(labels, by = "cluster_id")
+shared <- crosstalk::SharedData$new(cluster_table)
+filtered_table(
+  crosstalk::filter_select("dv", "Dimension vector", shared, ~dimension_vector),
+  reactable::reactable(
+    shared,
+    searchable = TRUE, compact = TRUE, striped = TRUE, resizable = TRUE,
+    defaultPageSize = 10,
+    columns = list(exemplars = wide(520), top_terms = wide(240), units = wide(240))
+  )
+)
+```
+
+## LLM labels
+
+```{r llm-status}
+llm_status <- dplyr::count(labels, llm_status, name = "clusters")
+knitr::kable(llm_status)
+```
+
+LLM labeling is **off by default**. It sends cluster exemplars (public EML
+text) to a third-party API and costs money. When enabled in `config.yml`,
+each cluster gets a structured label: measured concept, entity or medium,
+process, denominator semantics, coherence, whether it is a QK candidate,
+aligned vocabulary terms, confidence, and rationale. Labels are cached as
+`targets` and recorded with the model and prompt hash.
+
+## Human audit
+
+`audit_sample.csv` holds a seeded, stratified sample of
+`r nrow(audit_sample)` attributes (a fixed number per cluster). Reviewers
+copy rows into `data/reference/audit_reviewed.csv` and fill in
+`reviewer_measured_concept`, `reviewer_agrees` (yes or no), and
+`reviewer_notes`. The pipeline then reports agreement by family below.
+Families with low agreement are re-scoped or kept manual.
+
+```{r audit}
+if (nrow(audit_summary) == 0) {
+  htmltools::p(htmltools::em("No audit rows reviewed yet."))
+} else {
+  interactive_table(audit_summary, "audit_summary")
+}
+```

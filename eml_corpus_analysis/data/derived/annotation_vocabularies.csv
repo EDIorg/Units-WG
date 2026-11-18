@@ -1,0 +1,21 @@
+subject_level,vocabulary,annotations,datasets
+attribute,QUDT,33840,1321
+attribute,ECSO,2937,121
+attribute,Darwin Core,2857,120
+attribute,Other OBO,80,7
+attribute,PATO,43,7
+attribute,Other,30,12
+attribute,ENVO,27,11
+attribute,OBOE,2,1
+dataset,ENVO,81,50
+dataset,ECSO,12,12
+dataset,Other,6,4
+dataset,Other OBO,3,3
+dataset,OBOE,1,1
+entity,ECSO,139,68
+entity,Darwin Core,132,66
+referenced,ECSO,347,69
+referenced,Other OBO,206,74
+referenced,Darwin Core,131,66
+referenced,ENVO,115,51
+referenced,PATO,5,5

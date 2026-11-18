@@ -1,0 +1,11 @@
+/* Full-width, compact tables (adapted from mocnessmanageR's review report). */
+.reactable {
+  width: 100% !important;
+  font-size: 10pt;
+}
+
+.reactable input,
+.reactable select,
+.crosstalk-input {
+  font-size: 10pt;
+}

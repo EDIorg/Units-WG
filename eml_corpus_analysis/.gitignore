@@ -1,0 +1,9 @@
+# Corpus-scale intermediates and caches (regenerable; may contain EML text).
+_targets/
+data/work/
+# Rendered report (regenerate with targets::tar_make()).
+report/_site/
+report/.quarto/
+report/*_files/
+.Rhistory
+.RData

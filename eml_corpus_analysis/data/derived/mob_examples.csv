@@ -1,0 +1,82 @@
+candidate,status,package_id,unit,attribute,definition
+GM-PER-M2-MO,blocked-conversion,knb-lter-fce.1223.1,gramsPerSquareMeterPerMonth,GEP.Model,Gross ecosystem Production modeled over one month (grams of C per square meter per month)
+GM-PER-M2-MO,blocked-conversion,knb-lter-fce.1223.1,gramsPerSquareMeterPerMonth,ER.Model,Ecosystem respiration modeled over one month (grams of C per square meter per month)
+GM-PER-M2-MO,blocked-conversion,knb-lter-fce.1224.1,gramsPerMeterSquaredPerMonth,GEP.CO2,Gross ecosystem Production (grams of Carbon per meters squared per month)
+GM-PER-M2-MO,blocked-conversion,knb-lter-fce.1224.1,gramsPerMeterSquaredPerMonth,ER.CO2,Ecosystem Respiration (grams of carbon per meter squared per month)
+GM-PER-M2-MO,blocked-conversion,knb-lter-fce.1224.1,gramsPerMeterSquaredPerMonth,NEP.CO2,Net ecosystem Production (grams of carbon per meter squared per month)
+KiloGM-PER-HA-MO,blocked-conversion,knb-lter-hfr.18.38,kilogramsPerHectarePerMonth,sum_ion,NH4 + NO3 (kgN/ha/month)
+KiloGM-PER-HA-MO,blocked-conversion,knb-lter-hfr.18.38,kilogramsPerHectarePerMonth,nh4,ammonification rate (kgN/ha/monh)
+KiloGM-PER-HA-MO,blocked-conversion,knb-lter-hfr.18.38,kilogramsPerHectarePerMonth,no3,nitrification rate (kgN/ha/month)
+MilliGM-PER-GM-MO,blocked-conversion,knb-lter-nwt.55.1,milligramPerGramPerMonth,net_N_min_g,net N mineralization/g soil/month (mg NH4+NO3/g dry soil)
+MilliGM-PER-GM-MO,blocked-conversion,knb-lter-nwt.55.1,milligramPerGramPerMonth,net_nitrif_g,net nitrification/g soil/month (mg NO3/g dry soil)
+MilliGM-PER-KiloGM-MO,blocked-conversion,knb-lter-cdr.304.13,miligramsPerKilogramPerMonth,Nitrification (mg kg-1 ~m-1),Nitrification (mg/kg-1/m-1)
+MilliGM-PER-KiloGM-MO,blocked-conversion,knb-lter-cdr.304.13,miligramsPerKilogramPerMonth,Ammonification (mg kg-1 ~m-1),Ammonification (mg kg-1 ~m-1)
+MilliGM-PER-KiloGM-MO,blocked-conversion,knb-lter-cdr.304.13,miligramsPerKilogramPerMonth,Net N mineralization (mg kg-1 ~m-1),Net N mineralization (mg kg-1 ~m-1)
+MilliGM-PER-KiloGM-MO,blocked-conversion,knb-lter-cdr.712.1,miligramsPerKilogramPerMonth,nmin1,Net in situ soil N mineralization from end of May to early July Net (mg kg-1 ~m-1)
+MilliGM-PER-KiloGM-MO,blocked-conversion,knb-lter-cdr.712.1,miligramsPerKilogramPerMonth,nmin2,Net in situ soil N mineralization from early July to mid August (mg kg-1 ~m-1)
+GM-PER-GM-HR,needs-clarification,knb-lter-mcr.19.16,gramsPerGramPerHour,resp_per_mass,"Respiration per mass defined as grams oxygen production per gram dry weight per hour, in dark. Rate of change in dissolved oxygen in the flume in the dark per gram per hour."
+GM-PER-GM-HR,needs-clarification,knb-lter-mcr.19.16,gramsPerGramPerHour,npp_per_mass,"Net primary production per area defined as grams oxygen production per gram dry weight per hour, in the light. Rate of change in dissolved oxygen in the flume at saturating irradiances (in light) per mass."
+GM-PER-GM-HR,needs-clarification,knb-lter-mcr.19.16,gramsPerGramPerHour,gpp_per_mass,GPP = ABS(Respiration) + NPP
+GM-PER-NUM,needs-clarification,knb-lter-arc.10142.6,gramPerNumber,AVG MASS PER LEAF,Mass of leaves divided by leaf count (g per leaf)
+GM-PER-NUM,needs-clarification,knb-lter-arc.10142.6,gramPerNumber,AVG MASS PER PETIOLE,Mass of petioles divided by petiole count (g per petiole)
+GM-PER-NUM,needs-clarification,knb-lter-arc.10142.6,gramPerNumber,AVG MASS PER STIPULE,Mass of stipules divided by stipule count (g per stipule)
+GM-PER-NUM,needs-clarification,knb-lter-arc.10142.6,gramPerNumber,AVG MASS PER ORGAN,Mass of organs divided by organ count (g per organ)
+GM-PER-NUM,needs-clarification,knb-lter-arc.1389.10,gramPerNumber,leaf mass / # leaves (g/#),Mass of leaves divided by number of leaves.
+MicroGM-PER-KiloGM-DAY,needs-clarification,knb-lter-cap.396.6,microgramPerKilogramPerDay,s_Nmin,surface soil net N mineralization
+MicroGM-PER-KiloGM-DAY,needs-clarification,knb-lter-cap.396.6,microgramPerKilogramPerDay,s_nitrif,surface soil nitrifaction
+MicroGM-PER-KiloGM-DAY,needs-clarification,knb-lter-cap.396.6,microgramPerKilogramPerDay,s_denit,surface soil potential denitrifaction
+MicroGM-PER-KiloGM-DAY,needs-clarification,knb-lter-cap.396.6,microgramPerKilogramPerDay,r_Nmin,region of seasonal saturation soil net N mineralization
+MicroGM-PER-KiloGM-DAY,needs-clarification,knb-lter-cap.396.6,microgramPerKilogramPerDay,r_nitrif,region of seasonal saturation soil nitrifaction
+MicroGM-PER-KiloGM-HR,needs-clarification,knb-lter-cap.682.2,microgramPerKilogramPerHour,DR_90,Denitrification rates calculated (using Groffman et. al methods for Denitrification Enzyme Assays) for samples incubated from thirty to ninety minutes and taken at ninety minutes as micrograms of Nitrogen per Kilograms Soil per hour.
+MicroGM-PER-KiloGM-HR,needs-clarification,knb-lter-cap.682.2,microgramPerKilogramPerHour,DR_240,Denitrification rates calculated (using Groffman et. Al methods for Denitrification Enzyme Assays) for samples incubated from ninety to two hundred and forty minutes and taken at two hundred and forty minutes as micrograms of Nitrogen pe...
+MicroGM-PER-KiloGM-HR,needs-clarification,knb-lter-cap.682.2,microgramPerKilogramPerHour,DR_90A,Averaged denitrification rates of the repetitions for each site from thirty to ninety minutes of incubation during Denitrification Enzyme Assays as micrograms nitrous oxide (N2O) per Kilogram of soil per hour
+MicroGM-PER-KiloGM-HR,needs-clarification,knb-lter-cap.682.2,microgramPerKilogramPerHour,DR_240A,Averaged denitrification rates of the repetitions for each site from ninety minutes to four hours of incubation during Denitrification Enzyme Assays as micrograms nitrous oxide (N2O) per Kilogram of soil per hour
+MicroGM-PER-KiloGM-HR,needs-clarification,knb-lter-hbr.196.2,microgramPerKilogramPerHour,DEA,Denitrification enzyme activity
+MicroMOL-PER-GM-DAY,needs-clarification,edi.1746.1,micromolePerGramPerDay,N2O,Nitrous oxide production rate (umol N2O per gram fresh sediment/soil per day)
+MicroMOL-PER-GM-DAY,needs-clarification,edi.1746.1,micromolePerGramPerDay,N2O SD,Standard deviation (n=3) of nitrous oxide production rate
+MicroMOL-PER-GM-DAY,needs-clarification,edi.1746.1,micromolePerGramPerDay,DNF,Rate of denitrification defined as N2O production with acetylene addition (umol N2O per gram fresh soil/sediment per day)
+MicroMOL-PER-GM-DAY,needs-clarification,edi.1746.1,micromolePerGramPerDay,DNF SD,Standard deviation (n=3) of denitrification rate
+MicroMOL-PER-GM-DAY,needs-clarification,edi.1746.1,micromolePerGramPerDay,N2O SD,Standard deviation (n=4) of nitrous oxide production rate
+MicroMOL-PER-HR-MilliGM,needs-clarification,edi.1979.2,micromolePerMilligramPerHour,POX,phenol oxidase activity per microbial biomass in soil
+MicroMOL-PER-HR-MilliGM,needs-clarification,edi.1979.2,micromolePerMilligramPerHour,PER,peroxidase activity per microbial biomass in soil
+MicroMOL-PER-HR-MilliGM,needs-clarification,knb-lter-mcr.5010.2,micromolePerMilligramPerHour,Biomass_Respiration,Dark respiration normalized to biomass.
+MilliGM-PER-GM-DAY,needs-clarification,edi.521.1,milligramPerGramPerDay,n_min,Net N mineralization
+MilliGM-PER-GM-DAY,needs-clarification,edi.971.1,milligramPerGramPerDay,CO2_obs_mgC_gC_d,Observed mean CO2 production rate from incubation
+MilliGM-PER-GM-DAY,needs-clarification,edi.971.1,milligramPerGramPerDay,CH4_obs_mgC_gC_d,Observed mean CH4 production rate from incubation
+MilliGM-PER-GM-DAY,needs-clarification,edi.971.1,milligramPerGramPerDay,TC_obs_mgC_gC_d,Observed mean total respired C rate as CO2 and CH4 from incubation
+MilliGM-PER-GM-DAY,needs-clarification,edi.971.1,milligramPerGramPerDay,new_MEND_CO2_SIM_mgC_gC_d,Simulated CO2 production rate from MEND model calibrated with full dataset
+MilliGM-PER-KiloGM-HR,needs-clarification,knb-lter-hbr.247.1,milliGramPerKilogramPerHour,DEA,Denitrification enzyme activity
+MilliGM-PER-MilliGM-DAY,needs-clarification,knb-lter-mcr.5005.5,milligramPerMilligramPerDay,growth_per_mass,Growth mg/m2/d reports skeletan dry increment normalized to biomass.
+MilliGM-PER-MilliGM-DAY,needs-clarification,knb-lter-mcr.5010.2,milligramPerMilligramPerDay,Biomass_Growth,Mass accretion of CaCO3 normalized to biomass
+MilliM-PER-NUM,needs-clarification,knb-lter-arc.1382.9,millimeterPerNumber,ss lnth/#,length of short shoots in a maximum age class divided by the number in that class
+MilliMOL-PER-MOL-SEC,needs-clarification,knb-lter-hfr.109.19,millimolePerMolePerSecond,pnue.n,Photosynthetic Nitrogen Use Efficiency of youngest leaf (units: mmol CO2 • mol N-1 • s-1)
+MilliMOL-PER-MOL-SEC,needs-clarification,knb-lter-hfr.109.19,millimolePerMolePerSecond,pnue.p,Photosynthetic Phosphorus Use Efficiency of youngest leaf (units: mmol CO2 • mol P-1 • s-1)
+NUM-PER-GM-MIN,needs-clarification,knb-lter-fce.1124.3,numberPerGramPerMinute,Excess_Pb,210-Pb concentration in soil in excess of background concentration
+NUM-PER-KiloM,needs-clarification,edi.1244.2,numberPerKilometer,drainage density (km-1),It is a measurement of the sum of the channel lengths per unit area.
+NUM-PER-KiloM,needs-clarification,knb-lter-sbc.163.1,numberPerKilometer,black_bellied_plover,Species abundance for each survey (n=3)
+NUM-PER-L-MIN,needs-clarification,knb-lter-ntl.50.5,decayPerMinutePerLiter,conc_decay_final,final concentration of decays per minute of radioactive leucine in sample in DPM per liter
+NUM-PER-L-MIN,needs-clarification,knb-lter-pal.246.2,decaysPerMinutePerLiter,Th-234 Activity,"Water column Th-234 activity (decays per minute) determined by beta counting, following Pike et al. (2006)"
+NUM-PER-L-MIN,needs-clarification,knb-lter-pal.246.2,decaysPerMinutePerLiter,Th-234 Activity Error,Standard error of Th-234 Activity
+NUM-PER-L-MIN,needs-clarification,knb-lter-pal.246.2,decaysPerMinutePerLiter,Deficiency,U-238 Activity minus Th-234 Activity
+NUM-PER-L-MIN,needs-clarification,knb-lter-pal.246.2,decaysPerMinutePerLiter,Deficiency Error,Standard error of deficiency
+NanoGM-PER-GM-DAY,needs-clarification,edi.190.2,nanogramsPerGramPerDay,NETNH4NDRY,Net ammonification in nanograms per gram dry peat per day
+NanoGM-PER-GM-DAY,needs-clarification,edi.190.2,nanogramsPerGramPerDay,NETNO3NDRY,Net nitrification in nanograms per gram dry peat per day
+NanoGM-PER-GM-DAY,needs-clarification,edi.190.2,nanogramsPerGramPerDay,NETDONDRY,Net dissolved organic N production in nannograms per gram dry peat per day
+NanoGM-PER-GM-DAY,needs-clarification,knb-lter-kbs.3.36,nanogramsPerGramPerDay,microbial_respiration,microbial respiration in ng C/gram/day
+NanoGM-PER-GM-HR,needs-clarification,knb-lter-and.3113.7,nanograms per gram per hour,DENIT,Denitrification potential (as N)
+NanoGM-PER-GM-HR,needs-clarification,knb-lter-and.3118.8,nanograms per gram per hour,DENIT,"Denitrification potential (dry weight basis, as N)"
+NanoGM-PER-GM-HR,needs-clarification,knb-lter-bes.2020.130,nanogramPerGramPerHour,DEA,Denitrification enzyme activity in nanogram N per gram per hour
+NanoGM-PER-GM-HR,needs-clarification,knb-lter-bes.5006.1,nanogramPerGramPerHour,DNP,Denitrification potential rates. The rate of denitrification when media amended with both nitrate and carbon was added. In nanogramsN2O_Nper GramDrySoilPerHour
+NanoGM-PER-GM-HR,needs-clarification,knb-lter-bes.5006.1,nanogramPerGramPerHour,DN_DI,Denitrification rate when only distilled water was added. NanogramsN2O_NPer GramDrySoilPerHour
+NanoMOL-PER-GM-DAY,needs-clarification,knb-lter-and.3140.9,nanomolePerGramPerDay,PRODE,Production rate of ethylene on a gram dry weight per day basis
+NanoMOL-PER-GM-DAY,needs-clarification,knb-lter-and.3140.9,nanomolePerGramPerDay,MEANPRODE,Mean production rate of ethylene on a gram dry weight per day basis
+NanoMOL-PER-GM-DAY,needs-clarification,knb-lter-and.3140.9,nanomolePerGramPerDay,STDERRE,Standard error of ethylene production. note that all negative valuses weres et to 0 before calculation.
+NanoMOL-PER-GM-DAY,needs-clarification,knb-lter-and.3140.9,nanomolePerGramPerDay,LOGETHYL,Weighted mean rate of ethylene production for entire log. tissue samples were weighted by relative mass (dry weight basis)
+NanoMOL-PER-MOL,needs-clarification,knb-lter-arc.20166.1,nanomolePerMole,LGR_CH4_AVG,"CH4 mole fraction in partPerBillion, analog data output from LGR analyser (FMA until mid-2016, FGGA afterwards)"
+PPM-PER-MIN,needs-clarification,knb-lter-fce.1226.2,partsPerMillionPerMinute,CO2_ppm,"The slope of CO2 change over ~3 min incubation for each light level. When CO2_ppm < 0, CO2 was being uptaked (i.e., net photosynthesis)"
+PPM-PER-MIN,needs-clarification,knb-lter-fce.1226.2,partsPerMillionPerMinute,GEP_ppm,"Gross ecosystem productivity calculated by subtracting CO2_ppm at 0, 1, and 2 light levels from CO2_ppm at the dark"
+PPM-PER-SEC,needs-clarification,edi.1082.5,partsPerMillionPerSecond,CO2Slope_ppmS,"Slope of CO2 concentration over time, calculated using FluxCalR"
+PPM-PER-SEC,needs-clarification,edi.1082.5,partsPerMillionPerSecond,CH4Slope_ppmS,"Slope of CH4 concentration over time, calculated using FluxCalR"
+PPM-PER-SEC,needs-clarification,edi.2083.3,ppm/sec,co2_slope_ppmS,Slope of the change in carbon dioxide concentration during the measurement timeframe
+PPM-PER-SEC,needs-clarification,edi.2083.3,ppm/sec,ch4_slope_ppmS,Slope of the change in methane concentration during the measurement timeframe
+PPM-PER-SEC,needs-clarification,knb-lter-bnz.489.12,ppm/sec,Respiration,root respiration from cuvette

@@ -1,0 +1,36 @@
+concept,label,include_pattern,exclude_pattern,qudt_qk_hint,notes
+net_primary_production,Net primary production,net primary produc|\b[ab]?npp\b,,primary produc,Rate or annual total of carbon or biomass fixed minus autotrophic respiration.
+gross_primary_production,Gross primary or ecosystem production,gross primary produc|gross ecosystem produc|\bgpp\b|\bgep\b,,primary produc,
+ecosystem_respiration,Ecosystem respiration,ecosystem respiration|\breco\b,,respiration,
+soil_respiration,Soil respiration,soil respiration|soil co2 (efflux|flux)|\brsoil\b,,respiration,
+organism_respiration,Organism or community respiration,respiration,ecosystem respiration|soil respiration|temperature,respiration,"Residual respiration matches after the two specific seeds. Excludes co-located ancillary variables (probe temperature, sensor depth or voltage) found in the 2026-11-18 review."
+net_ecosystem_exchange,Net ecosystem exchange or production,net ecosystem (exchange|produc)|\bnee\b|\bnep\b,,ecosystem exchange,
+co2_flux,CO2 flux,"(\bco2\b|carbon dioxide).{0,25}(flux|emission|efflux|exchange)|(flux|emission|efflux).{0,25}(\bco2\b|carbon dioxide)",,carbon dioxide|\bco2\b,
+methane_flux,Methane flux,"(methane|\bch4\b).{0,25}(flux|emission|efflux|exchange|production)|(flux|emission|efflux).{0,25}(methane|\bch4\b)",,methane|\bch4\b,
+nitrous_oxide_flux,Nitrous oxide flux,"(nitrous oxide|\bn2o\b).{0,25}(flux|emission|efflux)|(flux|emission|efflux).{0,25}(nitrous oxide|\bn2o\b)",,nitrous oxide|\bn2o\b,
+litterfall,Litterfall,litter ?fall,,,
+decomposition,Litter decomposition,decomposition|mass loss|mass remaining,radioactive|isotop,decomposition,
+biomass,Biomass,biomass,biomass index,biomass,
+chlorophyll_a,Chlorophyll a,chlorophyll|\bchl[ _-]?a\b,fluorescen|\brfu\b|\bflag\b|quality|volt|uncalibrated,chlorophyll,"Excludes co-located ancillary variables (probe temperature, sensor depth or voltage) found in the 2026-11-18 review."
+atmospheric_deposition,Atmospheric deposition,deposition,sediment|sedimentation,,
+nitrogen_mineralization,Nitrogen mineralization,mineraliz,,,
+nitrification,Nitrification,nitrif,denitrif,,
+denitrification,Denitrification,denitrif,,,
+nutrient_uptake,Nutrient uptake,uptake,,,
+leaching,Leaching,leach,,,
+photosynthesis_rate,Photosynthesis rate,photosynthe,photosynthetically active,photosynthesis rate|photosynthetic rate|assimilation,
+photosynthetically_active_radiation,Photosynthetically active radiation,photosynthetically active|\bpar\b|\bppfd\b,depth|height|tallest,photosynthetic photon|photosynthetically active,"Excludes co-located ancillary variables (probe temperature, sensor depth or voltage) found in the 2026-11-18 review."
+leaf_area_index,Leaf area index,leaf area index|\blai\b,,leaf area index,
+specific_leaf_area,Specific leaf area or leaf mass per area,specific leaf area|\bsla\b|leaf mass per area|\blma\b,,specific leaf area,
+organism_abundance,Organism abundance or density,abundance|population density|number of (individuals|organisms|animals|plants|stems|trees)|(individuals|animals|organisms|plants|stems|trees|fish|birds|larvae|cells) per,sigma|seawater|water density|bulk density|wood density|density of water|air density|energy density,abundance|population,
+percent_cover,Percent or areal cover,percent cover|% cover|cover class|canopy cover|vegetation cover|ground cover|\bcover\b,distance|depth|height|land cover|line transect|start of|end of,,"Excludes co-located ancillary variables (probe temperature, sensor depth or voltage) found in the 2026-11-18 review."
+individual_mass,Mass per individual or organ,(body|individual|fresh|dry|wet) (mass|weight)|mass per (individual|leaf|organ|plant|seed)|(leaf|seed|organ) (mass|weight),,,
+growth_rate,Growth rate,growth rate|relative growth|\brgr\b,,,
+grazing_ingestion,Grazing or ingestion rate,ingestion|grazing rate|consumption rate|feeding rate,,,
+enzyme_activity,Enzyme activity,enzyme|glucosidase|phosphatase|oxidase|peroxidase|chitinase|aminopeptidase,,catalytic activity|enzyme,
+radioactivity,Radioactivity or specific activity,becquerel|\bdpm\b|decays? per minute|radioactiv|\b(210|226|234|137)[ -]?(pb|ra|th|cs)\b|\b(pb|ra|th|cs)[ -]?(210|226|234|137)\b,,radioactiv|\bactivity\b,
+soil_organic_carbon,Soil organic carbon or matter,soil organic (carbon|matter)|\bsoc\b|\bsom\b,,,
+soil_moisture,Soil water content,soil moisture|volumetric water content|soil water content|\bvwc\b,temperature|\btemp\b,water content|moisture,"Excludes co-located ancillary variables (probe temperature, sensor depth or voltage) found in the 2026-11-18 review."
+bulk_density,Bulk density,bulk density,,bulk density,
+stream_discharge,Stream discharge,discharge|streamflow|stream flow,electric|discharged,discharge|volume flow rate,
+dissolved_oxygen,Dissolved oxygen,dissolved oxygen|\bd\.?o\.? (concentration|saturation|percent),,,

@@ -1,0 +1,128 @@
+concept,dimension_vector,status,existing_qk_matches,qudt_unit,datasets,scopes,current_qudt_qks,target_qk,already_attached,proposed_relation
+atmospheric_deposition,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,29,2,MassPerAreaTime,new: atmospheric_deposition,FALSE,unitForQuantityKind
+atmospheric_deposition,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,KiloGM-PER-HA-YR,13,3,MassPerAreaTime,new: atmospheric_deposition,FALSE,unitForQuantityKind
+atmospheric_deposition,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,MilliGM-PER-M2-DAY,3,1,MassPerAreaTime,new: atmospheric_deposition,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-YR,8,5,MassPerAreaTime,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,5,3,MassPerAreaTime,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,KiloGM-PER-M2-DAY,3,2,MassPerAreaTime,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-M2,284,23,MassPerArea,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-M2,19,7,MassPerArea,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,TONNE-PER-HA,14,4,MassPerArea,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,KiloGM-PER-HA,14,5,MassPerArea,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,KiloGM-PER-M2,11,5,"BodyMassIndex, MassPerArea, MeanMassRange",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MicroGM-PER-CentiM2,8,5,MassPerArea,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-CentiM2,3,2,MassPerArea,new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MicroGM-PER-L,25,7,"Density, MassConcentration, MassDensity",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-M3,9,2,"Density, MassConcentration, MassDensity",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,KiloGM-PER-M3,7,3,"Density, EquivalentDensity, MassConcentration, MassConcentrationOfWater, MassConcentrationOfWaterVapour, MassDensity",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-L,7,3,"Density, MassConcentration, MassDensity",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,GM-PER-M3,6,3,"Density, MassDensity",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,GM-PER-CentiM3,3,3,"Density, MassDensity",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L0I0M1H0T0D0,candidate-new-qk,,GM,263,24,"Mass, MassEquivalent",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L0I0M1H0T0D0,candidate-new-qk,,MilliGM,31,14,"Mass, MassEquivalent, ToxicEquivalent",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L0I0M1H0T0D0,candidate-new-qk,,KiloGM,24,10,"CO2Equivalent, Mass, MassEquivalent",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L0I0M1H0T0D0,candidate-new-qk,,MicroGM,5,4,"Mass, ToxicEquivalent",new: biomass,FALSE,unitForQuantityKind
+biomass,A0E0L0I0M1H0T0D0,candidate-new-qk,,TONNE,4,3,"CO2Equivalent, Mass",new: biomass,FALSE,unitForQuantityKind
+bulk_density,A0E0L-3I0M1H0T0D0,candidate-new-qk,,GM-PER-CentiM3,166,23,"Density, MassDensity",new: bulk_density,FALSE,unitForQuantityKind
+bulk_density,A0E0L-3I0M1H0T0D0,candidate-new-qk,,GM-PER-M3,6,5,"Density, MassDensity",new: bulk_density,FALSE,unitForQuantityKind
+bulk_density,A0E0L-3I0M1H0T0D0,candidate-new-qk,,KiloGM-PER-M3,5,3,"Density, EquivalentDensity, MassConcentration, MassConcentrationOfWater, MassConcentrationOfWaterVapour, MassDensity",new: bulk_density,FALSE,unitForQuantityKind
+bulk_density,A0E0L-3I0M1H0T0D0,candidate-new-qk,,GM-PER-MilliL,5,3,"Density, MassDensity",new: bulk_density,FALSE,unitForQuantityKind
+chlorophyll_a,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-M2,37,11,MassPerArea,new: chlorophyll_a,FALSE,unitForQuantityKind
+chlorophyll_a,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MicroGM-PER-CentiM2,22,8,MassPerArea,new: chlorophyll_a,FALSE,unitForQuantityKind
+chlorophyll_a,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-M2,6,4,MassPerArea,new: chlorophyll_a,FALSE,unitForQuantityKind
+chlorophyll_a,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-CentiM2,3,3,MassPerArea,new: chlorophyll_a,FALSE,unitForQuantityKind
+chlorophyll_a,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MicroGM-PER-L,292,17,"Density, MassConcentration, MassDensity",new: chlorophyll_a,FALSE,unitForQuantityKind
+chlorophyll_a,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-M3,22,7,"Density, MassConcentration, MassDensity",new: chlorophyll_a,FALSE,unitForQuantityKind
+chlorophyll_a,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-L,13,4,"Density, MassConcentration, MassDensity",new: chlorophyll_a,FALSE,unitForQuantityKind
+co2_flux,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,MilliGM-PER-M2-HR,9,3,MassPerAreaTime,new: co2_flux,FALSE,unitForQuantityKind
+co2_flux,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,MilliGM-PER-M2-DAY,7,4,MassPerAreaTime,new: co2_flux,FALSE,unitForQuantityKind
+co2_flux,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,MilliGM-PER-M2-SEC,6,3,MassPerAreaTime,new: co2_flux,FALSE,unitForQuantityKind
+co2_flux,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-HR,5,3,MassPerAreaTime,new: co2_flux,FALSE,unitForQuantityKind
+co2_flux,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,3,2,MassPerAreaTime,new: co2_flux,FALSE,unitForQuantityKind
+co2_flux,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MicroMOL-PER-M2-SEC,99,11,PhotosyntheticPhotonFluxDensity,new: co2_flux,FALSE,unitForQuantityKind
+co2_flux,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MilliMOL-PER-M2-SEC,30,2,PhotosyntheticPhotonFluxDensity,new: co2_flux,FALSE,unitForQuantityKind
+co2_flux,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MilliMOL-PER-M2-DAY,18,6,PhotosyntheticPhotonFluxDensity,new: co2_flux,FALSE,unitForQuantityKind
+dissolved_oxygen,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-L,464,23,"Density, MassConcentration, MassDensity",new: dissolved_oxygen,FALSE,unitForQuantityKind
+dissolved_oxygen,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MicroGM-PER-L,9,2,"Density, MassConcentration, MassDensity",new: dissolved_oxygen,FALSE,unitForQuantityKind
+dissolved_oxygen,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-MilliL,5,1,"Density, MassConcentration, MassDensity",new: dissolved_oxygen,FALSE,unitForQuantityKind
+ecosystem_respiration,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MicroMOL-PER-M2-SEC,49,7,PhotosyntheticPhotonFluxDensity,new: ecosystem_respiration,FALSE,unitForQuantityKind
+enzyme_activity,A1E0L0I0M-1H0T-1D0,candidate-new-qk,,MicroMOL-PER-GM-HR,24,9,BiogeochemicalRate,new: enzyme_activity,FALSE,unitForQuantityKind
+enzyme_activity,A1E0L0I0M-1H0T-1D0,candidate-new-qk,,NanoMOL-PER-GM-HR,17,7,BiogeochemicalRate,new: enzyme_activity,FALSE,unitForQuantityKind
+gross_primary_production,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MicroMOL-PER-M2-SEC,43,5,PhotosyntheticPhotonFluxDensity,new: gross_primary_production,FALSE,unitForQuantityKind
+gross_primary_production,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MilliMOL-PER-M2-DAY,3,2,PhotosyntheticPhotonFluxDensity,new: gross_primary_production,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,29,3,MassPerAreaTime,new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-YR,4,2,MassPerAreaTime,new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-M2,121,20,MassPerArea,new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-CentiM2,13,5,MassPerArea,new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-CentiM2,6,4,MassPerArea,new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-M2,6,3,MassPerArea,new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,KiloGM-PER-M2,5,3,"BodyMassIndex, MassPerArea, MeanMassRange",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-2I0M1H0T0D0,candidate-new-qk,,TONNE-PER-HA,3,2,MassPerArea,new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,GM-PER-CentiM3,13,8,"Density, MassDensity",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-M3,6,3,"Density, MassConcentration, MassDensity",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,MilliGM-PER-L,6,5,"Density, MassConcentration, MassDensity",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L-3I0M1H0T0D0,candidate-new-qk,,GM-PER-M3,3,3,"Density, MassDensity",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L0I0M1H0T0D0,candidate-new-qk,,GM,389,26,"Mass, MassEquivalent",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L0I0M1H0T0D0,candidate-new-qk,,MilliGM,47,17,"Mass, MassEquivalent, ToxicEquivalent",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L0I0M1H0T0D0,candidate-new-qk,,KiloGM,14,7,"CO2Equivalent, Mass, MassEquivalent",new: individual_mass,FALSE,unitForQuantityKind
+individual_mass,A0E0L0I0M1H0T0D0,candidate-new-qk,,MicroGM,9,4,"Mass, ToxicEquivalent",new: individual_mass,FALSE,unitForQuantityKind
+methane_flux,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,MilliGM-PER-M2-DAY,16,5,MassPerAreaTime,new: methane_flux,FALSE,unitForQuantityKind
+methane_flux,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,MilliGM-PER-M2-HR,3,1,MassPerAreaTime,new: methane_flux,FALSE,unitForQuantityKind
+methane_flux,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MicroMOL-PER-M2-SEC,16,4,PhotosyntheticPhotonFluxDensity,new: methane_flux,FALSE,unitForQuantityKind
+methane_flux,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MilliMOL-PER-M2-DAY,12,3,PhotosyntheticPhotonFluxDensity,new: methane_flux,FALSE,unitForQuantityKind
+methane_flux,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,NanoMOL-PER-M2-SEC,6,2,MolarFluxDensity,new: methane_flux,FALSE,unitForQuantityKind
+net_ecosystem_exchange,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MicroMOL-PER-M2-SEC,66,8,PhotosyntheticPhotonFluxDensity,new: net_ecosystem_exchange,FALSE,unitForQuantityKind
+net_primary_production,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,27,2,MassPerAreaTime,new: net_primary_production,FALSE,unitForQuantityKind
+net_primary_production,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-YR,19,9,MassPerAreaTime,new: net_primary_production,FALSE,unitForQuantityKind
+net_primary_production,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,MilliGM-PER-M2-DAY,3,3,MassPerAreaTime,new: net_primary_production,FALSE,unitForQuantityKind
+net_primary_production,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-M2,55,10,MassPerArea,new: net_primary_production,FALSE,unitForQuantityKind
+nitrification,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,29,2,MassPerAreaTime,new: nitrification,FALSE,unitForQuantityKind
+nitrification,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-M2,30,3,MassPerArea,new: nitrification,FALSE,unitForQuantityKind
+nitrification,A0E0L0I0M0H0T-1D0,candidate-new-qk,,MicroGM-PER-GM-DAY,28,10,MassSpecificBiogeochemicalRate,new: nitrification,FALSE,unitForQuantityKind
+nitrification,A0E0L0I0M0H0T-1D0,candidate-new-qk,,MilliGM-PER-KiloGM-DAY,12,4,MassSpecificBiogeochemicalRate,new: nitrification,FALSE,unitForQuantityKind
+nitrogen_mineralization,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,29,2,MassPerAreaTime,new: nitrogen_mineralization,FALSE,unitForQuantityKind
+nitrogen_mineralization,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-YR,6,2,MassPerAreaTime,new: nitrogen_mineralization,FALSE,unitForQuantityKind
+nitrogen_mineralization,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-M2,31,4,MassPerArea,new: nitrogen_mineralization,FALSE,unitForQuantityKind
+nitrogen_mineralization,A0E0L0I0M0H0T-1D0,candidate-new-qk,,MicroGM-PER-GM-DAY,28,9,MassSpecificBiogeochemicalRate,new: nitrogen_mineralization,FALSE,unitForQuantityKind
+nitrogen_mineralization,A0E0L0I0M0H0T-1D0,candidate-new-qk,,MilliGM-PER-KiloGM-DAY,11,4,MassSpecificBiogeochemicalRate,new: nitrogen_mineralization,FALSE,unitForQuantityKind
+nutrient_uptake,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,28,1,MassPerAreaTime,new: nutrient_uptake,FALSE,unitForQuantityKind
+nutrient_uptake,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-YR,6,2,MassPerAreaTime,new: nutrient_uptake,FALSE,unitForQuantityKind
+nutrient_uptake,A0E0L1I0M0H0T-1D0,candidate-new-qk,,MilliM-PER-DAY,28,1,"LinearVelocity, Velocity",new: nutrient_uptake,FALSE,unitForQuantityKind
+nutrient_uptake,A0E0L1I0M0H0T-1D0,candidate-new-qk,,MilliM-PER-MIN,4,4,"LinearVelocity, Velocity",new: nutrient_uptake,FALSE,unitForQuantityKind
+nutrient_uptake,A0E0L1I0M0H0T0D0,candidate-new-qk,,MilliM,25,1,Length,new: nutrient_uptake,FALSE,unitForQuantityKind
+nutrient_uptake,A0E0L1I0M0H0T0D0,candidate-new-qk,,M,6,5,"ElevationRelativeToNAP, Length",new: nutrient_uptake,FALSE,unitForQuantityKind
+organism_abundance,A0E0L-2I0M0H0T0D0,candidate-new-qk,,NUM-PER-M2,55,17,ParticleFluence,new: organism_abundance,FALSE,unitForQuantityKind
+organism_abundance,A0E0L-2I0M0H0T0D0,candidate-new-qk,,NUM-PER-HA,14,5,ParticleFluence,new: organism_abundance,FALSE,unitForQuantityKind
+organism_abundance,A0E0L-3I0M0H0T0D0,candidate-new-qk,,NUM-PER-MilliL,40,11,NumberDensity,new: organism_abundance,FALSE,unitForQuantityKind
+organism_abundance,A0E0L-3I0M0H0T0D0,candidate-new-qk,,NUM-PER-L,17,8,NumberDensity,new: organism_abundance,FALSE,unitForQuantityKind
+organism_abundance,A0E0L-3I0M0H0T0D0,candidate-new-qk,,NUM-PER-M3,11,6,NumberDensity,new: organism_abundance,FALSE,unitForQuantityKind
+organism_abundance,A0E0L0I0M0H0T0D1,reuse-or-specialize-existing-qk,"GeneFamilyAbundance, Population",NUM,404,31,"Count, MassNumber, NeutronNumber, NucleonNumber, NumberOfElectricalPhases, NumberOfParticles, Piece, Population, Turns","GeneFamilyAbundance, Population",TRUE,none (present)
+organism_abundance,A0E0L0I0M0H0T0D1,reuse-or-specialize-existing-qk,"GeneFamilyAbundance, Population",UNITLESS,159,24,"AbsoluteActivity, Absorptance, ActivityCoefficient, AtomScatteringFactor, AverageLogarithmicEnergyDecrement, BindingFraction, BioconcentrationFactor, BucklingFactor, CanonicalPartitionFunction, CharacteristicNumber, ChargeNumber, Chromaticity, CoefficientOfPerformance, Constringence, CouplingFactor, DebyeWallerFactor, DegreeOfDissociation, Dimensionless, DimensionlessRatio, Dissipance, DoseEquivalentQualityFactor, DragCoefficient, DutyCycle, Duv, EinsteinTransitionProbability, ElectricSusceptibility, Emissivity, EquilibriumConstant, EquilibriumConstantOnConcentrationBasis, EquilibriumConstantOnPressureBasis, FastFissionFactor, FissionFuelUtilizationFactor, FissionMultiplicationFactor, FrictionCoefficient, Gain, GeneralizedCoordinate, GeneralizedForce, GeneralizedMomentum, GeneralizedVelocity, GFactorOfNucleus, GruneisenParameter, HeatCapacityRatio, HyperfineStructureQuantumNumber, IncidenceProportion, InternalConversionFactor, IonTransportNumber, IsentropicExponent, LandauGinzburgNumber, LandeGFactor, LeakageFactor, LengthRatio, Lethargy, LiftCoefficient, Log2FrequencyInterval, LogarithmicFrequencyInterval, LogOctanolAirPartitionCoefficient, LogOctanolWaterPartitionCoefficient, LongRangeOrderParameter, LossFactor, Loudness, LoudnessLevel, LuminousFluxRatio, MadelungConstant, MagneticQuantumNumber, MagneticSusceptability, MassFraction, MassFractionOfDryMatter, MassFractionOfWater, MassRatioOfWaterToDryMatter, MassRatioOfWaterVapourToDryGas, MobilityRatio, MoleFraction, MultiplicationFactor, NapierianAbsorbance, NeutralRatio, NeutronYieldPerAbsorption, NeutronYieldPerFission, NonLeakageProbability, OpeningRatio, OrbitalAngularMomentumQuantumNumber, OrderOfReflection, OsmoticCoefficient, PackingFraction, PayloadRatio, PermittivityRatio, PoissonRatio, PowerFactor, PressureBurningRateConstant, PressureBurningRateIndex, PrincipalQuantumNumber, QualityFactor, QuantumNumber, RadianceFactor, RatioOfSpecificHeatCapacities, Reactivity, Reflectance, ReflectanceFactor, RefractiveIndex, RelativeAtomicMass, RelativeMassConcentrationOfVapour, RelativeMassDefect, RelativeMassDensity, RelativeMassExcess, RelativeMassRatioOfVapour, RelativeMolecularMass, ResistanceRatio, ResonanceEscapeProbability, ResonanceEscapeProbabilityForFission, ReynoldsNumber, ServiceFactor, ShortRangeOrderParameter, SignalDetectionThreshold, SpecificHeatsRatio, SpectralLuminousEfficiency, SpeedRatio, SpinQuantumNumber, StandardAbsoluteActivity, StatisticalWeight, StoichiometricNumber, StructuralEfficiency, StructureFactor, ThermalDiffusionFactor, ThermalDiffusionRatio, ThermalEfficiency, ThermalUtilizationFactor, ThermalUtilizationFactorForFission, ThrustCoefficient, ThrustToWeightRatio, TimeRatio, TotalAngularMomentumQuantumNumber, TotalIonization, Transmittance, TransmittanceDensity, VoltageRatio, VolumeFlowRatio, VolumeStrain","GeneFamilyAbundance, Population",FALSE,unitForQuantityKind
+organism_abundance,A0E0L0I0M0H0T0D1,reuse-or-specialize-existing-qk,"GeneFamilyAbundance, Population",PERCENT,40,14,"BioconcentrationFactor, CoefficientOfPerformance, CompressibilityFactor, DimensionlessRatio, DutyCycle, EccentricityOfOrbit, Efficiency, ElectricCurrentImbalance, Emissivity, FissionCoreRadiusToHeightRatio, FrictionCoefficient, Gain, HeatCapacityRatio, IncidenceProportion, LengthRatio, LuminousFluxRatio, MassFraction, MoleFraction, OpeningRatio, PayloadRatio, PressureRatio, Prevalence, Reflectance, RelativeMassDefect, RelativeMolecularMass, ResistanceRatio, ServiceFactor, SignalDetectionThreshold, SpecificHeatsRatio, SpeedRatio, StateOfCharge, ThermalEfficiency, ThrustToWeightRatio, TimeRatio, Transmittance, VoltageImbalance, VoltageRatio, VolumeFlowRatio, VolumeStrain","GeneFamilyAbundance, Population",FALSE,unitForQuantityKind
+organism_abundance,A0E0L0I0M0H0T0D1,reuse-or-specialize-existing-qk,"GeneFamilyAbundance, Population",PPTH,22,7,"AmountOfSubstanceFraction, DimensionlessRatio, MoleFraction","GeneFamilyAbundance, Population",FALSE,unitForQuantityKind
+organism_abundance,A0E0L0I0M0H0T0D1,reuse-or-specialize-existing-qk,"GeneFamilyAbundance, Population",FRACTION,8,5,"BioconcentrationFactor, CoefficientOfPerformance, CompressibilityFactor, DimensionlessRatio, DutyCycle, EccentricityOfOrbit, Efficiency, FissionCoreRadiusToHeightRatio, FrictionCoefficient, Gain, HeatCapacityRatio, IncidenceProportion, LengthRatio, MassFraction, MassRatio, MoleFraction, OpeningRatio, PayloadRatio, Reflectance, RelativeAtomicMass, RelativeMassDefect, RelativeMolecularMass, ServiceFactor, SignalDetectionThreshold, SpecificHeatsRatio, SpectralLuminousEfficiency, SpeedRatio, StateOfCharge, ThermalEfficiency, ThrustCoefficient, ThrustToWeightRatio, Transmittance, VoltageImbalance, VolumeFlowRatio, VolumeStrain","GeneFamilyAbundance, Population",FALSE,unitForQuantityKind
+organism_respiration,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-DAY,31,3,MassPerAreaTime,new: organism_respiration,FALSE,unitForQuantityKind
+organism_respiration,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-HR,6,4,MassPerAreaTime,new: organism_respiration,FALSE,unitForQuantityKind
+organism_respiration,A0E0L-2I0M1H0T-1D0,candidate-new-qk,,GM-PER-M2-YR,4,1,MassPerAreaTime,new: organism_respiration,FALSE,unitForQuantityKind
+organism_respiration,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MicroMOL-PER-M2-SEC,29,6,PhotosyntheticPhotonFluxDensity,new: organism_respiration,FALSE,unitForQuantityKind
+organism_respiration,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MilliMOL-PER-M2-DAY,3,2,PhotosyntheticPhotonFluxDensity,new: organism_respiration,FALSE,unitForQuantityKind
+photosynthesis_rate,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MicroMOL-PER-M2-SEC,147,20,PhotosyntheticPhotonFluxDensity,new: photosynthesis_rate,FALSE,unitForQuantityKind
+photosynthesis_rate,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MOL-PER-M2-DAY,17,2,PhotosyntheticPhotonFluxDensity,new: photosynthesis_rate,FALSE,unitForQuantityKind
+photosynthesis_rate,A1E0L-2I0M0H0T-1D0,candidate-new-qk,,MilliMOL-PER-M2-SEC,3,3,PhotosyntheticPhotonFluxDensity,new: photosynthesis_rate,FALSE,unitForQuantityKind
+photosynthesis_rate,A1E0L-2I0M0H0T0D0,candidate-new-qk,,MicroMOL-PER-M2,68,2,Unknown,new: photosynthesis_rate,FALSE,unitForQuantityKind
+photosynthesis_rate,A1E0L-2I0M0H0T0D0,candidate-new-qk,,MilliMOL-PER-M2,18,3,Unknown,new: photosynthesis_rate,FALSE,unitForQuantityKind
+photosynthesis_rate,A1E0L-2I0M0H0T0D0,candidate-new-qk,,MOL-PER-M2,3,1,Unknown,new: photosynthesis_rate,FALSE,unitForQuantityKind
+photosynthetically_active_radiation,A1E0L-2I0M0H0T-1D0,reuse-or-specialize-existing-qk,PhotosyntheticPhotonFluxDensity,MicroMOL-PER-M2-SEC,334,25,PhotosyntheticPhotonFluxDensity,PhotosyntheticPhotonFluxDensity,TRUE,none (present)
+photosynthetically_active_radiation,A1E0L-2I0M0H0T-1D0,reuse-or-specialize-existing-qk,PhotosyntheticPhotonFluxDensity,MilliMOL-PER-M2-SEC,10,4,PhotosyntheticPhotonFluxDensity,PhotosyntheticPhotonFluxDensity,TRUE,none (present)
+photosynthetically_active_radiation,A1E0L-2I0M0H0T-1D0,reuse-or-specialize-existing-qk,PhotosyntheticPhotonFluxDensity,MOL-PER-M2-DAY,8,4,PhotosyntheticPhotonFluxDensity,PhotosyntheticPhotonFluxDensity,TRUE,none (present)
+photosynthetically_active_radiation,A1E0L-2I0M0H0T-1D0,reuse-or-specialize-existing-qk,PhotosyntheticPhotonFluxDensity,MicroMOL-PER-M2-DAY,3,2,PhotosyntheticPhotonFluxDensity,PhotosyntheticPhotonFluxDensity,TRUE,none (present)
+photosynthetically_active_radiation,A1E0L-2I0M0H0T-1D0,reuse-or-specialize-existing-qk,PhotosyntheticPhotonFluxDensity,MilliMOL-PER-M2-HR,3,1,MolarFluxDensity,PhotosyntheticPhotonFluxDensity,FALSE,unitForQuantityKind
+photosynthetically_active_radiation,A1E0L-2I0M0H0T0D0,candidate-new-qk,,MicroMOL-PER-M2,70,4,Unknown,new: photosynthetically_active_radiation,FALSE,unitForQuantityKind
+photosynthetically_active_radiation,A1E0L-2I0M0H0T0D0,candidate-new-qk,,MilliMOL-PER-M2,46,7,Unknown,new: photosynthetically_active_radiation,FALSE,unitForQuantityKind
+soil_organic_carbon,A0E0L-2I0M1H0T0D0,candidate-new-qk,,GM-PER-M2,30,1,MassPerArea,new: soil_organic_carbon,FALSE,unitForQuantityKind
+specific_leaf_area,A0E0L2I0M-1H0T0D0,candidate-new-qk,,CentiM2-PER-GM,42,13,"MassAttenuationCoefficient, SpecificSurfaceArea",new: specific_leaf_area,FALSE,unitForQuantityKind
+specific_leaf_area,A0E0L2I0M-1H0T0D0,candidate-new-qk,,M2-PER-KiloGM,6,5,"MassAttenuationCoefficient, SpecificSurfaceArea",new: specific_leaf_area,FALSE,unitForQuantityKind
+stream_discharge,A0E0L3I0M0H0T-1D0,reuse-or-specialize-existing-qk,VolumeFlowRate,L-PER-SEC,159,14,"VolumeFlowRate, VolumePerTime",VolumeFlowRate,TRUE,none (present)
+stream_discharge,A0E0L3I0M0H0T-1D0,reuse-or-specialize-existing-qk,VolumeFlowRate,M3-PER-SEC,113,13,"RecombinationCoefficient, VolumePerTime",VolumeFlowRate,FALSE,unitForQuantityKind
+stream_discharge,A0E0L3I0M0H0T-1D0,reuse-or-specialize-existing-qk,VolumeFlowRate,FT3-PER-SEC,33,8,"VolumeFlowRate, VolumePerTime",VolumeFlowRate,TRUE,none (present)
+stream_discharge,A0E0L3I0M0H0T-1D0,reuse-or-specialize-existing-qk,VolumeFlowRate,M3-PER-DAY,4,4,"VolumeFlowRate, VolumePerTime",VolumeFlowRate,TRUE,none (present)

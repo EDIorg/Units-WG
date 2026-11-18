@@ -1,0 +1,88 @@
+---
+title: "Concept explorer"
+---
+
+```{r setup}
+source("_common.R")
+concept_units <- targets::tar_read(concept_units, store = store)
+seeds <- targets::tar_read(seeds, store = store)
+```
+
+Concepts are found with **reviewable seed patterns**
+([`concept_seeds.csv`](https://github.com/EDIorg/Units-WG/blob/agentic/eml_corpus_analysis/data/reference/concept_seeds.csv))
+over attribute names, labels, and definitions. An attribute may match several
+concepts. Seeds are a transparent first pass. Their precision is checked in
+the audit (see [Classification](classification.qmd)), and known noise is
+recorded in each seed's `notes`.
+
+## Concepts overview
+
+`dimension_vectors` is the number of distinct QUDT DimensionVectors across
+the concept's units. A value above 1 means one QK cannot cover the concept.
+
+```{r overview}
+interactive_table(
+  concept_units$overview |>
+    dplyr::left_join(dplyr::select(seeds, concept, label), by = "concept") |>
+    dplyr::relocate(label, .after = concept) |>
+    dplyr::mutate(share_qudt_mapped = round(share_qudt_mapped, 3)),
+  "concept_overview",
+  columns = list(top_units = wide(360))
+)
+```
+
+```{r spread}
+plotly::plot_ly(
+  concept_units$overview,
+  x = ~datasets, y = ~dimension_vectors, text = ~concept, size = ~unit_groups,
+  type = "scatter", mode = "markers", hoverinfo = "text"
+) |>
+  plotly::layout(
+    title = "Concepts: usage vs. spread across dimension vectors",
+    xaxis = list(title = "Datasets", type = "log"),
+    yaxis = list(title = "Dimension vectors")
+  )
+```
+
+## Concept × dimension vector
+
+Each row is a candidate *commensurable family* for a concept. These rows are
+the unit of analysis for QK admission (see [QK modeling](modeling.qmd)).
+
+```{r by-dimension}
+shared_dv <- crosstalk::SharedData$new(concept_units$by_dimension)
+filtered_table(
+  crosstalk::filter_select("concept_dv", "Concept", shared_dv, ~concept),
+  reactable::reactable(
+    shared_dv,
+    searchable = TRUE, compact = TRUE, striped = TRUE, resizable = TRUE,
+    defaultPageSize = 15, columns = list(top_units = wide(360))
+  )
+)
+```
+
+## Concept × unit
+
+```{r by-unit}
+shared_unit <- crosstalk::SharedData$new(concept_units$by_unit)
+filtered_table(
+  list(
+    crosstalk::filter_select("concept_u", "Concept", shared_unit, ~concept),
+    crosstalk::filter_select("dv_u", "Dimension vector", shared_unit, ~dimension_vector)
+  ),
+  reactable::reactable(
+    shared_unit,
+    searchable = TRUE, compact = TRUE, striped = TRUE, resizable = TRUE,
+    defaultPageSize = 15, columns = list(top_names = wide(260))
+  )
+)
+```
+
+## Seed patterns
+
+```{r seeds}
+interactive_table(
+  seeds, "concept_seeds",
+  columns = list(include_pattern = wide(280), exclude_pattern = wide(200), notes = wide(240))
+)
+```

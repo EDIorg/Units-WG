@@ -1,0 +1,501 @@
+vocabulary,value,value_uri,annotations,datasets
+Darwin Core,eventID,http://rs.tdwg.org/dwc/terms/eventID,399,70
+Darwin Core,scientificName,http://rs.tdwg.org/dwc/terms/scientificName,137,69
+Darwin Core,taxonID,http://rs.tdwg.org/dwc/terms/taxonID,137,69
+Darwin Core,measurementType,http://rs.tdwg.org/dwc/terms/measurementType,137,69
+Darwin Core,decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,135,68
+Darwin Core,samplingProtocol,http://rs.tdwg.org/dwc/terms/samplingProtocol,134,67
+Darwin Core,eventDate,http://rs.tdwg.org/dwc/terms/eventDate,133,67
+ECSO,date and time of measurement,http://purl.dataone.org/odo/ECSO_00002043,202,67
+ECSO,study location name,http://purl.dataone.org/odo/ECSO_00002768,137,67
+Darwin Core,Event,http://rs.tdwg.org/dwc/terms/Event,131,66
+Darwin Core,MeasurementOrFact,http://rs.tdwg.org/dwc/terms/MeasurementOrFact,131,66
+Darwin Core,decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,131,66
+Darwin Core,occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,261,66
+Darwin Core,basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,131,66
+Darwin Core,scientificNameID,http://rs.tdwg.org/dwc/terms/scientificNameID,131,66
+Darwin Core,measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,131,66
+Darwin Core,measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,131,66
+ECSO,latitude coordinate,http://purl.dataone.org/odo/ECSO_00002130,131,66
+ECSO,longitude coordinate,http://purl.dataone.org/odo/ECSO_00002132,131,66
+ECSO,elevation,http://purl.dataone.org/odo/ECSO_00001567,134,66
+Darwin Core,datasetName,http://rs.tdwg.org/dwc/terms/datasetName,130,65
+Darwin Core,georeferenceRemarks,http://rs.tdwg.org/dwc/terms/georeferenceRemarks,130,65
+Darwin Core,nameAccordingTo,http://rs.tdwg.org/dwc/terms/nameAccordingTo,130,65
+ECSO,study location identifier,http://purl.dataone.org/odo/ECSO_00002767,554,65
+ECSO,Organism,http://purl.dataone.org/odo/ECSO_00000312,130,65
+ECSO,taxonomic classification,http://purl.dataone.org/odo/ECSO_00002730,260,65
+ECSO,taxon code,http://purl.dataone.org/odo/ECSO_00002608,130,65
+ECSO,data source,http://purl.dataone.org/odo/ECSO_00002744,130,65
+ECSO,number of years,http://purl.dataone.org/odo/ECSO_00001636,260,65
+ECSO,Sampling Site Area,http://purl.dataone.org/odo/ECSO_00001152,136,65
+Other OBO,ecological community,http://purl.obolibrary.org/obo/PCO_0000002,75,65
+ECSO,analysis code,http://purl.dataone.org/odo/ECSO_00002489,65,65
+ECSO,Population,http://purl.dataone.org/odo/ECSO_00000311,45,43
+Darwin Core,individualCount,http://rs.tdwg.org/dwc/terms/individualCount,67,30
+ECSO,species abundance,http://purl.dataone.org/odo/ECSO_00001688,26,26
+ECSO,observer name,http://purl.dataone.org/odo/ECSO_00002451,36,18
+Darwin Core,eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,35,18
+ENVO,lagoon,https://purl.obolibrary.org/obo/ENVO_00000038,15,15
+ECSO,replicate identifier,http://purl.dataone.org/odo/ECSO_00002989,26,13
+ECSO,transect identifier,http://purl.dataone.org/odo/ECSO_00002213,24,12
+Darwin Core,recordedBy,http://rs.tdwg.org/dwc/terms/recordedBy,24,12
+ECSO,Manipulative experiment,http://purl.dataone.org/odo/ECSO_00000506,19,11
+Darwin Core,eventTime,http://rs.tdwg.org/dwc/terms/eventTime,20,10
+ENVO,lagoon,http://purl.obolibrary.org/obo/ENVO_00000038,10,10
+Other OBO,ecological community,http://purl.obolibrary.org/obo/NCBITaxon_3193,10,10
+Darwin Core,vernacularName,http://rs.tdwg.org/dwc/terms/vernacularName,18,9
+ENVO,environmental monitoring,http://purl.obolibrary.org/obo/ENVO_02500041,9,9
+ECSO,distance,http://purl.dataone.org/odo/ECSO_00001710,16,8
+Darwin Core,family,http://rs.tdwg.org/dwc/terms/family,16,8
+Darwin Core,order,http://rs.tdwg.org/dwc/terms/order,16,8
+ENVO,lake,http://purl.obolibrary.org/obo/ENVO_00000020,8,8
+ECSO,Water Temperature,http://purl.dataone.org/odo/ECSO_00001227,14,8
+ENVO,tropical,http://purl.obolibrary.org/obo/ENVO_01000204,9,8
+Other OBO,South Pacific Ocean,http://purl.obolibrary.org/obo/GAZ_00002418,83,8
+Darwin Core,class,http://rs.tdwg.org/dwc/terms/class,14,7
+ENVO,kelp forest,http://purl.obolibrary.org/obo/ENVO_01000058,8,7
+ENVO,permafrost,http://purl.obolibrary.org/obo/ENVO_00000134,7,7
+Darwin Core,sex,http://rs.tdwg.org/dwc/terms/sex,14,7
+ENVO,ecosystem,http://purl.obolibrary.org/obo/ENVO_01001110,7,7
+ENVO,urban biome,http://purl.obolibrary.org/obo/ENVO_01000249,6,6
+Darwin Core,phylum,http://rs.tdwg.org/dwc/terms/phylum,12,6
+ENVO,coral reef,http://purl.obolibrary.org/obo/ENVO_00000150,6,6
+ECSO,trap identifier,http://purl.dataone.org/odo/ECSO_00002372,12,6
+ECSO,species,http://purl.dataone.org/odo/ECSO_00000313,6,6
+ECSO,site identifier,http://purl.dataone.org/odo/ECSO_00002997,15,6
+ECSO,plot identifier,http://purl.dataone.org/odo/ECSO_00002432,12,6
+ECSO,Water Salinity,http://purl.dataone.org/odo/ECSO_00001164,11,6
+ECSO,Water Temperature,https://purl.dataone.org/odo/ECSO_00001227,11,6
+ECSO,date,http://purl.dataone.org/odo/ECSO_00002051,22,6
+ECSO,aboveground biomass density,http://purl.dataone.org/odo/ECSO_00002892,9,5
+ENVO,grassland ecosystem,http://purl.obolibrary.org/obo/ENVO_01001206,5,5
+Darwin Core,genus,http://rs.tdwg.org/dwc/terms/genus,10,5
+Darwin Core,kingdom,http://rs.tdwg.org/dwc/terms/kingdom,9,5
+ECSO,type of habitat,http://purl.dataone.org/odo/ECSO_00002736,7,5
+ECSO,type of ecological disturbance,http://purl.dataone.org/odo/ECSO_00002589,5,5
+ECSO,Primary Production Carbon Flux,http://purl.dataone.org/odo/ECSO_00000015,5,5
+ECSO,Area Percentage,http://purl.dataone.org/odo/ECSO_00001195,10,5
+ECSO,sample measurement period,http://purl.dataone.org/odo/ECSO_00002953,10,5
+Other OBO,Mammalia,http://purl.obolibrary.org/obo/NCBITaxon_40674,5,5
+ENVO,estuary,http://purl.obolibrary.org/obo/ENVO_00000045,5,5
+ECSO,dissolved organic carbon,http://purl.dataone.org/odo/ECSO_00000571,8,5
+ECSO,water pressure,https://purl.dataone.org/odo/ECSO_00001568,5,5
+ECSO,Plant Material Biomass,http://purl.dataone.org/odo/ECSO_00001148,5,4
+ECSO,invertebrate species abundance,http://purl.dataone.org/odo/ECSO_00002589,4,4
+ENVO,marine ecosystem,http://purl.obolibrary.org/obo/ENVO_01001788,4,4
+PATO,cardinal direction,http://purl.obolibrary.org/obo/PATO_0045090,8,4
+Other OBO,Aves,http://purl.obolibrary.org/obo/NCBITaxon_8782,4,4
+ECSO,level of ecological disturbance,http://purl.dataone.org/odo/ECSO_00002588,4,4
+ECSO,data quality flag,http://purl.dataone.org/odo/ECSO_00001720,7,4
+Darwin Core,organismQuantity,http://rs.tdwg.org/dwc/terms/organismQuantity,7,4
+ECSO,Non-Plant Material Count Aerial Density,http://purl.dataone.org/odo/ECSO_00001169,8,4
+Darwin Core,year,http://rs.tdwg.org/dwc/terms/year,8,4
+ECSO,estuary water temperature,http://purl.dataone.org/odo/ECSO_00001559,7,4
+ECSO,water sample volume,http://purl.dataone.org/odo/ECSO_00002225,8,4
+Darwin Core,organismRemarks,http://rs.tdwg.org/dwc/terms/organismRemarks,8,4
+ECSO,dissolved organic carbon,https://purl.dataone.org/odo/ECSO_00000571,5,4
+ECSO,carbon dioxide partial pressure,https://purl.dataone.org/odo/ECSO_00000636,7,4
+ECSO,dissolved oxygen concentration,https://purl.dataone.org/odo/ECSO_00001669,4,4
+ECSO,year of measurement,http://purl.dataone.org/odo/ECSO_00002050,8,4
+ECSO,Tree Diameter at Breast Height,http://purl.dataone.org/odo/ECSO_00000549,12,4
+ECSO,Tree Height,http://purl.dataone.org/odo/ECSO_00000541,5,3
+ENVO,vegetation layer,http://purl.obolibrary.org/obo/ENVO_01000355,5,3
+ENVO,city,http://purl.obolibrary.org/obo/ENVO_00000856,3,3
+ENVO,arid biome,http://purl.obolibrary.org/obo/ENVO_01001838,3,3
+ECSO,manipulative experiment,http://purl.dataone.org/odo/ECSO_00000506,3,3
+ENVO,organic material,http://purl.obolibrary.org/obo/ENVO_01000155,4,3
+Darwin Core,locationID,http://rs.tdwg.org/dwc/terms/locationID,6,3
+ECSO,Biomass,http://purl.dataone.org/odo/ECSO_00001114,4,3
+ECSO,location along transect or plot,http://purl.dataone.org/odo/ECSO_00003023,6,3
+ENVO,soil,http://purl.obolibrary.org/obo/ENVO_00001998,3,3
+ECSO,Community,http://purl.dataone.org/odo/ECSO_00000310,3,3
+ENVO,marine environment,http://purl.obolibrary.org/obo/ENVO_01000320,3,3
+ENVO,ocean acidification,http://purl.obolibrary.org/obo/ENVO_01000631,3,3
+ECSO,Plant Cover Percentage,http://purl.dataone.org/odo/ECSO_00001197,7,3
+ECSO,data collection equipment,http://purl.dataone.org/odo/ECSO_00002527,6,3
+ECSO,type of vegetation,http://purl.dataone.org/odo/ECSO_00002207,5,3
+ENVO,sea grass bed,http://purl.obolibrary.org/obo/ENVO_01000059,3,3
+ECSO,species code,http://purl.dataone.org/odo/ECSO_00002490,4,3
+ECSO,Number Volumetric Density,http://purl.dataone.org/odo/ECSO_00001201,6,3
+ECSO,surface temperature,http://purl.dataone.org/odo/ECSO_00001526,6,3
+ECSO,d13C,https://purl.dataone.org/odo/ECSO_00000669,3,3
+ECSO,d15N,https://purl.dataone.org/odo/ECSO_00001738,3,3
+ECSO,carbon to nitrogen molar ratio,https://purl.dataone.org/odo/ECSO_00000639,3,3
+ECSO,chlorophyll-a,https://purl.dataone.org/odo/ECSO_00000563,7,3
+ECSO,organic carbon percentage in soil,http://purl.dataone.org/odo/ECSO_00000648,3,3
+ECSO,water salinity,http://purl.dataone.org/odo/ECSO_00001164,3,3
+ENVO,hydrological process,http://purl.obolibrary.org/obo/ENVO_02500031,3,3
+ENVO,mangrove swamp,https://ontobee.org/ontology/ENVO?iri=http://purl.obolibrary.org/obo/ENVO_00000057,3,3
+ECSO,Tree growth,http://purl.dataone.org/odo/ECSO_00000547,10,3
+ECSO,family name,http://purl.dataone.org/odo/ECSO_00002733,3,3
+ENVO,marine biome,http://purl.obolibrary.org/obo/ENVO_00000447,3,3
+ECSO,Width,http://purl.dataone.org/odo/ECSO_00001254,4,2
+ECSO,surface slope,http://purl.dataone.org/odo/ECSO_00002642,4,2
+ECSO,Tree,http://purl.dataone.org/odo/ECSO_00000501,2,2
+ENVO,building,http://purl.obolibrary.org/obo/ENVO_00000073,2,2
+Other OBO,Embryophyta,http://purl.obolibrary.org/obo/NCBITaxon_3193,2,2
+ENVO,cloud cover,http://purl.obolibrary.org/obo/ENVO_01001858,4,2
+ECSO,Wind Speed,http://purl.dataone.org/odo/ECSO_00001233,4,2
+Darwin Core,fieldNotes,http://rs.tdwg.org/dwc/terms/fieldNotes,4,2
+ENVO,river,http://purl.obolibrary.org/obo/ENVO_00000022,2,2
+ENVO,wetland ecosystem,http://purl.obolibrary.org/obo/ENVO_01001209,2,2
+ECSO,type of trap,http://purl.dataone.org/odo/ECSO_00001591,4,2
+Darwin Core,behavior,http://rs.tdwg.org/dwc/terms/behavior,4,2
+Other OBO,arthropods,http://purl.obolibrary.org/obo/NCBITaxon_6656,2,2
+Other OBO,insects,http://purl.obolibrary.org/obo/NCBITaxon_6960,2,2
+ENVO,pitfall trap,http://purl.obolibrary.org/obo/ENVO_01000976,2,2
+ENVO,animal trap,http://purl.obolibrary.org/obo/ENVO_01000975,2,2
+ECSO,community,http://purl.dataone.org/odo/ECSO_00000310,2,2
+ECSO,sample size,http://purl.dataone.org/odo/ECSO_00001644,4,2
+ECSO,calcium concentration,http://purl.dataone.org/odo/ECSO_00001772,2,2
+ECSO,warming treatment,http://purl.dataone.org/odo/ECSO_00002890,4,2
+ENVO,tundra biome,http://purl.obolibrary.org/obo/ENVO_01000180,2,2
+ENVO,fence,http://purl.obolibrary.org/obo/ENVO_01000468,2,2
+Other OBO,embryophyta,http://purl.obolibrary.org/obo/NCBITaxon_3193,2,2
+ECSO,permafrost drying treatment,http://purl.dataone.org/odo/ECSO_00002441,2,2
+ECSO,permafrost active layer,http://www.purl.dataone.org/odo/ECSO_00010089,2,2
+ECSO,Active Layer Thickness MOV,http://purl.dataone.org/odo/ECSO_00000068,2,2
+PATO,decreased depth,http://purl.obolibrary.org/obo/PATO_0001472,2,2
+ENVO,marine subtidal rocky reef biome,http://purl.obolibrary.org/obo/ENVO_01000050,2,2
+ECSO,Dry Mass Density,http://purl.dataone.org/odo/ECSO_00001184,4,2
+ECSO,biomass density,http://purl.dataone.org/odo/ECSO_00000552,4,2
+Other OBO,Mollusca,http://purl.obolibrary.org/obo/NCBITaxon_6447,2,2
+Darwin Core,verbatimDepth,http://rs.tdwg.org/dwc/terms/verbatimDepth,4,2
+ECSO,Aboveground Biomass,http://purl.dataone.org/odo/ECSO_00001135,2,2
+Other OBO,Plants,http://purl.obolibrary.org/obo/NCBITaxon_3193,2,2
+ENVO,shrubland biome,http://purl.obolibrary.org/obo/ENVO_01000176,2,2
+ECSO,measurement start time,http://purl.dataone.org/odo/ECSO_00002044,4,2
+ECSO,measurement end time,http://purl.dataone.org/odo/ECSO_00002045,4,2
+ECSO,days elapsed,http://purl.dataone.org/odo/ECSO_00002123,4,2
+Other OBO,Metazoa,http://purl.obolibrary.org/obo/NCBITaxon_33208,2,2
+ECSO,Tag Number,http://purl.dataone.org/odo/ECSO_00001217,4,2
+Other OBO,water,http://purl.obolibrary.org/obo/CHEBI_15377,2,2
+PATO,density,http://purl.obolibrary.org/obo/PATO_0001019,2,2
+Darwin Core,measurementRemarks,http://rs.tdwg.org/dwc/terms/measurementRemarks,4,2
+Darwin Core,materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,4,2
+Other,http://rs.tdwg.org/dwc/terms/decimalLatitude,decimalLatitude,4,2
+ECSO,Air Temperature,http://purl.dataone.org/odo/ECSO_00001225,4,2
+ECSO,life cycle stage,http://purl.dataone.org/odo/ECSO_00002189,3,2
+ECSO,relative species abundance,http://purl.dataone.org/odo/ECSO_00002822,5,2
+ECSO,season,http://purl.dataone.org/odo/ECSO_00002366,3,2
+ENVO,wetland area,http://purl.obolibrary.org/obo/ENVO_00000043,2,2
+ENVO,fresh water,http://purl.obolibrary.org/obo/ENVO_00002011,2,2
+ECSO,air temperature,http://purl.dataone.org/odo/ECSO_00001225,4,2
+ECSO,photosynthetically active radiation,http://purl.dataone.org/odo/ECSO_00001573,2,2
+ENVO,shallow marine sediment,https://purl.obolibrary.org/obo/ENVO_03000034,2,2
+ECSO,carbon to nitrogen molar ratio,http://purl.dataone.org/odo/ECSO_00000639,2,2
+ECSO,14C uncalibrated age,http://purl.dataone.org/odo/ECSO_00002300,2,2
+ECSO,D14C,http://purl.dataone.org/odo/ECSO_00000668,2,2
+ECSO,d13C,http://purl.dataone.org/odo/ECSO_00000669,2,2
+ECSO,carbon percentage,https://purl.dataone.org/odo/ECSO_00001127,2,2
+ECSO,nitrogen percentage,https://purl.dataone.org/odo/ECSO_00001145,2,2
+ECSO,total dissolved nitrogen concentration,https://purl.dataone.org/odo/ECSO_00002020,2,2
+ECSO,soil temperature,http://purl.dataone.org/odo/ECSO_00001230,2,2
+ECSO,water discharge,http://purl.dataone.org/odo/ECSO_00002410,3,2
+ECSO,Subsurface Runoff MOV,http://purl.dataone.org/odo/ECSO_00000074,2,2
+ECSO,snow depth,http://purl.dataone.org/odo/ECSO_00001205,5,2
+ENVO,groundwater,http://purl.obolibrary.org/obo/ENVO_01001004,2,2
+ECSO,dissolved oxygen saturation,https://purl.dataone.org/odo/ECSO_00002386,2,2
+Other,net ecosystem production,https://vocabs.lter-europe.net/EnvThes/21078,3,2
+ECSO,Gross Primary Production Carbon Flux,https://purl.dataone.org/odo/ECSO_00000020,2,2
+ENVO,ecosystem-wide respiration,https://purl.obolibrary.org/obo/ENVO_02500008,2,2
+Other OBO,salinity,http://purl.obolibrary.org/obo/MESH_D054712,2,2
+ECSO,turbidity,http://purl.dataone.org/odo/ECSO_00002359,2,2
+Other OBO,undecanoic acid,http://purl.obolibrary.org/obo/CHEBI_32368,2,2
+Other OBO,lauric acid,http://purl.obolibrary.org/obo/NCIT_C68384,2,2
+Other,myristic acid,http://purl.bioontology.org/ontology/MESH/D019814,2,2
+Other OBO,pentadecanoic acid,http://purl.obolibrary.org/obo/CHEBI_42504,2,2
+Other OBO,10(Z)-pentadecenoic acid,http://purl.obolibrary.org/obo/CHEBI_75087,2,2
+Other OBO,palmitic acid,http://purl.obolibrary.org/obo/CHEBI_15756,2,2
+Other OBO,palmitoleic acid,http://purl.obolibrary.org/obo/NCIT_C68408,2,2
+Other OBO,margaric acid,http://purl.obolibrary.org/obo/NCIT_C68389,2,2
+Other OBO,trans-10-heptadecenoic acid,http://purl.obolibrary.org/obo/CHEBI_75097,2,2
+Other OBO,stearic acid,http://purl.obolibrary.org/obo/NCIT_C68426,2,2
+Other,oleic acid,http://purl.bioontology.org/ontology/MESH/D019301,2,2
+Other OBO,vaccenic acid,http://purl.obolibrary.org/obo/CHEBI_36023,2,2
+Other OBO,linolenic acid,http://purl.obolibrary.org/obo/NCIT_C997,2,2
+Other OBO,alpha linolenic acid,http://purl.obolibrary.org/obo/CHEBI_27432,2,2
+Other OBO,gamolenic acid,http://purl.obolibrary.org/obo/NCIT_C68369,2,2
+Other OBO,arachidic acid,http://purl.obolibrary.org/obo/NCIT_C68321,2,2
+Other OBO,heneicosanoic acid,http://purl.obolibrary.org/obo/CHEBI_39248,2,2
+Other OBO,behenic acid,http://purl.obolibrary.org/obo/NCIT_C68322,2,2
+Other OBO,arachidonic acid,http://purl.obolibrary.org/obo/CHEBI_15843,2,2
+Other OBO,erucic acid,http://purl.obolibrary.org/obo/CHEBI_28792,2,2
+Other OBO,lignoceric acid,http://purl.obolibrary.org/obo/CHEBI_28866,2,2
+Other OBO,docosahexaenoic acid,http://purl.obolibrary.org/obo/CHEBI_36005,2,2
+Other OBO,isoleucine,http://purl.obolibrary.org/obo/MESH_D007532,2,2
+Other OBO,leucine,http://purl.obolibrary.org/obo/CHEBI_25017,2,2
+Other OBO,methionine,http://purl.obolibrary.org/obo/CHEBI_16811,2,2
+Other OBO,valine,http://purl.obolibrary.org/obo/CHEBI_27266,2,2
+Other OBO,phenylalanine,http://purl.obolibrary.org/obo/CHEBI_28044,2,2
+ECSO,water depth,http://purl.dataone.org/odo/ECSO_00001203,2,2
+ECSO,Water pH,http://purl.dataone.org/odo/ECSO_00001159,4,2
+ENVO,mangrove swamp,http://purl.obolibrary.org/obo/ENVO_00000057,2,2
+ECSO,total dissolved nitrogen concentration in water,http://purl.dataone.org/odo/ECSO_00002019,2,2
+ECSO,time of measurement,http://purl.dataone.org/odo/ECSO_00002040,2,2
+ECSO,genus name,http://purl.dataone.org/odo/ECSO_00002734,2,2
+ECSO,flag identifier,http://purl.dataone.org/odo/ECSO_00002769,5,2
+ENVO,algal material,http://purl.obolibrary.org/obo/ENVO_01001189,2,2
+ECSO,Ecosystem,http://purl.dataone.org/odo/ECSO_00000309,1,1
+ECSO,Non-Plant Material Length,http://purl.dataone.org/odo/ECSO_00001177,2,1
+ECSO,study area width,http://purl.dataone.org/odo/ECSO_00001590,2,1
+ENVO,atmospheric wind speed,http://purl.obolibrary.org/obo/ENVO_01001362,2,1
+ENVO,sea state,http://purl.obolibrary.org/obo/ENVO_01001374,2,1
+Darwin Core,measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,2,1
+ECSO,observer initials,http://purl.dataone.org/odo/ECSO_00002738,2,1
+ENVO,temperature of air,http://purl.obolibrary.org/obo/ENVO_09200001,2,1
+Darwin Core,occurrenceRemarks,http://rs.tdwg.org/dwc/terms/occurrenceRemarks,2,1
+Darwin Core,identificationRemarks,http://rs.tdwg.org/dwc/terms/identificationRemarks,2,1
+Other OBO,metazoa,http://purl.obolibrary.org/obo/NCBITaxon_33208,1,1
+ENVO,aquatic ecosytem,http://purl.obolibrary.org/obo/ENVO_01001787,1,1
+ENVO,drainage basin,http://purl.obolibrary.org/obo/ENVO_00000291,1,1
+Other,references,http://purl.org/dc/terms/references,2,1
+Other OBO,insecta,http://purl.obolibrary.org/obo/NCBITaxon_50557,1,1
+Other OBO,tree,http://purl.obolibrary.org/obo/PO_0000003,1,1
+ENVO,mass gaseous flow,http://purl.obolibrary.org/obo/ENVO_01000792,2,1
+ENVO,precipitation process,http://purl.obolibrary.org/obo/ENVO_01000875,2,1
+Darwin Core,locationRemarks,http://rs.tdwg.org/dwc/terms/locationRemarks,2,1
+Other OBO,birds,http://purl.obolibrary.org/obo/NCBITaxon_8782,1,1
+ECSO,subplot identifier,http://purl.dataone.org/odo/ECSO_00002748,2,1
+Darwin Core,verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,2,1
+ECSO,plant fertilization,http://purl.dataone.org/odo/ECSO_00002435,3,1
+ECSO,nitrogen mass,http://purl.dataone.org/odo/ECSO_00002402,2,1
+PATO,mass,http://purl.obolibrary.org/obo/PATO_0000125,2,1
+ECSO,nitrogen concentration in aboveground foliar biomass,http://purl.dataone.org/odo/ECSO_00001884,1,1
+ENVO,desert biome,http://purl.obolibrary.org/obo/ENVO_01000179,1,1
+PATO,volumetric density,http://purl.obolibrary.org/obo/PATO_0001353,2,1
+ECSO,station identifier,http://purl.dataone.org/odo/ECSO_00002393,2,1
+ENVO,pond,http://purl.obolibrary.org/obo/ENVO_00000033,1,1
+ECSO,treatment measurement type,http://purl.dataone.org/odo/ECSO_00002426,2,1
+ENVO,habitat,http://purl.obolibrary.org/obo/ENVO_01000739,1,1
+Darwin Core,verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,2,1
+ECSO,Macroalgae,http://purl.dataone.org/odo/ECSO_00000508,1,1
+Darwin Core,habitat,http://rs.tdwg.org/dwc/terms/habitat,2,1
+Darwin Core,measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,2,1
+ECSO,Areal Density Measurement Type,http://purl.dataone.org/odo/ECSO_00001168,2,1
+ECSO,Volumetric Density Measurement Type,http://purl.dataone.org/odo/ECSO_00001199,2,1
+ECSO,number of samples taken,http://purl.dataone.org/odo/ECSO_00002764,2,1
+ENVO,boreal forest,http://purl.obolibrary.org/obo/ENVO_01000250,1,1
+ENVO,subpolar coniferous forest biome,http://purl.obolibrary.org/obo/ENVO_01000250,1,1
+ENVO,dune,http://purl.obolibrary.org/obo/ENVO_00000170,1,1
+ECSO,Aboveground Net Primary Production Carbon Flux,http://purl.dataone.org/odo/ECSO_00000301,1,1
+ECSO,number of observers,http://purl.dataone.org/odo/ECSO_00002580,2,1
+ECSO,hour and minute of measurement time,http://purl.dataone.org/odo/ECSO_00002066,2,1
+ECSO,topographic position,http://purl.dataone.org/odo/ECSO_00002745,2,1
+ENVO,weather,http://purl.obolibrary.org/obo/ENVO_01001078,2,1
+Darwin Core,inidividualCount,http://rs.tdwg.org/dwc/terms/individualCount,2,1
+Other OBO,Arthropoda,http://purl.obolibrary.org/obo/NCBITaxon_6656,1,1
+OBOE,Mass,http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Mass,2,1
+Darwin Core,month,http://rs.tdwg.org/dwc/terms/month,2,1
+Darwin Core,day,http://rs.tdwg.org/dwc/terms/day,2,1
+Other OBO,arthropoda,http://purl.obolibrary.org/obo/NCBITaxon_6656,1,1
+ENVO,desert ecosystem,http://purl.obolibrary.org/obo/ENVO_01001780,1,1
+ENVO,desert,http://purl.obolibrary.org/obo/ENVO_01001357,1,1
+Other,Number Volumetric Density,"The density, or more precisely, the volumetric count density of entities per unit volume.",2,1
+Other,Location,http://purl.org/dc/terms/Location,2,1
+ECSO,chlorophyll relative abundance,http://purl.dataone.org/odo/ECSO_00002280,3,1
+ECSO,Chlorophyll-a Concentration,http://purl.dataone.org/odo/ECSO_00000516,2,1
+ECSO,phytoplankton,http://purl.dataone.org/odo/ECSO_00000504,1,1
+ECSO,transect length,http://purl.dataone.org/odo/ECSO_00001943,2,1
+ECSO,relative humidity,http://purl.dataone.org/odo/ECSO_00001545,2,1
+ECSO,cloud cover percentage,http://purl.dataone.org/odo/ECSO_00002310,2,1
+ECSO,Net Ecosystem Exchange Carbon Flux,http://purl.dataone.org/odo/ECSO_00000014,1,1
+ECSO,canopy openness,http://purl.dataone.org/odo/ECSO_00002975,1,1
+ECSO,Braun-Blanquet cover abundance scale,http://purl.dataone.org/odo/ECSO_00002379,2,1
+PATO,area density,http://purl.obolibrary.org/obo/PATO_0001351,2,1
+PATO,frequency,http://purl.obolibrary.org/obo/PATO_0000044,2,1
+ECSO,Macroalage,http://purl.dataone.org/odo/ECSO_00000508,1,1
+Other OBO,nutrient,http://purl.obolibrary.org/obo/CHEBI_33284,1,1
+Other OBO,Insecta,http://purl.obolibrary.org/obo/NCBITaxon_50557,1,1
+ECSO,minutes elapsed,http://purl.dataone.org/odo/ECSO_00002238,2,1
+ECSO,water sample volume,http://purl.dataone.org/odo/ECSO_00001710,2,1
+PATO,elevation,http://purl.obolibrary.org/obo/PATO_0001687,1,1
+ENVO,forested area,http://purl.obolibrary.org/obo/ENVO_00000111,1,1
+Other OBO,Lepidoptera,http://purl.obolibrary.org/obo/NCBITaxon_7088,1,1
+Other OBO,organism,http://purl.obolibrary.org/obo/OBI_0100026,1,1
+ECSO,tow identifier,http://purl.dataone.org/odo/ECSO_00002579,2,1
+ECSO,Phytoplankton,http://purl.dataone.org/odo/ECSO_00000504,1,1
+ECSO,Depth,http://purl.dataone.org/odo/ECSO_00001250,2,1
+ECSO,Non-Plant Material Biomass,http://purl.dataone.org/odo/ECSO_00001150,2,1
+Darwin Core,measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,2,1
+ENVO,Grassland Ecosystem,http://purl.obolibrary.org/obo/ENVO_01001206,1,1
+ENVO,Marine Biome,http://purl.obolibrary.org/obo/ENVO_00000447,1,1
+Other,NA,NA,2,1
+Darwin Core,geodeticDatum,http://rs.tdwg.org/dwc/terms/geodeticDatum,1,1
+Darwin Core,countryCode,http://rs.tdwg.org/dwc/terms/countryCode,1,1
+Darwin Core,locationId,http://rs.tdwg.org/dwc/terms/locationID,1,1
+Darwin Core,minimumDepthInMeters,http://rs.tdwg.org/dwc/terms/minimumDepthInMeters,1,1
+Darwin Core,maximumDepthInMeters,http://rs.tdwg.org/dwc/terms/maximumDepthInMeters,1,1
+Darwin Core,coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,1,1
+Darwin Core,organismName,http://rs.tdwg.org/dwc/terms/organismName,1,1
+Darwin Core,organismQuantityType,http://rs.tdwg.org/dwc/iri/organismQuantityType,1,1
+Darwin Core,occurrenceStatus,http://rs.tdwg.org/dwc/terms/occurrenceStatus,1,1
+Darwin Core,measurementID,http://rs.tdwg.org/dwc/terms/measurementID,1,1
+ECSO,carbon dioxide partial pressure,http://purl.dataone.org/odo/ECSO_00000636,3,1
+ECSO,wind speed,http://purl.dataone.org/odo/ECSO_00001233,1,1
+ECSO,carbon dioxide flux,http://purl.dataone.org/odo/ECSO_00000536,2,1
+ECSO,solar radiation,http://purl.dataone.org/odo/ECSO_00001103,1,1
+ECSO,particulate organic carbon concentration,https://purl.dataone.org/odo/ECSO_00002816,1,1
+ECSO,particular organic nitrogen concentration,https://purl.dataone.org/odo/ECSO_00002135,1,1
+OBOE,phaeopigment,http://ecoinformatics.org/oboe/oboe.1.0/oboe-chemistry.owl#Phaeopigment,1,1
+Other OBO,chlorophyllide,https://purl.obolibrary.org/obo/CHEBI_38206,2,1
+Other OBO,fucoxanthin,https://purl.obolibrary.org/obo/CHEBI_5186,2,1
+Other OBO,peridinin,https://purl.obolibrary.org/obo/CHEBI_44882,2,1
+Other OBO,pheophorbide,https://purl.obolibrary.org/obo/CHEBI_38254,2,1
+ECSO,Pheophytin Concentration,https://purl.dataone.org/odo/ECSO_00001249,2,1
+Other OBO,zeaxanthin,https://purl.obolibrary.org/obo/CHEBI_27547,2,1
+ECSO,dissolved ammonia concentration,https://purl.dataone.org/odo/ECSO_00001703,2,1
+ECSO,dissolved ammonium concentration,https://purl.dataone.org/odo/ECSO_00002101,2,1
+ECSO,dissolved phosphate concentration,https://purl.dataone.org/odo/ECSO_00001897,2,1
+ECSO,dissolved silicate concentration in water,https://purl.dataone.org/odo/ECSO_00002082,2,1
+ECSO,nitrate and nitrite concentration in water,https://purl.dataone.org/odo/ECSO_00002925,2,1
+ECSO,colored dissolved organic matter absorbance,https://purl.dataone.org/odo/ECSO_00001500,2,1
+ECSO,wavelength,https://purl.dataone.org/odo/ECSO_00002943,1,1
+ECSO,total nitrogen percentage in soil,http://purl.dataone.org/odo/ECSO_00002855,1,1
+ENVO,concentration of chloride in water,http://purl.obolibrary.org/obo/ENVO_09000019,1,1
+Other OBO,bromide,http://purl.obolibrary.org/obo/CHEBI_15858,1,1
+ECSO,nitrate concentration,http://purl.dataone.org/odo/ECSO_00002216,1,1
+ECSO,sulfate concentration,http://purl.dataone.org/odo/ECSO_00002156,1,1
+ECSO,fraction modern,http://purl.dataone.org/odo/ECSO_00001962,1,1
+ECSO,fraction modern error,http://purl.dataone.org/odo/ECSO_00001619,1,1
+ECSO,uncertainty in 14C age,http://purl.dataone.org/odo/ECSO_00002805,1,1
+ECSO,manganese concentration,http://purl.dataone.org/odo/ECSO_00001792,1,1
+ECSO,aluminum concentration,http://purl.dataone.org/odo/ECSO_00001762,1,1
+ECSO,barium concentration,http://purl.dataone.org/odo/ECSO_00001768,1,1
+ECSO,strontium concentration,http://purl.dataone.org/odo/ECSO_00001806,1,1
+ECSO,silicon concentration,http://purl.dataone.org/odo/ECSO_00001800,1,1
+ECSO,iron concentration,http://purl.dataone.org/odo/ECSO_00001784,1,1
+ECSO,total dissolved nitrogen concentration,http://purl.dataone.org/odo/ECSO_00002020,1,1
+ECSO,strontium isotope ratio,http://purl.dataone.org/odo/ECSO_00002323,1,1
+ECSO,bulk density,http://purl.dataone.org/odo/ECSO_00002875,2,1
+ECSO,gravimetric water content in soil,http://purl.dataone.org/odo/ECSO_00001667,1,1
+ECSO,volumetric water content,http://purl.dataone.org/odo/ECSO_00001662,1,1
+ENVO,porosity of soil,http://purl.obolibrary.org/obo/ENVO_09200004,1,1
+ECSO,dissolved organic matter,https://purl.dataone.org/odo/ECSO_00000658,1,1
+ENVO,carbon cycling,https://purl.obolibrary.org/obo/ENVO_02500010,1,1
+ENVO,concentration of carbon dioxide in seawater,https://purl.obolibrary.org/obo/ENVO_04000006,2,1
+ECSO,soil depth,http://purl.dataone.org/odo/ECSO_00001207,1,1
+ECSO,Soil Moisture Percentage,http://purl.dataone.org/odo/ECSO_00000517,1,1
+Other,Infauna,https://purl.jp/bio/4/id/201106078106798188,1,1
+ENVO,marine benthic biome,https://purl.obolibrary.org/obo/ENVO_01000024,1,1
+ECSO,Wet Weight Biomass,https://purl.dataone.org/odo/ECSO_00001139,2,1
+ENVO,sea ice,https://purl.obolibrary.org/obo/ENVO_00002200,1,1
+ECSO,thickness of sea ice,https://purl.dataone.org/odo/ECSO_00002086,3,1
+ECSO,snow depth,https://purl.dataone.org/odo/ECSO_00001205,10,1
+ENVO,sea ice,http://purl.obolibrary.org/obo/ENVO_00002200,1,1
+ECSO,sea ice presence,http://purl.dataone.org/odo/ECSO_00002525,1,1
+ENVO,frozen soil,http://purl.obolibrary.org/obo/ENVO_01001526,1,1
+ECSO,thickness of sea ice,http://purl.dataone.org/odo/ECSO_00002086,1,1
+PATO,electrical conductivity,http://purl.obolibrary.org/obo/PATO_0001757,27,1
+Other,water level,http://vocabs.lter-europe.net/EnvThes/30025,2,1
+ENVO,groundwater flow,http://purl.obolibrary.org/obo/ENVO_01001632,1,1
+ENVO,hydrological process,https://purl.obolibrary.org/obo/ENVO_02500031,1,1
+ECSO,water conductivity,https://purl.dataone.org/odo/ECSO_00001535,2,1
+ECSO,water salinity,https://purl.dataone.org/odo/ECSO_00001164,1,1
+ECSO,density anomaly,https://purl.dataone.org/odo/ECSO_00003073,1,1
+ECSO,Water pH,https://purl.dataone.org/odo/ECSO_00001159,1,1
+ENVO,suspended sediment,https://purl.obolibrary.org/obo/ENVO_01000113,2,1
+Other,suspended solids,https://vocabs.lter-europe.net/EnvThes/22293,1,1
+Other,total suspended solids,http://sweetontology.net/propChemical/TotalSuspendedSolids,2,1
+Other OBO,decomposition,http://purl.obolibrary.org/obo/ECOCORE_00000058,1,1
+ENVO,erosion,http://purl.obolibrary.org/obo/ENVO_01001346,1,1
+ENVO,soil organic matter,http://purl.obolibrary.org/obo/ENVO_04000008,1,1
+Other OBO,carbon dioxide production,http://purl.obolibrary.org/obo/OMP_0000225,4,1
+ENVO,leachate,http://purl.obolibrary.org/obo/ENVO_00002141,1,1
+Other,biodegradable dissolved organic carbon,http://sweetontology.net/matr/BiodegradableDissolvedOrganicCarbon,2,1
+ECSO,specific ultraviolet absorbance,http://purl.dataone.org/odo/ECSO_00001502,1,1
+Other,aromaticity,http://semanticscience.org/resource/CHEMINF_000115,1,1
+Other,water metabolism,https://purl.jp/bio/4/id/200906099736606189,1,1
+ECSO,dissolved organic matter,http://purl.dataone.org/odo/ECSO_00000658,1,1
+ECSO,water conductivity,http://purl.dataone.org/odo/ECSO_00001535,1,1
+ECSO,carbon dioxide flux,https://purl.dataone.org/odo/ECSO_00000536,2,1
+Other OBO,ammonia,http://purl.obolibrary.org/obo/CHEBI_16134,1,1
+ECSO,nitrate concentration,https://purl.dataone.org/odo/ECSO_00002216,1,1
+Other,silica,http://vocabs.lter-europe.net/EnvThes/20866,1,1
+Other,total phosphorus,http://vocabs.lter-europe.net/EnvThes/20863,1,1
+Other,soluble reactive phosphorus,http://vocabs.lter-europe.net/EnvThes/20862,1,1
+Other,total dissolved phosphorus,http://vocabs.lter-europe.net/EnvThes/21239,1,1
+Other,total suspended solids,https://sweetontology.net/propChemical/TotalSuspendedSolids,1,1
+ECSO,Alkalinity,http://purl.dataone.org/odo/ECSO_00000521,1,1
+Other,specific conductivity,http://vocabs.lter-europe.net/EnvThes/22289,1,1
+ECSO,Dissolved Organic Carbon Concentration,http://purl.dataone.org/odo/ECSO_00001125,1,1
+Other OBO,octanoic acid,http://purl.obolibrary.org/obo/CHEBI_28837,1,1
+Other OBO,decanoic acid,http://purl.obolibrary.org/obo/CHEBI_30813,1,1
+Other OBO,tridecanoic acid,http://purl.obolibrary.org/obo/CHEBI_45919,1,1
+Other OBO,myristoleic acid,http://purl.obolibrary.org/obo/CHEBI_27781,1,1
+Other OBO,linoleic acid,http://purl.obolibrary.org/obo/NCIT_C615,1,1
+Other OBO,gondoic acid,http://purl.obolibrary.org/obo/NCIT_C68370,1,1
+Other OBO,eicosadienoic acid,http://purl.obolibrary.org/obo/NCIT_C68355,1,1
+Other,"8,11,14-eicosatrienoic acid",http://purl.bioontology.org/ontology/MESH/D015126,1,1
+Other OBO,"cis-11,14,17-eicosatrienoic acid",http://purl.obolibrary.org/obo/CHEBI_183324,1,1
+Other OBO,eicosapentaenoic acid,http://purl.obolibrary.org/obo/NCIT_C67080,1,1
+Other OBO,docosadienoic acid,http://purl.obolibrary.org/obo/CHEBI_75115,1,1
+Other OBO,nervonic acid,http://purl.obolibrary.org/obo/NCIT_C68395,1,1
+Other OBO,lysine,http://purl.obolibrary.org/obo/CHEBI_25094,1,1
+ECSO,d18O,https://purl.dataone.org/odo/ECSO_00001677,1,1
+ECSO,dissolved organic carbon concentration of stable carbon,http://purl.dataone.org/odo/ECSO_00001519,1,1
+ECSO,light intensity,http://purl.dataone.org/odo/ECSO_00002236,1,1
+ECSO,surface runoff,http://purl.dataone.org/odo/ECSO_00003021,1,1
+ECSO,snow water equivalent,http://purl.dataone.org/odo/ECSO_00001747,1,1
+ECSO,surface photosynthetically active radiation,http://purl.dataone.org/odo/ECSO_00001574,1,1
+ECSO,water pressure,http://purl.dataone.org/odo/ECSO_00001568,2,1
+ECSO,wave height,http://purl.dataone.org/odo/ECSO_00001176,5,1
+ECSO,water velocity,http://purl.dataone.org/odo/ECSO_00001234,3,1
+ECSO,thickness of ice,http://purl.dataone.org/odo/ECSO_00002801,4,1
+ECSO,air pressure,http://purl.dataone.org/odo/ECSO_00001186,2,1
+ECSO,pitch of buoy,http://purl.dataone.org/odo/ECSO_00002922,2,1
+ECSO,roll of buoy,http://purl.dataone.org/odo/ECSO_00002923,2,1
+ECSO,plant cover percentage,http://purl.dataone.org/odo/ECSO_00001197,133,1
+ECSO,bacteria abundance,http://purl.dataone.org/odo/ECSO_00001693,1,1
+ENVO,water-based rain,http://purl.obolibrary.org/obo/ENVO_01001565,1,1
+ECSO,salinity,http://purl.dataone.org/odo/ECSO_00001164,1,1
+ENVO,marsh,http://purl.obolibrary.org/obo/ENVO_00000035,1,1
+ECSO,phosphorus concentration in soil,http://purl.dataone.org/odo/ECSO_00001869,3,1
+ECSO,sulfur concentration in soil,http://purl.dataone.org/odo/ECSO_00002391,3,1
+ENVO,plant litter,http://purl.obolibrary.org/obo/ENVO_01000628,1,1
+ECSO,dry_weight,http://purl.dataone.org/odo/ECSO_00000556,16,1
+ECSO,Soil Dry Weight,http://purl.dataone.org/odo/ECSO_00001241,1,1
+ENVO,freshwater wetland ecosystem,http://purl.obolibrary.org/obo/ENVO_00000243,1,1
+ECSO,total dissolved phosphorus concentration in water,http://purl.dataone.org/odo/ECSO_00002844,1,1
+ECSO,Water Depth,http://purl.dataone.org/odo/ECSO_00001203,1,1
+ECSO,file name,http://purl.dataone.org/odo/ECSO_00002763,1,1
+ECSO,study identifier,http://purl.dataone.org/odo/ECSO_00002299,1,1
+ECSO,algae cover percentage,http://purl.dataone.org/odo/ECSO_00001647,1,1
+Other OBO,North Atlantic Ocean,http://purl.obolibrary.org/obo/GAZ_00000377,1,1
+ECSO,year and season,http://purl.dataone.org/odo/ECSO_00002169,21,1
+ENVO,coral bleaching process,http://purl.obolibrary.org/obo/ENVO_01000852,1,1
+ECSO,nitrogen percentage of total biomass,http://purl.dataone.org/odo/ECSO_00002569,1,1
+ECSO,d15N,http://purl.dataone.org/odo/ECSO_00001738,1,1
+ECSO,species name,http://purl.dataone.org/odo/ECSO_00002735,6,1
+Other OBO,image,http://purl.obolibrary.org/obo/IAO_0000101,2,1
+ECSO,Lake Depth,http://purl.dataone.org/odo/ECSO_00001206,2,1
+ECSO,dissolved oxygen concentration in lake water,http://purl.dataone.org/odo/ECSO_00002862,2,1
+ECSO,Lake Temperature,http://purl.dataone.org/odo/ECSO_00001231,2,1
+ENVO,lake layer,http://purl.obolibrary.org/obo/ENVO_01000283,2,1
+Other OBO,microbial community,http://purl.obolibrary.org/obo/PCO_1000004,1,1
+Darwin Core,waterBody,http://rs.tdwg.org/dwc/terms/waterBody,2,1
+ENVO,small lake biome,http://purl.obolibrary.org/obo/ENVO_00000892,1,1
+ENVO,dimictic lake,http://purl.obolibrary.org/obo/ENVO_01000286,1,1
+ECSO,dissolved inorganic carbon concentration in freshwater,http://purl.dataone.org/odo/ECSO_00002103,1,1
+ECSO,dissolved organic carbon concentration in water,http://purl.dataone.org/odo/ECSO_00002143,1,1
+ECSO,Freshwater Total Inorganic Carbon Concentration,http://purl.dataone.org/odo/ECSO_00001122,1,1
+ECSO,Aquatic Total Organic Carbon Concentration,http://purl.dataone.org/odo/ECSO_00001118,1,1
+ECSO,lake water alkalinity,http://purl.dataone.org/odo/ECSO_00001751,1,1
+ECSO,pH,http://purl.dataone.org/odo/ECSO_00001645,1,1
+ECSO,freshwater conductivity,http://purl.dataone.org/odo/ECSO_00001536,1,1
+ECSO,Secchi Depth Method,http://purl.dataone.org/odo/ECSO_00001208,1,1
+ECSO,phosphorus concentration,http://purl.dataone.org/odo/ECSO_00001868,1,1
+ECSO,dissolved silicate concentration in water,http://purl.dataone.org/odo/ECSO_00002082,1,1
+ECSO,calcium concentration in lake water,http://purl.dataone.org/odo/ECSO_00001773,1,1
+ECSO,potassium concentration in lake water,http://purl.dataone.org/odo/ECSO_00001799,1,1
+ECSO,magnesium concentration in water,http://purl.dataone.org/odo/ECSO_00001925,1,1
+ECSO,sodium concentration in lake water,http://purl.dataone.org/odo/ECSO_00001805,1,1
+ECSO,iron concentration in water,http://purl.dataone.org/odo/ECSO_00001785,1,1
+ECSO,chlorine concentration in lake water,http://purl.dataone.org/odo/ECSO_00001777,1,1
+ECSO,sulfate concentration in freshwater,http://purl.dataone.org/odo/ECSO_00002390,1,1
+ENVO,marine photic zone,http://purl.obolibrary.org/obo/ENVO_00000209,1,1
+ENVO,visible spectrum radiation,http://purl.obolibrary.org/obo/ENVO_21001215,1,1
+ECSO,Radiative flux,http://purl.dataone.org/odo/ECSO_00001106,2,1
+Other OBO,photosynthesis,http://purl.obolibrary.org/obo/GO_0015979,1,1
+ECSO,Net Primary Production,http://purl.dataone.org/odo/ECSO_00000021,1,1

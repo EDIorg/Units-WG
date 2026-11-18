@@ -1,0 +1,43 @@
+# Analysis configuration. Paths are relative to eml_corpus_analysis/.
+# The EML corpus location is not configured here: set EML_CORPUS_ROOT.
+default:
+  corpus:
+    snapshot: "2026-11-12"
+    source: "Environmental Data Initiative repository (https://portal.edirepository.org)"
+    # 0 = full corpus; a positive value draws a seeded file sample for quick runs.
+    sample_n: 0
+    batches: 100
+  seed: 20261112
+  workers: 8
+  reference:
+    jp_mapping: "../RCode_JP/allUnitsWithOrWithoutQUDTunits.csv"
+    mob_decisions: "../AI_create_ttl/runs/2026-09-07-mob-units-gpt/decisions.csv"
+    concept_seeds: "data/reference/concept_seeds.csv"
+  qudt:
+    sparql_endpoint: "https://www.qudt.org/fuseki/qudt/query"
+  analysis:
+    # Units/families/concepts below these usage levels are reported but not ranked.
+    polysemy_min_datasets: 20
+    cluster_min_definitions: 50
+    cluster_max_definitions: 3000
+    cluster_vocabulary: 300
+    cluster_max_k: 12
+    audit_per_cluster: 5
+  qk_criteria:
+    # Provisional thresholds; calibrate from the report before team review.
+    min_datasets: 20
+    min_scopes: 3
+    attach_min_datasets: 3
+  llm:
+    # Off by default: labeling sends cluster exemplars (public EML text) to a
+    # third-party API and costs money. Enable explicitly per run.
+    enabled: false
+    provider: "openai"
+    model: "gpt-4.1-2025-04-14"
+    prompt: "prompts/concept-labeling-v1.md"
+    max_clusters: 200
+
+sample:
+  corpus:
+    sample_n: 500
+    batches: 10

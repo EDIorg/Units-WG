@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  packageId="knb-lter-xyz.12.3" system="knb"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>Litterfall and soil respiration at a test site</title>
+    <abstract><para>Synthetic fixture for unit tests.</para></abstract>
+    <keywordSet>
+      <keyword>litterfall</keyword>
+      <keyword>productivity</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Test plot</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.7</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.6</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.1</northBoundingCoordinate>
+          <southBoundingCoordinate>46.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate><calendarDate>2001-01-01</calendarDate></beginDate>
+          <endDate><calendarDate>2005-12-31</calendarDate></endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <dataTable>
+      <entityName>litter</entityName>
+      <attributeList>
+        <attribute>
+          <attributeName>litter_mass</attributeName>
+          <attributeDefinition>  litterfall
+            dry mass flux </attributeDefinition>
+          <measurementScale><ratio><unit>
+            <standardUnit>gramsPerSquareMeter</standardUnit>
+          </unit><numericDomain><numberType>real</numberType></numericDomain></ratio></measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>resp</attributeName>
+          <attributeDefinition>soil respiration rate</attributeDefinition>
+          <measurementScale><ratio><unit>
+            <customUnit>microgramPerGramPerHour</customUnit>
+          </unit></ratio></measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>site code</attributeDefinition>
+          <measurementScale><nominal><nonNumericDomain><textDomain>
+            <definition>site code</definition>
+          </textDomain></nonNumericDomain></nominal></measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="microgramPerGramPerHour" name="microgramPerGramPerHour"
+          unitType="massSpecificRate" parentSI="perSecond" multiplierToSI="2.7778e-10">
+          <stmml:description>micrograms per gram of dry soil per hour</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

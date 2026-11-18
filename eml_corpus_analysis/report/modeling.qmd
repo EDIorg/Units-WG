@@ -1,0 +1,166 @@
+---
+title: "QuantityKind modeling: options, criteria, and candidates"
+---
+
+```{r setup}
+source("_common.R")
+candidates <- targets::tar_read(qk_candidates, store = store)
+attachments <- targets::tar_read(qk_attachments, store = store)
+concept_units <- targets::tar_read(concept_units, store = store)
+polysemy <- targets::tar_read(polysemy, store = store)
+cfg <- config::get(file = file.path(pkg_root, "config.yml"))
+status_counts <- dplyr::count(candidates, status, name = "concept_vector_pairs")
+multi_dv <- sum(concept_units$overview$dimension_vectors > 1)
+polysemous <- sum(polysemy$concepts >= 2, na.rm = TRUE)
+```
+
+This page is the Phase 4 **team-review package**. It assesses three modeling
+options against the corpus evidence, states draft admission and attachment
+criteria, and lists ranked candidates. Thresholds come from `config.yml` and
+are provisional. Decisions and their rationale are tracked in
+`r doc_link("decision-log.md", "the decision log")`.
+
+## Evidence that constrains the options
+
+- **Polysemy:** `r polysemous` of `r nrow(polysemy)` frequently used unit
+  groups serve two or more seed concepts (see [Units](units.qmd)). For
+  example, µmol/m²/s is used for both photosynthetic photon flux and CO₂
+  flux. A unit cannot carry a single ecological meaning.
+- **Spread across dimensions:** `r multi_dv` of
+  `r nrow(concept_units$overview)` seed concepts use units from more than one
+  DimensionVector (see [Concepts](concepts.qmd)). For example, primary
+  production appears as mass per area per time, mass per area, and mass per
+  individual per time. One QK cannot unify such a concept.
+- **Existing semantics:** annotations mostly restate the unit (QUDT) or
+  identify generic characteristics. Few records link a measured ecological
+  property to its unit (see [Annotations](annotations.qmd)).
+- **Precedent:** QUDT already has domain-specific QKs, such as
+  `PhotosyntheticPhotonFluxDensity`. Ecological QKs are therefore not
+  unprecedented, but QUDT reviewers' appetite for adding many more is
+  unknown.
+
+## Options assessment
+
+| Option | Fit to evidence | Risks |
+|---|---|---|
+| **1. Ecological QKs in QUDT** (`qudt:specializationOf` a generic QK) | Works for concepts that stay within one DimensionVector, such as areal primary production rate or photon flux density. | Concepts spread across many vectors, so the number of QKs grows quickly. QUDT reviewers may resist. Polysemous units would list many QKs. |
+| **2. Generic QUDT QKs; ecological context in ECSO/OBOE annotations** | Matches how the corpus already annotates attributes. Handles polysemy, because meaning attaches to the attribute, not the unit. | Adds nothing to QUDT, and ecological meaning stays outside it. Depends on adoption of attribute-level annotation. |
+| **3. Hybrid with admission criteria** | QUDT QKs only for recurring, well-defined, single-vector concepts. Everything else is linked through external vocabularies. | Needs explicit, defensible criteria (below) and a QUDT community check before bulk proposals. |
+
+**Recommendation for team review: Option 3 (hybrid).** The polysemy and
+dimension-spread evidence rules out assigning ecological meaning to units by
+dimension. A small set of recurring, well-defined concepts can justify QUDT
+QKs, and the rest is best expressed as attribute-level context.
+
+## Draft admission criteria (create a QK)
+
+Each criterion is evaluated per **concept × DimensionVector** pair. Rows for
+unmapped units are excluded.
+
+1. **Recurrence (automated).** The pair occurs in at least
+   `r cfg$qk_criteria$min_datasets` datasets across at least
+   `r cfg$qk_criteria$min_scopes` scopes.
+2. **Single dimension (automated).** Each candidate QK covers exactly one
+   DimensionVector. A concept that spans several vectors gets one candidate
+   per vector or none.
+3. **Not already in QUDT (semi-automated).** No existing QK with the same
+   vector matches the concept. The pipeline searches QK labels and names with
+   each seed's `qudt_qk_hint`. A match leads to reuse or specialization, not a
+   new QK.
+4. **Commensurate parent (automated suggestion).** A QUDT QK with the same
+   vector exists to serve as the `qudt:specializationOf` parent. The pipeline
+   suggests the QK most often attached to the concept's units.
+5. **Authoritative definition (manual).** A stable operational definition
+   exists in domain literature or a standard vocabulary.
+6. **Audit precision (manual).** The concept's seed or cluster matches pass
+   the human audit.
+7. **Dimensionless pairs (manual).** Percentages, ratios, and indices need
+   explicit ratio semantics (what is divided by what) before any QK is
+   proposed.
+8. **Quantity type, not substance or entity (manual).** A QK names a kind of
+   quantity (for example, areal primary production rate), not the substance,
+   organism, or medium measured. Substance-specific QKs are the exception in
+   QUDT (for example, `MassConcentrationOfWater` and `BloodGlucoseLevel_Mass`
+   exist beside the generic `MassConcentration`). Propose one only with a
+   comparable precedent. Otherwise, keep a generic QK and put the substance
+   or medium in annotations (ECSO characteristics, ChEBI or ENVO entities).
+   Concepts such as dissolved oxygen, chlorophyll *a*, CO₂ flux, and methane
+   flux are likely to fail this criterion.
+
+Parent suggestions rank same-vector QKs by how often QUDT already attaches
+them to the concept's units, so they inherit QUDT's existing choices. For
+example, molar fluxes (`A1E0L-2I0M0H0T-1D0`) get
+`PhotosyntheticPhotonFluxDensity` even though the generic `MolarFluxDensity`
+exists. Mass concentrations get `Density` rather than `MassConcentration`.
+Choose parents by hand.
+
+`vector_share` is the pair's share of the concept's dataset occurrences across
+mapped vectors. Low shares (below about 0.1) often mean the seed matched a
+co-located ancillary column, such as sensor depth or probe temperature, so
+check those rows first in the audit. Some legitimate pairs also have low
+shares, so it is a review aid, not a filter.
+
+## Draft attachment rules (associate units)
+
+- Use `qudt:unitForQuantityKind` only when the unit is commensurate with the
+  QK and the corpus uses it for that concept in at least
+  `r cfg$qk_criteria$attach_min_datasets` datasets.
+- Use `qudt:categorizedByQuantityKind` only for organizational grouping, not
+  for measurement semantics.
+- **Never attach on dimensional equality alone.** Polysemous units may list
+  several QKs, but each needs its own corpus evidence.
+- For existing QUDT units, propose additive assertions only. Do not remove
+  or replace current QK links.
+
+## Candidate status
+
+```{r status}
+knitr::kable(status_counts)
+```
+
+## Candidates (concept × DimensionVector)
+
+`open_checks` lists the manual criteria (5, 6, and 8, plus 7 for
+dimensionless pairs) that remain for each row.
+
+```{r candidates}
+shared <- crosstalk::SharedData$new(candidates)
+filtered_table(
+  list(
+    crosstalk::filter_select("status", "Status", shared, ~status),
+    crosstalk::filter_select("concept", "Concept", shared, ~concept)
+  ),
+  reactable::reactable(
+    shared,
+    searchable = TRUE, compact = TRUE, striped = TRUE, resizable = TRUE,
+    defaultPageSize = 15,
+    columns = list(top_units = wide(300), open_checks = wide(260), existing_qk_matches = wide(220))
+  )
+)
+```
+
+Full table: [`qk_candidates.csv`](`r derived_url`/qk_candidates.csv).
+
+## Proposed unit attachments
+
+One row per candidate pair and QUDT unit used for it in enough datasets.
+`already_attached` marks existing links, which need no change.
+
+```{r attachments}
+interactive_table(
+  attachments, "qk_attachments",
+  columns = list(current_qudt_qks = wide(260), existing_qk_matches = wide(220))
+)
+```
+
+## Open questions for the team
+
+1. Are the recurrence thresholds right? They are configurable; compare the
+   candidate list at alternative values before deciding.
+2. Should the working group consult the QUDT community on Option 3 before
+   proposing any domain QKs?
+3. Which external vocabulary (ECSO, OBOE, or another) should carry the
+   context for concepts that do not qualify as QUDT QKs?
+4. For withheld MOB candidates, do the draft answers on the
+   [MOB page](mob.qmd) resolve the blockers?
+5. Should LLM-assisted cluster labeling be enabled, and who will audit it?

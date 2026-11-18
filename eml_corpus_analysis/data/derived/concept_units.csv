@@ -1,0 +1,1944 @@
+concept,unit_group,attributes,datasets,scopes,top_names,qudt_unit,dimension_vector
+atmospheric_deposition,GM-PER-M2-DAY,35,29,2,"gramPerMeterSquaredPerDay (34), gramsPerSquareMeterPerDay (1)",GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+atmospheric_deposition,KiloGM-PER-HA-YR,39,13,3,"kilogramPerHectarePerYear (26), kilogramsPerHectarePerYear (13)",KiloGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+atmospheric_deposition,KiloGM-PER-HA,462,10,5,"kilogramsPerHectare (443), kg/ha (10), kilogramPerHectare (9)",KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+atmospheric_deposition,UNITLESS,11,5,3,dimensionless (11),UNITLESS,A0E0L0I0M0H0T0D1
+atmospheric_deposition,MilliGM-PER-M2-DAY,10,3,1,"milligramsPerMeterSquaredPerDay (7), milligramsPerSquareMeterPerDay (3)",MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+atmospheric_deposition,PERCENT,4,2,2,percent (4),PERCENT,A0E0L0I0M0H0T0D1
+atmospheric_deposition,CentiM,2,2,2,centimeter (2),CentiM,A0E0L1I0M0H0T0D0
+atmospheric_deposition,MilliM,2,2,2,millimeter (2),MilliM,A0E0L1I0M0H0T0D0
+atmospheric_deposition,GM-PER-M2-YR,2,2,1,gramPerMeterSquaredPerYear (2),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+atmospheric_deposition,YR,2,2,2,"year (1), years (1)",YR,A0E0L0I0M0H0T1D0
+atmospheric_deposition,CentiM3,4,2,2,centimeterCubed (4),CentiM3,A0E0L3I0M0H0T0D0
+atmospheric_deposition,TONNE,1,1,1,tonne (1),TONNE,A0E0L0I0M1H0T0D0
+atmospheric_deposition,kilogram/day.hectare,3,1,1,kilogramPerHectarePerDay (3),,
+atmospheric_deposition,GM-PER-M2,1,1,1,gramsPerSquareMeter (1),GM-PER-M2,A0E0L-2I0M1H0T0D0
+atmospheric_deposition,KiloGM-PER-KiloM2,1,1,1,kilogramPerKilometerSquared (1),KiloGM-PER-KiloM2,A0E0L-2I0M1H0T0D0
+atmospheric_deposition,tgn/yr,1,1,1,Tg N / yr (1),,
+atmospheric_deposition,NUM-PER-M2,1,1,1,numberPerMeterSquared (1),NUM-PER-M2,A0E0L-2I0M0H0T0D0
+atmospheric_deposition,hhmm,4,1,1,HHMM (4),,
+atmospheric_deposition,MilliL,2,1,1,milliliter (2),MilliL,A0E0L3I0M0H0T0D0
+atmospheric_deposition,PH,2,1,1,pH (2),PH,A0E0L0I0M0H0T0D1
+atmospheric_deposition,PPM,24,1,1,ppm (24),PPM,A0E0L0I0M0H0T0D1
+atmospheric_deposition,NUM,1,1,1,number (1),NUM,A0E0L0I0M0H0T0D1
+atmospheric_deposition,kgn/kilometer.year,1,1,1,kg N per kilometer per year (1),,
+atmospheric_deposition,kgperha,6,1,1,kg per ha (6),,
+atmospheric_deposition,kg/hayear,6,1,1,kg/ha-year (6),,
+atmospheric_deposition,gram/day.hectare,7,1,1,gram per hectare per day (7),,
+atmospheric_deposition,gnm⁻²yr⁻¹,1,1,1,g N m⁻² yr⁻¹ (1),,
+atmospheric_deposition,gm2yr1,1,1,1,g m-2 yr-1 (1),,
+atmospheric_deposition,MilliGM-PER-M2,9,1,1,milligramsPerSquareMeter (9),MilliGM-PER-M2,A0E0L-2I0M1H0T0D0
+atmospheric_deposition,kilogram/kilometersquare.year,2,1,1,kilogramsPerKilometerSquarePerYear (2),,
+atmospheric_deposition,HA,6,1,1,hectare (6),HA,A0E0L2I0M0H0T0D0
+atmospheric_deposition,KiloGM,1,1,1,kilograms (1),KiloGM,A0E0L0I0M1H0T0D0
+atmospheric_deposition,number/centimetersquared.year,2,1,1,numberPerCentimeterSquaredPerYear (2),,
+atmospheric_deposition,CentiM-PER-SEC,1,1,1,centimeterPerSecond (1),CentiM-PER-SEC,A0E0L1I0M0H0T-1D0
+atmospheric_deposition,GM-PER-YR,19,1,1,gramPerYear (19),GM-PER-YR,A0E0L0I0M1H0T-1D0
+atmospheric_deposition,GM,3,1,1,gram (3),GM,A0E0L0I0M1H0T0D0
+atmospheric_deposition,CentiM-PER-YR,3,1,1,centimeterPerYear (3),CentiM-PER-YR,A0E0L1I0M0H0T-1D0
+atmospheric_deposition,DEG,1,1,1,degree (1),DEG,A0E0L0I0M0H0T0D1
+atmospheric_deposition,micromole/centimetersquared.hour,1,1,1,microMolesPerSquareCentimeterPerHour (1),,
+atmospheric_deposition,MilliGM-PER-L,1,1,1,milligramsPerLiter (1),MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+atmospheric_deposition,kilogram/kilometersquared.year,1,1,1,kilogramPerKilometerSquaredPerYear (1),,
+biomass,GM-PER-M2,1108,284,23,"gramPerMeterSquared (749), gramsPerSquareMeter (286), gramsPerMeterSquared (41)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+biomass,GM,629,263,24,"gram (620), g (5), grams (3)",GM,A0E0L0I0M1H0T0D0
+biomass,UNITLESS,199,103,21,"dimensionless (172), unitless (10), ratio (6)",UNITLESS,A0E0L0I0M0H0T0D1
+biomass,MicroGM-PER-GM,113,34,10,"microgramPerGram (85), microgramsPerGram (28)",MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+biomass,MilliGM,78,31,14,"milligram (76), mg (2)",MilliGM,A0E0L0I0M1H0T0D0
+biomass,NUM,62,30,14,number (62),NUM,A0E0L0I0M0H0T0D1
+biomass,PERCENT,110,29,11,"percent (104), Percent (4), % (2)",PERCENT,A0E0L0I0M0H0T0D1
+biomass,MicroGM-PER-L,146,25,7,"microgramPerLiter (133), microgramsPerLiter (13)",MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+biomass,KiloGM,69,24,10,kilogram (69),KiloGM,A0E0L0I0M1H0T0D0
+biomass,MilliGM-PER-M2,75,19,7,"milligramPerMeterSquared (47), milligramsPerSquareMeter (28)",MilliGM-PER-M2,A0E0L-2I0M1H0T0D0
+biomass,TONNE-PER-HA,47,14,4,"megagramPerHectare (23), megagramsPerHectare (13), tonnePerHectare (7)",TONNE-PER-HA,A0E0L-2I0M1H0T0D0
+biomass,KiloGM-PER-HA,37,14,5,"kilogramsPerHectare (23), kilogramPerHectare (14)",KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+biomass,MilliGM-PER-GM,19,14,6,"milligramPerGram (12), milligramsPerGram (7)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+biomass,KiloGM-PER-M2,23,11,5,"kilogramPerMeterSquared (16), kilogramsPerSquareMeter (7)",KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+biomass,MilliGM-PER-M3,37,9,2,"milligramPerMeterCubed (32), milligramsPerCubicMeter (4), mg/m3 (1)",MilliGM-PER-M3,A0E0L-3I0M1H0T0D0
+biomass,GM-PER-M2-YR,13,8,5,"gramPerMeterSquaredPerYear (9), gramsPerMeterSquaredPerYear (4)",GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+biomass,CentiM,10,8,7,"centimeter (8), centimeters (2)",CentiM,A0E0L1I0M0H0T0D0
+biomass,MicroGM-PER-CentiM2,15,8,5,"microgramPerCentimeterSquared (12), microgramsPerCentimeterSquared (2), microgramPerSquareCentimeter (1)",MicroGM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+biomass,KiloGM-PER-M3,10,7,3,"kilogramPerCubicMeter (6), kilogramsPerMeterCubed (3), kilogramPerMeterCubed (1)",KiloGM-PER-M3,A0E0L-3I0M1H0T0D0
+biomass,MilliGM-PER-L,15,7,3,milligramPerLiter (15),MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+biomass,MilliGM-PER-KiloGM,15,7,3,"milligramPerKilogram (11), milliGramPerKilogram (2), milligramsPerKilogram (2)",MilliGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+biomass,GM-PER-GM,11,6,4,"gramPerGram (8), gramsPerGram (3)",GM-PER-GM,A0E0L0I0M0H0T0D1
+biomass,GM-PER-M3,6,6,3,"g/m3 (4), gramPerMeterCubed (1), gramsPerCubicMeter (1)",GM-PER-M3,A0E0L-3I0M1H0T0D0
+biomass,GM-PER-M2-DAY,11,5,3,gramPerMeterSquaredPerDay (11),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+biomass,MicroGM,6,5,4,microgram (6),MicroGM,A0E0L0I0M1H0T0D0
+biomass,NanoMOL-PER-GM,9,5,3,"nanomolePerGram (7), nanomolesPerGram (2)",NanoMOL-PER-GM,A1E0L0I0M-1H0T0D0
+biomass,TONNE,13,4,3,"tonne (8), megagram (5)",TONNE,A0E0L0I0M1H0T0D0
+biomass,milligram/centimetercubed,7,4,3,"milligramsPerCubicCentimeter (5), milligramPerCentimeterCubed (2)",,
+biomass,KiloGM-PER-M2-DAY,12,3,2,"kilogramPerMeterSquaredPerDay (11), kilogramPerSquareMeterPerDay (1)",KiloGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+biomass,GM-PER-CentiM3,4,3,3,"gramPerCentimeterCubed (2), gramPerCubicCentimeter (1), gramsPerCubicCentimeter (1)",GM-PER-CentiM3,A0E0L-3I0M1H0T0D0
+biomass,MilliGM-PER-CentiM2,4,3,2,"milligramPerCentimeterSquared (3), milligramPerSquareCentimeter (1)",MilliGM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+biomass,ton/acre,4,3,2,"tonPerAcre (3), tonsPerAcre (1)",,
+biomass,milligramperunit,9,3,1,milligramPerUnit (9),,
+biomass,milliliterperthousandmetercubed,73,3,2,milliliterPerThousandCubicMeter (73),,
+biomass,grampersample,3,3,1,gramsPerSample (3),,
+biomass,GM-PER-M,5,3,2,gramPerMeter (5),GM-PER-M,A0E0L-1I0M1H0T0D0
+biomass,MicroGM-PER-M3,3,2,1,"ug/m3 (2), microgramPerMeterCubed (1)",MicroGM-PER-M3,A0E0L-3I0M1H0T0D0
+biomass,NUM-PER-M2,3,2,2,numberPerMeterSquared (3),NUM-PER-M2,A0E0L-2I0M0H0T0D0
+biomass,na,8,2,1,"NA (6), na (2)",,
+biomass,GM-PER-CentiM2,4,2,1,gramPercentimeterSquared (4),GM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+biomass,micromole/hour.milligram,3,2,2,micromolePerMilligramPerHour (3),,
+biomass,meter/gram,2,2,2,meterPerGram (2),,
+biomass,MilliL,9,2,2,milliliter (9),MilliL,A0E0L3I0M0H0T0D0
+biomass,units/gram,8,2,1,unitsPerGram (8),,
+biomass,ugn/gdrysoil,2,2,2,"ug-N/g dry soil (1), ugN/gdrysoil (1)",,
+biomass,gramperfourhundredthmetersquared,38,2,1,gramPerFourHundredthMeterSquared (38),,
+biomass,GM-PER-KiloGM,3,2,1,gramPerKilogram (3),GM-PER-KiloGM,A0E0L0I0M0H0T0D1
+biomass,gram/day.gram,2,2,2,gramPerGramPerDay (2),,
+biomass,gbiomassm2,3,2,1,gbiomassm-2 (3),,
+biomass,mgha1,2,2,1,Mgha-1 (2),,
+biomass,GM-PER-L,2,2,2,"gramPerLiter (1), gramsPerLiter (1)",GM-PER-L,A0E0L-3I0M1H0T0D0
+biomass,MicroGM-PER-MilliGM,4,2,2,microgramsPerMilligram (4),MicroGM-PER-MilliGM,A0E0L0I0M0H0T0D1
+biomass,grampersqauremeter,2,2,1,gramPerSqaureMeter (2),,
+biomass,g/m^2,2,2,1,g/m^2 (2),,
+biomass,TONNE-PER-HA-YR,7,2,2,megagramPerHectarePerYear (7),TONNE-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+biomass,nanogram/gram,21,2,1,nanogramPerGram (21),,
+biomass,PPM,3,2,1,partsPermillion (3),PPM,A0E0L0I0M0H0T0D1
+biomass,FRACTION,6,2,2,proportion (6),FRACTION,A0E0L0I0M0H0T0D1
+biomass,microgramc/gsoil,2,2,1,microgram C/g soil (2),,
+biomass,microgramn/gsoil,2,2,1,microgram N/g soil (2),,
+biomass,milligram/day.milligram,2,2,1,milligramPerMilligramPerDay (2),,
+biomass,gramperonetenthmetersquared,8,2,2,gramPerOneTenthMeterSquared (8),,
+biomass,PER-DAY,14,2,1,reciprocalDay (14),PER-DAY,A0E0L0I0M0H0T-1D0
+biomass,g/0.25m2,2,2,1,g/0.25m2 (2),,
+biomass,kilogramperpixel,4,1,1,kilogramPerPixel (4),,
+biomass,numbermicrometercubedper0.1mililiter,10,1,1,numberMicrometerCubedPer0.1Mililiter (10),,
+biomass,numberper100milliliter,10,1,1,numberPer100Milliliters (10),,
+biomass,µgl1,1,1,1,µg L-1 (1),,
+biomass,µgcm2,1,1,1,µg cm-2 (1),,
+biomass,FT2,1,1,1,footSquared (1),FT2,A0E0L2I0M0H0T0D0
+biomass,gramper0.25metersquare,11,1,1,gramPer0.25MeterSquare (11),,
+biomass,gramper1750centimeterqubed,1,1,1,gramPer1750centimeterQubed (1),,
+biomass,ton/ha,1,1,1,Ton/ha (1),,
+biomass,ndvi,1,1,1,NDVI (1),,
+biomass,MicroGM-PER-KiloGM,1,1,1,microgramPerKilogram (1),MicroGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+biomass,milligrampersqcentimeter,1,1,1,milligram per sq centimeter (1),,
+biomass,gpertow,96,1,1,gPerTow (96),,
+biomass,gperseine,5,1,1,gPerSeine (5),,
+biomass,biomassperuniteffort,18,1,1,biomassPerUnitEffort (18),,
+biomass,adimentional,7,1,1,adimentional (7),,
+biomass,milligramcarbon/metercubed,1,1,1,milligramCarbonPerMeterCubed (1),,
+biomass,biomassmgm3,1,1,1,Biomass_mg_m-3 (1),,
+biomass,variable,1,1,1,Variable (1),,
+biomass,mgmelanin/mgbiomass,2,1,1,mg melanin/mg biomass (2),,
+biomass,DAY,1,1,1,Days (1),DAY,A0E0L0I0M0H0T1D0
+biomass,DEG_C,1,1,1,celsius (1),DEG_C,A0E0L0I0M0H1T0D0
+biomass,kgcm2,15,1,1,kg C m-2 (15),,
+biomass,gleaflitterfallbiomass/metersquared.year,1,1,1,g leaf litterfall biomass per meter squared per year (1),,
+biomass,greproductivelitterfallbiomass/metersquared.year,1,1,1,g reproductive litterfall biomass per meter squared per year (1),,
+biomass,gramperquartermetersquared,1,1,1,gram per quarter square meter (1),,
+biomass,unfencedcontrollivebiomass–fencedcontrollivebiomass,30,1,1,Unfenced Control Live Biomass – Fenced Control Live Biomass (30),,
+biomass,nanomole/hour.milligram,5,1,1,nanomolePerMilligramPerHour (5),,
+biomass,microgram/hour.milligram,1,1,1,microgramPerMilligramPerHour (1),,
+biomass,unitgivenin'unit'column.,1,1,1,Unit given in 'unit' column. (1),,
+biomass,gramstogramsratio,2,1,1,grams to grams ratio (2),,
+biomass,MicroM,1,1,1,micrometer (1),MicroM,A0E0L1I0M0H0T0D0
+biomass,mgperha,5,1,1,Mg per ha (5),,
+biomass,g/gsoil,1,1,1,g/g soil (1),,
+biomass,listedinparametercolumn,1,1,1,listedInParameterColumn (1),,
+biomass,ug/ml,1,1,1,ug/mL (1),,
+biomass,microgram/milliliter(ug/ml),1,1,1,microgram per millilitre (ug/mL) (1),,
+biomass,microgram/individual,1,1,1,microgram per individual (1),,
+biomass,milligrampertrap/day,1,1,1,milligram per trap per day (1),,
+biomass,microliter/gram,2,1,1,microliterPerGram (2),,
+biomass,units/milliliter,2,1,1,unitsPerMilliLiter (2),,
+biomass,asindicatedin'unit'.,1,1,1,As indicated in 'unit'. (1),,
+biomass,unitgivenin'unit'column,1,1,1,Unit given in 'unit' column (1),,
+biomass,asindicatedinthefeedstockcompositioncolumn.,1,1,1,As indicated in the Feedstock_composition column. (1),,
+biomass,kilogramscarbondioxideequivalent/megajoulerng,4,1,1,kilogramsCarbonDioxideEquivalent PerMegaJouleRNG (4),,
+biomass,usdollar/kilogram,2,1,1,USDollarPerKilogram (2),,
+biomass,usdollar/gigajoulerng,2,1,1,USDollarPerGigaJouleRNG (2),,
+biomass,microgram/metersquared,1,1,1,microgramPerSquareMeter (1),,
+biomass,M2,1,1,1,meterSquared (1),M2,A0E0L2I0M0H0T0D0
+biomass,KiloGM-PER-HA-YR,1,1,1,kilogramPerHectarePerYear (1),KiloGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+biomass,sizecorrectedparasiteburden,1,1,1,Size-corrected parasite burden (1),,
+biomass,tc/ha,1,1,1,tC/ha (1),,
+biomass,LB-PER-AC,3,1,1,poundPerAcre (3),LB-PER-AC,A0E0L-2I0M1H0T0D0
+biomass,NUM-PER-GM,2,1,1,numberPerGram (2),NUM-PER-GM,A0E0L0I0M-1H0T0D0
+biomass,MilliM,2,1,1,millimeter (2),MilliM,A0E0L1I0M0H0T0D0
+biomass,relativeflourescenceunit,1,1,1,relativeFlourescenceUnit (1),,
+biomass,PH,2,1,1,pH (2),PH,A0E0L0I0M0H0T0D1
+biomass,gramdryplantbiomass/year,1,1,1,gramDryPlantBiomassPerYear (1),,
+biomass,metercubed/day.metersquared,4,1,1,CubicMeterperSquareMeterperDay (4),,
+biomass,ugc/gsoil,1,1,1,ugC/g soil (1),,
+biomass,MilliGM-PER-DAY,1,1,1,milligrams per day (1),MilliGM-PER-DAY,A0E0L0I0M1H0T-1D0
+biomass,M2-PER-KiloGM,1,1,1,meterSquaredPerKilogram (1),M2-PER-KiloGM,A0E0L2I0M-1H0T0D0
+biomass,MicroM3-PER-MilliL,1,1,1,micrometerCubedPerMilliliter (1),MicroM3-PER-MilliL,A0E0L0I0M0H0T0D1
+biomass,g/core,2,1,1,g/core (2),,
+biomass,ug/gdw,1,1,1,ug/gdw (1),,
+biomass,g/tree,2,1,1,g/tree (2),,
+biomass,maxberries(gbiomass)1m2,9,1,1,maxberries(gbiomass)-1m-2 (9),,
+biomass,mgc/m2,1,1,1,mgC/m2 (1),,
+biomass,drygpermsquared,1,1,1,drygpermsquared (1),,
+biomass,N-PER-A,1,1,1,N/A (1),N-PER-A,A0E-1L1I0M1H0T-2D0
+biomass,yyyymmdd,1,1,1,yyyy-mm-dd (1),,
+biomass,gbiomass/m^2,2,1,1,gbiomass/m^2 (2),,
+biomass,gcarbon/m^2,1,1,1,gcarbon/m^2 (1),,
+biomass,GM_Nitrogen-PER-M2-DAY,1,1,1,gnitrogen/m^2 (1),GM_Nitrogen-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+biomass,biomass/m^2,4,1,1,biomass/m^2 (4),,
+biomass,index,1,1,1,Index (1),,
+biomass,ugc/cm2,2,1,1,ugC/cm2 (2),,
+biomass,gdryweight*m2,6,1,1,gdryweight*m-2 (6),,
+biomass,cm2/m2,2,1,1,cm2/m2 (2),,
+biomass,gram/decimetersquared,2,1,1,gramPerDecimeterSquared (2),,
+biomass,gramperplant,1,1,1,gramPerPlant (1),,
+biomass,NanoMOL-PER-MicroGM-HR,7,1,1,nmolPerHourPerMicrogram (7),NanoMOL-PER-MicroGM-HR,A1E0L0I0M-1H0T-1D0
+biomass,MOL,2,1,1,mole (2),MOL,A1E0L0I0M0H0T0D0
+biomass,nmol/g,1,1,1,nmol/g (1),,
+biomass,milligram/milligram,1,1,1,milligramPerMilligram (1),,
+biomass,MilliGM-PER-HA,1,1,1,milligramsPerHectare (1),MilliGM-PER-HA,A0E0L-2I0M1H0T0D0
+biomass,gram/metersquare,1,1,1,gramPerMeterSquare (1),,
+biomass,gramper5minutetransect,19,1,1,gram per 5-minute transect (19),,
+biomass,milligramcarbonpergenecopy/hour,1,1,1,milligramCarbonPerGeneCopyPerHour (1),,
+biomass,metrictonne/hectare,1,1,1,metric tonnes per hectare (1),,
+biomass,milligram/individual,1,1,1,milligram per individual (1),,
+biomass,milligram/nestling/hour,2,1,1,milligrams/nestling/hour (2),,
+biomass,naturallogarithmofmilligram,1,1,1,natural logarithm of milligrams (1),,
+biomass,M3,1,1,1,cubicMeter (1),M3,A0E0L3I0M0H0T0D0
+biomass,squarerootkilogram/hectare,4,1,1,squarerootKilogramPerHectare (4),,
+biomass,GM-PER-HA,1,1,1,gramsPerHectare (1),GM-PER-HA,A0E0L-2I0M1H0T0D0
+biomass,doy,1,1,1,DOY (1),,
+biomass,GM-PER-HectoGM,2,1,1,gramsPerHectogram (2),GM-PER-HectoGM,A0E0L0I0M0H0T0D1
+biomass,kilogram/metersquared.year,4,1,1,kilogramsPerMeterSquaredPerYear (4),,
+biomass,YR,1,1,1,Year (YYYY) (1),YR,A0E0L0I0M0H0T1D0
+biomass,MilliMOL-PER-GM,3,1,1,millimolesPerGram (3),MilliMOL-PER-GM,A1E0L0I0M-1H0T0D0
+biomass,grampertenthmetersquared,1,1,1,gramsPerTenthSquareMeter (1),,
+biomass,milligram/metersquare,4,1,1,milligramsPerMeterSquare (4),,
+biomass,NUM-PER-KiloGM,1,1,1,numberPerKilogram (1),NUM-PER-KiloGM,A0E0L0I0M-1H0T0D0
+biomass,microgofcarbon/liter,2,1,1,microgofcarbon/liter (2),,
+biomass,gram/centimeter,1,1,1,grams per centimeter (1),,
+biomass,NanoGM-PER-L,11,1,1,nanogram per Litre (11),NanoGM-PER-L,A0E0L-3I0M1H0T0D0
+biomass,NUM-PER-L,11,1,1,"number per litre (9), number per liter (2)",NUM-PER-L,A0E0L-3I0M0H0T0D0
+biomass,gramperpt25metersquared,1,1,1,gramPer_pt25MeterSquared (1),,
+biomass,kilogramperuniteffort,1,1,1,kilogram per unit effort (1),,
+biomass,millimetercubed/liter,1,1,1,millimeterCubedPerLiter (1),,
+biomass,MilliGM-PER-M2-DAY,2,1,1,milligramPerMeterSquaredPerDay (2),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+biomass,TON_Metric,1,1,1,metricTon (1),TON_Metric,A0E0L0I0M1H0T0D0
+biomass,TON_US,1,1,1,ton (1),TON_US,A0E0L0I0M1H0T0D0
+biomass,microgram/grampermin,2,1,1,microgramsPerGramPerMin (2),,
+biomass,gramperind,1,1,1,gramsPerInd (1),,
+biomass,GM-PER-DAY,1,1,1,gramsPerDay (1),GM-PER-DAY,A0E0L0I0M1H0T-1D0
+biomass,gramsashfreedrymass,3,1,1,grams ash free dry mass (3),,
+biomass,biomass,33,1,1,biomass (33),,
+bulk_density,GM-PER-CentiM3,202,166,23,"gramsPerCubicCentimeter (110), gramPerCentimeterCubed (71), gramsPerCentimeterCubed (5)",GM-PER-CentiM3,A0E0L-3I0M1H0T0D0
+bulk_density,UNITLESS,12,10,4,dimensionless (12),UNITLESS,A0E0L0I0M0H0T0D1
+bulk_density,GM-PER-M3,7,6,5,"gramPerMeterCubed (4), gramsPerCubicMeter (2), gramsPerCubicMeter(g/m3) (1)",GM-PER-M3,A0E0L-3I0M1H0T0D0
+bulk_density,KiloGM-PER-M3,7,5,3,"kilogramsPerMeterCubed (4), kilogramPerMeterCubed (2), kilogramPerCubicMeter (1)",KiloGM-PER-M3,A0E0L-3I0M1H0T0D0
+bulk_density,GM-PER-MilliL,6,5,3,"gramPerMilliliter (4), gramsPerMilliliter (2)",GM-PER-MilliL,A0E0L-3I0M1H0T0D0
+bulk_density,GM,6,5,4,gram (6),GM,A0E0L0I0M1H0T0D0
+bulk_density,centigram/centimetercubed,3,3,2,"centigrams per cubic centimeter (2), centigramPerCubicCentimeter (1)",,
+bulk_density,gcm3,6,3,2,g cm-3 (6),,
+bulk_density,milligram/centimetercubed,6,3,3,milligramsPerCubicCentimeter (6),,
+bulk_density,GM-PER-M2,8,3,2,gramPerMeterSquared (8),GM-PER-M2,A0E0L-2I0M1H0T0D0
+bulk_density,gcm^3,3,2,1,g cm^-3 (3),,
+bulk_density,PERCENT,2,2,2,percent (2),PERCENT,A0E0L0I0M0H0T0D1
+bulk_density,TONNE-PER-HA,2,2,1,megagramsPerHectare (2),TONNE-PER-HA,A0E0L-2I0M1H0T0D0
+bulk_density,M,3,1,1,meter (3),M,A0E0L1I0M0H0T0D0
+bulk_density,gwosc/squarem,1,1,1,g WOSC / square m (1),,
+bulk_density,KiloGM-PER-HA,1,1,1,Kg/ha (1),KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+bulk_density,g/ml1,1,1,1,g/ml-1 (1),,
+bulk_density,GM-PER-GM,1,1,1,gramPerGram (1),GM-PER-GM,A0E0L0I0M0H0T0D1
+bulk_density,multipleunits,2,1,1,Multiple units (2),,
+bulk_density,goffinesoil/centimetercubedoffinesoil,1,1,1,g of fine soil per cubic centimeter of fine soil (1),,
+bulk_density,NUM-PER-GM,1,1,1,numberPerGram (1),NUM-PER-GM,A0E0L0I0M-1H0T0D0
+bulk_density,g/cm^3,1,1,1,g / cm^3 (1),,
+bulk_density,CentiM3-PER-CentiM3,1,1,1,cubic centimeters per cubic centimeter (1),CentiM3-PER-CentiM3,A0E0L0I0M0H0T0D1
+bulk_density,m/v,3,1,1,m/V (3),,
+bulk_density,gdrysoil/m3soil,1,1,1,gdrysoil/m3soil (1),,
+bulk_density,gpercubedcm,1,1,1,gpercubedcm (1),,
+bulk_density,KiloGM-PER-L,2,1,1,kilogramPerLiter (2),KiloGM-PER-L,A0E0L-3I0M1H0T0D0
+bulk_density,gmpercentim3,1,1,1,GM-PER-CentiM3 (1),,
+bulk_density,GM-PER-M2-YR,1,1,1,gramPerMeterSquaredPerYear (1),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+bulk_density,GM-PER-L,1,1,1,gramsPerLiter (1),GM-PER-L,A0E0L-3I0M1H0T0D0
+bulk_density,KiloGM-PER-M2,2,1,1,kilogramsPerSquareMeter (2),KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+bulk_density,CentiM3,1,1,1,cubicCentimeter (1),CentiM3,A0E0L3I0M0H0T0D0
+bulk_density,W-PER-M2,1,1,1,wattsPerMeterSquared (1),W-PER-M2,A0E0L0I0M1H0T-3D0
+bulk_density,centimeter/milligram,1,1,1,centimeterPerMilligram (1),,
+chlorophyll_a,MicroGM-PER-L,611,292,17,"microgramPerLiter (440), microgramsPerLiter (157), ug/L (10)",MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+chlorophyll_a,UNITLESS,80,40,12,"dimensionless (70), unitless (7), No units (1)",UNITLESS,A0E0L0I0M0H0T0D1
+chlorophyll_a,MilliGM-PER-M2,84,37,11,"milligramPerMeterSquared (44), milligramsPerSquareMeter (38), milligrams per square meter (1)",MilliGM-PER-M2,A0E0L-2I0M1H0T0D0
+chlorophyll_a,MicroGM-PER-GM,62,30,7,"microgramPerGram (40), microgramsPerGram (19), ug/g (3)",MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+chlorophyll_a,MicroGM-PER-CentiM2,37,22,8,"microgramsPerCentimeterSquared (8), microgramsPerSquareCentimeter (8), microgramPerCentimeterSquared (7)",MicroGM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+chlorophyll_a,MilliGM-PER-M3,40,22,7,"milligramPerMeterCubed (24), milligramsPerCubicMeter (15), milligramPerCubicMeter (1)",MilliGM-PER-M3,A0E0L-3I0M1H0T0D0
+chlorophyll_a,MilliGM-PER-L,16,13,4,"milligramsPerLiter (9), milligramPerLiter (7)",MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+chlorophyll_a,relativefluorescenceunits,23,9,2,"relativeFluorescenceUnits (20), relative fluorescence units (1), Relative Fluorescence Units (1)",,
+chlorophyll_a,NUM,11,8,4,number (11),NUM,A0E0L0I0M0H0T0D1
+chlorophyll_a,MilliGM-PER-GM,22,8,5,"milligramPerGram (18), milligramsPerGram (3), Mg/g (1)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+chlorophyll_a,microgram/metersquared,11,7,4,"microGramPerSquareMeter (5), microgramPerMeterSquared (3), microgramPerSquareMeter (2)",,
+chlorophyll_a,GM-PER-M2,13,6,4,"gramPerMeterSquared (7), gramsPerSquareMeter (6)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+chlorophyll_a,microgram/centimetercubed,7,6,1,microgramPerCentimeterCubed (7),,
+chlorophyll_a,PERCENT,16,5,3,percent (16),PERCENT,A0E0L0I0M0H0T0D1
+chlorophyll_a,MicroGM-PER-M2-DAY,11,5,2,"microgramPerMeterSquaredPerDay (8), microgramsPerMeterSquaredPerDay (2), microgrampermetersquaredperday (1)",MicroGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+chlorophyll_a,microg/gsoil,5,5,1,microg/gsoil (5),,
+chlorophyll_a,MicroMOL-PER-L,4,4,4,"micromolePerLiter (2), microMolePerLiter (1), microMolesPerLiter (1)",MicroMOL-PER-L,A1E0L-3I0M0H0T0D0
+chlorophyll_a,MilliL,5,4,3,milliliter (5),MilliL,A0E0L3I0M0H0T0D0
+chlorophyll_a,M,4,4,2,meter (4),M,A0E0L1I0M0H0T0D0
+chlorophyll_a,V,4,4,1,volt (4),V,A0E-1L2I0M1H0T-3D0
+chlorophyll_a,MilliGM-PER-CentiM2,5,3,3,"milligramPerCentimeterSquared (3), mg/cm2 (1), milligrampercentimetersquared (1)",MilliGM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+chlorophyll_a,MicroGM-PER-MilliGM,6,3,3,"microgramPerMilligram (4), microgramsPerMilligram (2)",MicroGM-PER-MilliGM,A0E0L0I0M0H0T0D1
+chlorophyll_a,MicroGM,4,3,2,microgram (4),MicroGM,A0E0L0I0M1H0T0D0
+chlorophyll_a,spad,4,2,1,SPAD (4),,
+chlorophyll_a,mgm2,2,2,1,mg m-2 (2),,
+chlorophyll_a,µg/l,3,2,1,µg/L (3),,
+chlorophyll_a,relativefluorescenceunit,26,2,1,"relative fluorescence unit (25), relativeFluorescenceUnit (1)",,
+chlorophyll_a,microgmperl,3,2,1,MicroGM-PER-L (3),,
+chlorophyll_a,mgc/mgchla/hr,2,2,1,mgC/mgchla/hr (2),,
+chlorophyll_a,ugchla/g,2,2,1,ug chl-a/g (2),,
+chlorophyll_a,MicroMOL-PER-M2,7,2,1,micromolePerMeterSquared (7),MicroMOL-PER-M2,A1E0L-2I0M0H0T0D0
+chlorophyll_a,µgl1,2,1,1,µg L-1 (2),,
+chlorophyll_a,rawfluorescenceunits,1,1,1,rawFluorescenceUnits (1),,
+chlorophyll_a,log10milligram/metercubed,1,1,1,log10MilligramPerMeterCubed (1),,
+chlorophyll_a,N-PER-A,1,1,1,N/A (1),N-PER-A,A0E-1L1I0M1H0T-2D0
+chlorophyll_a,milligramoxygen/hour.milligramchlorophyll,3,1,1,milligramOxygenperMilligramchlorophyllperhour (3),,
+chlorophyll_a,pmax(gc/gchla/hr);alphaandbeta([gc/gchla/hr]/[µmolquanta/m2/s]),1,1,1,Pmax (g C/g Chl a/hr); Alpha and Beta ([g C/g Chl a/hr]/[µmol quanta/m2/s]) (1),,
+chlorophyll_a,microgramofpigment/gramofdrysediment,1,1,1,MicrogramOfPigmentPerGramOfDrySediment (1),,
+chlorophyll_a,varies,2,1,1,varies (2),,
+chlorophyll_a,standarddeviation,2,1,1,standard deviation (2),,
+chlorophyll_a,KiloGM-PER-M2,1,1,1,kilogramPerMeterSquared (1),KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+chlorophyll_a,GM,1,1,1,gram (1),GM,A0E0L0I0M1H0T0D0
+chlorophyll_a,gram/kilometersquared,1,1,1,gramPerKilometerSquared (1),,
+chlorophyll_a,ug/hourperoyster.liter,1,1,1,ug per liter per hour per oyster (1),,
+chlorophyll_a,milligramscarbon/hour.milligramschlorophyll,6,1,1,milligramsCarbonPerMilligramsChlorophyllPerHour (6),,
+chlorophyll_a,mgc[mgchla]1h1[μmolquantam2s1]1,3,1,1,mg C [mg Chl a]-1 h-1 [μmol quanta m-2 s-1]-1 (3),,
+chlorophyll_a,milligrampermesocosm,2,1,1,milligramsPerMesocosm (2),,
+chlorophyll_a,chlorophyllunits.waterchemistry,1,1,1,ChlorophyllUnits.WaterChemistry (1),,
+chlorophyll_a,rawfluorescenceunit,1,1,1,rawFluorescenceUnit (1),,
+chlorophyll_a,zscore,1,1,1,Z-score (1),,
+chlorophyll_a,rfu,1,1,1,RFU (1),,
+chlorophyll_a,FT,1,1,1,foot (1),FT,A0E0L1I0M0H0T0D0
+chlorophyll_a,microgrampersquaredcentimeter,1,1,1,micrograms per squared centimeter (1),,
+chlorophyll_a,mgm2*d1,4,1,1,mgm-2*d-1 (4),,
+chlorophyll_a,number/day,2,1,1,numberPerDay (2),,
+chlorophyll_a,MicroGM-PER-M3,3,1,1,microgramsPerCubicMeter (3),MicroGM-PER-M3,A0E0L-3I0M1H0T0D0
+chlorophyll_a,MilliGM-PER-M2-DAY,3,1,1,milligramPerMeterSquaredPerDay (3),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+chlorophyll_a,nanomole/centimetersquared,1,1,1,nanomolesPerCentimeterSquared (1),,
+chlorophyll_a,micromole/centimetersquared,2,1,1,micromolePerSquareCentimeter (2),,
+chlorophyll_a,microgrampershortshoot,1,1,1,microgramsPerShortShoot (1),,
+chlorophyll_a,GM-PER-M3,3,1,1,gramPerMeterCubed (3),GM-PER-M3,A0E0L-3I0M1H0T0D0
+chlorophyll_a,CentiM2,1,1,1,centimeterSquared (1),CentiM2,A0E0L2I0M0H0T0D0
+chlorophyll_a,microgram/millimetersquared,3,1,1,microgramPerMillimeterSquared (3),,
+chlorophyll_a,microgram/centimetersquared(µg/cm2),1,1,1,microgramPerSquareCentimeter (µg/cm2) (1),,
+chlorophyll_a,M-PER-SEC,1,1,1,meterPerSecond (1),M-PER-SEC,A0E0L1I0M0H0T-1D0
+chlorophyll_a,mgram/metersquared,2,1,1,mgramPerMeterSquared (2),,
+chlorophyll_a,ugchla/kgsoil,1,1,1,ug chl-a/kg soil (1),,
+chlorophyll_a,mgchla/kgsoil,1,1,1,mg chl-a/kg soil (1),,
+chlorophyll_a,molarity,1,1,1,molarity (1),,
+chlorophyll_a,PPB,1,1,1,partsPerBillion (1),PPB,A0E0L0I0M0H0T0D1
+chlorophyll_a,mmol/m2,3,1,1,mmol/m2 (3),,
+chlorophyll_a,PPTH,1,1,1,partPerThousand (1),PPTH,A0E0L0I0M0H0T0D1
+chlorophyll_a,MicroMOL-PER-GM,1,1,1,micromolePerGram (1),MicroMOL-PER-GM,A1E0L0I0M-1H0T0D0
+chlorophyll_a,NanoMOL-PER-GM,1,1,1,nanomolesPerGram (1),NanoMOL-PER-GM,A1E0L0I0M-1H0T0D0
+chlorophyll_a,milligram/centimetercubed,2,1,1,milligramPerCentimeterCubed (2),,
+chlorophyll_a,MicroGM-PER-MilliL,1,1,1,microgramPerMilliliter (1),MicroGM-PER-MilliL,A0E0L-3I0M1H0T0D0
+chlorophyll_a,umm2,1,1,1,uM m-2 (1),,
+co2_flux,MicroMOL-PER-M2-SEC,198,99,11,"micromolePerMeterSquaredPerSecond (185), umolm-2s-1 (4), umol/m2/s (3)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+co2_flux,MilliMOL-PER-M2-SEC,32,30,2,"millimolePerMeterSquaredPerSecond (29), mmol/m^2/s (3)",MilliMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+co2_flux,UNITLESS,40,18,6,"dimensionless (39), None (1)",UNITLESS,A0E0L0I0M0H0T0D1
+co2_flux,MilliMOL-PER-M2-DAY,24,18,6,"millimolePerMeterSquaredPerDay (14), millimolesPerSquareMeterPerDay (8), millimolePerSquareMeterPerDay (2)",MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+co2_flux,MilliGM-PER-M2-HR,36,9,3,"milligramPerMeterSquaredPerHour (33), milligramsPerMeterSquaredPerHour (3)",MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+co2_flux,MilliGM-PER-M2-DAY,7,7,4,"milligramPerMeterSquaredPerDay (4), milligramsPerSquareMeterPerDay (3)",MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+co2_flux,MilliGM-PER-M2-SEC,14,6,3,"milligramsPerMeterSquaredPerSecond (10), milligramPerMeterSquaredPerSecond (3), mg/m2/sec (1)",MilliGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+co2_flux,micromol/metersquared.second,15,6,1,microMolPerSquareMeterPerSecond (15),,
+co2_flux,DEG_C,21,5,3,celsius (21),DEG_C,A0E0L0I0M0H1T0D0
+co2_flux,GM-PER-M2-HR,5,5,3,"gramPerMeterSquaredPerHour (4), gramsPerMeterSquaredPerHour (1)",GM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+co2_flux,micromole/molesquared.second,5,5,1,micromolesPerMoleSquaredPerSecond (5),,
+co2_flux,umolco2m2sec1,4,4,1,umolCO2m-2sec-1 (4),,
+co2_flux,MicroATM,4,4,1,microatmosphere (4),MicroATM,A0E0L-1I0M1H0T-2D0
+co2_flux,NUM,9,3,3,number (9),NUM,A0E0L0I0M0H0T0D1
+co2_flux,PERCENT,8,3,3,percent (8),PERCENT,A0E0L0I0M0H0T0D1
+co2_flux,GM-PER-M2-DAY,3,3,2,gramPerMeterSquaredPerDay (3),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+co2_flux,PPTH,2,2,2,permil (2),PPTH,A0E0L0I0M0H0T0D1
+co2_flux,M-PER-DAY,2,2,1,meterPerDay (2),M-PER-DAY,A0E0L1I0M0H0T-1D0
+co2_flux,micromole/metersquared.minute,2,2,1,micromolePerMeterSquaredPerMinute (2),,
+co2_flux,gc(m^2*30min^1,2,2,1,gC(m^-2*30min^-1 (2),,
+co2_flux,umolesco2/(m^2*s,8,2,1,umolesCO2/(m^2*s (8),,
+co2_flux,microgram/hour.metersquared,2,2,2,microgramPerMeterSquaredPerHour (2),,
+co2_flux,MicroMOL-PER-M2-DAY,2,2,2,micromolePerMeterSquaredPerDay (2),MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+co2_flux,MOL-PER-M2-DAY,1,1,1,molePerMeterSquaredPerDay (1),MOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+co2_flux,PERCENT-PER-DAY,4,1,1,Percent per day (4),PERCENT-PER-DAY,A0E0L0I0M0H0T-1D0
+co2_flux,MilliMOL-PER-M2,4,1,1,millimolesPerSquareMeter (4),MilliMOL-PER-M2,A1E0L-2I0M0H0T0D0
+co2_flux,MilliGM-PER-KiloGM-DAY,1,1,1,milligramPerKilogramPerDay (1),MilliGM-PER-KiloGM-DAY,A0E0L0I0M0H0T-1D0
+co2_flux,MilliGM-PER-KiloGM,2,1,1,milligramPerKilogram (2),MilliGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+co2_flux,mmolm2d1,1,1,1,mmol m-2 d-1 (1),,
+co2_flux,kgm2,3,1,1,kg m-2 (3),,
+co2_flux,log(naturallogarithm)responseratio,1,1,1,Log (natural logarithm) response ratio (1),,
+co2_flux,micromolesco2/metersquared.second,2,1,1,micromoles CO2 per square meter per second (2),,
+co2_flux,calorie,1,1,1,calorie (1),,
+co2_flux,mgco2m^2day^1,1,1,1,mg CO2 m^-2 day^-1 (1),,
+co2_flux,mgco2m2d1,17,1,1,mg CO2 m-2 d-1 (17),,
+co2_flux,SEC,1,1,1,second (1),SEC,A0E0L0I0M0H0T1D0
+co2_flux,mgco2m2d,1,1,1,mg_co2_m2_d (1),,
+co2_flux,micromolc/sq.meter/sec,1,1,1,micro mol C/sq. meter/sec (1),,
+co2_flux,kilogramscarbondioxideequivalent/megajoulerng,3,1,1,kilogramsCarbonDioxideEquivalent PerMegaJouleRNG (3),,
+co2_flux,micromole/centimetersquared.second,1,1,1,micromolePerCentimeterSquaredPerSecond (1),,
+co2_flux,umolco2pergch1,1,1,1,umol CO2 per g C h-1 (1),,
+co2_flux,mmol/m2/d,5,1,1,mmol/m2/d (5),,
+co2_flux,tckm2yr1,5,1,1,tCkm-2yr-1 (5),,
+co2_flux,umolco2/mol/sec,1,1,1,umolCO2/mol/sec (1),,
+co2_flux,gcm2d1,1,1,1,g C m-2 d-1 (1),,
+co2_flux,nanomole/day.kilogram,4,1,1,nanomolesPerKilogramPerDay (4),,
+co2_flux,mgcl1,5,1,1,mg C L-1 (5),,
+co2_flux,millimole/second,1,1,1,millimolesPerSecond (1),,
+co2_flux,PPM,1,1,1,ppm (1),PPM,A0E0L0I0M0H0T0D1
+co2_flux,MicroGM-PER-GM-DAY,1,1,1,microgramsPerGramPerDay (1),MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+co2_flux,MilliGM-PER-DAY,3,1,1,milligramsPerDay (3),MilliGM-PER-DAY,A0E0L0I0M1H0T-1D0
+co2_flux,MilliGM,3,1,1,milligram (3),MilliGM,A0E0L0I0M1H0T0D0
+co2_flux,MilliGM-PER-HR,1,1,1,milligramPerHour (1),MilliGM-PER-HR,A0E0L0I0M1H0T-1D0
+co2_flux,KiloGM-PER-HA-YR,2,1,1,kilogramsPerHectarePerYear (2),KiloGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+co2_flux,gramcarbon/day.metersquared,1,1,1,gram-carbon per square meter per day (1),,
+co2_flux,MilliGM-PER-GM-HR,1,1,1,milligramPerGramPerHour (1),MilliGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+co2_flux,MOL-PER-M2,2,1,1,molePerMeterSquared (2),MOL-PER-M2,A1E0L-2I0M0H0T0D0
+co2_flux,millimole/metersquaredpernight,2,1,1,millimolePerMeterSquaredPerNight (2),,
+co2_flux,MilliGM-PER-GM,1,1,1,milligramPerGram (1),MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+co2_flux,micromole/metersquared.mole.second,7,1,1,micromolePerMolePerMeterSquaredPerSecond (7),,
+co2_flux,KiloGM-PER-M2-SEC,7,1,1,kilogramPerMeterSquaredPerSecond (7),KiloGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+co2_flux,mmol/day.meter,1,1,1,mmolPerMeterPerDay (1),,
+co2_flux,CentiM3-PER-CentiM3,1,1,1,cm3/cm3 (1),CentiM3-PER-CentiM3,A0E0L0I0M0H0T0D1
+co2_flux,M,1,1,1,meter (1),M,A0E0L1I0M0H0T0D0
+co2_flux,mgc/gdrysoil/day,1,1,1,mgC/gdrysoil/day (1),,
+co2_flux,mgc/gsoilc/day,1,1,1,mgC/gsoilC/day (1),,
+co2_flux,umolco2,1,1,1,umolCO2 (1),,
+co2_flux,molco2,1,1,1,molCO2 (1),,
+co2_flux,gc,1,1,1,gC (1),,
+co2_flux,MicroMOL-PER-M2,1,1,1,microMoleperSquareMeter (1),MicroMOL-PER-M2,A1E0L-2I0M0H0T0D0
+co2_flux,micromole/meter.secondsquared,1,1,1,micromolePerMeterPerSecondSquared (1),,
+co2_flux,gram/metersquared.second,1,1,1,gramPerMeterSquaredPerSecond (1),,
+co2_flux,MicroMOL-PER-GM-SEC,1,1,1,micromolePerGramPerSecond (1),MicroMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+co2_flux,kilogram/day.hectare,2,1,1,kilogramsPerHectarePerDay (2),,
+co2_flux,MicroGM-PER-GM-HR,2,1,1,microgramPerGramPerHour (2),MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+co2_flux,microgramofcarbon/centimetersquared.hour,1,1,1,microgram of Carbon per squarecentimeters per hour (1),,
+co2_flux,co2cgm2day1;ch4cmgm2day1;no2ngm2day1,1,1,1,CO2 -C g m-2 day-1; CH4 -C mg m-2 day-1; NO2 -N g m-2 day-1 (1),,
+co2_flux,micromolco2/m2sec,2,1,1,micromol CO2/m2sec (2),,
+co2_flux,g/gsoil,2,1,1,g/g soil (2),,
+co2_flux,mole/day.metersquare,2,1,1,molesPerMeterSquarePerDay (2),,
+co2_flux,MicroGM-PER-M2-DAY,1,1,1,microgramsPerMeterSquaredPerDay (1),MicroGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+co2_flux,millimols/metersquared.second,3,1,1,millimolsPERsecondPERsquaremeter (3),,
+co2_flux,millimol/metersquared.second,3,1,1,millimolPERsecondPERsquaremeter (3),,
+co2_flux,milligran/metersquared.second,1,1,1,milligranPerMeterSquaredPerSecond (1),,
+decomposition,UNITLESS,74,35,11,"dimensionless (72), UNITLESS (2)",UNITLESS,A0E0L0I0M0H0T0D1
+decomposition,PERCENT,72,29,13,"percent (70), % (1), percentabbr. (1)",PERCENT,A0E0L0I0M0H0T0D1
+decomposition,GM,34,12,7,gram (34),GM,A0E0L0I0M1H0T0D0
+decomposition,NUM,18,8,6,number (18),NUM,A0E0L0I0M0H0T0D1
+decomposition,MilliGM-PER-GM,2,2,1,milligramPerGram (2),MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+decomposition,DAY,2,2,2,nominalDay (2),DAY,A0E0L0I0M0H0T1D0
+decomposition,PER-DAY,3,2,2,perDay (3),PER-DAY,A0E0L0I0M0H0T-1D0
+decomposition,FRACTION,2,2,2,"proportion (1), Proportion (1)",FRACTION,A0E0L0I0M0H0T0D1
+decomposition,GM-PER-M2,2,2,2,gramsPerSquareMeter (2),GM-PER-M2,A0E0L-2I0M1H0T0D0
+decomposition,milligram/milligram,6,2,1,milligramPerMilligram (6),,
+decomposition,MicroGM-PER-GM,6,1,1,microgramPerGram (6),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+decomposition,microgramc/day.gramsoil,4,1,1,Microgram C per gram soil per day (4),,
+decomposition,microgramc/gramsoil,3,1,1,Microgram C per gram soil (3),,
+decomposition,milligramc/day.gramsoil,2,1,1,Milligram C per gram soil per day (2),,
+decomposition,milligramc/gramsoil,2,1,1,Milligram C per gram soil (2),,
+decomposition,standardizedparameterestimate,27,1,1,Standardized parameter estimate (27),,
+decomposition,percentofmeansquarederror,1,1,1,percent of mean squared error (1),,
+decomposition,PERCENT-PER-DAY,3,1,1,Percent per day (3),PERCENT-PER-DAY,A0E0L0I0M0H0T-1D0
+decomposition,stand,1,1,1,Stand (1),,
+decomposition,1/year,1,1,1,1/year (1),,
+decomposition,CentiM,1,1,1,centimeter (1),CentiM,A0E0L1I0M0H0T0D0
+decomposition,kgm2,6,1,1,kg m-2 (6),,
+decomposition,PPTH,2,1,1,per mil (2),PPTH,A0E0L0I0M0H0T0D1
+decomposition,log(naturallogarithm)responseratio,1,1,1,Log (natural logarithm) response ratio (1),,
+decomposition,rateconstant,1,1,1,rate constant (1),,
+decomposition,amountofslowlydecayingmaterialremaining,1,1,1,amount of slowly decaying material remaining (1),,
+decomposition,decayparameter,6,1,1,decay parameter (6),,
+decomposition,DEG_C,1,1,1,celsius (1),DEG_C,A0E0L0I0M0H1T0D0
+decomposition,gramslignin/gramslitter,1,1,1,GramsLigninPerGramsLitter (1),,
+decomposition,GM-PER-GM,1,1,1,gramPerGram (1),GM-PER-GM,A0E0L0I0M0H0T0D1
+decomposition,HA,6,1,1,hectare (6),HA,A0E0L2I0M0H0T0D0
+decomposition,numberofyear,1,1,1,number of years (1),,
+decomposition,gram/day.gram,3,1,1,gramPerGramPerDay (3),,
+decomposition,PER-YR,1,1,1,perYear (1),PER-YR,A0E0L0I0M0H0T-1D0
+decomposition,GM-PER-M2-YR,2,1,1,gramPerMeterSquaredPerYear (2),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+decomposition,gram/month,1,1,1,gramsPerMonth (1),,
+decomposition,1/d,1,1,1,1/d (1),,
+decomposition,GM-PER-YR,6,1,1,gramPerYear (6),GM-PER-YR,A0E0L0I0M1H0T-1D0
+decomposition,1/day,1,1,1,1/day (1),,
+decomposition,%ofinit.,1,1,1,% of init. (1),,
+decomposition,%afdw,2,1,1,% AFDW (2),,
+denitrification,GM-PER-M2,33,30,2,gramPerMeterSquared (33),GM-PER-M2,A0E0L-2I0M1H0T0D0
+denitrification,GM-PER-M2-DAY,28,28,1,gramPerMeterSquaredPerDay (28),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+denitrification,microgram/hour.kilogram,11,6,3,"microgramPerKilogramPerHour (8), microgramsPerKilogramPerHour (3)",,
+denitrification,MicroGM-PER-GM-HR,14,5,3,"microgramsPerGramPerHour (6), microgramPerGramPerHour (5), micrograms per gram per hour (3)",MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+denitrification,UNITLESS,5,4,3,"dimensionless (3), unitless (2)",UNITLESS,A0E0L0I0M0H0T0D1
+denitrification,nanogram/gram.hour,7,4,2,"nanogramPerGramPerHour (5), nanograms per gram per hour (2)",,
+denitrification,MicroGM-PER-GM-DAY,3,3,2,microgramPerGramPerDay (3),MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+denitrification,microgram/hour.metersquared,6,3,1,"microgramPerMeterSquaredPerHour (4), microgrampermetersquaredperhour (2)",,
+denitrification,MicroMOL-PER-M2-HR,3,3,1,micromolePerMeterSquaredPerHour (3),MicroMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+denitrification,millimolepersquaredmeter/hour,1,1,1,millimolePerSquaredMeterPerHour (1),,
+denitrification,MilliGM,3,1,1,milligram (3),MilliGM,A0E0L0I0M1H0T0D0
+denitrification,ugofnitrate/hourperkgofdrysoil,1,1,1,ug of nitrate per hour per kg of dry soil (1),,
+denitrification,microgramnitrogenpersquaredmeter/hour,1,1,1,microgramnitrogenpersquaredmeterperhour (1),,
+denitrification,microgramn/day,1,1,1,MicrogramNperDay (1),,
+denitrification,microgramn/day.gramsed,1,1,1,MicrogramNperGramSedperDay (1),,
+denitrification,microgramn/day.liter,1,1,1,MicrogramNperLiterperDay (1),,
+denitrification,micromole/day.gram,3,1,1,micromolePerGramPerDay (3),,
+denitrification,g/kilogram,1,1,1,g per kilogram (1),,
+denitrification,gkg1,1,1,1,g kg-1 (1),,
+denitrification,umolnkg1hr1,2,1,1,umol N kg-1 hr-1 (2),,
+denitrification,PERCENT,1,1,1,percent (1),PERCENT,A0E0L0I0M0H0T0D1
+denitrification,micromolar/gramdriedsediment.hour,2,1,1,micromolar per hour per gram dried sediment (2),,
+denitrification,MicroGM-PER-GM,1,1,1,microgramsPerGram (1),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+denitrification,NUM-PER-GM,1,1,1,numberPerGram (1),NUM-PER-GM,A0E0L0I0M-1H0T0D0
+denitrification,ugn/gdrysoil/hour,1,1,1,ug-N/g dry soil/hour (1),,
+denitrification,GM-PER-M2-YR,1,1,1,gramPerMeterSquaredPerYear (1),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+denitrification,ugn2on/kgdrysoil*h,1,1,1,ugN2O-N/kgdrysoil*h (1),,
+denitrification,mgn/m2/h,1,1,1,mgN/m2/h (1),,
+denitrification,MilliGM-PER-M2-HR,1,1,1,milligramPerMeterSquaredPerHour (1),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+denitrification,microgram/day.kilogram,2,1,1,microgramPerKilogramPerDay (2),,
+denitrification,PPTH,3,1,1,permil (3),PPTH,A0E0L0I0M0H0T0D1
+denitrification,milligram/hour.kilogram,1,1,1,milliGramPerKilogramPerHour (1),,
+denitrification,PER-M,1,1,1,perMeter (1),PER-M,A0E0L-1I0M0H0T0D0
+denitrification,M,1,1,1,meters (1),M,A0E0L1I0M0H0T0D0
+denitrification,CentiM-PER-SEC,1,1,1,centimeterPerSecond (1),CentiM-PER-SEC,A0E0L1I0M0H0T-1D0
+denitrification,microgramnitrogen/metersquared.second,1,1,1,microgramNitrogenPerMeterSquaredPerSecond (1),,
+denitrification,mgn/m2/hr,2,1,1,mg N/m2/hr (2),,
+denitrification,mgn/m^2/hr,1,1,1,mg N/m^2/hr (1),,
+dissolved_oxygen,MilliGM-PER-L,923,464,23,"milligramPerLiter (694), milligramsPerLiter (209), mg/L (9)",MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+dissolved_oxygen,PERCENT,577,277,16,"percent (569), % (5), percentabbr. (2)",PERCENT,A0E0L0I0M0H0T0D1
+dissolved_oxygen,UNITLESS,101,53,7,"dimensionless (97), unitless (2), Unitless (2)",UNITLESS,A0E0L0I0M0H0T0D1
+dissolved_oxygen,MilliL-PER-L,83,19,3,milliliterPerLiter (83),MilliL-PER-L,A0E0L0I0M0H0T0D1
+dissolved_oxygen,MicroMOL-PER-L,24,17,5,"micromolePerLiter (20), micromolesPerLiter (2), microMolar (1)",MicroMOL-PER-L,A1E0L-3I0M0H0T0D0
+dissolved_oxygen,MicroMOL-PER-KiloGM,81,17,2,micromolePerKilogram (81),MicroMOL-PER-KiloGM,A1E0L0I0M-1H0T0D0
+dissolved_oxygen,DEG_C,41,14,5,"celsius (39), deg-C (1), degreesC (1)",DEG_C,A0E0L0I0M0H1T0D0
+dissolved_oxygen,percentsaturation,77,12,2,"percentSaturation (74), percent saturation (2), PercentSaturation (1)",,
+dissolved_oxygen,MicroGM-PER-L,12,9,2,"microgramPerLiter (10), microgramsPerLiter (2)",MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+dissolved_oxygen,M,28,8,3,"meter (27), meters (1)",M,A0E0L1I0M0H0T0D0
+dissolved_oxygen,MilliGM-PER-MilliL,6,5,1,milligramPerMilliliter (6),MilliGM-PER-MilliL,A0E0L-3I0M1H0T0D0
+dissolved_oxygen,PPM,65,4,2,"partsPerMillion (60), PartsPerMillion (3), parts per million (1)",PPM,A0E0L0I0M0H0T0D1
+dissolved_oxygen,NUM,6,3,3,number (6),NUM,A0E0L0I0M0H0T0D1
+dissolved_oxygen,MicroMOL-PER-M2-HR,3,3,1,micromolePerMeterSquaredPerHour (3),MicroMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+dissolved_oxygen,PER-DAY,6,2,1,perday (6),PER-DAY,A0E0L0I0M0H0T-1D0
+dissolved_oxygen,milligmperl,2,2,1,MilliGM-PER-L (2),,
+dissolved_oxygen,MilliMOL-PER-M3,3,1,1,millimolePerMeterCubed (3),MilliMOL-PER-M3,A1E0L-3I0M0H0T0D0
+dissolved_oxygen,proportion(unitless),1,1,1,proportion (unitless) (1),,
+dissolved_oxygen,varies,1,1,1,varies (1),,
+dissolved_oxygen,milligramso2/day.liter,1,1,1,milligramsO2PerLiterPerDay (1),,
+dissolved_oxygen,dounits.waterchemistry,1,1,1,DOUnits.WaterChemistry (1),,
+dissolved_oxygen,fractionofsaturation,1,1,1,fractionOfSaturation (1),,
+dissolved_oxygen,zscore,1,1,1,Z-score (1),,
+dissolved_oxygen,percentdissolvedoxygen,1,1,1,Percent dissolved oxygen (1),,
+dissolved_oxygen,mgl1,6,1,1,mg L-1 (6),,
+dissolved_oxygen,DAY,1,1,1,nominalDay (1),DAY,A0E0L0I0M0H0T1D0
+dissolved_oxygen,MIN,1,1,1,nominalMinute (1),MIN,A0E0L0I0M0H0T1D0
+dissolved_oxygen,MilliGM-PER-HR,1,1,1,milligramsPerHour (1),MilliGM-PER-HR,A0E0L0I0M1H0T-1D0
+dissolved_oxygen,milligram/day.gram,4,1,1,milligramPerDayPerGram (4),,
+dissolved_oxygen,MilliGM,1,1,1,milligram (1),MilliGM,A0E0L0I0M1H0T0D0
+dissolved_oxygen,milliliter/literkeep,1,1,1,milliliterPerLiter_keep (1),,
+dissolved_oxygen,milligram/hour.liter,2,1,1,milligramPerLiterPerHour (2),,
+dissolved_oxygen,MilliGM-PER-M2-HR,1,1,1,milligramPerMeterSquaredPerHour (1),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+dissolved_oxygen,MicroMOL,1,1,1,micromole (1),MicroMOL,A1E0L0I0M0H0T0D0
+dissolved_oxygen,MilliMOL-PER-L,1,1,1,millimolePerLiter (1),MilliMOL-PER-L,A1E0L-3I0M0H0T0D0
+dissolved_oxygen,molarity,3,1,1,molarity (3),,
+dissolved_oxygen,GM-PER-M2-HR,8,1,1,gramsPerSquareMeterPerHour (8),GM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+dissolved_oxygen,gram/gram.hour,4,1,1,gramsPerGramPerHour (4),,
+dissolved_oxygen,permeg,1,1,1,perMeg (1),,
+dissolved_oxygen,PPTH,2,1,1,perMil (2),PPTH,A0E0L0I0M0H0T0D1
+dissolved_oxygen,millimols/day.metercubed,3,1,1,millimolsPerMeterCubedPerDay (3),,
+dissolved_oxygen,GM-PER-DAY,6,1,1,gramPerDay (6),GM-PER-DAY,A0E0L0I0M1H0T-1D0
+dissolved_oxygen,GM,18,1,1,gram (18),GM,A0E0L0I0M1H0T0D0
+dissolved_oxygen,GM-PER-M3,6,1,1,gramPerMeterCubed (6),GM-PER-M3,A0E0L-3I0M1H0T0D0
+dissolved_oxygen,MilliL,22,1,1,milliliter (22),MilliL,A0E0L3I0M0H0T0D0
+dissolved_oxygen,MicroMOL-PER-L-HR,1,1,1,micromolePerLiterPerHour (1),MicroMOL-PER-L-HR,A1E0L-3I0M0H0T-1D0
+dissolved_oxygen,GM-PER-L,3,1,1,gramPerLiter (3),GM-PER-L,A0E0L-3I0M1H0T0D0
+dissolved_oxygen,MilliMOL-PER-M2-DAY,1,1,1,millimolePerMeterSquaredPerDay (1),MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+ecosystem_respiration,MicroMOL-PER-M2-SEC,73,49,7,"micromolePerMeterSquaredPerSecond (71), microMolePerMeterSquaredPerSecond (1), umolm-2s-1 (1)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+ecosystem_respiration,UNITLESS,13,8,2,"dimensionless (8), unitless (5)",UNITLESS,A0E0L0I0M0H0T0D1
+ecosystem_respiration,GM-PER-M2-DAY,24,5,1,"gramPerMeterSquaredPerDay (21), g-O2 per m2 per day (3)",GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+ecosystem_respiration,gco2cm2halfhour2,8,4,1,gCO2-Cm-2half-hour-2 (8),,
+ecosystem_respiration,NUM,6,3,1,number (6),NUM,A0E0L0I0M0H0T0D1
+ecosystem_respiration,�,8,3,1,� (8),,
+ecosystem_respiration,milligramso2/day.liter,2,2,1,milligramsO2PerLiterPerDay (2),,
+ecosystem_respiration,gramoxygen/day.metersquared,2,2,1,gramOxygenPerMeterSquaredPerDay (2),,
+ecosystem_respiration,mmol/m2/d,5,2,1,mmol/m2/d (5),,
+ecosystem_respiration,go2m2d1,4,2,1,g O2 m-2 d-1 (4),,
+ecosystem_respiration,MilliGM-PER-M2-DAY,3,2,2,"milligramPerMeterSquaredPerDay (2), milligramsPerMeterSquaredPerDay (1)",MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+ecosystem_respiration,MOL-PER-M2-DAY,2,2,1,molePerMeterSquaredPerDay (2),MOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+ecosystem_respiration,umolco2m2s1,2,2,1,umolCO2m-2s-1 (2),,
+ecosystem_respiration,gram/metersquared.month,2,2,1,"gramsPerMeterSquaredPerMonth (1), gramsPerSquareMeterPerMonth (1)",,
+ecosystem_respiration,GM-PER-M2-HR,1,1,1,gramPerMeterSquaredPerHour (1),GM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+ecosystem_respiration,gramsoxygen/day.metersquare,5,1,1,gramsOxygenPerMeterSquarePerDay (5),,
+ecosystem_respiration,micromolarity/day,3,1,1,micromolarity per day (3),,
+ecosystem_respiration,milligramdo/liter,1,1,1,milligramDOPerLiter (1),,
+ecosystem_respiration,mgo2l1day1,3,1,1,mg O2 L-1 day-1 (3),,
+ecosystem_respiration,milligram/day.liter,1,1,1,milligramsPerLiterPerDay (1),,
+ecosystem_respiration,rhat,1,1,1,r-hat (1),,
+ecosystem_respiration,mmolo^2m^3d^1,3,1,1,mmol O^2 m^-3 d^-1 (3),,
+ecosystem_respiration,nmolco2/metersquared.second,1,1,1,nmol CO2 per meter squared per second (1),,
+ecosystem_respiration,micromolsco2/metersquared.second,2,1,1,micromols CO2 per meter squared per second (2),,
+ecosystem_respiration,micromolco2/m2/s,1,1,1,micro mol CO2/ m2 / s (1),,
+ecosystem_respiration,milligramoxygen/day.liter,1,1,1,milligramOxygenPerLiterPerDay (1),,
+ecosystem_respiration,mgcha1yr1,1,1,1,Mg C ha-1 yr-1 (1),,
+ecosystem_respiration,gramso2m^2d^1,3,1,1,grams O2 m^-2 d^-1 (3),,
+ecosystem_respiration,millimolescarbon/day.metersquared,1,1,1,millimolesCarbonPerSquareMeterPerDay (1),,
+ecosystem_respiration,gramo2/day.metersquared,1,1,1,gramO2PerMeterSquaredPerDay (1),,
+ecosystem_respiration,gcm230mins,1,1,1,gCm-230mins (1),,
+ecosystem_respiration,micromolsco2m2s1,2,1,1,micromolsCO2m-2s-1 (2),,
+ecosystem_respiration,gcm2yr1,13,1,1,gCm-2yr-1 (13),,
+ecosystem_respiration,umolco2perm^2/second,2,1,1,umolCO2perm^2persecond (2),,
+ecosystem_respiration,umolco2/day,1,1,1,umolCO2perday (1),,
+ecosystem_respiration,umolco2,1,1,1,umolCO2 (1),,
+ecosystem_respiration,MicroMOL-PER-M2,1,1,1,microMolesPerSquareMeter (1),MicroMOL-PER-M2,A1E0L-2I0M0H0T0D0
+ecosystem_respiration,milligram/metersquared.minute,1,1,1,milligramPerMeterSquaredPerMinute (1),,
+ecosystem_respiration,gramscarbon/dayorgramscarbon.metersquared.metersquared.month,3,1,1,grams carbon per square meter per day OR grams carbon per square meter per month (3),,
+ecosystem_respiration,PERCENT,1,1,1,percent (1),PERCENT,A0E0L0I0M0H0T0D1
+ecosystem_respiration,gramsoxygen/day.metersquared,1,1,1,grams oxygen per square meter per day (1),,
+ecosystem_respiration,micromol/metersquared.second,4,1,1,microMolPerSquareMeterPerSecond (4),,
+ecosystem_respiration,g/m^2/day,2,1,1,g/m^2/day (2),,
+ecosystem_respiration,g/m^2/year,2,1,1,g/m^2/year (2),,
+ecosystem_respiration,MilliGM-PER-M2-SEC,2,1,1,milligramPerMeterSquaredPerSecond (2),MilliGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+enzyme_activity,MicroMOL-PER-GM-HR,99,24,9,"micromolePerGramPerHour (74), micromolePerHourPerGram (14), micromolesPerGramPerHour (7)",MicroMOL-PER-GM-HR,A1E0L0I0M-1H0T-1D0
+enzyme_activity,NanoMOL-PER-GM-HR,70,17,7,"nanomolePerGramPerHour (43), nanomolesPerGramPerHour (10), nanomolePerHourPerGram (7)",NanoMOL-PER-GM-HR,A1E0L0I0M-1H0T-1D0
+enzyme_activity,UNITLESS,55,13,7,"dimensionless (53), Ratio (2)",UNITLESS,A0E0L0I0M0H0T0D1
+enzyme_activity,MicroGM-PER-GM-HR,48,7,4,microgramPerGramPerHour (48),MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+enzyme_activity,microgram/hour.kilogram,9,6,3,"microgramPerKilogramPerHour (8), microgramsPerKilogramPerHour (1)",,
+enzyme_activity,nanogram/gram.hour,16,5,4,nanogramPerGramPerHour (16),,
+enzyme_activity,GM,7,4,4,gram (7),GM,A0E0L0I0M1H0T0D0
+enzyme_activity,NUM,13,4,3,number (13),NUM,A0E0L0I0M0H0T0D1
+enzyme_activity,MicroGM-PER-GM,4,3,2,microgramPerGram (4),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+enzyme_activity,nanomole/hour.milligram,10,2,2,nanomolePerMilligramPerHour (10),,
+enzyme_activity,NanoMOL-PER-MicroGM-HR,15,2,1,"nanomolePerMicrogramPerHour (8), nmolPerHourPerMicrogram (7)",NanoMOL-PER-MicroGM-HR,A1E0L0I0M-1H0T-1D0
+enzyme_activity,nanomole/minute,2,2,1,"nanomolePerMinute (1), nanomolesPerMinute (1)",,
+enzyme_activity,MicroGM-PER-L,1,1,1,microgramPerLiter (1),MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+enzyme_activity,integer,4,1,1,integer (4),,
+enzyme_activity,nmolh1g1,5,1,1,nmolh-1g-1 (5),,
+enzyme_activity,ugofnitrate/hourperkgofdrysoil,1,1,1,ug of nitrate per hour per kg of dry soil (1),,
+enzyme_activity,nmolsubstraterelased/gramdrysoil.hour,5,1,1,nmol substrate relased per gram dry soil per hour (5),,
+enzyme_activity,lnratio,1,1,1,ln ratio (1),,
+enzyme_activity,micromolessubstrate/hour/gramdrysoil,7,1,1,micromoles substrate/hour/gram dry soil (7),,
+enzyme_activity,micromolessubstrateh1g1drysoil,5,1,1,micromoles substrate h-1 g-1 dry soil (5),,
+enzyme_activity,micromole/hour.milligram,2,1,1,micromolePerMilligramPerHour (2),,
+enzyme_activity,mu/mgprotein,1,1,1,mU/mg protein (1),,
+enzyme_activity,NanoMOL-PER-L-HR,1,1,1,nanomolesPerLiterPerHour (1),NanoMOL-PER-L-HR,A1E0L-3I0M0H0T-1D0
+enzyme_activity,micromole/gramofdrysoil.minute,6,1,1,micromoles per minute per gram of dry soil (6),,
+enzyme_activity,nmoll1h1,4,1,1,nmol L-1 h-1 (4),,
+enzyme_activity,micromole/gramdrysoil.hour,6,1,1,micromolePerHourPerGramDrySoil (6),,
+enzyme_activity,ugn/gdrysoil/hour,1,1,1,ug-N/g dry soil/hour (1),,
+enzyme_activity,MicroMOL-PER-M2-SEC,2,1,1,micromolePerMeterSquaredPerSecond (2),MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+enzyme_activity,MilliMOL-PER-M2-HR,3,1,1,millimolePerMeterSquaredPerHour (3),MilliMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+enzyme_activity,MilliGM-PER-M2,1,1,1,milligramPerMeterSquared (1),MilliGM-PER-M2,A0E0L-2I0M1H0T0D0
+enzyme_activity,MilliGM-PER-M2-HR,7,1,1,milligramPerMeterSquarePerHour (7),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+enzyme_activity,umolsubstrate/gsoil/hr,3,1,1,umolsubstrate/gsoil/hr (3),,
+enzyme_activity,umolsubstrate/gc/hr,3,1,1,umolsubstrate/gC/hr (3),,
+enzyme_activity,"b1,4glucosidaseactivityinnmolesofsubstrateconverted/gramsampledryweight.hour",1,1,1,"B-1,4-glucosidase activity in nmoles of substrate converted per hour per gram sample dry weight (1)",,
+enzyme_activity,peroxidaseactivityinumolesofsubstrateconverted/gramsampledryweight.hour,1,1,1,peroxidase activity in umoles of substrate converted per hour per gram sample dry weight (1),,
+enzyme_activity,nanogram/nanogram,1,1,1,nanogramPerNanogram (1),,
+enzyme_activity,MicroMOL-PER-L,1,1,1,micromolePerLiter (1),MicroMOL-PER-L,A1E0L-3I0M0H0T0D0
+enzyme_activity,MicroMOL-PER-L-HR,1,1,1,micromolePerLiterPerHour (1),MicroMOL-PER-L-HR,A1E0L-3I0M0H0T-1D0
+enzyme_activity,MicroM,3,1,1,micrometer (3),MicroM,A0E0L1I0M0H0T0D0
+enzyme_activity,milligram/hour.kilogram,1,1,1,milliGramPerKilogramPerHour (1),,
+enzyme_activity,micromole/hour.kilogram,4,1,1,micromolePerKilogramPerHour (4),,
+enzyme_activity,MicroGM-PER-GM-DAY,1,1,1,microgramPerGramPerDay (1),MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+enzyme_activity,MicroMOL,2,1,1,micromole (2),MicroMOL,A1E0L0I0M0H0T0D0
+enzyme_activity,MicroMOL-PER-GM,1,1,1,micromolePerGram (1),MicroMOL-PER-GM,A1E0L0I0M-1H0T0D0
+enzyme_activity,HR,1,1,1,hour (1),HR,A0E0L0I0M0H0T1D0
+enzyme_activity,MilliGM-PER-GM,1,1,1,milligrampergram (1),MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+enzyme_activity,NanoMOL,2,1,1,nanomole (2),NanoMOL,A1E0L0I0M0H0T0D0
+enzyme_activity,nanomole/hour,3,1,1,nanomolePerHour (3),,
+enzyme_activity,NanoMOL-PER-GM-SEC,3,1,1,nanomolesPerGramPerSecond (3),NanoMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+enzyme_activity,NanoGM,1,1,1,nanogram (1),NanoGM,A0E0L0I0M1H0T0D0
+enzyme_activity,enzymeactivity/gram,2,1,1,enzymeActivityPerGram (2),,
+grazing_ingestion,metercubed/day.metersquared,4,2,1,"CubicMeterperSquareMeterperDay (3), meterCubedPerMeterSquaredPerDay (1)",,
+grazing_ingestion,NUM,2,1,1,number (2),NUM,A0E0L0I0M0H0T0D1
+grazing_ingestion,UNITLESS,1,1,1,dimensionless (1),UNITLESS,A0E0L0I0M0H0T0D1
+grazing_ingestion,number/day,1,1,1,numberPerDay (1),,
+grazing_ingestion,NUM-PER-HR,1,1,1,numberPerHour (1),NUM-PER-HR,A0E0L0I0M0H0T-1D0
+grazing_ingestion,MicroGM-PER-M2-DAY,3,1,1,microgramPerMeterSquaredPerDay (3),MicroGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+grazing_ingestion,MilliGM-PER-M2-DAY,3,1,1,milligramPerMeterSquaredPerDay (3),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+grazing_ingestion,picomoleso2/second,1,1,1,picoMolesO2perSecond (1),,
+grazing_ingestion,#ofbacteria/hour/individual,1,1,1,#ofbacteria/hour/individual (1),,
+grazing_ingestion,#ofcryptophytes/ciliate/hour,2,1,1,#ofcryptophytes/ciliate/hour (2),,
+grazing_ingestion,PER-MIN,1,1,1,perMinute (1),PER-MIN,A0E0L0I0M0H0T-1D0
+grazing_ingestion,PERCENT,2,1,1,percent (2),PERCENT,A0E0L0I0M0H0T0D1
+grazing_ingestion,PER-DAY,1,1,1,perDay (1),PER-DAY,A0E0L0I0M0H0T-1D0
+gross_primary_production,MicroMOL-PER-M2-SEC,74,43,5,"micromolePerMeterSquaredPerSecond (73), microMolePerMeterSquaredPerSecond (1)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+gross_primary_production,UNITLESS,56,30,4,"dimensionless (48), unitless (5), Unitless (3)",UNITLESS,A0E0L0I0M0H0T0D1
+gross_primary_production,GM-PER-M2,30,28,1,gramPerMeterSquared (30),GM-PER-M2,A0E0L-2I0M1H0T0D0
+gross_primary_production,GM-PER-M2-DAY,45,6,1,"gramPerMeterSquaredPerDay (39), g-O2 per m2 per day (6)",GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+gross_primary_production,NUM,6,5,1,number (6),NUM,A0E0L0I0M0H0T0D1
+gross_primary_production,MilliGM-PER-M2-HR,7,4,1,milligramPerMeterSquarePerHour (7),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+gross_primary_production,gco2cm2halfhour3,8,4,1,gCO2-Cm-2half-hour-3 (8),,
+gross_primary_production,milligramso2/day.liter,5,3,1,milligramsO2PerLiterPerDay (5),,
+gross_primary_production,gramsoxygen/day.metersquared,4,3,3,"GramsOxygenPerMeterSquaredPerDay (3), grams oxygen per square meter per day (1)",,
+gross_primary_production,PERCENT,3,3,2,percent (3),PERCENT,A0E0L0I0M0H0T0D1
+gross_primary_production,milligram/day.liter,4,3,1,milligramsPerLiterPerDay (4),,
+gross_primary_production,MilliMOL-PER-M2-DAY,8,3,2,millimolePerMeterSquaredPerDay (8),MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+gross_primary_production,GM-PER-M2-HR,5,2,2,"gramsPerSquareMeterPerHour (4), gramPerMeterSquaredPerHour (1)",GM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+gross_primary_production,gramoxygen/day.metersquared,4,2,1,gramOxygenPerMeterSquaredPerDay (4),,
+gross_primary_production,mmol/m2/d,5,2,1,mmol/m2/d (5),,
+gross_primary_production,go2m2d1,4,2,1,g O2 m-2 d-1 (4),,
+gross_primary_production,gramo2/day.metersquared,5,2,2,"gram O2 per meter squared per day (4), gramO2PerMeterSquaredPerDay (1)",,
+gross_primary_production,MicroMOL-PER-M2-DAY,2,2,2,"micromolePerMeterSquaredPerDay (1), micromolesPerSquareMeterPerDay (1)",MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+gross_primary_production,MilliGM-PER-M2-DAY,4,2,2,milligramPerMeterSquaredPerDay (4),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+gross_primary_production,MOL-PER-M2-DAY,2,2,1,molePerMeterSquaredPerDay (2),MOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+gross_primary_production,gram/metersquared.month,2,2,1,"gramsPerMeterSquaredPerMonth (1), gramsPerSquareMeterPerMonth (1)",,
+gross_primary_production,milligramsofoxygen/day.liter,1,1,1,milligrams of oxygen per liter per day (1),,
+gross_primary_production,milimoleo2/day.metersquared,1,1,1,milimoleO2PerMeterSquaredPerDay (1),,
+gross_primary_production,gramsoxygen/day.metersquare,9,1,1,gramsOxygenPerMeterSquarePerDay (9),,
+gross_primary_production,mgcm2h1,1,1,1,mg C m-2 h-1 (1),,
+gross_primary_production,milligramoxygen/liter.metersquared,1,1,1,milligramOxygenperLiterpermetersquared (1),,
+gross_primary_production,milligramoxygen/hour.milligramchlorophyll,1,1,1,milligramOxygenperMilligramchlorophyllperhour (1),,
+gross_primary_production,milligramoxygen/gramashfreedrymass.hour,1,1,1,milligramOxygenpergramashfreedrymassperhour (1),,
+gross_primary_production,MilliGM-PER-M3-DAY,1,1,1,milligramPerMeterCubedPerDay (1),MilliGM-PER-M3-DAY,A0E0L-3I0M1H0T-1D0
+gross_primary_production,milligramscarbon/day.metersquared,1,1,1,milligramsCarbonPerMeterSquaredPerDay (1),,
+gross_primary_production,micromolarity/day,3,1,1,micromolarity per day (3),,
+gross_primary_production,milligramdo/liter,3,1,1,milligramDOPerLiter (3),,
+gross_primary_production,micromole/centimetersquared.day,1,1,1,microMolesPerSquareCentimeterPerDay (1),,
+gross_primary_production,mgo2l1day1,5,1,1,mg O2 L-1 day-1 (5),,
+gross_primary_production,kgcm2yr1,1,1,1,kg C m-2 yr-1 (1),,
+gross_primary_production,rhat,1,1,1,r-hat (1),,
+gross_primary_production,mmolo^2m^3d^1,3,1,1,mmol O^2 m^-3 d^-1 (3),,
+gross_primary_production,gramsofoxygen/day.metersquared,1,1,1,Grams of oxygen per meter squared per day (1),,
+gross_primary_production,micromolco2/m2/s,2,1,1,micro mol CO2/ m2 / s (2),,
+gross_primary_production,milligramoxygen/day.liter,1,1,1,milligramOxygenPerLiterPerDay (1),,
+gross_primary_production,mgcha1yr1,1,1,1,Mg C ha-1 yr-1 (1),,
+gross_primary_production,gramso2m^2d^1,3,1,1,grams O2 m^-2 d^-1 (3),,
+gross_primary_production,milligramcarbon/hour.liter,4,1,1,milligramCarbonPerLiterPerHour (4),,
+gross_primary_production,milligramsoxygen/day.liter,2,1,1,MilligramsOxygenPer LiterPerDay (2),,
+gross_primary_production,millimolescarbon/day.metersquared,1,1,1,millimolesCarbonPerSquareMeterPerDay (1),,
+gross_primary_production,gramsofoyxgen/day.metersquared,1,1,1,gramsOfOyxgenPerSquareMeterPerDay (1),,
+gross_primary_production,MilliMOL-PER-M3-DAY,1,1,1,millimolesPerCubicMeterPerDay (1),MilliMOL-PER-M3-DAY,A1E0L-3I0M0H0T-1D0
+gross_primary_production,A,1,1,1,ampere (1),A,A0E1L0I0M0H0T0D0
+gross_primary_production,gcm230mins,1,1,1,gCm-230mins (1),,
+gross_primary_production,micromolsco2m2s1,2,1,1,micromolsCO2m-2s-1 (2),,
+gross_primary_production,umolco2perm^2/second,1,1,1,umolCO2perm^2persecond (1),,
+gross_primary_production,MicroMOL-PER-M2,1,1,1,microMolesPerSquareMeter (1),MicroMOL-PER-M2,A1E0L-2I0M0H0T0D0
+gross_primary_production,milligram/metersquared.minute,2,1,1,milligramPerMeterSquaredPerMinute (2),,
+gross_primary_production,partpermillion/minute,1,1,1,partsPerMillionPerMinute (1),,
+gross_primary_production,gramscarbon/dayorgramscarbon.metersquared.metersquared.month,3,1,1,grams carbon per square meter per day OR grams carbon per square meter per month (3),,
+gross_primary_production,micromol/metersquared.second,4,1,1,microMolPerSquareMeterPerSecond (4),,
+gross_primary_production,g/m^2/day,2,1,1,g/m^2/day (2),,
+gross_primary_production,g/m^2/year,2,1,1,g/m^2/year (2),,
+gross_primary_production,MilliGM-PER-M2-SEC,2,1,1,milligramPerMeterSquaredPerSecond (2),MilliGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+gross_primary_production,GM-PER-YR,6,1,1,gramPerYear (6),GM-PER-YR,A0E0L0I0M1H0T-1D0
+gross_primary_production,gram/gram.hour,2,1,1,gramsPerGramPerHour (2),,
+gross_primary_production,MilliMOL-PER-M2-HR,1,1,1,millimolePerMeterSquaredPerHour (1),MilliMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+growth_rate,UNITLESS,24,11,4,"dimensionless (22), unitless (2)",UNITLESS,A0E0L0I0M0H0T0D1
+growth_rate,gram/day.gram,3,3,2,"gramPerGramPerDay (2), gramsPerGramsPerDay (1)",,
+growth_rate,PER-DAY,18,3,2,"reciprocalDay (14), perDay (4)",PER-DAY,A0E0L0I0M0H0T-1D0
+growth_rate,MilliM-PER-DAY,2,2,1,millimeterPerDay (2),MilliM-PER-DAY,A0E0L1I0M0H0T-1D0
+growth_rate,mg/d,3,2,1,mg/d (3),,
+growth_rate,MilliM-PER-YR,3,2,2,"millimeterPerYear (2), millimetersPerYear (1)",MilliM-PER-YR,A0E0L1I0M0H0T-1D0
+growth_rate,NUM,3,2,2,number (3),NUM,A0E0L0I0M0H0T0D1
+growth_rate,MilliM,4,2,2,millimeter (4),MilliM,A0E0L1I0M0H0T0D0
+growth_rate,PER-YR,3,2,1,perYear (3),PER-YR,A0E0L0I0M0H0T-1D0
+growth_rate,microgramsbiomasscproduced/biomassc/hour,3,1,1,micrograms biomass-C produced/biomass-C/hour (3),,
+growth_rate,microgramsbiomasscproducedbiomassc1hr1,1,1,1,micrograms biomass-C produced biomass-C-1 hr-1 (1),,
+growth_rate,cmyr1,1,1,1,cm yr-1 (1),,
+growth_rate,cmxcm1day1,1,1,1,cm x cm-1 day-1 (1),,
+growth_rate,variable,2,1,1,variable (2),,
+growth_rate,number/day,1,1,1,numberPerDay (1),,
+growth_rate,KiloGM-PER-M2,1,1,1,kilogramPerMeterSquared (1),KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+growth_rate,percapitagrowthratefromtimettotimet+1,1,1,1,per capita growth rate from time t to time t + 1 (1),,
+growth_rate,CentiM-PER-YR,1,1,1,centimeterPerYear (1),CentiM-PER-YR,A0E0L1I0M0H0T-1D0
+growth_rate,GM,4,1,1,gram (4),GM,A0E0L0I0M1H0T0D0
+growth_rate,MilliGM-PER-DAY,1,1,1,milligramsPerDay (1),MilliGM-PER-DAY,A0E0L0I0M1H0T-1D0
+growth_rate,GM-PER-CentiM2,2,1,1,gramsPerSquareCentimeter (2),GM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+growth_rate,milligram/centimetersquared.day,1,1,1,milligramPerCentimeterSquaredPerDay (1),,
+individual_mass,GM,1058,389,26,"gram (999), grams (40), g (19)",GM,A0E0L0I0M1H0T0D0
+individual_mass,GM-PER-M2,355,121,20,"gramPerMeterSquared (284), gramsPerSquareMeter (64), gramsPerMetersSquared (3)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+individual_mass,PERCENT,212,94,16,"percent (190), percentabbr. (19), PERCENT (3)",PERCENT,A0E0L0I0M0H0T0D1
+individual_mass,UNITLESS,170,94,20,"dimensionless (150), none (11), ratio (4)",UNITLESS,A0E0L0I0M0H0T0D1
+individual_mass,MilliGM,90,47,17,"milligram (85), mg (5)",MilliGM,A0E0L0I0M1H0T0D0
+individual_mass,NUM,57,39,8,number (57),NUM,A0E0L0I0M0H0T0D1
+individual_mass,GM-PER-GM,213,38,6,"gramPerGram (205), gramsPerGram (8)",GM-PER-GM,A0E0L0I0M0H0T0D1
+individual_mass,GM-PER-M2-DAY,32,29,3,gramPerMeterSquaredPerDay (32),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+individual_mass,MilliGM-PER-GM,73,27,9,"milligramPerGram (50), milligramsPerGram (17), mg/g (3)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+individual_mass,MicroGM-PER-GM,73,26,11,"microgramPerGram (52), microgramsPerGram (18), ug/g (3)",MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+individual_mass,effort/gram,201,25,1,effortPerGram (201),,
+individual_mass,KiloGM,62,14,7,kilogram (62),KiloGM,A0E0L0I0M1H0T0D0
+individual_mass,GM-PER-CentiM3,16,13,8,"gramPerCentimeterCubed (9), gramsPerCubicCentimeter (4), grams per cubic centimeter (3)",GM-PER-CentiM3,A0E0L-3I0M1H0T0D0
+individual_mass,MilliGM-PER-CentiM2,13,13,5,"mg/cm2 (3), milligramsPerSquareCentimeter (3), milligramPerCentimeterSquared (2)",MilliGM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+individual_mass,#kg/soil,430,12,1,# kg/soil (430),,
+individual_mass,MicroGM,18,9,4,microgram (18),MicroGM,A0E0L0I0M1H0T0D0
+individual_mass,CentiM2-PER-GM,9,8,4,"centimeterSquaredPerGram (5), CentimeterSquaredPerGram (2), centimeterSquared per gram (1)",CentiM2-PER-GM,A0E0L2I0M-1H0T0D0
+individual_mass,MicroMOL-PER-GM,50,7,3,"micromolePerGram (48), micromoles per gram (2)",MicroMOL-PER-GM,A1E0L0I0M-1H0T0D0
+individual_mass,GM-PER-CentiM2,7,6,4,"gramPerCentimeterSquared (3), gramPercentimeterSquared (2), gramsPerSquareCentimeter (2)",GM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+individual_mass,MilliGM-PER-M3,15,6,3,"milligramPerMeterCubed (11), milligramsPerCubicMeter (4)",MilliGM-PER-M3,A0E0L-3I0M1H0T0D0
+individual_mass,MilliGM-PER-M2,33,6,3,"milligramPerMeterSquared (21), milligramsPerSquareMeter (12)",MilliGM-PER-M2,A0E0L-2I0M1H0T0D0
+individual_mass,MilliGM-PER-L,8,6,5,"milligramPerLiter (4), milligramsPerLiter (4)",MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+individual_mass,NanoMOL-PER-GM-SEC,5,5,2,"nanomolePerGramPerSecond (3), nanomolesPerGramPerSecond (1), nanomolsPerGramPerSecond (1)",NanoMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+individual_mass,NanoMOL-PER-GM,138,5,1,nanomolePerGram (138),NanoMOL-PER-GM,A1E0L0I0M-1H0T0D0
+individual_mass,KiloGM-PER-M2,16,5,3,"kilogramPerMeterSquared (15), kilogramsPerSquareMeter (1)",KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+individual_mass,g/0.625m2,10,5,1,g/0.625m2 (10),,
+individual_mass,nanogram/gram,8,4,1,nanogramPerGram (8),,
+individual_mass,centimeter/gram,5,4,4,"centimetersPerGram (4), centimeterPerGram (1)",,
+individual_mass,MicroGM-PER-GM-DAY,8,4,3,"microgramsPerGramPerDay (6), microgramPerGramPerDay (2)",MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+individual_mass,MilliGM-PER-KiloGM,10,4,3,"milligramPerKilogram (9), milligramsPerKilogram (1)",MilliGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+individual_mass,GM-PER-M2-YR,8,4,2,gramPerMeterSquaredPerYear (8),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+individual_mass,FRACTION,5,3,1,"proportion (2), Proportion (2), Fraction (1)",FRACTION,A0E0L0I0M0H0T0D1
+individual_mass,GM-PER-M3,6,3,3,"gramPerMeterCubed (4), gramsPerMeterCubed (2)",GM-PER-M3,A0E0L-3I0M1H0T0D0
+individual_mass,TONNE-PER-HA,3,3,2,"megagramPerHectare (1), megagramsPerHectare (1), tonnePerHectare (1)",TONNE-PER-HA,A0E0L-2I0M1H0T0D0
+individual_mass,CentiM2,3,3,2,"squareCentimeters (2), centimeterSquared (1)",CentiM2,A0E0L2I0M0H0T0D0
+individual_mass,PER-DAY,7,3,2,"reciprocalDay (5), perDay (2)",PER-DAY,A0E0L0I0M0H0T-1D0
+individual_mass,LB,3,2,1,pound (3),LB,A0E0L0I0M1H0T0D0
+individual_mass,MicroGM-PER-L,4,2,2,"microgramsPerLiter (3), microgramPerLiter (1)",MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+individual_mass,GM-PER-KiloGM,3,2,1,"gramPerKilogram (2), gramsPerKilogram (1)",GM-PER-KiloGM,A0E0L0I0M0H0T0D1
+individual_mass,NanoMOL-PER-GM-HR,3,2,2,"nanomolePerGramPerHour (2), nanomolesPerHourPerGram (1)",NanoMOL-PER-GM-HR,A1E0L0I0M-1H0T-1D0
+individual_mass,meter/gram,2,2,2,meterPerGram (2),,
+individual_mass,GM-PER-MilliL,3,2,2,"gramPerMilliliter (2), grams per milliliter (1)",GM-PER-MilliL,A0E0L-3I0M1H0T0D0
+individual_mass,ng/g,7,2,1,ng/g (7),,
+individual_mass,KiloGM-PER-HA,2,2,2,"kilogramPerHectare (1), kilogramsPerHectare (1)",KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+individual_mass,NUM-PER-GM,7,2,2,numberPerGram (7),NUM-PER-GM,A0E0L0I0M-1H0T0D0
+individual_mass,microgram/metersquared,2,2,2,"microGramPerSquareMeter (1), microgramsPerSquareMeter (1)",,
+individual_mass,MicroMOL-PER-GM-HR,4,2,1,"micromolePerGramPerHour (3), micromoles per gram per hour (1)",MicroMOL-PER-GM-HR,A1E0L0I0M-1H0T-1D0
+individual_mass,MicroGM-PER-GM-HR,8,2,2,"microgramPerGramPerHour (7), micrograms per gram per hour (1)",MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+individual_mass,gram/number,3,2,1,gramPerNumber (3),,
+individual_mass,sla,2,2,1,SLA (2),,
+individual_mass,PPM,6,2,2,partsPerMillion (6),PPM,A0E0L0I0M0H0T0D1
+individual_mass,milligrampershortshoot,2,2,1,"milligramPerShortShoot (1), milligramsPerShortShoot (1)",,
+individual_mass,GM-PER-HectoGM,3,2,1,gramsPerHectogram (3),GM-PER-HectoGM,A0E0L0I0M0H0T0D1
+individual_mass,mgc/gafdm/hr,2,2,1,mgC/gAFDM/hr (2),,
+individual_mass,ugchla/g,2,2,1,ug chl-a/g (2),,
+individual_mass,KiloGM-PER-M2-DAY,5,2,1,kilogramPerMeterSquaredPerDay (5),KiloGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+individual_mass,MilliL-PER-GM,3,2,1,millilitersPerGram (3),MilliL-PER-GM,A0E0L3I0M-1H0T0D0
+individual_mass,MicroMOL-PER-GM-SEC,2,2,1,micromolePerGramPerSecond (2),MicroMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+individual_mass,milligramoxygen/gramashfreedrymass.hour,3,1,1,milligramOxygenpergramashfreedrymassperhour (3),,
+individual_mass,biomassmgm3,1,1,1,Biomass_mg_m-3 (1),,
+individual_mass,mm^2g^1,1,1,1,mm^2 g^-1 (1),,
+individual_mass,cell/milligram,1,1,1,CellsPerMilligram (1),,
+individual_mass,cwmslacm2g,1,1,1,cwm_SLA_cm2_g (1),,
+individual_mass,gramperquartermetersquared,1,1,1,gram per quarter square meter (1),,
+individual_mass,gram/gramdrymass.hour,1,1,1,grampergramdrymassperhour (1),,
+individual_mass,mgg1,1,1,1,mg g-1 (1),,
+individual_mass,gcm3,1,1,1,g cm3 (1),,
+individual_mass,MilliL,1,1,1,milliliter (1),MilliL,A0E0L3I0M0H0T0D0
+individual_mass,gg1(ratioofleafdrymasstofreshmass),2,1,1,g g-1 (ratio of leaf dry mass to fresh mass) (2),,
+individual_mass,mm2mg1(leafarea/leafdrymass),2,1,1,mm2 mg-1 (leaf area / leaf dry mass) (2),,
+individual_mass,microgram/individual,1,1,1,microgram per individual (1),,
+individual_mass,TONNE-PER-HA-YR,5,1,1,megagramPerHectarePerYear (5),TONNE-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+individual_mass,hfi,2,1,1,HFI (2),,
+individual_mass,cell/mg,1,1,1,cells/mg (1),,
+individual_mass,cell/mgleaftissue,1,1,1,cells/mg leaf tissue (1),,
+individual_mass,LB-PER-AC,2,1,1,poundPerAcre (2),LB-PER-AC,A0E0L-2I0M1H0T0D0
+individual_mass,ton/acre,1,1,1,tonPerAcre (1),,
+individual_mass,variable,1,1,1,variable (1),,
+individual_mass,metercubed/day.metersquared,4,1,1,CubicMeterperSquareMeterperDay (4),,
+individual_mass,nanogram/gram.hour,1,1,1,nanograms per gram per hour (1),,
+individual_mass,nanomole/day.gram,3,1,1,nanomolePerGramPerDay (3),,
+individual_mass,MilliGM-PER-DAY,1,1,1,milligrams per day (1),MilliGM-PER-DAY,A0E0L0I0M1H0T-1D0
+individual_mass,cm^2/gram,1,1,1,cm^2pergram (1),,
+individual_mass,M2,1,1,1,squareMeter (1),M2,A0E0L2I0M0H0T0D0
+individual_mass,milligram/day.gram,4,1,1,milligramPerDayPerGram (4),,
+individual_mass,KiloGM-PER-L,2,1,1,kilogramPerLiter (2),KiloGM-PER-L,A0E0L-3I0M1H0T0D0
+individual_mass,kilogm,1,1,1,KiloGM (1),,
+individual_mass,"b1,4glucosidaseactivityinnmolesofsubstrateconverted/gramsampledryweight.hour",1,1,1,"B-1,4-glucosidase activity in nmoles of substrate converted per hour per gram sample dry weight (1)",,
+individual_mass,cellobiohydrolaseactivityinnmolesofsubstrateconverted/gramsampledryweight.hour,1,1,1,cellobiohydrolase activity in nmoles of substrate converted per hour per gram sample dry weight (1),,
+individual_mass,"nag:b1,4nacetylglucosaminidasenmolesofsubstrateconverted/gramsampledryweight.hour",1,1,1,"NAG: B-1,4-N-acetylglucosaminidase nmoles of substrate converted per hour per gram sample dry weight (1)",,
+individual_mass,peroxidaseactivityinumolesofsubstrateconverted/gramsampledryweight.hour,1,1,1,peroxidase activity in umoles of substrate converted per hour per gram sample dry weight (1),,
+individual_mass,MilliM,3,1,1,millimeter (3),MilliM,A0E0L1I0M0H0T0D0
+individual_mass,gram/metersquare,1,1,1,gramPerMeterSquare (1),,
+individual_mass,MicroGM-PER-M2-DAY,1,1,1,microgramsPerMeterSquaredPerDay (1),MicroGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+individual_mass,milligram/centimetercubed,1,1,1,milligramsPerCubicCentimeter (1),,
+individual_mass,g/m^2,1,1,1,g/m^2 (1),,
+individual_mass,HR,1,1,1,hour (1),HR,A0E0L0I0M0H0T1D0
+individual_mass,kilojoule/gram,1,1,1,kilojoulePerGram (1),,
+individual_mass,NanoMOL,1,1,1,nanomole (1),NanoMOL,A1E0L0I0M0H0T0D0
+individual_mass,M2-PER-KiloGM,3,1,1,squareMeterPerKilogram (3),M2-PER-KiloGM,A0E0L2I0M-1H0T0D0
+individual_mass,microgram/metersquared.year,1,1,1,microgramPerMeterSquaredPerYear (1),,
+individual_mass,CentiMOL-PER-KiloGM,7,1,1,centimolePerKilogram (7),CentiMOL-PER-KiloGM,A1E0L0I0M-1H0T0D0
+individual_mass,centimeteredsquared/gram,1,1,1,centimeteredSquaredperGram (1),,
+individual_mass,bushels/acre,1,1,1,bushelsPerAcre (1),,
+individual_mass,microgc/gafdm/hr,1,1,1,microgC/gAFDM/hr (1),,
+individual_mass,ugchla/kgsoil,1,1,1,ug chl-a/kg soil (1),,
+individual_mass,mgchla/kgsoil,1,1,1,mg chl-a/kg soil (1),,
+individual_mass,MicroGM-PER-CentiM2,1,1,1,microgramsPerCentimeterSquared (1),MicroGM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+individual_mass,MicroGM-PER-KiloGM,1,1,1,microgramsPerKilogram (1),MicroGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+individual_mass,MilliGM-PER-M2-DAY,2,1,1,milligramPerMeterSquaredPerDay (2),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+individual_mass,gram/gram.hour,4,1,1,gramsPerGramPerHour (4),,
+individual_mass,gramsaccumulatedin3week,1,1,1,grams accumulated in 3 weeks (1),,
+individual_mass,milligram/centimetersquared.day,1,1,1,milligramPerCentimeterSquaredPerDay (1),,
+individual_mass,dryweightpercent,1,1,1,dry weight percent (1),,
+individual_mass,KiloGM-PER-M3,1,1,1,kilogramPerCubicMeter (1),KiloGM-PER-M3,A0E0L-3I0M1H0T0D0
+individual_mass,micromole/milligram,2,1,1,micromolePerMilligram (2),,
+individual_mass,enzymeactivity/gram,2,1,1,enzymeActivityPerGram (2),,
+individual_mass,KiloJ,6,1,1,kilojoule (6),KiloJ,A0E0L2I0M1H0T-2D0
+individual_mass,kilojoulelipidcalorie/gramastaxanthin,1,1,1,kilojoule lipid calorie per gram astaxanthin (1),,
+individual_mass,KiloGM-PER-YR,1,1,1,kilogramPerYear (1),KiloGM-PER-YR,A0E0L0I0M1H0T-1D0
+individual_mass,KiloGM-PER-HA-YR,1,1,1,kilogramPerHectarePerYear (1),KiloGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+individual_mass,KiloGM-PER-HR,2,1,1,kilogramPerHour (2),KiloGM-PER-HR,A0E0L0I0M1H0T-1D0
+individual_mass,kilogram/hourperperson,1,1,1,kilogramPerHourPerPerson (1),,
+individual_mass,microgram/grampermin,2,1,1,microgramsPerGramPerMin (2),,
+individual_mass,gramperind,1,1,1,gramsPerInd (1),,
+individual_mass,MilliGM-PER-GM-HR,4,1,1,milligramPerGramPerHour (4),MilliGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+individual_mass,milligram/gram.hourperphotonflux,2,1,1,milligramPerGramPerHourPerPhotonFlux (2),,
+individual_mass,g/0.09m2,1,1,1,g/0.09m2 (1),,
+individual_mass,kg/sqm.,2,1,1,kg/sq m. (2),,
+individual_mass,milligram/gramdryweight,1,1,1,milligramPerGramDryWeight (1),,
+leaching,GM-PER-M2,150,28,1,gramPerMeterSquared (150),GM-PER-M2,A0E0L-2I0M1H0T0D0
+leaching,GM-PER-M2-DAY,218,28,1,gramPerMeterSquaredPerDay (218),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+leaching,PERCENT,34,12,4,percent (34),PERCENT,A0E0L0I0M0H0T0D1
+leaching,MilliGM-PER-L,20,6,4,"milligramPerLiter (10), milligramsPerLiter (10)",MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+leaching,nm1,7,6,1,nm-1 (7),,
+leaching,sloperatio,6,5,1,Slope Ratio (6),,
+leaching,UNITLESS,15,5,3,"dimensionless (14), nounits (1)",UNITLESS,A0E0L0I0M0H0T0D1
+leaching,GM-PER-M2-YR,12,5,1,gramPerMeterSquaredPerYear (12),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+leaching,MilliL,6,4,2,milliliter (6),MilliL,A0E0L3I0M0H0T0D0
+leaching,NUM,7,3,2,number (7),NUM,A0E0L0I0M0H0T0D1
+leaching,HR,3,3,1,hour (3),HR,A0E0L0I0M0H0T1D0
+leaching,MilliM,5,3,1,millimeter (5),MilliM,A0E0L1I0M0H0T0D0
+leaching,MilliM-PER-DAY,3,3,1,millimeterPerDay (3),MilliM-PER-DAY,A0E0L1I0M0H0T-1D0
+leaching,MilliGM-PER-GM,8,2,2,milligramPerGram (8),MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+leaching,micromole/day.gram,2,2,1,micromolePerGramPerDay (2),,
+leaching,MicroGM-PER-GM-DAY,4,2,1,microgramPerGramPerDay (4),MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+leaching,DEG_C,1,1,1,celsius (1),DEG_C,A0E0L0I0M0H1T0D0
+leaching,MilliS-PER-CentiM,1,1,1,MilliSiemens per centimeter (1),MilliS-PER-CentiM,A0E2L-3I0M-1H0T3D0
+leaching,GM,1,1,1,gram (1),GM,A0E0L0I0M1H0T0D0
+leaching,DAY,1,1,1,nominalDay (1),DAY,A0E0L0I0M0H0T1D0
+leaching,MicroGM-PER-L,4,1,1,microgramPerLiter (4),MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+leaching,PER-NanoM,1,1,1,inverseNanometer (1),PER-NanoM,A0E0L-1I0M0H0T0D0
+leaching,MilliMOL-PER-L,1,1,1,millimolesPerLiter (1),MilliMOL-PER-L,A1E0L-3I0M0H0T0D0
+leaching,PPM,2,1,1,partsPerMillion (2),PPM,A0E0L0I0M0H0T0D1
+leaching,MilliGM-PER-M2-HR,2,1,1,milligramPerMeterSquaredPerHour (2),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+leaching,l/mgc/m,2,1,1,L/mgC/m (2),,
+leaching,MicroM,1,1,1,uM (1),MicroM,A0E0L1I0M0H0T0D0
+leaching,lmgc1m1,1,1,1,LmgC-1m-1 (1),,
+leaching,M,1,1,1,meter (1),M,A0E0L1I0M0H0T0D0
+leaching,MilliM-PER-MIN,1,1,1,mm/min (1),MilliM-PER-MIN,A0E0L1I0M0H0T-1D0
+leaching,mg/(m2*day,1,1,1,mg/(m2*day (1),,
+leaching,milligmpergm,1,1,1,MilliGM-PER-GM (1),,
+leaf_area_index,M2-PER-M2,99,46,5,meterSquaredPerMeterSquared (99),M2-PER-M2,A0E0L0I0M0H0T0D1
+leaf_area_index,UNITLESS,50,29,11,"dimensionless (42), none (4), no units (2)",UNITLESS,A0E0L0I0M0H0T0D1
+leaf_area_index,NUM,8,5,4,number (8),NUM,A0E0L0I0M0H0T0D1
+leaf_area_index,MilliM,1,1,1,millimeter (1),MilliM,A0E0L1I0M0H0T0D0
+leaf_area_index,m^2speciesleaf/m^2ground,1,1,1,m^2 species leaf/m^2 ground (1),,
+leaf_area_index,m2m2,1,1,1,m2 m-2 (1),,
+leaf_area_index,m2/m3,1,1,1,m2/m3 (1),,
+leaf_area_index,M2,2,1,1,squareMeter (2),M2,A0E0L2I0M0H0T0D0
+leaf_area_index,meter/meter,1,1,1,meterPerMeter (1),,
+leaf_area_index,metersquaredleafarea/metersquaredgroundarea,8,1,1,meter squared leaf area per meter squared ground area (8),,
+litterfall,GM,25,13,6,gram (25),GM,A0E0L0I0M1H0T0D0
+litterfall,GM-PER-M2,49,8,3,"gramPerMeterSquared (26), gramsPerSquareMeter (23)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+litterfall,NUM,9,7,3,number (9),NUM,A0E0L0I0M0H0T0D1
+litterfall,GM-PER-M2-YR,19,6,4,"gramsPerMeterSquaredPerYear (11), gramPerMeterSquaredPerYear (8)",GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+litterfall,UNITLESS,9,4,4,dimensionless (9),UNITLESS,A0E0L0I0M0H0T0D1
+litterfall,GM-PER-M2-DAY,37,4,2,"gramsPerSquareMeterPerDay (20), gramsPerSquareMeterperDay (8), gramPerSquareMeterPerDay (4)",GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+litterfall,PERCENT,12,3,2,percent (12),PERCENT,A0E0L0I0M0H0T0D1
+litterfall,TONNE-PER-HA-YR,10,3,3,megagramPerHectarePerYear (10),TONNE-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+litterfall,MilliGM-PER-GM,8,2,2,"milligramsPerGrams (7), milligramPerGram (1)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+litterfall,KiloGM-PER-HA,23,2,1,kilogramsPerHectare (23),KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+litterfall,gleaflitterfallbiomass/metersquared.year,1,1,1,g leaf litterfall biomass per meter squared per year (1),,
+litterfall,greproductivelitterfallbiomass/metersquared.year,1,1,1,g reproductive litterfall biomass per meter squared per year (1),,
+litterfall,gnitrogeninleaflitterfall/metersquared.year,1,1,1,g nitrogen in leaf litterfall per meter squared per year (1),,
+litterfall,gnitrogeninreproductivelitterfall/metersquared.year,1,1,1,g nitrogen in reproductive litterfall per meter squared per year (1),,
+litterfall,gphosphorusinleaflitterfall/metersquared.year,1,1,1,g phosphorus in leaf litterfall per meter squared per year (1),,
+litterfall,gphosphorusinreproductivelitterfall/metersquared.year,1,1,1,g phosphorus in reproductive litterfall per meter squared per year (1),,
+litterfall,carbonflux(kgc/hectare),1,1,1,carbonFlux(kgC_perHectare) (1),,
+litterfall,MegaGM-PER-HA-YR,21,1,1,megagramsPerHectarePerYear (21),MegaGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+litterfall,M2,1,1,1,meterSquared (1),M2,A0E0L2I0M0H0T0D0
+litterfall,KiloGM-PER-HA-YR,6,1,1,kilogramsPerHectarePerYear (6),KiloGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+litterfall,multiple,4,1,1,multiple (4),,
+litterfall,MO,2,1,1,Months (2),MO,A0E0L0I0M0H0T1D0
+litterfall,gramsmetersquared/day,1,1,1,gramsSquareMeterperDay (1),,
+methane_flux,MilliGM-PER-M2-DAY,22,16,5,milligramPerMeterSquaredPerDay (22),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+methane_flux,MicroMOL-PER-M2-SEC,36,16,4,"micromolePerMeterSquaredPerSecond (31), umolm-2s-1 (2), MicromolePerMeterSquaredPerSecond (1)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+methane_flux,UNITLESS,45,14,4,"dimensionless (44), None (1)",UNITLESS,A0E0L0I0M0H0T0D1
+methane_flux,MilliMOL-PER-M2-DAY,45,12,3,"millimolePerMeterSquaredPerDay (31), millimolesPerSquareMeterPerDay (10), millimolePerSquareMeterPerDay (4)",MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+methane_flux,NanoMOL-PER-M2-SEC,19,6,2,"nanomolePerMeterSquaredPerSecond (18), nanomolesPerMeterSquaredPerSecond (1)",NanoMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+methane_flux,NUM,4,3,3,number (4),NUM,A0E0L0I0M0H0T0D1
+methane_flux,microgram/hour.metersquared,6,3,3,"microgramsPerMeterSquaredPerHour (4), microgramPerMeterSquaredPerHour (2)",,
+methane_flux,MilliGM-PER-M2-HR,4,3,1,milligramPerMeterSquaredPerHour (4),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+methane_flux,M-PER-DAY,2,2,1,meterPerDay (2),M-PER-DAY,A0E0L1I0M0H0T-1D0
+methane_flux,MilliL-PER-GM,2,2,1,milliliterPerGram (2),MilliL-PER-GM,A0E0L3I0M-1H0T0D0
+methane_flux,MicroMOL-PER-M2-DAY,2,2,2,micromolePerMeterSquaredPerDay (2),MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+methane_flux,gram/day.hectare,4,2,2,gramsPerHectarePerDay (4),,
+methane_flux,micromole/metersquared.minute,2,2,1,micromolePerMeterSquaredPerMinute (2),,
+methane_flux,mgch4/m2/d,4,2,1,mgCH4/m2/d (4),,
+methane_flux,MOL-PER-M2-DAY,1,1,1,molePerMeterSquaredPerDay (1),MOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+methane_flux,MilliMOL-PER-M2,4,1,1,millimolesPerSquareMeter (4),MilliMOL-PER-M2,A1E0L-2I0M0H0T0D0
+methane_flux,co2equivalentmgm2d1,1,1,1,CO2 equivalent mgm2d1 (1),,
+methane_flux,milliliter/gramvolatilesolid,3,1,1,milliLiters per gram volatile solid (3),,
+methane_flux,mgch4m2d1,18,1,1,mg CH4 m-2 d-1 (18),,
+methane_flux,SEC,1,1,1,second (1),SEC,A0E0L0I0M0H0T1D0
+methane_flux,micromolc/sq.meter/sec,1,1,1,micro mol C/sq. meter/sec (1),,
+methane_flux,MilliL,3,1,1,milliliter (3),MilliL,A0E0L3I0M0H0T0D0
+methane_flux,milliliter/gramvolatilesolids,1,1,1,milliLiterPerGramVolatileSolids (1),,
+methane_flux,nanomole/metersquare.second,1,1,1,nanomolePerMeterSquarePerSecond (1),,
+methane_flux,kilogramscarbondioxideequivalent/megajoulerng,2,1,1,kilogramsCarbonDioxideEquivalent PerMegaJouleRNG (2),,
+methane_flux,MicroMOL-PER-GM-HR,1,1,1,micromolePerGramPerHour (1),MicroMOL-PER-GM-HR,A1E0L0I0M-1H0T-1D0
+methane_flux,mgch4ha1yr1,2,1,1,Mg CH4 ha-1 yr-1 (2),,
+methane_flux,mmolm2d1,1,1,1,mmolm2 d-1 (1),,
+methane_flux,MilliL-PER-DAY,1,1,1,milliLiterPerDay (1),MilliL-PER-DAY,A0E0L3I0M0H0T-1D0
+methane_flux,nanomole/day.kilogram,10,1,1,nanomolesPerKilogramPerDay (10),,
+methane_flux,NanoMOL-PER-M2-DAY,4,1,1,nanomolesPerMeterSquaredPerDay (4),NanoMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+methane_flux,MilliGM-PER-HR,1,1,1,milligramPerHour (1),MilliGM-PER-HR,A0E0L0I0M1H0T-1D0
+methane_flux,miligramcarbon/day.metersquared,1,1,1,miligram-carbon per square meter per day (1),,
+methane_flux,milligram/day.gram,3,1,1,milligramPerGramPerDay (3),,
+methane_flux,micromole/metersquared.mole.second,7,1,1,micromolePerMolePerMeterSquaredPerSecond (7),,
+methane_flux,KiloGM-PER-M2-SEC,7,1,1,kilogramPerMeterSquaredPerSecond (7),KiloGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+methane_flux,mg/m2/d,1,1,1,mg/m2/d (1),,
+methane_flux,DEG_C,5,1,1,celsius (5),DEG_C,A0E0L0I0M0H1T0D0
+methane_flux,CentiM3-PER-CentiM3,1,1,1,cm3/cm3 (1),CentiM3-PER-CentiM3,A0E0L0I0M0H0T0D1
+methane_flux,M,1,1,1,meter (1),M,A0E0L1I0M0H0T0D0
+methane_flux,umolch4perm^2/minute,1,1,1,umolCH4perm^2perminute (1),,
+methane_flux,umolch4,1,1,1,umolCH4 (1),,
+methane_flux,molch4,1,1,1,molCH4 (1),,
+methane_flux,gc,1,1,1,gC (1),,
+methane_flux,MicroGM-PER-M2-DAY,1,1,1,microgramPerSquareMeterPerDay (1),MicroGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+methane_flux,microgram/hour.kilogram,1,1,1,microgramsPerKilogramPerHour (1),,
+methane_flux,nanogramofcarbon/centimetersquared.hour,1,1,1,nanogram of Carbon per squareCentimeters per hour (1),,
+methane_flux,co2cgm2day1;ch4cmgm2day1;no2ngm2day1,1,1,1,CO2 -C g m-2 day-1; CH4 -C mg m-2 day-1; NO2 -N g m-2 day-1 (1),,
+methane_flux,millimole/day.metersquare,1,1,1,millimolesPerMeterSquarePerDay (1),,
+methane_flux,umolesofch4/gramdryweightpeat,1,1,1,umoles of CH4 per gram dry weight peat (1),,
+methane_flux,MicroMOL-PER-M2-HR,1,1,1,micromolePerMeterSquaredPerHour (1),MicroMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+net_ecosystem_exchange,MicroMOL-PER-M2-SEC,142,66,8,"micromolePerMeterSquaredPerSecond (137), umolm-2s-1 (3), microMolePerMeterSquaredPerSecond (1)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+net_ecosystem_exchange,GM-PER-M2-DAY,30,29,2,gramPerMeterSquaredPerDay (30),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+net_ecosystem_exchange,UNITLESS,27,7,3,dimensionless (27),UNITLESS,A0E0L0I0M0H0T0D1
+net_ecosystem_exchange,NUM,6,4,2,number (6),NUM,A0E0L0I0M0H0T0D1
+net_ecosystem_exchange,MilliGM-PER-M2-HR,7,4,1,milligramPerMeterSquarePerHour (7),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+net_ecosystem_exchange,gco2cm2halfhour1,13,4,1,gCO2-Cm-2half-hour-1 (13),,
+net_ecosystem_exchange,gco2cm2halfhour3,8,4,1,gCO2-Cm-2half-hour-3 (8),,
+net_ecosystem_exchange,milligram/day.liter,4,3,1,milligramsPerLiterPerDay (4),,
+net_ecosystem_exchange,GM-PER-M2,5,3,1,gramPerMeterSquared (5),GM-PER-M2,A0E0L-2I0M1H0T0D0
+net_ecosystem_exchange,milligramso2/day.liter,2,2,1,milligramsO2PerLiterPerDay (2),,
+net_ecosystem_exchange,MilliGM-PER-M3-DAY,25,2,2,milligramPerMeterCubedPerDay (25),MilliGM-PER-M3-DAY,A0E0L-3I0M1H0T-1D0
+net_ecosystem_exchange,gcm2,5,2,2,"g C m-2 (3), gCm-2 (2)",,
+net_ecosystem_exchange,gramo2/day.metersquared,2,2,2,"gram O2 per meter squared per day (1), gramO2PerMeterSquaredPerDay (1)",,
+net_ecosystem_exchange,GM-PER-M2-YR,2,2,1,gramPerMeterSquaredPerYear (2),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+net_ecosystem_exchange,MOL-PER-M2-DAY,2,2,1,molePerMeterSquaredPerDay (2),MOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+net_ecosystem_exchange,gcm2yr1,14,2,1,gCm-2yr-1 (14),,
+net_ecosystem_exchange,umolco2,2,2,1,umolCO2 (2),,
+net_ecosystem_exchange,gramcarbon/metersquared,1,1,1,gramCarbonPerMeterSquared (1),,
+net_ecosystem_exchange,gramsoxygen/day.metersquared,1,1,1,GramsOxygenPerMeterSquaredPerDay (1),,
+net_ecosystem_exchange,milligramdo/liter,2,1,1,milligramDOPerLiter (2),,
+net_ecosystem_exchange,mgo2l1day1,4,1,1,mg O2 L-1 day-1 (4),,
+net_ecosystem_exchange,DEG_C,1,1,1,celsius (1),DEG_C,A0E0L0I0M0H1T0D0
+net_ecosystem_exchange,TONNE-PER-HA,2,1,1,megagramPerHectare (2),TONNE-PER-HA,A0E0L-2I0M1H0T0D0
+net_ecosystem_exchange,µmolco2m2s1,186,1,1,µmolCO2 m-2 s-1 (186),,
+net_ecosystem_exchange,mmolo^2m^3d^1,3,1,1,mmol O^2 m^-3 d^-1 (3),,
+net_ecosystem_exchange,micromolco2/m2/s,1,1,1,micro mol CO2/ m2 / s (1),,
+net_ecosystem_exchange,milligramoxygen/day.liter,1,1,1,milligramOxygenPerLiterPerDay (1),,
+net_ecosystem_exchange,mgcha1yr1,1,1,1,Mg C ha-1 yr-1 (1),,
+net_ecosystem_exchange,gramso2m^2d^1,1,1,1,grams O2 m^-2 d^-1 (1),,
+net_ecosystem_exchange,go2m2d1,1,1,1,g O2 m-2 d-1 (1),,
+net_ecosystem_exchange,gramoxygen/day.metersquared,1,1,1,gramOxygenPerMeterSquaredPerDay (1),,
+net_ecosystem_exchange,millimolescarbon/day.metersquared,1,1,1,millimolesCarbonPerSquareMeterPerDay (1),,
+net_ecosystem_exchange,gramsofoyxgen/day.metersquared,1,1,1,gramsOfOyxgenPerSquareMeterPerDay (1),,
+net_ecosystem_exchange,MilliMOL-PER-M3-DAY,1,1,1,millimolesPerCubicMeterPerDay (1),MilliMOL-PER-M3-DAY,A1E0L-3I0M0H0T-1D0
+net_ecosystem_exchange,MicroMOL-PER-M2-DAY,1,1,1,micromolesPerSquareMeterPerDay (1),MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+net_ecosystem_exchange,MilliGM-PER-M2-DAY,1,1,1,milligramPerMeterSquaredPerDay (1),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+net_ecosystem_exchange,gram/day.metercubed,1,1,1,gramPerMeterCubedPerDay (1),,
+net_ecosystem_exchange,gcm230mins,1,1,1,gCm-230mins (1),,
+net_ecosystem_exchange,micromolsco2m2s1,2,1,1,micromolsCO2m-2s-1 (2),,
+net_ecosystem_exchange,umolco2perm^2/second,2,1,1,umolCO2perm^2persecond (2),,
+net_ecosystem_exchange,molco2,1,1,1,molCO2 (1),,
+net_ecosystem_exchange,gc,1,1,1,gC (1),,
+net_ecosystem_exchange,MicroMOL-PER-M2,3,1,1,microMolesPerSquareMeter (3),MicroMOL-PER-M2,A1E0L-2I0M0H0T0D0
+net_ecosystem_exchange,gram/metersquared.month,1,1,1,gramsPerMeterSquaredPerMonth (1),,
+net_ecosystem_exchange,milligram/metersquared.minute,2,1,1,milligramPerMeterSquaredPerMinute (2),,
+net_ecosystem_exchange,gramscarbon/dayorgramscarbon.metersquared.metersquared.month,3,1,1,grams carbon per square meter per day OR grams carbon per square meter per month (3),,
+net_ecosystem_exchange,PERCENT,1,1,1,percent (1),PERCENT,A0E0L0I0M0H0T0D1
+net_ecosystem_exchange,micromol/metersquared.second,4,1,1,microMolPerSquareMeterPerSecond (4),,
+net_ecosystem_exchange,g/m^2/day,2,1,1,g/m^2/day (2),,
+net_ecosystem_exchange,g/m^2/year,2,1,1,g/m^2/year (2),,
+net_ecosystem_exchange,GM-PER-YR,6,1,1,gramPerYear (6),GM-PER-YR,A0E0L0I0M1H0T-1D0
+net_ecosystem_exchange,micromole/metersqaured.second,1,1,1,microMolePerMeterSqauredPerSecond (1),,
+net_primary_production,GM-PER-M2,79,55,10,"gramPerMeterSquared (53), gramsPerSquareMeter (26)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+net_primary_production,GM-PER-M2-DAY,27,27,2,gramPerMeterSquaredPerDay (27),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+net_primary_production,GM-PER-M2-YR,31,19,9,"gramPerMeterSquaredPerYear (17), gramsPerMeterSquaredPerYear (14)",GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+net_primary_production,kgbiomass/tree/year,68,10,1,kgbiomass/tree/year (68),,
+net_primary_production,UNITLESS,35,9,6,"Unitless (24), dimensionless (8), unitless (3)",UNITLESS,A0E0L0I0M0H0T0D1
+net_primary_production,NUM,15,8,4,number (15),NUM,A0E0L0I0M0H0T0D1
+net_primary_production,gcm2yr1,3,3,1,gCm-2yr-1 (3),,
+net_primary_production,MilliGM-PER-M2-DAY,5,3,3,milligramPerMeterSquaredPerDay (5),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+net_primary_production,TONNE-PER-HA-YR,6,2,2,megagramPerHectarePerYear (6),TONNE-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+net_primary_production,LB-PER-AC,3,2,2,poundPerAcre (3),LB-PER-AC,A0E0L-2I0M1H0T0D0
+net_primary_production,PERCENT,3,2,2,percent (3),PERCENT,A0E0L0I0M0H0T0D1
+net_primary_production,MilliGM-PER-GM-HR,4,2,1,milligramsPerGramPerHour (4),MilliGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+net_primary_production,YR,2,2,1,Year (YYYY) (2),YR,A0E0L0I0M0H0T1D0
+net_primary_production,KiloGM-PER-M2-DAY,14,2,1,kilogramPerMeterSquaredPerDay (14),KiloGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+net_primary_production,KiloGM-PER-M2,1,1,1,kilogramPerMeterSquared (1),KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+net_primary_production,gramcarbon/metersquared,1,1,1,gramCarbonPerMeterSquared (1),,
+net_primary_production,mgcm2h1,1,1,1,mg C m-2 h-1 (1),,
+net_primary_production,GM,1,1,1,gram (1),GM,A0E0L0I0M1H0T0D0
+net_primary_production,KiloGM,1,1,1,kilogram (1),KiloGM,A0E0L0I0M1H0T0D0
+net_primary_production,MegaGM-PER-HA-YR,3,1,1,megagramsPerHectarePerYear (3),MegaGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+net_primary_production,milligramcarbon/hour.liter,2,1,1,milligramCarbonPerLiterPerHour (2),,
+net_primary_production,KiloGM-PER-HA,18,1,1,kilogramsPerHectare (18),KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+net_primary_production,MilliGM-PER-M3-HR,1,1,1,milligramPerMeterCubedPerHour (1),MilliGM-PER-M3-HR,A0E0L-3I0M1H0T-1D0
+net_primary_production,gcm2,2,1,1,gCm-2 (2),,
+net_primary_production,kgbiomass/ha/year,2,1,1,kgbiomass/ha/year (2),,
+net_primary_production,mgc/m2/h,1,1,1,mgC/m2/h (1),,
+net_primary_production,MilliGM-PER-M3-DAY,5,1,1,milligramPerMeterCubedPerDay (5),MilliGM-PER-M3-DAY,A0E0L-3I0M1H0T-1D0
+net_primary_production,GM-PER-YR,18,1,1,gramPerYear (18),GM-PER-YR,A0E0L0I0M1H0T-1D0
+net_primary_production,MilliM,1,1,1,millimeter (1),MilliM,A0E0L1I0M0H0T0D0
+net_primary_production,microgc/cm2/hr,1,1,1,microgC/cm2/hr (1),,
+net_primary_production,microgc/gafdm/hr,1,1,1,microgC/gAFDM/hr (1),,
+net_primary_production,GM-PER-M2-HR,8,1,1,gramsPerSquareMeterPerHour (8),GM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+net_primary_production,gram/gram.hour,4,1,1,gramsPerGramPerHour (4),,
+net_primary_production,MicroGM-PER-L-DAY,1,1,1,microgramPerLiterPerDay (1),MicroGM-PER-L-DAY,A0E0L-3I0M1H0T-1D0
+net_primary_production,GM-PER-DAY,24,1,1,gramPerDay (24),GM-PER-DAY,A0E0L0I0M1H0T-1D0
+net_primary_production,MilliMOL-PER-M2-HR,1,1,1,millimolePerMeterSquaredPerHour (1),MilliMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+net_primary_production,GM-PER-CentiM2,1,1,1,gramPercentimeterSquared (1),GM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+nitrification,GM-PER-M2,32,30,3,"gramPerMeterSquared (31), gramsPerMeterSquared (1)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+nitrification,GM-PER-M2-DAY,29,29,2,"gramPerMeterSquaredPerDay (28), gramsPerSquareMeterPerDay (1)",GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+nitrification,MicroGM-PER-GM-DAY,34,28,10,"microgramPerGramPerDay (22), microgramsPerGramPerDay (10), microGramPerGramPerDay (2)",MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+nitrification,MilliGM-PER-KiloGM-DAY,15,12,4,"milligramPerKilogramPerDay (10), milliGramPerKilogramPerDay (3), miligramsPerKilogramPerDay (1)",MilliGM-PER-KiloGM-DAY,A0E0L0I0M0H0T-1D0
+nitrification,UNITLESS,13,5,5,dimensionless (13),UNITLESS,A0E0L0I0M0H0T0D1
+nitrification,MicroGM-PER-GM,3,3,2,"microgramsPerGram (2), microgramPerGram (1)",MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+nitrification,MilliGM-PER-GM,3,3,2,"milligramsPerGram (2), milligramPerGram (1)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+nitrification,DAY,2,2,2,"day (1), days (1)",DAY,A0E0L0I0M0H0T1D0
+nitrification,MicroGM,4,2,1,"microgram (3), ug (1)",MicroGM,A0E0L0I0M1H0T0D0
+nitrification,milligram/day.gram,2,2,1,milligramPerGramPerDay (2),,
+nitrification,ugng1day1,1,1,1,ug N g-1 day-1 (1),,
+nitrification,microgramsnasno3/day.gramsoil,1,1,1,micrograms N as NO3 per gram soil per day (1),,
+nitrification,microgramsnasno3/day.gramsoilorganicmatter,1,1,1,micrograms N as NO3 per gram soil organic matter per day (1),,
+nitrification,microgramsnasnh4+no3/day.gramsoil,1,1,1,micrograms N as NH4 + NO3 per gram soil per day (1),,
+nitrification,microgramsnasnh4+no3/day.gramsoilorganicmatter,1,1,1,micrograms N as NH4 + NO3 per gram soil organic matter per day (1),,
+nitrification,ugofnitrate/hour.hourgofdrysoil,1,1,1,ug of nitrate per hour g of dry soil per hour (1),,
+nitrification,mgofnitrate/hour.hourkgofdrysoil,1,1,1,mg of nitrate per hour kg of dry soil per hour (1),,
+nitrification,micromole/day.liter,2,1,1,microMolesPerLiterPerDay (2),,
+nitrification,nanogram/day.gram,1,1,1,nanogramsPerGramPerDay (1),,
+nitrification,nanogram/centimetercubed.day,1,1,1,nanogramsPerCubicCentimeterPerDay (1),,
+nitrification,microgramsno3/day.gramdrysoil,1,1,1,micrograms NO3 per gram dry soil per day (1),,
+nitrification,CentiM,1,1,1,centimeter (1),CentiM,A0E0L1I0M0H0T0D0
+nitrification,MicroGM-PER-M2-DAY,1,1,1,microgramsPerMeterSquaredPerDay (1),MicroGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+nitrification,NUM-PER-GM,1,1,1,numberPerGram (1),NUM-PER-GM,A0E0L0I0M-1H0T0D0
+nitrification,milligramsofnitrate/day.kilogramdrysoil,1,1,1,Milligrams of nitrate per kilogram dry soil per day (1),,
+nitrification,ugn/gdrysoil/day,1,1,1,ug-N/g dry soil/day (1),,
+nitrification,GM-PER-M2-YR,1,1,1,gramPerMeterSquaredPerYear (1),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+nitrification,mgn/kgdrysoil*d,2,1,1,mgN/kgdrysoil*d (2),,
+nitrification,mgnm2/h,1,1,1,mgNm2/h (1),,
+nitrification,ugno3n/gsoil,3,1,1,ugNO3-N/gsoil (3),,
+nitrification,no3n/gsoiln,3,1,1,NO3-N/gsoilN (3),,
+nitrification,microgram/day.kilogram,2,1,1,microgramPerKilogramPerDay (2),,
+nitrification,gram/day.gram,1,1,1,gramPerGramPerDay (1),,
+nitrification,miligram/kilogram.month,1,1,1,miligramsPerKilogramPerMonth (1),,
+nitrification,miligram/day.gramsoil,1,1,1,miligramsPerGramSoilPerDay (1),,
+nitrification,ampliconsequencevariant,1,1,1,ampliconSequenceVariant (1),,
+nitrification,NUM,1,1,1,number (1),NUM,A0E0L0I0M0H0T0D1
+nitrification,kilogram/day.hectare,2,1,1,kilogramPerHectarePerDay (2),,
+nitrification,milligramgram/day.kilogram,1,1,1,milligramGramPerKilogramPerDay (1),,
+nitrification,killogram/day.hectare,1,1,1,killogramPerHectarePerDay (1),,
+nitrification,microgramn/day.gramdrysoil,1,1,1,microgramNPerGramDrySoilPerDay (1),,
+nitrification,PERCENT,1,1,1,percent (1),PERCENT,A0E0L0I0M0H0T0D1
+nitrification,kilogram/hectare.month,1,1,1,kilogramsPerHectarePerMonth (1),,
+nitrification,milligram/day.liter,1,1,1,milligramsPerLiterPerDay (1),,
+nitrification,KiloGM-PER-HA-YR,3,1,1,kilogramsPerHectarePerYear (3),KiloGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+nitrification,microgram/hour.kilogram,2,1,1,microgramsPerKilogramPerHour (2),,
+nitrification,MicroGM-PER-GM-HR,2,1,1,microgramsPerGramPerHour (2),MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+nitrification,M,1,1,1,meter (1),M,A0E0L1I0M0H0T0D0
+nitrification,microgram/metersquared.second,1,1,1,microgramsPerSquareMeter per Seconds (1),,
+nitrification,M-PER-SEC,1,1,1,metersPerSecond (1),M-PER-SEC,A0E0L1I0M0H0T-1D0
+nitrification,NanoMOL-PER-L-DAY,1,1,1,nanoMolPerLiterPerDay (1),NanoMOL-PER-L-DAY,A1E0L-3I0M0H0T-1D0
+nitrification,microgram/centimetersquared.day,1,1,1,microgramPerCentimeterSquaredPerDay (1),,
+nitrification,milligram/grampertwoday,1,1,1,milligramPerGramPerTwoDays (1),,
+nitrification,milligram/gram.month,1,1,1,milligramPerGramPerMonth (1),,
+nitrogen_mineralization,GM-PER-M2,143,31,4,"gramPerMeterSquared (137), gramsPerMeterSquared (3), gramsPerSquareMeter (3)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+nitrogen_mineralization,GM-PER-M2-DAY,222,29,2,"gramPerMeterSquaredPerDay (221), gramsPerSquareMeterPerDay (1)",GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+nitrogen_mineralization,MicroGM-PER-GM-DAY,75,28,9,"microgramPerGramPerDay (64), microgramsPerGramPerDay (9), microGramPerGramPerDay (2)",MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+nitrogen_mineralization,MicroGM-PER-GM,19,11,6,"microgramsPerGram (11), microgramPerGram (8)",MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,MilliGM-PER-KiloGM-DAY,16,11,4,"milligramPerKilogramPerDay (9), MilligramPerKilogramPerDay (4), milliGramPerKilogramPerDay (2)",MilliGM-PER-KiloGM-DAY,A0E0L0I0M0H0T-1D0
+nitrogen_mineralization,UNITLESS,24,10,7,dimensionless (24),UNITLESS,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,GM-PER-M2-YR,12,6,2,"gramPerMeterSquaredPerYear (11), gramsPerMeterSquaredPerYear (1)",GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+nitrogen_mineralization,MilliGM-PER-GM,5,5,4,"milligramPerGram (3), milligramsPerGram (2)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,milligram/day.gram,4,4,3,"milligramPerGramPerDay (3), milligramsPerGramPerDay (1)",,
+nitrogen_mineralization,NUM,4,4,3,number (4),NUM,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,MilliMOL-PER-MOL,6,3,1,millimolePerMole (6),MilliMOL-PER-MOL,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,MicroGM,5,3,2,"microgram (4), ug (1)",MicroGM,A0E0L0I0M1H0T0D0
+nitrogen_mineralization,MilliGM-PER-KiloGM,6,3,2,milligramPerKilogram (6),MilliGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,MicroGM-PER-GM-HR,3,2,2,"microgramPerGramPerHour (2), microgramsPerGramPerHour (1)",MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+nitrogen_mineralization,PPTH,3,2,2,permil (3),PPTH,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,ugn/gdrysoil/day,3,2,2,"ugN/gdrysoil/day (2), ug-N/g dry soil/day (1)",,
+nitrogen_mineralization,miligram/kilogram.month,3,2,1,miligramsPerKilogramPerMonth (3),,
+nitrogen_mineralization,miligram/day.gramsoil,2,2,2,"Miligrams per gram soil per day (1), miligramsPerGramSoilPerDay (1)",,
+nitrogen_mineralization,ugng1day1,1,1,1,ug N g-1 day-1 (1),,
+nitrogen_mineralization,microgramsnasnh4+no3/day.gramsoil,1,1,1,micrograms N as NH4 + NO3 per gram soil per day (1),,
+nitrogen_mineralization,microgramsnasnh4+no3/day.gramsoilorganicmatter,1,1,1,micrograms N as NH4 + NO3 per gram soil organic matter per day (1),,
+nitrogen_mineralization,KiloGM-PER-M2-SEC,1,1,1,kilogramPerMeterSquaredPerSecond (1),KiloGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+nitrogen_mineralization,micromole/day.liter,1,1,1,microMolesPerLiterPerDay (1),,
+nitrogen_mineralization,kgha1,1,1,1,kg ha-1 (1),,
+nitrogen_mineralization,ugn/g1/d1,1,1,1,ug N/g-1/d-1 (1),,
+nitrogen_mineralization,microgram/hour.milligram,1,1,1,microgramPerMilligramPerHour (1),,
+nitrogen_mineralization,microgramsnh4/day.gramdrysoil,1,1,1,micrograms NH4 per gram dry soil per day (1),,
+nitrogen_mineralization,mgn/gc,1,1,1,mg N / g C (1),,
+nitrogen_mineralization,nanomole/day.kilogram,2,1,1,nanomolesPerKilogramPerDay (2),,
+nitrogen_mineralization,day(24hour),1,1,1,day (24 hours) (1),,
+nitrogen_mineralization,NUM-PER-GM,1,1,1,numberPerGram (1),NUM-PER-GM,A0E0L0I0M-1H0T0D0
+nitrogen_mineralization,milligramsofnitrogen(ammonium&nitrate)/day.kilogramdrysoil,1,1,1,Milligrams of nitrogen (ammonium & nitrate) per kilogram dry soil per day (1),,
+nitrogen_mineralization,milligramnitrogen/day.kilogramdrysoil,1,1,1,milligramNitrogenPerKilogramDrySoilPerDay (1),,
+nitrogen_mineralization,microgramcco2/gramdrysoil.hour,6,1,1,microgramC-CO2PerGramDrySoilPerHour (6),,
+nitrogen_mineralization,microgramcco2/day.gramdrysoil,1,1,1,microgramC-CO2PerGramDrySoilPerDay (1),,
+nitrogen_mineralization,micromole/day.gram,1,1,1,micromoles per gram per day (1),,
+nitrogen_mineralization,MicroMOL-PER-GM,1,1,1,micromoles per gram (1),MicroMOL-PER-GM,A1E0L0I0M-1H0T0D0
+nitrogen_mineralization,ugc/gc/hr,1,1,1,ugC/gC/hr (1),,
+nitrogen_mineralization,mgn/kgdrysoil*d,1,1,1,mgN/kgdrysoil*d (1),,
+nitrogen_mineralization,nh4n/gsoil,1,1,1,NH4-N/gsoil (1),,
+nitrogen_mineralization,ugnh4n/gsoiln,3,1,1,ugNH4-N/gsoilN (3),,
+nitrogen_mineralization,ugno3n/gsoil,3,1,1,ugNO3-N/gsoil (3),,
+nitrogen_mineralization,no3n/gsoiln,3,1,1,NO3-N/gsoilN (3),,
+nitrogen_mineralization,ugnh4n/gsoil,2,1,1,ugNH4-N/gsoil (2),,
+nitrogen_mineralization,microgram/day.kilogram,2,1,1,microgramPerKilogramPerDay (2),,
+nitrogen_mineralization,gram/day.gram,1,1,1,gramPerGramPerDay (1),,
+nitrogen_mineralization,kilogram/day.hectare,1,1,1,kilogramPerHectarePerDay (1),,
+nitrogen_mineralization,milligramgram/day.kilogram,1,1,1,milligramGramPerKilogramPerDay (1),,
+nitrogen_mineralization,microgramn/day.gramdrysoil,1,1,1,microgramNPerGramDrySoilPerDay (1),,
+nitrogen_mineralization,PERCENT,1,1,1,percent (1),PERCENT,A0E0L0I0M0H0T0D1
+nitrogen_mineralization,milligram/day.liter,1,1,1,milligramsPerLiterPerDay (1),,
+nitrogen_mineralization,milligram/kilogram.month,1,1,1,milligramPerKilogramPerMonth (1),,
+nitrogen_mineralization,GM-PER-YR,6,1,1,gramPerYear (6),GM-PER-YR,A0E0L0I0M1H0T-1D0
+nitrogen_mineralization,KiloGM-PER-HA-YR,3,1,1,kilogramsPerHectarePerYear (3),KiloGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+nitrogen_mineralization,microgram/centimetersquared.day,1,1,1,microgramPerCentimeterSquaredPerDay (1),,
+nitrogen_mineralization,milligram/grampertwoday,1,1,1,milligramPerGramPerTwoDays (1),,
+nitrogen_mineralization,milligram/gram.month,1,1,1,milligramPerGramPerMonth (1),,
+nitrogen_mineralization,nanogram/gram.hour,2,1,1,nanogramPerGramPerHour (2),,
+nitrous_oxide_flux,gram/day.hectare,6,5,2,gramsPerHectarePerDay (6),,
+nitrous_oxide_flux,nanogram/centimetersquared.hour,4,4,2,nanogramPerCentimeterSquaredPerHour (4),,
+nitrous_oxide_flux,microgram/hour.metersquared,5,4,3,microgramPerMeterSquaredPerHour (5),,
+nitrous_oxide_flux,UNITLESS,10,3,2,dimensionless (10),UNITLESS,A0E0L0I0M0H0T0D1
+nitrous_oxide_flux,MicroMOL-PER-M2-DAY,14,2,1,micromolePerMeterSquaredPerDay (14),MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+nitrous_oxide_flux,MilliMOL-PER-M2-DAY,2,2,2,millimolePerMeterSquaredPerDay (2),MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+nitrous_oxide_flux,MilliGM-PER-M2-HR,2,2,2,milligramPerMeterSquaredPerHour (2),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+nitrous_oxide_flux,NanoMOL-PER-M2-SEC,2,1,1,nanomolePerMeterSquaredPerSecond (2),NanoMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+nitrous_oxide_flux,MilliGM-PER-L,1,1,1,milligramPerLiter (1),MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+nitrous_oxide_flux,FRACTION,1,1,1,fraction (1),FRACTION,A0E0L0I0M0H0T0D1
+nitrous_oxide_flux,kgnha1,2,1,1,kg N ha-1 (2),,
+nitrous_oxide_flux,co2equivalentmgm2d1,1,1,1,CO2 equivalent mgm2d1 (1),,
+nitrous_oxide_flux,micromolar/gramdriedsediment.hour,1,1,1,micromolar per hour per gram dried sediment (1),,
+nitrous_oxide_flux,nanomole/day.kilogram,4,1,1,nanomolesPerKilogramPerDay (4),,
+nitrous_oxide_flux,KiloGM-PER-HA,2,1,1,kilogramsPerHectare (2),KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+nitrous_oxide_flux,nanogramofnitrogen/centimetersquared.hour,1,1,1,nanogram of Nitrogen per squareCentimeters per hour (1),,
+nitrous_oxide_flux,MicroGM-PER-M2-DAY,1,1,1,microgramsPerMeterSquaredPerDay (1),MicroGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+nitrous_oxide_flux,MicroMOL-PER-M2-HR,1,1,1,micromolePerMeterSquaredPerHour (1),MicroMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+nitrous_oxide_flux,NanoMOL-PER-M2-DAY,1,1,1,nanomolePerMeterSquaredPerDay (1),NanoMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+nitrous_oxide_flux,MilliGM-PER-M2-SEC,1,1,1,mg/m2/sec (1),MilliGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+nutrient_uptake,GM-PER-M2,332,28,1,gramPerMeterSquared (332),GM-PER-M2,A0E0L-2I0M1H0T0D0
+nutrient_uptake,MilliM-PER-DAY,53,28,1,millimeterPerDay (53),MilliM-PER-DAY,A0E0L1I0M0H0T-1D0
+nutrient_uptake,GM-PER-M2-DAY,318,28,1,gramPerMeterSquaredPerDay (318),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+nutrient_uptake,effort/gram,175,25,1,effortPerGram (175),,
+nutrient_uptake,MilliM,25,25,1,millimeter (25),MilliM,A0E0L1I0M0H0T0D0
+nutrient_uptake,PicoMOL-PER-L-HR,13,13,2,"picoMolesPerLiterPerHour (12), picomolePerLiterPerHour (1)",PicoMOL-PER-L-HR,A1E0L-3I0M0H0T-1D0
+nutrient_uptake,GM-PER-M2-YR,12,6,2,"gramPerMeterSquaredPerYear (11), gramsPerMeterSquaredPerYear (1)",GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+nutrient_uptake,M,12,6,5,"meter (10), meters (2)",M,A0E0L1I0M0H0T0D0
+nutrient_uptake,micromole/day.liter,6,4,3,"micromolePerLiterPerDay (4), microMolesPerLiterPerDay (2)",,
+nutrient_uptake,MilliM-PER-MIN,7,4,4,"millimeterPerMinute (6), mm/min (1)",MilliM-PER-MIN,A0E0L1I0M0H0T-1D0
+nutrient_uptake,NUM,4,4,1,number (4),NUM,A0E0L0I0M0H0T0D1
+nutrient_uptake,MilliGM-PER-M3-DAY,8,4,1,milligramPerMeterCubedPerDay (8),MilliGM-PER-M3-DAY,A0E0L-3I0M1H0T-1D0
+nutrient_uptake,UNITLESS,11,3,3,dimensionless (11),UNITLESS,A0E0L0I0M0H0T0D1
+nutrient_uptake,MicroGM-PER-L-DAY,3,3,2,microgramPerLiterPerDay (3),MicroGM-PER-L-DAY,A0E0L-3I0M1H0T-1D0
+nutrient_uptake,MicroMOL-PER-M2-HR,15,3,1,micromolePerMeterSquaredPerHour (15),MicroMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+nutrient_uptake,M-PER-SEC,3,2,2,metersPerSecond (3),M-PER-SEC,A0E0L1I0M0H0T-1D0
+nutrient_uptake,gc(m^2*30min^1,2,2,1,gC(m^-2*30min^-1 (2),,
+nutrient_uptake,MilliGM-PER-M2-DAY,2,2,2,milligramPerMeterSquaredPerDay (2),MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+nutrient_uptake,MicroMOL-PER-GM-HR,5,2,2,"microMolesPerGramPerHour (3), microMolePerGramPerHour (2)",MicroMOL-PER-GM-HR,A1E0L0I0M-1H0T-1D0
+nutrient_uptake,mmolm2d1,1,1,1,mmol m-2 d-1 (1),,
+nutrient_uptake,MilliGM-PER-HR,1,1,1,MilligramPerHour (1),MilliGM-PER-HR,A0E0L0I0M1H0T-1D0
+nutrient_uptake,microgramn/day.gramsed,1,1,1,MicrogramNperGramSedperDay (1),,
+nutrient_uptake,microgramn/day.liter,1,1,1,MicrogramNperLiterperDay (1),,
+nutrient_uptake,micromole/centimetersquared.day,2,1,1,microMolesPerSquareCentimeterPerDay (2),,
+nutrient_uptake,MegaPA,1,1,1,megapascal (1),MegaPA,A0E0L-1I0M1H0T-2D0
+nutrient_uptake,mmolm2day1,1,1,1,mmol m-2 day-1 (1),,
+nutrient_uptake,micromolco2/m2/s,1,1,1,micro mol CO2/ m2 / s (1),,
+nutrient_uptake,KiloGM-PER-HA,2,1,1,kilogramsPerHectare (2),KiloGM-PER-HA,A0E0L-2I0M1H0T0D0
+nutrient_uptake,microgram/metersquared.minute,2,1,1,microgramPerMeterSquaredPerMinute (2),,
+nutrient_uptake,gram/metersquared.second,1,1,1,gramPerMeterSquaredPerSecond (1),,
+nutrient_uptake,MilliGM-PER-M2-HR,1,1,1,milligramPerMeterSquaredPerHour (1),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+nutrient_uptake,gramnoduleperhr,1,1,1,gramnoduleperhr (1),,
+nutrient_uptake,?gn/groot/hour,4,1,1,?gN/groot/hour (4),,
+nutrient_uptake,mg/(m2*day,1,1,1,mg/(m2*day (1),,
+nutrient_uptake,mg/lofnh4+/gofrootbiomass,1,1,1,mg/LofNH4+/gofrootbiomass (1),,
+nutrient_uptake,mg/l/g/hr,1,1,1,mg/L/g/hr (1),,
+nutrient_uptake,milligram/metersquaredperhalfday,2,1,1,milligramPerMeterSquaredPerHalfDay (2),,
+nutrient_uptake,partpermillion/minute,1,1,1,partsPerMillionPerMinute (1),,
+nutrient_uptake,GM-PER-GM,3,1,1,gramsPerGram (3),GM-PER-GM,A0E0L0I0M0H0T0D1
+nutrient_uptake,MicroGM-PER-GM,6,1,1,microgramsPerGram (6),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+nutrient_uptake,MicroGM-PER-GM-DAY,1,1,1,microgramPerGramPerDay (1),MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+nutrient_uptake,microgram/metersquared.second,2,1,1,"microgramsPerSquareMeter per Second (1), microgramsPerSquareMeter per Seconds (1)",,
+nutrient_uptake,PER-M,2,1,1,perMeter (2),PER-M,A0E0L-1I0M0H0T0D0
+nutrient_uptake,CentiM-PER-SEC,2,1,1,centimeterPerSecond (2),CentiM-PER-SEC,A0E0L1I0M0H0T-1D0
+nutrient_uptake,microgramnitrogen/metersquared.second,2,1,1,microgramNitrogenPerMeterSquaredPerSecond (2),,
+nutrient_uptake,ugcarbon/liter*day,1,1,1,ugCarbon/liter*day (1),,
+nutrient_uptake,nmtdr/day,2,1,1,nMTDR/day (2),,
+nutrient_uptake,nmleu/day,1,1,1,nM Leu/day (1),,
+nutrient_uptake,MicroMOL-PER-L,1,1,1,microMolesPerLiter (1),MicroMOL-PER-L,A1E0L-3I0M0H0T0D0
+nutrient_uptake,MilliMOL-PER-M2-HR,2,1,1,millimolePerMeterSquaredPerHour (2),MilliMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+nutrient_uptake,MicroMOL-PER-L-HR,3,1,1,microMolesPerLiterPerHour (3),MicroMOL-PER-L-HR,A1E0L-3I0M0H0T-1D0
+nutrient_uptake,permin,2,1,1,reciprocalMin (2),,
+nutrient_uptake,microgram/grampermin,2,1,1,microgramsPerGramPerMin (2),,
+nutrient_uptake,MicroMOL-PER-M2-DAY,1,1,1,micromolePerMeterSquaredPerDay (1),MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+organism_abundance,NUM,2191,404,31,"number (1985), count (61), numStems (50)",NUM,A0E0L0I0M0H0T0D1
+organism_abundance,UNITLESS,873,159,24,"dimensionless (856), none (11), unitless (3)",UNITLESS,A0E0L0I0M0H0T0D1
+organism_abundance,NUM-PER-M2,368,55,17,"numberPerMeterSquared (358), stems/m2 (6), #/m^2 (3)",NUM-PER-M2,A0E0L-2I0M0H0T0D0
+organism_abundance,PERCENT,989,40,14,"percent (982), percentage (5), PERCENT (2)",PERCENT,A0E0L0I0M0H0T0D1
+organism_abundance,NUM-PER-MilliL,70,40,11,"numberPerMilliliter (55), cells per milliliter (5), cells/ml (3)",NUM-PER-MilliL,A0E0L-3I0M0H0T0D0
+organism_abundance,PPTH,53,22,7,"perMil (30), permil (21), partPerThousand (1)",PPTH,A0E0L0I0M0H0T0D1
+organism_abundance,NUM-PER-L,112,17,8,"numberPerLiter (111), number/liter (1)",NUM-PER-L,A0E0L-3I0M0H0T0D0
+organism_abundance,MicroMOL-PER-L,17,17,1,micromolePerLiter (17),MicroMOL-PER-L,A1E0L-3I0M0H0T0D0
+organism_abundance,NUM-PER-HA,39,14,5,"numberPerHectare (33), trees/ha (4), stems/ha (2)",NUM-PER-HA,A0E0L-2I0M0H0T0D0
+organism_abundance,#kg/soil,411,13,1,# kg/soil (411),,
+organism_abundance,NUM-PER-M3,36,11,6,"numberPerMeterCubed (32), numberPerCubicMeter (4)",NUM-PER-M3,A0E0L-3I0M0H0T0D0
+organism_abundance,#/kgdrysoil,47,11,1,"# / kg drysoil (37), #/KG DRY SOIL (8), #/kg dry soil (2)",,
+organism_abundance,FRACTION,35,8,5,"proportion (30), fraction (4), Proportion (1)",FRACTION,A0E0L0I0M0H0T0D1
+organism_abundance,NUM-PER-GM,28,6,6,"numberPerGram (16), # / g dry litter (12)",NUM-PER-GM,A0E0L0I0M-1H0T0D0
+organism_abundance,num,8,4,1,NUM (8),,
+organism_abundance,number/centimetersquared,38,3,1,"numberPerCentimeterSquared (37), number per square centimetre (1)",,
+organism_abundance,persons/kilometersquared,5,3,2,"Persons per square kilometer (4), PersonsPerSquareKilometer (1)",,
+organism_abundance,MilliGM-PER-L,6,3,2,"milligramPerLiter (4), milligramsPerLiter (2)",MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+organism_abundance,GM,3,3,2,gram (3),GM,A0E0L0I0M1H0T0D0
+organism_abundance,NUM-PER-M,3,3,1,numberPerMeter (3),NUM-PER-M,A0E0L-1I0M0H0T0D0
+organism_abundance,NUM-PER-KiloM2,2,2,1,numberPerKilometerSquared (2),NUM-PER-KiloM2,A0E0L-2I0M0H0T0D0
+organism_abundance,personperkm2,6,2,1,person per km2 (6),,
+organism_abundance,rateincrease,2,2,1,rate increase (2),,
+organism_abundance,count/metersquared,3,2,2,"countPerMeterSquared (2), Count per square meter (1)",,
+organism_abundance,catchperuniteffort,25,2,1,"catchPerUnitEffort (24), Catch per Unit Effort (1)",,
+organism_abundance,numberoffish,9,2,1,"Number of fish (8), number of fish (1)",,
+organism_abundance,trees,6,2,1,trees (6),,
+organism_abundance,stems,3,2,1,stems (3),,
+organism_abundance,deltaunits,2,2,1,deltaunits (2),,
+organism_abundance,MilliGM,7,2,2,milligram (7),MilliGM,A0E0L0I0M1H0T0D0
+organism_abundance,MicroGM-PER-L,8,2,1,microgramPerLiter (8),MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+organism_abundance,personspersquarekm,4,2,1,Persons per square km (4),,
+organism_abundance,PicoMOL-PER-L-HR,4,2,1,picomolePerLiterPerHour (4),PicoMOL-PER-L-HR,A1E0L-3I0M0H0T-1D0
+organism_abundance,KiloGM-PER-M2,7,2,1,kilogramPerMeterSquared (7),KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+organism_abundance,individualsecs/day,5,1,1,individualSecsPerDay (5),,
+organism_abundance,stemsper0.1ha,1,1,1,Stems per 0.1 ha (1),,
+organism_abundance,individual/km2,1,1,1,individuals/km2 (1),,
+organism_abundance,organisms/milliliter,1,1,1,organisms per milliliter (1),,
+organism_abundance,numberper0.1millimetercubed,110,1,1,numberPer0.1MillimeterCubed (110),,
+organism_abundance,individualscounted,3,1,1,individualsCounted (3),,
+organism_abundance,numberperplot,1,1,1,numberPerPlot (1),,
+organism_abundance,diversityindex,4,1,1,diversity index (4),,
+organism_abundance,hfi,8,1,1,HFI (8),,
+organism_abundance,#individual/km2,1,1,1,# individuals/km2 (1),,
+organism_abundance,animalday,1,1,1,animal-days (1),,
+organism_abundance,totalabundance,1,1,1,total abundance (1),,
+organism_abundance,countpertow,92,1,1,countPerTow (92),,
+organism_abundance,countperseine,4,1,1,countPerSeine (4),,
+organism_abundance,biomassperuniteffort,18,1,1,biomassPerUnitEffort (18),,
+organism_abundance,jouleperuniteffort,15,1,1,joulePerUnitEffort (15),,
+organism_abundance,catchpertow,4,1,1,catchPerTow (4),,
+organism_abundance,pc1score,2,1,1,PC1 score (2),,
+organism_abundance,pc2score,2,1,1,PC2 score (2),,
+organism_abundance,readcount,1,1,1,Read count (1),,
+organism_abundance,birds/acre,1,1,1,birds per acre (1),,
+organism_abundance,numberperarea,1,1,1,Number per area (1),,
+organism_abundance,catchpertowvolume,1,1,1,Catch per tow volume (1),,
+organism_abundance,catchpertowvolume.,2,1,1,Catch per tow volume. (2),,
+organism_abundance,catchpervolume.,2,1,1,Catch per volume. (2),,
+organism_abundance,catchpergrabarea.,1,1,1,Catch per grab area. (1),,
+organism_abundance,na,3,1,1,na (3),,
+organism_abundance,numberofindividual.,20,1,1,Number of individuals. (20),,
+organism_abundance,deltact,2,1,1,deltaCt (2),,
+organism_abundance,0.25metersquared,2,1,1,0.25 meterSquared (2),,
+organism_abundance,cpe,1,1,1,CPE (1),,
+organism_abundance,mites,28,1,1,mites (28),,
+organism_abundance,leaf,1,1,1,leaf (1),,
+organism_abundance,cell/milliliter,1,1,1,cell per milliliter (1),,
+organism_abundance,MilliGM-PER-M3,4,1,1,milligram per cubic meter (4),MilliGM-PER-M3,A0E0L-3I0M1H0T0D0
+organism_abundance,countcellml1,1,1,1,Count_cell_mL-1 (1),,
+organism_abundance,countcelll1,2,1,1,Count_cell_L-1 (2),,
+organism_abundance,countl1,1,1,1,count_L-1 (1),,
+organism_abundance,density/hectare,1,1,1,density per hectare (1),,
+organism_abundance,cell/milligram,1,1,1,CellsPerMilligram (1),,
+organism_abundance,variable,1,1,1,Variable (1),,
+organism_abundance,fsu,2,1,1,FSU (2),,
+organism_abundance,nu/ml,1,1,1,NU/mL (1),,
+organism_abundance,numberper10000metercubed,1,1,1,NumberPer10000CubicMeters (1),,
+organism_abundance,people/kilometersquared,1,1,1,People per square kilometer (1),,
+organism_abundance,abundancemetricornumberofspecies.,8,1,1,Abundance metric or number of species. (8),,
+organism_abundance,abundanceorrichness,3,1,1,Abundance or richness (3),,
+organism_abundance,averageindividualplantspersite,1,1,1,average individual plants per site (1),,
+organism_abundance,rank,1,1,1,rank (1),,
+organism_abundance,relativeabundance,1,1,1,Relative abundance (1),,
+organism_abundance,dalton,3,1,1,dalton (3),,
+organism_abundance,standardizedeffectsizeofmpdnotweighted,1,1,1,Standardized effect size of MPD not weighted (1),,
+organism_abundance,standardizedeffectsizeofmpdweightedbyabundance,1,1,1,Standardized effect size of MPD weighted by abundance (1),,
+organism_abundance,plants,1,1,1,plants (1),,
+organism_abundance,fish/metercubed/30mins,1,1,1,fish/meterCubed/30mins (1),,
+organism_abundance,M2-PER-HA,1,1,1,m2/ha (1),M2-PER-HA,A0E0L0I0M0H0T0D1
+organism_abundance,numberofvisitstoflower,14,1,1,Number of visits to flower (14),,
+organism_abundance,numberoffloralunits,1,1,1,Number of floral units (1),,
+organism_abundance,foralunits,1,1,1,foral units (1),,
+organism_abundance,M2,1,1,1,meterSquared (1),M2,A0E0L2I0M0H0T0D0
+organism_abundance,N-PER-A,2,1,1,N/A (2),N-PER-A,A0E-1L1I0M1H0T-2D0
+organism_abundance,trees/hectare,5,1,1,Trees per hectare (5),,
+organism_abundance,absorbanceunits(au),1,1,1,Absorbance Units (AU) (1),,
+organism_abundance,MicroM,1,1,1,micrometer (1),MicroM,A0E0L1I0M0H0T0D0
+organism_abundance,numberoftraps,3,1,1,number of traps (3),,
+organism_abundance,numberofindividualscaptured,3,1,1,number of individuals captured (3),,
+organism_abundance,numberperhectar,1,1,1,Number per hectar (1),,
+organism_abundance,numberoftrees/hectare.,1,1,1,Number of trees per hectare. (1),,
+organism_abundance,ind/ml,2,1,1,ind/mL (2),,
+organism_abundance,cell/l,1,1,1,cells/L (1),,
+organism_abundance,chironomidspertrap/day,1,1,1,chironomids per trap per day (1),,
+organism_abundance,individual,45,1,1,Individual (45),,
+organism_abundance,hits,1,1,1,hits (1),,
+organism_abundance,numberofflowers,1,1,1,number of flowers (1),,
+organism_abundance,numberofpollinators,1,1,1,number of pollinators (1),,
+organism_abundance,1,1,1,1,1 (1),,
+organism_abundance,cell/liter,2,1,1,cells per Liter (2),,
+organism_abundance,stems/hectare,1,1,1,StemsPerHectare (1),,
+organism_abundance,MicroGM-PER-GM,2,1,1,microgramPerGram (2),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+organism_abundance,MicroGM,1,1,1,microgram (1),MicroGM,A0E0L0I0M1H0T0D0
+organism_abundance,count/foot,1,1,1,countPerFoot (1),,
+organism_abundance,numeric,1,1,1,Numeric (1),,
+organism_abundance,logresponseratio,1,1,1,log response ratio (1),,
+organism_abundance,numberperm^3,1,1,1,Number per m^3 (1),,
+organism_abundance,gram/hectare.year,1,1,1,gramsPerHectarePerYear (1),,
+organism_abundance,AC,1,1,1,acre (1),AC,A0E0L2I0M0H0T0D0
+organism_abundance,ton/acre,1,1,1,tonPerAcre (1),,
+organism_abundance,nounit,1,1,1,No Unit (1),,
+organism_abundance,numberofyear,1,1,1,numberOfYears (1),,
+organism_abundance,HA,10,1,1,hectare (10),HA,A0E0L2I0M0H0T0D0
+organism_abundance,cell/millimetersquared,1,1,1,cellsPerMillimeterSquared (1),,
+organism_abundance,number/centimetercubed,4,1,1,numberPerCentimeterCubed (4),,
+organism_abundance,gram/day.gram,1,1,1,gramPerGramPerDay (1),,
+organism_abundance,mgha1,1,1,1,Mgha-1 (1),,
+organism_abundance,no.ofstems/m2,2,1,1,no.ofstems/m2 (2),,
+organism_abundance,populationdensity/milesquared,1,1,1,populationDensityPerMileSquared (1),,
+organism_abundance,NUM-PER-KiloGM,19,1,1,numberPerKilogram (19),NUM-PER-KiloGM,A0E0L0I0M-1H0T0D0
+organism_abundance,#/m^2litterarea,1,1,1,# / m^2 litter area (1),,
+organism_abundance,cell/day.metersquared,2,1,1,cellPerMeterSquaredPerDay (2),,
+organism_abundance,femtogram/number,2,1,1,femtogramPerNumber (2),,
+organism_abundance,numberpertenmetersquared,2,1,1,numberPerTenMeterSquared (2),,
+organism_abundance,number/number,1,1,1,numberPerNumber (1),,
+organism_abundance,copies/gram,1,1,1,CopiesPerGram (1),,
+organism_abundance,log10copies/gram,1,1,1,log10CopiesPerGram (1),,
+organism_abundance,count/count,1,1,1,countPerCount (1),,
+organism_abundance,ampliconsequencevariant,3,1,1,ampliconSequenceVariant (3),,
+organism_abundance,CentiM,2,1,1,centimeter (2),CentiM,A0E0L1I0M0H0T0D0
+organism_abundance,MilliM,4,1,1,millimeter (4),MilliM,A0E0L1I0M0H0T0D0
+organism_abundance,10^3copies/g,8,1,1,10^3 copies/g (8),,
+organism_abundance,10^9copies/g,2,1,1,10^9 copies/g (2),,
+organism_abundance,copies/l,6,1,1,copies/L (6),,
+organism_abundance,copygene/gramdrysoil,2,1,1,copyGenePerGramDrySoil (2),,
+organism_abundance,milligramcarbonpergenecopy/hour,1,1,1,milligramCarbonPerGeneCopyPerHour (1),,
+organism_abundance,birds/10ha,1,1,1,Birds / 10 ha (1),,
+organism_abundance,abundance/g/hour,428,1,1,abundance/g/hour (428),,
+organism_abundance,number/acre,1,1,1,numberPerAcre (1),,
+organism_abundance,stems/metersquared,1,1,1,stemsPerSquareMeter (1),,
+organism_abundance,abundanceind./m²,2,1,1,Abundance_ind./m² (2),,
+organism_abundance,cellperml,1,1,1,cellsPERmL (1),,
+organism_abundance,individual/metersquared,1,1,1,individualsPerMeterSquared (1),,
+organism_abundance,peopleperkm2,1,1,1,people per km2 (1),,
+organism_abundance,numberper10metersquared,3,1,1,numberPer10MeterSquared (3),,
+organism_abundance,numberper100metercubed,3,1,1,numberPer100MeterCubed (3),,
+organism_abundance,numberperfivecentimeter,3,1,1,numberPerFiveCentimeter (3),,
+organism_abundance,snails/metersquared,1,1,1,snailsPerMeterSquared (1),,
+organism_abundance,cell/naturalunit,1,1,1,cells / natural unit (1),,
+organism_abundance,ampliconcount,2,1,1,amplicon counts (2),,
+organism_abundance,numberperthousandmetercubed,5,1,1,numberPerThousandMetersCubed (5),,
+organism_abundance,mgcind1d1,1,1,1,mg C ind-1- d-1 (1),,
+organism_abundance,mgnind1d1,1,1,1,mg N ind-1 d-1 (1),,
+organism_abundance,number/kilometer,15,1,1,numberPerKilometer (15),,
+organism_abundance,PPM,6,1,1,partsPerMillion (6),PPM,A0E0L0I0M0H0T0D1
+organism_abundance,HR,1,1,1,hour (1),HR,A0E0L0I0M0H0T1D0
+organism_abundance,MilliL,1,1,1,milliliter (1),MilliL,A0E0L3I0M0H0T0D0
+organism_abundance,number/meterquartered,1,1,1,numberPerMeterQuartered (1),,
+organism_abundance,density,33,1,1,density (33),,
+organism_respiration,GM-PER-M2-DAY,62,31,3,"gramPerMeterSquaredPerDay (60), grams per square meter per day (2)",GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+organism_respiration,GM-PER-M2,61,30,1,gramPerMeterSquared (61),GM-PER-M2,A0E0L-2I0M1H0T0D0
+organism_respiration,MicroMOL-PER-M2-SEC,40,29,6,"micromolePerMeterSquaredPerSecond (39), umol/m2/s (1)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+organism_respiration,UNITLESS,67,22,10,"dimensionless (55), Unitless (12)",UNITLESS,A0E0L0I0M0H0T0D1
+organism_respiration,NUM,11,7,4,number (11),NUM,A0E0L0I0M0H0T0D1
+organism_respiration,MilliGM-PER-GM,19,6,1,"milligramsPerGram (15), milligramPerGram (4)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+organism_respiration,GM-PER-M2-HR,18,6,4,"gramsPerMeterSquaredPerHour (10), gramsPerSquareMeterPerHour (8)",GM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+organism_respiration,MicroGM-PER-GM,15,5,4,"microgramsPerGram (9), microgramPerGram (6)",MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+organism_respiration,MicroGM-PER-GM-HR,11,5,3,"micrograms per gram per hour (8), microgramPerGramPerHour (2), microgramsPerGramPerHour (1)",MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+organism_respiration,MilliGM-PER-GM-HR,8,5,3,"milligramPerGramPerHour (4), milligramsPerGramPerHour (4)",MilliGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+organism_respiration,GM-PER-M2-YR,26,4,1,gramPerMeterSquaredPerYear (26),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+organism_respiration,M3,4,4,1,cubicMeter (4),M3,A0E0L3I0M0H0T0D0
+organism_respiration,MicroMOL-PER-GM-HR,8,3,3,micromolePerGramPerHour (8),MicroMOL-PER-GM-HR,A1E0L0I0M-1H0T-1D0
+organism_respiration,MicroGM-PER-GM-DAY,3,3,2,microgramPerGramPerDay (3),MicroGM-PER-GM-DAY,A0E0L0I0M0H0T-1D0
+organism_respiration,MilliMOL-PER-M2-DAY,7,3,2,millimolePerMeterSquaredPerDay (7),MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+organism_respiration,milligram/day.gram,34,3,2,"milligramPerGramPerDay (21), milligramsPerGramPerDay (13)",,
+organism_respiration,NanoMOL-PER-GM-SEC,3,3,1,"nanomolePerGramPerSecond (2), nanomolesPerGramPerSecond (1)",NanoMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+organism_respiration,MilliGM-PER-L,2,2,1,milligramsPerLiter (2),MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+organism_respiration,milligramso2/day.liter,2,2,1,milligramsO2PerLiterPerDay (2),,
+organism_respiration,gramsoxygen/day.metersquared,2,2,2,GramsOxygenPerMeterSquaredPerDay (2),,
+organism_respiration,umolco2m2s1,2,2,2,"umol CO2 m-2 s-1 (1), umolCO2m-2s-1 (1)",,
+organism_respiration,PERCENT,2,2,2,percent (2),PERCENT,A0E0L0I0M0H0T0D1
+organism_respiration,milligram/day.liter,2,2,1,milligramsPerLiterPerDay (2),,
+organism_respiration,GM,2,2,2,gram (2),GM,A0E0L0I0M1H0T0D0
+organism_respiration,MilliM,4,2,2,millimeter (4),MilliM,A0E0L1I0M0H0T0D0
+organism_respiration,PPTH,5,2,2,"partPerThousand (4), permil (1)",PPTH,A0E0L0I0M0H0T0D1
+organism_respiration,MilliGM-PER-KiloGM-DAY,2,2,1,milligramPerKilogramPerDay (2),MilliGM-PER-KiloGM-DAY,A0E0L0I0M0H0T-1D0
+organism_respiration,MilliGM-PER-M2-DAY,3,2,2,"milligramPerMeterSquaredPerDay (2), milligramsPerSquareMeterPerDay (1)",MilliGM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+organism_respiration,micromole/centimetersquared.hour,2,2,1,"microMolePerSquareCentimeterPerHour (1), microMolesPerSquareCentimeterPerHour (1)",,
+organism_respiration,milligram/hour.liter,6,2,1,milligramPerLiterPerHour (6),,
+organism_respiration,milligramsofoxygen/day.liter,1,1,1,milligrams of oxygen per liter per day (1),,
+organism_respiration,microgram/hour.metersquared,2,1,1,microgram PerMeterSquared PerHour (2),,
+organism_respiration,milimoleo2/day.metersquared,4,1,1,milimoleO2PerMeterSquaredPerDay (4),,
+organism_respiration,microgram/hour.kilogramsoil,1,1,1,microgramPerKilogramSoilPerHour (1),,
+organism_respiration,gramsoxygen/day.metersquare,6,1,1,gramsOxygenPerMeterSquarePerDay (6),,
+organism_respiration,milligramoxygen/hour.liter,2,1,1,milligramOxygenperLiterperhour (2),,
+organism_respiration,milligramoxygen/liter.metersquared,1,1,1,milligramOxygenperLiterpermetersquared (1),,
+organism_respiration,MilliGM-PER-M3-DAY,1,1,1,milligramPerMeterCubedPerDay (1),MilliGM-PER-M3-DAY,A0E0L-3I0M1H0T-1D0
+organism_respiration,FRACTION,2,1,1,proportion (2),FRACTION,A0E0L0I0M0H0T0D1
+organism_respiration,micromole/centimetersquared.day,1,1,1,microMolesPerSquareCentimeterPerDay (1),,
+organism_respiration,TONNE-PER-HA-YR,2,1,1,megagramPerHectarePerYear (2),TONNE-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+organism_respiration,mgco2m^2day^1,1,1,1,mg CO2 m^-2 day^-1 (1),,
+organism_respiration,ugco2cg^1soilday^1,1,1,1,ug CO2-C g^-1 soil day^-1 (1),,
+organism_respiration,ugch4cg^1carbonday^1,2,1,1,ug CH4-C g^-1 carbon day^-1 (2),,
+organism_respiration,ugco2cg^1carbonday^1,1,1,1,ug CO2-C g^-1 carbon day^-1 (1),,
+organism_respiration,milligramsoxygen/day.liter,1,1,1,MilligramsOxygenPer LiterPerDay (1),,
+organism_respiration,NUM-PER-GM,1,1,1,numberPerGram (1),NUM-PER-GM,A0E0L0I0M-1H0T0D0
+organism_respiration,micromolepermol/second,1,1,1,micromolesPerMolPerSecond (1),,
+organism_respiration,milligramsoxygen/gramdrymassoflitter.hour,1,1,1,milligrams oxygen per gram dry mass of litter per hour (1),,
+organism_respiration,ugc/gsoil/day,1,1,1,ugC/g soil/day (1),,
+organism_respiration,microgram/gram.week,1,1,1,micrograms per gram per week (1),,
+organism_respiration,micromole/day.liter,6,1,1,micromolePerLiterPerDay (6),,
+organism_respiration,MilliMOL-PER-MOL,2,1,1,millimolePerMole (2),MilliMOL-PER-MOL,A0E0L0I0M0H0T0D1
+organism_respiration,MicroMOL-PER-L,4,1,1,micromolePerLiter (4),MicroMOL-PER-L,A1E0L-3I0M0H0T0D0
+organism_respiration,molco2m2s1,1,1,1,molCO2m-2s-1 (1),,
+organism_respiration,ppm/sec,1,1,1,ppm/sec (1),,
+organism_respiration,ppm/sec/m3,1,1,1,ppm/sec/m3 (1),,
+organism_respiration,ppm/sec/groot,1,1,1,ppm/sec/groot (1),,
+organism_respiration,mgco2/sec/groot,1,1,1,mgCO2/sec/groot (1),,
+organism_respiration,mgco2/sec/m2,1,1,1,mgCO2/sec/m2 (1),,
+organism_respiration,micromolesco2/gramnodule.hour,1,1,1,micromolesCO2pergramnoduleperhour (1),,
+organism_respiration,mgc/m2/h,1,1,1,mgC/m2/h (1),,
+organism_respiration,log10(umolo2/l/h,2,1,1,log10(umolO2/L/h (2),,
+organism_respiration,MicroMOL-PER-M2-DAY,1,1,1,micromolePerMeterSquaredPerDay (1),MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+organism_respiration,MilliGM,3,1,1,milligram (3),MilliGM,A0E0L0I0M1H0T0D0
+organism_respiration,MilliM2,4,1,1,millimeterSquared (4),MilliM2,A0E0L2I0M0H0T0D0
+organism_respiration,MilliM3,1,1,1,millimeterCubed (1),MilliM3,A0E0L3I0M0H0T0D0
+organism_respiration,gram/metersquared.second,1,1,1,gramsPerMeterSquaredPerSecond (1),,
+organism_respiration,MicroMOL-PER-GM-SEC,1,1,1,micromolePerGramPerSecond (1),MicroMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+organism_respiration,nanomole/second,1,1,1,nanomolePerSecond (1),,
+organism_respiration,MilliGM-PER-M2-HR,1,1,1,milligramPerMeterSquaredPerHour (1),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+organism_respiration,nanogram/day.gram,1,1,1,nanogramsPerGramPerDay (1),,
+organism_respiration,MicroMOL-PER-L-HR,2,1,1,microMolsPerliterPerhour (2),MicroMOL-PER-L-HR,A1E0L-3I0M0H0T-1D0
+organism_respiration,gram/gram.hour,4,1,1,gramsPerGramPerHour (4),,
+organism_respiration,J-PER-DAY,4,1,1,joulePerDay (4),J-PER-DAY,A0E0L2I0M1H0T-3D0
+organism_respiration,micromole/hour.milligram,1,1,1,micromolePerMilligramPerHour (1),,
+organism_respiration,miligram/day.liter,1,1,1,miligramsPerLiterPerDay (1),,
+organism_respiration,GM-PER-DAY,108,1,1,gramPerDay (108),GM-PER-DAY,A0E0L0I0M1H0T-1D0
+organism_respiration,MicroGM-PER-L-DAY,2,1,1,microgramPerLiterPerDay (2),MicroGM-PER-L-DAY,A0E0L-3I0M1H0T-1D0
+organism_respiration,microgram/hour,1,1,1,microgramsPerHour (1),,
+organism_respiration,MilliMOL-PER-M2-HR,1,1,1,millimolePerMeterSquaredPerHour (1),MilliMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+percent_cover,PERCENT,4464,418,27,"percent (4164), percentage (195), percentabbr. (82)",PERCENT,A0E0L0I0M0H0T0D1
+percent_cover,UNITLESS,1391,172,19,"dimensionless (1294), Unitless (61), none (28)",UNITLESS,A0E0L0I0M0H0T0D1
+percent_cover,NUM,167,59,17,"number (164), count (3)",NUM,A0E0L0I0M0H0T0D1
+percent_cover,FRACTION,51,9,5,"fraction (33), FRACTION (12), proportion (6)",FRACTION,A0E0L0I0M0H0T0D1
+percent_cover,GM-PER-M2,9,7,2,"gramPerMeterSquared (8), gramsPerSquareMeter (1)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+percent_cover,M,22,7,5,"meters (12), meter (9), M (1)",M,A0E0L1I0M0H0T0D0
+percent_cover,M2,9,5,4,"squareMeter (8), square meters (1)",M2,A0E0L2I0M0H0T0D0
+percent_cover,CentiM,6,5,4,"centimeter (4), centimeters (2)",CentiM,A0E0L1I0M0H0T0D0
+percent_cover,CentiM2,4,4,3,centimeterSquared (4),CentiM2,A0E0L2I0M0H0T0D0
+percent_cover,DAY,3,3,2,"nominalDay (2), days (1)",DAY,A0E0L0I0M0H0T1D0
+percent_cover,NUM-PER-M2,37,3,3,numberPerMeterSquared (37),NUM-PER-M2,A0E0L-2I0M0H0T0D0
+percent_cover,pctarealcover,44,2,1,pct areal cover (44),,
+percent_cover,GM,2,2,2,gram (2),GM,A0E0L0I0M1H0T0D0
+percent_cover,MicroMOL-PER-M2-SEC,2,2,2,micromolePerMeterSquaredPerSecond (2),MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+percent_cover,GM-PER-M2-YR,2,2,1,gramsPerMeterSquaredPerYear (2),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+percent_cover,DEG_C,2,2,2,celsius (2),DEG_C,A0E0L0I0M0H1T0D0
+percent_cover,DEG,2,2,2,degree (2),DEG,A0E0L0I0M0H0T0D1
+percent_cover,M2-PER-M,2,2,1,metersSquaredPerMeter (2),M2-PER-M,A0E0L1I0M0H0T0D0
+percent_cover,percentofmetersquared,2,2,1,Percent of square meter (2),,
+percent_cover,AC,1,1,1,acre (1),AC,A0E0L2I0M0H0T0D0
+percent_cover,countorpercent,1,1,1,count or percent (1),,
+percent_cover,%/ha,1,1,1,%/ha (1),,
+percent_cover,numberperplot,1,1,1,numberPerPlot (1),,
+percent_cover,relativeabundance,2,1,1,Relative abundance (2),,
+percent_cover,relativeabundancesum,1,1,1,Relative abundance sum (1),,
+percent_cover,relativeabundance%,1,1,1,Relative abundance % (1),,
+percent_cover,relativeabundance%log,1,1,1,Relative abundance % log (1),,
+percent_cover,relativeabundancelog,1,1,1,Relative abundance log (1),,
+percent_cover,idnumber(notmeasurement),2,1,1,ID number (not measurement) (2),,
+percent_cover,name(notmeasurement),1,1,1,name (not measurement) (1),,
+percent_cover,pg/1c,4,1,1,pg/1C (4),,
+percent_cover,ratio(postvspre),1,1,1,ratio (post vs pre) (1),,
+percent_cover,ratio(postvscontrol),1,1,1,ratio (post vs control) (1),,
+percent_cover,variable,1,1,1,Variable (1),,
+percent_cover,proportionofcover,12,1,1,proportion of cover (12),,
+percent_cover,proportionfocalfamilycover/proportiontotalplotcover,10,1,1,proportion focal family cover/proportion total plot cover (10),,
+percent_cover,proportioncover,2,1,1,proportion cover (2),,
+percent_cover,proportiongrasscover/totalproportioncover,2,1,1,proportion grass cover/total proportion cover (2),,
+percent_cover,proportionforb/proportiontotalcover,2,1,1,proportion forb/proportion total cover (2),,
+percent_cover,PPTH,1,1,1,permil (1),PPTH,A0E0L0I0M0H0T0D1
+percent_cover,kilogramcarbon/hectare.year,2,1,1,kilogram carbon per hectare per year (2),,
+percent_cover,plot,2,1,1,plot (2),,
+percent_cover,MegaGM-PER-HA-YR,2,1,1,Megagram per hectare per year (2),MegaGM-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+percent_cover,MilliGM-PER-GM,2,1,1,Milligram per gram (2),MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+percent_cover,megagramcarbon/hectare,1,1,1,Megagram carbon per hectare (1),,
+percent_cover,GM-PER-CentiM3,1,1,1,Gram per cubic centimeter (1),GM-PER-CentiM3,A0E0L-3I0M1H0T0D0
+percent_cover,na,1,1,1,NA (1),,
+percent_cover,enumerateddomain,1,1,1,Enumerated Domain (1),,
+percent_cover,adjustedbraunblanquetscore,1,1,1,Adjusted Braun-Blanquet Score (1),,
+percent_cover,#,1,1,1,# (1),,
+percent_cover,rawcount,1,1,1,raw count (1),,
+percent_cover,unitlessproportion,2,1,1,unitless proportion (2),,
+percent_cover,numberofimages,14,1,1,number of images (14),,
+percent_cover,gramsofoyxgen/day.metersquared,1,1,1,gramsOfOyxgenPerSquareMeterPerDay (1),,
+percent_cover,HA,125,1,1,hectare (125),HA,A0E0L2I0M0H0T0D0
+percent_cover,wattperm2,1,1,1,Wattperm-2 (1),,
+percent_cover,utm,2,1,1,UTM (2),,
+percent_cover,percent/metersquared,4,1,1,percentPerMeterSquared (4),,
+percent_cover,M2-PER-HA,1,1,1,meterSquaredPerHectare (1),M2-PER-HA,A0E0L0I0M0H0T0D1
+percent_cover,centimetersquared/metersquared,2,1,1,centimeterSquaredPerMeterSquared (2),,
+percent_cover,unitlessindexbasedontheequationinthedefinition,2,1,1,Unitless index based on the equation in the Definition (2),,
+percent_cover,LB-PER-AC,1,1,1,poundsPerAcre (1),LB-PER-AC,A0E0L-2I0M1H0T0D0
+percent_cover,YR,1,1,1,Year (YYYY) (1),YR,A0E0L0I0M0H0T1D0
+percent_cover,pecentage,1,1,1,pecentage (1),,
+percent_cover,KiloJ,1,1,1,kiloJoule (1),KiloJ,A0E0L2I0M1H0T-2D0
+percent_cover,pointintercept,1,1,1,point intercept (1),,
+percent_cover,tenths,1,1,1,Tenths (1),,
+percent_cover,percentna,1,1,1,percentNA (1),,
+percent_cover,MilliGM-PER-KiloGM,2,1,1,milliGramsPerKilogram (2),MilliGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+percent_cover,countsandpercentages,1,1,1,counts and percentages (1),,
+photosynthesis_rate,MicroMOL-PER-M2-SEC,367,147,20,"micromolePerMeterSquaredPerSecond (167), microeinsteinPerMeterSquaredPerSecond (115), microEinsteinsPerSquareMeterPerSecond (41)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+photosynthesis_rate,MicroMOL-PER-M2,68,68,2,"microEinsteinsPerSquareMeter (67), micromolePerMeterSquared (1)",MicroMOL-PER-M2,A1E0L-2I0M0H0T0D0
+photosynthesis_rate,GM-PER-M2-DAY,112,28,1,gramPerMeterSquaredPerDay (112),GM-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+photosynthesis_rate,MilliMOL-PER-M2,24,18,3,millimolesPerSquareMeter (24),MilliMOL-PER-M2,A1E0L-2I0M0H0T0D0
+photosynthesis_rate,MOL-PER-M2-DAY,21,17,2,molePerMeterSquaredPerDay (21),MOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+photosynthesis_rate,NUM,26,13,6,number (26),NUM,A0E0L0I0M0H0T0D1
+photosynthesis_rate,PERCENT,16,7,5,"percent (14), Percent (2)",PERCENT,A0E0L0I0M0H0T0D1
+photosynthesis_rate,MilliGM-PER-M3,10,6,1,milligramPerMeterCubed (10),MilliGM-PER-M3,A0E0L-3I0M1H0T0D0
+photosynthesis_rate,UNITLESS,19,5,4,"dimensionless (12), unitless (5), Unitless (2)",UNITLESS,A0E0L0I0M0H0T0D1
+photosynthesis_rate,GM-PER-M2-YR,4,4,1,gramPerMeterSquaredPerYear (4),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+photosynthesis_rate,MilliMOL-PER-MOL,4,4,2,"millimolesPerMole (3), millimolePerMole (1)",MilliMOL-PER-MOL,A0E0L0I0M0H0T0D1
+photosynthesis_rate,MilliMOL-PER-M2-SEC,4,3,3,"millimolePerMeterSquaredPerSecond (3), millimolesPerMeterSquaredPerSecond (1)",MilliMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+photosynthesis_rate,W-PER-M2,5,3,2,"WattsPerMeterSquared (3), W/m2 (1), wattsPerMeterSquared (1)",W-PER-M2,A0E0L0I0M1H0T-3D0
+photosynthesis_rate,MOL-PER-M2,3,3,1,molesPerMeterSquared (3),MOL-PER-M2,A1E0L-2I0M0H0T0D0
+photosynthesis_rate,NanoMOL-PER-GM-SEC,4,3,1,"nanomolesPerGramPerSecond (3), nanomolePerGramPerSecond (1)",NanoMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+photosynthesis_rate,CentiM,5,3,1,centimeter (5),CentiM,A0E0L1I0M0H0T0D0
+photosynthesis_rate,umolco2m2s1,2,2,2,"umol CO2 m-2 s-1 (1), umolCO2m-2s-1 (1)",,
+photosynthesis_rate,MilliMOL-PER-M2-HR,2,2,1,millimolesPerSquareMeterPerHour (2),MilliMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+photosynthesis_rate,micromol/metersquared.second,3,2,1,microMolPerSquareMeterPerSecond (3),,
+photosynthesis_rate,MilliGM-PER-M3-HR,4,2,1,milligramPerMeterCubedPerHour (4),MilliGM-PER-M3-HR,A0E0L-3I0M1H0T-1D0
+photosynthesis_rate,relativeunit,1,1,1,relative unit (1),,
+photosynthesis_rate,M-PER-SEC,1,1,1,metersPerSecond (1),M-PER-SEC,A0E0L1I0M0H0T-1D0
+photosynthesis_rate,micromols/metersquare.second,6,1,1,micromolsPerMeterSquarePerSecond (6),,
+photosynthesis_rate,fvm,1,1,1,Fvm (1),,
+photosynthesis_rate,milligramoxygen/hour.liter,1,1,1,milligramOxygenperLiterperhour (1),,
+photosynthesis_rate,milligramoxygen/liter.metersquared,3,1,1,milligramOxygenperLiterpermetersquared (3),,
+photosynthesis_rate,milligramoxygen/hour.milligramchlorophyll,1,1,1,milligramOxygenperMilligramchlorophyllperhour (1),,
+photosynthesis_rate,milligramoxygen/gramashfreedrymass.hour,1,1,1,milligramOxygenpergramashfreedrymassperhour (1),,
+photosynthesis_rate,MicroGM-PER-L,12,1,1,microgramsPerLiter (12),MicroGM-PER-L,A0E0L-3I0M1H0T0D0
+photosynthesis_rate,umolm2s1,4,1,1,umol m-2 s-1 (4),,
+photosynthesis_rate,milligramscarbon/hour.milligramschlorophyll,6,1,1,milligramsCarbonPerMilligramsChlorophyllPerHour (6),,
+photosynthesis_rate,ppfd,1,1,1,PPFD (1),,
+photosynthesis_rate,cell/mg,1,1,1,cells/mg (1),,
+photosynthesis_rate,cell/mgleaftissue,1,1,1,cells/mg leaf tissue (1),,
+photosynthesis_rate,par,1,1,1,PAR (1),,
+photosynthesis_rate,micromole/metersquare.second,1,1,1,micromolesPerMeterSquarePerSecond (1),,
+photosynthesis_rate,MicroM3-PER-MilliL,1,1,1,micrometerCubedPerMilliliter (1),MicroM3-PER-MilliL,A0E0L0I0M0H0T0D1
+photosynthesis_rate,GM-PER-M2,1,1,1,gramsPerSquareMeter (1),GM-PER-M2,A0E0L-2I0M1H0T0D0
+photosynthesis_rate,micromolesm2s1,1,1,1,micromolesm-2s-1 (1),,
+photosynthesis_rate,w/m2/d,1,1,1,W/m2/d (1),,
+photosynthesis_rate,NUM-PER-MilliL,1,1,1,numberPerMilliliter (1),NUM-PER-MilliL,A0E0L-3I0M0H0T0D0
+photosynthesis_rate,MicroMOL-PER-GM-SEC,1,1,1,micromolesPerGramPerSecond (1),MicroMOL-PER-GM-SEC,A1E0L0I0M-1H0T-1D0
+photosynthesis_rate,partpermillion/minute,1,1,1,partsPerMillionPerMinute (1),,
+photosynthesis_rate,milligram/metersquared.minute,1,1,1,milligramPerMeterSquaredPerMinute (1),,
+photosynthesis_rate,MicroMOL-PER-MOL,1,1,1,micromolesPerMole (1),MicroMOL-PER-MOL,A0E0L0I0M0H0T0D1
+photosynthesis_rate,millimole/mole.second,2,1,1,millimolePerMolePerSecond (2),,
+photosynthesis_rate,nanomole/mole.second,1,1,1,nanomolePerMolePerSecond (1),,
+photosynthesis_rate,MOL-PER-M2-SEC,6,1,1,molePerMeterSquaredPerSecond (6),MOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+photosynthesis_rate,μmolco2m−2s−1,1,1,1,μmol CO2 m−2s−1 (1),,
+photosynthesis_rate,kilojoule/day.metersquared,2,1,1,kilojoulePerMeterSquaredPerDay (2),,
+photosynthesis_rate,MilliMOL-PER-M2-DAY,2,1,1,millimolePerMeterSquaredPerDay (2),MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+photosynthesis_rate,MegaJ-PER-M2-DAY,1,1,1,megajoulePerMeterSquaredPerDay (1),MegaJ-PER-M2-DAY,A0E0L0I0M1H0T-3D0
+photosynthesis_rate,MilliGM-PER-M2,1,1,1,milligramsPerSquareMeter (1),MilliGM-PER-M2,A0E0L-2I0M1H0T0D0
+photosynthesis_rate,J-PER-DAY,1,1,1,joulePerDay (1),J-PER-DAY,A0E0L2I0M1H0T-3D0
+photosynthesis_rate,micromolco2/m2sec,1,1,1,micromol CO2/m2sec (1),,
+photosynthesis_rate,micromole/metersquaredpersec,1,1,1,micromolesPerMeterSquaredPerSec (1),,
+photosynthetically_active_radiation,MicroMOL-PER-M2-SEC,1065,334,25,"micromolePerMeterSquaredPerSecond (793), microeinsteinPerMeterSquaredPerSecond (126), micromolesPerMeterSquaredPerSecond (22)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+photosynthetically_active_radiation,MicroMOL-PER-M2,71,70,4,"microEinsteinsPerSquareMeter (67), micromolePerMeterSquared (2), microMolesPerSquareMeter (2)",MicroMOL-PER-M2,A1E0L-2I0M0H0T0D0
+photosynthetically_active_radiation,MilliMOL-PER-M2,91,46,7,"millimolePerMeterSquared (60), millimolesPerSquareMeter (18), mmol/m^2 (8)",MilliMOL-PER-M2,A1E0L-2I0M0H0T0D0
+photosynthetically_active_radiation,PERCENT,34,28,8,"percent (33), percentabbr. (1)",PERCENT,A0E0L0I0M0H0T0D1
+photosynthetically_active_radiation,UNITLESS,46,24,11,"dimensionless (39), none (4), ratio (3)",UNITLESS,A0E0L0I0M0H0T0D1
+photosynthetically_active_radiation,DEG,15,15,1,degree (15),DEG,A0E0L0I0M0H0T0D1
+photosynthetically_active_radiation,NUM,24,12,7,number (24),NUM,A0E0L0I0M0H0T0D1
+photosynthetically_active_radiation,micromol/metersquared.second,20,12,3,"microMolPerSquareMeterPerSecond (17), micromolPerSquareMeterPerSecond (2), micromolPerMeterSquaredPerSecond (1)",,
+photosynthetically_active_radiation,MilliMOL-PER-M2-SEC,59,10,4,"mmol/m2/s (48), millimolePerMeterSquaredPerSecond (6), milliMolePerMeterSquaredPerSecond (5)",MilliMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+photosynthetically_active_radiation,micromole/meter.secondsquared,30,10,1,micromolePerMeterPerSecondSquared (30),,
+photosynthetically_active_radiation,W-PER-M2,19,8,4,"W/m^2 (8), wattPerMeterSquared (8), W/m2 (2)",W-PER-M2,A0E0L0I0M1H0T-3D0
+photosynthetically_active_radiation,MOL-PER-M2-DAY,9,8,4,molePerMeterSquaredPerDay (9),MOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+photosynthetically_active_radiation,micromols/second/meter2,44,8,1,micromols/second/meter2 (44),,
+photosynthetically_active_radiation,DEG_C,19,4,3,"celsius (18), degreesC (1)",DEG_C,A0E0L0I0M0H1T0D0
+photosynthetically_active_radiation,gco2cm2halfhour3,8,4,1,gCO2-Cm-2half-hour-3 (8),,
+photosynthetically_active_radiation,micromolphoton/metersquared.second,3,3,1,"micromolPhotonsPerMeterSquaredPerSecond (2), micromolPhotonsPerSquareMeterPerSecond (1)",,
+photosynthetically_active_radiation,MicroMOL-PER-M2-DAY,3,3,2,micromolePerMeterSquaredPerDay (3),MicroMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+photosynthetically_active_radiation,ue,18,3,1,uE (18),,
+photosynthetically_active_radiation,MilliMOL-PER-M2-HR,8,3,1,millimolePerMeterSquaredPerHour (8),MilliMOL-PER-M2-HR,A1E0L-2I0M0H0T-1D0
+photosynthetically_active_radiation,par,2,2,1,PAR (2),,
+photosynthetically_active_radiation,umol/s/m^2,6,2,1,umol/s/m^2 (6),,
+photosynthetically_active_radiation,MOL-PER-M2,6,2,2,"molePerMeterSquared (5), molesPerMeterSquared (1)",MOL-PER-M2,A1E0L-2I0M0H0T0D0
+photosynthetically_active_radiation,kilowatt/metersquared.second,2,2,1,kilowattPerMeterSquaredPerSecond (2),,
+photosynthetically_active_radiation,MicroMOL-PER-MOL,4,2,2,"micromolePerMole (2), microMolesPerMole (2)",MicroMOL-PER-MOL,A0E0L0I0M0H0T0D1
+photosynthetically_active_radiation,micromole/micromole,6,2,1,micromolePerMicromole (6),,
+photosynthetically_active_radiation,micomole/metersquared.second,2,2,1,micomolesPerSquareMeterPerSecond (2),,
+photosynthetically_active_radiation,umolphoton/m2/second,4,2,1,umolphotons/m2/second (4),,
+photosynthetically_active_radiation,micromolephoton/metersquared.second,2,1,1,micromolePhotonsPerMeterSquaredPerSecond (2),,
+photosynthetically_active_radiation,M-PER-SEC,1,1,1,metersPerSecond (1),M-PER-SEC,A0E0L1I0M0H0T-1D0
+photosynthetically_active_radiation,ln(micromole/metersquared).second,1,1,1,ln(micromolePerSecondPerMeterSquared) (1),,
+photosynthetically_active_radiation,molquantaphoton/day.metersquared,1,1,1,MolQuantaPhotonPerMeterSquaredPerDay (1),,
+photosynthetically_active_radiation,meterstothepowerofnegative1,2,1,1,meters to the power of negative 1 (2),,
+photosynthetically_active_radiation,m1,1,1,1,m-1 (1),,
+photosynthetically_active_radiation,percentofmax,1,1,1,percent of max (1),,
+photosynthetically_active_radiation,relative,1,1,1,relative (1),,
+photosynthetically_active_radiation,varies,1,1,1,varies (1),,
+photosynthetically_active_radiation,nounit,1,1,1,no unit (1),,
+photosynthetically_active_radiation,dailylightintegral,1,1,1,Daily light integral (1),,
+photosynthetically_active_radiation,ppfd,1,1,1,PPFD (1),,
+photosynthetically_active_radiation,YR,1,1,1,nominalYear (1),YR,A0E0L0I0M0H0T1D0
+photosynthetically_active_radiation,micromolesofphoton/metersquared.second,1,1,1,micromoles of photons per square meter per second (1),,
+photosynthetically_active_radiation,photosyntheticallyactiveradiation,1,1,1,PhotosyntheticallyActiveRadiation (1),,
+photosynthetically_active_radiation,µmolphoton/metersquared.second,2,1,1,µmolPhotonsPerMeterSquaredPerSecond (2),,
+photosynthetically_active_radiation,micromole/metersquare.second,1,1,1,micromolesPerMeterSquarePerSecond (1),,
+photosynthetically_active_radiation,photosyntheticphotonfluxdensity,1,1,1,photosyntheticPhotonFluxDensity (1),,
+photosynthetically_active_radiation,CentiM,1,1,1,centimeter (1),CentiM,A0E0L1I0M0H0T0D0
+photosynthetically_active_radiation,umolphotonsm2s1,1,1,1,umolphotonsm-2s-1 (1),,
+photosynthetically_active_radiation,umolphotonsm2s2,1,1,1,umolphotonsm-2s-2 (1),,
+photosynthetically_active_radiation,umolphotonsm2s3,1,1,1,umolphotonsm-2s-3 (1),,
+photosynthetically_active_radiation,umolphotonsm2s4,1,1,1,umolphotonsm-2s-4 (1),,
+photosynthetically_active_radiation,umolphotonsm2s5,1,1,1,umolphotonsm-2s-5 (1),,
+photosynthetically_active_radiation,umolphotonsm2s6,1,1,1,umolphotonsm-2s-6 (1),,
+photosynthetically_active_radiation,umolphotonsm2s7,1,1,1,umolphotonsm-2s-7 (1),,
+photosynthetically_active_radiation,umolphotonsm2s8,1,1,1,umolphotonsm-2s-8 (1),,
+photosynthetically_active_radiation,umolphotonsm2s9,1,1,1,umolphotonsm-2s-9 (1),,
+photosynthetically_active_radiation,umolphotonsm2s10,1,1,1,umolphotonsm-2s-10 (1),,
+photosynthetically_active_radiation,umolphotonsm2s11,1,1,1,umolphotonsm-2s-11 (1),,
+photosynthetically_active_radiation,umolphotonsm2s12,1,1,1,umolphotonsm-2s-12 (1),,
+photosynthetically_active_radiation,micromolsradiationm2s1,2,1,1,micromolsradiationm-2s-1 (2),,
+photosynthetically_active_radiation,?molm2s2,13,1,1,?molm-2s-2 (13),,
+photosynthetically_active_radiation,einstein/day.metersquared,1,1,1,einsteinPerMeterSquaredPerDay (1),,
+photosynthetically_active_radiation,J-PER-MOL,1,1,1,joulePerMole (1),J-PER-MOL,A-1E0L2I0M1H0T-2D0
+photosynthetically_active_radiation,micromols/metersquare.second,1,1,1,micromols per meter square per second (1),,
+photosynthetically_active_radiation,NUM-PER-M2,1,1,1,numberPerMeterSquared (1),NUM-PER-M2,A0E0L-2I0M0H0T0D0
+photosynthetically_active_radiation,KiloPA,2,1,1,kilopascal (2),KiloPA,A0E0L-1I0M1H0T-2D0
+photosynthetically_active_radiation,MilliMOL-PER-M2-DAY,1,1,1,millimolePerMeterSquaredPerDay (1),MilliMOL-PER-M2-DAY,A1E0L-2I0M0H0T-1D0
+photosynthetically_active_radiation,molequanta/day.metersquared,1,1,1,MoleQuantaPerMeterSquaredPerDay (1),,
+photosynthetically_active_radiation,microe/m2/s,1,1,1,microE/m2/s (1),,
+photosynthetically_active_radiation,kdpar,1,1,1,KdPAR (1),,
+photosynthetically_active_radiation,MicroMOL,2,1,1,microEinstein (2),MicroMOL,A1E0L0I0M0H0T0D0
+photosynthetically_active_radiation,MOL-PER-M2-SEC,1,1,1,molePerMeterSquaredPerSecond (1),MOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+radioactivity,disintegrations/minute,24,12,1,disintegrationsPerMinute (24),,
+radioactivity,decay/liter.minute,7,3,2,"decaysPerMinutePerLiter (6), decayPerMinutePerLiter (1)",,
+radioactivity,cpma,2,2,1,CPMA (2),,
+radioactivity,becquerel/milligram,2,2,1,becquerelPerMilligram (2),,
+radioactivity,NUM-PER-MIN,9,2,2,"decayPerMinute (6), decaysPerMinute (3)",NUM-PER-MIN,A0E0L0I0M0H0T-1D0
+radioactivity,MilliGM-PER-M3-DAY,4,2,1,milligramPerMeterCubedPerDay (4),MilliGM-PER-M3-DAY,A0E0L-3I0M1H0T-1D0
+radioactivity,disintegrations/gram.minute,2,2,1,"Disintegrations per Minute per Gram (1), disintegrationsPerMinutePerGram (1)",,
+radioactivity,dpm/100l,16,1,1,dpm/100L (16),,
+radioactivity,UNITLESS,1,1,1,dimensionless (1),UNITLESS,A0E0L0I0M0H0T0D1
+radioactivity,becquerel/milliliter,8,1,1,becquerelPerMilliliter (8),,
+radioactivity,micromoleperdisintegration/minute,5,1,1,micromolePerDisintegrationPerMinute (5),,
+radioactivity,number/gram.minute,1,1,1,numberPerGramPerMinute (1),,
+radioactivity,picocuries/gram,1,1,1,picoCuriesPerGram (1),,
+radioactivity,NUM,1,1,1,number (1),NUM,A0E0L0I0M0H0T0D1
+radioactivity,YR,1,1,1,nominalYear (1),YR,A0E0L0I0M0H0T1D0
+radioactivity,decay/day.metersquared.minute,2,1,1,decaysPerMinutePerMeterSquaredPerDay (2),,
+radioactivity,microbecquerel/gram,1,1,1,microbecquerelPerGram (1),,
+radioactivity,becquerel/gram,1,1,1,becquerelPerGram (1),,
+radioactivity,pci/kg,1,1,1,pCi/kg (1),,
+soil_moisture,PERCENT,1493,180,19,"percent (973), percentabbr. (295), % (213)",PERCENT,A0E0L0I0M0H0T0D1
+soil_moisture,UNITLESS,1824,148,14,"dimensionless (1823), unitless (1)",UNITLESS,A0E0L0I0M0H0T0D1
+soil_moisture,M3-PER-M3,1090,142,12,"cubicMeterPerCubicMeter (620), meterCubedPerMeterCubed (454), m^3/m^3 (9)",M3-PER-M3,A0E0L0I0M0H0T0D1
+soil_moisture,DeciS-PER-M,624,30,1,decisiemensPerMeter (624),DeciS-PER-M,A0E2L-3I0M-1H0T3D0
+soil_moisture,MicroS,624,30,1,microsiemens (624),MicroS,A0E2L-2I0M-1H0T3D0
+soil_moisture,NUM,54,21,11,number (54),NUM,A0E0L0I0M0H0T0D1
+soil_moisture,GM-PER-GM,28,20,7,"gramsPerGram (17), gramPerGram (11)",GM-PER-GM,A0E0L0I0M0H0T0D1
+soil_moisture,CentiM3-PER-CentiM3,128,18,7,"cm3/cm3 (67), cubicCentimetersPerCubicCentimeters (52), centimeterCubedPerCentimeterCubed (6)",CentiM3-PER-CentiM3,A0E0L0I0M0H0T0D1
+soil_moisture,percentg/g,12,12,1,percent g/g (12),,
+soil_moisture,GM,24,11,6,"gram (23), grams (1)",GM,A0E0L0I0M1H0T0D0
+soil_moisture,waterfractionbyvolume,16,8,1,waterFractionByVolume (16),,
+soil_moisture,FRACTION,55,8,3,"fraction (53), proportion (2)",FRACTION,A0E0L0I0M0H0T0D1
+soil_moisture,decimalfraction,8,5,1,decimalFraction (8),,
+soil_moisture,decimalpercent,15,4,2,decimalPercent (15),,
+soil_moisture,MicroSEC,11,4,4,"microsecond (9), usec (2)",MicroSEC,A0E0L0I0M0H0T1D0
+soil_moisture,V,15,4,3,volt (15),V,A0E-1L2I0M1H0T-3D0
+soil_moisture,GM-PER-HectoGM,10,4,1,"gramsPerHectograms (7), gramsPerHectogram (3)",GM-PER-HectoGM,A0E0L0I0M0H0T0D1
+soil_moisture,GM-PER-CentiM3,7,3,2,"gramsPerCubicCentimeter (6), gramPerCentimeterCubed (1)",GM-PER-CentiM3,A0E0L-3I0M1H0T0D0
+soil_moisture,MilliV,4,3,2,millivolt (4),MilliV,A0E-1L2I0M1H0T-3D0
+soil_moisture,BAR,21,3,2,"bar (18), bars (3)",BAR,A0E0L-1I0M1H0T-2D0
+soil_moisture,KiloPA,3,2,2,"kilopascal (2), kPa (1)",KiloPA,A0E0L-1I0M1H0T-2D0
+soil_moisture,MilliM,10,2,2,millimeter (10),MilliM,A0E0L1I0M0H0T0D0
+soil_moisture,M,2,2,2,meter (2),M,A0E0L1I0M0H0T0D0
+soil_moisture,CentiM,12,2,1,centimeter (12),CentiM,A0E0L1I0M0H0T0D0
+soil_moisture,vwc%,3,2,1,VWC% (3),,
+soil_moisture,volumetricsoilwatercontent,2,1,1,volumetric soil water content (2),,
+soil_moisture,DEG_C,1,1,1,celsius (1),DEG_C,A0E0L0I0M0H1T0D0
+soil_moisture,inchcubed,1,1,1,inchCubed (1),,
+soil_moisture,gramwater/gramsoil,1,1,1,gram water per gram soil (1),,
+soil_moisture,gwaterpergdrysoil,1,1,1,g water per g dry soil (1),,
+soil_moisture,volumetricmoisturecontent,2,1,1,Volumetric Moisture Content (2),,
+soil_moisture,percentbyvolume,1,1,1,Percent by volume (1),,
+soil_moisture,pvwc,1,1,1,PVWC (1),,
+soil_moisture,UNKNOWN,1,1,1,Unknown (1),UNKNOWN,NotApplicable
+soil_moisture,N-PER-A,1,1,1,N/A (1),N-PER-A,A0E-1L1I0M1H0T-2D0
+soil_moisture,milliliter/milliliter,1,1,1,millilitersPerMilliliter (1),,
+soil_moisture,gwater/cm^2,1,1,1,g water / cm^2 (1),,
+soil_moisture,integer,3,1,1,integer (3),,
+soil_moisture,pressureinbar,4,1,1,pressure in bars (4),,
+soil_moisture,MilliGM-PER-M2-HR,2,1,1,milligramPerMeterSquaredPerHour (2),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+soil_moisture,%volumetricmoisturecontent,1,1,1,%volumetricmoisturecontent (1),,
+soil_moisture,volumetricsoilmoisture,1,1,1,Volumetricsoilmoisture (1),,
+soil_moisture,%volumetricwatercontent,4,1,1,%volumetricwatercontent (4),,
+soil_moisture,m3m3,2,1,1,m3m-3 (2),,
+soil_moisture,V-PER-V,2,1,1,v/v (2),V-PER-V,A0E0L0I0M0H0T0D1
+soil_moisture,percentwater,1,1,1,percentwater (1),,
+soil_moisture,MilliL,1,1,1,milliliter (1),MilliL,A0E0L3I0M0H0T0D0
+soil_moisture,m3perm3,3,1,1,M3-PER-M3 (3),,
+soil_moisture,L-PER-DAY,2,1,1,litersPerDay (2),L-PER-DAY,A0E0L3I0M0H0T-1D0
+soil_moisture,MilliGM-PER-GM,1,1,1,milligramPerGram (1),MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+soil_moisture,MicroGM-PER-GM,2,1,1,microgramsPerGram (2),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+soil_moisture,KiloGM-PER-M2,1,1,1,kilogramsPerSquareMeter (1),KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+soil_moisture,g/gsoil,2,1,1,g/g soil (2),,
+soil_moisture,m3/m3,1,1,1,m3/m3 (1),,
+soil_moisture,metercubedwater/metercubedsoil,1,1,1,meterCubedWaterPerMeterCubedSoil (1),,
+soil_moisture,MilliS-PER-CentiM,1,1,1,millisiemenPerCentimeter (1),MilliS-PER-CentiM,A0E2L-3I0M-1H0T3D0
+soil_organic_carbon,PERCENT,62,46,14,"percent (53), percent (%) (3), percentabbr. (3)",PERCENT,A0E0L0I0M0H0T0D1
+soil_organic_carbon,UNITLESS,57,35,12,"dimensionless (53), ratio (4)",UNITLESS,A0E0L0I0M0H0T0D1
+soil_organic_carbon,GM-PER-M2,139,30,1,gramPerMeterSquared (139),GM-PER-M2,A0E0L-2I0M1H0T0D0
+soil_organic_carbon,NUM,14,9,5,number (14),NUM,A0E0L0I0M0H0T0D1
+soil_organic_carbon,MilliGM-PER-GM,15,7,4,"milligramPerGram (7), Milligram per gram (4), milligramsPerGram (4)",MilliGM-PER-GM,A0E0L0I0M0H0T0D1
+soil_organic_carbon,PPTH,22,5,1,"per mil (18), permil (4)",PPTH,A0E0L0I0M0H0T0D1
+soil_organic_carbon,MilliGM-PER-KiloGM,3,3,2,milligramPerKilogram (3),MilliGM-PER-KiloGM,A0E0L0I0M0H0T0D1
+soil_organic_carbon,GM-PER-KiloGM,3,3,2,"gram per kilogram (1), gramsPerKilogram (1), gramsPerKiloGram (1)",GM-PER-KiloGM,A0E0L0I0M0H0T0D1
+soil_organic_carbon,GM,10,3,2,gram (10),GM,A0E0L0I0M1H0T0D0
+soil_organic_carbon,decigram/kilogram,2,2,1,decigrams per kilogram (2),,
+soil_organic_carbon,mgha1,3,2,1,Mg ha-1 (3),,
+soil_organic_carbon,kgm2,6,2,2,"kg m-2 (5), kgm-2 (1)",,
+soil_organic_carbon,TONNE-PER-HA,4,2,1,"megagramPerHectare (2), tonnePerHectare (2)",TONNE-PER-HA,A0E0L-2I0M1H0T0D0
+soil_organic_carbon,KiloGM-PER-M2,2,2,2,"kilogramPerMeterSquared (1), kilogramsPerSquareMeter (1)",KiloGM-PER-M2,A0E0L-2I0M1H0T0D0
+soil_organic_carbon,GM-PER-CentiM3,2,2,2,gramPerCentimeterCubed (2),GM-PER-CentiM3,A0E0L-3I0M1H0T0D0
+soil_organic_carbon,GM-PER-GM,2,2,2,"gramPerGram (1), gramsPerGram (1)",GM-PER-GM,A0E0L0I0M0H0T0D1
+soil_organic_carbon,gcarbon/m^2,3,2,1,gcarbon/m^2 (3),,
+soil_organic_carbon,GM_Nitrogen-PER-M2-DAY,3,2,1,gnitrogen/m^2 (3),GM_Nitrogen-PER-M2-DAY,A0E0L-2I0M1H0T-1D0
+soil_organic_carbon,GM-PER-HectoGM,2,2,1,gramsPerHectograms (2),GM-PER-HectoGM,A0E0L0I0M0H0T0D1
+soil_organic_carbon,megagramperpixel,2,1,1,Megagrams per pixel (2),,
+soil_organic_carbon,MicroGM-PER-GM,1,1,1,microgramPerGram (1),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+soil_organic_carbon,massratio,1,1,1,Mass ratio (1),,
+soil_organic_carbon,standardizedparameterestimate,7,1,1,Standardized parameter estimate (7),,
+soil_organic_carbon,stand,1,1,1,Stand (1),,
+soil_organic_carbon,microgramsnasnh4/day.gramsoilorganicmatter,1,1,1,micrograms N as NH4 per gram soil organic matter per day (1),,
+soil_organic_carbon,microgramsnasno3/day.gramsoilorganicmatter,1,1,1,micrograms N as NO3 per gram soil organic matter per day (1),,
+soil_organic_carbon,microgramsnasnh4+no3/day.gramsoilorganicmatter,1,1,1,micrograms N as NH4 + NO3 per gram soil organic matter per day (1),,
+soil_organic_carbon,N-PER-A,2,1,1,N/A (2),N-PER-A,A0E-1L1I0M1H0T-2D0
+soil_organic_carbon,carbonperunitnitrogen,1,1,1,carbon per unit nitrogen (1),,
+soil_organic_carbon,mgcg1soil,4,1,1,mg C g-1 soil (4),,
+soil_organic_carbon,kgcm2,10,1,1,kg C m-2 (10),,
+soil_organic_carbon,tha1,1,1,1,t ha-1 (1),,
+soil_organic_carbon,kilogramcarbon/hectare.year,4,1,1,kilogram carbon per hectare per year (4),,
+soil_organic_carbon,plot,4,1,1,plot (4),,
+soil_organic_carbon,megagramcarbon/hectare,2,1,1,Megagram carbon per hectare (2),,
+soil_organic_carbon,na,4,1,1,NA (4),,
+soil_organic_carbon,mgperha,15,1,1,Mg per ha (15),,
+soil_organic_carbon,mgperg,1,1,1,mg per g (1),,
+soil_organic_carbon,gramorganicmatter/gramsoil,1,1,1,gram organic matter per gram soil (1),,
+soil_organic_carbon,MegaGM-PER-HA,2,1,1,Mega gram per hectare (2),MegaGM-PER-HA,A0E0L-2I0M1H0T0D0
+soil_organic_carbon,multipleunits,10,1,1,Multiple units (10),,
+soil_organic_carbon,multipleunitsforsocvariability.,1,1,1,Multiple units for SOC variability. (1),,
+soil_organic_carbon,MilliGM-PER-DAY,1,1,1,milligramsPerDay (1),MilliGM-PER-DAY,A0E0L0I0M1H0T-1D0
+soil_organic_carbon,MilliGM,1,1,1,milligram (1),MilliGM,A0E0L0I0M1H0T0D0
+soil_organic_carbon,TONNE,1,1,1,tonne (1),TONNE,A0E0L0I0M1H0T0D0
+soil_organic_carbon,mgorganicmatter/cm^2,1,1,1,mg organic matter / cm^2 (1),,
+soil_organic_carbon,gramcarbon/kilogramdrysoil,1,1,1,gramCarbonPerKilogramDrySoil (1),,
+soil_organic_carbon,mg/gofsoil,1,1,1,mg/gofsoil (1),,
+soil_organic_carbon,GM-PER-M2-YR,1,1,1,gramPerMeterSquaredPerYear (1),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+soil_organic_carbon,CentiM,2,1,1,centimeter (2),CentiM,A0E0L1I0M0H0T0D0
+soil_organic_carbon,MilliGM-PER-L,1,1,1,milligramsPerLiter (1),MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+soil_organic_carbon,mgc/gsoil,1,1,1,mg C/g soil (1),,
+soil_organic_carbon,nanogram/gram.hour,1,1,1,nanogramPerGramPerHour (1),,
+soil_respiration,GM-PER-M2,56,29,2,"gramPerMeterSquared (54), gramsPerSquareMeter (2)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+soil_respiration,MicroMOL-PER-M2-SEC,36,17,7,"micromolePerMeterSquaredPerSecond (34), MicromolePerSecondPerSquareMeter (1), micromolePerSquareMeterPerSecond (1)",MicroMOL-PER-M2-SEC,A1E0L-2I0M0H0T-1D0
+soil_respiration,UNITLESS,8,7,4,"dimensionless (7), None (1)",UNITLESS,A0E0L0I0M0H0T0D1
+soil_respiration,DEG_C,12,6,3,celsius (12),DEG_C,A0E0L0I0M0H1T0D0
+soil_respiration,MilliGM-PER-M2-HR,33,6,1,milligramPerMeterSquaredPerHour (33),MilliGM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+soil_respiration,micromole/molesquared.second,5,5,1,micromolesPerMoleSquaredPerSecond (5),,
+soil_respiration,MilliGM-PER-KiloGM-DAY,4,4,1,"milligramPerKilogramPerDay (3), milliGramPerKilogramPerDay (1)",MilliGM-PER-KiloGM-DAY,A0E0L0I0M0H0T-1D0
+soil_respiration,microgram/hour.metersquared,4,2,2,"microgramPerMeterSquaredPerHour (3), microgram PerMeterSquared PerHour (1)",,
+soil_respiration,PERCENT,7,2,2,percent (7),PERCENT,A0E0L0I0M0H0T0D1
+soil_respiration,MicroGM-PER-GM-HR,10,2,2,microgramPerGramPerHour (10),MicroGM-PER-GM-HR,A0E0L0I0M0H0T-1D0
+soil_respiration,GM-PER-M2-YR,4,2,2,gramPerMeterSquaredPerYear (4),GM-PER-M2-YR,A0E0L-2I0M1H0T-1D0
+soil_respiration,GM-PER-M2-HR,2,2,2,"gramsPerMeterSquaredPerHour (1), gramsPerSquareMeterPerHour (1)",GM-PER-M2-HR,A0E0L-2I0M1H0T-1D0
+soil_respiration,MilliM,3,2,2,millimeter (3),MilliM,A0E0L1I0M0H0T0D0
+soil_respiration,umolco2m2s1,1,1,1,umol CO2 m-2 s-1 (1),,
+soil_respiration,nounit,1,1,1,no unit (1),,
+soil_respiration,TONNE-PER-HA-YR,1,1,1,megagramPerHectarePerYear (1),TONNE-PER-HA-YR,A0E0L-2I0M1H0T-1D0
+soil_respiration,µgcco2/gc,1,1,1,µg C-CO2 / g C (1),,
+soil_respiration,MicroGM-PER-GM,1,1,1,microgramPerGram (1),MicroGM-PER-GM,A0E0L0I0M0H0T0D1
+soil_respiration,becquerel/milliliter,2,1,1,becquerelPerMilliliter (2),,
+soil_respiration,GM-PER-MilliL,2,1,1,gramPerMilliliter (2),GM-PER-MilliL,A0E0L-3I0M1H0T0D0
+soil_respiration,becquerel/gram,2,1,1,becquerelPerGram (2),,
+soil_respiration,mgcm^2h^1,2,1,1,mgCm^-2h^-1 (2),,
+soil_respiration,ugco2c/gsoildwt/day,4,1,1,ugCO2-C/gsoilDWT/day (4),,
+soil_respiration,ugco2c/gsoildwt,3,1,1,ugCO2-C/gsoilDWT (3),,
+soil_respiration,PPTH,1,1,1,permil (1),PPTH,A0E0L0I0M0H0T0D1
+soil_respiration,micromole/meter.secondsquared,2,1,1,micromolePerMeterPerSecondSquared (2),,
+soil_respiration,milligramcarbon/gramdrysoil.hour,1,1,1,milligramCarbonPerGramDrySoilPerHour (1),,
+soil_respiration,milligramcarbonpergenecopy/hour,1,1,1,milligramCarbonPerGeneCopyPerHour (1),,
+soil_respiration,DAY,1,1,1,nominalDay (1),DAY,A0E0L0I0M0H0T1D0
+soil_respiration,gram/metersquared.second,1,1,1,gramPerMeterSquaredPerSecond (1),,
+soil_respiration,MilliGM-PER-M2-SEC,1,1,1,milligramPerMeterSquaredPerSecond (1),MilliGM-PER-M2-SEC,A0E0L-2I0M1H0T-1D0
+soil_respiration,gram/meter.second,1,1,1,gramPerMeterPerSecond (1),,
+soil_respiration,micromolco2/m2sec,2,1,1,micromol CO2/m2sec (2),,
+specific_leaf_area,CentiM2-PER-GM,53,42,13,"centimeterSquaredPerGram (18), centimetersSquaredPerGram (15), cm2/g (6)",CentiM2-PER-GM,A0E0L2I0M-1H0T0D0
+specific_leaf_area,GM-PER-CentiM2,9,8,5,"gramPercentimeterSquared (3), gramPerCentimeterSquared (3), gramsPerSquareCentimeter (2)",GM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+specific_leaf_area,GM-PER-M2,9,8,4,"gramPerMeterSquared (5), gramsPerSquareMeter (4)",GM-PER-M2,A0E0L-2I0M1H0T0D0
+specific_leaf_area,M2-PER-KiloGM,14,6,5,"meterSquaredPerKilogram (7), squareMeterPerKilogram (7)",M2-PER-KiloGM,A0E0L2I0M-1H0T0D0
+specific_leaf_area,GM,9,5,4,gram (9),GM,A0E0L0I0M1H0T0D0
+specific_leaf_area,CentiM2,3,3,2,"squareCentimeters (2), centimeterSquared (1)",CentiM2,A0E0L2I0M0H0T0D0
+specific_leaf_area,cm2g1,2,2,1,cm2 g-1 (2),,
+specific_leaf_area,sla,2,2,1,SLA (2),,
+specific_leaf_area,centimeter/gram,2,2,2,"centimeterPerGram (1), centimetersPerGram (1)",,
+specific_leaf_area,M2-PER-GM,2,2,2,"squareMeterPerGram (1), squareMetersPerGram (1)",M2-PER-GM,A0E0L2I0M-1H0T0D0
+specific_leaf_area,mm^2g^1,1,1,1,mm^2 g^-1 (1),,
+specific_leaf_area,cwmslacm2g,1,1,1,cwm_SLA_cm2_g (1),,
+specific_leaf_area,g/cmsquared,1,1,1,g/cmSQUARED (1),,
+specific_leaf_area,mm2mg1(leafarea/leafdrymass),2,1,1,mm2 mg-1 (leaf area / leaf dry mass) (2),,
+specific_leaf_area,CentiM,12,1,1,centimeter (12),CentiM,A0E0L1I0M0H0T0D0
+specific_leaf_area,millimetersquared/milligram,3,1,1,millimeterSquaredPerMilligram (3),,
+specific_leaf_area,MilliGM-PER-CentiM2,1,1,1,mg/cm^2 (1),MilliGM-PER-CentiM2,A0E0L-2I0M1H0T0D0
+specific_leaf_area,gram/centimetersquared.second,1,1,1,gramsPerCentimeterSquaredPerSecond (1),,
+specific_leaf_area,YR,1,1,1,nominalYear (1),YR,A0E0L0I0M0H0T1D0
+specific_leaf_area,cm^2/g,1,1,1,cm^2/g (1),,
+specific_leaf_area,centimetercubed/gram*100,1,1,1,centimeterCubedPerGram*100 (1),,
+specific_leaf_area,CentiM3-PER-GM,1,1,1,cubicCentimetersPerGram (1),CentiM3-PER-GM,A0E0L3I0M-1H0T0D0
+specific_leaf_area,UNITLESS,1,1,1,dimensionless (1),UNITLESS,A0E0L0I0M0H0T0D1
+specific_leaf_area,centimeteredsquared/gram,1,1,1,centimeteredSquaredperGram (1),,
+specific_leaf_area,metersquared/gram(m2g−1),1,1,1,SquareMeterPerGram (m2 g−1) (1),,
+specific_leaf_area,centimetersquared/gram(cm²/g),1,1,1,squareCentimeterPergram (cm²/g) (1),,
+specific_leaf_area,mm2mg1,1,1,1,mm2_mg-1 (1),,
+stream_discharge,L-PER-SEC,279,159,14,"literPerSecond (211), litersPerSecond (61), liters per second (6)",L-PER-SEC,A0E0L3I0M0H0T-1D0
+stream_discharge,M3-PER-SEC,258,113,13,"cubicMetersPerSecond (142), meterCubedPerSecond (114), cubicmeterPerSecond (1)",M3-PER-SEC,A0E0L3I0M0H0T-1D0
+stream_discharge,FT3-PER-SEC,46,33,8,"cubicFeetPerSecond (23), footCubedPerSecond (19), cubic feet per second (2)",FT3-PER-SEC,A0E0L3I0M0H0T-1D0
+stream_discharge,UNITLESS,63,25,8,"dimensionless (57), unitless (4), none (1)",UNITLESS,A0E0L0I0M0H0T0D1
+stream_discharge,M3,11,11,3,"cubicMeter (10), meterCubed (1)",M3,A0E0L3I0M0H0T0D0
+stream_discharge,M,6,5,2,meter (6),M,A0E0L1I0M0H0T0D0
+stream_discharge,MilliM,13,5,3,millimeter (13),MilliM,A0E0L1I0M0H0T0D0
+stream_discharge,L,6,5,3,liter (6),L,A0E0L3I0M0H0T0D0
+stream_discharge,MilliM-PER-DAY,11,4,3,millimeterPerDay (11),MilliM-PER-DAY,A0E0L1I0M0H0T-1D0
+stream_discharge,M3-PER-DAY,6,4,4,"MeterCubedPerDay (3), cubicMetersPerDay (2), meterCubedPerDay (1)",M3-PER-DAY,A0E0L3I0M0H0T-1D0
+stream_discharge,m3/s,4,4,1,m3/s (4),,
+stream_discharge,PERCENT,5,3,2,percent (5),PERCENT,A0E0L0I0M0H0T0D1
+stream_discharge,centimeter/day,4,3,1,centimeterPerDay (4),,
+stream_discharge,CentiM,8,3,2,"centimeters (7), centimeter (1)",CentiM,A0E0L1I0M0H0T0D0
+stream_discharge,NUM,9,3,3,number (9),NUM,A0E0L0I0M0H0T0D1
+stream_discharge,M2-PER-SEC,2,2,2,"meterSquaredPerSecond (1), metersSquaredPerSecond (1)",M2-PER-SEC,A0E0L2I0M0H0T-1D0
+stream_discharge,kilometercubed,3,2,1,kilometerCubed (3),,
+stream_discharge,L-PER-DAY,1,1,1,literPerDay (1),L-PER-DAY,A0E0L3I0M0H0T-1D0
+stream_discharge,M-PER-HA,1,1,1,metersPerHectare (1),M-PER-HA,A0E0L-1I0M0H0T0D0
+stream_discharge,dayofyear,1,1,1,dayOfYear (1),,
+stream_discharge,m3persec,1,1,1,M3-PER-SEC (1),,
+stream_discharge,M-PER-SEC,1,1,1,meterPerSecond (1),M-PER-SEC,A0E0L1I0M0H0T-1D0
+stream_discharge,cfs,1,1,1,cfs (1),,
+stream_discharge,MilliM-PER-SEC,1,1,1,millimeterPerSecond (1),MilliM-PER-SEC,A0E0L1I0M0H0T-1D0
+stream_discharge,PER-DAY,1,1,1,perDay (1),PER-DAY,A0E0L0I0M0H0T-1D0
+stream_discharge,m3s1,1,1,1,m3 s-1 (1),,
+stream_discharge,DAY,1,1,1,nominalDay (1),DAY,A0E0L0I0M0H0T1D0
+stream_discharge,M-PER-DAY,1,1,1,meterPerDay (1),M-PER-DAY,A0E0L1I0M0H0T-1D0
+stream_discharge,MilliM-PER-HR,5,1,1,millimetersPerHour (5),MilliM-PER-HR,A0E0L1I0M0H0T-1D0
+stream_discharge,MilliGM-PER-L,1,1,1,milligramsPerLiter (1),MilliGM-PER-L,A0E0L-3I0M1H0T0D0
+stream_discharge,DEG,1,1,1,degree (1),DEG,A0E0L0I0M0H0T0D1
+stream_discharge,KiloGM,1,1,1,kilograms (1),KiloGM,A0E0L0I0M1H0T0D0
+stream_discharge,megaliter/kilometersquared,1,1,1,megaLiterPerKilometerSquared (1),,
+stream_discharge,lpersec,2,1,1,L-PER-SEC (2),,
+stream_discharge,millimeter/day.hour,2,1,1,millimeterPerHourPerDay (2),,
+stream_discharge,metercubed/month,1,1,1,cubicMeterPerMonth (1),,
+stream_discharge,metercubedper90day,2,1,1,meterCubedPer90Day (2),,
+stream_discharge,metercubedper180day,2,1,1,meterCubedPer180Day (2),,
+stream_discharge,metercubedper265day,2,1,1,meterCubedPer265Day (2),,
+stream_discharge,M3-PER-HR,7,1,1,cubicMetersPerHour (7),M3-PER-HR,A0E0L3I0M0H0T-1D0
+stream_discharge,m6/hr2,1,1,1,m6/hr2 (1),,
+stream_discharge,M3-PER-YR,1,1,1,meterCubedPerYear (1),M3-PER-YR,A0E0L3I0M0H0T-1D0
+stream_discharge,MilliM-PER-YR,1,1,1,millimeterPerYear (1),MilliM-PER-YR,A0E0L1I0M0H0T-1D0
+stream_discharge,MicroMOL-PER-L,1,1,1,micromolePerLiter (1),MicroMOL-PER-L,A1E0L-3I0M0H0T0D0
+stream_discharge,cum/hour,1,1,1,cu m/hour (1),,
+stream_discharge,AC,1,1,1,acre (1),AC,A0E0L2I0M0H0T0D0
+stream_discharge,KiloM2,1,1,1,squareKilometers (1),KiloM2,A0E0L2I0M0H0T0D0

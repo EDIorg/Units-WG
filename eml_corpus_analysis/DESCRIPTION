@@ -1,0 +1,51 @@
+Package: emlcorpus
+Title: Units and Ecological Context in the EDI EML Corpus
+Version: 0.1.0
+Authors@R:
+    person("EDI Units Working Group", role = c("aut", "cre"))
+Description: Reproducible analysis of units of measure and their ecological
+    context in Ecological Metadata Language (EML) records from the
+    Environmental Data Initiative repository. Supports evidence-based
+    proposals of QUDT QuantityKinds with ecological context and rules for
+    associating them with units.
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.4.0)
+Imports:
+    config,
+    crew,
+    DBI,
+    digest,
+    dplyr,
+    duckdb,
+    here,
+    httr2,
+    jsonlite,
+    purrr,
+    readr,
+    sessioninfo,
+    stringr,
+    tarchetypes,
+    targets,
+    tibble,
+    tidyr,
+    tidytext,
+    xml2
+Suggests:
+    crosstalk,
+    ellmer,
+    htmltools,
+    lintr,
+    pkgload,
+    plotly,
+    quarto,
+    reactable,
+    rprojroot,
+    styler,
+    testthat (>= 3.0.0),
+    visNetwork,
+    withr
+Config/testthat/edition: 3

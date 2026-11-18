@@ -1,0 +1,253 @@
+vocabulary,value,value_uri,attributes,datasets,units
+ECSO,date and time of measurement,http://purl.dataone.org/odo/ECSO_00002043,202,67,
+ECSO,study location name,http://purl.dataone.org/odo/ECSO_00002768,133,67,
+Darwin Core,eventID,http://rs.tdwg.org/dwc/terms/eventID,391,66,
+Darwin Core,eventDate,http://rs.tdwg.org/dwc/terms/eventDate,131,66,
+Darwin Core,decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,131,66,DEG (131)
+Darwin Core,decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,131,66,DEG (131)
+Darwin Core,occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,261,66,
+Darwin Core,basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,131,66,
+Darwin Core,scientificName,http://rs.tdwg.org/dwc/terms/scientificName,131,66,
+Darwin Core,taxonID,http://rs.tdwg.org/dwc/terms/taxonID,131,66,
+Darwin Core,scientificNameID,http://rs.tdwg.org/dwc/terms/scientificNameID,131,66,
+Darwin Core,measurementType,http://rs.tdwg.org/dwc/terms/measurementType,131,66,
+Darwin Core,measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,131,66,NUM (131)
+Darwin Core,measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,131,66,
+ECSO,latitude coordinate,http://purl.dataone.org/odo/ECSO_00002130,131,66,DEG (131)
+ECSO,longitude coordinate,http://purl.dataone.org/odo/ECSO_00002132,131,66,DEG (131)
+Darwin Core,datasetName,http://rs.tdwg.org/dwc/terms/datasetName,130,65,
+Darwin Core,samplingProtocol,http://rs.tdwg.org/dwc/terms/samplingProtocol,130,65,
+Darwin Core,georeferenceRemarks,http://rs.tdwg.org/dwc/terms/georeferenceRemarks,130,65,
+Darwin Core,nameAccordingTo,http://rs.tdwg.org/dwc/terms/nameAccordingTo,130,65,
+ECSO,study location identifier,http://purl.dataone.org/odo/ECSO_00002767,424,65,
+ECSO,elevation,http://purl.dataone.org/odo/ECSO_00001567,130,65,M (130)
+ECSO,taxonomic classification,http://purl.dataone.org/odo/ECSO_00002730,260,65,
+ECSO,taxon code,http://purl.dataone.org/odo/ECSO_00002608,130,65,
+ECSO,data source,http://purl.dataone.org/odo/ECSO_00002744,130,65,
+ECSO,number of years,http://purl.dataone.org/odo/ECSO_00001636,260,65,YR (260)
+ECSO,Sampling Site Area,http://purl.dataone.org/odo/ECSO_00001152,130,65,M (130)
+ECSO,observer name,http://purl.dataone.org/odo/ECSO_00002451,36,18,
+ECSO,Water Temperature,http://purl.dataone.org/odo/ECSO_00001227,11,7,DEG_C (11)
+ECSO,Water Temperature,https://purl.dataone.org/odo/ECSO_00001227,11,6,DEG_C (11)
+ECSO,date,http://purl.dataone.org/odo/ECSO_00002051,22,6,
+ECSO,dissolved organic carbon,http://purl.dataone.org/odo/ECSO_00000571,8,5,"MilliGM-PER-L (3), MilliGM-PER-GM (2), MilliGM-PER-M2 (2), PPM (1)"
+ECSO,water pressure,https://purl.dataone.org/odo/ECSO_00001568,5,5,"KiloPA (4), DeciBAR (1)"
+ECSO,site identifier,http://purl.dataone.org/odo/ECSO_00002997,13,5,
+ECSO,dissolved organic carbon,https://purl.dataone.org/odo/ECSO_00000571,5,4,"MilliGM-PER-L (4), MicroMOL-PER-L (1)"
+ECSO,carbon dioxide partial pressure,https://purl.dataone.org/odo/ECSO_00000636,7,4,MicroATM (7)
+ECSO,dissolved oxygen concentration,https://purl.dataone.org/odo/ECSO_00001669,4,4,MilliGM-PER-L (4)
+ECSO,year of measurement,http://purl.dataone.org/odo/ECSO_00002050,8,4,
+ECSO,type of habitat,http://purl.dataone.org/odo/ECSO_00002736,5,4,
+ECSO,d13C,https://purl.dataone.org/odo/ECSO_00000669,3,3,PPTH (3)
+ECSO,d15N,https://purl.dataone.org/odo/ECSO_00001738,3,3,PPTH (3)
+ECSO,carbon to nitrogen molar ratio,https://purl.dataone.org/odo/ECSO_00000639,3,3,UNITLESS (3)
+ECSO,chlorophyll-a,https://purl.dataone.org/odo/ECSO_00000563,6,3,"MicroGM-PER-L (3), MicroGM-PER-CentiM2 (1), MicroGM-PER-GM (1), MilliGM-PER-M2 (1)"
+ECSO,organic carbon percentage in soil,http://purl.dataone.org/odo/ECSO_00000648,3,3,PERCENT (3)
+ECSO,water salinity,http://purl.dataone.org/odo/ECSO_00001164,3,3,UNITLESS (3)
+ECSO,family name,http://purl.dataone.org/odo/ECSO_00002733,3,3,
+ECSO,air temperature,http://purl.dataone.org/odo/ECSO_00001225,4,2,DEG_C (4)
+ECSO,photosynthetically active radiation,http://purl.dataone.org/odo/ECSO_00001573,2,2,"MicroMOL-PER-M2-DAY (1), MicroMOL-PER-M2-SEC (1)"
+ECSO,carbon to nitrogen molar ratio,http://purl.dataone.org/odo/ECSO_00000639,2,2,UNITLESS (2)
+ECSO,14C uncalibrated age,http://purl.dataone.org/odo/ECSO_00002300,2,2,YR (2)
+ECSO,D14C,http://purl.dataone.org/odo/ECSO_00000668,2,2,PPTH (2)
+ECSO,d13C,http://purl.dataone.org/odo/ECSO_00000669,2,2,PPTH (2)
+ECSO,carbon percentage,https://purl.dataone.org/odo/ECSO_00001127,2,2,PERCENT (2)
+ECSO,nitrogen percentage,https://purl.dataone.org/odo/ECSO_00001145,2,2,PERCENT (2)
+ECSO,total dissolved nitrogen concentration,https://purl.dataone.org/odo/ECSO_00002020,2,2,"MicroMOL-PER-L (1), MilliGM-PER-L (1)"
+ECSO,soil temperature,http://purl.dataone.org/odo/ECSO_00001230,2,2,DEG_C (2)
+ECSO,water discharge,http://purl.dataone.org/odo/ECSO_00002410,3,2,"kilometercubed (2), MilliM (1)"
+ECSO,Subsurface Runoff MOV,http://purl.dataone.org/odo/ECSO_00000074,2,2,"milimeter/month (1), MilliM (1)"
+ECSO,snow depth,http://purl.dataone.org/odo/ECSO_00001205,5,2,"M (4), CentiM (1)"
+ECSO,dissolved oxygen saturation,https://purl.dataone.org/odo/ECSO_00002386,2,2,PERCENT (2)
+ECSO,Gross Primary Production Carbon Flux,https://purl.dataone.org/odo/ECSO_00000020,2,2,MOL-PER-M2-DAY (2)
+ENVO,ecosystem-wide respiration,https://purl.obolibrary.org/obo/ENVO_02500008,2,2,MOL-PER-M2-DAY (2)
+Other,net ecosystem production,https://vocabs.lter-europe.net/EnvThes/21078,2,2,MOL-PER-M2-DAY (2)
+Other OBO,salinity,http://purl.obolibrary.org/obo/MESH_D054712,2,2,PPTH (2)
+ECSO,turbidity,http://purl.dataone.org/odo/ECSO_00002359,2,2,NTU (2)
+Other OBO,undecanoic acid,http://purl.obolibrary.org/obo/CHEBI_32368,2,2,PERCENT (2)
+Other OBO,lauric acid,http://purl.obolibrary.org/obo/NCIT_C68384,2,2,PERCENT (2)
+Other,myristic acid,http://purl.bioontology.org/ontology/MESH/D019814,2,2,PERCENT (2)
+Other OBO,pentadecanoic acid,http://purl.obolibrary.org/obo/CHEBI_42504,2,2,PERCENT (2)
+Other OBO,10(Z)-pentadecenoic acid,http://purl.obolibrary.org/obo/CHEBI_75087,2,2,PERCENT (2)
+Other OBO,palmitic acid,http://purl.obolibrary.org/obo/CHEBI_15756,2,2,PERCENT (2)
+Other OBO,palmitoleic acid,http://purl.obolibrary.org/obo/NCIT_C68408,2,2,PERCENT (2)
+Other OBO,margaric acid,http://purl.obolibrary.org/obo/NCIT_C68389,2,2,PERCENT (2)
+Other OBO,trans-10-heptadecenoic acid,http://purl.obolibrary.org/obo/CHEBI_75097,2,2,PERCENT (2)
+Other OBO,stearic acid,http://purl.obolibrary.org/obo/NCIT_C68426,2,2,PERCENT (2)
+Other,oleic acid,http://purl.bioontology.org/ontology/MESH/D019301,2,2,PERCENT (2)
+Other OBO,vaccenic acid,http://purl.obolibrary.org/obo/CHEBI_36023,2,2,PERCENT (2)
+Other OBO,linolenic acid,http://purl.obolibrary.org/obo/NCIT_C997,2,2,PERCENT (2)
+Other OBO,alpha linolenic acid,http://purl.obolibrary.org/obo/CHEBI_27432,2,2,PERCENT (2)
+Other OBO,gamolenic acid,http://purl.obolibrary.org/obo/NCIT_C68369,2,2,PERCENT (2)
+Other OBO,arachidic acid,http://purl.obolibrary.org/obo/NCIT_C68321,2,2,PERCENT (2)
+Other OBO,heneicosanoic acid,http://purl.obolibrary.org/obo/CHEBI_39248,2,2,PERCENT (2)
+Other OBO,behenic acid,http://purl.obolibrary.org/obo/NCIT_C68322,2,2,PERCENT (2)
+Other OBO,arachidonic acid,http://purl.obolibrary.org/obo/CHEBI_15843,2,2,PERCENT (2)
+Other OBO,erucic acid,http://purl.obolibrary.org/obo/CHEBI_28792,2,2,PERCENT (2)
+Other OBO,lignoceric acid,http://purl.obolibrary.org/obo/CHEBI_28866,2,2,PERCENT (2)
+Other OBO,docosahexaenoic acid,http://purl.obolibrary.org/obo/CHEBI_36005,2,2,PERCENT (2)
+Other OBO,isoleucine,http://purl.obolibrary.org/obo/MESH_D007532,2,2,PPTH (2)
+Other OBO,leucine,http://purl.obolibrary.org/obo/CHEBI_25017,2,2,PPTH (2)
+Other OBO,methionine,http://purl.obolibrary.org/obo/CHEBI_16811,2,2,PPTH (2)
+Other OBO,valine,http://purl.obolibrary.org/obo/CHEBI_27266,2,2,PPTH (2)
+Other OBO,phenylalanine,http://purl.obolibrary.org/obo/CHEBI_28044,2,2,PPTH (2)
+ECSO,water depth,http://purl.dataone.org/odo/ECSO_00001203,2,2,M (2)
+ECSO,species code,http://purl.dataone.org/odo/ECSO_00002490,2,2,
+ECSO,Tree Diameter at Breast Height,http://purl.dataone.org/odo/ECSO_00000549,3,2,CentiM (3)
+ECSO,total dissolved nitrogen concentration in water,http://purl.dataone.org/odo/ECSO_00002019,2,2,"MicroGM-PER-L (1), MicroMOL-PER-L (1)"
+ECSO,time of measurement,http://purl.dataone.org/odo/ECSO_00002040,2,2,
+ECSO,genus name,http://purl.dataone.org/odo/ECSO_00002734,2,2,
+ECSO,flag identifier,http://purl.dataone.org/odo/ECSO_00002769,5,2,
+Darwin Core,geodeticDatum,http://rs.tdwg.org/dwc/terms/geodeticDatum,1,1,
+Darwin Core,countryCode,http://rs.tdwg.org/dwc/terms/countryCode,1,1,
+Darwin Core,eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,1,1,
+Darwin Core,locationId,http://rs.tdwg.org/dwc/terms/locationID,1,1,
+Darwin Core,minimumDepthInMeters,http://rs.tdwg.org/dwc/terms/minimumDepthInMeters,1,1,M (1)
+Darwin Core,maximumDepthInMeters,http://rs.tdwg.org/dwc/terms/maximumDepthInMeters,1,1,M (1)
+Darwin Core,coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,1,1,M (1)
+Darwin Core,organismName,http://rs.tdwg.org/dwc/terms/organismName,1,1,
+Darwin Core,organismQuantity,http://rs.tdwg.org/dwc/terms/organismQuantity,1,1,NUM (1)
+Darwin Core,organismQuantityType,http://rs.tdwg.org/dwc/iri/organismQuantityType,1,1,
+Darwin Core,occurrenceStatus,http://rs.tdwg.org/dwc/terms/occurrenceStatus,1,1,
+Darwin Core,kingdom,http://rs.tdwg.org/dwc/terms/kingdom,1,1,
+Darwin Core,measurementID,http://rs.tdwg.org/dwc/terms/measurementID,1,1,
+ECSO,carbon dioxide partial pressure,http://purl.dataone.org/odo/ECSO_00000636,3,1,MicroATM (3)
+ECSO,wind speed,http://purl.dataone.org/odo/ECSO_00001233,1,1,M-PER-SEC (1)
+ECSO,carbon dioxide flux,http://purl.dataone.org/odo/ECSO_00000536,2,1,"GM-PER-M2-DAY (1), MilliMOL-PER-M2-DAY (1)"
+ECSO,solar radiation,http://purl.dataone.org/odo/ECSO_00001103,1,1,W-PER-M2 (1)
+ECSO,particulate organic carbon concentration,https://purl.dataone.org/odo/ECSO_00002816,1,1,MicroMOL-PER-L (1)
+ECSO,particular organic nitrogen concentration,https://purl.dataone.org/odo/ECSO_00002135,1,1,MicroMOL-PER-L (1)
+Other OBO,chlorophyllide,https://purl.obolibrary.org/obo/CHEBI_38206,2,1,"MicroGM-PER-GM (1), MilliGM-PER-M2 (1)"
+Other OBO,fucoxanthin,https://purl.obolibrary.org/obo/CHEBI_5186,2,1,"MicroGM-PER-GM (1), MilliGM-PER-M2 (1)"
+Other OBO,peridinin,https://purl.obolibrary.org/obo/CHEBI_44882,2,1,"MicroGM-PER-GM (1), MilliGM-PER-M2 (1)"
+Other OBO,pheophorbide,https://purl.obolibrary.org/obo/CHEBI_38254,2,1,"MicroGM-PER-GM (1), MilliGM-PER-M2 (1)"
+ECSO,Pheophytin Concentration,https://purl.dataone.org/odo/ECSO_00001249,2,1,"MicroGM-PER-GM (1), MilliGM-PER-M2 (1)"
+Other OBO,zeaxanthin,https://purl.obolibrary.org/obo/CHEBI_27547,2,1,"MicroGM-PER-GM (1), MilliGM-PER-M2 (1)"
+ECSO,dissolved ammonia concentration,https://purl.dataone.org/odo/ECSO_00001703,2,1,MicroMOL-PER-L (2)
+ECSO,dissolved ammonium concentration,https://purl.dataone.org/odo/ECSO_00002101,2,1,MicroMOL-PER-L (2)
+ECSO,dissolved phosphate concentration,https://purl.dataone.org/odo/ECSO_00001897,2,1,MicroMOL-PER-L (2)
+ECSO,dissolved silicate concentration in water,https://purl.dataone.org/odo/ECSO_00002082,2,1,MicroMOL-PER-L (2)
+ECSO,nitrate and nitrite concentration in water,https://purl.dataone.org/odo/ECSO_00002925,2,1,MicroMOL-PER-L (2)
+ECSO,wavelength,https://purl.dataone.org/odo/ECSO_00002943,1,1,NanoM (1)
+ECSO,colored dissolved organic matter absorbance,https://purl.dataone.org/odo/ECSO_00001500,1,1,PER-M (1)
+ECSO,total nitrogen percentage in soil,http://purl.dataone.org/odo/ECSO_00002855,1,1,PERCENT (1)
+ENVO,concentration of chloride in water,http://purl.obolibrary.org/obo/ENVO_09000019,1,1,MilliGM-PER-L (1)
+Other OBO,bromide,http://purl.obolibrary.org/obo/CHEBI_15858,1,1,MilliGM-PER-L (1)
+ECSO,nitrate concentration,http://purl.dataone.org/odo/ECSO_00002216,1,1,MilliGM-PER-L (1)
+ECSO,sulfate concentration,http://purl.dataone.org/odo/ECSO_00002156,1,1,MilliGM-PER-L (1)
+ECSO,fraction modern,http://purl.dataone.org/odo/ECSO_00001962,1,1,UNITLESS (1)
+ECSO,fraction modern error,http://purl.dataone.org/odo/ECSO_00001619,1,1,UNITLESS (1)
+ECSO,uncertainty in 14C age,http://purl.dataone.org/odo/ECSO_00002805,1,1,YR (1)
+ECSO,calcium concentration,http://purl.dataone.org/odo/ECSO_00001772,1,1,PPM (1)
+ECSO,manganese concentration,http://purl.dataone.org/odo/ECSO_00001792,1,1,PPB (1)
+ECSO,aluminum concentration,http://purl.dataone.org/odo/ECSO_00001762,1,1,PPB (1)
+ECSO,barium concentration,http://purl.dataone.org/odo/ECSO_00001768,1,1,PPB (1)
+ECSO,strontium concentration,http://purl.dataone.org/odo/ECSO_00001806,1,1,PPB (1)
+ECSO,silicon concentration,http://purl.dataone.org/odo/ECSO_00001800,1,1,PPM (1)
+ECSO,iron concentration,http://purl.dataone.org/odo/ECSO_00001784,1,1,PPM (1)
+ECSO,total dissolved nitrogen concentration,http://purl.dataone.org/odo/ECSO_00002020,1,1,MilliGM-PER-L (1)
+ECSO,strontium isotope ratio,http://purl.dataone.org/odo/ECSO_00002323,1,1,UNITLESS (1)
+ECSO,bulk density,http://purl.dataone.org/odo/ECSO_00002875,2,1,GM-PER-CentiM3 (2)
+ECSO,gravimetric water content in soil,http://purl.dataone.org/odo/ECSO_00001667,1,1,PERCENT (1)
+ECSO,volumetric water content,http://purl.dataone.org/odo/ECSO_00001662,1,1,GM-PER-CentiM3 (1)
+ENVO,porosity of soil,http://purl.obolibrary.org/obo/ENVO_09200004,1,1,PERCENT (1)
+ENVO,concentration of carbon dioxide in seawater,https://purl.obolibrary.org/obo/ENVO_04000006,1,1,PPM (1)
+ECSO,soil depth,http://purl.dataone.org/odo/ECSO_00001207,1,1,M (1)
+ECSO,Soil Moisture Percentage,http://purl.dataone.org/odo/ECSO_00000517,1,1,PERCENT (1)
+ECSO,Wet Weight Biomass,https://purl.dataone.org/odo/ECSO_00001139,2,1,"GM (1), GM-PER-M2 (1)"
+ECSO,thickness of sea ice,https://purl.dataone.org/odo/ECSO_00002086,3,1,M (3)
+ECSO,snow depth,https://purl.dataone.org/odo/ECSO_00001205,10,1,M (10)
+ENVO,frozen soil,http://purl.obolibrary.org/obo/ENVO_01001526,1,1,
+ECSO,thickness of sea ice,http://purl.dataone.org/odo/ECSO_00002086,1,1,CentiM (1)
+PATO,electrical conductivity,http://purl.obolibrary.org/obo/PATO_0001757,27,1,S-PER-M (27)
+Other,water level,http://vocabs.lter-europe.net/EnvThes/30025,1,1,M (1)
+ECSO,water conductivity,https://purl.dataone.org/odo/ECSO_00001535,2,1,MicroS-PER-CentiM (2)
+ECSO,water salinity,https://purl.dataone.org/odo/ECSO_00001164,1,1,UNITLESS (1)
+ECSO,density anomaly,https://purl.dataone.org/odo/ECSO_00003073,1,1,GM-PER-CentiM3 (1)
+ECSO,Water pH,https://purl.dataone.org/odo/ECSO_00001159,1,1,UNITLESS (1)
+Other,total suspended solids,http://sweetontology.net/propChemical/TotalSuspendedSolids,1,1,MilliGM-PER-L (1)
+ENVO,suspended sediment,https://purl.obolibrary.org/obo/ENVO_01000113,1,1,MilliGM-PER-L (1)
+Other OBO,carbon dioxide production,http://purl.obolibrary.org/obo/OMP_0000225,4,1,"MicroGM-PER-GM-DAY (2), MilliGM-PER-GM (2)"
+Other,biodegradable dissolved organic carbon,http://sweetontology.net/matr/BiodegradableDissolvedOrganicCarbon,2,1,PERCENT (2)
+ECSO,specific ultraviolet absorbance,http://purl.dataone.org/odo/ECSO_00001502,1,1,liter/meter.milligram (1)
+Other,aromaticity,http://semanticscience.org/resource/CHEMINF_000115,1,1,UNITLESS (1)
+ECSO,water conductivity,http://purl.dataone.org/odo/ECSO_00001535,1,1,MicroS-PER-CentiM (1)
+ECSO,carbon dioxide flux,https://purl.dataone.org/odo/ECSO_00000536,2,1,"MilliMOL-PER-M2-DAY (1), mmol/day.meter (1)"
+Other OBO,ammonia,http://purl.obolibrary.org/obo/CHEBI_16134,1,1,MicroGM-PER-L (1)
+ECSO,nitrate concentration,https://purl.dataone.org/odo/ECSO_00002216,1,1,MicroGM-PER-L (1)
+Other,silica,http://vocabs.lter-europe.net/EnvThes/20866,1,1,MicroGM-PER-L (1)
+Other,total phosphorus,http://vocabs.lter-europe.net/EnvThes/20863,1,1,MicroGM-PER-L (1)
+Other,soluble reactive phosphorus,http://vocabs.lter-europe.net/EnvThes/20862,1,1,MicroGM-PER-L (1)
+Other,total dissolved phosphorus,http://vocabs.lter-europe.net/EnvThes/21239,1,1,MicroGM-PER-L (1)
+Other,total suspended solids,https://sweetontology.net/propChemical/TotalSuspendedSolids,1,1,MilliGM-PER-L (1)
+ECSO,Alkalinity,http://purl.dataone.org/odo/ECSO_00000521,1,1,MilliGM-PER-L (1)
+Other,specific conductivity,http://vocabs.lter-europe.net/EnvThes/22289,1,1,MilliS-PER-CentiM (1)
+ECSO,Dissolved Organic Carbon Concentration,http://purl.dataone.org/odo/ECSO_00001125,1,1,MilliGM-PER-L (1)
+Other OBO,octanoic acid,http://purl.obolibrary.org/obo/CHEBI_28837,1,1,PERCENT (1)
+Other OBO,decanoic acid,http://purl.obolibrary.org/obo/CHEBI_30813,1,1,PERCENT (1)
+Other OBO,tridecanoic acid,http://purl.obolibrary.org/obo/CHEBI_45919,1,1,PERCENT (1)
+Other OBO,myristoleic acid,http://purl.obolibrary.org/obo/CHEBI_27781,1,1,PERCENT (1)
+Other OBO,linoleic acid,http://purl.obolibrary.org/obo/NCIT_C615,1,1,PERCENT (1)
+Other OBO,gondoic acid,http://purl.obolibrary.org/obo/NCIT_C68370,1,1,PERCENT (1)
+Other OBO,eicosadienoic acid,http://purl.obolibrary.org/obo/NCIT_C68355,1,1,PERCENT (1)
+Other,"8,11,14-eicosatrienoic acid",http://purl.bioontology.org/ontology/MESH/D015126,1,1,PERCENT (1)
+Other OBO,"cis-11,14,17-eicosatrienoic acid",http://purl.obolibrary.org/obo/CHEBI_183324,1,1,PERCENT (1)
+Other OBO,eicosapentaenoic acid,http://purl.obolibrary.org/obo/NCIT_C67080,1,1,PERCENT (1)
+Other OBO,docosadienoic acid,http://purl.obolibrary.org/obo/CHEBI_75115,1,1,PERCENT (1)
+Other OBO,nervonic acid,http://purl.obolibrary.org/obo/NCIT_C68395,1,1,PERCENT (1)
+Other OBO,lysine,http://purl.obolibrary.org/obo/CHEBI_25094,1,1,PPTH (1)
+ECSO,d18O,https://purl.dataone.org/odo/ECSO_00001677,1,1,
+ECSO,dissolved organic carbon concentration of stable carbon,http://purl.dataone.org/odo/ECSO_00001519,1,1,MilliGM-PER-L (1)
+ECSO,light intensity,http://purl.dataone.org/odo/ECSO_00002236,1,1,LUX (1)
+ECSO,surface runoff,http://purl.dataone.org/odo/ECSO_00003021,1,1,MilliM-PER-DAY (1)
+ECSO,snow water equivalent,http://purl.dataone.org/odo/ECSO_00001747,1,1,milimeter/month (1)
+ECSO,surface photosynthetically active radiation,http://purl.dataone.org/odo/ECSO_00001574,1,1,MicroMOL-PER-M2-SEC (1)
+ECSO,water pressure,http://purl.dataone.org/odo/ECSO_00001568,2,1,DeciBAR (2)
+ECSO,wave height,http://purl.dataone.org/odo/ECSO_00001176,5,1,"M (3), SEC (2)"
+ECSO,water velocity,http://purl.dataone.org/odo/ECSO_00001234,3,1,CentiM-PER-SEC (3)
+ECSO,thickness of ice,http://purl.dataone.org/odo/ECSO_00002801,4,1,M (4)
+ECSO,air pressure,http://purl.dataone.org/odo/ECSO_00001186,2,1,MilliBAR (2)
+ECSO,pitch of buoy,http://purl.dataone.org/odo/ECSO_00002922,2,1,DEG (2)
+ECSO,roll of buoy,http://purl.dataone.org/odo/ECSO_00002923,2,1,DEG (2)
+ECSO,Water pH,http://purl.dataone.org/odo/ECSO_00001159,1,1,UNITLESS (1)
+ECSO,plant cover percentage,http://purl.dataone.org/odo/ECSO_00001197,133,1,FRACTION (133)
+ECSO,bacteria abundance,http://purl.dataone.org/odo/ECSO_00001693,1,1,NUM-PER-MilliL (1)
+ECSO,salinity,http://purl.dataone.org/odo/ECSO_00001164,1,1,PSU (1)
+ECSO,Tree Height,http://purl.dataone.org/odo/ECSO_00000541,1,1,M (1)
+ECSO,phosphorus concentration in soil,http://purl.dataone.org/odo/ECSO_00001869,3,1,micromole/centimetercubed (3)
+ECSO,sulfur concentration in soil,http://purl.dataone.org/odo/ECSO_00002391,3,1,micromole/centimetercubed (3)
+ECSO,estuary water temperature,http://purl.dataone.org/odo/ECSO_00001559,1,1,DEG_C (1)
+ECSO,dry_weight,http://purl.dataone.org/odo/ECSO_00000556,16,1,GM (16)
+ECSO,Soil Dry Weight,http://purl.dataone.org/odo/ECSO_00001241,1,1,MilliGM (1)
+ECSO,Water Salinity,http://purl.dataone.org/odo/ECSO_00001164,1,1,PSU (1)
+ECSO,total dissolved phosphorus concentration in water,http://purl.dataone.org/odo/ECSO_00002844,1,1,MicroMOL-PER-L (1)
+ECSO,Water Depth,http://purl.dataone.org/odo/ECSO_00001203,1,1,
+ECSO,file name,http://purl.dataone.org/odo/ECSO_00002763,1,1,
+ECSO,data quality flag,http://purl.dataone.org/odo/ECSO_00001720,1,1,
+ECSO,study identifier,http://purl.dataone.org/odo/ECSO_00002299,1,1,
+ECSO,algae cover percentage,http://purl.dataone.org/odo/ECSO_00001647,1,1,NUM (1)
+ECSO,year and season,http://purl.dataone.org/odo/ECSO_00002169,21,1,
+ECSO,season,http://purl.dataone.org/odo/ECSO_00002366,1,1,
+ECSO,nitrogen percentage of total biomass,http://purl.dataone.org/odo/ECSO_00002569,1,1,PERCENT (1)
+ECSO,d15N,http://purl.dataone.org/odo/ECSO_00001738,1,1,UNITLESS (1)
+ECSO,species name,http://purl.dataone.org/odo/ECSO_00002735,6,1,
+ECSO,life cycle stage,http://purl.dataone.org/odo/ECSO_00002189,1,1,
+ECSO,dissolved inorganic carbon concentration in freshwater,http://purl.dataone.org/odo/ECSO_00002103,1,1,MilliGM-PER-L (1)
+ECSO,dissolved organic carbon concentration in water,http://purl.dataone.org/odo/ECSO_00002143,1,1,MilliGM-PER-L (1)
+ECSO,Freshwater Total Inorganic Carbon Concentration,http://purl.dataone.org/odo/ECSO_00001122,1,1,MilliGM-PER-L (1)
+ECSO,Aquatic Total Organic Carbon Concentration,http://purl.dataone.org/odo/ECSO_00001118,1,1,MilliGM-PER-L (1)
+ECSO,lake water alkalinity,http://purl.dataone.org/odo/ECSO_00001751,1,1,microequivalents/liter (1)
+ECSO,pH,http://purl.dataone.org/odo/ECSO_00001645,1,1,PH (1)
+ECSO,freshwater conductivity,http://purl.dataone.org/odo/ECSO_00001536,1,1,MicroS-PER-CentiM (1)
+ECSO,Secchi Depth Method,http://purl.dataone.org/odo/ECSO_00001208,1,1,M (1)
+ECSO,phosphorus concentration,http://purl.dataone.org/odo/ECSO_00001868,1,1,MicroGM-PER-L (1)
+ECSO,dissolved silicate concentration in water,http://purl.dataone.org/odo/ECSO_00002082,1,1,MicroGM-PER-L (1)
+ECSO,calcium concentration in lake water,http://purl.dataone.org/odo/ECSO_00001773,1,1,MilliGM-PER-L (1)
+ECSO,potassium concentration in lake water,http://purl.dataone.org/odo/ECSO_00001799,1,1,MilliGM-PER-L (1)
+ECSO,magnesium concentration in water,http://purl.dataone.org/odo/ECSO_00001925,1,1,MilliGM-PER-L (1)
+ECSO,sodium concentration in lake water,http://purl.dataone.org/odo/ECSO_00001805,1,1,MilliGM-PER-L (1)
+ECSO,iron concentration in water,http://purl.dataone.org/odo/ECSO_00001785,1,1,MilliGM-PER-L (1)
+ECSO,chlorine concentration in lake water,http://purl.dataone.org/odo/ECSO_00001777,1,1,MilliGM-PER-L (1)
+ECSO,sulfate concentration in freshwater,http://purl.dataone.org/odo/ECSO_00002390,1,1,MilliGM-PER-L (1)
+ECSO,Radiative flux,http://purl.dataone.org/odo/ECSO_00001106,2,1,MicroMOL-PER-M2-SEC (2)
+ECSO,Net Primary Production,http://purl.dataone.org/odo/ECSO_00000021,1,1,GM-PER-M2-DAY (1)

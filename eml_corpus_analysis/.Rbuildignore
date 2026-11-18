@@ -1,0 +1,9 @@
+^_targets$
+^_targets\.R$
+^data$
+^docs$
+^prompts$
+^report$
+^config\.yml$
+^README\.md$
+^\.lintr$

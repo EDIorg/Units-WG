@@ -1,0 +1,85 @@
+record_id,unit_expression,status,candidate_key,bridge,eml_unit_names,uses,datasets,scopes,top_terms,quantity_kind
+unit-0031,MilliGM-PER-KiloGM-MO,blocked-conversion,milligram/kilogram.month,match_key+rcode_jp,"miligramsPerKilogramPerMonth (5), milligramPerKilogramPerMonth (1)",6,3,2,"mineralization (4), net (4), july (2), situ (2), soil (2), ammonification (1)",
+unit-0039,GM-PER-M2-MO,blocked-conversion,gram/metersquared.month,match_key+rcode_jp,"gramsPerMeterSquaredPerMonth (3), gramsPerSquareMeterPerMonth (2)",5,2,1,"month (7), ecosystem (5), grams (5), meter (4), carbon (3), production (3)",
+unit-0034,KiloGM-PER-HA-MO,blocked-conversion,kilogram/hectare.month,match_key+rcode_jp,kilogramsPerHectarePerMonth (3),3,1,1,"kgn (3), month (2), rate (2), ammonification (1), monh (1), nh4 (1)",
+unit-0057,MilliGM-PER-GM-MO,blocked-conversion,milligram/gram.month,match_key+rcode_jp,milligramPerGramPerMonth (2),2,1,1,"soil (4), dry (2), month (2), net (2), no3 (2), mineralization (1)",
+unit-0052,MicroMOL-PER-MOLE,existing-unit,micromole/mole,match_key+rcode_jp,"micromolePerMole (228), microMolesPerMole (18), micromolesPerMole (10)",260,98,13,"co2 (251), concentration (101), mole (57), fraction (42), ratio (37), mixing (34)",Unknown
+unit-0073,CentiM3-PER-CentiM3,existing-unit,centimetercubed/centimetercubed,match_key+rcode_jp,"cubicCentimetersPerCubicCentimeters (74), cm3/cm3 (67), centimeterCubedPerCentimeterCubed (7)",156,27,11,"soil (166), moisture (100), water (74), volumetric (68), cm3 (50), location (48)",VolumeFraction
+unit-0074,GM-PER-HectoGM,existing-unit,gram/hectogram,match_key+rcode_jp,"gramsPerHectogram (25), gramsPerHectograms (23), gramPerHectogram (2)",50,16,2,"percent (28), soil (22), moisture (14), carbon (6), nitrogen (6), content (5)",MassRatio
+unit-0042,GM-PER-CM3,existing-unit,gram/cm3,rcode_jp,"g cm-3 (7), g / cm^3 (1)",8,5,2,"density (10), bulk (7), soil (6), depth (3), wood (3), centimeter (2)",MassDensity
+unit-0004,W-HR-PER-M2,existing-unit,watthour/metersquared,match_key+rcode_jp,wattHoursPerMeterSquared (2),2,1,1,"hours (2), june (2), midday (2), radiation (2), solar (2), watt (2)",EnergyPerArea
+unit-0044,MilliGM-PER-GM-DAY,needs-clarification,milligram/day.gram,match_key,"milligramPerGramPerDay (37), milligramsPerGramPerDay (14), milligramPerDayPerGram (4)",55,10,6,"day (51), rate (42), respiration (34), dry (20), heterotrophic (20), soil (20)",
+unit-0025,NanoGM-PER-GM-HR,needs-clarification,nanogram/gram.hour,match_key+rcode_jp,"nanogramPerGramPerHour (28), nanograms per gram per hour (2)",30,9,5,"soil (22), activity (20), enzyme (12), denitrification (8), glucosidase (5), potential (5)",
+unit-0026,MicroGM-PER-KiloGM-HR,needs-clarification,microgram/hour.kilogram,match_key,"microgramPerKilogramPerHour (8), microgramsPerKilogramPerHour (7)",15,7,4,"denitrification (15), enzyme (9), soil (9), hour (7), micrograms (7), minutes (6)",
+unit-0055,MicroMOL-PER-GM-DAY,needs-clarification,micromole/day.gram,match_key,"micromolePerGramPerDay (9), micromoles per gram per day (2)",11,4,3,"rate (9), n2o (6), production (6), soil (6), day (4), fresh (4)",
+unit-0027,NUM-PER-L-MIN,needs-clarification,number/liter.minute,rcode_jp,"decaysPerMinutePerLiter (8), decayPerMinutePerLiter (1)",9,3,2,"activity (8), error (4), standard (4), decays (3), minute (3), beta (2)",
+unit-0043,PPM-PER-SEC,needs-clarification,partpermillion/second,match_key+rcode_jp,"ppm/sec (4), partsPerMillionPerSecond (2)",6,3,2,"concentration (4), slope (4), calculated (2), change (2), cuvette (2), fluxcalr (2)",
+unit-0011,GM-PER-NUM,needs-clarification,gram/number,match_key+rcode_jp,gramPerNumber (5),5,2,1,"divided (5), mass (5), count (4), leaves (3), leaf (2), organ (2)",
+unit-0047,NanoGM-PER-GM-DAY,needs-clarification,nanogram/day.gram,match_key,nanogramsPerGramPerDay (4),4,2,2,"day (4), gram (4), dry (3), net (3), peat (3), nanograms (2)",
+unit-0064,MicroMOL-PER-HR-MilliGM,needs-clarification,micromole/hour.milligram,match_key+rcode_jp,micromolePerMilligramPerHour (3),3,2,2,"biomass (3), activity (2), microbial (2), soil (2), dark (1), normalized (1)",
+unit-0070,NUM-PER-KiloM,needs-clarification,number/kilometer,match_key+rcode_jp,numberPerKilometer (16),16,2,2,"abundance (15), species (15), survey (15), channel (1), lengths (1), sum (1)",
+unit-0075,MilliGM-PER-MilliGM-DAY,needs-clarification,milligram/day.milligram,match_key,milligramPerMilligramPerDay (2),2,2,1,"biomass (2), normalized (2), accretion (1), caco3 (1), dry (1), growth (1)",
+unit-0019,MilliM-PER-NUM,needs-clarification,millimeter/number,match_key+rcode_jp,millimeterPerNumber (1),1,1,1,"class (2), age (1), divided (1), length (1), maximum (1), shoots (1)",
+unit-0032,GM-PER-GM-HR,needs-clarification,gram/gram.hour,match_key+rcode_jp,gramsPerGramPerHour (6),6,1,1,"oxygen (8), gram (6), hour (6), production (6), change (4), dark (4)",
+unit-0035,MicroGM-PER-KiloGM-DAY,needs-clarification,microgram/day.kilogram,match_key,microgramPerKilogramPerDay (6),6,1,1,"soil (6), region (3), saturation (3), seasonal (3), surface (3), denitrifaction (2)",
+unit-0045,MilliGM-PER-KiloGM-HR,needs-clarification,milligram/hour.kilogram,match_key,milliGramPerKilogramPerHour (1),1,1,1,"activity (1), denitrification (1), enzyme (1)",
+unit-0048,NanoMOL-PER-GM-DAY,needs-clarification,nanomole/day.gram,match_key,nanomolePerGramPerDay (4),4,1,1,"ethylene (4), production (4), basis (3), dry (3), rate (3), weight (3)",
+unit-0068,NanoMOL-PER-MOL,needs-clarification,nanomole/mole,match_key,nanomolePerMole (1),1,1,1,"analog (1), analyser (1), ch4 (1), fgga (1), fma (1), fraction (1)",
+unit-0069,NUM-PER-GM-MIN,needs-clarification,number/gram.minute,match_key+rcode_jp,numberPerGramPerMinute (1),1,1,1,"concentration (2), background (1), excess (1), soil (1)",
+unit-0077,MilliMOL-PER-MOL-SEC,needs-clarification,millimole/mole.second,match_key+rcode_jp,millimolePerMolePerSecond (2),2,1,1,"co2 (2), efficiency (2), leaf (2), mmol (2), mol (2), photosynthetic (2)",
+unit-0081,PPM-PER-MIN,needs-clarification,partpermillion/minute,match_key+rcode_jp,partsPerMillionPerMinute (2),2,1,1,"co2 (5), ppm (3), light (2), calculated (1), change (1), dark (1)",
+unit-0038,NUM-PER-NanoGM,needs-clarification,number/nanogram,,,0,0,0,,
+unit-0062,MicroGM-PER-GM-MIN,needs-clarification,microgram/gram.minute,,,0,0,0,,
+unit-0072,PicoMOL-PER-MilliGM-MIN,needs-clarification,picomole/milligram.minute,,,0,0,0,,
+unit-0080,PPM-PER-HR,needs-clarification,partpermillion/hour,,,0,0,0,,
+unit-0021,TON_US-PER-AC,ready-for-review,ton/acre,match_key+rcode_jp,"tonsPerAcre (10), tonPerAcre (7), tons/acre (1)",18,12,4,"acre (10), yield (10), dry (9), stover (7), tons (5), biomass (4)",MassPerArea
+unit-0024,MicroGM-PER-M2,ready-for-review,microgram/metersquared,match_key+rcode_jp,"microGramPerSquareMeter (5), microgramPerMeterSquared (4), microgramPerSquareMeter (4)",15,9,5,"chlorophyll (10), day (5), pool (5), sampled (5), tiles (5), mass (4)",MassPerArea
+unit-0008,GM-PER-YR,ready-for-review,gram/year,match_key+rcode_jp,"gramPerYear (99), gramsPerYear (3)",102,7,4,"annual (89), scenario (84), nitrogen (51), content (25), deposition (20), npp (18)",MassPerTime
+unit-0023,GM-PER-HA-DAY,ready-for-review,gram/day.hectare,match_key,"gramsPerHectarePerDay (11), gramPerHectarePerDay (8), gram per hectare per day (7)",26,7,3,"flux (18), daily (7), deposition (7), nitrogen (6), n2o (5), ch4 (4)",MassPerAreaTime
+unit-0003,KiloJ-PER-M2,ready-for-review,kilojoule/metersquared,match_key+rcode_jp,"kiloJoulePerMeterSquared (9), Kilojoule per square meter (2)",11,5,3,"radiation (10), solar (10), rad (8), sol (8), percentile (4), quantile (4)",StrainEnergyReleaseRate
+unit-0007,MicroMOL-PER-L-DAY,ready-for-review,micromole/day.liter,match_key,"micromolePerLiterPerDay (10), microMolesPerLiterPerDay (5)",15,5,4,"bacterial (6), day (6), micromoleoxygenperliterperday (6), respiration (6), uptake (6), mol (5)",CatalyticActivityConcentration
+unit-0010,KiloM3,ready-for-review,kilometercubed,match_key+rcode_jp,"kilometerCubed (3), cubic kilometers (2), cubicKilometer (1)",7,5,3,"volume (4), discharge (3), river (3), daily (2), estimated (2), export (2)",Volume
+unit-0001,KiloM-PER-KiloM2,ready-for-review,kilometer/kilometersquared,match_key+rcode_jp,"kilometersPerKilometerSquared (7), kilometerPerKilometerSquared (3), kilometerPerSquareKilometer (1)",11,4,2,"buffer (14), road (8), roads (8), compared (7), including (7), lake (7)",InverseLength
+unit-0030,KiloGM-PER-M2-YR,ready-for-review,kilogram/metersquared.year,match_key+rcode_jp,"kilogramsPerMeterSquaredPerYear (5), kilogramPerMeterSquaredPerYear (2)",7,4,3,"biomass (4), annual (2), loss (2), plant (2), woody (2), accumulation (1)",MassPerAreaTime
+unit-0014,M3-PER-M2-DAY,ready-for-review,metercubed/day.metersquared,match_key,"CubicMeterperSquareMeterperDay (6), meterCubedPerMeterSquaredPerDay (4)",10,3,1,"rate (17), afdm (12), water (11), filtration (10), grazing (9), frb (8)",VolumetricFlux
+unit-0020,MilliGM-PER-L-HR,ready-for-review,milligram/hour.liter,match_key,milligramPerLiterPerHour (15),15,3,2,"deviation (6), planktonic (6), respiration (6), standard (6), determined (4), method (4)",MassConcentrationRateOfChange
+unit-0005,KiloJ-PER-M2-DAY,ready-for-review,kilojoule/day.metersquared,match_key,"kilojoulePerMeterSquaredPerDay (2), kiloJoulePerSquareMeterPerDay (1)",3,2,2,"day (3), radiation (3), solar (3), evaporation (2), incoming (2), intensity (2)",PowerPerArea
+unit-0006,MegaJ-PER-M2-YR,ready-for-review,megajoule/metersquared.year,match_key+rcode_jp,megajoulePerMeterSquaredPerYear (4),4,2,1,"canopy (4), estimated (4), radiation (4), corrected (3), interception (3), orientation (3)",PowerPerArea
+unit-0022,BQ-PER-GM,ready-for-review,becquerel/gram,match_key+rcode_jp,becquerelPerGram (11),11,2,2,"carbon (14), activity (11), 14c (8), mass (8), specific (8), dioxide (4)",MassicActivity
+unit-0041,MilliGM-PER-MilliL-DAY,ready-for-review,milligram/day.milliliter,match_key,milligramPerMilliliterPerDay (4),4,2,2,"day (4), blank (3), field (3), added (1), ammonium (1), bsa (1)",MassConcentrationRateOfChange
+unit-0046,MilliMOL-PER-SEC,ready-for-review,millimole/second,match_key+rcode_jp,"millimolePerSecond (4), millimolesPerSecond (1)",5,2,2,"flow (2), h2o (2), offset (2), rate (2), calculated (1), co2 (1)",MolarFlowRate
+unit-0053,BQ-PER-MilliGM,ready-for-review,becquerel/milligram,match_key+rcode_jp,becquerelPerMilligram (2),2,2,1,"14c (2), becquerel (2), material (2), plant (2), activity (1), specific (1)",MassicActivity
+unit-0054,MicroM3-PER-L,ready-for-review,micrometercubed/liter,match_key+rcode_jp,micrometerCubedPerLiter (2),2,2,2,"biovolume (1), colonies (1), lehman (1), microcystis (1), net (1), tow (1)",VolumeFraction
+unit-0058,GM-PER-HA-YR,ready-for-review,gram/hectare.year,match_key+rcode_jp,"gramPerHectarePerYear (1), gramsPerHectarePerYear (1)",2,2,2,"amount (1), dry (1), hectare (1), leaves (1), lost (1), stored (1)",MassPerAreaTime
+unit-0063,MicroMOL-PER-M3,ready-for-review,micromole/metercubed,match_key+rcode_jp,micromolePerMeterCubed (25),25,2,2,"depth (24), modeled (24), oxygen (24), simulated (24), bottom (12), surface (12)",AmountOfSubstanceConcentration
+unit-0067,NanoMOL-PER-MIN,ready-for-review,nanomole/minute,match_key,"nanomolePerMinute (1), nanomolesPerMinute (1)",2,2,1,"activity (2), alkaline (2), phosphatase (2)",MolarFlowRate
+unit-0079,OZ-PER-AC,ready-for-review,ounce/acre,match_key+rcode_jp,ouncePerAcre (2),2,2,1,"acre (2), ounce (1), rate (1), seed (1), seeding (1), species (1)",MassPerArea
+unit-0002,M2-PER-M3,ready-for-review,metersquared/metercubed,match_key+rcode_jp,meterSquaredPerMeterCubed (1),1,1,1,"density (1), ground (1), horizontal (1), index (1), leaf (1), plot (1)",InverseLength
+unit-0009,M2-PER-DAY,ready-for-review,metersquared/day,match_key+rcode_jp,meterSquaredPerDay (1),1,1,1,"basal (1), pine (1), prefire (1), western (1), white (1)",AreaPerTime
+unit-0012,GigaGM,ready-for-review,gigagram,match_key,gigagram (1),1,1,1,"amount (1), phosphorus (1), stored (1), system (1)",Mass
+unit-0013,MI_US-PER-SEC,ready-for-review,mile/second,match_key,milePerSecond (2),2,1,1,"direction (2), wind (2), deviation (1), standard (1)",Speed
+unit-0015,CORD-PER-AC,ready-for-review,cord/acre,match_key+rcode_jp,cordPerAcre (1),1,1,1,"acre (1), based (1), cords (1), cordwood (1), dead (1), mbf (1)",VolumePerArea
+unit-0016,FT3-PER-AC,ready-for-review,footcubed/acre,match_key+rcode_jp,footCubedPerAcre (1),1,1,1,"acre (1), dead (1), moribund (1), trees (1), volume (1)",VolumePerArea
+unit-0017,MegaL-PER-KiloM2,ready-for-review,megaliter/kilometersquared,match_key+rcode_jp,megaLiterPerKilometerSquared (1),1,1,1,"corrected (1), discharge (1)",VolumePerArea
+unit-0018,MicroM3-PER-MilliM2,ready-for-review,micrometercubed/millimetersquared,match_key+rcode_jp,micrometerCubedPerMillimeterSquared (1),1,1,1,"biovolume (1), cell (1), cubic (1), micrometers (1), milimeter (1), square (1)",VolumePerArea
+unit-0028,BQ-PER-MilliL,ready-for-review,becquerel/milliliter,match_key+rcode_jp,becquerelPerMilliliter (8),8,1,1,"14c (8), becquerel (8), incorporated (8), carbon (6), air (4), dioxide (4)",ActivityConcentration
+unit-0029,KiloGM-PER-KiloM2-YR,ready-for-review,kilogram/kilometersquared.year,match_key+rcode_jp,kilogramPerKilometerSquaredPerYear (7),7,1,1,"annual (7), exports (3), inputs (2), tdn (2), deposition (1), diversions (1)",MassPerAreaTime
+unit-0033,GM-PER-HA-HR,ready-for-review,gram/hectare.hour,match_key+rcode_jp,gramsPerHectarePerHour (6),6,1,1,"approximately (6), atmosphere (6), confidence (6), flux (6), limit (6), resistance (6)",MassPerAreaTime
+unit-0036,MilliGM-PER-L-SEC,ready-for-review,milligram/liter.second,match_key+rcode_jp,milligramPerLiterPerSecond (6),6,1,1,"liter (12), curve (6), multiply (6), oxygen (6), slope (6), tank (6)",MassConcentrationRateOfChange
+unit-0037,NanoGM-PER-M2-HR,ready-for-review,nanogram/hour.metersquared,match_key,nanogramPerMeterSquaredPerHour (5),5,1,1,"flux (5), gem (5), canopy (4), interpolated (3), daily (2), outlier (2)",MassPerAreaTime
+unit-0040,MilliGM-PER-M2-MIN,ready-for-review,milligram/metersquared.minute,match_key+rcode_jp,milligramPerMeterSquaredPerMinute (5),5,1,1,"ecosystem (5), atm (2), chamber (2), gep (2), gross (2), net (2)",MassPerAreaTime
+unit-0049,NanoMOL-PER-MilliL,ready-for-review,nanomole/milliliter,match_key,nanomolePerMilliliter (4),4,1,1,"corticosterone (4), baseline (2), binding (2), free (2), globulin (2), stress (2)",AmountOfSubstanceConcentration
+unit-0050,MicroGM-PER-MilliL-DAY,ready-for-review,microgram/day.milliliter,match_key,microgramPerMilliliterPerDay (3),3,1,1,"blank (3), day (3), field (3), ammonium (1), nitrate (1), phosphate (1)",MassConcentrationRateOfChange
+unit-0051,MicroGM-PER-MilliM2,ready-for-review,microgram/millimetersquared,match_key+rcode_jp,microgramPerMillimeterSquared (3),3,1,1,"chlorophyll (3), lichen (3)",MassPerArea
+unit-0056,MicroMOL-PER-MilliGM,ready-for-review,micromole/milligram,match_key+rcode_jp,micromolePerMilligram (2),2,1,1,"content (2), dry (2), umol (2), weight (2), carbon (1), nitrogen (1)",AmountOfSubstancePerMass
+unit-0059,GM-PER-M3-DAY,ready-for-review,gram/day.metercubed,match_key,gramPerMeterCubedPerDay (1),1,1,1,"cubed (1), day (1), ecosystem (1), estimated (1), free (1), grams (1)",MassConcentrationRateOfChange
+unit-0060,GM-PER-M3-YR,ready-for-review,gram/metercubed.year,match_key+rcode_jp,gramsPerCubicMeterPerYear (1),1,1,1,"amount (1), caco3 (1), deposited (1)",MassConcentrationRateOfChange
+unit-0061,MicroBQ-PER-GM,ready-for-review,microbecquerel/gram,match_key+rcode_jp,microbecquerelPerGram (1),1,1,1,activity (1),MassicActivity
+unit-0065,MilliL-PER-MilliL,ready-for-review,milliliter/milliliter,match_key+rcode_jp,millilitersPerMilliliter (1),1,1,1,"content (1), soil (1), volumetric (1), water (1)",VolumeFraction
+unit-0066,MOL-PER-DAY,ready-for-review,mole/day,match_key+rcode_jp,molesPerDay (1),1,1,1,,MolarFlowRate
+unit-0071,PicoMOL-PER-GM,ready-for-review,picomole/gram,match_key+rcode_jp,picomolesPerGram (1),1,1,1,"amount (1), found (1), plfa (1), pmol (1)",AmountOfSubstancePerMass
+unit-0076,MilliMOL-PER-M3-MIN,ready-for-review,millimole/metercubed.minute,match_key+rcode_jp,millimolePerMeterCubedPerMinute (1),1,1,1,"ecosystem (1), metabolism (1), min (1), mmol (1), net (1), rate (1)",CatalyticActivityConcentration
+unit-0082,TON_US-PER-AC-FT,ready-for-review,ton/acre.foot,rcode_jp,tonsPerAcreFeet (1),1,1,1,"quantity (2), acre (1), completely (1), dissolved (1), evaporated (1), mass (1)",MassDensity
+unit-0083,TON_US-PER-HA,ready-for-review,ton/hectare,rcode_jp,Ton/ha (2),2,1,1,"ground (2), avobe (1), biomass (1), carbon (1), storage (1)",MassPerArea
+unit-0084,TONNE-PER-AC,ready-for-review,tonne/acre,match_key+rcode_jp,tonnesPerAcre (1),1,1,1,"hectare (1), metric (1), tonnes (1), yield (1)",MassPerArea
+unit-0078,MOL-PER-L-ATM,ready-for-review,mole/atm.liter,,,0,0,0,,PressureBasedAmountOfSubstanceConcentration

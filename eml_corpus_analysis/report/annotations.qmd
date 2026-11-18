@@ -1,0 +1,50 @@
+---
+title: "Existing semantic annotations"
+---
+
+```{r setup}
+source("_common.R")
+ann <- targets::tar_read(annotation_summary, store = store)
+```
+
+EML 2.2 supports semantic annotations on datasets, entities, and attributes.
+Where they exist, they are a **partial gold standard** for what attributes
+measure. Vocabulary is inferred from the value URI.
+
+## Vocabularies by subject level
+
+```{r vocabularies}
+plotly::plot_ly(
+  ann$vocabularies,
+  x = ~vocabulary, y = ~annotations, color = ~subject_level, type = "bar"
+) |>
+  plotly::layout(barmode = "stack", yaxis = list(title = "Annotations", type = "log"))
+interactive_table(ann$vocabularies, "annotation_vocabularies")
+```
+
+## Properties
+
+```{r properties}
+interactive_table(ann$properties, "annotation_properties", columns = list(property_uri = wide(320)))
+```
+
+## Non-QUDT annotation values
+
+Most QUDT annotations restate the unit. Values from other vocabularies show
+what ecological characteristics are already being recorded.
+
+```{r values}
+interactive_table(ann$values, "annotation_values", columns = list(value_uri = wide(320)))
+```
+
+## "Contains measurements of type" values and their units
+
+These annotations link a measured characteristic (often ECSO) directly to an
+attribute. They show which units carry each characteristic in practice.
+
+```{r measured-types}
+interactive_table(
+  ann$measured_types, "annotation_measured_types",
+  columns = list(value_uri = wide(300), units = wide(320))
+)
+```

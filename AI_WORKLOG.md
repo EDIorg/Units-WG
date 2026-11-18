@@ -30,6 +30,40 @@ change.
 
 Use a root `CHANGELOG.md`, when present, for user-facing release history.
 
+## 2026-11-18 — EML corpus analysis for ecological QuantityKinds
+
+- **Request summary:** Analyze the EDI EML corpus (2026-11-12 snapshot) to
+  relate units to ecological context and plan how to propose ecological
+  QuantityKinds and attach them to new and existing QUDT units.
+- **Outcome:** Added `eml_corpus_analysis/`, an R package with a `targets`
+  pipeline. It parses 10,634 EML files, maps 91.4% of unit uses to current
+  QUDT units, and summarizes concepts, polysemy, annotations, and MOB
+  candidate evidence. It also clusters definitions and applies draft QK
+  admission and attachment criteria. An interactive Quarto site holds the
+  results, and the docs cover methods, data dictionary, LLM protocol, and
+  decision log.
+- **Follow-up (same day):** Added a curated, tiered QK shortlist
+  (`data/reference/qk_shortlist.csv`), which the pipeline validates against
+  QUDT and annotates with corpus evidence. Added a Findings page and
+  `docs/findings.md` summary. Widened report tables and moved their filters
+  above the tables.
+- **Decisions:**
+  - Recommended a hybrid modeling option: QUDT QKs only for concepts that
+    pass explicit criteria, with external vocabularies for other context.
+  - Changes to existing QUDT units are additive only.
+  - LLM labeling is opt-in (security and cost).
+  - Thresholds are provisional.
+- **Verification:** testthat suite passes. `lintr` reports no issues.
+  Full-corpus `tar_make()` has 0 parse errors and nothing outdated, and the
+  site renders.
+- **Limitations/follow-up:**
+  - Seed precision is not audited.
+  - Parent QK suggestions need manual choice.
+  - 5 MOB candidates have no corpus bridge.
+  - The QUDT skill and runs are unchanged pending team review.
+  - Not committed.
+- **References:** None.
+
 ## 2026-09-07 — Claude workflow compatibility
 
 - **Request summary:** Verify that the QUDT generation instructions, scripts,

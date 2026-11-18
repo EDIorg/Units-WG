@@ -1,0 +1,140 @@
+---
+title: "Findings and QuantityKinds to consider"
+---
+
+```{r setup}
+source("_common.R")
+overview <- targets::tar_read(corpus_overview, store = store)
+candidates <- targets::tar_read(qk_candidates, store = store)
+attachments <- targets::tar_read(qk_attachments, store = store)
+shortlist <- targets::tar_read(qk_shortlist, store = store)
+mob <- targets::tar_read(mob_evidence, store = store)$summary
+polysemy <- targets::tar_read(polysemy, store = store)
+cfg <- config::get(file = file.path(pkg_root, "config.yml"))
+status_n <- \(s) sum(candidates$status == s)
+tier_labels <- c(
+  "1-reuse" = "1. Reuse an existing QUDT QK",
+  "2-new-generic" = "2. New QK, generic over substance",
+  "3-new-named" = "3. New named ecological QK",
+  "4-defer" = "4. Team decision or more evidence",
+  "5-annotate" = "5. Generic QK plus annotation"
+)
+shortlist <- dplyr::mutate(shortlist, tier = unname(tier_labels[tier]))
+```
+
+This page summarizes the analysis and proposes a working list of
+QuantityKinds (QKs). Numbers come from the current pipeline run. The
+shortlist itself is curated by hand in
+[`qk_shortlist.csv`](https://github.com/EDIorg/Units-WG/blob/agentic/eml_corpus_analysis/data/reference/qk_shortlist.csv);
+the pipeline checks its concept and QUDT QK names and adds the evidence
+columns. Rationale for each decision is in
+`r doc_link("decision-log.md", "the decision log")`.
+
+## Key findings
+
+- **Corpus.** `r num(overview$files)` EML files (`r overview$parse_errors`
+  parse errors) from `r overview$scopes_n` scopes, with
+  `r num(overview$attributes)` attributes.
+- **Units map well to QUDT.** `r pct(overview$share_uses_mapped)` of unit uses
+  map to a current QUDT unit. The rest are a long tail:
+  `r num(overview$single_dataset_groups)` of `r num(overview$unit_groups)`
+  unit groups appear in only one dataset.
+- **Units do not imply ecological meaning.** `r sum(polysemy$concepts >= 2, na.rm = TRUE)`
+  of `r nrow(polysemy)` frequently used units serve two or more ecological
+  concepts. For example, µmol/m²/s is used for PAR, photosynthesis, and CO₂
+  flux. QKs must therefore be attached by concept evidence, never by
+  dimension alone.
+- **Few datasets are annotated.** `r num(overview$annotated_datasets)`
+  datasets carry semantic annotations, so annotations cannot yet supply
+  ecological context on their own.
+- **MOB candidates.** `r sum(mob$uses > 0)` of `r nrow(mob)` candidates
+  from the 2026-09-07 run are used in the corpus (see [MOB candidates](mob.qmd)).
+- **Automated candidates.** `r status_n("candidate-new-qk")` concept ×
+  DimensionVector pairs pass the recurrence threshold
+  (`r cfg$qk_criteria$min_datasets` datasets, `r cfg$qk_criteria$min_scopes`
+  scopes) with no QUDT match; `r status_n("reuse-or-specialize-existing-qk")`
+  match an existing QK; `r status_n("dimensionless-needs-ratio-semantics")`
+  are dimensionless. Many of the `r status_n("candidate-new-qk")` differ only
+  in substance (dissolved oxygen, chlorophyll *a*, CO₂, methane), so the
+  shortlist below consolidates them.
+- **QUDT already has ecological precedents.** `BiogeochemicalRate`
+  (mol/kg/s) and `MassSpecificBiogeochemicalRate` (kg/kg/s) are defined
+  generically over substance, with the element or compound left to context.
+  QUDT has no per-area or per-volume members of that family.
+
+## Recommended strategy
+
+1. **Reuse first.** When QUDT already has a QK with the right meaning
+   (`VolumeFlowRate`, `PhotosyntheticPhotonFluxDensity`, `VolumeFraction`,
+   `BiogeochemicalRate`), propose only additive unit attachments.
+2. **Extend QUDT's biogeochemical family generically.** Propose new QKs
+   that name a *kind* of ecological quantity, such as an areal process rate,
+   and leave the process and substance to annotations. One QK then serves
+   NPP, deposition, mineralization, and many other processes.
+3. **Add named ecological QKs only for standard indices** with stable
+   definitions and explicit ratio semantics, such as leaf area index,
+   specific leaf area, and cover.
+4. **Keep substance and organism context out of QK names.** Express it with
+   annotations (ECSO characteristics, ChEBI substances, ENVO media, taxa) on
+   a generic QK.
+5. **Attach units only with corpus evidence** (at least
+   `r cfg$qk_criteria$attach_min_datasets` datasets for the concept), and
+   only add links to existing QUDT units, never remove them.
+
+## QuantityKinds to consider
+
+```{r tiers}
+shortlist |>
+  dplyr::summarise(
+    proposals = dplyr::n(),
+    examples = paste(utils::head(proposal, 3), collapse = "; "),
+    .by = tier
+  ) |>
+  dplyr::arrange(tier) |>
+  knitr::kable()
+```
+
+Working names are placeholders for QUDT naming review. `qudt_qk` is the
+existing QK to reuse, or the parent for `qudt:specializationOf`. Evidence
+columns count distinct datasets across all listed concepts within the row's
+DimensionVector.
+
+```{r shortlist}
+shared <- crosstalk::SharedData$new(dplyr::select(
+  shortlist, tier, proposal, action, qudt_qk, relation, dimension_vector,
+  datasets, scopes, attributes, top_units, semantics, rationale, concepts
+))
+filtered_table(
+  list(
+    crosstalk::filter_select("tier", "Tier", shared, ~tier),
+    crosstalk::filter_select("qk", "QUDT QK", shared, ~qudt_qk)
+  ),
+  reactable::reactable(
+    shared,
+    searchable = TRUE, compact = TRUE, striped = TRUE, resizable = TRUE,
+    wrap = TRUE, defaultPageSize = 25,
+    columns = list(
+      tier = wide(200), proposal = wide(220), action = wide(200),
+      qudt_qk = wide(200), dimension_vector = wide(180), top_units = wide(260),
+      semantics = wide(320), rationale = wide(420), concepts = wide(300)
+    )
+  )
+)
+```
+
+Full table: [`qk_shortlist.csv`](`r derived_url`/qk_shortlist.csv). The
+uncurated candidate list and attachment proposals are on
+[QK modeling](modeling.qmd).
+
+## Decisions needed from the working group
+
+1. Adopt or adjust the recurrence thresholds.
+2. Accept the "quantity type, not substance" criterion.
+3. Choose between new areal biogeochemical-rate QKs and reuse of
+   `MassPerAreaTime` and `MolarFluxDensity`.
+4. Decide whether named process QKs (NPP, GPP, NEE) are wanted on top of the
+   generic rates.
+5. Assign reviewers for the human audit of concept matches.
+6. Decide whether to enable LLM labeling of clusters.
+7. Decide when to consult the QUDT community, ideally before drafting Turtle
+   for tiers 2 and 3.

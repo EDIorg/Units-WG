@@ -1,0 +1,64 @@
+dimension_vector,uses,datasets,scopes,units,top_units,top_qudt_qks
+A0E0L0I0M0H0T0D1,105841,7630,36,45,"UNITLESS (34375), NUM (28741), PERCENT (22036), DEG (8097), M3-PER-M3 (1516)","DimensionlessRatio, MoleFraction, Transmittance, MassFraction"
+A0E0L1I0M0H0T0D0,24532,5274,35,18,"M (11685), CentiM (6487), MilliM (4831), FT (439), MicroM (409)","Length, ElevationRelativeToNAP, VolumePerArea, AreaPerLength"
+A0E0L0I0M0H1T0D0,20678,2821,35,3,"DEG_C (20231), DEG_F (225), K (222)","BoilingPoint, Temperature, FlashPoint, MeltingPoint"
+A0E0L-3I0M1H0T0D0,10624,1877,33,18,"MilliGM-PER-L (5370), MicroGM-PER-L (2388), KiloGM-PER-M3 (1688), GM-PER-CentiM3 (337), MilliGM-PER-M3 (217)","Density, MassDensity, MassConcentration, EquivalentDensity"
+A0E0L0I0M0H0T1D0,9743,2370,33,9,"YR (3722), DAY (2286), HR (1369), MO (1319), MIN (519)","Time, HalfLife, MeanLifetime, BiodegredationHalfLife"
+A0E0L1I0M0H0T-1D0,7153,851,32,22,"M-PER-SEC (5906), MilliM-PER-DAY (301), CentiM-PER-SEC (183), M-PER-DAY (170), KN (141)","LinearVelocity, Velocity, Speed, ElectromagneticWavePhaseSpeed"
+A0E0L-2I0M1H0T0D0,6796,779,28,18,"GM-PER-M2 (5037), KiloGM-PER-HA (818), MilliGM-PER-M2 (292), TONNE-PER-HA (158), KiloGM-PER-M2 (122)","MassPerArea, MeanMassRange, BodyMassIndex, SurfaceDensity"
+A0E0L0I0M1H0T0D0,5440,1330,29,13,"GM (4161), MilliGM (601), KiloGM (275), MicroGM (215), TON_US (96)","Mass, MassEquivalent, ToxicEquivalent, CO2Equivalent"
+A0E2L-3I0M-1H0T3D0,4269,1065,28,6,"S-PER-M (1457), MicroS-PER-CentiM (1160), DeciS-PER-M (1023), MilliS-PER-CentiM (612), S-PER-CentiM (12)","ElectricConductivity, ElectrolyticConductivity"
+A0E0L-2I0M1H0T-1D0,3849,420,28,13,"GM-PER-M2-DAY (2589), GM-PER-M2-YR (605), MilliGM-PER-M2-DAY (137), KiloGM-PER-HA-YR (124), MilliGM-PER-M2-HR (111)",MassPerAreaTime
+A0E0L2I0M0H0T0D0,3840,969,33,10,"HA (1744), M2 (904), CentiM2 (479), KiloM2 (309), AC (176)","Area, HydraulicPermeability, NuclearQuadrupoleMoment"
+A0E0L-1I0M1H0T-2D0,3721,883,30,13,"DeciBAR (1397), KiloPA (1097), MilliBAR (390), PA (300), MegaPA (205)","ForcePerArea, VapourPressure, ModulusOfElasticity, EquilibriumConstantBasedOnPressure"
+A0E0L0I0M1H0T-3D0,3309,425,27,4,"W-PER-M2 (3148), KiloW-PER-M2 (77), MegaJ-PER-M2-DAY (55), J-PER-CentiM2-DAY (29)","PowerPerArea, PoyntingVector, Irradiance, Radiosity"
+A1E0L-2I0M0H0T-1D0,3129,597,27,10,"MicroMOL-PER-M2-SEC (2359), MilliMOL-PER-M2-SEC (392), MilliMOL-PER-M2-DAY (150), MOL-PER-M2-SEC (60), MOL-PER-M2-DAY (55)","PhotosyntheticPhotonFluxDensity, MolarFluxDensity"
+A1E0L-3I0M0H0T0D0,2426,449,24,6,"MicroMOL-PER-L (2048), MilliMOL-PER-M3 (219), MilliMOL-PER-L (97), NanoMOL-PER-L (36), MOL-PER-M3 (14)","Concentration, WaterSolubility, BloodGlucoseLevel, EquilibriumConstantBasedOnConcentration"
+A0E0L-1I0M0H0T0D0,2063,137,17,8,"PER-M (1863), M-PER-HA (71), PER-ANGSTROM (33), M-PER-M2 (29), MilliM-PER-M2 (21)","InverseLength, FundamentalReciprocalLatticeVector, AttenuationCoefficient, CurvatureFromRadius"
+A0E0L3I0M0H0T-1D0,1967,365,26,15,"M3-PER-SEC (1460), L-PER-SEC (284), FT3-PER-SEC (141), M3-PER-DAY (31), M3-PER-HR (12)","VolumePerTime, RecombinationCoefficient, VolumeFlowRate"
+A0E0L-2I0M0H0T0D0,1922,278,25,4,"NUM-PER-M2 (1581), NUM-PER-HA (318), NUM-PER-KiloM2 (17), PER-M2 (6)","ParticleFluence, InverseArea"
+A0E-1L2I0M1H0T-3D0,1431,448,27,3,"V (1193), MilliV (186), MicroV (52)","EnergyPerElectricCharge, Voltage, VoltagePhasor, ElectricPotential"
+A0E0L-3I0M0H0T0D0,1275,128,17,4,"NUM-PER-M3 (526), NUM-PER-MilliL (504), NUM-PER-L (237), NUM-PER-MicroL (8)",NumberDensity
+A0E0L3I0M0H0T0D0,1095,457,30,11,"MilliL (456), M3 (331), CentiM3 (119), L (103), MicroM3 (39)","Volume, SectionModulus, LiquidVolume, DryVolume"
+A1E0L0I0M-1H0T0D0,975,121,17,7,"NanoMOL-PER-GM (344), MicroMOL-PER-KiloGM (270), MicroMOL-PER-GM (196), CentiMOL-PER-KiloGM (94), MilliMOL-PER-KiloGM (39)","AmountOfSubstancePerMass, IonicStrength, MolalityOfSolute, ReactiveChargePerMass"
+A0E2L-2I0M-1H0T3D0,676,61,11,3,"MicroS (658), S (11), MilliS (7)","Conductance, Admittance, ElectricalConductance, ReciprocalElectricResistance"
+A0E0L0I0M0H0T-1D0,516,145,24,16,"MicroGM-PER-GM-DAY (158), MicroGM-PER-GM-HR (114), PER-DAY (88), MilliGM-PER-KiloGM-DAY (55), PERCENT-PER-DAY (30)","MassSpecificBiogeochemicalRate, Frequency, DecayConstant, CountRate"
+A0E0L0I0M1H0T-1D0,469,36,12,13,"GM-PER-DAY (265), GM-PER-YR (102), KiloGM-PER-YR (34), TONNE-PER-YR (29), MilliGM-PER-DAY (9)","MassFlowRate, ToxicEquivalentFlowRate, MassPerTime"
+A1E0L0I0M-1H0T-1D0,307,63,13,5,"MicroMOL-PER-GM-HR (154), NanoMOL-PER-GM-HR (113), NanoMOL-PER-GM-SEC (20), NanoMOL-PER-MicroGM-HR (15), MicroMOL-PER-GM-SEC (5)",BiogeochemicalRate
+A1E0L-2I0M0H0T0D0,233,149,13,3,"MilliMOL-PER-M2 (124), MicroMOL-PER-M2 (84), MOL-PER-M2 (25)",Unknown
+A0E0L-3I0M1H0T-1D0,207,71,9,4,"MilliGM-PER-M3-DAY (138), MicroGM-PER-L-DAY (53), MilliGM-PER-M3-HR (15), MicroGM-PER-L-HR (1)","Unknown, MassConcentrationRateOfChange"
+A0E-1L1I0M1H0T-2D0,182,18,4,1,N-PER-A (182),MagneticFluxPerLength
+A1E0L0I0M0H0T0D0,105,39,10,4,"MOL (48), MicroMOL (32), NanoMOL (14), MilliMOL (11)","AmountOfSubstance, ExtentOfReaction"
+A0E0L2I0M-1H0T0D0,101,51,16,3,"CentiM2-PER-GM (60), M2-PER-GM (26), M2-PER-KiloGM (15)","MassAttenuationCoefficient, SpecificSurfaceArea"
+A0E0L3I0M-1H0T0D0,97,41,5,3,"M3-PER-KiloGM (84), MilliL-PER-GM (12), CentiM3-PER-GM (1)","SpecificVolume, SoilAdsorptionCoefficient"
+A0E0L2I0M0H0T-2D0,96,38,5,3,"M2-PER-SEC2 (91), J-PER-GM (3), J-PER-KiloGM (2)","SpecificModulus, SpecificEnergy"
+A0E0L0I0M1H0T-2D0,85,44,13,5,"MegaJ-PER-M2 (37), J-PER-CentiM2 (27), LANGLEY (10), J-PER-M2 (9), W-HR-PER-M2 (2)","EnergyPerArea, StrainEnergyReleaseRate, EnergyFluence, RadiantFluence"
+A0E0L0I0M-1H0T0D0,70,16,11,2,"NUM-PER-GM (44), NUM-PER-KiloGM (26)",Unknown
+A0E0L2I0M0H0T-1D0,61,29,8,3,"M2-PER-SEC (57), M2-PER-HR (3), CentiM2-PER-SEC (1)","AreaPerTime, DiffusionCoefficient, ThermalDiffusivity, Circulation"
+A1E0L-3I0M0H0T-1D0,54,32,9,5,"PicoMOL-PER-L-HR (26), MicroMOL-PER-L-HR (15), NanoMOL-PER-L-DAY (6), NanoMOL-PER-L-HR (4), MilliMOL-PER-M3-DAY (3)",CatalyticActivityConcentration
+A0E0L2I0M1H0T-2D0,53,9,7,6,"EV (23), KiloJ (11), KiloW-HR (10), BTU_IT (4), J (3)","Energy, HamiltonFunction, LagrangeFunction, ElectricEnergy"
+A0E0L-2I1M0H0T0D0,44,23,8,1,LUX (44),LuminousFluxPerArea
+A0E0L2I0M1H0T-3D0,40,8,5,6,"MicroW (14), J-PER-DAY (12), MilliW (8), W (4), KiloJ-PER-DAY (1)","Power, ElectricPower"
+A0E-2L2I0M1H0T-2D0,39,8,1,1,H (39),Inductance
+A0E0L-3I0M0H0T-1D0,31,5,4,1,BQ-PER-L (31),ActivityConcentration
+A0E0L-1I0M1H-1T-2D0,29,29,1,1,J-PER-M3-K (29),VolumetricHeatCapacity
+A0E0L1I0M1H0T-3D0,26,4,1,1,W-PER-M (26),"LinearPower, LineicPower"
+A0E0L1I0M0H0T-2D0,24,5,3,2,"CentiM-PER-SEC2 (17), M-PER-SEC2 (7)","LinearAcceleration, Acceleration"
+A0E1L0I0M0H0T0D0,20,18,4,2,"KiloA (14), A (6)","ElectricCurrent, ElectricCurrentPhasor, CurrentLinkage, MagneticTension"
+A0E-2L2I0M1H0T-3D0,13,2,2,2,"OHM (12), MicroOHM (1)","Resistance, Impedance, Reactance"
+A1E0L0I0M0H0T-1D0,10,8,4,1,MicroMOL-PER-SEC (10),PhotosyntheticPhotonFlux
+NotApplicable,9,6,3,1,UNKNOWN (9),Unknown
+A0E0L-1I0M1H0T-3D0,8,2,2,1,W-PER-M2-NanoM (8),"SpectralEmittance, SpectralIrradiance"
+A-1E0L2I0M1H0T-2D0,7,3,3,2,"KiloJ-PER-MOL (6), J-PER-MOL (1)","MolarEnergy, ChemicalAffinity, ElectricPolarizability"
+A0E0L-2I0M0H0T-1D0,7,5,4,3,"NUM-PER-M2-DAY (3), BQ-PER-M2 (2), NUM-PER-HA-YR (2)","ParticleFluenceRate, SurfaceActivityDensity"
+A0E0L-1I0M1H0T0D0,7,5,4,2,"GM-PER-M (5), GM-PER-MilliM (2)","MassPerLength, LineicMass"
+A0E0L1I0M0H1T-1D0,7,1,1,1,K-M-PER-SEC (7),Unknown
+A0E-2L3I0M1H0T-3D0,6,2,2,1,OHM-M (6),"ResidualResistivity, Resistivity"
+A-1E0L0I0M1H0T0D0,6,5,3,2,"GM-PER-MOL (3), KiloGM-PER-MOL (3)",MolarMass
+A0E0L2I0M0H-1T-2D0,3,3,2,1,J-PER-KiloGM-K (3),"SpecificHeatCapacity, SpecificEntropy"
+A-1E0L3I0M0H0T0D0,3,3,2,1,M3-PER-MOL (3),"MolarVolume, MolarRefractivity"
+A0E1L0I0M0H0T1D0,3,2,1,2,"F (2), C (1)",ElectricCharge
+A0E0L0I1M0H0T0D0,2,1,1,1,CD (2),LuminousIntensity
+A0E0L-1I0M0H1T0D0,2,2,1,1,DEG_C-PER-M (2),TemperatureGradient
+A0E0L0I0M0H2T0D0,1,1,1,1,DEG_C2 (1),TemperatureVariance
+A0E0L0I0M0H1T-1D0,1,1,1,1,DEG_C-PER-YR (1),TemperaturePerTime

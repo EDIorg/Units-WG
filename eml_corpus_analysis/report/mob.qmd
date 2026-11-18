@@ -1,0 +1,68 @@
+---
+title: "MOB candidate evidence"
+---
+
+```{r setup}
+source("_common.R")
+mob <- targets::tar_read(mob_evidence, store = store)
+```
+
+The 2026-09-07 MOB run (`AI_create_ttl/runs/2026-09-07-mob-units-gpt`)
+withheld candidates whose measurement semantics could not be determined from
+the unit expression alone. This page retrieves corpus usage for every
+candidate. Candidates are bridged to EML units through the `RCode_JP`
+pseudo-qname and through the spelling-insensitive match key.
+
+```{r counts}
+status_counts <- mob$summary |>
+  dplyr::summarise(
+    candidates = dplyr::n(),
+    with_corpus_usage = sum(datasets > 0),
+    .by = status
+  )
+knitr::kable(status_counts)
+```
+
+## All candidates
+
+```{r summary}
+interactive_table(
+  mob$summary |>
+    dplyr::select(
+      record_id, unit_expression, status, quantity_kind, bridge, eml_unit_names,
+      uses, datasets, scopes, top_terms
+    ),
+  "mob_evidence",
+  columns = list(eml_unit_names = wide(240), top_terms = wide(320))
+)
+```
+
+## Example definitions for withheld candidates
+
+Up to five distinct attribute definitions per withheld candidate.
+
+```{r examples}
+interactive_table(
+  mob$examples, "mob_examples",
+  columns = list(definition = wide(420))
+)
+```
+
+## Draft answers to review questions
+
+These are **draft interpretations** from the first-pass corpus review, for
+the team to confirm. Verify them against the examples above.
+
+| Question | Corpus evidence | Draft answer |
+|---|---|---|
+| `MO` (month) convention | GEP/ER "modeled over one month"; monthly N mineralization | A calendar or incubation month, not a fixed duration. Keep blocked, or model as per-month totals without an SI conversion. |
+| `NUM` in `GM-PER-NUM`, `MilliM-PER-NUM` | Mass per leaf, petiole, or stipule; shoot length per individual | NUM counts organisms or organs. Candidate concept: mass or length per individual or organ. |
+| `NUM-PER-L-MIN` | Decays per minute per liter (Th-234, ³H-leucine) | Radioactivity concentration (dpm/L), commensurate with Bq/L × 60. |
+| `NUM-PER-GM-MIN` | Excess ²¹⁰Pb in soil | Specific activity (dpm/g). |
+| `NUM-PER-KiloM` | Species abundance per survey km; drainage density | Polysemous: linear abundance vs. drainage density. |
+| PPM per time | CO₂/CH₄ closed-chamber slopes | Mole-fraction rate of change; not a flux until chamber volume and area are applied. |
+| Mass-normalized rates (`NanoGM-PER-GM-HR`, `MicroMOL-PER-HR-MilliGM`) | Denitrification potential, enzyme activity, respiration per g dry weight | Specific rates. The element basis (as N, C, O₂) and dry-mass basis belong in context, not in the unit. |
+| `MilliMOL-PER-MOL-SEC` | Photosynthetic N/P use efficiency | Molar-normalized rate with distinct numerator and denominator substances. |
+
+Candidates with no corpus usage may come from sources outside this snapshot
+or from pseudo-unit tables. They need separate follow-up.

@@ -1,0 +1,90 @@
+---
+title: "Unit explorer"
+---
+
+```{r setup}
+source("_common.R")
+unit_summary <- targets::tar_read(unit_summary, store = store)
+family_summary <- targets::tar_read(family_summary, store = store)
+polysemy <- targets::tar_read(polysemy, store = store)
+```
+
+Units are grouped by **unit group**: the mapped QUDT unit when one exists,
+otherwise a spelling-insensitive match key (so `gramsPerSquareMeter` and
+`gramPerMeterSquared` count together). See `r doc_link("methods.md", "methods")`.
+
+## Unit landscape
+
+Use the filters to narrow by dimension vector, mapping source, or usage.
+
+```{r unit-explorer}
+shared <- crosstalk::SharedData$new(
+  unit_summary |>
+    dplyr::mutate(dimension_vector = dplyr::coalesce(dimension_vector, "unmapped")) |>
+    dplyr::select(
+      unit_group, top_names, uses, datasets, scopes, variants, kind,
+      qudt_unit, mapping_source, dimension_vector, distinct_definitions
+    )
+)
+filtered_table(
+  list(
+    crosstalk::filter_select("dv", "Dimension vector", shared, ~dimension_vector),
+    crosstalk::filter_select("src", "Mapping source", shared, ~mapping_source),
+    crosstalk::filter_slider("ds", "Datasets", shared, ~datasets, ticks = FALSE)
+  ),
+  reactable::reactable(
+    shared,
+    searchable = TRUE, compact = TRUE, striped = TRUE, resizable = TRUE,
+    defaultPageSize = 15, showPageSizeOptions = TRUE,
+    columns = list(top_names = wide(260))
+  )
+)
+```
+
+Full table: [`unit_summary.csv`](`r derived_url`/unit_summary.csv).
+
+## Dimension-vector families
+
+A **family** is the set of units that share a QUDT DimensionVector. A QK can
+only unify units within one family. `top_qudt_qks` shows the QUDT QKs
+already attached to the family's units, weighted by corpus uses.
+
+```{r families}
+interactive_table(
+  family_summary,
+  "family_summary",
+  columns = list(top_units = wide(300), top_qudt_qks = wide(300))
+)
+```
+
+## Polysemy: one unit, many measured concepts
+
+For each unit group used in at least the configured minimum number of
+datasets, `concepts` counts seed concepts matched in two or more datasets.
+`polysemy_index` is the normalized entropy of those matches: 0 means a
+single concept, 1 means evenly spread. `share_matched` is the share of
+attributes that matched any seed. A low share means the seeds miss much of
+the unit's usage, so `top_terms` should be read alongside.
+
+```{r polysemy-plot}
+plot_data <- dplyr::filter(polysemy, concepts > 0)
+plotly::plot_ly(
+  plot_data,
+  x = ~datasets, y = ~polysemy_index, size = ~concepts, text = ~ paste0(
+    unit_group, "<br>", top_concepts
+  ),
+  type = "scatter", mode = "markers", hoverinfo = "text"
+) |>
+  plotly::layout(
+    xaxis = list(title = "Datasets", type = "log"),
+    yaxis = list(title = "Polysemy index")
+  )
+```
+
+```{r polysemy-table}
+interactive_table(
+  polysemy |> dplyr::mutate(dplyr::across(c(share_matched, polysemy_index), \(x) round(x, 3))),
+  "polysemy",
+  columns = list(top_terms = wide(320), top_concepts = wide(320))
+)
+```
